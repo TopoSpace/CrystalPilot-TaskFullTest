@@ -1,0 +1,44 @@
+{
+  "run_id": "r07_P1_nu1000",
+  "case_id": "nu1000",
+  "condition": "P1",
+  "replicate": 1,
+  "model_id": "gpt-6-astra",
+  "reasoning_effort": "gateway default (unverified)",
+  "provider_id": "crystalpilot",
+  "kernel_version": "claude 2.1.261",
+  "knowledge_mode": null,
+  "bare_baseline": false,
+  "message_variant": "standard",
+  "limit_seconds": 10800,
+  "prompt_sha256": "1e92cd5b966b21ff52b4385aefcab77b9bab7ebcd442c6ce77a042581030c99e",
+  "inputs_manifest": {
+    "start.hkl": {
+      "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "size": 9796664
+    },
+    "start.ins": {
+      "sha256": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+      "size": 639
+    },
+    "synthesis.png": {
+      "sha256": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f",
+      "size": 90192
+    }
+  },
+  "arena": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r07_P1_nu1000",
+  "prepared_at": "2026-09-21T23:28:31+0800",
+  "concurrent_with": null,
+  "plan_file": "plan.json",
+  "extra": null,
+  "exit_reason": "completed",
+  "started_science_at": "2026-09-21T23:28:32+0800",
+  "ended_at": "2026-09-22T00:13:55+0800",
+  "warmup_seconds": 0,
+  "science_seconds": 2719.4,
+  "interventions_auto": 0,
+  "human_scientific_interventions": 0,
+  "inputs_tampered": [],
+  "thread_or_session": "f6b6bb51-3acf-49c9-8983-afd4611cbc57",
+  "protocol_validity": "valid"
+}

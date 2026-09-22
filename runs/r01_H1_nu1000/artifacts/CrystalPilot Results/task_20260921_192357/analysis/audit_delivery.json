@@ -1,0 +1,265 @@
+﻿{
+  "scope": "Read-only analysis of final.cif/fcf/hkl; no model changed",
+  "cell": [
+    39.19,
+    39.19,
+    16.61,
+    90.0,
+    90.0,
+    120.0
+  ],
+  "raw_observations": 337815,
+  "observations_d_ge_1_A": 158334,
+  "negative_intensities_d_ge_1_A": 52661,
+  "fcf_rows": 4395,
+  "missing_reflection_audit": [
+    {
+      "checkcif_hkl": [
+        -4,
+        34,
+        3
+      ],
+      "canonical_hkl": [
+        30,
+        4,
+        3
+      ],
+      "d_A": 1.0358322289038084,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    },
+    {
+      "checkcif_hkl": [
+        -1,
+        26,
+        7
+      ],
+      "canonical_hkl": [
+        25,
+        1,
+        7
+      ],
+      "d_A": 1.1603124010003882,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    },
+    {
+      "checkcif_hkl": [
+        0,
+        1,
+        0
+      ],
+      "canonical_hkl": [
+        1,
+        0,
+        0
+      ],
+      "d_A": 33.93953557431214,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    },
+    {
+      "checkcif_hkl": [
+        -1,
+        2,
+        0
+      ],
+      "canonical_hkl": [
+        1,
+        1,
+        0
+      ],
+      "d_A": 19.595000000000002,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    },
+    {
+      "checkcif_hkl": [
+        0,
+        2,
+        0
+      ],
+      "canonical_hkl": [
+        2,
+        0,
+        0
+      ],
+      "d_A": 16.96976778715607,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    },
+    {
+      "checkcif_hkl": [
+        0,
+        0,
+        1
+      ],
+      "canonical_hkl": [
+        0,
+        0,
+        1
+      ],
+      "d_A": 16.609999999999996,
+      "raw_symmetry_equivalent_observations": 0,
+      "in_fcf": false
+    }
+  ],
+  "atom_table": [
+    {
+      "label": "Zr1",
+      "element": "Zr",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.0758
+    },
+    {
+      "label": "Zr2",
+      "element": "Zr",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.083
+    },
+    {
+      "label": "O1",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.0905
+    },
+    {
+      "label": "O2",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.1114
+    },
+    {
+      "label": "O3",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.122
+    },
+    {
+      "label": "O4",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.134
+    },
+    {
+      "label": "O5",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.154
+    },
+    {
+      "label": "O6",
+      "element": "O",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.118
+    },
+    {
+      "label": "C1",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.093
+    },
+    {
+      "label": "C2",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.132
+    },
+    {
+      "label": "C3",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.12
+    },
+    {
+      "label": "H3",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.144
+    },
+    {
+      "label": "C4",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.113
+    },
+    {
+      "label": "C5",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.133
+    },
+    {
+      "label": "H5",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.159
+    },
+    {
+      "label": "C6",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.127
+    },
+    {
+      "label": "C7",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.142
+    },
+    {
+      "label": "H7",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.17
+    },
+    {
+      "label": "C8",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.141
+    },
+    {
+      "label": "H8",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.169
+    },
+    {
+      "label": "C9",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.14
+    },
+    {
+      "label": "C10",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.138
+    },
+    {
+      "label": "C11",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.152
+    },
+    {
+      "label": "H11",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.183
+    },
+    {
+      "label": "C12",
+      "element": "C",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.166
+    },
+    {
+      "label": "H12",
+      "element": "H",
+      "occupancy": 1.0,
+      "Ueq_A2": 0.2
+    }
+  ]
+}

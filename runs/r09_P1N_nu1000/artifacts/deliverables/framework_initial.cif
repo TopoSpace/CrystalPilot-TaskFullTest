@@ -1,0 +1,94 @@
+data_NU1000_framework
+
+_audit_creation_method 'Independent Python/numpy/scipy implementation'
+_audit_creation_date 2026-09-22
+_audit_block_doi ?
+_chemical_name_common NU-1000
+_chemical_formula_sum ?
+_chemical_formula_weight ?
+_cell_formula_units_Z ?
+_cell_length_a 39.1900
+_cell_length_b 39.1900
+_cell_length_c 16.6100
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 22092.8015
+_space_group_name_H-M_alt 'P 6/m m m'
+_space_group_name_Hall '-P 6 2'
+_space_group_IT_number 191
+_diffrn_radiation_wavelength 0.68883
+_diffrn_radiation_type x-ray
+_diffrn_ambient_temperature ?
+_diffrn_radiation_source ?
+_exptl_crystal_description ?
+_exptl_crystal_colour ?
+_exptl_crystal_size_max ?
+_exptl_crystal_size_mid ?
+_exptl_crystal_size_min ?
+_refine_special_details
+;
+Framework-only checkpoint. No solvent/guest atoms. Hydrogen positions not assigned. Do not treat as publication-validated.
+The space group is supported by the input symmetry and strong-reflection equivalence.
+The cell and wavelength are copied from start.ins; cell uncertainties and collection temperature are unknown.
+Unit-cell atom inventory: Zr 18, O 96, C 264
+The formula, formula weight and Z are left unknown because node protonation and pore content are not determined.
+;
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 '-x+y,-x,-z'
+3 '-x+y,-x,z'
+4 '-x+y,y,-z'
+5 '-x+y,y,z'
+6 '-x,-x+y,-z'
+7 '-x,-x+y,z'
+8 '-x,-y,-z'
+9 '-x,-y,z'
+10 '-y,-x,-z'
+11 '-y,-x,z'
+12 '-y,x-y,-z'
+13 '-y,x-y,z'
+14 'x,x-y,-z'
+15 'x,x-y,z'
+16 'x,y,-z'
+17 'x-y,-y,-z'
+18 'x-y,-y,z'
+19 'x-y,x,-z'
+20 'x-y,x,z'
+21 'y,-x+y,-z'
+22 'y,-x+y,z'
+23 'y,x,-z'
+24 'y,x,z'
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Zr1 Zr 0.54477010 0.00000000 0.10609344 0.078564 Uiso 1.000000 12
+Zr2 Zr 0.53596669 0.07193337 0.00000000 0.068865 Uiso 1.000000 6
+O1 O 0.46345951 0.00000000 0.24046610 0.060761 Uiso 1.000000 12
+O2 O 0.51830367 0.03660733 0.10809465 0.071043 Uiso 1.000000 12
+O3 O 0.47303789 0.03582140 0.00000000 0.063249 Uiso 1.000000 12
+O4 O 0.51860176 0.10509930 0.08417021 0.037337 Uiso 1.000000 24
+O5 O 0.39755054 0.00000000 0.08300365 0.081479 Uiso 1.000000 12
+O6 O 0.46668397 0.06007299 0.15177298 0.059320 Uiso 1.000000 24
+C1 C 0.49369028 0.24684514 0.45846414 0.061118 Uiso 1.000000 12
+C2 C 0.46237765 0.14223262 0.29467390 0.105398 Uiso 1.000000 24
+C3 C 0.52545950 0.19459777 0.22225678 0.077440 Uiso 1.000000 24
+C4 C 0.45978459 0.11064218 0.24015444 0.076550 Uiso 1.000000 24
+C5 C 0.49402120 0.21655967 0.33316266 0.079934 Uiso 1.000000 24
+C6 C 0.49556535 0.18489557 0.28183053 0.081702 Uiso 1.000000 24
+C7 C 0.49561320 0.18416885 0.46087085 0.090325 Uiso 1.000000 24
+C8 C 0.52456326 0.16492908 0.17194420 0.060236 Uiso 1.000000 24
+C9 C 0.49342090 0.21794065 0.42133654 0.087437 Uiso 1.000000 24
+C10 C 0.49315918 0.12458998 0.18442700 0.066610 Uiso 1.000000 24
+C11 C 0.49801510 0.24900755 0.28845381 0.074693 Uiso 1.000000 12
+C12 C 0.49255310 0.09418590 0.13339780 0.048278 Uiso 1.000000 24

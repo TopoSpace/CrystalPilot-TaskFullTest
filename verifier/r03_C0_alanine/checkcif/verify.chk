@@ -1,0 +1,182 @@
+#===============================================================================
+# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: alanine
+# Data: verify.cif - Type: CIF19                 Bond Precision   C-C = 0.0025 A
+# Refl: verify.fcf - Type: LIST4                                    Temp = 150 K
+# Audit:SHELXL-2019/3
+# Refin:SHELXL-2019/3
+# X-ray MoKa              R(int) = 0.037,  wR2/R(int) =  2.0,  Nref/Npar =   7.4
+# Cell   5.7928(4)   5.9642(6) 12.2907(12)           90           90          90
+# Wavelength 0.71073  Volume Reported       424.64(7) Calculated       424.64(7)
+# SpaceGroup from Symmetry P 21 21 21   Hall: P 2ac 2ab             orthorhombic
+#                 Reported P 21 21 21         P 2ac 2ab             orthorhombic
+# MoietyFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+#    SumFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+# Mr        =     89.10[Calc],     89.10[Rep]       Volume/NonHatoms = 18 Ang**3
+# Dx,gcm-3  =     1.394[Calc],     1.394[Rep]
+# Z         =         4[Calc],         4[Rep]
+# Mu (mm-1) =     0.116[Calc],     0.116[Rep]  Xtal Size =  0.000x0.000x0.000 mm
+# F000      =     192.0[Calc],     192.0[Rep]  or F000' =    192.11[Calc]
+# Measured   HKL: Reported   3842, Embedded   3882, <Mult>  6.3
+# Reported   Hmax=  7, Kmax=  7, Lmax= 16, Nref=    984        , Th(max)= 27.841
+# Obs in FCF Hmax=  7, Kmax=  7, Lmax= 16, Nref=    984[   612], Th(max)= 27.841
+# Expected   Hmax=  7, Kmax=  7, Lmax= 16, Nref=   1007[   616], Ratio=1.60/0.98
+# Reported   Rho(min) = -0.21, Rho(max) = 0.16 e/Ang**3 (From CIF)
+# Calculated Rho(min) = -0.21, Rho(max) = 0.16 e/Ang**3 (From CIF+FCF data)
+# w=1/[\s^2^(Fo^2^)+(0.0337P)^2^+0.0755P], P=(Fo^2^+2Fc^2^)/3
+# R= 0.0304(   918), wR2= 0.0727(   984), S = 1.075     (From CIF+FCF data)
+# R= 0.0304(   918), wR2= 0.0727(   984), S = 1.075     (From FCF data only)
+# R= 0.0304(   918), wR2= 0.0727(   984), S = 1.075, Npar=   83, Flack    0.2(9)
+# Number Bijvoet Pairs =  372 ( 95%),       335 Selected for:  Parsons    0.3(8)
+# P2(tr) 0.613, P3(tr) 0.378, P3(tw) 0.383, Student-T Nu = 100,  Hooft    0.3(7)
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !
+#===============================================================================
+053_ALERT_1_C Minimum Crystal Dimension Missing (or Error) ...     Please Check
+054_ALERT_1_C Medium  Crystal Dimension Missing (or Error) ...     Please Check
+055_ALERT_1_C Maximum Crystal Dimension Missing (or Error) ...     Please Check
+089_ALERT_3_C Poor Data / Parameter Ratio (Zmax < 18) ........       7.37 Note
+#===============================================================================
+032_ALERT_4_G Std. Uncertainty on Flack Parameter Value High .      0.900 Report
+480_ALERT_4_G Long H...A H-Bond Reported H1C      ..O2       .       2.63 Ang.
+760_ALERT_1_G CIF Contains no Torsion Angles .................          ? Info
+912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600          5 Note
+916_ALERT_2_G Hooft y and Flack x Parameter Values Differ by .       0.10 Check
+969_ALERT_5_G The 'Henn et al.' R-Factor-gap value ...........       2.39 Note
+              Predicted wR2: Based on SigI**2  3.04 or SHELX Weight  7.07
+978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          2 Info
+#===============================================================================
+#                                                                              *
+#===============================================================================
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  1 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  4 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+  7 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+  5 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+  2 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+  1 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+  3 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  1 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+   4 Missing  Experimental  Info Issue(s) (Out of  65 Tests) -   94 % Satisfied
+   0 Experimental  Data  Related Issue(s) (Out of  35 Tests) -  100 % Satisfied
+   2 Structural  Model   Related Issue(s) (Out of 144 Tests) -   99 % Satisfied
+   5 Unresolved or to be Checked Issue(s) (Out of 280 Tests) -   98 % Satisfied
+
+#                                                                              *
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_032 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Check the validity of the absolute structure determination.
+ A high s.u. indicates that the experimental data do not support the
+ determination of the absolute structure. This will generally be the case
+ with light atom MoKa data where f" is nearly zero.
+ Note: Use the TWIN & BASF 0.0 instructions in SHELXL97. The default
+ FLACK parameter is not always reliable, in particular when strongly
+ correlated with the position of the origin (e.g. along y in space-group P21).
+ Please refer to Flack,H.D. & Bernardinelli, G. (1999) Acta Cryst. A55,
+ 908-915 and (2000) J. Appl. Cryst., 33, 1143-1148.
+
+================================================================================
+ALERT_053 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The smallest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_054 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The medium crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_055 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The largest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_089 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ The data/parameter ratio should in general be higher than 7 for a quality
+ determination of a structure containing atoms with Z less than 18. This
+ ratio can be improved by not refining C-H parameters other than riding on
+ their carrier atom.
+ Note: The number of reflections used in this ratio is the number obtained
+ by Laue group averaging.
+
+================================================================================
+ALERT_480 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Check this (unrealistically) long reported H..A contact.
+ Jeffrey criterium: Contact  <   vdWR(H) + vdWR(A) - 0.12 Angstrom.
+
+================================================================================
+ALERT_699 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Examples of expected values are 'block', 'needle', 'plate', 'sphere',
+ 'cylinder'. In case of 'cylinder' or 'sphere' also provide a value for
+ '_exptl_size_rad'.
+
+================================================================================
+ALERT_760 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no torsion angle entries. This might be accomplished with
+ the SHELXL instruction CONF.
+ Inclusion is encouraged by Acta Cryst. but not necessarily so by other
+ journals.
+
+================================================================================
+ALERT_912 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Possible causes: Missing cusp of data (due to rotation about one axis),
+ deleted (overflow) reflections or improper strategy (orthorhombic for
+ monoclinic crystal etc.) See the .ckf file for details.
+
+================================================================================
+ALERT_916 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The Hooft y Parameter is calculated independently from the Bijvoet
+ differences and should have a value similar (observing the s.u.'s) to that of
+ the Flack x Parameter. See:
+ Hooft, R.W.W, Straver, L.H. & Spek,A.L. (2008). J. Appl, Cryst. 41, 96-103.
+ Thompson,A.L. & Watkin, D.J. (2009). Tetrahedron: Asymmetry,
+   doi:10.1016/j.tetasy.2009.02.025
+
+ Large differences may arise in cases where the Flack parameter was not
+ done with BASF/TWIN or with essentially centrosymmetric data.
+ See:
+ Flack, H.D., Bernardinelli, G, Clemente, D.A., Linden, A. Spek, A.L. (2006)
+ Acta Cryst. B62, 695-701.
+
+================================================================================
+ALERT_969 Type_5 Informative Message, Check.
+================================================================================
+ Report on predicted wR2, based on counting statistics, or SHELXL style
+ weighting as compared to the actual refined wR2.
+ See: J.Henn & A.Schonleber, Acta Cryst. (2013) A69, 549-558.
+
+================================================================================
+ALERT_978 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Difference density maps generally show residual densities on C-C bonds.
+ A significant number of those may indicate good data. Cases where this number
+ is zero should be investigated for a reason. The use of aspherical scattering
+ factors in the refinement model may be one.
+

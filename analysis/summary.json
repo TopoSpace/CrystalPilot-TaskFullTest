@@ -1,0 +1,1501 @@
+{
+ "generated_at": "2026-09-22T09:19:49+0800",
+ "runs": {
+  "r01_H1_nu1000": {
+   "row": {
+    "run_id": "r01_H1_nu1000",
+    "case_id": "nu1000",
+    "condition": "H1",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": "full",
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T11:23:53Z",
+    "end_utc": "2026-09-21T12:11:58Z",
+    "wall_seconds": 2845.1,
+    "agent_active_seconds": 2844.9,
+    "exit_reason": "completed",
+    "r1_reported": 0.0849,
+    "r1_recomputed": 0.0849,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.2526",
+    "goof": "0.912",
+    "n_reflections": "4395",
+    "resolution_angstrom": 1.0,
+    "reflection_set_hash": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "mask_used": true,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 95.0,
+    "tool_calls": 140,
+    "model_requests": null,
+    "input_tokens": 18224999,
+    "output_tokens": 47629,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r01_H1_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+    ],
+    "r1_reported": 0.0849,
+    "r1_recomputed": 0.0849,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 5.0,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 95.0,
+    "unknown_items": 5
+   },
+   "fatal": [
+    "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+   ],
+   "claims": {
+    "R1_claims": [
+     0.0849,
+     0.1796
+    ],
+    "space_group_mentions": [
+     "P6/mmm"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [
+     "**尚未达到发表级**：高Rint、局部无序、节点质子化和缺失实验信息仍待解决",
+     "交付节点n0055，版本3，状态为**diagnostic：可检查、可复算的完整框架候选，尚未达到可直接投稿的发表级**",
+     "交付节点n0055，版本3，状态为**diagnostic：可检查、可复算的完整框架候选，尚未达到可直接投稿的发表级**"
+    ],
+    "chars": 8231
+   },
+   "checkcif_counts": {
+    "A": 9,
+    "B": 1,
+    "C": 20,
+    "G": 17
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "CrystalPilot Results\\task_20260921_192357\\final.cif",
+     ".res": "CrystalPilot Results\\task_20260921_192357\\final.res",
+     ".ins": "CrystalPilot Results\\task_20260921_192357\\final.ins",
+     ".hkl": "CrystalPilot Results\\task_20260921_192357\\final.hkl",
+     ".fcf": "CrystalPilot Results\\task_20260921_192357\\final.fcf",
+     ".fab": "CrystalPilot Results\\task_20260921_192357\\final.fab"
+    }
+   },
+   "final_text_tail": "已保存完整框架平均结构候选：**P6/mmm，R1=0.0849，wR2=0.2526，分辨率1.00 Å**。孔道分子未建模，仅采用已披露的散射掩膜。\n\n**尚未达到发表级**：高Rint、局部无序、节点质子化和缺失实验信息仍待解决。结构文件、复算输入输出及逐条checkCIF说明均已封存。\n\n[结果与未解决问题](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r01_H1_nu1000/CrystalPilot Results/task_20260921_192357/SUMMARY.md>) · [结构 CIF](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r01_H1_nu1000/CrystalPilot Results/task_20260921_192357/final.cif>)"
+  },
+  "r02_H1_alanine": {
+   "row": {
+    "run_id": "r02_H1_alanine",
+    "case_id": "alanine",
+    "condition": "H1",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": "full",
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T12:12:54Z",
+    "end_utc": "2026-09-21T12:42:26Z",
+    "wall_seconds": 1728.1,
+    "agent_active_seconds": 1728.1,
+    "exit_reason": "completed",
+    "r1_reported": 0.0442,
+    "r1_recomputed": 0.0437,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.2001",
+    "goof": "1.222",
+    "n_reflections": "1055",
+    "resolution_angstrom": 0.708,
+    "reflection_set_hash": "cefcd265a8e69695ac660bcad8d428e9b624cb1dde33ff6d3c2da1a9cb5a84d2",
+    "mask_used": false,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0005000000000000004,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 87.5,
+    "tool_calls": 111,
+    "model_requests": null,
+    "input_tokens": 14610384,
+    "output_tokens": 29276,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r02_H1_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "fixed-model R1 differs from reported by 0.0005",
+     "1 substantive level-A checkCIF alerts: PLAT939 Large Value of Not (SHELXL) Weight Optimized "
+    ],
+    "r1_reported": 0.0442,
+    "r1_recomputed": 0.0437,
+    "r1_abs_difference": 0.0005000000000000004,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 2.5,
+      "关键处理链复跑成立": 2.5
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 87.5,
+    "unknown_items": 4
+   },
+   "fatal": [
+    "fixed-model R1 differs from reported by 0.0005",
+    "1 substantive level-A checkCIF alerts: PLAT939 Large Value of Not (SHELXL) Weight Optimized "
+   ],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P212121",
+     "P2₁2₁2₁"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [
+     "**尚未达到发表质量**：发现遮挡观测与强等价反射剔除冲突，绝对构型也未可靠确定",
+     "已从本轮原始帧独立得到完整、收敛的丙氨酸两性离子候选，但**未达到发表质量**",
+     "已从本轮原始帧独立得到完整、收敛的丙氨酸两性离子候选，但**未达到发表质量**"
+    ],
+    "chars": 6049
+   },
+   "checkcif_counts": {
+    "A": 4,
+    "B": 3,
+    "C": 19,
+    "G": 14
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "CrystalPilot Results\\task_20260921_201301\\final.cif",
+     ".res": "CrystalPilot Results\\task_20260921_201301\\final.res",
+     ".ins": "CrystalPilot Results\\task_20260921_201301\\final.ins",
+     ".hkl": "CrystalPilot Results\\task_20260921_201301\\final.hkl",
+     ".fcf": "CrystalPilot Results\\task_20260921_201301\\final.fcf"
+    }
+   },
+   "final_text_tail": "已得到完整丙氨酸候选结构，空间群 P2₁2₁2₁，R1=4.42%，wR2=20.01%。\n\n**尚未达到发表质量**：发现遮挡观测与强等价反射剔除冲突，绝对构型也未可靠确定。结果已按诊断状态封存。\n\n已保存 CIF、RES、INS、HKL、FCF、计算记录及全部 A/B/C 警报说明，详见 [SUMMARY.md](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r02_H1_alanine/CrystalPilot Results/task_20260921_201301/SUMMARY.md>)。"
+  },
+  "r03_C0_alanine": {
+   "row": {
+    "run_id": "r03_C0_alanine",
+    "case_id": "alanine",
+    "condition": "C0",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "candidate_checks_passed",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T12:43:05Z",
+    "end_utc": "2026-09-21T13:25:29Z",
+    "wall_seconds": 2539.8,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.0304,
+    "r1_recomputed": 0.0304,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.0727",
+    "goof": "1.075",
+    "n_reflections": "984",
+    "resolution_angstrom": 0.761,
+    "reflection_set_hash": "03946feeed9765512373dff0dafcee68ef4f930fca5796b65461be6640b37753",
+    "mask_used": false,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "tool_calls": 187,
+    "model_requests": null,
+    "input_tokens": 14283393,
+    "output_tokens": 57426,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r03_C0_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "candidate_checks_passed",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [],
+    "r1_reported": 0.0304,
+    "r1_recomputed": 0.0304,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": null,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": 2.5
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "unknown_items": 5
+   },
+   "fatal": [],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P2₁2₁2₁"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 536
+   },
+   "checkcif_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 4,
+    "G": 7
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\alanine.cif",
+     ".res": "deliverables\\alanine.res",
+     ".ins": "deliverables\\alanine.ins",
+     ".hkl": "deliverables\\alanine.hkl",
+     ".fcf": "deliverables\\alanine.fcf"
+    }
+   },
+   "final_text_tail": "已完成原始数据解析与精修，结果保存在 `deliverables/`。\n\n主模型为 **P2₁2₁2₁**，R1 = **0.0304**，wR2 = **0.0727**；0.76 Å 内 Laue 完整度 **99.2%**。最终精修已独立复算通过。\n\n- [结构 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/alanine.cif)\n- [结果、未解决问题与复现说明](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/README_zh.md)\n- [计算记录](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/calculation_records.zip)\n\n**绝对构型仍无法确定**，部分实验元数据缺失，完整 checkCIF/PLATON 验证未完成。因此精修指标已较好，但尚不能视为已完成发表验证的结构。"
+  },
+  "r04_C0_nu1000": {
+   "row": {
+    "run_id": "r04_C0_nu1000",
+    "case_id": "nu1000",
+    "condition": "C0",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "partial_result",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T13:25:56Z",
+    "end_utc": "2026-09-21T14:13:28Z",
+    "wall_seconds": 2847.7,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.0827,
+    "r1_recomputed": 0.0827,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.2722",
+    "goof": "0.987",
+    "n_reflections": "4395",
+    "resolution_angstrom": 1.0,
+    "reflection_set_hash": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "mask_used": true,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 62.5,
+    "score_upper_bound": 87.5,
+    "tool_calls": 174,
+    "model_requests": null,
+    "input_tokens": 10231274,
+    "output_tokens": 75887,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r04_C0_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "partial_result",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "3 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT609 SQUEEZE or MASK Info missing, given ABIN Reco"
+    ],
+    "r1_reported": 0.0827,
+    "r1_recomputed": 0.0827,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 5.0,
+      "对完成程度与未知内容的声明准确": 2.5
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 2.5
+     }
+    },
+    "score_lower_bound": 62.5,
+    "score_upper_bound": 87.5,
+    "unknown_items": 5
+   },
+   "fatal": [
+    "3 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT609 SQUEEZE or MASK Info missing, given ABIN Reco"
+   ],
+   "claims": {
+    "R1_claims": [
+     0.0827
+    ],
+    "space_group_mentions": [
+     "P6/mmm"
+    ],
+    "mentions_unresolved": false,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 385
+   },
+   "checkcif_counts": {
+    "A": 10,
+    "B": 2,
+    "C": 23,
+    "G": 26
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\nu1000_framework.cif",
+     ".res": "deliverables\\nu1000_framework.res",
+     ".ins": "deliverables\\nu1000_framework.ins",
+     ".hkl": "deliverables\\nu1000_framework.hkl",
+     ".fcf": "deliverables\\nu1000_framework.fcf",
+     ".fab": "deliverables\\nu1000_framework.fab"
+    }
+   },
+   "final_text_tail": "已完成框架解析与精修，文件位于 `deliverables`：\n\n- [框架 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r04_C0_nu1000/deliverables/nu1000_framework.cif)\n- [结果说明与复算方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r04_C0_nu1000/deliverables/README_zh.md)\n\n最终为 **P6/mmm，R1 = 0.0827，wR2 = 0.2722**。结构、计算记录及脚本均已保存，实际复算和输入完整性核验通过。\n\n仍有高 Rint、局部无序及节点质子化未定等问题，不能视为可直接投稿的终稿。孔道客体未作分子指认，仅以独立散射掩膜处理。"
+  },
+  "r05_H0_nu1000": {
+   "row": {
+    "run_id": "r05_H0_nu1000",
+    "case_id": "nu1000",
+    "condition": "H0",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": "tools_only",
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T14:14:07Z",
+    "end_utc": "2026-09-21T15:00:56Z",
+    "wall_seconds": 2791.7,
+    "agent_active_seconds": 2791.7,
+    "exit_reason": "completed",
+    "r1_reported": 0.0853,
+    "r1_recomputed": 0.0853,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.2563",
+    "goof": "0.913",
+    "n_reflections": "4395",
+    "resolution_angstrom": 1.0,
+    "reflection_set_hash": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "mask_used": true,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 95.0,
+    "tool_calls": 93,
+    "model_requests": null,
+    "input_tokens": 13496600,
+    "output_tokens": 33369,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r05_H0_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+    ],
+    "r1_reported": 0.0853,
+    "r1_recomputed": 0.0853,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 5.0,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 95.0,
+    "unknown_items": 5
+   },
+   "fatal": [
+    "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+   ],
+   "claims": {
+    "R1_claims": [
+     0.0853
+    ],
+    "space_group_mentions": [
+     "P6/mmm"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": true,
+    "publication_sentences": [
+     "已完成框架解析与精修并封存，**当前为诊断版，尚未达到临近发表级**",
+     "**状态为 diagnostic：框架已解析并收敛，但尚不能诚实宣称达到近发表级定稿",
+     "本目录的 CIF 使用完整 SHELXL ACTA 格式，不代表通过了发表级科学验证",
+     "**状态为 diagnostic：框架已解析并收敛，但尚不能诚实宣称达到近发表级定稿",
+     "本目录的 CIF 使用完整 SHELXL ACTA 格式，不代表通过了发表级科学验证"
+    ],
+    "chars": 8901
+   },
+   "checkcif_counts": {
+    "A": 9,
+    "B": 1,
+    "C": 23,
+    "G": 22
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "CrystalPilot Results\\task_20260921_221412\\final.cif",
+     ".res": "CrystalPilot Results\\task_20260921_221412\\final.res",
+     ".ins": "CrystalPilot Results\\task_20260921_221412\\final.ins",
+     ".hkl": "CrystalPilot Results\\task_20260921_221412\\final.hkl",
+     ".fcf": "CrystalPilot Results\\task_20260921_221412\\final.fcf",
+     ".fab": "CrystalPilot Results\\task_20260921_221412\\final.fab"
+    }
+   },
+   "final_text_tail": "已完成框架解析与精修并封存，**当前为诊断版，尚未达到临近发表级**。\n\n- 框架模型：P6/mmm，csq 拓扑；未建立孔道溶剂或客体分子。\n- 1.00 Å 截断下：R1 = 0.0853，wR2 = 0.2563。\n- 未解决：数据合并一致性较差、最终孔道掩膜未自洽收敭、节点质子化不确定及实验元数据缺失。\n\nCIF、RES、INS、HKL、FCF、FAB、计算记录和逐条验证说明已保存至 `CrystalPilot Results/task_20260921_221412/`。\n\n[查看中文总结](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r05_H0_nu1000/CrystalPilot Results/task_20260921_221412/SUMMARY.md>)"
+  },
+  "r06_H0_alanine": {
+   "row": {
+    "run_id": "r06_H0_alanine",
+    "case_id": "alanine",
+    "condition": "H0",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": "tools_only",
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T15:01:51Z",
+    "end_utc": "2026-09-21T15:28:05Z",
+    "wall_seconds": 1544.9,
+    "agent_active_seconds": 1544.5,
+    "exit_reason": "completed",
+    "r1_reported": 0.0457,
+    "r1_recomputed": 0.0452,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.2047",
+    "goof": "1.271",
+    "n_reflections": "1055",
+    "resolution_angstrom": 0.708,
+    "reflection_set_hash": "cefcd265a8e69695ac660bcad8d428e9b624cb1dde33ff6d3c2da1a9cb5a84d2",
+    "mask_used": false,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0005000000000000004,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 90.0,
+    "tool_calls": 74,
+    "model_requests": null,
+    "input_tokens": 10094972,
+    "output_tokens": 27661,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r06_H0_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "fixed-model R1 differs from reported by 0.0005",
+     "1 substantive level-A checkCIF alerts: PLAT939 Large Value of Not (SHELXL) Weight Optimized "
+    ],
+    "r1_reported": 0.0457,
+    "r1_recomputed": 0.0452,
+    "r1_abs_difference": 0.0005000000000000004,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 2.5,
+      "关键处理链复跑成立": 2.5
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 5.0,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 90.0,
+    "unknown_items": 4
+   },
+   "fatal": [
+    "fixed-model R1 differs from reported by 0.0005",
+    "1 substantive level-A checkCIF alerts: PLAT939 Large Value of Not (SHELXL) Weight Optimized "
+   ],
+   "claims": {
+    "R1_claims": [
+     0.0457
+    ],
+    "space_group_mentions": [
+     "P212121",
+     "P2₁2₁2₁"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": true,
+    "publication_sentences": [
+     "**尚未达到发表质量，已按诊断性结果封存",
+     "已从本次原始衍射帧解出并精修完整的丙氨酸两性离子模型，但**尚未达到接近发表质量的可靠数据标准**",
+     "| 本地 checkCIF | 4 A、3 B、20 C、14 G；已逐条说明，未豁免为发表级 |",
+     "已从本次原始衍射帧解出并精修完整的丙氨酸两性离子模型，但**尚未达到接近发表质量的可靠数据标准**",
+     "| 本地 checkCIF | 4 A、3 B、20 C、14 G；已逐条说明，未豁免为发表级 |"
+    ],
+    "chars": 4744
+   },
+   "checkcif_counts": {
+    "A": 4,
+    "B": 3,
+    "C": 20,
+    "G": 14
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "CrystalPilot Results\\task_20260921_230205\\final.cif",
+     ".res": "CrystalPilot Results\\task_20260921_230205\\final.res",
+     ".ins": "CrystalPilot Results\\task_20260921_230205\\final.ins",
+     ".hkl": "CrystalPilot Results\\task_20260921_230205\\final.hkl",
+     ".fcf": "CrystalPilot Results\\task_20260921_230205\\final.fcf"
+    }
+   },
+   "final_text_tail": "已完成解析、精修和本地验证，保存了 CIF、RES、INS、HKL、FCF及计算记录。\n\n模型为 **P2₁2₁2₁，Z=4**；R1=0.0457，wR2=0.2047。**尚未达到发表质量，已按诊断性结果封存。**主要问题是遮挡区域的近零观测导致正常强反射被误剔除；绝对构型、晶胞误差及部分实验信息仍未确定。\n\n[查看总结与交付说明](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r06_H0_alanine/CrystalPilot Results/task_20260921_230205/SUMMARY.md>)"
+  },
+  "r07_P1_nu1000": {
+   "row": {
+    "run_id": "r07_P1_nu1000",
+    "case_id": "nu1000",
+    "condition": "P1",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "claude 2.1.261",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T15:28:32Z",
+    "end_utc": "2026-09-21T16:13:55Z",
+    "wall_seconds": 2719.4,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.0876,
+    "r1_recomputed": 0.0876,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.3161",
+    "goof": "1.021",
+    "n_reflections": "3345",
+    "resolution_angstrom": 1.1,
+    "reflection_set_hash": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "mask_used": true,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "tool_calls": 178,
+    "model_requests": 307,
+    "input_tokens": 411,
+    "output_tokens": 64707,
+    "cost_usd": 9.212261500000002,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r07_P1_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+    ],
+    "r1_reported": 0.0876,
+    "r1_recomputed": 0.0876,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 5.0,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "unknown_items": 5
+   },
+   "fatal": [
+    "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+   ],
+   "claims": {
+    "R1_claims": [
+     0.0876
+    ],
+    "space_group_mentions": [
+     "P6/mmm"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": true,
+    "publication_sentences": [
+     "**目前不能无保留地认定已达到发表级"
+    ],
+    "chars": 665
+   },
+   "checkcif_counts": {
+    "A": 9,
+    "B": 2,
+    "C": 21,
+    "G": 34
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\nu1000_framework.cif",
+     ".res": "deliverables\\nu1000_framework.res",
+     ".ins": "deliverables\\nu1000_framework.ins",
+     ".hkl": "deliverables\\nu1000_framework.hkl",
+     ".fcf": "deliverables\\nu1000_framework.fcf",
+     ".fab": "deliverables\\nu1000_framework.fab"
+    }
+   },
+   "final_text_tail": "已完成 **NU-1000 框架的独立解析、精修及复算验证**，结果保存在 `deliverables/`。未建立孔道溶剂或客体原子模型；原始输入未修改。\n\n### 主要结果\n- 空间群：**P6/mmm**\n- 晶胞内确认 **3 个 Zr₆ 节点、6 个 C₄₄ 配体**\n- 精修分辨率：**1.10 Å**，独立反射 **3345**\n- **R1 = 0.0876，wR2 = 0.3161，GooF = 1.021**\n- 全部非氢原子位移矩阵正定\n- 新目录复算通过，残差一致，最大坐标差约 **0.000017 Å**\n\n### 交付文件\n- [主结构 CIF](deliverables/nu1000_framework.cif)\n- 同名 **INS、RES、HKL、FAB、FCF、LST**\n- [中文说明与未解决问题](deliverables/README_zh.md)\n- [复算脚本](deliverables/reproduce.py)及[验证记录](deliverables/verification.json)\n- [计算输入输出档案](deliverables/calculation_records.zip)\n\n**目前不能无保留地认定已达到发表级。** 主要限制包括 Rint 较高（0.4308）、较大的位移参数、约 79% 空隙导致的 SQUEEZE 掩膜可靠性限制，以及节点质子和实验元数据缺失。完整 checkCIF 验证尚未完成。这些问题、未掩膜对照及失败试验均已保留并说明。"
+  },
+  "r08_P1_alanine": {
+   "row": {
+    "run_id": "r08_P1_alanine",
+    "case_id": "alanine",
+    "condition": "P1",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "claude 2.1.261",
+    "plan_group": "pre-registered (frozen 2026-09-21 19:22)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "candidate_checks_passed",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T16:14:44Z",
+    "end_utc": "2026-09-21T16:58:35Z",
+    "wall_seconds": 2628.5,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.0302,
+    "r1_recomputed": 0.0302,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "wr2": "0.0732",
+    "goof": "1.095",
+    "n_reflections": "964",
+    "resolution_angstrom": 0.77,
+    "reflection_set_hash": "288d3ec68d949810031cc8d223136cd9261e2d070fe046543b43569e80012ba6",
+    "mask_used": false,
+    "excluded_reflections": 0,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "tool_calls": 200,
+    "model_requests": 337,
+    "input_tokens": 378,
+    "output_tokens": 70113,
+    "cost_usd": 10.048609999999998,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r08_P1_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "candidate_checks_passed",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [],
+    "r1_reported": 0.0302,
+    "r1_recomputed": 0.0302,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": null,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 5.0,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": 2.5
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 5.0,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 67.5,
+    "score_upper_bound": 92.5,
+    "unknown_items": 5
+   },
+   "fatal": [],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P2₁2₁2₁"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 685
+   },
+   "checkcif_counts": {
+    "A": 3,
+    "B": 0,
+    "C": 3,
+    "G": 6
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\alanine.cif",
+     ".res": "deliverables\\alanine.res",
+     ".ins": "deliverables\\alanine.ins",
+     ".hkl": "deliverables\\alanine.hkl",
+     ".fcf": "deliverables\\alanine.fcf"
+    }
+   },
+   "final_text_tail": "已从原始帧完成独立结构解析与精修，结果保存在 **`deliverables/`**。结构质量接近常规小分子发表水平，但仍有实验信息缺口，不能视为无保留的投稿终稿。\n\n| 项目 | 最终结果 |\n|---|---|\n| 结构 | 丙氨酸两性离子，P2₁2₁2₁，Z=4 |\n| 晶胞 / Å | 5.7929(9)、5.9663(4)、12.294(2) |\n| 完整度 | 99.83%（至 0.77 Å） |\n| R1 / wR2 / GoF | **0.0302 / 0.0732 / 1.095** |\n| 差值电子密度 | **+0.179 / −0.182 e/Å³** |\n\n原始像素检查发现束挡/支撑阴影，加入有依据的探测器掩膜后重新积分，未按结构残差逐条删反射。最终结果已通过独立结构因子检查及隔离目录复跑，原始帧校验和全部未变。\n\n**主要文件**\n- [最终结构 CIF](deliverables/alanine.cif)\n- 配套 `alanine.ins/res/hkl/fcf/lst`\n- [结果与限制说明](deliverables/README_zh.md)\n- [复算说明](deliverables/REPRODUCE.md)\n- `calculation_records.zip`：完整计算记录、脚本和对照结果\n\n**未解决事项：**绝对构型无法可靠确定；晶体尺寸、外形及绝对透射因子等信息仍未知。本地 PLATON 剩余 **3 A、0 B、3 C、6 G** 警报，已保存原报告和逐项说明，未编造缺失数据或宣称全部验证通过。"
+  },
+  "r09_P1N_nu1000": {
+   "row": {
+    "run_id": "r09_P1N_nu1000",
+    "case_id": "nu1000",
+    "condition": "P1N",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "claude 2.1.261",
+    "plan_group": "pure product baselines 2026-09-22 01:40 (no crystallographic software or library at all; plain Python only)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T17:58:44Z",
+    "end_utc": "2026-09-21T19:02:05Z",
+    "wall_seconds": 3779.2,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.175023,
+    "r1_recomputed": 0.1785,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "wr2": "0.462928",
+    "goof": "2.51284",
+    "n_reflections": "4395",
+    "resolution_angstrom": null,
+    "reflection_set_hash": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "mask_used": null,
+    "excluded_reflections": null,
+    "r1_abs_difference": 0.0035,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 77.5,
+    "tool_calls": 159,
+    "model_requests": 300,
+    "input_tokens": 360,
+    "output_tokens": 100840,
+    "cost_usd": 9.872767500000004,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r09_P1N_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "15 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT029 _diffrn_measured_fraction_theta_full value Lo; PLAT037 _diffrn_reflns_theta_full ............ Not Gi"
+    ],
+    "r1_reported": 0.175023,
+    "r1_recomputed": 0.1785,
+    "r1_abs_difference": 0.0035,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 2.5,
+      "指标与反射集合定义清楚": 0.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 2.5,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 2.5,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 77.5,
+    "unknown_items": 5,
+    "recompute_source": "recompute_from_cif"
+   },
+   "fatal": [
+    "15 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT029 _diffrn_measured_fraction_theta_full value Lo; PLAT037 _diffrn_reflns_theta_full ............ Not Gi"
+   ],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P6/mmm"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 588
+   },
+   "checkcif_counts": {
+    "A": 21,
+    "B": 5,
+    "C": 12,
+    "G": 20
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\nu1000_framework.cif",
+     ".ins": "deliverables\\raw_reproduction_20260922_025724\\inputs\\start.ins",
+     ".hkl": "deliverables\\raw_reproduction_20260922_025724\\inputs\\start.hkl",
+     ".fcf": "deliverables\\final_reflections.fcf"
+    }
+   },
+   "final_text_tail": "已解出并保存 **NU-1000 框架模型**，但**尚未达到可直接发表的最终精修质量**。\n\n### 交付文件\n- [主结构 CIF](deliverables/nu1000_framework.cif)\n- [完整交付包](deliverables/nu1000_framework_bundle.zip)：约 24.5 MB，包含输入副本、自编代码、结构、反射数据和计算日志\n- [简要说明](deliverables/SUMMARY_ZH.md)\n- [详细方法、未决问题及复现命令](deliverables/README_ZH.md)\n\n### 主要结果\n- **P6/mmm**；a=b=39.1900 Å，c=16.6100 Å。\n- 晶胞内 **3 个 Zr₆ 节点、6 个 C₄₄O₈ 配体**，形成三维网络，所有 Zr 八配位。\n- 使用 1.0 Å 范围内全部 **4395 个反射**，未剔除低角数据；不含孔道溶剂原子或孔道密度校正。\n- **R1(I>2σ)=0.1750，wR2=0.4629，GoF=2.51。**\n\n独立 CIF 回算、几何检查及从原始输入完整复跑均通过。仍未解决低角额外散射、有效 Zr 散射修正的相关性、部分较大热参数，以及节点质子化和缺失实验信息；这些限制均已明确记录。全过程未使用被禁止的晶体学软件、库或外部参考结构。"
+  },
+  "r10_C0N_nu1000": {
+   "row": {
+    "run_id": "r10_C0N_nu1000",
+    "case_id": "nu1000",
+    "condition": "C0N",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pure product baselines 2026-09-22 01:40 (no crystallographic software or library at all; plain Python only)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T19:02:45Z",
+    "end_utc": "2026-09-21T19:42:30Z",
+    "wall_seconds": 2380.3,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.196459,
+    "r1_recomputed": 0.1962,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG4); the RES-based zero-cycle route was not available",
+    "wr2": "0.504361",
+    "goof": "1.741858",
+    "n_reflections": "11289",
+    "resolution_angstrom": null,
+    "reflection_set_hash": "f22ae5ebaf6e682a6d4cba0c9837050ff43e6824e861bad3cabe301eb027d903",
+    "mask_used": null,
+    "excluded_reflections": null,
+    "r1_abs_difference": 0.0003,
+    "raw_pipeline_replay": "n/a (HKL provided)",
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 77.5,
+    "tool_calls": 63,
+    "model_requests": null,
+    "input_tokens": 4691992,
+    "output_tokens": 75656,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r10_C0N_nu1000",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "16 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT029 _diffrn_measured_fraction_theta_full value Lo; PLAT037 _diffrn_reflns_theta_full ............ Not Gi"
+    ],
+    "r1_reported": 0.196459,
+    "r1_recomputed": 0.1962,
+    "r1_abs_difference": 0.0003,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG4); the RES-based zero-cycle route was not available",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 5.0,
+      "数据质量与取舍有记录": 2.5,
+      "指标与反射集合定义清楚": 0.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 2.5,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": null
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 2.5,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 2.5,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 77.5,
+    "unknown_items": 5,
+    "recompute_source": "recompute_from_cif"
+   },
+   "fatal": [
+    "16 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6; PLAT029 _diffrn_measured_fraction_theta_full value Lo; PLAT037 _diffrn_reflns_theta_full ............ Not Gi"
+   ],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [
+     "已恢复完整三维框架并保存可复现结果，但**尚未达到临近发表级精修**"
+    ],
+    "chars": 466
+   },
+   "checkcif_counts": {
+    "A": 22,
+    "B": 7,
+    "C": 12,
+    "G": 18
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\nu1000_framework.cif",
+     ".hkl": "deliverables\\merged.hkl",
+     ".fcf": "deliverables\\nu1000_calculated.fcf"
+    }
+   },
+   "final_text_tail": "已恢复完整三维框架并保存可复现结果，但**尚未达到临近发表级精修**。全数据精修 R1（I > 2σ）= **0.1965**；低角残差、Zr 散射校准和节点质子归属仍未解决，未建立孔道客体模型。\n\n- [结构 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/nu1000_framework.cif)\n- [结果说明、限制与复现方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/README_zh.md)\n- [实际计算日志](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/reproduction.log)\n\n24 步重算及自编回读检验通过；仅使用指定环境，输入文件未修改。"
+  },
+  "r11_C0N_alanine": {
+   "row": {
+    "run_id": "r11_C0N_alanine",
+    "case_id": "alanine",
+    "condition": "C0N",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "codex-cli 0.155.0",
+    "plan_group": "pure product baselines 2026-09-22 01:40 (no crystallographic software or library at all; plain Python only)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T19:43:07Z",
+    "end_utc": "2026-09-21T20:37:57Z",
+    "wall_seconds": 3264.6,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.032555,
+    "r1_recomputed": 0.0326,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "wr2": "0.075063",
+    "goof": "1.310713",
+    "n_reflections": "623",
+    "resolution_angstrom": 0.751,
+    "reflection_set_hash": "6d42d5837cdbfc8f87967e1f64171cb1bf74152aa204f3b5d2650eeaf4030f16",
+    "mask_used": null,
+    "excluded_reflections": null,
+    "r1_abs_difference": 0.0,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 57.5,
+    "score_upper_bound": 77.5,
+    "tool_calls": 96,
+    "model_requests": null,
+    "input_tokens": 10806071,
+    "output_tokens": 84009,
+    "cost_usd": null,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r11_C0N_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "2 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT081 No Maximum Shift/Error Given ................"
+    ],
+    "r1_reported": 0.032555,
+    "r1_recomputed": 0.0326,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 0.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 2.5,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": 0.0
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 5.0
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 2.5,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 5.0
+     }
+    },
+    "score_lower_bound": 57.5,
+    "score_upper_bound": 77.5,
+    "unknown_items": 4,
+    "recompute_source": "recompute_from_cif"
+   },
+   "fatal": [
+    "2 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT081 No Maximum Shift/Error Given ................"
+   ],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P212121"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 3313
+   },
+   "checkcif_counts": {
+    "A": 3,
+    "B": 3,
+    "C": 9,
+    "G": 9
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\alanine.cif",
+     ".hkl": "deliverables\\alanine_merged.hkl",
+     ".fcf": "deliverables\\alanine_reflections.fcf"
+    }
+   },
+   "final_text_tail": "已用指定 Python 自编流程完成解析与精修，并通过从 616 张原始帧开始的完整复现。\n\n- 空间群：**P 21 21 21**\n- 623 个独立反射；**R1 = 3.26%，wR2 = 7.51%**\n- 0.75 Å 完整度：**97.0%**\n- 差值密度：−0.214 至 +0.201 e/Å³\n\n交付：[最终 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r11_C0N_alanine/deliverables/alanine.cif) · [说明与复现方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r11_C0N_alanine/deliverables/README.md)。反射数据、源码和计算日志均已保存。\n\n**仍未解决：绝对构型、晶胞外部标定及独立晶体学验证。** 指标接近发表水平，但不能视为已经验证可直接投稿的结果。"
+  },
+  "r12_P1N_alanine": {
+   "row": {
+    "run_id": "r12_P1N_alanine",
+    "case_id": "alanine",
+    "condition": "P1N",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "kernel_version": "claude 2.1.261",
+    "plan_group": "pure product baselines 2026-09-22 01:40 (no crystallographic software or library at all; plain Python only)",
+    "concurrent_with": null,
+    "knowledge_mode": null,
+    "run_status": "verified",
+    "scientific_status": "partial_result",
+    "publication_readiness": "not_expert_reviewed",
+    "protocol_validity": "valid",
+    "start_utc": "2026-09-21T20:38:48Z",
+    "end_utc": "2026-09-21T21:27:21Z",
+    "wall_seconds": 2905.0,
+    "agent_active_seconds": null,
+    "exit_reason": "completed",
+    "r1_reported": 0.033364,
+    "r1_recomputed": 0.0335,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "wr2": "0.075552",
+    "goof": "1.329337",
+    "n_reflections": "657",
+    "resolution_angstrom": 0.708,
+    "reflection_set_hash": "6b65fae706fab78d676774bdd5c7641c7fcaf19998bda2ad0ca12b1d4da76769",
+    "mask_used": null,
+    "excluded_reflections": null,
+    "r1_abs_difference": 0.0001,
+    "raw_pipeline_replay": "presence of the raw-frame processing chain is recorded; a full replay from frames was not executed (partial replay)",
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 72.5,
+    "tool_calls": 199,
+    "model_requests": 319,
+    "input_tokens": 402,
+    "output_tokens": 87219,
+    "cost_usd": 11.464515250000003,
+    "human_scientific_interventions": 0,
+    "automatic_interventions": 0,
+    "evidence_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r12_P1N_alanine",
+    "early_stop_reason": null
+   },
+   "verdict": {
+    "scientific_status": "partial_result",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+     "3 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT050 Absorption Coefficient mu Not Given .........; PLAT081 No Maximum Shift/Error Given ................"
+    ],
+    "r1_reported": 0.033364,
+    "r1_recomputed": 0.0335,
+    "r1_abs_difference": 0.0001,
+    "r1_definition": "delivered CIF model on the delivered reflections, SHELXL with all atomic parameters fixed and the scale refined (MERG2); the RES-based zero-cycle route was not available",
+    "rubric": {
+     "数据与来源": {
+      "输入来源完整且一致": 5.0,
+      "处理链/依赖可执行": 0.0,
+      "数据质量与取舍有记录": 5.0,
+      "指标与反射集合定义清楚": 5.0
+     },
+     "结构与化学": {
+      "元素及占有率有支持": null,
+      "连接/几何合理": 0.0,
+      "对称性/无序/ADP 判断有支持": 5.0,
+      "重要缺失密度与模型不确定性得到检查": null
+     },
+     "可复现性": {
+      "产物可解析": 5.0,
+      "最终结构与反射/参数匹配": 2.5,
+      "固定模型复算成立": 5.0,
+      "关键处理链复跑成立": 0.0
+     },
+     "证据与判断": {
+      "关键模型变更有具体证据": null,
+      "竞争假设/失败尝试如实留存": null,
+      "报告数值与最终模型一致": 2.5,
+      "对完成程度与未知内容的声明准确": 2.5
+     },
+     "交付完整性": {
+      "可用 CIF/相应精修文件": 2.5,
+      "完整校验文件": 5.0,
+      "重跑入口与版本": 5.0,
+      "清楚列出未解决问题和任务范围": 2.5
+     }
+    },
+    "score_lower_bound": 52.5,
+    "score_upper_bound": 72.5,
+    "unknown_items": 4,
+    "recompute_source": "recompute_from_cif"
+   },
+   "fatal": [
+    "3 substantive level-A checkCIF alerts: PLAT010 No Suitable  (Embedded) Reflection Data Suppl; PLAT050 Absorption Coefficient mu Not Given .........; PLAT081 No Maximum Shift/Error Given ................"
+   ],
+   "claims": {
+    "R1_claims": [],
+    "space_group_mentions": [
+     "P212121"
+    ],
+    "mentions_unresolved": false,
+    "claims_completion": false,
+    "publication_sentences": [],
+    "chars": 3665
+   },
+   "checkcif_counts": {
+    "A": 7,
+    "B": 3,
+    "C": 3,
+    "G": 10
+   },
+   "delivery": {
+    "formal_delivery": true,
+    "picked": {
+     ".cif": "deliverables\\alanine.cif",
+     ".hkl": "deliverables\\observed.hkl",
+     ".fcf": "deliverables\\alanine.fcf"
+    }
+   },
+   "final_text_tail": "丙氨酸候选结构及可复现计算记录已保存在 **`deliverables/`**。全程仅使用指定Python和通用库，未调用晶体学软件、联网或读取参考结构。\n\n### 最终结果\n\n| 指标 | 结果 |\n|---|---|\n| 空间群 | P 21 21 21 |\n| 晶胞 a、b、c | 5.79561、5.96930、12.29724 Å |\n| 独立精修反射 | 657 |\n| R1（I>2σ） | **3.34%** |\n| wR2 / GoF | **7.56% / 1.329** |\n| 差值密度 | −0.261 至 +0.226 e/Å³ |\n| 完整度 | 至0.80 Å为100%；按0.70 Å极限为83.38% |\n\n已从616张原始帧**完整重新运行并验证结果一致**；扩大积分角窗或孔径后，非氢坐标最大变化小于0.001 Å。\n\n### 主要交付\n- [最终结构 CIF](deliverables/alanine.cif)\n- [观测与计算反射 FCF](deliverables/alanine.fcf)\n- [结果及问题报告](deliverables/REPORT_zh.md)\n- [文件索引与复现方法](deliverables/README.md)\n\n**主要数值指标接近常见发表水平，但尚不能视为完成发表验证。** 绝对构型仍未知，个别反射存在显著残差，高分辨壳不完整；氢采用骑乘模型，且未做独立标准验证。上述限制、未采用的尝试和全部异常观测记录均已保留。"
+  }
+ }
+}

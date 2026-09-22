@@ -1,0 +1,65 @@
+{
+  "source": "H:\\CrystalPilot-campaigns\\usertest\\test-NU1000-4",
+  "staged_to": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\staging\\nu1000\\inputs",
+  "staged_at": "2026-09-21T19:01:00+0800",
+  "files": [
+    {
+      "source_rel": "zr-NU-1000-with-guest.hkl",
+      "staged_as": "start.hkl",
+      "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "identical": true,
+      "size": 9796664
+    },
+    {
+      "source_rel": "zr-NU-1000-with-guest.ins",
+      "staged_as": "start.ins",
+      "sha256": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+      "identical": true,
+      "size": 639
+    },
+    {
+      "source_rel": "uploads/图片.png",
+      "staged_as": "synthesis.png",
+      "sha256": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f",
+      "identical": true,
+      "size": 90192
+    }
+  ],
+  "start_ins_summary": {
+    "title": "TITL shelxt in P 6/m m m",
+    "cell_line": "CELL 0.68883 39.1900  39.1900  16.6100  90.000 90.000 120.000",
+    "sfac_line": "SFAC C H N O",
+    "latt_line": "LATT 1",
+    "n_symm": 11,
+    "hklf_line": "HKLF 4",
+    "cards_present": [
+      "C",
+      "CELL",
+      "DISP",
+      "H",
+      "HKLF",
+      "LATT",
+      "N",
+      "O",
+      "SFAC",
+      "SYMM",
+      "TITL",
+      "UNIT",
+      "ZERR"
+    ],
+    "has_abin_or_fab": false,
+    "has_twin_basf": false,
+    "has_omit_shel": false,
+    "atom_lines": [
+      "O     4    0.000000    0.000000    0.000000    10.04167    0.00000",
+      "N     3    0.000000    0.000000    0.000000    10.04167    0.00000",
+      "C     1    0.000000    0.000000    0.000000    10.04167    0.00000",
+      "H     2    0.000000    0.000000    0.000000    10.04167    0.00000"
+    ],
+    "note": "placeholder atoms at the origin only; SFAC lists no metal; the model is effectively empty, so the task starts from cell, symmetry and reflections"
+  },
+  "start_hkl_summary": {
+    "lines": 337816,
+    "bytes": 9796664
+  }
+}

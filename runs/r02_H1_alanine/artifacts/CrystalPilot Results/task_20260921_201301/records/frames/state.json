@@ -1,0 +1,565 @@
+{
+  "frames_dir": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\inputs\\alanine\\frames",
+  "dials_env": "C:\\users\\<user>\\miniforge3\\envs\\dials",
+  "vendor_software": "CrysAlisPro (Rigaku Oxford Diffraction)",
+  "stages": {
+    "import_frames": {
+      "completed_at": "2026-09-21 20:13:39",
+      "n_images": 616,
+      "n_sweeps": 6,
+      "formats": {
+        "rodhypix": 616
+      },
+      "runs": {
+        "pgw240033_Mo_1": 92,
+        "pgw240033_Mo_2": 92,
+        "pgw240033_Mo_3": 150,
+        "pgw240033_Mo_4": 58,
+        "pgw240033_Mo_5": 116,
+        "pgw240033_Mo_6": 108
+      },
+      "n_background": 0,
+      "n_mask": 0,
+      "notes": [
+        "excluded 3 short run(s) ['pre_pgw240033_Mo_1', 'pre_pgw240033_Mo_2', 'pre_pgw240033_Mo_3'] (<12 frames each - screening collections; pass min_run_frames=1 to keep them)",
+        "unpadded frame numbering normalised via hardlinks in H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized"
+      ],
+      "imported_expt": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\imported.expt",
+      "vendor_software": "CrysAlisPro (Rigaku Oxford Diffraction)",
+      "import_templates": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_1_#####.rodhypix",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_2_#####.rodhypix",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_3_#####.rodhypix",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_4_#####.rodhypix",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_5_#####.rodhypix",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_6_#####.rodhypix"
+      ],
+      "vendor_cell": {
+        "cell": [
+          5.7976145,
+          5.970242,
+          12.2959338,
+          90.0,
+          90.0,
+          90.0
+        ],
+        "cell_esd": [
+          0.0005765,
+          0.0009531,
+          0.0016033,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source": "pgw240033_Mo_crystal.ini",
+        "centring": "P",
+        "note": "CrysAlisPro pre-experiment cell - the vendor's own indexing answer. If ab-initio indexing fails, pass unit_cell=[...] (and optionally the centred space group) to index_frames instead of digging through vendor files by shell"
+      }
+    },
+    "find_spots": {
+      "completed_at": "2026-09-21 20:14:11",
+      "n_strong_spots": 2821
+    },
+    "index_frames": {
+      "completed_at": "2026-09-21 20:14:49",
+      "cell": [
+        5.77765,
+        5.95897,
+        12.2752,
+        89.97723,
+        89.95496,
+        90.01341
+      ],
+      "hall_symbol": " P 1",
+      "n_lattices": 1,
+      "n_indexed": 2714,
+      "rmsd": {
+        "x_px": 0.33577,
+        "y_px": 0.28078,
+        "phi_deg": 0.20701
+      },
+      "pct_indexed": 96.2
+    },
+    "integrate_frames": {
+      "completed_at": "2026-09-21 20:15:59",
+      "n_integrated": 4136,
+      "rmsd": {
+        "x_px": 0.28061,
+        "y_px": 0.12693,
+        "phi_deg": 0.11512
+      },
+      "cell_refined": [
+        5.79276,
+        5.96703,
+        12.29678,
+        90.08636,
+        89.91866,
+        89.96778
+      ],
+      "hall_symbol": " P 1",
+      "n_refl_cell_refinement": 351
+    },
+    "scale_and_export": {
+      "completed_at": "2026-09-21 20:16:27",
+      "space_group_suggestion": "P 21 21 21",
+      "space_group_suggestion_note": "from dials.symmetry, which ranks SOHNCKE (chiral) groups only - check space_group_screen for glide/inversion candidates before solving",
+      "space_group_screen": {
+        "candidates": [
+          {
+            "space_group": "P 21 21 21",
+            "n_absent_obs": 50,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": -0.0,
+            "max_i_over_sig_absent": 1.4,
+            "mean_i_over_sig_present": 15.337,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.8874,
+            "absent_to_present_ratio": -0.0,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 21 21 21 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 21 2 21",
+            "n_absent_obs": 43,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": 0.01,
+            "max_i_over_sig_absent": 1.4,
+            "mean_i_over_sig_present": 15.31,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.8858,
+            "absent_to_present_ratio": 0.0,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 21 2 21 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 2 21 21",
+            "n_absent_obs": 39,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": 0.0,
+            "max_i_over_sig_absent": 1.4,
+            "mean_i_over_sig_present": 15.295,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.885,
+            "absent_to_present_ratio": 0.0,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 2 21 21 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 2 2 21",
+            "n_absent_obs": 32,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": 0.02,
+            "max_i_over_sig_absent": 1.4,
+            "mean_i_over_sig_present": 15.269,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.8835,
+            "absent_to_present_ratio": 0.001,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 2 2 21 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 21 21 2",
+            "n_absent_obs": 18,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": -0.04,
+            "max_i_over_sig_absent": 0.5,
+            "mean_i_over_sig_present": 15.218,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.8805,
+            "absent_to_present_ratio": -0.002,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 21 21 2 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 21 2 2",
+            "n_absent_obs": 11,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": -0.02,
+            "max_i_over_sig_absent": 0.5,
+            "mean_i_over_sig_present": 15.192,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.879,
+            "absent_to_present_ratio": -0.001,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 21 2 2 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 2 21 2",
+            "n_absent_obs": 7,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "mean_i_over_sig_absent": -0.07,
+            "max_i_over_sig_absent": 0.3,
+            "mean_i_over_sig_present": 15.177,
+            "strong_fraction_absent": 0.0,
+            "strong_fraction_present": 0.8781,
+            "absent_to_present_ratio": -0.005,
+            "absence_evidence": "absent",
+            "consistent": true,
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 2 21 2 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 2 2 2",
+            "n_absent_obs": 0,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "consistent": true,
+            "absence_evidence": "no_absence_conditions",
+            "note": "no absence conditions",
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 2 2 2 is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P 2 m m",
+            "n_absent_obs": 0,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "consistent": true,
+            "absence_evidence": "no_absence_conditions",
+            "note": "no absence conditions",
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P 2 m m is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          },
+          {
+            "space_group": "P m 2 m",
+            "n_absent_obs": 0,
+            "n_violations": 0,
+            "violation_rate": 0.0,
+            "consistent": true,
+            "absence_evidence": "no_absence_conditions",
+            "note": "no absence conditions",
+            "conflicts": [
+              {
+                "id": "candidate_centricity_vs_e_statistics",
+                "channels": [
+                  "space_group_centricity",
+                  "e_statistics"
+                ],
+                "note": "P m 2 m is non-centrosymmetric while <|E^2-1|> hints centrosymmetric (that hint is labelled unreliable here - see e_statistics.hint_validity). Settle it by trial (centrosymmetric candidate first), not by picking the louder channel.",
+                "e_statistics_hint_valid": false
+              }
+            ]
+          }
+        ],
+        "n_candidates_total": 238,
+        "e_statistics": {
+          "mean_abs_e2_minus_1": 1.024,
+          "reference": {
+            "centrosymmetric": 0.968,
+            "non_centrosymmetric": 0.736
+          },
+          "hint": "centrosymmetric",
+          "moments": {
+            "mean_abs_e2_minus_1": {
+              "value": 1.024,
+              "formula": "<|E^2-1|>",
+              "reference": {
+                "acentric_untwinned": 0.736,
+                "acentric_perfect_twin": 0.541,
+                "centric_untwinned": 0.968,
+                "centric_perfect_twin": 0.736
+              },
+              "resolvable_band": 0.2013,
+              "n": 687,
+              "standard_error": 0.0671,
+              "direction": "beyond_centric",
+              "deviation": 0.056,
+              "not_argued_for": "intensity averaging (twinning) moves <|E^2-1|> the other way (beyond 0.736); and no value of it is evidence that the data are free of either pathology.",
+              "strength": "uncorroborated",
+              "argues_for": [],
+              "verdict": "<|E^2-1|> = 1.024 lies 0.056 beyond the CENTRIC reference 0.968, where ordinary small-molecule sets already sit (1.03-1.14 measured on this repo's published reference data and rigid-molecule controls): on its own it argues for nothing. It becomes evidence for a pseudo-translation / superstructure (a bimodal weak-strong reflection class) or a hypercentric distribution from a dominant heavy-atom substructure only with a weak/strong INDEX CLASS (parity_classes), an off-origin Patterson peak, or a composition with one dominant scatterer.",
+              "band_note": "counts above max(3 sampling sigma 0.2013, 20% of the twin span 0.0390 = twin fraction ~0.05)"
+            },
+            "i2_over_i_sq": {
+              "value": 3.441,
+              "formula": "<I^2>/<I>^2",
+              "reference": {
+                "acentric_untwinned": 2.0,
+                "acentric_perfect_twin": 1.5,
+                "centric_untwinned": 3.0,
+                "centric_perfect_twin": 2.0
+              },
+              "resolvable_band": 2.3377,
+              "n": 687,
+              "standard_error": 0.7792,
+              "direction": "beyond_centric",
+              "deviation": 0.441,
+              "not_argued_for": "intensity averaging (twinning) moves <I^2>/<I>^2 the other way (beyond 2.000); and no value of it is evidence that the data are free of either pathology.",
+              "strength": "uncorroborated",
+              "argues_for": [],
+              "verdict": "<I^2>/<I>^2 = 3.441 lies 0.441 beyond the CENTRIC reference 3.000, where ordinary small-molecule sets already sit (4.1-4.9 measured on this repo's published reference data and rigid-molecule controls): on its own it argues for nothing. It becomes evidence for a pseudo-translation / superstructure (a bimodal weak-strong reflection class) or a hypercentric distribution from a dominant heavy-atom substructure only with a weak/strong INDEX CLASS (parity_classes), an off-origin Patterson peak, or a composition with one dominant scatterer.",
+              "band_note": "counts above max(3 sampling sigma 2.3377, 20% of the twin span 0.1000 = twin fraction ~0.05)"
+            },
+            "f_sq_over_f2": {
+              "value": 0.685,
+              "formula": "<F>^2/<F^2>",
+              "reference": {
+                "acentric_untwinned": 0.785,
+                "acentric_perfect_twin": 0.885,
+                "centric_untwinned": 0.637,
+                "centric_perfect_twin": 0.785
+              },
+              "resolvable_band": 0.1064,
+              "n": 687,
+              "standard_error": 0.0355,
+              "direction": "inside_the_untwinned_bracket",
+              "strength": "no_direction",
+              "deviation": 0.0,
+              "argues_for": [],
+              "verdict": "<F>^2/<F^2> = 0.685 lies between the untwinned acentric (0.785) and centric (0.637) values, where an untwinned acentric structure, an untwinned centric one and a 50:50 twinned centric one all overlap: it selects none of them, and an ordinary value is not evidence of ordinary data.",
+              "band_note": "counts above max(3 sampling sigma 0.1064, 20% of the twin span 0.0200 = twin fraction ~0.05)"
+            }
+          },
+          "hint_valid": false,
+          "hint_validity": {
+            "hint_valid": false,
+            "conditions_triggered": [
+              "too_few_reflections_or_too_low_resolution"
+            ],
+            "conditions_not_evaluable": [
+              "dominant_heavy_scatterer",
+              "heavy_atom_on_special_position"
+            ],
+            "conditions": [
+              {
+                "id": "dominant_heavy_scatterer",
+                "title": "the heaviest element carries most of the scattering power",
+                "applies": null,
+                "evidence": "no model / composition in the session"
+              },
+              {
+                "id": "heavy_atom_on_special_position",
+                "title": "a heavy scatterer sits on a special position, or the heavy substructure is itself pseudo-symmetric",
+                "applies": null,
+                "evidence": "no model / composition in the session"
+              },
+              {
+                "id": "twinning_by_merohedry",
+                "title": "twinning superimposes domains (any partial twin fraction)",
+                "applies": false,
+                "evidence": "no statistic reads beyond its untwinned acentric reference on the twin side - which is not evidence of an untwinned crystal"
+              },
+              {
+                "id": "pseudo_translational_symmetry",
+                "title": "a superstructure / pseudo-translation splits the reflections into weak and strong classes",
+                "applies": false,
+                "evidence": "no weak index class and no statistic beyond its untwinned centric reference"
+              },
+              {
+                "id": "too_few_reflections_or_too_low_resolution",
+                "title": "the data cannot resolve the 0.232 gap between the two references",
+                "test": "3 sampling sigma of <|E^2-1|> exceeds half of (0.968 - 0.736) = 0.116 (about 500 unique reflections at a typical spread), or d_min is coarser than 1.0 A",
+                "bias": "direction unknown - the estimate is simply too noisy, or is taken outside the atomic-resolution regime the Wilson / atomicity assumption behind normalized structure factors needs (IUCr asks 0.84 A for publication; missed-symmetry checks are documented to require atomic resolution data)",
+                "source": "XPREP manual ('very few reflections'); Mueller 2009 / Spek 2009, 2020",
+                "applies": true,
+                "evidence": "3 sampling sigma of <|E^2-1|> = 0.201 exceeds half the centric/acentric gap (0.116)"
+              }
+            ],
+            "usability": {
+              "hint": "centrosymmetric",
+              "usable_for": "supporting an inversion centre, together with a centrosymmetric refinement that actually works",
+              "not_usable_for": "settling it. A pseudo-translation, a dominant heavy-atom substructure and plain rigid molecular geometry all move <|E^2-1|> this way; published non-centrosymmetric structures have read 0.90+ here (inversion twins among them)."
+            },
+            "note": "the centric/acentric hint is UNRELIABLE here: too_few_reflections_or_too_low_resolution. The hint stays in the output, labelled - settle the inversion centre by solution/refinement trials (the centrosymmetric candidate first, Marsh discipline) and read each condition's bias direction above: it says which way the number is pushed, and therefore which conclusion is still allowed."
+          }
+        },
+        "conflicts_summary": {
+          "n_conflicts_listed": 119,
+          "channels": [
+            "absences",
+            "e_statistics",
+            "solver",
+            "laue_class",
+            "working_symmetry"
+          ],
+          "note": "each candidate's `conflicts` lists disagreements between the evidence channels. They are DESCRIPTIVE: the ranking is computed from the absences alone and is not changed by them, and no supergroup prior is applied. A contradiction between channels is a signal in its own right - the SHELXTL roe119 case ('the statistics are clearly centrosymmetric, but only a non-centrosymmetric space group is consistent with the systematic absences') turned out to be a wrong crystal system with half the data collected, not a group to be chosen by majority vote."
+        },
+        "absence_screening_power": {
+          "level": "full",
+          "note": "all 233 candidate(s) with absence conditions have observed reflections in their absent class(es) - the absence screen carries its normal discriminating weight here."
+        },
+        "note": "ranked by absence_evidence: 'absent' (the extinct class is weak AND clearly weaker than the reflections the group keeps) and 'no_absence_conditions' first - among them the more specific group (more absences explained) leads; then 'undecidable' and 'absence_classes_unobserved' together (absent and present classes look alike, or this file has zero reflections in the group's absent class(es) at all - on weak or merged/fcf-derived data this is the normal state and it is NOT support for the group; a centred lattice in either state would discard its 'absent' observations from every later refinement); 'violated' last. See absence_screening_power for whether this file can distinguish candidates by absences AT ALL. dials.symmetry only ranks Sohncke groups - glides/inversion come from THIS table + E-statistics. Adopt via change_space_group (it re-audits the absences and refuses an undecidable or classes-unobserved group unless accept_absences=true with a reason)."
+      },
+      "symmetry_warning": null,
+      "scaling": {
+        "r_merge": 0.039,
+        "r_meas": 0.042,
+        "r_pim": 0.015,
+        "cc_half": 1.0,
+        "completeness": 90.3,
+        "n_unique": 687,
+        "n_observations": 4160,
+        "d_min": 0.71,
+        "exclusions": {
+          "excluded_rows": 133,
+          "total_rows": 4422,
+          "removed_sum_isigi": 0,
+          "removed_prf_isigi": 0,
+          "removed_partiality": 133
+        },
+        "i_over_sigma": 32.1,
+        "d_max": 12.3
+      },
+      "cell_scaled": [
+        5.79276,
+        5.96703,
+        12.29678,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "hall_symbol": " P 2ac 2ab",
+      "wavelength": 0.71073,
+      "exports": {
+        "shelx_hkl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\dials.hkl",
+        "shelx_ins": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\dials.ins",
+        "mtz": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\scaled.mtz"
+      },
+      "composition": "C3 H7 N O2",
+      "cell_measurement": {
+        "reflns_used": 351,
+        "theta_min": 1.656,
+        "theta_max": 30.034
+      },
+      "computing": {
+        "data_reduction": "DIALS",
+        "cell_refinement": "DIALS",
+        "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+      },
+      "context_updated": true
+    },
+    "create_start_model": {
+      "completed_at": "2026-09-21 20:16:54",
+      "solved_r1": 0.0948,
+      "n_atoms": 6,
+      "space_group": "P 21 21 21",
+      "z_estimated": 4,
+      "composition": "C3 H7 N O2",
+      "node": "n0000"
+    },
+    "estimate_resolution": {
+      "completed_at": "2026-09-21 20:19:27",
+      "suggested_d_min": 0.71,
+      "by_metric": {
+        "cc_half": 0.71
+      },
+      "source": "scaled.refl",
+      "note": "apply via scale_and_export(resolution=...) if coarser than the current limit; keep the full-resolution export for comparison and record the decision. by_metric.i_over_sigma is the I/sig>=2 (lenient referee) cut; strict referees use I/sig>=3 - if the two metrics disagree strongly, state the choice and its rationale in the report"
+    }
+  },
+  "indexed_cells_history": [
+    {
+      "cell": [
+        5.77765,
+        5.95897,
+        12.2752,
+        89.97723,
+        89.95496,
+        90.01341
+      ],
+      "strongest_n": null,
+      "n_lattices": 1,
+      "at": "2026-09-21 20:14:49"
+    }
+  ]
+}

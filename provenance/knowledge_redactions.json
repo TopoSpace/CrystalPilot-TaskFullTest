@@ -1,0 +1,41 @@
+{
+  "edits": [
+    {
+      "file": "skills/element-assignment-audit.md",
+      "sha256_before": "35161000097e5bdb355f512a86515b2342cf69b7db301f74b939ef79e8de31b7",
+      "sha256_after": "151a4efc59098e5a9e75d88a6b3ce00c77dd29a1907ec54e15cd3a780e929820",
+      "reason": "names the NU-1000 case, its element identity and the R1 values of earlier runs",
+      "removed_text": "是最后一步而不是依据。pa1 hex-l1-r1 把 NU-1000 的 Zr 全部标成 Zn\n  （R1 0.0817 vs 0.0904），validate_structure 的 \"Zn CN=8 outside [4,6]\"",
+      "replacement_text": "是最后一步而不是依据。一次批测把某 Zr 簇框架的 Zr 全部标成 Zn\n  （改判后 R1 反而更低），validate_structure 的 \"Zn CN=8 outside [4,6]\""
+    },
+    {
+      "file": "skills/framework-solve-ladder.md",
+      "sha256_before": "bac8eb0a45b19b3f70975e6ea863a108a371f8f1c2bbf9d0ee8135b1d7126bee",
+      "sha256_after": "c3c29ede1ea2c2061f165614291a19a9bb38ba3644d9244f5e2e69db300d5a43",
+      "reason": "cell volume and Laue class fingerprint the NU-1000 development case",
+      "removed_text": "  pa1 实测：hex（22 000 Å³、6/mmm）定相 150–840 s、群搜索 300 s、\n  元素指认 90 s；cage（19 000 Å³、2/m）定相 110–830 s。",
+      "replacement_text": "  pa1 实测：大胞高对称框架定相 150–840 s、群搜索 300 s、\n  元素指认 90 s；cage（19 000 Å³、2/m）定相 110–830 s。"
+    },
+    {
+      "file": "skills/data-ingest-space-group-protocol.md",
+      "sha256_before": "1a194bd37e89e2121a5aa65eec9e791e82f58f514519d1491e1a3576886376ce",
+      "sha256_after": "8ea36e05dd922d97cc24f1540c17935e8d470b439ca696a93aaf385a904ea338",
+      "reason": "names the 'hex' development case (NU-1000)",
+      "removed_text": "逐个调用，更不要用 change_space_group 逐群声明来\"看 Rint\"（pa1 hex\n  两个 run 各花 13 min 在这上面）。",
+      "replacement_text": "逐个调用，更不要用 change_space_group 逐群声明来\"看 Rint\"（有的\n  run 各花 13 min 在这上面）。"
+    }
+  ],
+  "residual_matches": [],
+  "needles": [
+    "NU-1000",
+    "nu1000",
+    "NU1000",
+    "22 000 Å",
+    "hex-l1",
+    "pa1 hex",
+    "alanine",
+    "丙氨酸",
+    "2360269",
+    "pgw240033"
+  ]
+}

@@ -1,0 +1,4 @@
+{"ts": "2026-09-21T20:13:03", "pid": 40928, "event": "startup", "readonly": false, "mode": "full", "cache_hit": true, "n_tools_cached": 77, "fingerprint": "9f8195f4587604c64d24d16e"}
+{"ts": "2026-09-21T20:13:03", "pid": 38732, "event": "startup", "readonly": false, "mode": "full", "cache_hit": true, "n_tools_cached": 77, "fingerprint": "9f8195f4587604c64d24d16e"}
+{"ts": "2026-09-21T20:13:08", "pid": 26260, "event": "startup", "readonly": false, "mode": "full", "cache_hit": true, "n_tools_cached": 77, "fingerprint": "9f8195f4587604c64d24d16e"}
+{"ts": "2026-09-21T20:13:16", "pid": 40928, "event": "prewarm", "readonly": false, "n_imported": 45, "failed": [], "seconds": 0.06, "thread": "MainThread"}

@@ -1,0 +1,5 @@
+已完成解析、精修和本地验证，保存了 CIF、RES、INS、HKL、FCF及计算记录。
+
+模型为 **P2₁2₁2₁，Z=4**；R1=0.0457，wR2=0.2047。**尚未达到发表质量，已按诊断性结果封存。**主要问题是遮挡区域的近零观测导致正常强反射被误剔除；绝对构型、晶胞误差及部分实验信息仍未确定。
+
+[查看总结与交付说明](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r06_H0_alanine/CrystalPilot Results/task_20260921_230205/SUMMARY.md>)

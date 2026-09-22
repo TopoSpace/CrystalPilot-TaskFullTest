@@ -1,0 +1,82 @@
+
+
+Alert     Expected Documented Complete
+
+-----     -------- ---------- --------
+
+PLAT058_A        1          1     True
+
+PLAT059_A        1          1     True
+
+PLAT699_A        1          1     True
+
+PLAT939_A        1          1     True
+
+PLAT035_B        1          1     True
+
+PLAT097_B        1          1     True
+
+PLAT934_B        1          1     True
+
+PLAT053_C        1          1     True
+
+PLAT054_C        1          1     True
+
+PLAT055_C        1          1     True
+
+PLAT098_C        1          1     True
+
+PLAT141_C        1          1     True
+
+PLAT142_C        1          1     True
+
+PLAT143_C        1          1     True
+
+PLAT151_C        1          1     True
+
+PLAT250_C        1          1     True
+
+PLAT340_C        1          1     True
+
+PLAT907_C        1          1     True
+
+PLAT915_C        1          1     True
+
+PLAT918_C        1          1     True
+
+PLAT975_C        1          1     True
+
+PLAT976_C        3          3     True
+
+PLAT977_C        3          3     True
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+                                      
+
+
+
+
+

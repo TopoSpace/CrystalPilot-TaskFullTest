@@ -1,0 +1,41 @@
+data_n0002
+
+_audit_creation_method        'CrystalPilot'
+_chemical_formula_sum         'C3 N1 O2'
+_cell_formula_units_Z         4
+# formula counts are per formula unit (cell content / Z); occupancy-weighted
+_diffrn_radiation_wavelength  0.71073
+_cell_length_a                5.7880
+_cell_length_b                5.9686
+_cell_length_c                12.2994
+_cell_angle_alpha             90.000
+_cell_angle_beta              90.000
+_cell_angle_gamma             90.000
+_cell_volume                  424.90
+_space_group_crystal_system   orthorhombic
+_space_group_IT_number        19
+_space_group_name_H-M_alt     'P 21 21 21'
+_space_group_name_Hall        'P 2ac 2ab'
+
+loop_
+  _space_group_symop_operation_xyz
+  'x,y,z'
+  'x+1/2,-y+1/2,-z'
+  '-x,y+1/2,-z+1/2'
+  '-x+1/2,-y,z+1/2'
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  O1      O     0.26011   1.05515   0.68442   0.0189 Uiso  1.000
+  O2      O     0.12554   0.77272   0.58336   0.0193 Uiso  1.000
+  C1      N    -0.31696   0.85259   0.63809   0.0066 Uiso  1.000
+  C2      C    -0.14471   1.02946   0.66083   0.0144 Uiso  1.000
+  C3      C     0.10050   0.94434   0.64096   0.0116 Uiso  1.000
+  C4      C    -0.19688   1.23400   0.59054   0.0181 Uiso  1.000

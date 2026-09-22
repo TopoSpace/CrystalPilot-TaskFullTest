@@ -1,0 +1,50 @@
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  verify_main                started at 23:28:06 on 21-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: verify_main -a50000 -b3000 -c624 -g0 -m0 -t32
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running 32 threads on 32 processors
+
+ Read instructions and data
+ Data:    1055 unique,      0 suppressed   R(int) = 0.0361   R(sigma) = 0.0311
+ Systematic absence violations:    0    Bad equivalents:    1
+ wR2 =  0.2041 before cycle   1 for    1055 data and      0 /     57 parameters
+ GooF = S =     1.267;     Restrained GooF =      1.267 for       0 restraints
+ wR2 = 0.2041, GooF = S = 1.267, Restrained GooF = 1.267 for all data
+ R1 = 0.0452 for 966 Fo > 4sig(Fo) and 0.0663 for all 1055 data
+ Flack x =    0.873(999) by classical fit to all intensities
+ Flack x =    0.784(846) from 346 selected quotients (Parsons' method)
+ ** Absolute structure cannot be determined reliably **
+     0  atoms may be split and     0  atoms NPD
+ R1 =  0.0716 for    669 unique reflections after merging for Fourier
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  verify_main   finished at 23:28:06   Total elapsed time:      0.06 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

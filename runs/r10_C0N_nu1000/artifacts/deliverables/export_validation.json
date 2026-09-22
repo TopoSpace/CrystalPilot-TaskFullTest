@@ -1,0 +1,34 @@
+{
+  "cif_roundtrips": [
+    {
+      "file": "nu1000_framework.cif",
+      "atom_sites": 26,
+      "max_Fcalc_roundtrip_error": 8.245773680215507e-05,
+      "R1_roundtrip_error": 3.633899222088566e-07,
+      "max_cartesian_tensor_roundtrip_error": 9.38001945560707e-09,
+      "passed": true
+    },
+    {
+      "file": "nu1000_highangle_check.cif",
+      "atom_sites": 26,
+      "max_Fcalc_roundtrip_error": 6.770614069750991e-05,
+      "R1_roundtrip_error": 6.742967458006621e-08,
+      "max_cartesian_tensor_roundtrip_error": 9.847554507946832e-09,
+      "passed": true
+    },
+    {
+      "file": "nu1000_no_dispersion_check.cif",
+      "atom_sites": 26,
+      "max_Fcalc_roundtrip_error": 0.00010870478311630904,
+      "R1_roundtrip_error": 2.9082788843837193e-07,
+      "max_cartesian_tensor_roundtrip_error": 1.0566004793322037e-08,
+      "passed": true
+    }
+  ],
+  "fcf_reflections": 11289,
+  "fcf_I_error": 4.7634307520638686e-07,
+  "fcf_sigma_error": 4.6430624678350796e-08,
+  "fcf_Icalc_error": 3.66847712029994e-06,
+  "passed": true,
+  "note": "Self-written format and numerical checks, not checkCIF or a standard validation service."
+}

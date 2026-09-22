@@ -1,0 +1,50 @@
+[
+  {
+    "original_frame": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\inputs\\alanine\\frames\\pgw240033_Mo_3_46.rodhypix",
+    "panel": 0,
+    "predicted_xy_rounded": [
+      341,
+      381
+    ],
+    "box_max_counts": 0.0,
+    "box_sum_counts": 0.0,
+    "box_zero_fraction": 1.0,
+    "note": "Single-frame 11x11 raw box, not background-corrected integrated intensity."
+  },
+  {
+    "original_frame": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\inputs\\alanine\\frames\\pgw240033_Mo_3_77.rodhypix",
+    "panel": 1,
+    "predicted_xy_rounded": [
+      190,
+      382
+    ],
+    "box_max_counts": 2073.0,
+    "box_sum_counts": 7064.0,
+    "box_zero_fraction": 0.45454545454545453,
+    "note": "Single-frame 11x11 raw box, not background-corrected integrated intensity."
+  },
+  {
+    "original_frame": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\inputs\\alanine\\frames\\pgw240033_Mo_3_71.rodhypix",
+    "panel": 0,
+    "predicted_xy_rounded": [
+      292,
+      441
+    ],
+    "box_max_counts": 1.0,
+    "box_sum_counts": 3.0,
+    "box_zero_fraction": 0.9752066115702479,
+    "note": "Single-frame 11x11 raw box, not background-corrected integrated intensity."
+  },
+  {
+    "original_frame": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\inputs\\alanine\\frames\\pgw240033_Mo_3_72.rodhypix",
+    "panel": 0,
+    "predicted_xy_rounded": [
+      292,
+      322
+    ],
+    "box_max_counts": 182.0,
+    "box_sum_counts": 941.0,
+    "box_zero_fraction": 0.6694214876033058,
+    "note": "Single-frame 11x11 raw box, not background-corrected integrated intensity."
+  }
+]

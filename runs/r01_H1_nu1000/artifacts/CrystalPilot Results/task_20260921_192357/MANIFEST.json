@@ -1,0 +1,222 @@
+{
+  "schema_version": 2,
+  "generated": "2026-09-21 20:11:11",
+  "scope": "finalize_delivery: every file in the delivery directory at finalize time",
+  "status": "diagnostic",
+  "files": {
+    "REPORT.json": {
+      "bytes": 379322
+    },
+    "SUMMARY.md": {
+      "bytes": 5902
+    },
+    "VALIDATION.md": {
+      "bytes": 21697
+    },
+    "WORK_LOG.md": {
+      "bytes": 7052
+    },
+    "checkcif.json": {
+      "bytes": 21706
+    },
+    "checkcif_alerts.md": {
+      "bytes": 11489
+    },
+    "final.cif": {
+      "bytes": 16448327
+    },
+    "final.fab": {
+      "bytes": 6290319
+    },
+    "final.fcf": {
+      "bytes": 251604
+    },
+    "final.hkl": {
+      "bytes": 9796664
+    },
+    "final.ins": {
+      "bytes": 4081
+    },
+    "final.res": {
+      "bytes": 4229
+    },
+    "transcript.jsonl": {
+      "bytes": 1354887
+    }
+  },
+  "subdirectories_not_listed": [
+    "analysis",
+    "calculations",
+    "command_output",
+    "images"
+  ],
+  "source_state": {
+    "node": "n0055",
+    "revision": 56
+  },
+  "delivery_revision": 3,
+  "cif_grade": "shelxl-acta",
+  "provenance": {
+    "final.res": {
+      "from": "node n0055 model.res + ABIN card"
+    },
+    "final.cif": {
+      "grade": "shelxl-acta",
+      "note": "SHELXL ACTA CIF of job job_20260921_195821 (esds, geometry tables, reflection statistics)",
+      "from": "SHELXL job job_20260921_195821 job.cif + session metadata"
+    },
+    "final.fcf": {
+      "from": "SHELXL job job_20260921_195821 job.fcf"
+    },
+    "final.fab": {
+      "from": "SHELXL job job_20260921_195821 job.fab"
+    },
+    "final.ins": {
+      "from": "SHELXL job job_20260921_195821 job.ins (the deck that produced final.cif/final.fcf)"
+    },
+    "final.hkl": {
+      "from": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r01_H1_nu1000\\.crystalpilot\\refine\\data\\d000001\\observations.hkl",
+      "bytes": 9796664,
+      "n_reflections": 337815,
+      "terminator_added": false,
+      "trailer_lines": 0,
+      "data_revision": "d000001"
+    },
+    "final.p4p": {
+      "absent": true,
+      "note": "no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  },
+  "manual_continuation": {
+    "ready": true,
+    "files": [
+      "final.res",
+      "final.cif",
+      "final.ins",
+      "final.hkl",
+      "final.p4p",
+      "final.fab"
+    ],
+    "missing": [
+      "final.p4p"
+    ],
+    "notes": [
+      "final.p4p: no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it",
+      "masked model: keep final.fab beside final.ins/final.res (ABIN) - SHELXL cannot reproduce the refinement without it",
+      "final.ins: SHELXL job job_20260921_195821 job.ins (the deck that produced final.cif/final.fcf)"
+    ],
+    "usage": "same basename: `shelxl final` refines final.ins against final.hkl (+ final.fab); open final.res / final.cif in Olex2 to inspect; final.p4p carries the instrument cell"
+  },
+  "finalized": "2026-09-21 20:11:11",
+  "promoted": false,
+  "waived": [],
+  "waived_count": 0,
+  "open_items": [
+    {
+      "item": "alert:020_A",
+      "text": "The Value of Rint is Greater Than 0.12 .........      0.566 Report"
+    },
+    {
+      "item": "alert:023_A",
+      "text": "Resolution (too) Low [sin(theta)/Lambda < 0.6]..       0.50 Ang-1"
+    },
+    {
+      "item": "alert:183_A",
+      "text": "Missing _cell_measurement_reflns_used Value ....     Please Do !"
+    },
+    {
+      "item": "alert:184_A",
+      "text": "Missing _cell_measurement_theta_min Value ......     Please Do !"
+    },
+    {
+      "item": "alert:185_A",
+      "text": "Missing _cell_measurement_theta_max Value ......     Please Do !"
+    },
+    {
+      "item": "alert:197_A",
+      "text": "Missing _cell_measurement_temperature Datum ....     Please Add"
+    },
+    {
+      "item": "alert:198_A",
+      "text": "Missing _diffrn_ambient_temperature   Datum ....     Please Add"
+    },
+    {
+      "item": "alert:660_A",
+      "text": "No Valid _diffrn_radiation_type Value Reported .     Please Do !"
+    },
+    {
+      "item": "alert:699_A",
+      "text": "Missing _exptl_crystal_description Value .......     Please Do !"
+    },
+    {
+      "item": "unresolved#1",
+      "text": "实验温度、辐射源/仪器、晶体尺寸/形貌/颜色、吸收校正和晶胞测量元数据/标准不确定度未知，缺p4p，不能补造。"
+    },
+    {
+      "item": "unresolved#2",
+      "text": "节点桥氧/末端氧质子化及末端配体身份不确定，模型化学式仅计已定位原子；O4/O5邻近残差未消除。无掩膜与掩膜条件下的所试O分裂分别无统计支持或产生负占有率，不能采纳，但不能排除其他构型。"
+    },
+    {
+      "item": "unresolved#3",
+      "text": "反射内一致性差：最终SHELXL Rint=.5659；高角信号弱，依CC1/2和I/sigma截到1.00 A，故分辨率及强反射比例警报未解决。没有原始帧/采集批次信息可重做吸收校正或剔除坏轮。"
+    },
+    {
+      "item": "unresolved#4",
+      "text": "n0042孔道散射掩膜55循环收敛，17360 A^3(78.6%)、343.6 e/cell；更新框架后重算1000循环未收敛，保留首次掩膜。未指认孔道客体，不把电子数换算未知溶剂化学式。"
+    },
+    {
+      "item": "unresolved#5",
+      "text": "原始HKL缺少四个最低角反射类别(010,-120,020,001)和两个选定范围内类别(-4,34,3及-1,26,7)，全对称等价审计无观测。低角缺失使孔道电子数及散射校正的稳定性进一步受限，原因未知。"
+    },
+    {
+      "item": "unresolved#6",
+      "text": "Zr邻近分裂及局部配体分裂未获得更可信构型：Zr2试验不稳定，Zr1特殊位置工具限制；局部配体B占有率虽形式上有支持但位置塌缩/几何不良。保留平均结构与全部诊断，仍有未检验的整体无序方向。"
+    },
+    {
+      "item": "unresolved#7",
+      "text": "配体ADP偏大、C-C键长精度有限；缺失晶胞标准不确定度，不能把该模型用作精密几何或热运动结论。"
+    },
+    {
+      "item": "unresolved#8",
+      "text": "波长0.68883 A邻近Zr K边，采用Sasaki DISP Zr f'=-9.041/f''=2.772；checkCIF的Brennan-Cowan表给出不同边附近数值。须以后核实能量标定/适用散射因子，不据表差重判金属元素。"
+    },
+    {
+      "item": "goal:scientifically_established",
+      "text": "goal tier not reached: scientifically_established (the candidate survives the independent tests (density integration, free-occupancy refinement, constraint removal) and every checkCIF alert it causes is explainable); goal: 仅依据本轮inputs求解并精修NU-1000完整框架。孔道溶剂及客体不作分子身份/原子建模；保存无掩膜基线，必要时仅以散射掩膜作框架校正比较。"
+    },
+    {
+      "item": "direction#1",
+      "text": "untried direction: 获得原始采集/吸收校正记录和真实实验元数据；在数据还原阶段处理高Rint，不能以精修造好数据。"
+    },
+    {
+      "item": "direction#2",
+      "text": "untried direction: 更高质量数据及支持特殊位置完整分裂的工具下检验Zr/整体配体无序。"
+    },
+    {
+      "item": "direction#3",
+      "text": "untried direction: 确定末端氧的质子化与可能配位调节剂身份，孔道客体化学式仍不在本轮目标内。"
+    },
+    {
+      "item": "direction#4",
+      "text": "untried direction: 检验更新模型上的孔道散射掩膜收敛性与框架参数稳健性。"
+    },
+    {
+      "item": "unmet_goal#1",
+      "text": "未达到可直接投稿的发表级结构；完整框架候选已精修稳定，但9A/1B/20C警报仍有真实数据/元数据限制。"
+    },
+    {
+      "item": "unmet_goal#2",
+      "text": "未确定末端氧/桥氧质子化和可能配位调节剂身份，未完成整体无序模型检验。"
+    },
+    {
+      "item": "unmet_goal#3",
+      "text": "更新模型后掩膜刷新未收敛且最低角反射缺失，孔道电子数不具可靠化学定量依据；孔道客体身份不属于本轮目标。"
+    }
+  ],
+  "missing_inputs": [
+    {
+      "item": "file:final.p4p",
+      "text": "final.p4p not delivered (instrument cell record, an input): no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  ]
+}

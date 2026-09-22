@@ -1,0 +1,13 @@
+{
+  "volume_A3": 425.43231400258435,
+  "volume_su_A3": 0.049098488407174894,
+  "density_g_cm3": 1.3909842035254598,
+  "F000": 192,
+  "theta_min": 3.3133078363470334,
+  "theta_max": 30.108496784758106,
+  "actual_d_min": 0.7084077954781384,
+  "completeness_at_actual_d_min": 0.8633377135348226,
+  "n_possible_actual_dmin": 761,
+  "cif": "alanine.cif",
+  "fcf": "alanine.fcf"
+}

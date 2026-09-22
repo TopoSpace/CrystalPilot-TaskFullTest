@@ -1,0 +1,422 @@
+{
+  "start": "2026-09-22T03:37:44.751161+08:00",
+  "interpreter": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+  "python_version": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "inputs": {
+    "start.hkl": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "start.ins": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+    "synthesis.png": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f"
+  },
+  "commands": [
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\framework.py",
+        "merge"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:44.752161+08:00",
+      "seconds": 2.5893712043762207
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\framework.py",
+        "patterson"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:47.342534+08:00",
+      "seconds": 1.4398770332336426
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\solve_heavy.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:48.784072+08:00",
+      "seconds": 2.665846586227417
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\inspect_maps.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:51.451927+08:00",
+      "seconds": 0.8545286655426025
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:52.308449+08:00",
+      "seconds": 4.940939903259277
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "isotropic_atoms.json",
+        "--name",
+        "aniso_heavy",
+        "--aniso",
+        "heavy",
+        "--cycles",
+        "5"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:37:57.250388+08:00",
+      "seconds": 4.711420059204102
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "aniso_heavy_atoms.json",
+        "--name",
+        "aniso_all",
+        "--aniso",
+        "all",
+        "--cycles",
+        "5"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:01.963995+08:00",
+      "seconds": 9.040553092956543
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "aniso_all_atoms.json",
+        "--name",
+        "highangle",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--restraints",
+        "--dmax",
+        "3",
+        "--cycles",
+        "5"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:11.005634+08:00",
+      "seconds": 7.211521148681641
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "highangle_atoms.json",
+        "--name",
+        "riding",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--restraints",
+        "--hydrogen",
+        "--dmax",
+        "3",
+        "--cycles",
+        "6"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:18.218161+08:00",
+      "seconds": 6.504054307937622
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\audit_data.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:24.724879+08:00",
+      "seconds": 3.4502696990966797
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "riding_atoms.json",
+        "--name",
+        "final_all_data",
+        "--dmin",
+        "0.69",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--restraints",
+        "--hydrogen",
+        "--cycles",
+        "7"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:28.194899+08:00",
+      "seconds": 16.993164777755737
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "riding_atoms.json",
+        "--name",
+        "highangle_check",
+        "--dmin",
+        "1.0",
+        "--dmax",
+        "3",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--restraints",
+        "--hydrogen",
+        "--cycles",
+        "6"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:45.190532+08:00",
+      "seconds": 7.280945062637329
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "final_all_data_atoms.json",
+        "--name",
+        "no_dispersion",
+        "--dmin",
+        "0.69",
+        "--aniso",
+        "all",
+        "--fix-zr-fp",
+        "0",
+        "--restraints",
+        "--hydrogen",
+        "--cycles",
+        "6"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:38:52.472480+08:00",
+      "seconds": 15.80175256729126
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "riding_atoms.json",
+        "--name",
+        "holdout_check",
+        "--dmin",
+        "0.69",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--restraints",
+        "--hydrogen",
+        "--holdout",
+        "--cycles",
+        "6"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:39:08.276299+08:00",
+      "seconds": 15.208455801010132
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "aniso_all_atoms.json",
+        "--name",
+        "aniso_fp",
+        "--aniso",
+        "all",
+        "--zr-fp",
+        "--cycles",
+        "5"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:39:23.485752+08:00",
+      "seconds": 16.023892641067505
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\refine.py",
+        "--input",
+        "aniso_all_atoms.json",
+        "--name",
+        "restrained",
+        "--aniso",
+        "all",
+        "--restraints",
+        "--cycles",
+        "5"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:39:39.511795+08:00",
+      "seconds": 6.953242778778076
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\solvent_density.py",
+        "--input",
+        "highangle",
+        "--name",
+        "pore_cv",
+        "--holdout",
+        "--iterations",
+        "201"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:39:46.466045+08:00",
+      "seconds": 35.105297565460205
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\bulk_pore.py",
+        "--input",
+        "highangle",
+        "--kind",
+        "layered",
+        "--name",
+        "bulk_layered"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:21.572343+08:00",
+      "seconds": 2.222109079360962
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\bulk_pore.py",
+        "--input",
+        "riding",
+        "--kind",
+        "radial",
+        "--name",
+        "bulk_radial"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:23.796686+08:00",
+      "seconds": 2.4639780521392822
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\solvent_density.py",
+        "--input",
+        "restrained",
+        "--name",
+        "pore_conservative_cv",
+        "--holdout",
+        "--iterations",
+        "81",
+        "--cap",
+        "0.5",
+        "--smooth",
+        "0.3",
+        "--dmin",
+        "3"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:26.262392+08:00",
+      "seconds": 15.407390594482422
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\diagnostics.py",
+        "final_all_data"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:41.684515+08:00",
+      "seconds": 1.3804068565368652
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\diagnostics.py",
+        "highangle_check"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:43.066932+08:00",
+      "seconds": 1.3443927764892578
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\export_results.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:44.412325+08:00",
+      "seconds": 7.01528525352478
+    },
+    {
+      "argv": [
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+        "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\validate_exports.py"
+      ],
+      "exit_code": 0,
+      "started": "2026-09-22T03:40:51.429111+08:00",
+      "seconds": 5.015081405639648
+    }
+  ],
+  "external_downloads": false,
+  "crystallographic_software_used": false,
+  "inputs_unchanged": true,
+  "compacted_generated_maps": [
+    "isotropic_fo.npy",
+    "isotropic_diff.npy",
+    "isotropic_2fofc.npy",
+    "aniso_heavy_fo.npy",
+    "aniso_heavy_diff.npy",
+    "aniso_heavy_2fofc.npy",
+    "aniso_all_fo.npy",
+    "aniso_all_diff.npy",
+    "aniso_all_2fofc.npy",
+    "aniso_fp_fo.npy",
+    "aniso_fp_diff.npy",
+    "aniso_fp_2fofc.npy",
+    "restrained_fo.npy",
+    "restrained_diff.npy",
+    "restrained_2fofc.npy",
+    "highangle_fo.npy",
+    "highangle_diff.npy",
+    "highangle_2fofc.npy",
+    "riding_fo.npy",
+    "riding_diff.npy",
+    "riding_2fofc.npy",
+    "final_all_data_fo.npy",
+    "final_all_data_diff.npy",
+    "final_all_data_2fofc.npy",
+    "highangle_check_fo.npy",
+    "highangle_check_diff.npy",
+    "highangle_check_2fofc.npy",
+    "no_dispersion_fo.npy",
+    "no_dispersion_diff.npy",
+    "no_dispersion_2fofc.npy",
+    "holdout_check_fo.npy",
+    "holdout_check_diff.npy",
+    "holdout_check_2fofc.npy",
+    "patterson.npy",
+    "heavy_fourier.npy",
+    "heavy_difference.npy"
+  ],
+  "finished": "2026-09-22T03:40:57.848983+08:00",
+  "seconds": 193.09782218933105
+}

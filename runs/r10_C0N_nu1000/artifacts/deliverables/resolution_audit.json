@@ -1,0 +1,129 @@
+{
+  "shells": [
+    {
+      "d_min": 0.691,
+      "d_max": 0.8,
+      "measured": 3045,
+      "expected": 4430,
+      "completeness": 0.6873589164785553,
+      "cc_half": -0.11981543323037433,
+      "paired_halves": 2912
+    },
+    {
+      "d_min": 0.8,
+      "d_max": 0.9,
+      "measured": 2296,
+      "expected": 2417,
+      "completeness": 0.9499379395945386,
+      "cc_half": -0.022273892529853057,
+      "paired_halves": 2296
+    },
+    {
+      "d_min": 0.9,
+      "d_max": 1,
+      "measured": 1553,
+      "expected": 1557,
+      "completeness": 0.9974309569685292,
+      "cc_half": 0.23728395425627338,
+      "paired_halves": 1553
+    },
+    {
+      "d_min": 1,
+      "d_max": 1.1,
+      "measured": 1050,
+      "expected": 1051,
+      "completeness": 0.9990485252140818,
+      "cc_half": 0.5426366224096459,
+      "paired_halves": 1050
+    },
+    {
+      "d_min": 1.1,
+      "d_max": 1.2,
+      "measured": 737,
+      "expected": 738,
+      "completeness": 0.9986449864498645,
+      "cc_half": 0.8121829908953627,
+      "paired_halves": 737
+    },
+    {
+      "d_min": 1.2,
+      "d_max": 1.5,
+      "measured": 1223,
+      "expected": 1223,
+      "completeness": 1.0,
+      "cc_half": 0.9453395718009129,
+      "paired_halves": 1223
+    },
+    {
+      "d_min": 1.5,
+      "d_max": 2,
+      "measured": 766,
+      "expected": 766,
+      "completeness": 1.0,
+      "cc_half": 0.9941003790349072,
+      "paired_halves": 766
+    },
+    {
+      "d_min": 2,
+      "d_max": 3,
+      "measured": 417,
+      "expected": 417,
+      "completeness": 1.0,
+      "cc_half": 0.9976539317763904,
+      "paired_halves": 417
+    },
+    {
+      "d_min": 3,
+      "d_max": 5,
+      "measured": 151,
+      "expected": 151,
+      "completeness": 1.0,
+      "cc_half": 0.9984553738749671,
+      "paired_halves": 151
+    },
+    {
+      "d_min": 5,
+      "d_max": 15,
+      "measured": 51,
+      "expected": 51,
+      "completeness": 1.0,
+      "cc_half": 0.9973582585224195,
+      "paired_halves": 51
+    },
+    {
+      "d_min": 15,
+      "d_max": 100,
+      "measured": 0,
+      "expected": 4,
+      "completeness": 0.0,
+      "cc_half": null,
+      "paired_halves": 0
+    }
+  ],
+  "volume": 22092.80153000264,
+  "missing_d_above_8": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      -1,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ]
+  ],
+  "wavelength": 0.68883,
+  "random_seed": 20260922,
+  "note": "CC1/2 from random inverse-variance half-dataset merges."
+}

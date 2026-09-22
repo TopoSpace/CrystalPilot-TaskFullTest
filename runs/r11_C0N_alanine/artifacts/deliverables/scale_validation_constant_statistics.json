@@ -1,0 +1,29 @@
+{
+  "scales": [
+    1.0,
+    1.0363465167682329,
+    1.0634034107200097,
+    1.1360293901987897,
+    1.0243651217674852,
+    1.0430486894952995
+  ],
+  "Rint_all": 0.07103494317671219,
+  "Rint_filtered": 0.04406693350690184,
+  "rejected_robust": 50,
+  "Rrms": 0.14320613567804427,
+  "observations": 3827,
+  "unique": 666,
+  "unique_allowed": 649,
+  "I_gt_2sigma": 590,
+  "scan_polynomial": false,
+  "scale_coefficients": [
+    0.03570156355779506,
+    0.06147452945554514,
+    0.12753919161815824,
+    0.024073027289458985,
+    0.04214785709137692
+  ],
+  "scale_validation_unique": 128,
+  "scale_validation_Rint_all": 0.07243796775506493,
+  "scale_validation_Rint_filtered": 0.0511476519330944
+}

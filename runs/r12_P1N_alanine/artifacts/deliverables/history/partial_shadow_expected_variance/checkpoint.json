@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-22T05:10:22.501027",
+  "sha256": {
+    "refined_model.json": "1914ea537b0579565f5ff838bb3597d51fa825e86264216233b58454da36bc64",
+    "merged.npy": "faeb125d7f644fed49c930508b3894e295da623df87b2b92fa4d33101a37c1c4",
+    "merged_all.csv": "50b4ae7c7d64252c0de0ce971f4a0c95db80d9f3a3d605e7a6c24093b43763cd",
+    "refinement_reflections.csv": "b7c8486429acc62b266ee83b47c10e67562f4254ed08a2376335713440d51f81",
+    "refinement_covariance.npy": "fbc7a9d2048a5f668c8b5164d7e98dcce174b0747f5ce99840d2667cb870b6f2",
+    "merging_statistics.json": "b0697e5d4d5787415264ce84101e0ff0814f48d2584d85408a40e372499debd4",
+    "difference_statistics.json": "173b80ea4015a44d865a5182e0aeee62507e49561ee1a3cd060e1cb4cd671e81",
+    "bond_geometry.json": "e4606a7c5f7e9aaae410601eeda9b696bcd39a8caeab3b25644e2e70abb6feb8",
+    "integration_settings.json": "cd446daa647726deaa337a3d52766fcbb0ed5574d3c981137b668a98c2bf48ad",
+    "mask_settings.json": "4c0ab4e375a3c0b9484b4a11b89d7d79a709840a3c103b7ded862bd6d2dfc3a9",
+    "refinement_stages.json": "e588cb498cd21bfaf57668175ca49e14a7412edda7d28d88e5a94d424ddf700c"
+  }
+}

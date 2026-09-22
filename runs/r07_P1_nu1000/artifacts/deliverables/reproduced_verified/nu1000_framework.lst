@@ -1,0 +1,1663 @@
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  nu1000_framework           started at 00:11:37 on 22-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: nu1000_framework -a50000 -b3000 -c624 -g0 -m0 -t4
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running  4 threads on  8 processors
+
+ TITL NU1000 framework only: SHELXT-derived atomic sites
+ REM Experimental temperature and cell e.s.d.s were not supplied.
+ REM Formula describes the coordinate model only.
+ REM Unassigned node H and pore contents are omitted.
+ CELL  0.68883  39.1900  39.1900  16.6100   90.000   90.000  120.000
+ ZERR 3 0 0 0 0 0 0
+ LATT  1
+ SYMM -Y, X-Y, Z
+ SYMM -X+Y, -X, Z
+ SYMM -X, -Y, Z
+ SYMM Y, -X+Y, Z
+ SYMM X-Y, X, Z
+ SYMM Y, X, -Z
+ SYMM X-Y, -Y, -Z
+ SYMM -X, -X+Y, -Z
+ SYMM -Y, -X, -Z
+ SYMM -X+Y, Y, -Z
+ SYMM X, X-Y, -Z
+ SFAC C O ZR H
+ DISP C 0.002849 0.001502 10.991356
+ DISP O 0.010096 0.005662 30.280019
+ DISP Zr -8.668698 3.732734 14341.910601
+ DISP H 0.000000 0.000000 0.622647
+ UNIT 264 96 18 132
+
+ V =    22092.79     F(000) =    3204.0     Mu =   1.20 mm-1      Cell Wt =     6481.65    Rho =  0.487
+
+ L.S. 30
+ SHEL 100 1.1
+ BOND $H
+ ACTA
+ LIST 6
+ FMAP 2
+ PLAN 40
+ ABIN
+ EQIV $11 2-Y,2-X,Z
+ EQIV $12 X,Y,2-Z
+ EQIV $13 2-Y,2-X,2-Z
+ RIGU 0.008 0.016
+ SIMU 0.02 0.04 2.0
+ DFIX 1.39 0.025 C2 C3 C3 C6 C6 C5 C5 C7 C7 C4 C4 C2
+ DANG 2.408 0.045 C2 C6 C3 C5 C6 C7 C5 C4 C7 C2 C4 C3
+ FLAT 0.025 C2 C3 C6 C5 C7 C4
+ FLAT 0.04 O1 O2 C1 C2
+ SADI 0.025 C1 O1 C1 O2
+ DFIX 1.40 0.035 C8 C9 C9 C10 C8 C12
+ DFIX 1.43 0.035 C9 C11 C10 C10_$12
+ DFIX 1.36 0.035 C11 C11_$12
+ DANG 2.42 0.06 C8 C10 C8 C11 C10 C11 C9 C12 C9 C11_$12
+ FLAT 0.03 C8 C9 C10 C11 C12 C8_$11 C9_$11 C11_$11 =
+  C8_$12 C9_$12 C10_$12 C11_$12 C12_$12 C8_$13 C9_$13 C11_$13
+ WGHT    0.200000
+ FVAR       0.05425
+ ZR1   3    1.000000    0.455055    0.393714    10.50000    0.07853    0.10219 =
+          0.09278   -0.01208    0.00000    0.03927
+ ZR2   3    1.072265    0.536133    0.500000    10.25000    0.07086    0.09518 =
+          0.07863    0.00000    0.00000    0.03543
+ O1    2    1.105341    0.586892    0.582493    11.00000    0.08003    0.10916 =
+          0.09775   -0.00032    0.00549    0.03707
+ O2    2    1.058562    0.593182    0.649375    11.00000    0.09441    0.12525 =
+          0.12839   -0.02509   -0.00297    0.05314
+ O3    2    1.035893    0.473052    0.500000    10.50000    0.11261    0.12059 =
+          0.10765    0.00000    0.00000    0.01696
+ O4    2    1.000000    0.462606    0.261200    10.50000    0.09335    0.21451 =
+          0.08375   -0.03819    0.00000    0.04667
+ O5    2    1.035982    0.517991    0.393263    10.50000    0.09853    0.12501 =
+          0.16674   -0.01597   -0.03194    0.04927
+ O6    2    1.000000    0.400160    0.410025    10.50000    0.09953    0.11479 =
+          0.26633   -0.01712    0.00000    0.04977
+ C2    1    1.125775    0.632769    0.684716    11.00000    0.10590    0.11965 =
+          0.10680   -0.03122   -0.00459    0.02786
+ C5    1    1.184839    0.689721    0.778554    11.00000    0.11909    0.12579 =
+          0.09435   -0.00728   -0.00529    0.00219
+ C3    1    1.164501    0.641685    0.675608    11.00000    0.09634    0.13341 =
+          0.11382   -0.04438   -0.01837    0.03385
+ AFIX  43
+ H3    4    1.170411    0.628106    0.637303    11.00000   -1.20000
+ AFIX   0
+ C1    1    1.093347    0.601724    0.634712    11.00000    0.09463    0.11415 =
+          0.09882   -0.01046    0.00511    0.04513
+ C4    1    1.114450    0.652197    0.740736    11.00000    0.12390    0.11878 =
+          0.11421   -0.04339   -0.00316    0.01254
+ AFIX  43
+ H4    4    1.088424    0.646287    0.745843    11.00000   -1.20000
+ AFIX   0
+ C6    1    1.194039    0.669623    0.720888    11.00000    0.11297    0.13987 =
+          0.11170   -0.03300   -0.01298    0.02155
+ AFIX  43
+ H6    4    1.219893    0.675296    0.713721    11.00000   -1.20000
+ AFIX   0
+ C12   1    1.247826    0.752174    0.788825    10.50000    0.13665    0.13665 =
+          0.10147   -0.00960    0.00960   -0.01293
+ AFIX  43
+ H12   4    1.248090    0.751910    0.732845    10.50000   -1.20000
+ AFIX   0
+ C7    1    1.144806    0.681109    0.788620    11.00000    0.13978    0.13858 =
+          0.10998   -0.02632    0.01059    0.00532
+ AFIX  43
+ H7    4    1.138962    0.694720    0.826969    11.00000   -1.20000
+ AFIX   0
+ C9    1    1.216702    0.721421    0.914178    11.00000    0.13546    0.12462 =
+          0.08859   -0.00177    0.00204   -0.00997
+ C8    1    1.216607    0.721344    0.830144    11.00000    0.12640    0.11365 =
+          0.09508   -0.00960   -0.00004    0.00166
+ C10   1    1.247651    0.752349    0.956975    10.50000    0.11842    0.11842 =
+          0.08185   -0.00275    0.00275   -0.02486
+ C11   1    1.184726    0.689360    0.959470    11.00000    0.15072    0.14144 =
+          0.09018    0.00888   -0.00392   -0.01482
+ AFIX  43
+ H11   4    1.164105    0.668684    0.931876    11.00000   -1.20000
+ AFIX   0
+ HKLF 4
+
+
+
+ Covalent radii and connectivity table for  NU1000 framework only: SHELXT-derived atomic sites                         
+ C      0.770
+ O      0.660
+ ZR     1.590
+ H      0.320
+
+ Zr1 - O5_$2 O5 O3 O3_$6 O6 O4 O2_$1 O2_$5 Zr2 Zr2_$1 Zr1_$2 Zr1_$3
+ Zr2 - O3_$4 O3 O5 O5_$3 O1_$3 O1_$4 O1_$5 O1 Zr1_$2 Zr1_$1 Zr1_$3 Zr1
+ O1 - C1 Zr2
+ O2 - C1 Zr1_$1
+ O3 - Zr1_$3 Zr1 Zr2
+ O4 - Zr1
+ O5 - Zr1 Zr1_$2 Zr2
+ O6 - Zr1
+ C2 - C3 C4 C1
+ C5 - C6 C7 C8
+ C3 - C6 C2
+ C1 - O2 O1 C2
+ C4 - C2 C7
+ C6 - C3 C5
+ C12 - C8_$11 C8
+ C7 - C4 C5
+ C9 - C8 C10 C11
+ C8 - C9 C12 C5
+ C10 - C9 C9_$11 C10_$12
+ C11 - C11_$12 C9
+
+
+ Operators for generating equivalent atoms:
+ $1   -x+2, -y+1, -z+1
+ $2   -x+2, -y+1, z
+ $3   x, y, -z+1
+ $4   x, x-y, z
+ $5   x, x-y, -z+1
+ $6   -x+2, -x+y+1, -z+1
+ $11  -y+2, -x+2, z
+ $12  x, y, -z+2
+ $13  -y+2, -x+2, -z+2
+
+   218952  Reflections outside SHEL resolution limits rejected
+
+
+   337815  Reflections read, of which  218952  rejected
+
+ -35 =< h =< 35,    -35 =< k =< 35,    -15 =< l =< 15,   Max. 2-theta =   36.48
+
+        0  Systematic absence violations (I>3sig(I)) before merging
+
+        0  Inconsistent equivalents
+
+     3345  Unique reflections, of which       0  suppressed
+
+ R(int) = 0.4308     R(sigma) = 0.0862      Friedel opposites merged
+
+ Maximum memory for data reduction =     2918 /    36568
+
+
+ Reflection statistics for all twin components combined (TWST 0 set)
+ Number of data for d > 1.100A (CIF: max) and d > 1.100A (CIF: full)
+ (ignoring systematic absences):
+ Unique reflections found (point group)       3345    3345
+ Unique reflections possible (point group)    3350    3350
+ Unique reflections found (Laue group)        3345    3345
+ Unique reflections possible (Laue group)     3350    3350
+
+ Special position constraints for Zr1
+ x =  1.0000   U13 = 0   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for Zr2
+ z =  0.5000   y =  0.5 * x + 0.0000   U23 = 0   U13 = 0   U12 = 0.5 * U11   
+ sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O3
+ z =  0.5000   U23 = 0   U13 = 0   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O4
+ x =  1.0000   U13 = 0   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O5
+ y =  0.5 * x + 0.0000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O6
+ x =  1.0000   U13 = 0   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C12
+ y = -1.0 * x + 2.0000   U22 = 1.0 * U11   U13 =-1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C10
+ y = -1.0 * x + 2.0000   U22 = 1.0 * U11   U13 =-1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+
+ Default effective X-H and X-D distances for T =   20.0C 
+ AFIX m =    1     2     3     4   4[N]  3[N]  15[B]  8[O]   9   9[N]   16
+ d(X-H) =  0.98  0.97  0.96  0.93  0.86  0.89  1.10  0.82  0.93  0.86  0.93
+
+ Note that these distances are chosen to give the best fit to the X-ray data
+ and so avoid the introduction of systematic error.  The true internuclear
+ distances are longer and do not vary with temperature!  The apparent
+ variation with temperature is caused by libration.
+
+
+ Least-squares cycle   1   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   1 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    1
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5226  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0043  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034    -0.009    OSF
+
+ Mean shift/esd =   0.001  Maximum =    -0.009 for  OSF          
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C3         
+
+
+ Least-squares cycle   2   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   2 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    2
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =    -0.001 for  U22 Zr1      
+
+ Max. shift = 0.000 A for O1        Max. dU = 0.000 for O1         
+
+
+ Least-squares cycle   3   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   3 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    3
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C5         
+
+
+ Least-squares cycle   4   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   4 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    4
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for C10        Max. dU = 0.000 for O4        
+
+
+ Least-squares cycle   5   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   5 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    5
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C6         
+
+
+ Least-squares cycle   6   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   6 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    6
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for O4         
+
+
+ Least-squares cycle   7   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   7 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    7
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O6         
+
+
+ Least-squares cycle   8   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   8 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    8
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O5        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle   9   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle   9 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle    9
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  10   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  10 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   10
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  11   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  11 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   11
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O6         
+
+
+ Least-squares cycle  12   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  12 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   12
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C11       
+
+
+ Least-squares cycle  13   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  13 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   13
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O6         
+
+
+ Least-squares cycle  14   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  14 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   14
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  15   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  15 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   15
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O6         
+
+
+ Least-squares cycle  16   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  16 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   16
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  17   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  17 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   17
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C6         
+
+
+ Least-squares cycle  18   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  18 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   18
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  19   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  19 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   19
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O5         
+
+
+ Least-squares cycle  20   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  20 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   20
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C11       
+
+
+ Least-squares cycle  21   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  21 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   21
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O5         
+
+
+ Least-squares cycle  22   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  22 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   22
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for O5        
+
+
+ Least-squares cycle  23   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  23 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   23
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O4         
+
+
+ Least-squares cycle  24   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  24 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   24
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O4        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  25   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  25 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   25
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O4         
+
+
+ Least-squares cycle  26   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  26 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   26
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for C12        Max. dU = 0.000 for C11       
+
+
+ Least-squares cycle  27   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  27 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   27
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for O4         
+
+
+ Least-squares cycle  28   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  28 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   28
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for C12        Max. dU = 0.000 for C4        
+
+
+ Least-squares cycle  29   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  29 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   29
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for O2        Max. dU = 0.000 for C11        
+
+
+ Least-squares cycle  30   Maximum vector length =  623   Memory required =     45 /   3349 /   233565
+
+ wR2 =  0.3161 before cycle  30 for    3345 data and    155 /    155 parameters
+
+
+ Summary of restraints applied in cycle   30
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05425     0.00034     0.000    OSF
+
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr2      
+
+ Max. shift = 0.000 A for C12        Max. dU = 0.000 for C3        
+
+
+ Largest correlation matrix elements
+
+     0.735 y C9 / x C9                       0.584 y C1 / x C1                       0.514 U13 O2 / U23 O2
+     0.713 y C8 / x C8                       0.563 U12 O2 / U11 O2                   0.506 U12 O1 / U22 O1
+     0.610 y C11 / x C11                     0.552 U22 Zr1 / OSF                     0.505 U13 O1 / U23 O1
+     0.594 U12 O2 / U22 O2                   0.515 x C7 / x C5                       0.504 y O2 / x O2
+
+
+
+ Idealized hydrogen atom generation before cycle  31
+
+ Name     x       y       z    AFIX  d(X-H)  shift  Bonded to  Conformation determined by
+ H3    1.1704  0.6281  0.6373   43   0.930   0.000   C3            C6  C2  
+ H4    1.0884  0.6463  0.7458   43   0.930   0.000   C4            C2  C7  
+ H6    1.2199  0.6753  0.7137   43   0.930   0.000   C6            C3  C5  
+ H12   1.2481  0.7519  0.7328   43   0.930   0.000   C12           C8_$11  C8  
+ H7    1.1390  0.6947  0.8270   43   0.930   0.000   C7            C4  C5  
+ H11   1.1641  0.6687  0.9319   43   0.930   0.000   C11           C11_$12  C9  
+
+
+
+  NU1000 framework only: SHELXT-derived atomic sites                         
+
+ ATOM           x        y        z         sof        U11      U22      U33      U23      U13      U12       Ueq
+
+ Zr1         1.00000  0.45506  0.39371    0.50000    0.07853  0.10219  0.09278 -0.01208  0.00000  0.03927   0.09380
+   0.00259   0.00000  0.00005  0.00011    0.00000    0.00139  0.00132  0.00154  0.00100  0.00000  0.00070   0.00091
+
+ Zr2         1.07227  0.53613  0.50000    0.25000    0.07086  0.09518  0.07863  0.00000  0.00000  0.03543   0.08426
+   0.00409   0.00007  0.00003  0.00000    0.00000    0.00175  0.00160  0.00179  0.00000  0.00000  0.00087   0.00100
+
+ O1          1.10534  0.58689  0.58249    1.00000    0.08003  0.10916  0.09775 -0.00032  0.00549  0.03707   0.10019
+   0.01460   0.00018  0.00020  0.00041    0.00000    0.00452  0.00529  0.00483  0.00417  0.00400  0.00399   0.00220
+
+ O2          1.05856  0.59318  0.64937    1.00000    0.09441  0.12525  0.12839 -0.02509 -0.00297  0.05314   0.11681
+   0.01574   0.00022  0.00021  0.00044    0.00000    0.00512  0.00576  0.00569  0.00468  0.00486  0.00483   0.00248
+
+ O3          1.03589  0.47305  0.50000    0.50000    0.11261  0.12059  0.10765  0.00000  0.00000  0.01696   0.13199
+   0.01919   0.00030  0.00030  0.00000    0.00000    0.00833  0.00847  0.00774  0.00000  0.00000  0.00661   0.00394
+
+ O4          1.00000  0.46261  0.26120    0.50000    0.09335  0.21451  0.08375 -0.03819  0.00000  0.04667   0.14400
+   0.01507   0.00000  0.00034  0.00059    0.00000    0.00731  0.00950  0.00713  0.00663  0.00000  0.00365   0.00440
+
+ O5          1.03598  0.51799  0.39326    0.50000    0.09853  0.12501  0.16674 -0.01597 -0.03194  0.04927   0.13304
+   0.01914   0.00029  0.00015  0.00068    0.00000    0.00757  0.00660  0.01046  0.00357  0.00714  0.00379   0.00407
+
+ O6          1.00000  0.40016  0.41002    0.50000    0.09953  0.11479  0.26633 -0.01712  0.00000  0.04977   0.16191
+   0.01766   0.00000  0.00028  0.00087    0.00000    0.00795  0.00651  0.01417  0.00779  0.00000  0.00398   0.00494
+
+ C2          1.12578  0.63277  0.68472    1.00000    0.10590  0.11965  0.10680 -0.03122 -0.00459  0.02786   0.12346
+   0.02559   0.00035  0.00031  0.00061    0.00000    0.00710  0.00772  0.00732  0.00627  0.00670  0.00663   0.00369
+
+ C5          1.18484  0.68972  0.77855    1.00000    0.11909  0.12579  0.09435 -0.00728 -0.00529  0.00219   0.13931
+   0.02617   0.00038  0.00034  0.00065    0.00000    0.00765  0.00824  0.00717  0.00632  0.00697  0.00710   0.00440
+
+ C3          1.16450  0.64169  0.67561    1.00000    0.09634  0.13341  0.11382 -0.04438 -0.01837  0.03385   0.12500
+   0.02384   0.00033  0.00029  0.00057    0.00000    0.00728  0.00853  0.00760  0.00657  0.00691  0.00711   0.00378
+
+ H3          1.17041  0.62811  0.63730    1.00000    0.15000
+                                          0.00000    0.00000
+
+ C1          1.09335  0.60172  0.63471    1.00000    0.09463  0.11415  0.09882 -0.01046  0.00511  0.04513   0.10567
+   0.02735   0.00035  0.00030  0.00061    0.00000    0.00695  0.00745  0.00719  0.00596  0.00644  0.00629   0.00330
+
+ C4          1.11445  0.65220  0.74074    1.00000    0.12390  0.11878  0.11421 -0.04339 -0.00316  0.01254   0.14035
+   0.02411   0.00034  0.00032  0.00064    0.00000    0.00839  0.00867  0.00825  0.00675  0.00684  0.00673   0.00440
+
+ H4          1.08842  0.64629  0.74584    1.00000    0.16842
+                                          0.00000    0.00000
+
+ C6          1.19404  0.66962  0.72089    1.00000    0.11297  0.13987  0.11170 -0.03300 -0.01298  0.02155   0.14003
+   0.02546   0.00035  0.00032  0.00064    0.00000    0.00826  0.00928  0.00846  0.00704  0.00705  0.00709   0.00440
+
+ H6          1.21989  0.67530  0.71372    1.00000    0.16804
+                                          0.00000    0.00000
+
+ C12         1.24783  0.75217  0.78883    0.50000    0.13665  0.13665  0.10147 -0.00960  0.00960 -0.01293   0.16104
+   0.01628   0.00018  0.00018  0.00098    0.00000    0.00813  0.00813  0.01098  0.00668  0.00668  0.01066   0.00730
+
+ H12         1.24809  0.75191  0.73285    0.50000    0.19325
+                                          0.00000    0.00000
+
+ C7          1.14481  0.68111  0.78862    1.00000    0.13978  0.13858  0.10998 -0.02632  0.01059  0.00532   0.15801
+   0.02687   0.00038  0.00035  0.00067    0.00000    0.00888  0.00908  0.00797  0.00714  0.00781  0.00803   0.00499
+
+ H7          1.13896  0.69472  0.82697    1.00000    0.18961
+                                          0.00000    0.00000
+
+ C9          1.21670  0.72142  0.91418    1.00000    0.13546  0.12462  0.08859 -0.00177  0.00204 -0.00997   0.14955
+   0.02368   0.00028  0.00029  0.00067    0.00000    0.00810  0.00782  0.00654  0.00641  0.00652  0.00686   0.00483
+
+ C8          1.21661  0.72134  0.83014    1.00000    0.12640  0.11365  0.09508 -0.00960 -0.00004  0.00166   0.13765
+   0.02352   0.00029  0.00029  0.00066    0.00000    0.00782  0.00752  0.00675  0.00636  0.00644  0.00654   0.00420
+
+ C10         1.24765  0.75235  0.95697    0.50000    0.11842  0.11842  0.08185 -0.00275  0.00275 -0.02486   0.14360
+   0.01066   0.00011  0.00011  0.00064    0.00000    0.00682  0.00682  0.00902  0.00554  0.00554  0.00933   0.00660
+
+ C11         1.18473  0.68936  0.95947    1.00000    0.15072  0.14144  0.09018  0.00888 -0.00392 -0.01482   0.16649
+   0.02385   0.00031  0.00031  0.00049    0.00000    0.00960  0.00936  0.00720  0.00643  0.00663  0.00794   0.00559
+
+ H11         1.16411  0.66868  0.93188    1.00000    0.19979
+                                          0.00000    0.00000
+
+
+
+ Final Structure Factor Calculation for  NU1000 framework only: SHELXT-derived atomic sites                         
+
+ Total number of l.s. parameters =   155  Maximum vector length =  623   Memory required =     45 /   3194 /    28035
+
+ wR2 =  0.3161 before cycle  31 for    3345 data and      0 /    155 parameters
+
+
+ Summary of restraints applied in cycle   31
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0      12      11       1       0       0      17       0     148      84       0       0
+
+ rms sigma      0.0000  0.0304  0.0524  0.0250  0.0000  0.0000  0.0299  0.0000  1.5225  0.0200  0.0000  0.0000
+
+ rms deviation  0.0000  0.0219  0.0408  0.0044  0.0000  0.0000  0.0122  0.0000  0.0215  0.0120  0.0000  0.0000
+
+
+ GooF = S =     1.021;     Restrained GooF =      0.988 for     273 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.2000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ wR2 = 0.3161, GooF = S = 1.021, Restrained GooF = 0.988 for all data
+ R1 = 0.0876 for 1837 Fo > 4sig(Fo) and 0.1278 for all 3345 data
+
+ R.m.s. bond length deviation (from DFIX values)  0.0229 (A)
+ R.m.s. bond angle deviation (estimated from DANG)  3.23 (deg.)
+
+ Occupancy sum of asymmetric unit =    15.75 for non-hydrogen and     5.50 for H and D atoms
+
+
+
+ Principal mean square atomic displacements U
+
+   0.1178   0.0850   0.0785   Zr1  
+   0.1033   0.0786   0.0709   Zr2  
+   0.1237   0.0985   0.0783   O1  
+   0.1560   0.1017   0.0927   O2  
+   0.1995   0.1077   0.0889   O3  
+   0.2656   0.0933   0.0731   O4    may be split into  1.0030  0.4685  0.2583  and  0.9970  0.4567  0.2641
+   0.1794   0.1338   0.0859   O5  
+   0.2690   0.1173   0.0995   O6  
+   0.1821   0.1109   0.0775   C2  
+   0.2406   0.0978   0.0795   C5  
+   0.1877   0.1178   0.0695   C3  
+   0.1312   0.0966   0.0892   C1  
+   0.2317   0.1217   0.0677   C4  
+   0.2173   0.1249   0.0778   C6  
+   0.3010   0.0996   0.0825   C12    may be split into  1.2478  0.7579  0.7875  and  1.2478  0.7465  0.7901
+   0.2759   0.1085   0.0896   C7    may be split into  1.1448  0.6862  0.7859  and  1.1448  0.6760  0.7913
+   0.2803   0.0885   0.0799   C9    may be split into  1.2165  0.7269  0.9139  and  1.2169  0.7159  0.9144
+   0.2377   0.0967   0.0785   C8  
+   0.2867   0.0817   0.0624   C10    may be split into  1.2477  0.7581  0.9566  and  1.2477  0.7466  0.9573
+   0.3226   0.0918   0.0851   C11    may be split into  1.1846  0.6954  0.9603  and  1.1849  0.6833  0.9587
+
+ ** Warning:     6  atoms may be split and     0  atoms NPD **
+
+
+
+ Analysis of variance for reflections employed in refinement      K = Mean[Fo^2] / Mean[Fc^2]  for group
+
+
+ Fc/Fc(max)       0.000    0.007    0.012    0.018    0.025    0.033    0.041    0.053    0.076    0.123    1.000
+
+ Number in group       383.     340.     322.     316.     355.     296.     333.     334.     332.     334.
+
+            GooF      0.728    0.857    0.812    0.930    1.145    1.199    1.134    1.234    1.050    1.027
+
+             K       -8.295   -0.129    1.077    1.151    1.138    1.097    1.031    1.060    1.013    1.023
+
+
+ Resolution(A)    1.10     1.14     1.19     1.25     1.32     1.40     1.52     1.68     1.95     2.50     inf
+
+ Number in group       336.     348.     324.     329.     343.     326.     335.     336.     336.     332.
+
+            GooF      0.688    0.690    0.675    0.674    0.715    0.694    0.685    0.750    0.939    2.386
+
+             K        1.100    1.090    1.001    0.945    0.949    0.971    0.972    0.976    1.004    1.060
+
+             R1       0.220    0.216    0.222    0.209    0.181    0.102    0.079    0.082    0.067    0.135
+
+
+ Recommended weighting scheme:  WGHT    0.2000    0.0000
+ [Weight parameters refined to    0.2067        0.00  but appear excessive]
+
+
+ Most Disagreeable Reflections (* if suppressed or used for Rfree).
+ Error/esd is calculated as sqrt(wD^2/<wD^2>) where w is given by the weight
+ formula, D = Fo^2-Fc^2 and <> refers to the average over all reflections.
+
+     h   k   l          Fo^2          Fc^2    Error/esd  Fc/Fc(max)  Resolution(A)
+
+    -1   3   0       5988.95        307.38      11.05       0.025      12.83
+     0  10   2       4969.91        245.15      10.64       0.022       3.14
+    -2  10   1       6248.18        690.98      10.08       0.038       3.61
+     0   1   2      11049.31       1536.37       9.33       0.056       8.07
+    -3   8   0       5771.03        756.07       9.16       0.039       4.85
+    -1   8   1       3058.42        487.29       8.44       0.032       4.34
+    -4   8   2      11864.70       2284.13       8.11       0.069       4.22
+     0   0   2     170243.45      19840.22       7.58       0.202       8.31
+     0   5   1       5400.36       1337.06       6.92       0.052       6.28
+     0   4   1      29517.21       7709.15       6.87       0.126       7.56
+    -1   5   1       3158.16        851.85       6.67       0.042       6.76
+     0   1   3       2037.50        484.13       6.36       0.032       5.46
+    -1   9   2       1133.68        140.59       6.28       0.017       3.58
+    -3  16   2       1043.99         43.28       6.23       0.009       2.22
+    -5  10   2       4700.78       1334.60       6.12       0.052       3.54
+    -3   6   0      11261.22       3511.66       5.76       0.085       6.53
+    -1   4   1      16610.26       5861.42       5.55       0.110       8.19
+     0   8   1       1684.96        357.14       5.48       0.027       4.11
+    -1   3   2       1397.42       5869.67       5.10       0.110       6.97
+    -2   4   0     134239.05      49377.58       4.99       0.319       9.80
+    -3  10   1       2489.01        905.47       4.83       0.043       3.72
+     0  12   2       1032.22         80.40       4.62       0.013       2.68
+    -1   4   4        422.89       1480.88       4.27       0.055       3.80
+    -2   5   4       1450.53        600.27       4.04       0.035       3.66
+     0   0   3      17801.66       7268.65       3.99       0.122       5.54
+     0   4   4        512.58       1664.54       3.91       0.059       3.73
+    -8  16   0       1285.83         55.12       3.90       0.011       2.45
+    -3   7   0       7796.01       3750.64       3.81       0.088       5.58
+     0   2   2      23747.66      59955.37       3.78       0.351       7.46
+    -4   9   2       3621.86       1746.32       3.77       0.060       3.85
+    -1   9   0       1602.29        513.97       3.72       0.033       3.97
+    -5  11   1       4430.83       2204.50       3.62       0.067       3.48
+    -1   8   0       6835.83       3385.68       3.61       0.084       4.50
+     0   9   4       4643.59       2245.52       3.60       0.068       2.79
+     0   9   3        558.60       1607.42       3.46       0.058       3.12
+     0   3   2        885.50        349.76       3.41       0.027       6.69
+     0   1   4        474.99       1329.43       3.32       0.052       4.12
+    -2   7   2       7589.65       4060.58       3.30       0.091       4.55
+    -1   3   3       1332.74        680.02       3.22       0.037       5.08
+    -3   8   2      26380.72      14387.44       3.22       0.172       4.19
+    -3   9   0       3042.03       1592.32       3.12       0.057       4.28
+    -5  15   2        187.64        716.17       3.06       0.038       2.45
+    -2  11   4        100.37        547.67       2.95       0.034       2.60
+    -6  12   3       2998.92       1681.29       2.81       0.059       2.81
+    -2   6   4       2398.46       1375.39       2.80       0.053       3.49
+     0   3   5        110.21        601.58       2.72       0.035       3.19
+     0   7   2      25525.35      15155.29       2.71       0.177       4.19
+     0   8   2      21047.69      12575.31       2.67       0.161       3.78
+     0  11   5       2009.28       1041.87       2.66       0.046       2.26
+    -5  14   0        700.50        168.98       2.62       0.019       2.76
+
+
+
+ Bond lengths and angles
+
+ Zr1 -           Distance        Angles
+ O5_$2     2.1433 (0.0058) 
+ O5        2.1434 (0.0059)   69.47 (0.45)
+ O3        2.1449 (0.0059)  109.01 (0.44)  71.25 (0.38)
+ O3_$6     2.1450 (0.0058)   71.25 (0.38) 109.01 (0.44)  69.22 (0.45)
+ O6        2.1683 (0.0115)  144.67 (0.23) 144.67 (0.23)  84.15 (0.44)  84.15 (0.44)
+ O4        2.2209 (0.0102)   83.51 (0.43)  83.51 (0.43) 144.65 (0.23) 144.64 (0.23) 104.83 (0.52)
+ O2_$1     2.2394 (0.0073)   76.46 (0.30) 141.01 (0.31) 140.13 (0.32)  76.07 (0.31)  73.19 (0.24)  74.18 (0.24)
+ O2_$5     2.2394 (0.0073)  141.01 (0.32)  76.46 (0.30)  76.07 (0.31) 140.13 (0.32)  73.19 (0.24)  74.18 (0.24) 125.14 (0.38)
+ Zr2       3.4978 (0.0021)   89.28 (0.27)  35.75 (0.27)  35.50 (0.27)  88.99 (0.27) 115.88 (0.25) 115.67 (0.22) 161.94 (0.20)
+ Zr2_$1    3.4978 (0.0021)   35.75 (0.27)  89.28 (0.27)  88.99 (0.27)  35.50 (0.27) 115.88 (0.25) 115.67 (0.22)  72.90 (0.19)
+ Zr1_$2    3.5228 (0.0040)   34.73 (0.22)  34.74 (0.22)  89.95 (0.31)  89.95 (0.31) 172.82 (0.38)  82.34 (0.34) 109.38 (0.19)
+ Zr1_$3    3.5308 (0.0036)   90.20 (0.31)  90.20 (0.31)  34.61 (0.23)  34.61 (0.23)  82.82 (0.38) 172.34 (0.34) 108.64 (0.20)
+                 Zr1             O5_$2         O5            O3            O3_$6         O6            O4            O2_$1        
+
+ Zr2 -           Distance        Angles
+ O3_$4     2.1492 (0.0102) 
+ O3        2.1493 (0.0102)  109.89 (0.63)
+ O5        2.1586 (0.0102)   70.88 (0.22)  70.87 (0.22)
+ O5_$3     2.1586 (0.0102)   70.87 (0.22)  70.87 (0.22) 110.43 (0.61)
+ O1_$3     2.2217 (0.0072)   78.23 (0.29) 141.66 (0.17)  77.39 (0.29) 142.63 (0.17)
+ O1_$4     2.2217 (0.0072)  141.66 (0.17)  78.23 (0.29) 142.63 (0.17)  77.39 (0.29) 119.30 (0.37)
+ O1_$5     2.2217 (0.0072)  141.66 (0.17)  78.23 (0.29)  77.39 (0.29) 142.63 (0.17)  74.26 (0.35)  76.15 (0.33)
+ O1        2.2218 (0.0072)   78.23 (0.29) 141.66 (0.17) 142.63 (0.17)  77.39 (0.29)  76.15 (0.33)  74.26 (0.35) 119.30 (0.37)
+ Zr1_$2    3.4978 (0.0021)   35.42 (0.16)  90.54 (0.28)  35.46 (0.15)  90.83 (0.27)  74.87 (0.18) 165.82 (0.20) 110.30 (0.17)
+ Zr1_$1    3.4978 (0.0021)   35.42 (0.16)  90.54 (0.28)  90.83 (0.27)  35.46 (0.15) 111.20 (0.18) 110.30 (0.17) 165.82 (0.20)
+ Zr1_$3    3.4978 (0.0021)   90.55 (0.28)  35.42 (0.16)  90.83 (0.27)  35.46 (0.15) 165.82 (0.20)  74.87 (0.18) 111.20 (0.18)
+ Zr1       3.4978 (0.0021)   90.55 (0.28)  35.42 (0.16)  35.46 (0.15)  90.83 (0.27) 110.30 (0.17) 111.20 (0.18)  74.87 (0.18)
+                 Zr2             O3_$4         O3            O5            O5_$3         O1_$3         O1_$4         O1_$5        
+
+ O1 -            Distance        Angles
+ C1        1.2587 (0.0101) 
+ Zr2       2.2218 (0.0072)  130.77 (0.74)
+                 O1              C1           
+
+ O2 -            Distance        Angles
+ C1        1.2544 (0.0104) 
+ Zr1_$1    2.2393 (0.0073)  132.97 (0.75)
+                 O2              C1           
+
+ O3 -            Distance        Angles
+ Zr1_$3    2.1449 (0.0059) 
+ Zr1       2.1449 (0.0059)  110.79 (0.45)
+ Zr2       2.1493 (0.0102)  109.08 (0.36) 109.08 (0.36)
+                 O3              Zr1_$3        Zr1          
+
+ O4 -            Distance        Angles
+ Zr1       2.2209 (0.0102) 
+                 O4             
+
+ O5 -            Distance        Angles
+ Zr1       2.1434 (0.0058) 
+ Zr1_$2    2.1434 (0.0058)  110.53 (0.45)
+ Zr2       2.1586 (0.0102)  108.79 (0.36) 108.79 (0.36)
+                 O5              Zr1           Zr1_$2       
+
+ O6 -            Distance        Angles
+ Zr1       2.1683 (0.0115) 
+                 O6             
+
+ C2 -            Distance        Angles
+ C3        1.3849 (0.0120) 
+ C4        1.4073 (0.0123)  122.55 (1.09)
+ C1        1.4963 (0.0150)  121.51 (1.07) 115.95 (1.07)
+                 C2              C3            C4           
+
+ C5 -            Distance        Angles
+ C6        1.3971 (0.0131) 
+ C7        1.4401 (0.0135)  120.36 (1.12)
+ C8        1.5090 (0.0145)  120.85 (1.15) 118.77 (1.13)
+                 C5              C6            C7           
+
+ C3 -            Distance        Angles
+ C6        1.3554 (0.0118) 
+ C2        1.3849 (0.0120)  121.92 (1.11)
+ H3        0.9300           119.04        119.04       
+                 C3              C6            C2           
+
+ C1 -            Distance        Angles
+ O2        1.2544 (0.0104) 
+ O1        1.2587 (0.0101)  128.13 (1.18)
+ C2        1.4963 (0.0151)  118.50 (1.05) 113.36 (1.03)
+                 C1              O2            O1           
+
+ C4 -            Distance        Angles
+ C2        1.4073 (0.0123) 
+ C7        1.4085 (0.0126)  116.14 (1.12)
+ H4        0.9300           121.93        121.93       
+                 C4              C2            C7           
+
+ C6 -            Distance        Angles
+ C3        1.3554 (0.0118) 
+ C5        1.3971 (0.0131)  118.62 (1.15)
+ H6        0.9300           120.69        120.69       
+                 C6              C3            C5           
+
+ C12 -           Distance        Angles
+ C8_$11    1.3962 (0.0118) 
+ C8        1.3962 (0.0117)  121.10 (1.51)
+ H12       0.9300           119.45        119.45       
+                 C12             C8_$11        C8           
+
+ C7 -            Distance        Angles
+ C4        1.4085 (0.0125) 
+ C5        1.4401 (0.0135)  120.40 (1.15)
+ H7        0.9300           119.80        119.80       
+                 C7              C4            C5           
+
+ C9 -            Distance        Angles
+ C8        1.3958 (0.0123) 
+ C10       1.4055 (0.0112)  120.52 (1.03)
+ C11       1.4630 (0.0123)  120.81 (0.98) 118.67 (0.97)
+                 C9              C8            C10          
+
+ C8 -            Distance        Angles
+ C9        1.3958 (0.0123) 
+ C12       1.3962 (0.0118)  119.30 (1.15)
+ C5        1.5090 (0.0144)  124.74 (0.99) 115.96 (1.00)
+                 C8              C9            C12          
+
+ C10 -           Distance        Angles
+ C9        1.4055 (0.0112) 
+ C9_$11    1.4055 (0.0113)  119.24 (1.21)
+ C10_$12   1.4293 (0.0213)  120.38 (0.60) 120.38 (0.60)
+                 C10             C9            C9_$11       
+
+ C11 -           Distance        Angles
+ C11_$12   1.3464 (0.0164) 
+ C9        1.4630 (0.0124)  120.94 (0.59)
+ H11       0.9300           119.53        119.53       
+                 C11             C11_$12       C9           
+
+
+ FMAP and GRID set by program
+
+ FMAP   2   1 152
+ GRID    -0.671  -1  -1     0.671   1   1
+
+ R1 =  0.1198 for   3345 unique reflections after merging for Fourier
+
+
+ Electron density synthesis with coefficients Fo-Fc
+
+ Highest peak    0.58  at  0.0000  0.5000  0.2288  [  1.56 A from O4 ]
+ Deepest hole   -0.56  at  0.4956  0.4825  0.5000  [  1.54 A from O3 ]
+
+
+ Fourier peaks appended to .res file
+
+              x       y       z       sof     U      Peak   Distances to nearest atoms (including eq.)
+
+ Q1    1   1.0000  0.5000  0.2289   0.25000  0.05    0.58   1.56 O4^a  2.99 O5^a  3.26 ZR1^a  3.78 O2^a
+ Q2    1   1.0000  0.4550  0.2050   0.50000  0.05    0.36   0.98 O4^a  3.13 ZR1^a  3.22 O2^a  3.36 O4^a
+ Q3    1   1.0217  0.5741  0.6612   1.00000  0.05    0.34   1.27 O2^a  1.38 ZR1^a  1.80 O4^a  2.00 O6^a
+ Q4    1   1.1024  0.5512  0.5471   0.50000  0.05    0.32   1.29 ZR2^a  1.47 O1^a  2.46 O5^a  2.54 O1^a
+ Q5    1   0.9827  0.4536  0.2170   1.00000  0.05    0.31   0.94 O4^a  2.82 O2^a  3.01 ZR1^a  3.09 O4^a
+ Q6    1   0.9867  0.4523  0.2776   1.00000  0.05    0.30   0.55 O4^a  1.99 ZR1^a  2.15 O2^a  2.62 O5^a
+ Q7    1   1.0000  0.3856  0.5000   0.25000  0.05    0.29   1.60 O6^a  2.98 O3^a  3.24 ZR1^a  3.74 O2^a
+ Q8    1   1.0000  0.0000  0.4034   0.08333  0.05    0.26   15.68 O6^a  15.89 H7^a  15.99 O6^a  16.07 H4^a
+ Q9    1   1.1455  0.6124  0.7194   1.00000  0.05    0.21   1.24 C3^a  1.48 C2^a  1.61 H3^a  2.09 C6^a
+ Q10   1   1.2203  0.6642  0.6644   1.00000  0.05    0.18   0.93 H6^a  1.48 C6^a  1.80 H3^a  1.91 C3^a
+ Q11   1   1.1880  0.6267  0.6430   1.00000  0.05    0.16   0.73 H3^a  1.43 C3^a  2.04 C6^a  2.05 H6^a
+ Q12   1   1.0000  1.0000  0.6954   0.08333  0.05    0.16   15.58 H7^a  15.78 O6^a  15.90 H4^a  16.18 C7^a
+ Q13   1   1.0886  0.6137  0.7331   1.00000  0.05    0.16   1.30 H4^a  1.34 C4^a  1.49 C2^a  1.74 C1^a
+ Q14   1   1.1484  0.6923  1.0000   0.50000  0.05    0.16   1.63 C11^a  1.76 H11^a  2.73 C9^a  2.91 H7^a
+ Q15   1   0.9852  0.4238  0.4426   1.00000  0.05    0.15   1.34 ZR1^a  1.42 O6^a  1.52 O3^a  2.14 O2^a
+ Q16   1   1.0856  0.6703  0.9679   1.00000  0.05    0.15   2.96 H7^a  3.17 H11^a  3.53 H11^a  3.57 C11^a
+ Q17   1   1.1421  0.6115  0.6391   1.00000  0.05    0.15   0.97 H3^a  1.22 C3^a  1.49 C2^a  1.58 O1^a
+ Q18   1   1.1885  0.8115  1.0000   0.25000  0.05    0.14   4.08 C10^a  4.43 C9^a  4.76 C11^a  4.91 H7^a
+ Q19   1   1.1563  0.5782  0.8855   0.50000  0.05    0.14   3.49 H11^a  4.11 C11^a  4.15 C6^a  4.20 C3^a
+ Q20   1   1.0257  0.4704  0.0000   0.50000  0.05    0.14   4.43 O4^a  5.13 H11^a  5.27 H4^a  5.42 O4^a
+ Q21   1   1.1012  0.6237  0.6946   1.00000  0.05    0.14   0.86 C2^a  1.24 C4^a  1.25 C1^a  1.49 H4^a
+ Q22   1   1.0763  0.6195  0.7489   1.00000  0.05    0.14   0.91 H4^a  1.41 C4^a  1.89 O2^a  2.04 C2^a
+ Q23   1   1.2038  0.7368  0.5000   0.50000  0.05    0.13   4.16 H12^a  4.36 C3^a  4.41 H3^a  4.42 C6^a
+ Q24   1   1.0883  0.6325  0.7997   1.00000  0.05    0.13   1.04 H4^a  1.35 C4^a  2.09 C7^a  2.29 H7^a
+ Q25   1   0.9786  0.3709  0.3942   1.00000  0.05    0.13   1.06 O6^a  2.58 O2^a  2.97 ZR1^a  3.31 H4^a
+ Q26   1   1.2600  0.7400  0.5000   0.25000  0.05    0.13   3.95 H12^a  4.19 H6^a  4.54 C6^a  4.62 H3^a
+ Q27   1   1.0673  0.5597  0.5437   1.00000  0.05    0.13   1.26 ZR2^a  1.48 O1^a  1.49 O3^a  1.81 O5^a
+ Q28   1   0.9739  0.0261  0.3939   0.50000  0.05    0.13   14.18 O6^a  14.18 O6^a  14.18 H7^a  14.41 H4^a
+ Q29   1   1.0818  0.6164  0.6157   1.00000  0.05    0.12   0.95 C1^a  1.07 O2^a  1.89 O1^a  1.89 C2^a
+ Q30   1   1.1915  0.8085  0.9069   0.50000  0.05    0.12   3.90 C10^a  4.00 C9^a  4.09 H7^a  4.20 C8^a
+ Q31   1   1.3065  0.6935  0.8932   0.50000  0.05    0.12   4.13 C10^a  4.19 C9^a  4.19 C9^a  4.30 H6^a
+ Q32   1   1.3192  0.6808  1.0000   0.25000  0.05    0.12   4.91 C10^a  5.20 C9^a  5.49 C11^a  5.75 C8^a
+ Q33   1   1.2686  0.6449  0.8548   1.00000  0.05    0.11   3.58 H6^a  4.13 H6^a  4.15 C6^a  4.41 C8^a
+ Q34   1   1.0000  0.0861  0.3923   0.50000  0.05    0.11   12.31 O6^a  12.74 O6^a  12.79 H7^a  12.79 H4^a
+ Q35   1   1.0687  0.5731  1.0000   0.50000  0.05    0.11   3.91 H11^a  4.60 C11^a  4.93 O4^a  4.94 H4^a
+ Q36   1   1.2889  0.6445  0.7675   0.50000  0.05    0.11   3.58 H6^a  4.37 C6^a  4.85 H6^a  4.87 H3^a
+ Q37   1   1.3008  0.6992  0.8038   0.50000  0.05    0.11   3.19 H6^a  3.61 C12^a  3.77 H12^a  3.84 C8^a
+ Q38   1   1.0699  0.5031  0.0955   1.00000  0.05    0.11   3.64 O4^a  3.86 H4^a  3.88 H11^a  3.98 C4^a
+ Q39   1   1.0000  0.0582  0.4544   0.50000  0.05    0.11   13.42 O6^a  13.59 O6^a  14.05 H4^a  14.07 H7^a
+ Q40   1   1.2302  0.6697  0.7528   1.00000  0.05    0.11   0.85 H6^a  1.51 C6^a  2.31 C5^a  2.58 C3^a
+
+ Shortest distances between peaks (including symmetry equivalents)
+
+      2   5  0.68     13  22  0.68     13  21  0.78     33  33  0.83      6   6  0.91     22  24  0.97     15  15  1.00
+      5   6  1.02     16  16  1.06      5   5  1.17     21  22  1.28      2   6  1.30     13  24  1.33      9  17  1.34
+      3   6  1.37     10  11  1.42      5   6  1.45     27  27  1.45     25  25  1.45     20  35  1.47     21  29  1.47
+      3   3  1.47     34  39  1.50     10  40  1.51     39  39  1.52     28  39  1.53     31  37  1.53     18  30  1.56
+      4   4  1.56      4  27  1.57     11  17  1.59      1   5  1.61     35  38  1.61      8  12  1.64     33  36  1.66
+     32  32  1.66     20  20  1.74      3  15  1.75     28  28  1.77      8  28  1.78      3   6  1.79      1   2  1.81
+     31  33  1.85     31  33  1.85      1   6  1.86     21  24  1.90     15  15  1.91      7  25  1.91      9  11  1.94
+     31  32  1.97     13  29  1.98      9  21  2.03     33  37  2.04     27  27  2.04     28  34  2.04     36  37  2.04
+      7  15  2.08     17  21  2.10     15  25  2.11      3  15  2.13     23  26  2.14     15  15  2.15      4  27  2.17
+     20  38  2.22     14  16  2.23      3  29  2.23     22  29  2.23      3   5  2.26      9  13  2.26     39  39  2.28
+     12  28  2.31     23  23  2.33     27  29  2.33      3  25  2.35      8  39  2.43     15  25  2.43      2   3  2.45
+     31  33  2.46     31  33  2.46     15  27  2.46      3  22  2.46     11  40  2.47     15  29  2.49     17  29  2.49
+     38  38  2.50     27  27  2.50     37  40  2.55     11  11  2.56      3  13  2.58      4  17  2.58     36  36  2.61
+      3   5  2.62     13  17  2.65     25  29  2.66     31  36  2.68      5  22  2.69      6  22  2.69      5  38  2.70
+     33  37  2.71     10  17  2.74     39  39  2.74     33  40  2.75      9  10  2.76      3  25  2.77     28  39  2.77
+     34  39  2.77      3  21  2.78      6  13  2.79      5  13  2.84     24  38  2.89      3  27  2.89      9  22  2.90
+     36  40  2.94      6  15  2.95      5   5  2.96     15  27  2.97      9  40  2.98     32  33  2.99
+
+
+ Time profile in seconds
+ -----------------------
+
+      0.02: Read and process instructions
+      0.00: Fit rigid groups
+      0.00: Interpret restraints etc.
+      0.00: Generate connectivity array
+      0.00: Analyse DFIX and DANG restraints
+      0.00: Analyse SAME, SADI and NCSY restraints
+      0.00: Generate CHIV restraints
+      0.00: Check if bonds in residues restrained
+      0.00: Generate DELU and RIGU restraints
+      0.00: Generate SIMU restraints
+      0.00: Generate ISOR restraints
+      0.00: Analyse electron density
+      0.01: Analyse other restraints etc.
+      0.38: Read intensity data, sort/merge etc.
+      0.00: Set up constraints
+      0.03: OSF, H-atoms from difference map
+      0.05: Set up l.s. refinement
+      0.00: Generate idealized H-atoms
+      0.13: Structure factors and derivatives
+      0.03: Sum l.s. matrices
+      0.00: Generate and apply antibumping restraints
+      0.01: Apply other restraints
+      0.01: Solve l.s. equations
+      0.00: Generate HTAB table
+      3.78: Other dependent quantities, CIF, tables
+      0.00: Analysis of variance
+      0.04: Merge reflections for Fourier and .fcf
+      0.02: Fourier summations
+      0.03: Peaksearch
+      0.00: Analyse peaklist
+
+ ** WARNING: These times are only approximate for multiple threads.
+             To get better estimates run with -t1 **
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  nu1000_framew finished at 00:11:42   Total elapsed time:      4.56 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

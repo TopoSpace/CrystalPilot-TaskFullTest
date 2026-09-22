@@ -1,0 +1,1 @@
+请根据 inputs/start.hkl、inputs/start.ins 及 inputs/synthesis.png 中的合成信息，完成 NU-1000 的结构解析与精修。只解析出临近发表级的框架结构，孔道内部的溶剂分子及客体无需处理。请保留可复现的结构文件和计算记录，并说明目前仍未解决的问题。

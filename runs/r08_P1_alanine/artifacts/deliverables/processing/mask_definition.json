@@ -1,0 +1,88 @@
+[
+  {
+    "geometry": 0,
+    "experiments": [
+      0,
+      1
+    ],
+    "panel0_guard_rectangle_x0_x1_y0_y1": [
+      120,
+      360,
+      340,
+      445
+    ],
+    "masked_pixels_each_panel": [
+      25200,
+      0
+    ],
+    "mask_fraction_each_panel": [
+      0.0844574780058651,
+      0.0
+    ],
+    "source": "Raw accumulated counts and spatial background depression; includes persistent-zero mask plus conservative guard rectangle."
+  },
+  {
+    "geometry": 1,
+    "experiments": [
+      2
+    ],
+    "panel0_guard_rectangle_x0_x1_y0_y1": [
+      250,
+      385,
+      340,
+      435
+    ],
+    "masked_pixels_each_panel": [
+      12825,
+      765
+    ],
+    "mask_fraction_each_panel": [
+      0.04298282362798492,
+      0.0025638877251780478
+    ],
+    "source": "Raw accumulated counts and spatial background depression; includes persistent-zero mask plus conservative guard rectangle."
+  },
+  {
+    "geometry": 2,
+    "experiments": [
+      3
+    ],
+    "panel0_guard_rectangle_x0_x1_y0_y1": [
+      120,
+      360,
+      340,
+      445
+    ],
+    "masked_pixels_each_panel": [
+      25200,
+      0
+    ],
+    "mask_fraction_each_panel": [
+      0.0844574780058651,
+      0.0
+    ],
+    "source": "Raw accumulated counts and spatial background depression; includes persistent-zero mask plus conservative guard rectangle."
+  },
+  {
+    "geometry": 3,
+    "experiments": [
+      4,
+      5
+    ],
+    "panel0_guard_rectangle_x0_x1_y0_y1": [
+      250,
+      385,
+      340,
+      435
+    ],
+    "masked_pixels_each_panel": [
+      12825,
+      214
+    ],
+    "mask_fraction_each_panel": [
+      0.04298282362798492,
+      0.0007172182656053624
+    ],
+    "source": "Raw accumulated counts and spatial background depression; includes persistent-zero mask plus conservative guard rectangle."
+  }
+]

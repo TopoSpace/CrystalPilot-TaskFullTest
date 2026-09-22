@@ -1,0 +1,211 @@
+#===============================================================================
+# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: alanine_task_loc
+# Data: verify.cif - Type: CIF                   Bond Precision   C-C = 0.0020 A
+#                                                                   Temp = 150 K
+# Audit:INDEPENDENT TASK-LOCAL PYTHON ALGORITHMS; NUMPY AND SCIPY ONLY
+# Refin: ?
+# X-ray MoKa              R(int) = 0.041,  wR2/R(int) =  1.9,  Nref/Npar =  13.4
+# Cell   5.7956(2)   5.9693(3)  12.2972(5)           90           90          90
+# Wavelength 0.71073  Volume Reported       425.43(5) Calculated       425.43(3)
+# SpaceGroup from Symmetry P 21 21 21   Hall: P 2ac 2ab             orthorhombic
+#                 Reported P 21 21 21         P 2ac 2ab             orthorhombic
+# MoietyFormula C3 H7 N O2
+#      Reported  ?
+#    SumFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+# Mr        =     89.10[Calc],     89.09[Rep]       Volume/NonHatoms = 18 Ang**3
+# Dx,gcm-3  =     1.391[Calc],     1.391[Rep]
+# Z         =         4[Calc],         4[Rep]
+# Mu (mm-1) =     0.116[Calc],     0.000[Rep]  Xtal Size =  0.000x0.000x0.000 mm
+# F000      =     192.0[Calc],     192.0[Rep]  or F000' =    192.11[Calc]
+# Measured   HKL: Reported   3830, Embedded      0, <Mult>  0.0
+# Reported   Hmax=  0, Kmax=  0, Lmax=  0, Nref=    657        , Th(max)= 30.108
+# Expected   Hmax=  8, Kmax=  8, Lmax= 17, Nref=   1258[   761], Ratio=0.86/0.52
+# Reported   Rho(min) = -0.26, Rho(max) = 0.23 e/Ang**3 (From CIF)
+# R= 0.0334(   599), wR2= 0.0756(   657), S = 1.329, Npar=   57
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+010_ALERT_1_A No Suitable  (Embedded) Reflection Data Supplied     Please Do !
+050_ALERT_1_A Absorption Coefficient mu Not Given ............     Please Do !
+081_ALERT_1_A No Maximum Shift/Error Given ...................     Please Do !
+183_ALERT_1_A Missing _cell_measurement_reflns_used Value ....     Please Do !
+184_ALERT_1_A Missing _cell_measurement_theta_min Value ......     Please Do !
+185_ALERT_1_A Missing _cell_measurement_theta_max Value ......     Please Do !
+699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !
+#===============================================================================
+008_ALERT_5_B No _iucr_refine_reflections_details   in the CIF     Please Do !
+025_ALERT_1_B Hmin..Lmax Data Incomplete or Missing ..........     Please Check
+995_ALERT_1_B Can not Recreate .fcf from Embedded  .res & .hkl          ! Check
+#===============================================================================
+048_ALERT_1_C MoietyFormula Not Given (or Incomplete) ........     Please Check
+761_ALERT_1_C CIF Contains no X-H Bonds ......................     Please Check
+762_ALERT_1_C CIF Contains no X-Y-H or H-Y-H Angles ..........     Please Check
+#===============================================================================
+005_ALERT_5_G No Embedded Refinement Details Found  in the CIF     Please Do !
+007_ALERT_5_G Number of Unrefined Donor-H Atoms ..............          3 Report
+              Hn1   Hn2   Hn3
+152_ALERT_1_G The Supplied and Calc. Volume s.u. Differ by ...         -2 Units
+720_ALERT_4_G Number of Unusual/Non-Standard Labels ..........          8 Note
+              Ca      Ha      Hn1     Hn2     Hn3     Hm1     Hm2     Hm3
+760_ALERT_1_G CIF Contains no Torsion Angles .................          ? Info
+802_ALERT_4_G CIF Input Record(s) with more than 80 Characters          1 Info
+808_ALERT_5_G No Parseable SHELXL Style Weighting Scheme Found     Please Check
+882_ALERT_1_G No Datum for _diffrn_reflns_av_unetI/netI ......     Please Do !
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+980_ALERT_1_G No Anomalous Scattering Factors Found in CIF ...     Please Check
+#===============================================================================
+#                                                                              *
+#===============================================================================
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  7 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  3 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+  3 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+ 10 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+ 17 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+  2 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  4 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+  12 Missing  Experimental  Info Issue(s) (Out of  65 Tests) -   82 % Satisfied
+   0 Experimental  Data  Related Issue(s) (Out of  35 Tests) -  100 % Satisfied
+   1 Structural  Model   Related Issue(s) (Out of 144 Tests) -   99 % Satisfied
+   9 Unresolved or to be Checked Issue(s) (Out of 280 Tests) -   97 % Satisfied
+
+#                                                                              *
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_005 Type_5 Informative Message, Check.
+================================================================================
+ No embedded 'refinement details' records were found in the CIF. Acta Cryst.
+ requires the inclusion of the last shelxl.res file (in case of a SHELXL or
+ XL refinement or similar for non-SHELXL refinement programs) in the CIF,
+ embedded between records with semicolons in position 1, preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the final .res as an embedded
+ comment with the dataname '_shelx_res_file'.
+
+================================================================================
+ALERT_007 Type_5 Informative Message, Check.
+================================================================================
+ It is standard practice to refine Hydrogen atoms on hetero atoms as proof of
+ their correct assignment.
+
+================================================================================
+ALERT_008 Type_5 Informative Message, Check.
+================================================================================
+ No reflection records were found in the CIF. Acta Cryst. and 'FAIR' require
+ the inclusion of the unmerged reflection file used in the final refinement
+ (shelxl.hkl in case of a SHELXL or XL refinement) in the CIF, embedded
+ between records with semicolons in position 1 and preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the .hkl as an embedded
+ comment with the dataname '_shelx_hkl_file'.
+
+================================================================================
+ALERT_010 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Validation is not complete without the availability of the diffraction data.
+ Deposited reflection data are preferably the set of reflections that were
+ used in the final refinement and embedded in the CIF between records with
+ semicolons in position 1 and preceded by an _iucr_refine_reflections_details
+ record.  SHELXL20xy will do that automatically. Alternatively, an external
+ file with final observed, calculated and sigma reflection data will be the
+ minimum for validation and archival.
+
+================================================================================
+ALERT_025 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Check reported h,k,l - range with calculated range based on reported
+ theta-max.
+
+================================================================================
+ALERT_048 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The Moiety formula (i.e. the specification of the various species in the
+ structure) should be given in the CIF.
+
+ Example: '(Cd 2+)3, (C6 N6Cr 3-)2, 2(H2 O)'
+
+================================================================================
+ALERT_050 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The linear absorption coefficient corresponding to the Sumformula should be
+ given.
+
+================================================================================
+ALERT_081 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ A maximum shift/error should be specified in order to judge convergence.
+
+================================================================================
+ALERT_152 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Some software packages calculate Volume s.u.'s incorrectly. The correct
+ formula  for triclinic, monoclinic and orthorhombic systems
+ (based on the propagation of error expression) may be found in:
+
+ M. Nardelli, Computer & Chemistry, (1983), 7, 95-98.
+ or
+ C. Giacovazzo ed. in 'Fundamentals of Crystallography', Second Edition,
+ Oxford University Press, 2003,  p135.
+
+ Also note that several cell parameters for higher symmetry cells are no
+ longer independent. S.u. calculations need special treatment in those cases.
+
+================================================================================
+ALERT_183 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_reflns_used.
+
+================================================================================
+ALERT_184 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_theta_min.
+
+================================================================================
+ALERT_185 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_theta_max.
+
+================================================================================
+ALERT_699 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Examples of expected values are 'block', 'needle', 'plate', 'sphere',
+ 'cylinder'. In case of 'cylinder' or 'sphere' also provide a value for
+ '_exptl_size_rad'.
+
+================================================================================
+ALERT_720 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Up to 4 Character Labels of the type C11, H101, N10A, i.e. chemical symbol +
+ number + optional letter are to be preferred.
+ Note: SHELXL based refinements may use labels up to 7 characters (Including
+ residue and or disorder information).
+
+================================================================================
+ALERT_760 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no torsion angle entries. This might be accomplished with
+ the SHELXL instruction CONF.
+ Inclusion is encouraged by Acta Cryst. but not necessarily so by other
+ journals.
+
+================================================================================
+ALERT_761 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no X-H Bonds. This might be caused by not using the
+ SHELXL instruction BOND $H. Inclusion is required by Acta Cryst. but not
+ necessarily so by other journals.
+

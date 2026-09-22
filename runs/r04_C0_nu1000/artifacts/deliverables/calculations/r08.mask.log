@@ -1,0 +1,28 @@
+FC cross-check: mean/max absolute discrepancy: 0.0025419162074951963 0.005523156886944491
+Grid: (160, 160, 72)
+Voids: 1
+Mask volume: 17381.216745375816
+Engine total electron count: 1063.7464016991223
+{
+  "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r04_C0_nu1000\\work\\r08_map",
+  "engine": "smtbx.masks.mask",
+  "use_set_completion": true,
+  "solvent_radius": 1.3,
+  "shrink_truncation_radius": 1.3,
+  "grid_step": 0.25,
+  "grid": [
+    160,
+    160,
+    72
+  ],
+  "max_cycles": 100,
+  "fcalc_check_mean": 0.0025419162074951963,
+  "fcalc_check_max": 0.005523156886944491,
+  "void_volume_A3": 17381.216745375816,
+  "void_fraction": 0.7867366536458333,
+  "electrons_per_cell": 1063.7464016991223,
+  "n_voids": 1,
+  "n_reflections": 4395,
+  "scale_factor": 1.0218819052376094,
+  "caveat": "Unassigned density; electron count is model-dependent, not a solvent formula."
+}

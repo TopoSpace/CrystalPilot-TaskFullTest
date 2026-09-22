@@ -1,0 +1,8 @@
+{
+  "actual_reproduce_ps1_run": true,
+  "actual_rebuild_mask_ps1_run": true,
+  "all_4395_FAB_rows_identical": true,
+  "refinement_statistics_identical_at_reported_precision": true,
+  "max_repeated_coordinate_shift_A": 0.0,
+  "independent_Fc_verification_passed": true
+}

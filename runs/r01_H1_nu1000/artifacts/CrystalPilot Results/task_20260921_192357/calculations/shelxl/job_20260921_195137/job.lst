@@ -1,0 +1,502 @@
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  job                        started at 19:51:38 on 21-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: job -a50000 -b3000 -c624 -g0 -m0 -t4
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running  4 threads on  4 processors
+
+ TITL CrystalPilot cross-check in P 6/m m m
+ CELL 0.68883 39.19000 39.19000 16.61000 90.0000 90.0000 120.0000
+ ZERR 24 0.00000 0.00000 0.00000 0.0000 0.0000 0.0000
+ LATT 1
+ SYMM X-Y,X,Z
+ SYMM Y,-X+Y,Z
+ SYMM -Y,X-Y,Z
+ SYMM -X+Y,-X,Z
+ SYMM X-Y,-Y,-Z
+ SYMM -X,-X+Y,-Z
+ SYMM -X,-Y,Z
+ SYMM Y,X,-Z
+ SYMM -Y,-X,-Z
+ SYMM -X+Y,Y,-Z
+ SYMM X,X-Y,-Z
+ SFAC C H O Zr
+ REM DISP lambda 0.68883 A is not a SHELXL built-in line (Cu/Mo/Ag K-alpha):
+ REM DISP f'/f'' from cctbx (sasaki: C O Zr; henke: H), mu = NIST attenuation
+ REM DISP in barn/atom
+ DISP $C 0.002 0.002 10.99
+ DISP $H 0.000 0.000 0.62
+ DISP $O 0.007 0.006 30.28
+ DISP $Zr -9.041 2.772 14341.91
+ UNIT 264.0 132.0 96.0 18.0
+
+ V =    22092.79     F(000) =    3204.0     Mu =   1.20 mm-1      Cell Wt =     6481.65    Rho =  0.487
+
+  
+ L.S. 12
+ BOND $H
+ CONF
+ ACTA
+ FMAP 2
+ PLAN 20
+ ABIN
+  
+ SHEL 999 1.000
+  
+ WGHT 0.100000 0.000000
+ FVAR 0.05143
+ ZR1   4   0.463824   0.536176   0.500000    10.25000     0.08800     0.08800 =
+       0.06886     0.00000     0.00000     0.05616
+ PART -1
+ ZR2   4   0.554900   0.566200   0.357100    10.50000     0.08334
+ PART 0
+ O1    3   0.482350   0.587286   0.582407    11.00000     0.10034     0.09533 =
+       0.09795     0.00423     0.00124     0.06629
+ O2    3   0.534245   0.593128   0.649693    11.00000     0.10539     0.12049 =
+       0.12568    -0.04075    -0.03404     0.06958
+ O3    3   0.527555   0.564012   0.500000    10.50000     0.10185     0.18609 =
+       0.09851     0.00000     0.00000     0.08943
+ O4    3   0.536260   0.536260   0.259685    10.50000     0.19496     0.19496 =
+       0.07970     0.03825     0.03825     0.15239
+ O5    3   0.600145   0.600145   0.409943    10.50000     0.11065     0.11065 =
+       0.24701     0.02692     0.02692     0.05906
+ O6    3   0.518191   0.481809   0.392856    10.50000     0.12943     0.12943 =
+       0.12912     0.01571    -0.01571     0.08413
+ C1    1   0.509379   0.602940   0.634916    11.00000     0.10275     0.11197 =
+       0.08238    -0.00127    -0.02205     0.06329
+ C2    1   0.505093   0.690052   0.780233    11.00000     0.21733     0.11457 =
+       0.06946     0.00068    -0.02052     0.09205
+ C3    1   0.477591   0.640775   0.675933    11.00000     0.15558     0.12073 =
+       0.12366    -0.05163    -0.02370     0.09637
+ AFIX 43
+ H3    2   0.458038   0.627299   0.637690    11.00000    -1.20000
+ AFIX 0
+ C4    1   0.507797   0.632693   0.685890    11.00000     0.17009     0.10576 =
+       0.09755    -0.03401    -0.02565     0.09349
+ C5    1   0.476932   0.669555   0.724337    11.00000     0.17999     0.14756 =
+       0.11260    -0.00285     0.00303     0.11203
+ AFIX 43
+ H5    2   0.456457   0.674860   0.718029    11.00000    -1.20000
+ AFIX 0
+ C6    1   0.505219   0.722137   0.830605    11.00000     0.22639     0.09775 =
+       0.08996    -0.02241    -0.01565     0.10682
+ C7    1   0.505124   0.752562   0.792810    10.50000     0.26570     0.11762 =
+       0.09382    -0.01699    -0.03398     0.13285
+ AFIX 43
+ H7    2   0.504981   0.752490   0.736820    10.50000    -1.20000
+ AFIX 0
+ C8    1   0.537887   0.652272   0.739558    11.00000     0.23088     0.10594 =
+       0.11663    -0.06443    -0.05632     0.10656
+ AFIX 43
+ H8    2   0.558189   0.646563   0.743258    11.00000    -1.20000
+ AFIX 0
+ C9    1   0.504645   0.722227   0.913193    11.00000     0.25395     0.10758 =
+       0.08613     0.00504    -0.00448     0.11267
+ C10   1   0.505063   0.752532   0.955916    10.50000     0.28069     0.10819 =
+       0.08443     0.00126     0.00252     0.14034
+ C11   1   0.537552   0.680537   0.787908    11.00000     0.24214     0.12362 =
+       0.10881    -0.00456    -0.05408     0.10642
+ AFIX 43
+ H11   2   0.557506   0.693803   0.825490    11.00000    -1.20000
+ AFIX 0
+ C12   1   0.504494   0.690291   0.959583    11.00000     0.31074     0.15672 =
+       0.08532    -0.01008     0.00070     0.15587
+ AFIX 43
+ H12   2   0.504396   0.669520   0.932300    11.00000    -1.20000
+ AFIX 0
+ HKLF 4
+
+
+
+ Covalent radii and connectivity table for  CrystalPilot cross-check in P 6/m m m                                      
+ C      0.770
+ H      0.320
+ O      0.660
+ ZR     1.590
+
+ Zr1 - O6_$6 O6_$1 O3 O3_$3 O1 O1_$4 O1_$3 O1_$2
+ Zr2^a - O5 O4 O3
+ O1 - C1 Zr1
+ O2 - C1
+ O3 - Zr1 Zr2^a
+ O4 - Zr2^a
+ O5 - Zr2^a
+ O6 - Zr1_$1
+ C1 - O2 O1 C4
+ C2 - C5 C11 C6
+ C3 - C4 C5
+ C4 - C8 C3 C1
+ C5 - C2 C3
+ C6 - C7 C9 C2
+ C7 - C6_$7 C6
+ C8 - C4 C11
+ C9 - C6 C10 C12
+ C10 - C9_$7 C9 C10_$8
+ C11 - C8 C2
+ C12 - C12_$8 C9
+
+
+ Operators for generating equivalent atoms:
+ $1   -x+1, -y+1, -z+1
+ $2   x, y, -z+1
+ $3   -y+1, -x+1, z
+ $4   -y+1, -x+1, -z+1
+ $5   y, x, -z+1
+ $6   -x+1, -y+1, z
+ $7   x, x-y+1, z
+ $8   x, y, -z+2
+
+   179481  Reflections outside SHEL resolution limits rejected
+
+
+   337815  Reflections read, of which  179481  rejected
+
+ -39 =< h =< 39,    -39 =< k =< 39,    -16 =< l =< 16,   Max. 2-theta =   40.28
+
+        0  Systematic absence violations (I>3sig(I)) before merging
+
+        0  Inconsistent equivalents
+
+     4395  Unique reflections, of which       0  suppressed
+
+ R(int) = 0.5659     R(sigma) = 0.1066      Friedel opposites merged
+
+ Maximum memory for data reduction =     2469 /    48177
+
+
+ Reflection statistics for all twin components combined (TWST 0 set)
+ Number of data for d > 1.000A (CIF: max) and d > 1.000A (CIF: full)
+ (ignoring systematic absences):
+ Unique reflections found (point group)       4395    4395
+ Unique reflections possible (point group)    4401    4401
+ Unique reflections found (Laue group)        4395    4395
+ Unique reflections possible (Laue group)     4401    4401
+
+ Special position constraints for Zr1
+ z =  0.5000   y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U23 = 0   U13 = 0   
+ sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O3
+ z =  0.5000   U23 = 0   U13 = 0   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O4
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O5
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O6
+ y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U13 =-1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C7
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C10
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+
+ Default effective X-H and X-D distances for T =   20.0C 
+ AFIX m =    1     2     3     4   4[N]  3[N]  15[B]  8[O]   9   9[N]   16
+ d(X-H) =  0.98  0.97  0.96  0.93  0.86  0.89  1.10  0.82  0.93  0.86  0.93
+
+ Note that these distances are chosen to give the best fit to the X-ray data
+ and so avoid the introduction of systematic error.  The true internuclear
+ distances are longer and do not vary with temperature!  The apparent
+ variation with temperature is caused by libration.
+
+
+ Least-squares cycle   1   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.8963 before cycle   1 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     9.476;     Restrained GooF =      9.476 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.04418     0.00123    -5.882    OSF
+     6     0.55303     0.00046    -4.094     x  Zr2^a
+     7     0.56299     0.00047    -6.784     y  Zr2^a
+     8     0.35988     0.00090     3.091     z  Zr2^a
+     9     0.15397     0.00684    10.322    U11 Zr2^a
+    24     0.27731     0.04447     3.410    U33 O2
+
+ Mean shift/esd =   0.832  Maximum =    10.322 for  U11 Zr2^a    
+
+ Max. shift = 0.213 A for C4        Max. dU = 0.071 for Zr2^a      
+
+
+ Least-squares cycle   2   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.8358 before cycle   2 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     6.006;     Restrained GooF =      6.006 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   17.32  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.04907     0.00099     4.950    OSF
+     6     0.55028     0.00052    -5.267     x  Zr2^a
+     7     0.55538     0.00058   -13.093     y  Zr2^a
+     8     0.36818     0.00105     7.883     z  Zr2^a
+     9     0.26779     0.00870    13.079    U11 Zr2^a
+
+ Mean shift/esd =   0.712  Maximum =   -13.093 for   y  Zr2^a    
+
+ Max. shift = 0.295 A for Zr2^a        Max. dU = 0.114 for Zr2^a   
+
+
+ Least-squares cycle   3   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.7742 before cycle   3 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     4.655;     Restrained GooF =      4.655 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   18.22  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05416     0.00088     5.746    OSF
+     7     0.54209     0.00116   -11.509     y  Zr2^a
+     8     0.38405     0.00119    13.310     z  Zr2^a
+
+ Mean shift/esd =   0.759  Maximum =    13.310 for   z  Zr2^a    
+
+ Max. shift = 0.602 A for Zr2^a        Max. dU = 0.033 for C10     
+
+
+ Least-squares cycle   4   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.7312 before cycle   4 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     4.079;     Restrained GooF =      4.079 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05509     0.00082     1.137    OSF
+     6     0.54646     0.00066    -7.200     x  Zr2^a
+     7     0.54488     0.00066     4.258     y  Zr2^a
+     8     0.39501     0.00103    10.663     z  Zr2^a
+     9     0.17939     0.01099    -9.827    U11 Zr2^a
+    24     0.18500     0.04118    -3.427    U33 O2
+    25    -0.08653     0.02104     3.037    U23 O2
+    34     0.53654     0.00088     3.227     x  O4
+
+ Mean shift/esd =   0.791  Maximum =    10.663 for   z  Zr2^a    
+
+ Max. shift = 0.317 A for Zr2^a        Max. dU =-0.108 for Zr2^a   
+
+
+ Least-squares cycle   5   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.5886 before cycle   5 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     2.972;     Restrained GooF =      2.972 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   25.03  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05360     0.00058    -2.584    OSF
+     9     0.11400     0.00436   -15.000    U11 Zr2^a
+    20     0.59463     0.00046    -3.156     y  O2
+    21     0.64011     0.00120     4.581     z  O2
+
+ Mean shift/esd =   0.839  Maximum =   -15.000 for  U11 Zr2^a    
+
+ Max. shift = 0.157 A for Zr2^a        Max. dU =-0.065 for Zr2^a   
+
+
+ Least-squares cycle   6   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.4291 before cycle   6 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     2.063;     Restrained GooF =      2.063 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   16.71  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05119     0.00037    -6.499    OSF
+     5     0.05477     0.00247    -3.270    U12 Zr1
+     6     0.54505     0.00026     3.733     x  Zr2^a
+     7     0.54547     0.00027    -6.099     y  Zr2^a
+     8     0.39381     0.00019    -3.299     z  Zr2^a
+     9     0.08603     0.00186   -15.000    U11 Zr2^a
+    18     0.06943     0.00673    -3.905    U12 O1
+    19     0.53464     0.00034    -3.585     x  O2
+    20     0.59281     0.00033    -5.569     y  O2
+    21     0.64935     0.00082    11.330     z  O2
+    23     0.13692     0.00855     3.235    U22 O2
+    27     0.05883     0.00731     3.376    U12 O2
+    29     0.56222     0.00047     8.037     y  O3
+    33     0.04611     0.00854     5.998    U12 O3
+    35     0.26075     0.00073    -7.221     z  O4
+    48     0.12030     0.00733     3.554    U11 O6
+    51     0.08410     0.00831     3.574    U12 O6
+    56     0.11588     0.02521    -3.355    U22 C1
+    60     0.03059     0.01471     3.431    U12 C1
+    61     0.50700     0.00074    -3.166     x  C2
+    79     0.50750     0.00075    -4.395     x  C4
+    80     0.63295     0.00054    -3.165     y  C4
+    86    -0.02249     0.01510     3.473    U13 C4
+    97     0.50503     0.00062    -3.037     x  C6
+   106     0.50518     0.00091     3.006     x  C7
+   150     0.08208     0.01482    -3.281    U33 C12
+   151     0.01035     0.01100    -5.155    U23 C12
+   152     0.03808     0.01372    -5.563    U13 C12
+
+ Mean shift/esd =   1.830  Maximum =   -15.000 for  U11 Zr2^a    
+
+ Max. shift = 0.166 A for O2        Max. dU =-0.052 for C1         
+
+
+ Least-squares cycle   7   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.2719 before cycle   7 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     1.261;     Restrained GooF =      1.261 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05116     0.00021    -0.169    OSF
+     6     0.55280     0.00080     9.651     x  Zr2^a
+     7     0.53716     0.00081   -10.318     y  Zr2^a
+    12     0.58259     0.00037    -3.549     z  O1
+    24     0.12246     0.00680    -5.229    U33 O2
+    25    -0.04610     0.00506     3.508    U23 O2
+    29     0.56416     0.00031     6.340     y  O3
+    30     0.09335     0.00576     5.429    U11 O3
+    33     0.08715     0.00624     6.575    U12 O3
+    36     0.18945     0.00662     4.235    U11 O4
+    60     0.05741     0.00698     3.844    U12 C1
+    61     0.50537     0.00045    -3.595     x  C2
+   114     0.73954     0.00065     3.057     z  C8
+   116     0.09753     0.00728     3.378    U22 C8
+   152     0.00827     0.00770    -3.873    U13 C12
+
+ Mean shift/esd =   1.234  Maximum =   -10.318 for   y  Zr2^a    
+
+ Max. shift = 0.545 A for Zr2^a        Max. dU = 0.015 for C12     
+
+
+ Least-squares cycle   8   Maximum vector length =  623   Memory required =     47 /   2892 /   230760
+
+ wR2 =  0.6994 before cycle   8 for    4395 data and    153 /    153 parameters
+
+ GooF = S =     3.960;     Restrained GooF =      3.960 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   22.87  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05192     0.00071     1.066    OSF
+     6     0.55133     0.00021    -6.983     x  Zr2^a
+     7     0.53880     0.00022     7.500     y  Zr2^a
+
+ Mean shift/esd =   0.347  Maximum =     7.500 for   y  Zr2^a    
+
+ Max. shift = 0.106 A for Zr2^a        Max. dU = 0.014 for C1      
+
+ ** REFINEMENT UNSTABLE **
+
+
+
+ Time profile in seconds
+ -----------------------
+
+      0.02: Read and process instructions
+      0.00: Fit rigid groups
+      0.00: Interpret restraints etc.
+      0.00: Generate connectivity array
+      0.00: Analyse DFIX and DANG restraints
+      0.00: Analyse SAME, SADI and NCSY restraints
+      0.00: Generate CHIV restraints
+      0.00: Check if bonds in residues restrained
+      0.00: Generate DELU and RIGU restraints
+      0.00: Generate SIMU restraints
+      0.00: Generate ISOR restraints
+      0.00: Analyse electron density
+      0.00: Analyse other restraints etc.
+      0.46: Read intensity data, sort/merge etc.
+      0.00: Set up constraints
+      0.45: OSF, H-atoms from difference map
+      0.02: Set up l.s. refinement
+      0.00: Generate idealized H-atoms
+      0.06: Structure factors and derivatives
+      0.01: Sum l.s. matrices
+      0.00: Generate and apply antibumping restraints
+      0.00: Apply other restraints
+      0.01: Solve l.s. equations
+      0.00: Generate HTAB table
+      0.01: Other dependent quantities, CIF, tables
+      0.00: Analysis of variance
+      0.00: Merge reflections for Fourier and .fcf
+      0.00: Fourier summations
+      0.00: Peaksearch
+      0.00: Analyse peaklist
+
+ ** WARNING: These times are only approximate for multiple threads.
+             To get better estimates run with -t1 **
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  job           finished at 19:51:39   Total elapsed time:      1.00 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

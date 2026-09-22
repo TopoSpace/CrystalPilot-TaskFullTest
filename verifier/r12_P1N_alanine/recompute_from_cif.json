@@ -1,0 +1,93 @@
+{
+  "cif": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine\\deliverables\\alanine.cif",
+  "hkl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine\\deliverables\\observed.hkl",
+  "space_group": "P 21 21 21",
+  "wavelength": 0.71073,
+  "n_sites": 13,
+  "n_aniso": 6,
+  "elements": [
+    "C",
+    "H",
+    "N",
+    "O"
+  ],
+  "resolution_cutoff_A": null,
+  "cif_reported": {
+    "_refine_ls_R_factor_gt": "0.033364",
+    "_refine_ls_wR_factor_ref": "0.075552",
+    "_refine_ls_number_reflns": "657",
+    "_reflns_number_gt": "599",
+    "_refine_ls_goodness_of_fit_ref": "1.329337"
+  },
+  "variants": {
+    "MERG2": {
+      "exit_code": 0,
+      "seconds": 0.2,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          1.25324
+        ],
+        [
+          1.25324,
+          1.25324
+        ]
+      ],
+      "R1_gt": 0.0335,
+      "n_gt": 598,
+      "R1_all": 0.0405,
+      "n_all": 657,
+      "wR2": 0.105,
+      "GooF": 0.798,
+      "reflections_read": 657,
+      "rejected": 0,
+      "unique": 657,
+      "suppressed": 0,
+      "warnings": [
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    },
+    "MERG4": {
+      "exit_code": 0,
+      "seconds": 0.2,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          1.25328
+        ],
+        [
+          1.25328,
+          1.25328
+        ]
+      ],
+      "R1_gt": 0.0335,
+      "n_gt": 598,
+      "R1_all": 0.0405,
+      "n_all": 657,
+      "wR2": 0.105,
+      "GooF": 0.799,
+      "reflections_read": 657,
+      "rejected": 0,
+      "unique": 657,
+      "suppressed": 0,
+      "warnings": [
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    }
+  },
+  "note": "delivered CIF model + delivered reflections evaluated by SHELXL with every atomic parameter fixed and only the overall scale refined (independent program; model unchanged); dispersion terms for the wavelength from cctbx tables; MERG 2 = Friedel pairs kept (non-centrosymmetric), MERG 4 = Friedel pairs merged and f'' = 0",
+  "hkl_written": {
+    "n_reflections": 657,
+    "scale_applied": 1.0,
+    "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine\\deliverables\\observed.hkl"
+  },
+  "closest_variant": {
+    "variant": "MERG2",
+    "R1_gt": 0.0335,
+    "abs_difference_to_reported": 0.0001
+  }
+}

@@ -1,0 +1,10 @@
+已用指定 Python 自编流程完成解析与精修，并通过从 616 张原始帧开始的完整复现。
+
+- 空间群：**P 21 21 21**
+- 623 个独立反射；**R1 = 3.26%，wR2 = 7.51%**
+- 0.75 Å 完整度：**97.0%**
+- 差值密度：−0.214 至 +0.201 e/Å³
+
+交付：[最终 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r11_C0N_alanine/deliverables/alanine.cif) · [说明与复现方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r11_C0N_alanine/deliverables/README.md)。反射数据、源码和计算日志均已保存。
+
+**仍未解决：绝对构型、晶胞外部标定及独立晶体学验证。** 指标接近发表水平，但不能视为已经验证可直接投稿的结果。

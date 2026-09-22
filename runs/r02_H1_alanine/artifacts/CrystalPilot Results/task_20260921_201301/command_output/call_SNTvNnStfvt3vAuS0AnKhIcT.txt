@@ -1,0 +1,273 @@
+38-Excluding 23/652 reflections
+
+39-Reflections passing individual criteria:
+
+40-criterion: user excluded, reflections: 23
+
+41-criterion: excluded for scaling, reflections: 23
+
+42-
+
+43:The following corrections will be applied to this dataset: 
+
+44-
+
+45-+--------------+----------------+
+
+46:| correction   |   n_parameters |
+
+47-|--------------+----------------|
+
+48-| scale        |              8 |
+
+49-| decay        |              7 |
+
+50-+--------------+----------------+
+
+51-Loaded error model: 
+
+--
+74-Excluding 19/661 reflections
+
+75-Reflections passing individual criteria:
+
+76-criterion: user excluded, reflections: 19
+
+77-criterion: excluded for scaling, reflections: 19
+
+78-
+
+79:The following corrections will be applied to this dataset: 
+
+80-
+
+81-+--------------+----------------+
+
+82:| correction   |   n_parameters |
+
+83-|--------------+----------------|
+
+84-| scale        |              8 |
+
+85-| decay        |              7 |
+
+86-+--------------+----------------+
+
+87-Loaded error model: 
+
+--
+110-Excluding 19/1079 reflections
+
+111-Reflections passing individual criteria:
+
+112-criterion: user excluded, reflections: 19
+
+113-criterion: excluded for scaling, reflections: 19
+
+114-
+
+115:The following corrections will be applied to this dataset: 
+
+116-
+
+117-+--------------+----------------+
+
+118:| correction   |   n_parameters |
+
+119-|--------------+----------------|
+
+120-| scale        |             12 |
+
+121-| decay        |             10 |
+
+122:| absorption   |             24 |
+
+123-+--------------+----------------+
+
+124-Loaded error model: 
+
+125-Error model details:
+
+126-  Type: basic
+
+127-  Parameters: a = 1.00000, b = 0.02000
+
+--
+147-Excluding 32/428 reflections
+
+148-Reflections passing individual criteria:
+
+149-criterion: user excluded, reflections: 32
+
+150-criterion: excluded for scaling, reflections: 32
+
+151-
+
+152:The following corrections will be applied to this dataset: 
+
+153-
+
+154-+--------------+----------------+
+
+155:| correction   |   n_parameters |
+
+156-|--------------+----------------|
+
+157-| scale        |              6 |
+
+158-| decay        |              5 |
+
+159-+--------------+----------------+
+
+160-Loaded error model: 
+
+--
+183-Excluding 18/839 reflections
+
+184-Reflections passing individual criteria:
+
+185-criterion: user excluded, reflections: 18
+
+186-criterion: excluded for scaling, reflections: 18
+
+187-
+
+188:The following corrections will be applied to this dataset: 
+
+189-
+
+190-+--------------+----------------+
+
+191:| correction   |   n_parameters |
+
+192-|--------------+----------------|
+
+193-| scale        |             10 |
+
+194-| decay        |              8 |
+
+195-+--------------+----------------+
+
+196-Loaded error model: 
+
+--
+219-Excluding 22/763 reflections
+
+220-Reflections passing individual criteria:
+
+221-criterion: user excluded, reflections: 22
+
+222-criterion: excluded for scaling, reflections: 22
+
+223-
+
+224:The following corrections will be applied to this dataset: 
+
+225-
+
+226-+--------------+----------------+
+
+227:| correction   |   n_parameters |
+
+228-|--------------+----------------|
+
+229-| scale        |              9 |
+
+230-| decay        |              8 |
+
+231-+--------------+----------------+
+
+232-Loaded error model: 
+
+--
+295-
+
+296-================================================================================
+
+297-
+
+298-Components to be refined in this cycle for dataset 0: scale,decay
+
+299-Components to be refined in this cycle for dataset 1: scale,decay
+
+300:Components to be refined in this cycle for dataset 2: scale,decay,absorption
+
+301-Components to be refined in this cycle for dataset 3: scale,decay
+
+302-Components to be refined in this cycle for dataset 4: scale,decay
+
+303-Components to be refined in this cycle for dataset 5: scale,decay
+
+304-Performing a round of scaling with an LBFGS minimizer. 
+
+305-
+
+--
+347-Combined outlier rejection has been performed across multiple datasets, 
+
+348-121 outliers have been identified. 
+
+349-
+
+350-Components to be refined in this cycle for dataset 0: scale,decay
+
+351-Components to be refined in this cycle for dataset 1: scale,decay
+
+352:Components to be refined in this cycle for dataset 2: scale,decay,absorption
+
+353-Components to be refined in this cycle for dataset 3: scale,decay
+
+354-Components to be refined in this cycle for dataset 4: scale,decay
+
+355-Components to be refined in this cycle for dataset 5: scale,decay
+
+356-Performing a round of scaling with an LBFGS minimizer. 
+
+357-
+
+--
+442-| 34.12 - 8.71             |      217 |                  0.831 |                1.37  |
+
+443-+--------------------------+----------+------------------------+----------------------+
+
+444-
+
+445-Components to be refined in this cycle for dataset 0: scale,decay
+
+446-Components to be refined in this cycle for dataset 1: scale,decay
+
+447:Components to be refined in this cycle for dataset 2: scale,decay,absorption
+
+448-Components to be refined in this cycle for dataset 3: scale,decay
+
+449-Components to be refined in this cycle for dataset 4: scale,decay
+
+450-Components to be refined in this cycle for dataset 5: scale,decay
+
+451-Performing a round of scaling with a Levenberg-Marquardt minimizer.
+
+452-
+
+--
+469-
+
+470-================================================================================
+
+471-
+
+472-Components to be refined in this cycle for dataset 0: scale,decay
+
+473-Components to be refined in this cycle for dataset 1: scale,decay
+
+474:Components to be refined in this cycle for dataset 2: scale,decay,absorption
+
+475-Components to be refined in this cycle for dataset 3: scale,decay
+
+476-Components to be refined in this cycle for dataset 4: scale,decay
+
+477-Components to be refined in this cycle for dataset 5: scale,decay
+
+478-Performing a round of scaling with a Levenberg-Marquardt minimizer.
+
+479-
+

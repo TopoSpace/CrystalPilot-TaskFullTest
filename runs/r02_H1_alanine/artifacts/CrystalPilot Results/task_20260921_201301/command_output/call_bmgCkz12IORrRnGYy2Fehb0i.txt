@@ -1,0 +1,78 @@
+
+
+Mode   Name                           Length 
+
+----   ----                           ------ 
+
+d----- frames_normalized                     
+
+d----- logs                                  
+
+d----- solve_runs                            
+
+-a---- dials.estimate_resolution.html 13901  
+
+-a---- dials.estimate_resolution.log  1110   
+
+-a---- dials.export.log               3424   
+
+-a---- dials.find_spots.log           31286  
+
+-a---- dials.hkl                      124050 
+
+-a---- dials.import.log               2385   
+
+-a---- dials.index.log                85962  
+
+-a---- dials.ins                      209    
+
+-a---- dials.integrate.log            140325 
+
+-a---- dials.integrate.phil           118    
+
+-a---- dials.refine.log               49508  
+
+-a---- dials.scale.html               1669544
+
+-a---- dials.scale.log                27715  
+
+-a---- dials.symmetry.html            9059   
+
+-a---- dials.symmetry.json            7427   
+
+-a---- dials.symmetry.log             10287  
+
+-a---- imported.expt                  71631  
+
+-a---- indexed.expt                   75328  
+
+-a---- indexed.refl                   3390250
+
+-a---- integrated.expt                289618 
+
+-a---- integrated.refl                1544539
+
+-a---- refined.expt                   288540 
+
+-a---- refined.refl                   3337344
+
+-a---- scaled.expt                    290445 
+
+-a---- scaled.mtz                     892312 
+
+-a---- scaled.refl                    1721612
+
+-a---- solve.ins                      256    
+
+-a---- state.json                     27219  
+
+-a---- strong.refl                    2935777
+
+-a---- symmetrized.expt               274887 
+
+-a---- symmetrized.refl               1544539
+
+
+
+
+

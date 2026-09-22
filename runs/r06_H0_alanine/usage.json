@@ -1,0 +1,34 @@
+{
+  "model_requests": null,
+  "tool_calls": 74,
+  "input_tokens": 10094972,
+  "output_tokens": 27661,
+  "cached_input_tokens": 9880479,
+  "reasoning_output_tokens": 8904,
+  "cost_usd": null,
+  "source": "workbench token_usage events (last cumulative record) and tool_started count; model_requests not exposed (null)",
+  "token_usage_events": 98,
+  "last_token_usage_event": {
+    "kind": "token_usage",
+    "last": {
+      "cache_write_input_tokens": 2342,
+      "cached_input_tokens": 201525,
+      "input_tokens": 203935,
+      "output_tokens": 437,
+      "reasoning_output_tokens": 261,
+      "total_tokens": 204372
+    },
+    "total": {
+      "cache_write_input_tokens": 203867,
+      "cached_input_tokens": 9880479,
+      "input_tokens": 10094972,
+      "output_tokens": 27661,
+      "reasoning_output_tokens": 8904,
+      "total_tokens": 10122633
+    },
+    "context_window": 258400,
+    "ts": 1790004479.7263227,
+    "task_id": "task_20260921_230205",
+    "thread_id": "01a0c47d-114a-7771-ad5c-579b7afadef2"
+  }
+}

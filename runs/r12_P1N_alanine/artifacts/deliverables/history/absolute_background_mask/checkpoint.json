@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-22T05:08:36.295575",
+  "sha256": {
+    "refined_model.json": "3ebfd2c2c2c4a177ed09508d9ae28548a9cab5632f6e370cf576475e6f7cdea1",
+    "merged.npy": "332afd6482198b533fb54fc5d39d7adf5097107c666fc8a49bbc9296043d72b2",
+    "merged_all.csv": "1ce16ed5eb77cebc24d8582125fcf0b9e8e1d6c5b5448c0ebb6c63c143b84162",
+    "refinement_reflections.csv": "9eed32e427cdc5271509241773bfab72f8ac984902912d074549c19bc7d41a63",
+    "refinement_covariance.npy": "4a06d9a6e122aa2ab2e4ce9d8080bfd1a419e272176c0c25fb0aff1e7f9d6bd6",
+    "merging_statistics.json": "388de35b7c2c5da49c94fe85683d791aff6a676d768f00f15a3615ecf6bca0c3",
+    "difference_statistics.json": "806ac6e2eee351a51612d9df151495e50916a9ccd41c151950bbbddedc9d87df",
+    "bond_geometry.json": "bf8a779da92eb139350253e0afcf61f4bffeacc1ca5c731c6f46b382a2562752",
+    "integration_settings.json": "cd446daa647726deaa337a3d52766fcbb0ed5574d3c981137b668a98c2bf48ad",
+    "mask_settings.json": "c960c06bbc3071c8517f0115f43fcf134d7d6a2af98b4e8f9c54ed10caa6d350",
+    "refinement_stages.json": "9ec0fa9843d06f7a58d160ad570c9faea58e31e7e85752468bc16ca87822b60b"
+  }
+}

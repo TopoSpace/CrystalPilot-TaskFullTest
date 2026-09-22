@@ -1,0 +1,18 @@
+已完成 **NU-1000 框架的独立解析、精修及复算验证**，结果保存在 `deliverables/`。未建立孔道溶剂或客体原子模型；原始输入未修改。
+
+### 主要结果
+- 空间群：**P6/mmm**
+- 晶胞内确认 **3 个 Zr₆ 节点、6 个 C₄₄ 配体**
+- 精修分辨率：**1.10 Å**，独立反射 **3345**
+- **R1 = 0.0876，wR2 = 0.3161，GooF = 1.021**
+- 全部非氢原子位移矩阵正定
+- 新目录复算通过，残差一致，最大坐标差约 **0.000017 Å**
+
+### 交付文件
+- [主结构 CIF](deliverables/nu1000_framework.cif)
+- 同名 **INS、RES、HKL、FAB、FCF、LST**
+- [中文说明与未解决问题](deliverables/README_zh.md)
+- [复算脚本](deliverables/reproduce.py)及[验证记录](deliverables/verification.json)
+- [计算输入输出档案](deliverables/calculation_records.zip)
+
+**目前不能无保留地认定已达到发表级。** 主要限制包括 Rint 较高（0.4308）、较大的位移参数、约 79% 空隙导致的 SQUEEZE 掩膜可靠性限制，以及节点质子和实验元数据缺失。完整 checkCIF 验证尚未完成。这些问题、未掩膜对照及失败试验均已保留并说明。

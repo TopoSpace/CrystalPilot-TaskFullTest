@@ -1,0 +1,236 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+The following parameters have been modified:
+
+input {
+  experiments = integrated.expt
+  reflections = integrated.refl
+}
+
+Detected existence of a multi-dataset reflection table 
+containing 6 datasets. 
+
+================================================================================
+
+Performing Laue group analysis
+
+Mapping all input cells to a common minimum cell
+Filtering reflections for dataset 0
+Read 652 predicted reflections
+Selected 608 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+4 outliers have been identified. 
+
+Filtering reflections for dataset 1
+Read 661 predicted reflections
+Selected 623 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+4 outliers have been identified. 
+
+Filtering reflections for dataset 2
+Read 1079 predicted reflections
+Selected 1013 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+10 outliers have been identified. 
+
+Filtering reflections for dataset 3
+Read 428 predicted reflections
+Selected 387 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+2 outliers have been identified. 
+
+Filtering reflections for dataset 4
+Read 839 predicted reflections
+Selected 780 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+9 outliers have been identified. 
+
+Filtering reflections for dataset 5
+Read 763 predicted reflections
+Selected 725 reflections integrated by profile and summation methods
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5
+A round of outlier rejection has been performed, 
+3 outliers have been identified. 
+
+Patterson group: P 4/m m m
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 1
+
+ML estimate of overall B_cart value:
+   1.15, -0.76, -1.45
+         -8.35, -0.88
+                 2.88
+ML estimate of  -log of scale factor:
+   1.14
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 2
+
+ML estimate of overall B_cart value:
+   1.89,  0.85, -1.03
+         -7.30,  0.83
+                 2.52
+ML estimate of  -log of scale factor:
+   1.15
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 3
+
+ML estimate of overall B_cart value:
+  -0.13,  0.23, -0.15
+          1.82, -0.35
+                 1.38
+ML estimate of  -log of scale factor:
+   1.24
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 4
+
+ML estimate of overall B_cart value:
+   1.87, -1.76, -0.09
+         -9.66,  2.43
+                 5.82
+ML estimate of  -log of scale factor:
+   1.29
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 5
+
+ML estimate of overall B_cart value:
+  -0.34, -0.10, -0.41
+          4.34,  6.05
+                 7.70
+ML estimate of  -log of scale factor:
+   1.19
+
+--------------------------------------------------------------------------------
+
+Normalising intensities for dataset 6
+
+ML estimate of overall B_cart value:
+   2.63,  0.31, -0.29
+         -8.45,  1.02
+                 3.95
+ML estimate of  -log of scale factor:
+   1.26
+
+--------------------------------------------------------------------------------
+
+Estimation of resolution for Laue group analysis
+
+Removing 3 Wilson outliers with E^2 >= 16.0
+Resolution estimate from <I>/<σ(I)> > 4.0 : 0.86
+Resolution estimate from CC½ > 0.60: 0.82
+High resolution limit set to: 0.82
+Selecting 2103 reflections with d > 0.82
+
+Input crystal symmetry:
+Unit cell: (5.78803, 5.96863, 12.2994, 90.0102, 90.0381, 90.0044)
+Space group: P 1 (No. 1)
+Change of basis op to minimum cell: a,b,c
+Crystal symmetry in minimum cell:
+Unit cell: (5.78803, 5.96863, 12.2994, 90.0102, 90.0381, 90.0044)
+Space group: P 1 (No. 1)
+Lattice point group: P 4/m m m
+
+Overall CC for 995 unrelated pairs: 0.098
+Estimated expectation value of true correlation coefficient E(CC) = 0.973
+Estimated sd(CC) = 0.995 / sqrt(N)
+Estimated E(CC) of true correlation coefficient from identity = 0.863
+
+--------------------------------------------------------------------------------
+
+Scoring individual symmetry elements
+
++--------------+--------+------+------+----+-------------------+
+|   likelihood |   Z-CC |   CC |    N |    | Operator          |
+|--------------+--------+------+------+----+-------------------|
+|        0.806 |   8.08 | 0.81 | 1553 | ** | a:  1 |(0, 0, 0)  |
+|        0.068 |   0.7  | 0.07 | 3346 |    | b:  4 |(0, 0, 1)  |
+|        0.861 |   8.66 | 0.87 | 1582 | ** | c:  2 |(1, 0, 0)  |
+|        0.756 |   7.82 | 0.78 | 1689 | ** | d:  2 |(0, 1, 0)  |
+|        0.783 |   7.95 | 0.79 | 1447 | ** | e:  2 |(0, 0, 1)  |
+|        0.071 |   0.4  | 0.04 | 1530 |    | f:  2 |(1, 1, 0)  |
+|        0.068 |   0.81 | 0.08 | 1778 |    | g:  2 |(-1, 1, 0) |
++--------------+--------+------+------+----+-------------------+
+
+--------------------------------------------------------------------------------
+
+Scoring all possible sub-groups
+
++-------------------+-----+--------------+----------+--------+--------+------+-------+------------+--------------------+------------+
+| Patterson group   |     |   Likelihood |   NetZcc |   Zcc+ |   Zcc- |   CC |   CC- |   delta(°) | Reindex operator   | Elements   |
+|-------------------+-----+--------------+----------+--------+--------+------+-------+------------+--------------------+------------|
+| P m m m           | *** |        0.828 |     7.47 |   8.13 |   0.66 | 0.81 |  0.07 |        0   | a,b,c              | a.cde..    |
+| P 1 2/m 1         |     |        0.074 |     3.36 |   8.37 |   5.01 | 0.84 |  0.31 |        0   | -b,-a,-c           | a.c....    |
+| P 1 2/m 1         |     |        0.043 |     2.77 |   8.01 |   5.24 | 0.8  |  0.32 |        0   | -a,-c,-b           | a...e..    |
+| P 1 2/m 1         |     |        0.037 |     2.67 |   7.95 |   5.28 | 0.79 |  0.31 |        0   | a,b,c              | a..d...    |
+| P -1              |     |        0.012 |     2.3  |   8.08 |   5.78 | 0.81 |  0.38 |        0   | a,b,c              | a......    |
+| P 4/m             |     |        0.003 |     0.71 |   6.56 |   5.85 | 0.43 |  0.44 |        1.8 | a,b,c              | ab..e..    |
+| C 1 2/m 1         |     |        0.001 |    -0.61 |   5.72 |   6.33 | 0.41 |  0.44 |        1.8 | a-b,a+b,c          | a....f.    |
+| C 1 2/m 1         |     |        0.001 |    -0.58 |   5.74 |   6.32 | 0.43 |  0.43 |        1.8 | a+b,-a+b,c         | a.....g    |
+| P 4/m m m         |     |        0     |     6.16 |   6.16 |   0    | 0.43 |  0    |        1.8 | a,b,c              | abcdefg    |
+| C m m m           |     |        0     |    -1.06 |   5.68 |   6.75 | 0.42 |  0.45 |        1.8 | a+b,-a+b,c         | a...efg    |
++-------------------+-----+--------------+----------+--------+--------+------+-------+------------+--------------------+------------+
+
+Best solution: P m m m
+Unit cell: 5.788, 5.969, 12.299, 90.000, 90.000, 90.000
+Reindex operator: a,b,c
+Laue group probability: 0.828
+Laue group confidence: 0.790
+
++-------------------+--------------------------+
+| Patterson group   | Corresponding MX group   |
+|-------------------+--------------------------|
+| P m m m           | P 2 2 2                  |
++-------------------+--------------------------+
+================================================================================
+
+Analysing systematic absences
+
+Laue group: P m m m
+Performing systematic absence checks on unscaled profile-integrated data
+Read 4422 predicted reflections
+Selected 4247 profile integrated reflections
+Removed 494 reflections with d <= 0.82
+Laue group: P m m m
+Scoring method: direct
++--------------+---------+---------------+--------------+---------------+--------------+-------------------+------------------+
+| Screw axis   |   Score |   No. present |   No. absent |   <I> present |   <I> absent |   <I/sig> present |   <I/sig> absent |
+|--------------+---------+---------------+--------------+---------------+--------------+-------------------+------------------|
+| 21a          |       1 |             3 |            4 |      1572.43  |       -0.016 |            88.474 |            0.001 |
+| 21b          |       1 |             3 |            4 |       220.693 |       -0.029 |            18.847 |           -0.117 |
+| 21c          |       1 |             7 |            8 |      1181.19  |        0.085 |            89.811 |            0.006 |
++--------------+---------+---------------+--------------+---------------+--------------+-------------------+------------------+
++---------------+---------+
+| Space group   |   score |
+|---------------+---------|
+| P 2 2 2       |       0 |
+| P 2 2 21      |       0 |
+| P 2 21 2      |       0 |
+| P 21 2 2      |       0 |
+| P 21 21 2     |       0 |
+| P 21 2 21     |       0 |
+| P 2 21 21     |       0 |
+| P 21 21 21    |       1 |
++---------------+---------+
+Recommended space group: P 21 21 21
+Saving reindexed experiments to symmetrized.expt in space group P 21 21 21
+Saving 4422 reindexed reflections to symmetrized.refl

@@ -1,0 +1,205 @@
+data_NU1000_framework
+
+_audit_creation_method 'Independent Python/numpy/scipy implementation'
+_audit_creation_date 2026-09-22
+_audit_block_doi ?
+_chemical_name_common NU-1000
+_chemical_formula_sum ?
+_chemical_formula_weight ?
+_cell_formula_units_Z ?
+_cell_length_a 39.1900
+_cell_length_b 39.1900
+_cell_length_c 16.6100
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 22092.8015
+_space_group_name_H-M_alt 'P 6/m m m'
+_space_group_name_Hall '-P 6 2'
+_space_group_IT_number 191
+_diffrn_radiation_wavelength 0.68883
+_diffrn_radiation_type x-ray
+_diffrn_ambient_temperature ?
+_diffrn_radiation_source ?
+_exptl_crystal_description ?
+_exptl_crystal_colour ?
+_exptl_crystal_size_max ?
+_exptl_crystal_size_mid ?
+_exptl_crystal_size_min ?
+_refine_special_details
+;
+Framework-only constrained/ restrained refinement in P 6/m m m.
+18 Zr, 264 C and 96 O atoms per unit cell, plus 132 idealized aromatic H atoms.
+No solvent or guest atomic sites, and NO pore-density correction, are in this model.
+The sixfold formula-unit inventory is not a complete chemical composition:
+node O/OH/H2O protonation, terminal-site chemistry and pore contents are unknown.
+Aromatic C-H = 0.95 A riding, Uiso(H)=1.2Ueq(C); node hydrogen atoms are omitted.
+Twenty non-H asymmetric sites were refined anisotropically, with site symmetry.
+Generic aromatic/carboxylate distances, angles, planarity, and rigid-bond/similar
+ADP restraints stabilize the weak light-atom data. There are 188 geometry/ADP
+residual rows, not all independent, plus 60 inactive ADP-positivity penalty rows.
+Restraint targets and strengths are in the accompanying source and JSON, not
+from a reference structure. Coordinates have extra decimals for reproducibility.
+Resolution limited to 1.0 A using signal diagnostics; ALL measured intensities
+inside that limit, including negative values, enter the final F-squared refinement.
+No reflection-specific outlier removal or low-angle omission is applied.
+Zr real and imaginary dispersion terms are EFFECTIVE parameters fitted to these
+data, not independently calibrated anomalous-scattering values. C,H,O corrections
+were approximated as zero. The supplied wavelength is 0.68883 A.
+Formal standard uncertainties are conditional on this model and the fixed cell;
+they do not cover unmodeled pore scattering or the uncertain dispersion correction.
+This structure is a checkable framework result, NOT a publication-validated model.
+Low-angle residuals remain significant. No external crystallographic validation
+program, crystallographic library, structure database, or downloaded data was used.
+The space group is supported by the input symmetry and strong-reflection equivalence.
+The cell and wavelength are copied from start.ins; cell uncertainties and collection temperature are unknown.
+Unit-cell atom inventory: Zr 18, O 96, C 264, H 132
+The formula, formula weight and Z are left unknown because node protonation and pore content are not determined.
+;
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 '-x+y,-x,-z'
+3 '-x+y,-x,z'
+4 '-x+y,y,-z'
+5 '-x+y,y,z'
+6 '-x,-x+y,-z'
+7 '-x,-x+y,z'
+8 '-x,-y,-z'
+9 '-x,-y,z'
+10 '-y,-x,-z'
+11 '-y,-x,z'
+12 '-y,x-y,-z'
+13 '-y,x-y,z'
+14 'x,x-y,-z'
+15 'x,x-y,z'
+16 'x,y,-z'
+17 'x-y,-y,-z'
+18 'x-y,-y,z'
+19 'x-y,x,-z'
+20 'x-y,x,z'
+21 'y,-x+y,-z'
+22 'y,-x+y,z'
+23 'y,x,-z'
+24 'y,x,z'
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type full
+_refine_ls_hydrogen_treatment constr
+_refine_ls_number_reflns 4395
+_refine_ls_number_parameters 157
+_refine_ls_number_restraints 188
+_refine_ls_R_factor_gt 0.175023
+_refine_ls_R_factor_all 0.263801
+_refine_ls_wR_factor_ref 0.462928
+_refine_ls_goodness_of_fit_ref 2.51284
+_reflns_threshold_expression 'I > 2 sigma(I)'
+_reflns_number_total 4395
+_reflns_number_gt 2029
+_reflns_d_resolution_high 1.0000
+_reflns_d_resolution_low 14.91916
+_refine_ls_weighting_scheme calc
+_refine_ls_weighting_details 'w=1/[sigma(I)^2+(0.08P)^2+0.01]; P=(max(I,0)+2Ic)/3'
+_refine_diff_density_max 1.87465
+_refine_diff_density_min -1.29309
+_refine_diff_density_rms 0.18555
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+C 0 0
+H 0 0
+O 0 0
+Zr -9.732412 6.234626
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+Zr1 Zr 0.54482637(9104) 0.00000000 0.10617676(19639) 0.07980082(184562) Uani 1.000000 12 d .
+Zr2 Zr 0.53612807(6280) 0.07225615(12559) 0.00000000 0.06915276(203041) Uani 1.000000 6 d .
+O1 O 0.46288256(58080) 0.00000000 0.24026070(100216) 0.12240201(757536) Uani 1.000000 12 d .
+O2 O 0.51809776(25974) 0.03619551(51947) 0.10713653(124788) 0.11878607(729567) Uani 1.000000 12 d .
+O3 O 0.47366211(56574) 0.03660268(52989) 0.00000000 0.11982689(737669) Uani 1.000000 12 d .
+O4 O 0.51870576(35606) 0.10531120(30619) 0.08114716(68999) 0.08583607(420526) Uani 1.000000 24 d .
+O5 O 0.39871656(45268) 0.00000000 0.08841003(153391) 0.14624795(865983) Uani 1.000000 12 d .
+O6 O 0.46604509(35780) 0.05920977(34148) 0.15067139(77617) 0.10299866(492600) Uani 1.000000 24 d .
+C1 C 0.49543218(51272) 0.24771609(25636) 0.45733523(60334) 0.12741124(1199826) Uani 1.000000 12 d .
+C2 C 0.46268913(54044) 0.14422264(47788) 0.29040251(98845) 0.14527843(1008246) Uani 1.000000 24 d .
+C3 C 0.52293805(50527) 0.19336417(43106) 0.22399725(101023) 0.12504644(849520) Uani 1.000000 24 d .
+C4 C 0.46176567(49651) 0.11465265(44053) 0.24120101(101526) 0.12303914(844083) Uani 1.000000 24 d .
+C5 C 0.49508810(39195) 0.21697057(35003) 0.33114702(81275) 0.11867531(809801) Uani 1.000000 24 d .
+C6 C 0.49363723(49971) 0.18403316(41705) 0.28223138(84516) 0.12426047(880617) Uani 1.000000 24 d .
+C7 C 0.49527332(41002) 0.18478881(46389) 0.45852610(57621) 0.14001138(922717) Uani 1.000000 24 d .
+C8 C 0.52226723(47676) 0.16381026(44051) 0.17621068(94318) 0.11082970(760765) Uani 1.000000 24 d .
+C9 C 0.49523243(41090) 0.21667180(34317) 0.41511896(70437) 0.12399468(844621) Uani 1.000000 24 d .
+C10 C 0.49185583(45157) 0.12489759(39715) 0.18500648(86659) 0.09692335(655670) Uani 1.000000 24 d .
+C11 C 0.49539529(50049) 0.24769765(25025) 0.29038049(114135) 0.12165920(1179350) Uani 1.000000 12 d .
+C12 C 0.49198122(41582) 0.09417480(37302) 0.13412400(80956) 0.09125895(659986) Uani 1.000000 24 d .
+H2 H 0.44266204 0.13762247 0.32954019 0.17433412 Uiso 1.000000 24 calc R
+H3 H 0.54328564 0.21993653 0.21724544 0.15005573 Uiso 1.000000 24 calc R
+H4 H 0.44104922 0.08812121 0.24601828 0.14764697 Uiso 1.000000 24 calc R
+H7 H 0.49524367 0.16379972 0.42985164 0.16801366 Uiso 1.000000 24 calc R
+H8 H 0.54242703 0.17019693 0.13750125 0.13299563 Uiso 1.000000 24 calc R
+H11 H 0.49576717 0.24788358 0.23319107 0.14599104 Uiso 1.000000 12 calc R
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zr1 0.08727641(244678) 0.06405510(257872) 0.08033050(279302) 0.03202755(128936) -0.01254156(194272) 0.00000000
+Zr2 0.08102844(307415) 0.05795063(327874) 0.06078660(322782) 0.02897531(163937) 0.00000000 0.00000000
+O1 0.18612466(1640089) 0.07411232(1291834) 0.06963159(1207508) 0.03705616(645917) 0.02178841(1190449) 0.00000000
+O2 0.09763765(1035092) 0.08967104(1343666) 0.16639397(1946746) 0.04483552(671833) 0.02278276(684991) 0.04556551(1369982)
+O3 0.12427287(1673370) 0.08988463(1409457) 0.08117238(1278866) 0.00542627(1237405) 0.00000000 0.00000000
+O4 0.10657400(1052635) 0.06275421(808456) 0.08203513(915326) 0.03772340(771280) 0.00069439(723489) -0.00001055(717141)
+O5 0.08404324(994080) 0.08864603(1407084) 0.26758884(2490069) 0.04432301(703542) 0.00165068(1392165) 0.00000000
+O6 0.11142507(1154411) 0.07303396(876095) 0.11289703(1040222) 0.03738481(851810) 0.02209391(850157) -0.01552113(864337)
+C1 0.25205473(3434406) 0.10482459(1272421) 0.07443112(1884832) 0.12602736(1717203) 0.01766076(1935771) 0.00883038(967886)
+C2 0.25872308(2939794) 0.10697832(1589672) 0.10795224(1818424) 0.11978912(1896125) 0.05757750(1880585) 0.03157224(1467848)
+C3 0.18174986(2442877) 0.08676228(1642794) 0.11034873(1872368) 0.06991920(1693289) 0.01268223(1475933) -0.01107524(1311401)
+C4 0.16512099(2226071) 0.10158780(1754806) 0.11964061(1853863) 0.07960119(1779743) 0.05310903(1481749) 0.00825405(1331139)
+C5 0.21614807(2395006) 0.10844617(1718203) 0.07403375(1201222) 0.11310012(1814777) 0.00822367(1655422) -0.00236751(1197819)
+C6 0.22834857(2768581) 0.11218397(1607776) 0.06808603(1452267) 0.11201101(1847767) 0.01878492(1488862) 0.01087874(1279830)
+C7 0.25384244(2660189) 0.11795317(1752018) 0.08518833(1481100) 0.12066126(1925488) -0.01818467(1513196) -0.00982449(1148770)
+C8 0.16365816(2081926) 0.07952388(1270138) 0.09224984(1534036) 0.06300261(1345226) 0.03590401(1457232) -0.00252757(1294087)
+C9 0.23008070(2500934) 0.11571699(1750347) 0.07606135(1199588) 0.12385568(1884629) 0.01809247(1678063) 0.00253962(1183790)
+C10 0.13590008(1881141) 0.07817328(1253211) 0.09024044(1520184) 0.06367614(1281826) 0.00872977(1301871) -0.00064187(1216359)
+C11 0.22164242(3389225) 0.09862875(1402469) 0.08571098(2248224) 0.11082121(1694613) 0.02406463(2358581) 0.01203231(1179291)
+C12 0.11957586(1961852) 0.06336698(1243504) 0.08480134(1601835) 0.04121120(1314936) -0.00572559(1207003) -0.00258718(1159896)
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+C1 C1 1.4173(200) 16_556
+C1 C9 1.4009(111) .
+C1 C9 1.4009(111) 15_555
+C2 C4 1.4036(127) .
+C2 C6 1.4252(129) .
+C3 C6 1.4029(128) .
+C3 C8 1.3935(124) .
+C4 C10 1.3963(124) .
+C5 C6 1.5021(139) .
+C5 C9 1.3949(142) .
+C5 C11 1.3763(132) .
+C7 C7 1.3778(191) 16_556
+C7 C9 1.4433(152) .
+C8 C10 1.3964(124) .
+C10 C12 1.4731(129) .
+C12 O4 1.2667(112) .
+C12 O6 1.2624(113) .

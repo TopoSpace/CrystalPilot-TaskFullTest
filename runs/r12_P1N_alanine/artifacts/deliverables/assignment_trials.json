@@ -1,0 +1,58 @@
+{
+  "chosen_input_atom_permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "trials": [
+    {
+      "input_atom_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "chi_squared": 7332.552227715459,
+      "statistics": {
+        "R1_gt2sigma": 0.08335296837438927,
+        "R1_all": 0.09096944167456822,
+        "wR2": 0.19868302993981873,
+        "goodness_of_fit": 3.406191362917768,
+        "n_reflections": 657,
+        "n_gt2sigma": 599,
+        "n_parameters": 25,
+        "scale": 1.4689048241720006,
+        "optimizer_message": "`ftol` termination condition is satisfied.",
+        "optimality": 0.193842693361351
+      }
+    },
+    {
+      "input_atom_permutation": [
+        0,
+        3,
+        2,
+        1,
+        4,
+        5
+      ],
+      "chi_squared": 14207.311965971337,
+      "statistics": {
+        "R1_gt2sigma": 0.11116453086852039,
+        "R1_all": 0.120552902269845,
+        "wR2": 0.2765598623237505,
+        "goodness_of_fit": 4.741299821440329,
+        "n_reflections": 657,
+        "n_gt2sigma": 599,
+        "n_parameters": 25,
+        "scale": 1.4056071322924188,
+        "optimizer_message": "`ftol` termination condition is satisfied.",
+        "optimality": 0.11718238025624678
+      }
+    }
+  ]
+}

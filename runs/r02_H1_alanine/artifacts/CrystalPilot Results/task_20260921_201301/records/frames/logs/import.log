@@ -1,0 +1,30 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+The following parameters have been modified:
+
+input {
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_1_#####.rodhypix"
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_2_#####.rodhypix"
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_3_#####.rodhypix"
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_4_#####.rodhypix"
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_5_#####.rodhypix"
+  template = "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\frames_normalized\\pgw240033_Mo_6_#####.rodhypix"
+}
+
+--------------------------------------------------------------------------------
+  format: <class 'dxtbx.format.FormatROD.FormatROD_Arc'>
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_1_#####.rodhypix:1:92
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_2_#####.rodhypix:1:92
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_3_#####.rodhypix:1:150
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_4_#####.rodhypix:1:58
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_5_#####.rodhypix:1:116
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_6_#####.rodhypix:1:108
+  num images: 616
+  sequences:
+    still:    0
+    sweep:    6
+  num stills: 0
+--------------------------------------------------------------------------------
+Writing experiments to imported.expt
+
+--- stderr ---

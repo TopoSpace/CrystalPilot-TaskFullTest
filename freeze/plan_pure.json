@@ -1,0 +1,196 @@
+{
+  "frozen_at": "2026-09-21T19:22:40+0800",
+  "seed": 20260921,
+  "design": "serial, one run at a time, one replicate per condition x case",
+  "why_serial": "one heavy science task at a time (DIALS full-frame integration, SHELXL on 337k reflections); machine has a history of memory-related crashes; ~24 h left",
+  "drop_order_if_time_runs_out": "last rows first (P1, then H0); dropped rows stay in the results table as not run",
+  "cases": {
+    "alanine": {
+      "limit_minutes": 120,
+      "prompt_file": "alanine.txt",
+      "inputs": "inputs/alanine/ (raw Rigaku frames + acquisition metadata)"
+    },
+    "nu1000": {
+      "limit_minutes": 180,
+      "prompt_file": "nu1000.txt",
+      "inputs": "inputs/start.hkl, inputs/start.ins, inputs/synthesis.png",
+      "scope_sentence": "只解析出临近发表级的框架结构，孔道内部的溶剂分子及客体无需处理。"
+    }
+  },
+  "conditions": {
+    "C0": {
+      "name": "native Codex kernel + same science software",
+      "kernel": "codex-cli 0.155.0 (vendored)",
+      "model": "gpt-6-astra",
+      "effort": "xhigh",
+      "provider": "crystalpilot",
+      "sandbox": "danger-full-access (the Windows sandbox rejects every command in non-interactive mode; the workbench's auto mode likewise runs escalated commands unsandboxed)",
+      "approval_policy": "never",
+      "mcp": null,
+      "instructions": "kernel base instructions only; no AGENTS.md",
+      "knowledge": null
+    },
+    "H0": {
+      "name": "CrystalPilot, knowledge_mode=tools_only",
+      "kernel": "codex-cli 0.155.0 (same binary)",
+      "model": "gpt-6-astra",
+      "effort": "xhigh",
+      "provider": "crystalpilot",
+      "permission_mode": "auto",
+      "settings": {
+        "knowledge_mode": "tools_only",
+        "subagents": "off",
+        "enable_specialists": false,
+        "allow_iucr_upload": false,
+        "model_override": "gpt-6-astra",
+        "effort_override": "xhigh",
+        "model_provider_override": "crystalpilot"
+      },
+      "instructions": "AGENTS.md tools-only template",
+      "knowledge": null
+    },
+    "H1": {
+      "name": "CrystalPilot, knowledge_mode=full, frozen redacted knowledge",
+      "kernel": "codex-cli 0.155.0 (same binary)",
+      "model": "gpt-6-astra",
+      "effort": "xhigh",
+      "provider": "crystalpilot",
+      "permission_mode": "auto",
+      "settings": {
+        "knowledge_mode": "full",
+        "subagents": "off",
+        "enable_specialists": false,
+        "allow_iucr_upload": false,
+        "model_override": "gpt-6-astra",
+        "effort_override": "xhigh",
+        "model_provider_override": "crystalpilot"
+      },
+      "instructions": "AGENTS.md full template",
+      "knowledge": "frozen snapshot, 26 cards, 3 redacted (see provenance/knowledge_redactions.json)"
+    },
+    "P1": {
+      "name": "Claude Code 2.1.261 + same science software (product comparison)",
+      "kernel": "claude 2.1.261",
+      "model": "gpt-6-astra via the gateway's Anthropic-compatible route",
+      "effort": "gateway default; not controllable on that route (unverified)",
+      "provider": "crystalpilot gateway /openai/v1/messages",
+      "permission_mode": "dontAsk with Bash/Read/Write/Edit/Glob/Grep allowed; WebFetch/WebSearch/Task disallowed",
+      "instructions": "product system prompt; no CLAUDE.md",
+      "included": true,
+      "exclusion_reason": null
+    },
+    "C0N": {
+      "name": "pure native Codex: same kernel, model and task prompt; no crystallographic program or library may be used; plain Python (numpy/scipy/matplotlib/pandas/pillow) and Windows built-ins only; every algorithm written by the agent",
+      "kernel": "codex-cli 0.155.0 (vendored)",
+      "model": "gpt-6-astra",
+      "effort": "xhigh",
+      "provider": "crystalpilot",
+      "sandbox": "danger-full-access (as C0)",
+      "approval_policy": "never",
+      "mcp": null,
+      "instructions": "kernel base instructions only",
+      "environment": "environment.json: budget, directories, rules, the plain Python; PATH = toolbox/pyplain/Scripts + Windows system dirs; PYTHONNOUSERSITE=1; no PYTHONPATH",
+      "enforcement": "by instruction (the workstation has Olex2/SHELX/DIALS on disk and neither kernel has a usable Windows sandbox); every shell command is audited afterwards for crystallographic programs or libraries, other interpreters, downloads or installs; a violation voids the run"
+    },
+    "P1N": {
+      "name": "pure Claude Code 2.1.261: same model via the gateway, same no-tools rule and environment as C0N",
+      "kernel": "claude 2.1.261",
+      "model": "gpt-6-astra (Anthropic-compatible route)",
+      "effort": "gateway default (unverified)",
+      "provider": "crystalpilot gateway",
+      "permission_mode": "dontAsk; Bash/PowerShell/Read/Write/Edit/Glob/Grep allowed; WebFetch/WebSearch/Task disallowed",
+      "environment": "same as C0N",
+      "enforcement": "same as C0N"
+    }
+  },
+  "runs": [
+    {
+      "run_id": "r09_P1N_nu1000",
+      "order": 9,
+      "condition": "P1N",
+      "case_id": "nu1000",
+      "replicate": 1,
+      "status": "planned",
+      "limit_minutes": 180
+    },
+    {
+      "run_id": "r10_C0N_nu1000",
+      "order": 10,
+      "condition": "C0N",
+      "case_id": "nu1000",
+      "replicate": 1,
+      "status": "planned",
+      "limit_minutes": 180
+    },
+    {
+      "run_id": "r11_C0N_alanine",
+      "order": 11,
+      "condition": "C0N",
+      "case_id": "alanine",
+      "replicate": 1,
+      "status": "planned",
+      "limit_minutes": 120
+    },
+    {
+      "run_id": "r12_P1N_alanine",
+      "order": 12,
+      "condition": "P1N",
+      "case_id": "alanine",
+      "replicate": 1,
+      "status": "planned",
+      "limit_minutes": 120
+    }
+  ],
+  "budgets": {
+    "alanine_minutes": 120,
+    "nu1000_minutes": 180,
+    "model_requests_soft": 200,
+    "tool_calls_soft": 250,
+    "cost_note": "no reliable per-call price for the gateway; token counts are recorded; no automatic budget stop beyond wall clock"
+  },
+  "interventions_policy": {
+    "approval_requests": "reject and log",
+    "agent_question": "one fixed no-extra-information reply; for NU-1000 scope questions the verbatim scope sentence once",
+    "background_job": "one fixed notice if the product does not surface it",
+    "human_scientific": "none"
+  },
+  "hard_stop_local": "2026-09-22T20:00:00+08:00",
+  "deadline_local": "2026-09-22T23:00:00+08:00",
+  "pure_addition": {
+    "drafted_at": "2026-09-22T01:50:00+0800",
+    "status": "confirmed by the user 2026-09-22 02:05 (prompt text approved verbatim); frozen",
+    "requested_by": "user, 2026-09-22 01:40",
+    "order": "same slot order as the superseded bare plan: P1N nu1000, C0N nu1000, C0N alanine, P1N alanine",
+    "message_prefix": "环境约束（本轮特别规定）：本轮不提供、也不允许使用任何晶体学软件或晶体学程序库，包括但不限于 SHELX 系列（SHELXT、SHELXL、SHELXS、SHELXD 等）、Olex2、PLATON、DIALS、XDS、CrysAlisPro、cctbx、gemmi、pymatgen、ASE、spglib、CrystalPilot，以及本机上任何其他现成的数据还原、结构求解、精修或验证程序；也不允许下载、安装或更新任何软件、Python 包、模型或数据。你只能使用 environment.json 指定的通用 Python 环境（Python 3.12，仅含 numpy、scipy、matplotlib、pandas、pillow）和 Windows 自带的命令行工具，自行编写全部算法完成任务：读取输入数据、必要时的指标化与积分、结构求解、精修与检验都由你自己实现。不得调用本机其他 Python 解释器或其已安装的包，不得读取或复用本机任何现成程序的源代码。",
+    "message_prefix_sha256": "c1b3217fd6d9fe2f300d465cce822e22f7439fac00dfec3e350029b945ae09b2",
+    "environment_rules": [
+      "不允许使用任何晶体学软件或晶体学程序库（SHELX 系列、Olex2、PLATON、DIALS、XDS、CrysAlisPro、cctbx、gemmi、pymatgen、ASE、spglib、CrystalPilot 及本机其他现成的还原、求解、精修、验证程序）。",
+      "不允许下载、安装或更新任何软件、Python 包、模型或数据。",
+      "只能使用下面 environment 中列出的 Python 环境与 Windows 自带命令行工具；全部算法自行编写。",
+      "不得调用本机其他 Python 解释器或其已安装的包，不得读取或复用本机任何现成程序的源代码。",
+      "不访问网络查找该样品的答案。"
+    ],
+    "python_environment": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain",
+    "purpose": "the real out-of-the-box baseline: the same model in the same product must solve the crystal structure with self-written code only",
+    "frozen_at": "2026-09-22T01:58:42+0800"
+  },
+  "early_stop_rule": {
+    "id": "early-stop-rule",
+    "registered_before_start": true,
+    "checkpoints": "30 min after the task starts, then every 15 min; the controller reads the agent's messages, its commands and the files it wrote (pure_watch.py)",
+    "stop_if_any": [
+      "at 30 min the input data has still not been read into numbers (alanine: no .rodhypix frame decoded; NU-1000: start.hkl not parsed) and no runnable algorithm code exists",
+      "the agent has stated it cannot proceed (e.g. cannot decode the format) and for the following 15 min only repeats failing attempts or idles",
+      "no new command and no new file for 20 consecutive minutes while the kernel is still running"
+    ],
+    "do_not_stop_if": "there is checkable progress (new decoding / indexing / solution / refinement output); then the run goes to its natural end or the budget cap",
+    "mechanism": "controller writes control/controller/stop_<run_id>.json (stop_run.py); the runner kills the kernel within 2 s, records exit_reason=stopped_by_controller and the reason, seals as usual; the verifier then scores whatever was delivered",
+    "applies_to": [
+      "r09_P1N_nu1000",
+      "r10_C0N_nu1000",
+      "r11_C0N_alanine",
+      "r12_P1N_alanine"
+    ],
+    "requested_by": "user 2026-09-22 02:05: the agent may be unable to do this at all; add a time cap, e.g. stop if there is still no lead after 30 min"
+  }
+}

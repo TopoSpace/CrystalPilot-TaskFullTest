@@ -1,0 +1,11 @@
+{
+  "CIF_syntax_subset_checks": "passed",
+  "atoms": 13,
+  "anisotropic_atoms": 6,
+  "reflections": 623,
+  "independent_Fc2_relative_norm_error_from_rounded_CIF": 6.134921804061417e-05,
+  "R1_all_recomputed_from_CIF": 0.03781425213616196,
+  "R1_observed_recomputed_from_CIF": 0.03256199148902932,
+  "only_allowed_or_standard_library_imports": true,
+  "not_performed": "External CIF dictionary validation or checkCIF/PLATON."
+}

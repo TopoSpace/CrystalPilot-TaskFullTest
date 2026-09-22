@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "initial",
+    "argv": [
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+      "exec",
+      "--json",
+      "--sandbox",
+      "danger-full-access",
+      "--skip-git-repo-check",
+      "--model",
+      "gpt-6-astra",
+      "-c",
+      "model_reasoning_effort=\"xhigh\"",
+      "--output-last-message",
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\runs\\r10_C0N_nu1000\\final_message.txt",
+      "--image",
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\inputs\\synthesis.png",
+      "-"
+    ],
+    "cwd": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000",
+    "started_at": "2026-09-22T03:02:45+0800",
+    "ended_at": "2026-09-22T03:42:26+0800",
+    "exit_code": 0,
+    "exit_reason": "completed"
+  }
+]

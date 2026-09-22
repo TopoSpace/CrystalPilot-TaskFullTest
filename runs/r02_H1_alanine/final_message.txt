@@ -1,0 +1,5 @@
+已得到完整丙氨酸候选结构，空间群 P2₁2₁2₁，R1=4.42%，wR2=20.01%。
+
+**尚未达到发表质量**：发现遮挡观测与强等价反射剔除冲突，绝对构型也未可靠确定。结果已按诊断状态封存。
+
+已保存 CIF、RES、INS、HKL、FCF、计算记录及全部 A/B/C 警报说明，详见 [SUMMARY.md](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r02_H1_alanine/CrystalPilot Results/task_20260921_201301/SUMMARY.md>)。

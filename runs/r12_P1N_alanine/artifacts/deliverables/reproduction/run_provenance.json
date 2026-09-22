@@ -1,0 +1,98 @@
+{
+  "python": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+  "python_version": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "started": "2026-09-22T05:16:10+0800",
+  "network_used": false,
+  "crystallographic_libraries_used": false,
+  "source_sha256": {
+    "audit_integration.py": "c25c4d060e3c5fbc94af9fe10b29c59cd39df16fa433b22ff59b3ce732231f29",
+    "audit_pixels.py": "ab1902ce1b229be5179dd5587769fbd7220a393aea6834054a40953b8b1a6c20",
+    "audit_refinement.py": "8cc973f0c3d66b537fc157920f25a17053bb8f9d722c8e7b9ee8fd0091b119cb",
+    "audit_shadow_profiles.py": "ccb03c1056ae219460d1fbffde75f9d7b97cf7f697dbc2072c14fd0a8c3ea3de",
+    "decode_probe.py": "ebf8e774c8f70f9916232a299fae72b4f21394e569b59959b8458a55084bb9d9",
+    "decode_rows.py": "0c0db3dcd1e021dd810a70662cc56e77ecdc02007bacac67dd22547dd97e26a8",
+    "export_structure.py": "c5a190bbc30988263e8fc850608f3a2d62ce6c316dcdca3c233d3621cbf93f62",
+    "geometry.py": "f1de8a4cd575ee6a7b1b54c084b06e1c941cc942ced8be1e4b1a637c59ee417f",
+    "geometry_probe.py": "93aecf4753fc2b3ce4148263d5beb35057e04ecdf6361822341db57b85b1e1bf",
+    "integrate.py": "4a3e49500d3bc78981744b3da57f462334f323df5091b0f7a95e6e0f9ce59d34",
+    "merge.py": "b5beec146103fb4ed0f757750d6224925482e55d4bf0d048974ee59a51e3b7ff",
+    "probe_inputs.py": "e58678e578691be319d46e33b4f643da16923e2a2cd2f49b3b4c708be41deeaf",
+    "raw_frames.py": "4938afd0e22ba5a176bdfbe775292ac1dc64490c2477fd9cde6e6aeab285ba2a",
+    "record_stage.py": "49c157ff49fce69bfa6a955f1fd2e2a539fa11c5f1f7f29f7f63d09667a3d1e0",
+    "refine.py": "0ec2e1a7e8b47900871f1a44a98a2439adf54514692265311c160a29b2ba245f",
+    "run_pipeline.py": "9d3bc8f333e86c63d8b9073c0a10ac49d9e548ff27519087958844a9d4b11d8b",
+    "run_sensitivity.py": "5ce28f6a063d6fa1f8234c593e7556ce254e3e3896a7b0cc16086a2a092e9c53",
+    "search_molecule.py": "fa0ed5f2b12b90f89ec7b4429bc4380a72382ae5ad252fe94ff18b5b5dc69204",
+    "solve.py": "f82210783e82c93ca3feeb3e821d188bb42fea29409a5ab78e518d61066c356b",
+    "validate_geometry.py": "0c346fb977ff4f86740d1521887658b498ae1b2918aaad05d23f6f65f1252ac7",
+    "validate_model.py": "2e632a2e7c982b0554023238ddbca582e51e527bcc3c7ecd3e6fc95cc2f5965f"
+  },
+  "steps": [
+    {
+      "script": "raw_frames.py",
+      "arguments": [
+        "--extract"
+      ],
+      "exit_code": 0,
+      "seconds": 15.935292482376099
+    },
+    {
+      "script": "geometry.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 1.0747370719909668
+    },
+    {
+      "script": "audit_pixels.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 16.71154475212097
+    },
+    {
+      "script": "integrate.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 15.177234649658203
+    },
+    {
+      "script": "merge.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.9957447052001953
+    },
+    {
+      "script": "search_molecule.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 13.967081785202026
+    },
+    {
+      "script": "refine.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 5.192362308502197
+    },
+    {
+      "script": "validate_geometry.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.8848621845245361
+    },
+    {
+      "script": "export_structure.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 0.9681904315948486
+    },
+    {
+      "script": "validate_model.py",
+      "arguments": [],
+      "exit_code": 0,
+      "seconds": 9.772717714309692
+    }
+  ],
+  "elapsed_seconds": 80.69667172431946
+}

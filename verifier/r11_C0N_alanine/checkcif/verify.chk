@@ -1,0 +1,228 @@
+#===============================================================================
+# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: alanine
+# Data: verify.cif - Type: CIF                   Bond Precision   C-C = 0.0025 A
+#                                                                   Temp = 150 K
+# Audit:SELF-WRITTEN PYTHON 3.12 / NUMPY / SCIPY ALGORITHMS
+# Refin:SELF-WRITTEN ANISOTROPIC F^2 LEAST SQUARES
+# X-ray MoKa              R(int) = 0.068,  wR2/R(int) =  1.1,  Nref/Npar =  11.3
+# Cell   5.7970(6)  5.9711(19) 12.3018(19)           90           90          90
+# Wavelength 0.71073  Volume Reported      425.82(15) Calculated      425.82(16)
+# SpaceGroup from Symmetry P 21 21 21   Hall: P 2ac 2ab             orthorhombic
+#                 Reported P 21 21 21          ?                    orthorhombic
+# MoietyFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+#    SumFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+# Mr        =     89.10[Calc],     89.09[Rep]       Volume/NonHatoms = 18 Ang**3
+# Dx,gcm-3  =     1.390[Calc],     1.390[Rep]
+# Z         =         4[Calc],         4[Rep]
+# Mu (mm-1) =     0.116[Calc],     0.116[Rep]  Xtal Size =  0.000x0.000x0.000 mm
+# F000      =     192.0[Calc],     192.0[Rep]  or F000' =    192.11[Calc]
+# Reported   T Limits: Tmin=0.989              Tmax=0.995  AbsCorr = NUMERICAL
+# Measured   HKL: Reported   3786, Embedded      0, <Mult>  0.0
+# Reported   Hmax=  7, Kmax=  7, Lmax= 16, Nref=    623        , Th(max)= 28.247
+# Expected   Hmax=  7, Kmax=  7, Lmax= 16, Nref=   1052[   642], Ratio=0.97/0.59
+# Reported   Rho(min) = -0.21, Rho(max) = 0.20 e/Ang**3 (From CIF)
+# , IGMA(I)^2+(0.03P)^2]; P=(MAX(I,0)+2Fc^2)/
+# R= 0.0326(   574), wR2= 0.0751(   623), S = 1.311, Npar=   57
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+010_ALERT_1_A No Suitable  (Embedded) Reflection Data Supplied     Please Do !
+081_ALERT_1_A No Maximum Shift/Error Given ...................     Please Do !
+699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !
+#===============================================================================
+008_ALERT_5_B No _iucr_refine_reflections_details   in the CIF     Please Do !
+035_ALERT_1_B _chemical_absolute_configuration Info  Not Given     Please Do !
+995_ALERT_1_B Can not Recreate .fcf from Embedded  .res & .hkl          ! Check
+#===============================================================================
+053_ALERT_1_C Minimum Crystal Dimension Missing (or Error) ...     Please Check
+054_ALERT_1_C Medium  Crystal Dimension Missing (or Error) ...     Please Check
+055_ALERT_1_C Maximum Crystal Dimension Missing (or Error) ...     Please Check
+125_ALERT_4_C No '_symmetry_space_group_name_Hall' Given .....     Please Do !
+747_ALERT_1_C D...A   Calc    2.841(2), Rep     2.84090 ......    Missing s.u.
+              N1       -O1              1_555   2_456 ........     #    1 Check
+747_ALERT_1_C D...A   Calc    2.829(2), Rep     2.82900 ......    Missing s.u.
+              N1       -O2              1_555   3_745 ........     #    2 Check
+747_ALERT_1_C D...A   Calc  2.7993(19), Rep     2.79970 ......    Missing s.u.
+              N1       -O2              1_555   1_455 ........     #    3 Check
+761_ALERT_1_C CIF Contains no X-H Bonds ......................     Please Check
+762_ALERT_1_C CIF Contains no X-Y-H or H-Y-H Angles ..........     Please Check
+#===============================================================================
+005_ALERT_5_G No Embedded Refinement Details Found  in the CIF     Please Do !
+007_ALERT_5_G Number of Unrefined Donor-H Atoms ..............          3 Report
+              H1N   H2N   H3N
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O1       .        161 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O2       .        161 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O2       .        170 Degree
+760_ALERT_1_G CIF Contains no Torsion Angles .................          ? Info
+882_ALERT_1_G No Datum for _diffrn_reflns_av_unetI/netI ......     Please Do !
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+980_ALERT_1_G No Anomalous Scattering Factors Found in CIF ...     Please Check
+#===============================================================================
+#                                                                              *
+#===============================================================================
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  3 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  3 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+  9 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+  9 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+ 17 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+  4 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  3 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+  11 Missing  Experimental  Info Issue(s) (Out of  65 Tests) -   83 % Satisfied
+   0 Experimental  Data  Related Issue(s) (Out of  35 Tests) -  100 % Satisfied
+   1 Structural  Model   Related Issue(s) (Out of 144 Tests) -   99 % Satisfied
+  12 Unresolved or to be Checked Issue(s) (Out of 280 Tests) -   96 % Satisfied
+
+#                                                                              *
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_005 Type_5 Informative Message, Check.
+================================================================================
+ No embedded 'refinement details' records were found in the CIF. Acta Cryst.
+ requires the inclusion of the last shelxl.res file (in case of a SHELXL or
+ XL refinement or similar for non-SHELXL refinement programs) in the CIF,
+ embedded between records with semicolons in position 1, preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the final .res as an embedded
+ comment with the dataname '_shelx_res_file'.
+
+================================================================================
+ALERT_007 Type_5 Informative Message, Check.
+================================================================================
+ It is standard practice to refine Hydrogen atoms on hetero atoms as proof of
+ their correct assignment.
+
+================================================================================
+ALERT_008 Type_5 Informative Message, Check.
+================================================================================
+ No reflection records were found in the CIF. Acta Cryst. and 'FAIR' require
+ the inclusion of the unmerged reflection file used in the final refinement
+ (shelxl.hkl in case of a SHELXL or XL refinement) in the CIF, embedded
+ between records with semicolons in position 1 and preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the .hkl as an embedded
+ comment with the dataname '_shelx_hkl_file'.
+
+================================================================================
+ALERT_010 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Validation is not complete without the availability of the diffraction data.
+ Deposited reflection data are preferably the set of reflections that were
+ used in the final refinement and embedded in the CIF between records with
+ semicolons in position 1 and preceded by an _iucr_refine_reflections_details
+ record.  SHELXL20xy will do that automatically. Alternatively, an external
+ file with final observed, calculated and sigma reflection data will be the
+ minimum for validation and archival.
+
+================================================================================
+ALERT_035 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Options are 'rm', 'ad', 'rmad', 'syn', 'unk' or '.'
+
+ rm   : absolute configuration established by the structure determination
+        of a compound containing a chiral reference molecule of known
+        absolute configuration.
+ ad   : absolute configuration established by anomalous dispersion effects
+        in diffraction measurements on the crystal.
+ rmad : absolute configuration established by the structure determination
+        of a compound containing a chiral reference molecule of known
+        absolute configuration and confirmed by anomalous dispersion
+        effects in diffraction measurements on the crystal.
+ syn  : absolute configuration has not been established by anomalous
+        dispersion effects in diffraction measurements on the crystal.
+        The enantiomer has been assigned by reference to an unchanging
+        chiral centre in the synthetic procedure.
+ unk  : absolute configuration is unknown, there being no firm chemical
+        evidence for its assignment to hand and it having not been
+        established by anomalous dispersion effects in diffraction
+        measurements on the crystal. An arbitrary choice of enantiomer
+        has been made.
+ .    : inapplicable.
+
+================================================================================
+ALERT_053 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The smallest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_054 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The medium crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_055 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The largest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_081 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ A maximum shift/error should be specified in order to judge convergence.
+
+================================================================================
+ALERT_125 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Optionally specify the Hall symbol. The Hall symbol provides an
+ unambiguous definition of the space-group symmetry where the Hermann-
+ Mauguin symbol leaves room for alternative choices of the origin.
+ E.g. for space-group P21, the screw axis is in general taken to coincide
+ with the b-axis. However, sometimes it is chosen to be shifted by 1/4
+ in the c-axis direction to bring out the relation with P21/c. The Hall
+ symbols will be 'P 2yb' and 'P 2ybc' respectively.
+
+ Refer to: S.R.Hall, Space Group Notation with an Explicit Origin;
+           Acta Cryst. (1981), A37, 517-525.
+
+       or: http://www.kristall.ethz.ch/LFK/software/sginfo/hall_symbols.html
+
+================================================================================
+ALERT_484 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ D-H..A angles without s.u. should be rounded to integer values for
+ publication purposes (Required for Acta Cryst.).
+
+================================================================================
+ALERT_699 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Examples of expected values are 'block', 'needle', 'plate', 'sphere',
+ 'cylinder'. In case of 'cylinder' or 'sphere' also provide a value for
+ '_exptl_size_rad'.
+
+================================================================================
+ALERT_747 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Likely missing s.u. on H-Bond D...A distance in CIF.
+
+================================================================================
+ALERT_760 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no torsion angle entries. This might be accomplished with
+ the SHELXL instruction CONF.
+ Inclusion is encouraged by Acta Cryst. but not necessarily so by other
+ journals.
+
+================================================================================
+ALERT_761 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no X-H Bonds. This might be caused by not using the
+ SHELXL instruction BOND $H. Inclusion is required by Acta Cryst. but not
+ necessarily so by other journals.
+

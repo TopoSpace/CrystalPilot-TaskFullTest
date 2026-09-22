@@ -1,0 +1,35 @@
+{
+  "run_id": "r12_P1N_alanine",
+  "case": "alanine",
+  "condition": "P1N",
+  "budget": {
+    "wall_clock_minutes": 120,
+    "note": "the controller interrupts the run at the wall-clock limit; deliver a checkable state before then"
+  },
+  "working_directory": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine",
+  "inputs": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine\\inputs",
+  "inputs_are_read_only": true,
+  "deliverables_directory": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine\\deliverables",
+  "deliverables_note": "put the final structure files (CIF and any other formats you produce), your code, the computation logs and a short written summary here",
+  "rules": [
+    "不允许使用任何晶体学软件或晶体学程序库（SHELX 系列、Olex2、PLATON、DIALS、XDS、CrysAlisPro、cctbx、gemmi、pymatgen、ASE、spglib、CrystalPilot 及本机其他现成的还原、求解、精修、验证程序）。",
+    "不允许下载、安装或更新任何软件、Python 包、模型或数据。",
+    "只能使用下面 environment 中列出的 Python 环境与 Windows 自带命令行工具；全部算法自行编写。",
+    "不得调用本机其他 Python 解释器或其已安装的包，不得读取或复用本机任何现成程序的源代码。",
+    "不访问网络查找该样品的答案。"
+  ],
+  "environment": {
+    "python": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+    "packages": [
+      "numpy",
+      "scipy",
+      "matplotlib",
+      "pandas",
+      "pillow"
+    ],
+    "shell": "Windows built-in cmd / PowerShell",
+    "note": "this is the only Python you may use; it has no crystallographic library; PATH contains only this Python and the Windows system directories"
+  },
+  "software": "no crystallographic program or library is provided or may be used; implement every algorithm yourself",
+  "language": "reply in the language of the task text"
+}

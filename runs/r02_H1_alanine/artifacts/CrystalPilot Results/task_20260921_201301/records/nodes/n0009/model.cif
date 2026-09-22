@@ -1,0 +1,63 @@
+data_n0009
+
+_audit_creation_method        'CrystalPilot'
+_chemical_formula_sum         'C3 H7 N1 O2'
+_cell_formula_units_Z         4
+# formula counts are per formula unit (cell content / Z); occupancy-weighted
+_diffrn_radiation_wavelength  0.71073
+_cell_length_a                5.7880
+_cell_length_b                5.9686
+_cell_length_c                12.2994
+_cell_angle_alpha             90.000
+_cell_angle_beta              90.000
+_cell_angle_gamma             90.000
+_cell_volume                  424.90
+_space_group_crystal_system   orthorhombic
+_space_group_IT_number        19
+_space_group_name_H-M_alt     'P 21 21 21'
+_space_group_name_Hall        'P 2ac 2ab'
+
+loop_
+  _space_group_symop_operation_xyz
+  'x,y,z'
+  'x+1/2,-y+1/2,-z'
+  '-x,y+1/2,-z+1/2'
+  '-x+1/2,-y,z+1/2'
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  O1      O     0.26102   1.05444   0.68417   0.0181 Uiso  0.950
+  O2      O     0.12568   0.77329   0.58346   0.0184 Uani  1.000
+  N1      N    -0.31621   0.85335   0.63776   0.0119 Uani  1.000
+  H1A     H    -0.46098   0.90958   0.64713   0.0179 Uiso  1.000
+  H1B     H    -0.29434   0.73592   0.68381   0.0179 Uiso  1.000
+  H1C     H    -0.29929   0.80594   0.56790   0.0179 Uiso  1.000
+  C2      C    -0.14496   1.02881   0.66111   0.0121 Uani  1.000
+  H2      H    -0.15898   1.07235   0.73934   0.0145 Uiso  1.000
+  C1      C     0.10054   0.94340   0.64090   0.0102 Uani  1.000
+  C3      C    -0.19680   1.23510   0.59075   0.0171 Uani  1.000
+  H3A     H    -0.08274   1.35232   0.60597   0.0256 Uiso  1.000
+  H3B     H    -0.35189   1.29106   0.60759   0.0256 Uiso  1.000
+  H3C     H    -0.18886   1.19365   0.51374   0.0256 Uiso  1.000
+  O1B     O     0.25390   1.25520   0.71630   0.0181 Uiso  0.050
+
+loop_
+  _atom_site_aniso_label
+  _atom_site_aniso_U_11
+  _atom_site_aniso_U_22
+  _atom_site_aniso_U_33
+  _atom_site_aniso_U_23
+  _atom_site_aniso_U_13
+  _atom_site_aniso_U_12
+  O2        0.0116   0.0272   0.0165  -0.0040   0.0015   0.0013
+  N1        0.0078   0.0141   0.0138  -0.0010   0.0001   0.0003
+  C2        0.0066   0.0184   0.0113  -0.0001  -0.0005   0.0013
+  C1        0.0103   0.0115   0.0087   0.0018  -0.0001   0.0004
+  C3        0.0116   0.0147   0.0250   0.0031   0.0001   0.0009

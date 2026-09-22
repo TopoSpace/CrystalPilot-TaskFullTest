@@ -1,0 +1,138 @@
+{
+  "_audit_creation_method": {
+    "previous": "'SHELXL-2019/3'",
+    "new": "'SHELXL-2019/3; metadata added by prepare_delivery.py'"
+  },
+  "_audit_creation_date": {
+    "previous": null,
+    "new": "2026-09-22"
+  },
+  "_chemical_name_systematic": {
+    "previous": "?",
+    "new": "2-azaniumylpropanoate"
+  },
+  "_chemical_name_common": {
+    "previous": "?",
+    "new": "alanine"
+  },
+  "_chemical_formula_moiety": {
+    "previous": "?",
+    "new": "'C3 H7 N O2'"
+  },
+  "_chemical_absolute_configuration": {
+    "previous": "?",
+    "new": "unk"
+  },
+  "_cell_volume": {
+    "previous": "424.89(10)",
+    "new": "424.89(15)"
+  },
+  "_cell_measurement_temperature": {
+    "previous": "150(2)",
+    "new": "150"
+  },
+  "_diffrn_ambient_temperature": {
+    "previous": "150(2)",
+    "new": "150"
+  },
+  "_cell_measurement_reflns_used": {
+    "previous": "?",
+    "new": "2004"
+  },
+  "_cell_measurement_theta_min": {
+    "previous": "?",
+    "new": "3.314"
+  },
+  "_cell_measurement_theta_max": {
+    "previous": "?",
+    "new": "27.949"
+  },
+  "_exptl_crystal_density_method": {
+    "previous": "?",
+    "new": "'not measured'"
+  },
+  "_exptl_absorpt_correction_type": {
+    "previous": "?",
+    "new": "multi-scan"
+  },
+  "_exptl_absorpt_process_details": {
+    "previous": "?",
+    "new": "'DIALS 3.30 physical model: scan-dependent scale and decay, low-order spherical-harmonic absorption correction; scale_interval=30 deg, decay_interval=60 deg, anomalous=True. No analytical face-based absorption correction was applied.'"
+  },
+  "_exptl_absorpt_special_details": {
+    "previous": "?",
+    "new": "'Absolute transmission factors are not available from this relative empirical correction. Crystal dimensions were not established. Instrument shadow masks were derived from persistent low raw-pixel background, not Fo-Fc selection; their definitions and unmasked controls are retained.'"
+  },
+  "_diffrn_source": {
+    "previous": "?",
+    "new": "'microfocus X-ray tube (input generator record)'"
+  },
+  "_diffrn_source_voltage": {
+    "previous": null,
+    "new": "50"
+  },
+  "_diffrn_source_current": {
+    "previous": null,
+    "new": "1"
+  },
+  "_diffrn_measurement_device_type": {
+    "previous": "?",
+    "new": "'Rigaku/Oxford Diffraction instrument with HyPix-Arc 100 detector'"
+  },
+  "_diffrn_detector": {
+    "previous": null,
+    "new": "'hybrid pixel area detector, two panels'"
+  },
+  "_diffrn_measurement_method": {
+    "previous": "?",
+    "new": "'omega scans at multiple kappa/phi settings'"
+  },
+  "_diffrn_detector_area_resol_mean": {
+    "previous": "?",
+    "new": "10"
+  },
+  "_diffrn_special_details": {
+    "previous": null,
+    "new": "'616 production frames in six scans, 0.5 deg per frame, 2 s per frame; 30 pre-experiment frames excluded. Collection 2024-02-09. Temperature monitor range 149.93-150.05 K; a separate parameter file lists 149 K. The monitor record is used, without inventing a temperature standard uncertainty. Wavelength 0.71073 A is from frame headers. Nominal detector distance 47 mm; panel geometry was refined independently. Legacy detector/monochromator description strings in the parameter file are not treated as reliable hardware identification.'"
+  },
+  "_computing_data_collection": {
+    "previous": "?",
+    "new": "'CrysAlisPro 42.90a (supplied input metadata)'"
+  },
+  "_computing_cell_refinement": {
+    "previous": "?",
+    "new": "'DIALS 3.30; scan-varying orientations and constrained common orthorhombic cell'"
+  },
+  "_computing_data_reduction": {
+    "previous": "?",
+    "new": "'DIALS 3.30; local raw-pixel shadow masks'"
+  },
+  "_computing_structure_solution": {
+    "previous": "?",
+    "new": "'SHELXT 2018/2 (intrinsic phasing)'"
+  },
+  "_computing_structure_refinement": {
+    "previous": "'SHELXL-2019/2 (Sheldrick, 2019)'",
+    "new": "'SHELXL-2019/3 (Sheldrick, 2015)'"
+  },
+  "_computing_publication_material": {
+    "previous": "?",
+    "new": "'SHELXL-2019/3; Gemmi and local metadata/validation scripts'"
+  },
+  "_atom_sites_solution_primary": {
+    "previous": "?",
+    "new": "dual"
+  },
+  "_atom_sites_solution_secondary": {
+    "previous": "?",
+    "new": "difmap"
+  },
+  "_refine_ls_abs_structure_details": {
+    "previous": ";\r\n Flack x determined using 339 quotients [(I+)-(I-)]/[(I+)+(I-)]\r\n (Parsons, Flack and Wagner, Acta Cryst. B69 (2013) 249-259).\r\n;",
+    "new": "'Parsons quotient estimate from 339 selected quotients; see SHELXL listing. The standard uncertainty is too large to determine absolute structure. The deposited hand is arbitrary; no L/D or R/S assignment and no inversion-twin fraction are established from these data.'"
+  },
+  "_refine_special_details": {
+    "previous": "?",
+    "new": "'Non-H atoms were refined anisotropically. Three ammonium H atoms are supported by an N-H omit difference map and refined with independent coordinates and isotropic displacement parameters without restraints. C-H atoms ride on C; the methyl group rotates, with Uiso(H)=1.5Ueq(C), and the methine H has Uiso(H)=1.2Ueq(C). The refinement uses d>=0.77 A because the Laue completeness is 99.83% to this limit; the sparse measured extension to about 0.708 A is retained in HKL and tested separately. No individual reflection OMIT instructions, extinction correction, solvent mask or twin model are used. Standard integration/partiality/scaling filters are recorded in the reduction logs. DIALS exact common-cell constraints suppress its default ESD output; a local covariance extension expanded the reduced normal-matrix covariance through the exact constraint Jacobian. This did not change fitted cell parameters or installed software. The cell-volume uncertainty 0.15 A^3 includes full cell covariance, whereas the original SHELXL value 0.10 A^3 neglects general cell correlations. Full covariance and code are supplied. Cell/atomic uncertainties do not include all possible instrument systematics.'"
+  }
+}

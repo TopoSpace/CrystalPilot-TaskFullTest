@@ -1,0 +1,5 @@
+H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\toolbox\pyplain\Scripts
+C:\Windows\System32
+C:\Windows
+C:\Windows\System32\WindowsPowerShell\v1.0
+C:\Windows\System32\Wbem

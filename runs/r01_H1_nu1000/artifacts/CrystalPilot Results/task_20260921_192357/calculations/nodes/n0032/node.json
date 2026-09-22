@@ -1,0 +1,289 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0032",
+  "parent": "n0006",
+  "revision": 33,
+  "branch": "framework_only",
+  "ts": 1789991028.003594,
+  "tool": "edit_atoms",
+  "params": {
+    "operations": [
+      {
+        "action": "delete",
+        "atoms": [
+          "O00K",
+          "C00M",
+          "C00N",
+          "C00O",
+          "C00P",
+          "C00Q",
+          "C00R",
+          "C00S",
+          "C00T",
+          "C00U",
+          "C00V",
+          "C00W",
+          "C00X",
+          "C00Y",
+          "C00Z",
+          "C010",
+          "C011",
+          "O012",
+          "C013",
+          "C014",
+          "O015",
+          "C016",
+          "C017",
+          "C018",
+          "C019",
+          "C01A",
+          "C01B",
+          "C01C",
+          "C01D",
+          "C01E"
+        ]
+      }
+    ],
+    "acknowledge_real": {
+      "labels": [
+        "O00K",
+        "C00M",
+        "C00N",
+        "C00O",
+        "C00P",
+        "C00Q",
+        "C00R",
+        "C00S",
+        "C00T",
+        "C00U",
+        "C00V",
+        "C00W",
+        "C00X",
+        "C00Y",
+        "C00Z",
+        "C010",
+        "C011",
+        "O012",
+        "C013",
+        "C014",
+        "O015",
+        "C016",
+        "C017",
+        "C018",
+        "C019",
+        "C01A",
+        "C01B",
+        "C01C",
+        "C01D",
+        "C01E"
+      ],
+      "reason": "建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+    }
+  },
+  "note": "",
+  "metrics": null,
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 20,
+    "element_counts": {
+      "Zr": 2,
+      "O": 6,
+      "C": 12
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0026481316,
+  "mask": null,
+  "hydrogens": {
+    "present": false
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "free_or_none",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "edit_atoms",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0006"
+    }
+  },
+  "conditions_token": "d000001:n0032:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0026481316
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "free_or_none",
+      "groups": []
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0006",
+    "model_revision": 7,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194044",
+    "conditions_token": "d000001:n0006:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0005",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

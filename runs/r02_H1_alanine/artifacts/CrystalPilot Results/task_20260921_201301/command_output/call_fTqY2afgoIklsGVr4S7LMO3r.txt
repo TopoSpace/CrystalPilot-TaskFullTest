@@ -1,0 +1,90 @@
+13:_chemical_formula_moiety          'C3 H7 N O2'
+
+14:_chemical_formula_sum
+
+16:_chemical_formula_weight          89.10
+
+53:_cell_length_a                    5.788
+
+54:_cell_length_b                    5.969
+
+55:_cell_length_c                    12.299
+
+56:_cell_angle_alpha                 90
+
+57:_cell_angle_beta                  90
+
+58:_cell_angle_gamma                 90
+
+59:_cell_volume                      424.9
+
+60:_cell_formula_units_Z             4
+
+61:_cell_measurement_temperature     150
+
+62:_cell_measurement_reflns_used     351
+
+63:_cell_measurement_theta_min       1.656
+
+64:_cell_measurement_theta_max       30.034
+
+101:_diffrn_reflns_theta_min          3.313
+
+102:_diffrn_reflns_theta_max          30.126
+
+103:_diffrn_reflns_theta_full         25.242
+
+104:_diffrn_measured_fraction_theta_max   0.879
+
+105:_diffrn_measured_fraction_theta_full  0.998
+
+131:_computing_structure_solution     ?
+
+139:_refine_ls_structure_factor_coef  Fsqd
+
+140:_refine_ls_matrix_type            full
+
+141:_refine_ls_weighting_scheme       calc
+
+142:_refine_ls_weighting_details
+
+147:_refine_ls_hydrogen_treatment     constr
+
+148:_refine_ls_extinction_method      none
+
+149:_refine_ls_extinction_coef        .
+
+150:_refine_ls_abs_structure_details
+
+155:_refine_ls_abs_structure_Flack    0.8(8)
+
+156:_chemical_absolute_configuration  ?
+
+157:_refine_ls_number_reflns          1055
+
+158:_refine_ls_number_parameters      57
+
+159:_refine_ls_number_restraints      0
+
+160:_refine_ls_R_factor_all           0.0652
+
+161:_refine_ls_R_factor_gt            0.0442
+
+162:_refine_ls_wR_factor_ref          0.2001
+
+163:_refine_ls_wR_factor_gt           0.1221
+
+164:_refine_ls_goodness_of_fit_ref    1.222
+
+165:_refine_ls_restrained_S_all       1.222
+
+166:_refine_ls_shift/su_max           0.000
+
+167:_refine_ls_shift/su_mean          0.000
+
+303:_refine_diff_density_max    0.890
+
+304:_refine_diff_density_min   -0.759
+
+305:_refine_diff_density_rms    0.262
+

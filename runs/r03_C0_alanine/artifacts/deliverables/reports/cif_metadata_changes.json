@@ -1,0 +1,106 @@
+{
+  "_chemical_name_systematic": {
+    "original_CIF_token": "?",
+    "curated_value": "2-aminopropanoic acid"
+  },
+  "_chemical_name_common": {
+    "original_CIF_token": "?",
+    "curated_value": "alanine"
+  },
+  "_chemical_formula_moiety": {
+    "original_CIF_token": "?",
+    "curated_value": "C3 H7 N O2"
+  },
+  "_cell_measurement_temperature": {
+    "original_CIF_token": "150(2)",
+    "curated_value": "150"
+  },
+  "_diffrn_ambient_temperature": {
+    "original_CIF_token": "150(2)",
+    "curated_value": "150"
+  },
+  "_cell_measurement_reflns_used": {
+    "original_CIF_token": "?",
+    "curated_value": "1960"
+  },
+  "_cell_measurement_theta_min": {
+    "original_CIF_token": "?",
+    "curated_value": "3.315"
+  },
+  "_cell_measurement_theta_max": {
+    "original_CIF_token": "?",
+    "curated_value": "28.832"
+  },
+  "_exptl_absorpt_correction_type": {
+    "original_CIF_token": "?",
+    "curated_value": "none"
+  },
+  "_exptl_absorpt_correction_T_min": {
+    "original_CIF_token": "?",
+    "curated_value": "."
+  },
+  "_exptl_absorpt_correction_T_max": {
+    "original_CIF_token": "?",
+    "curated_value": "."
+  },
+  "_exptl_absorpt_process_details": {
+    "original_CIF_token": "?",
+    "curated_value": "DIALS physical time-dependent scale model, 30 degree intervals; no absorption or decay term. A low-order spherical-harmonic absorption trial was not selected. No shape-based absorption correction was applied."
+  },
+  "_diffrn_measurement_device_type": {
+    "original_CIF_token": "?",
+    "curated_value": "Rigaku Oxford Diffraction, HyPix-Arc detector"
+  },
+  "_diffrn_measurement_method": {
+    "original_CIF_token": "?",
+    "curated_value": "omega scans"
+  },
+  "_diffrn_detector": {
+    "original_CIF_token": null,
+    "curated_value": "hybrid pixel area detector"
+  },
+  "_diffrn_detector_area_resol_mean": {
+    "original_CIF_token": "?",
+    "curated_value": "10"
+  },
+  "_computing_cell_refinement": {
+    "original_CIF_token": "?",
+    "curated_value": "DIALS 3.30"
+  },
+  "_computing_data_reduction": {
+    "original_CIF_token": "?",
+    "curated_value": "DIALS 3.30"
+  },
+  "_computing_structure_solution": {
+    "original_CIF_token": "?",
+    "curated_value": "SHELXT-2018/2"
+  },
+  "_computing_structure_refinement": {
+    "original_CIF_token": "'SHELXL-2019/2 (Sheldrick, 2019)'",
+    "curated_value": "SHELXL-2019/3"
+  },
+  "_computing_publication_material": {
+    "original_CIF_token": "?",
+    "curated_value": "SHELXL-2019/3; Gemmi 0.7.5 metadata curation"
+  },
+  "_atom_sites_solution_primary": {
+    "original_CIF_token": "?",
+    "curated_value": "dual"
+  },
+  "_atom_sites_solution_secondary": {
+    "original_CIF_token": "?",
+    "curated_value": "difmap"
+  },
+  "_chemical_absolute_configuration": {
+    "original_CIF_token": "?",
+    "curated_value": "unk"
+  },
+  "_refine_special_details": {
+    "original_CIF_token": "?",
+    "curated_value": "Solved independently from 616 raw diffraction images in six scans. Non-H atoms were refined anisotropically; all seven H atoms were located in difference maps and refined with independent coordinates and isotropic displacement parameters. No restraints, manual reflection omissions, extinction term or twin component were used. Friedel mates were kept separate. The absolute structure cannot be established from these data; the coordinate hand is arbitrary, not a chemical assignment. Beamstop and support shadows were masked before reintegration, based on original-frame background maps. Automatic DIALS scaling outlier and partiality filters were applied. The main refinement uses d >= 0.76 A for high completeness. An all-resolution comparison (to about 0.708 A) also converged with R1=0.0316 and wR2=0.0747. The acquisition log records 149.93-150.05 K; 150 K is reported without an invented calibration uncertainty. The parameter-file value of 149 K and SHELXL's automatic 150(2) K are not adopted. Complete checkCIF/PLATON validation was not obtained."
+  },
+  "_exptl_special_details": {
+    "original_CIF_token": null,
+    "curated_value": "Collection log: 2024-02-09 12:01:40 to 12:23:02 (timezone unknown); 616 frames, 0.5 degree per frame, 2 s exposure, 50 kV and 1 mA. Mo K-alpha wavelength 0.71073 A from frame headers. Detector pixel size 0.1 mm and nominal distance 47 mm. Crystal dimensions, colour, habit, preparation, radiation optics and temperature calibration uncertainty were not established from the supplied records."
+  }
+}

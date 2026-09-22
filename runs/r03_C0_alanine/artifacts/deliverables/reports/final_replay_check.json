@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "method": "Independent rerun with reproduce_final.ps1 and delivered INS/HKL",
+  "inputs_byte_identical": true,
+  "CIF_coordinates_and_Ueq_match_at_1e-6": true,
+  "metrics_identical_at_reported_precision": {
+    "_refine_ls_R_factor_gt": "0.0304",
+    "_refine_ls_R_factor_all": "0.0333",
+    "_refine_ls_wR_factor_ref": "0.0727",
+    "_refine_ls_goodness_of_fit_ref": "1.075",
+    "_refine_ls_number_reflns": "984",
+    "_refine_ls_number_parameters": "83",
+    "_refine_diff_density_max": "0.162",
+    "_refine_diff_density_min": "-0.210"
+  }
+}

@@ -1,0 +1,137 @@
+42-symmetry information in preference to the above space-group names.
+
+43-They are only intended as comments.
+
+44-;
+
+45- 
+
+46-loop_
+
+47: _space_group_symop_operation_xyz
+
+48- 'x, y, z'
+
+49- 'x-y, x, z'
+
+50- 'y, -x+y, z'
+
+51- '-y, x-y, z'
+
+52- '-x+y, -x, z'
+
+53- 'x-y, -y, -z'
+
+54- '-x, -x+y, -z'
+
+55- '-x, -y, z'
+
+56- 'y, x, -z'
+
+57- '-y, -x, -z'
+
+58- '-x+y, y, -z'
+
+59- 'x, x-y, -z'
+
+60- '-x, -y, -z'
+
+61- '-x+y, -x, -z'
+
+62- '-y, x-y, -z'
+
+63- 'y, -x+y, -z'
+
+64- 'x-y, x, -z'
+
+65- '-x+y, y, z'
+
+66- 'x, x-y, z'
+
+67- 'x, y, -z'
+
+68- '-y, -x, z'
+
+69- 'y, x, z'
+
+70- 'x-y, -y, z'
+
+71- '-x, -x+y, z'
+
+72- 
+
+73-_cell_length_a                    39.190
+
+74-_cell_length_b                    39.190
+
+75-_cell_length_c                    16.610
+
+--
+278- used when they are defined by crystal symmetry.  An approximate (isotropic)
+
+279- treatment of cell esds is used for estimating esds involving l.s. planes.
+
+280-;
+
+281- 
+
+282-loop_
+
+283: _geom_bond_atom_site_label_1
+
+284- _geom_bond_atom_site_label_2
+
+285- _geom_bond_distance
+
+286- _geom_bond_site_symmetry_2
+
+287- _geom_bond_publ_flag
+
+288-Zr1 O6 2.158(7) 8_665 ?
+
+289-Zr1 O6 2.158(7) 13_666 ?
+
+290-Zr1 O3 2.163(7) . ?
+
+291-Zr1 O3 2.163(7) 21_665 ?
+
+292-Zr1 O1 2.224(5) . ?
+
+293-Zr1 O1 2.224(5) 10_666 ?
+
+294-Zr1 O1 2.224(5) 21_665 ?
+
+295-Zr1 O1 2.224(5) 20_556 ?
+
+296-Zr1 Zr2 3.5009(16) . ?
+
+297-Zr1 Zr2 3.5009(16) 20_556 ?
+
+298-Zr1 Zr2 3.5009(16) 8_665 ?
+
+299-Zr1 Zr2 3.5009(16) 13_666 ?
+
+300-Zr2 O6 2.150(4) 8_665 ?
+
+301-Zr2 O6 2.150(4) . ?
+
+302-Zr2 O3 2.155(4) 9_556 ?
+
+303-Zr2 O3 2.155(4) . ?
+
+304-Zr2 O5 2.175(9) . ?
+
+305-Zr2 O4 2.244(8) . ?
+
+306-Zr2 O2 2.247(5) 9_556 ?
+
+307-Zr2 O2 2.247(5) 20_556 ?
+
+308-Zr2 Zr2 3.527(3) 8_665 ?
+
+309-Zr2 Zr2 3.532(3) 20_556 ?
+
+310-O1 C1 1.266(8) . ?
+
+311-O2 C1 1.238(9) . ?
+

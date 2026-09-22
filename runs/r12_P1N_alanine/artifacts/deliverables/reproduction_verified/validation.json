@@ -1,0 +1,590 @@
+{
+  "quality_targets": {
+    "R1_observed_below_0p05": true,
+    "wR2_below_0p12": true,
+    "GoF_below_2": true,
+    "difference_extrema_below_0p5": true
+  },
+  "quality_targets_met": true,
+  "checks": {
+    "stored_calculated_intensities_match": true,
+    "formula_and_H_count": true,
+    "all_ADP_positive_definite": true,
+    "no_extreme_nonH_ADP": true,
+    "all_values_finite": true,
+    "four_symmetry_operations_close": true,
+    "axial_odd_reflections_cancel": true,
+    "Friedel_intensities_equal": true,
+    "CIF_has_13_atoms": true,
+    "CIF_coordinates_roundtrip": true,
+    "CIF_R1_matches": true,
+    "FCF_reflection_count": true,
+    "FCF_intensities_roundtrip": true,
+    "FCF_calculated_intensities_roundtrip": true,
+    "no_inter_molecular_nonH_contact_below_2A": true,
+    "extra_cycle_max_shift_below_0p01_su": true
+  },
+  "all_basic_checks_pass": true,
+  "independent_standard_validation": false,
+  "ADP_eigenvalues": [
+    [
+      0.01080789224015803,
+      0.011932505707253951,
+      0.018072603432720227
+    ],
+    [
+      0.00904692526345664,
+      0.015215707493082636,
+      0.017872236022192373
+    ],
+    [
+      0.008772820924786342,
+      0.012866753785437536,
+      0.017491440528029152
+    ],
+    [
+      0.014411961671851367,
+      0.01910260790768432,
+      0.02511271441415935
+    ],
+    [
+      0.010788523926573234,
+      0.018196545207651054,
+      0.026705197749719155
+    ],
+    [
+      0.012521343039749317,
+      0.01770027299930175,
+      0.02535610566850946
+    ]
+  ],
+  "Ueq": [
+    0.013604333793377402,
+    0.014044956259577213,
+    0.013043671746084345,
+    0.019542427997898345,
+    0.018563422294647813,
+    0.01852590723585351
+  ],
+  "angles": [
+    {
+      "atoms": [
+        "N1",
+        "CA",
+        "C1"
+      ],
+      "degrees": 109.84681897708343
+    },
+    {
+      "atoms": [
+        "N1",
+        "CA",
+        "C2"
+      ],
+      "degrees": 109.85326628840069
+    },
+    {
+      "atoms": [
+        "C1",
+        "CA",
+        "C2"
+      ],
+      "degrees": 111.26204144880953
+    },
+    {
+      "atoms": [
+        "CA",
+        "C1",
+        "O1"
+      ],
+      "degrees": 115.80526081411772
+    },
+    {
+      "atoms": [
+        "CA",
+        "C1",
+        "O2"
+      ],
+      "degrees": 118.39871228172491
+    },
+    {
+      "atoms": [
+        "O1",
+        "C1",
+        "O2"
+      ],
+      "degrees": 125.79230794242802
+    }
+  ],
+  "rigid_bond_differences": [
+    {
+      "atoms": [
+        "CA",
+        "N1"
+      ],
+      "delta_U_parallel_A2": 0.0003194524660020108
+    },
+    {
+      "atoms": [
+        "CA",
+        "C1"
+      ],
+      "delta_U_parallel_A2": -0.0013059459135886455
+    },
+    {
+      "atoms": [
+        "CA",
+        "C2"
+      ],
+      "delta_U_parallel_A2": -0.0008665120483737806
+    },
+    {
+      "atoms": [
+        "C1",
+        "O1"
+      ],
+      "delta_U_parallel_A2": 0.0025903456858982392
+    },
+    {
+      "atoms": [
+        "C1",
+        "O2"
+      ],
+      "delta_U_parallel_A2": 0.0008524348399850084
+    }
+  ],
+  "intermolecular_contacts": [
+    {
+      "atom1": "N1",
+      "atom2": "O1",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "distance": 2.799360412588316
+    },
+    {
+      "atom1": "O1",
+      "atom2": "N1",
+      "operation": 1,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 2.799360412588316
+    },
+    {
+      "atom1": "N1",
+      "atom2": "O1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 2.828058119091078
+    },
+    {
+      "atom1": "O1",
+      "atom2": "N1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        -1,
+        0
+      ],
+      "distance": 2.8280581190910783
+    },
+    {
+      "atom1": "O2",
+      "atom2": "N1",
+      "operation": 2,
+      "cell_shift": [
+        0,
+        1,
+        1
+      ],
+      "distance": 2.8391982569468652
+    },
+    {
+      "atom1": "N1",
+      "atom2": "O2",
+      "operation": 2,
+      "cell_shift": [
+        -1,
+        1,
+        1
+      ],
+      "distance": 2.839198256946866
+    },
+    {
+      "atom1": "O2",
+      "atom2": "N1",
+      "operation": 1,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.3361177003675846
+    },
+    {
+      "atom1": "N1",
+      "atom2": "O2",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "distance": 3.336117700367585
+    },
+    {
+      "atom1": "O1",
+      "atom2": "C2",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.3821193591344554
+    },
+    {
+      "atom1": "C2",
+      "atom2": "O1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        -1,
+        0
+      ],
+      "distance": 3.382119359134456
+    },
+    {
+      "atom1": "C1",
+      "atom2": "N1",
+      "operation": 1,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.4273906797549696
+    },
+    {
+      "atom1": "N1",
+      "atom2": "C1",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "distance": 3.42739067975497
+    },
+    {
+      "atom1": "CA",
+      "atom2": "O1",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "distance": 3.455935337876795
+    },
+    {
+      "atom1": "O1",
+      "atom2": "CA",
+      "operation": 1,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.455935337876796
+    },
+    {
+      "atom1": "O2",
+      "atom2": "CA",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.4565375865857586
+    },
+    {
+      "atom1": "CA",
+      "atom2": "O2",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        -1,
+        0
+      ],
+      "distance": 3.456537586585759
+    },
+    {
+      "atom1": "CA",
+      "atom2": "C1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        -1,
+        0
+      ],
+      "distance": 3.4737307603541243
+    },
+    {
+      "atom1": "C1",
+      "atom2": "CA",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.473730760354125
+    },
+    {
+      "atom1": "CA",
+      "atom2": "O1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "distance": 3.4807736104817093
+    },
+    {
+      "atom1": "O1",
+      "atom2": "CA",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        -1,
+        0
+      ],
+      "distance": 3.4807736104817097
+    }
+  ],
+  "hydrogen_bonds": [
+    {
+      "donor": "N1",
+      "H": "HN2",
+      "acceptor": "O1",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "D_H": 0.9100000000000001,
+      "H_A": 1.8987058730369237,
+      "D_A": 2.799360412588316,
+      "D_H_A": 170.0085059017129
+    },
+    {
+      "donor": "N1",
+      "H": "HN3",
+      "acceptor": "O1",
+      "operation": 3,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "D_H": 0.9099999999999996,
+      "H_A": 1.9526505752202477,
+      "D_A": 2.828058119091078,
+      "D_H_A": 160.84028931858367
+    },
+    {
+      "donor": "N1",
+      "H": "HN1",
+      "acceptor": "O2",
+      "operation": 2,
+      "cell_shift": [
+        -1,
+        1,
+        1
+      ],
+      "D_H": 0.91,
+      "H_A": 1.9622940674401252,
+      "D_A": 2.839198256946866,
+      "D_H_A": 161.2752684986417
+    },
+    {
+      "donor": "N1",
+      "H": "HN2",
+      "acceptor": "O2",
+      "operation": 1,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "D_H": 0.9100000000000001,
+      "H_A": 2.641058413578211,
+      "D_A": 3.336117700367585,
+      "D_H_A": 133.79090024409746
+    }
+  ],
+  "max_additional_parameter_shift_over_su": 3.650393683664802e-06,
+  "cross_validation": {
+    "method": "Five-fold conditional parameter-refinement prediction; solved orientation/hand shared, not a blind solution test",
+    "seed": 220927,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test": 132,
+        "test_statistics": {
+          "R1_gt2sigma": 0.0316834519007972,
+          "R1_all": 0.04111974009082848,
+          "wR2": 0.08572635511671307,
+          "goodness_of_fit": 1.1511532799053021,
+          "n_reflections": 132,
+          "n_gt2sigma": 118,
+          "n_parameters": 0,
+          "scale": 1.578212144929148
+        },
+        "train_statistics": {
+          "R1_gt2sigma": 0.034106810369412516,
+          "R1_all": 0.04039508060927222,
+          "wR2": 0.07599362206456572,
+          "goodness_of_fit": 1.3743118056208048,
+          "n_reflections": 525,
+          "n_gt2sigma": 481,
+          "n_parameters": 57,
+          "scale": 1.578212144929148,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimality": 0.01775737263622613
+        }
+      },
+      {
+        "fold": 1,
+        "n_test": 132,
+        "test_statistics": {
+          "R1_gt2sigma": 0.03535358436453552,
+          "R1_all": 0.04630491152483226,
+          "wR2": 0.09303483001108166,
+          "goodness_of_fit": 1.3317784732513607,
+          "n_reflections": 132,
+          "n_gt2sigma": 118,
+          "n_parameters": 0,
+          "scale": 1.5808606731513117
+        },
+        "train_statistics": {
+          "R1_gt2sigma": 0.03347568417131798,
+          "R1_all": 0.03952172222389413,
+          "wR2": 0.07504060566679295,
+          "goodness_of_fit": 1.3390927059984463,
+          "n_reflections": 525,
+          "n_gt2sigma": 481,
+          "n_parameters": 57,
+          "scale": 1.5808606731513117,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimality": 0.010549004129694589
+        }
+      },
+      {
+        "fold": 2,
+        "n_test": 131,
+        "test_statistics": {
+          "R1_gt2sigma": 0.03611271575695162,
+          "R1_all": 0.043653855259993775,
+          "wR2": 0.09239893941723343,
+          "goodness_of_fit": 1.3754729253260392,
+          "n_reflections": 131,
+          "n_gt2sigma": 119,
+          "n_parameters": 0,
+          "scale": 1.580073416199157
+        },
+        "train_statistics": {
+          "R1_gt2sigma": 0.032857030525135604,
+          "R1_all": 0.03964355448788609,
+          "wR2": 0.07423934230106825,
+          "goodness_of_fit": 1.304108784208028,
+          "n_reflections": 526,
+          "n_gt2sigma": 480,
+          "n_parameters": 57,
+          "scale": 1.580073416199157,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimality": 0.03457314351170382
+        }
+      },
+      {
+        "fold": 3,
+        "n_test": 131,
+        "test_statistics": {
+          "R1_gt2sigma": 0.03551402814240361,
+          "R1_all": 0.0383628073138578,
+          "wR2": 0.08258432823327927,
+          "goodness_of_fit": 1.2463256263185718,
+          "n_reflections": 131,
+          "n_gt2sigma": 123,
+          "n_parameters": 0,
+          "scale": 1.5814295957089377
+        },
+        "train_statistics": {
+          "R1_gt2sigma": 0.033455013389528464,
+          "R1_all": 0.04151053567216308,
+          "wR2": 0.07659753576501002,
+          "goodness_of_fit": 1.3440528126827682,
+          "n_reflections": 526,
+          "n_gt2sigma": 476,
+          "n_parameters": 57,
+          "scale": 1.5814295957089377,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimality": 0.00827258725523805
+        }
+      },
+      {
+        "fold": 4,
+        "n_test": 131,
+        "test_statistics": {
+          "R1_gt2sigma": 0.04418858999172098,
+          "R1_all": 0.04911251545590079,
+          "wR2": 0.1082977487273896,
+          "goodness_of_fit": 1.4890200294229987,
+          "n_reflections": 131,
+          "n_gt2sigma": 121,
+          "n_parameters": 0,
+          "scale": 1.5952224005654037
+        },
+        "train_statistics": {
+          "R1_gt2sigma": 0.03132415143963623,
+          "R1_all": 0.03874507586166307,
+          "wR2": 0.07031758085958136,
+          "goodness_of_fit": 1.2650401599721044,
+          "n_reflections": 526,
+          "n_gt2sigma": 478,
+          "n_parameters": 57,
+          "scale": 1.5952224005654037,
+          "optimizer_message": "`ftol` termination condition is satisfied.",
+          "optimality": 0.004746471031234378
+        }
+      }
+    ],
+    "R1_gt2sigma": 0.03665824856934572,
+    "R1_all": 0.04371449478384998,
+    "wR2": 0.08611358267153664
+  },
+  "axial_absence_max_abs_I_over_sigma": 1.8072052092235908,
+  "axial_absence_n": 17,
+  "warnings": [
+    "Absolute configuration undetermined; Friedel pairs merged",
+    "No independent standard crystallographic validation",
+    "No empirical/physical absorption correction beyond run/module relative scale",
+    "Hydrogen positions ride; H displacement multipliers imposed",
+    "Geometry and intensity errors include unmodelled systematic components",
+    "High-resolution completeness is incomplete at 0.70 A"
+  ]
+}

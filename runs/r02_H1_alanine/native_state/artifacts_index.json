@@ -1,0 +1,502 @@
+[
+ {
+  "rel": "analysis\\inspect_reflections.py",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\analysis\\inspect_reflections.py",
+  "size": 1852
+ },
+ {
+  "rel": "analysis\\raw_detector_evidence.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\analysis\\raw_detector_evidence.json",
+  "size": 1727
+ },
+ {
+  "rel": "analysis\\raw_detector_evidence.png",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\analysis\\raw_detector_evidence.png",
+  "size": 168589
+ },
+ {
+  "rel": "analysis\\render_raw_evidence.py",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\analysis\\render_raw_evidence.py",
+  "size": 2108
+ },
+ {
+  "rel": "analysis\\suspect_reflections.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\analysis\\suspect_reflections.json",
+  "size": 41136
+ },
+ {
+  "rel": "checkcif.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\checkcif.json",
+  "size": 19261
+ },
+ {
+  "rel": "checkcif_alerts.md",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\checkcif_alerts.md",
+  "size": 10934
+ },
+ {
+  "rel": "command_output\\call_01xWJ8ShajIjWpkbUFn92uGi.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_01xWJ8ShajIjWpkbUFn92uGi.txt",
+  "size": 1989
+ },
+ {
+  "rel": "command_output\\call_0rxDCgzV2OC4hJO9P6F0SIai.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_0rxDCgzV2OC4hJO9P6F0SIai.txt",
+  "size": 6428
+ },
+ {
+  "rel": "command_output\\call_2AyQkNcOJ9P3ZpmdtcTwCzjj.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_2AyQkNcOJ9P3ZpmdtcTwCzjj.txt",
+  "size": 25827
+ },
+ {
+  "rel": "command_output\\call_2gQPs5Ky8XiBF1E7ajGoz1nE.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_2gQPs5Ky8XiBF1E7ajGoz1nE.txt",
+  "size": 2257
+ },
+ {
+  "rel": "command_output\\call_7YhdqNYqfVW3uh4R0C9ye7F5.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_7YhdqNYqfVW3uh4R0C9ye7F5.txt",
+  "size": 1779
+ },
+ {
+  "rel": "command_output\\call_bmgCkz12IORrRnGYy2Fehb0i.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_bmgCkz12IORrRnGYy2Fehb0i.txt",
+  "size": 1737
+ },
+ {
+  "rel": "command_output\\call_fTqY2afgoIklsGVr4S7LMO3r.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_fTqY2afgoIklsGVr4S7LMO3r.txt",
+  "size": 1985
+ },
+ {
+  "rel": "command_output\\call_gGtUOhsjXkwN86xbeHjB9ziI.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_gGtUOhsjXkwN86xbeHjB9ziI.txt",
+  "size": 17252
+ },
+ {
+  "rel": "command_output\\call_j0sJXLQHV2DfG2Zx8yYyzwtT.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_j0sJXLQHV2DfG2Zx8yYyzwtT.txt",
+  "size": 4010
+ },
+ {
+  "rel": "command_output\\call_jwDokKWCqAhBuFEFPygr5Pes.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_jwDokKWCqAhBuFEFPygr5Pes.txt",
+  "size": 3232
+ },
+ {
+  "rel": "command_output\\call_K1aseuaUUmEX4GIxSyfOApOz.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_K1aseuaUUmEX4GIxSyfOApOz.txt",
+  "size": 12361
+ },
+ {
+  "rel": "command_output\\call_lgEZelZnWvBurBEsbKFLG0TQ.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_lgEZelZnWvBurBEsbKFLG0TQ.txt",
+  "size": 4481
+ },
+ {
+  "rel": "command_output\\call_oU0fMhgLcHHfImPCCvMdu4Gd.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_oU0fMhgLcHHfImPCCvMdu4Gd.txt",
+  "size": 3057
+ },
+ {
+  "rel": "command_output\\call_Q60qz3LDbfm10dUMiWVYSntw.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_Q60qz3LDbfm10dUMiWVYSntw.txt",
+  "size": 1752
+ },
+ {
+  "rel": "command_output\\call_r1dYCPt5bjtmpBKKfohXpb3t.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_r1dYCPt5bjtmpBKKfohXpb3t.txt",
+  "size": 16872
+ },
+ {
+  "rel": "command_output\\call_SNTvNnStfvt3vAuS0AnKhIcT.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_SNTvNnStfvt3vAuS0AnKhIcT.txt",
+  "size": 5930
+ },
+ {
+  "rel": "command_output\\call_sy7lVnENwBhuiCgvBqz7Ml8E.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_sy7lVnENwBhuiCgvBqz7Ml8E.txt",
+  "size": 2404
+ },
+ {
+  "rel": "command_output\\call_TozRmp78jQfFrnuatgUFENOQ.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_TozRmp78jQfFrnuatgUFENOQ.txt",
+  "size": 2348
+ },
+ {
+  "rel": "command_output\\call_UJpEt5nWYxbHDB6188qc7Wxt.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_UJpEt5nWYxbHDB6188qc7Wxt.txt",
+  "size": 10666
+ },
+ {
+  "rel": "command_output\\call_uWGAGIuyH6pBWENpoNm77Vph.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_uWGAGIuyH6pBWENpoNm77Vph.txt",
+  "size": 2490
+ },
+ {
+  "rel": "command_output\\call_VeckLFxy7u4MpmV38xoQSgxM.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_VeckLFxy7u4MpmV38xoQSgxM.txt",
+  "size": 38160
+ },
+ {
+  "rel": "command_output\\call_vIqFWosLRl1H5XUfK9OoBDHK.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_vIqFWosLRl1H5XUfK9OoBDHK.txt",
+  "size": 11299
+ },
+ {
+  "rel": "command_output\\call_wIziq5XQ5fxMpEn52Orm3Zv3.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_wIziq5XQ5fxMpEn52Orm3Zv3.txt",
+  "size": 5616
+ },
+ {
+  "rel": "command_output\\call_YzwAL1EsQTGksj7i4ZeNbV9r.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_YzwAL1EsQTGksj7i4ZeNbV9r.txt",
+  "size": 1553
+ },
+ {
+  "rel": "command_output\\call_zXiLvsUS9nl2Icxz9rUUxmaz.txt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\command_output\\call_zXiLvsUS9nl2Icxz9rUUxmaz.txt",
+  "size": 1880
+ },
+ {
+  "rel": "COMPUTATION.md",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\COMPUTATION.md",
+  "size": 4355
+ },
+ {
+  "rel": "DATA_ISSUES.md",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\DATA_ISSUES.md",
+  "size": 3902
+ },
+ {
+  "rel": "final.cif",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\final.cif",
+  "size": 139185
+ },
+ {
+  "rel": "final.fcf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\final.fcf",
+  "size": 60947
+ },
+ {
+  "rel": "final.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\final.hkl",
+  "size": 123990
+ },
+ {
+  "rel": "final.ins",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\final.ins",
+  "size": 1809
+ },
+ {
+  "rel": "final.res",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\final.res",
+  "size": 1832
+ },
+ {
+  "rel": "MANIFEST.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\MANIFEST.json",
+  "size": 7190
+ },
+ {
+  "rel": "records\\checkcif\\.publish.lock",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\.publish.lock",
+  "size": 1
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\checkcif.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\checkcif.json",
+  "size": 19155
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\checkcif_alerts.md",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\checkcif_alerts.md",
+  "size": 10508
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.chk",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.chk",
+  "size": 25920
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.cif",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.cif",
+  "size": 139185
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.ckf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.ckf",
+  "size": 202466
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.fcf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.fcf",
+  "size": 60947
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.hkl",
+  "size": 123990
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.ps",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.ps",
+  "size": 704421
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.res",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.res",
+  "size": 1832
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\model.vrf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\model.vrf",
+  "size": 850
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203328_646233_0273f791\\platon.out",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203328_646233_0273f791\\platon.out",
+  "size": 257
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\checkcif.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\checkcif.json",
+  "size": 19261
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\checkcif_alerts.md",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\checkcif_alerts.md",
+  "size": 10575
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.chk",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.chk",
+  "size": 25920
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.cif",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.cif",
+  "size": 139185
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.ckf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.ckf",
+  "size": 202466
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.fcf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.fcf",
+  "size": 60947
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.hkl",
+  "size": 123990
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.ps",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.ps",
+  "size": 702872
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.res",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.res",
+  "size": 1832
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.vrf",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\model.vrf",
+  "size": 850
+ },
+ {
+  "rel": "records\\checkcif\\job_20260921_203524_339160_c7e55d82\\platon.out",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\checkcif\\job_20260921_203524_339160_c7e55d82\\platon.out",
+  "size": 257
+ },
+ {
+  "rel": "records\\data\\d000001\\data.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\data\\d000001\\data.json",
+  "size": 1216
+ },
+ {
+  "rel": "records\\data\\d000001\\observations.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\data\\d000001\\observations.hkl",
+  "size": 123990
+ },
+ {
+  "rel": "records\\data\\d000001\\sources\\source-0000.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\data\\d000001\\sources\\source-0000.hkl",
+  "size": 124050
+ },
+ {
+  "rel": "records\\data\\d000001\\sources\\source-0001.ins",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\data\\d000001\\sources\\source-0001.ins",
+  "size": 209
+ },
+ {
+  "rel": "records\\environment.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\environment.json",
+  "size": 2440
+ },
+ {
+  "rel": "records\\frames\\dials.estimate_resolution.html",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.estimate_resolution.html",
+  "size": 13901
+ },
+ {
+  "rel": "records\\frames\\dials.estimate_resolution.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.estimate_resolution.log",
+  "size": 1110
+ },
+ {
+  "rel": "records\\frames\\dials.export.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.export.log",
+  "size": 3424
+ },
+ {
+  "rel": "records\\frames\\dials.find_spots.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.find_spots.log",
+  "size": 31286
+ },
+ {
+  "rel": "records\\frames\\dials.hkl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.hkl",
+  "size": 124050
+ },
+ {
+  "rel": "records\\frames\\dials.import.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.import.log",
+  "size": 2385
+ },
+ {
+  "rel": "records\\frames\\dials.index.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.index.log",
+  "size": 85962
+ },
+ {
+  "rel": "records\\frames\\dials.ins",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.ins",
+  "size": 209
+ },
+ {
+  "rel": "records\\frames\\dials.integrate.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.integrate.log",
+  "size": 140325
+ },
+ {
+  "rel": "records\\frames\\dials.integrate.phil",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.integrate.phil",
+  "size": 118
+ },
+ {
+  "rel": "records\\frames\\dials.refine.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.refine.log",
+  "size": 49508
+ },
+ {
+  "rel": "records\\frames\\dials.scale.html",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.scale.html",
+  "size": 1669544
+ },
+ {
+  "rel": "records\\frames\\dials.scale.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.scale.log",
+  "size": 27715
+ },
+ {
+  "rel": "records\\frames\\dials.symmetry.html",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.symmetry.html",
+  "size": 9059
+ },
+ {
+  "rel": "records\\frames\\dials.symmetry.json",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.symmetry.json",
+  "size": 7427
+ },
+ {
+  "rel": "records\\frames\\dials.symmetry.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\dials.symmetry.log",
+  "size": 10287
+ },
+ {
+  "rel": "records\\frames\\imported.expt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\imported.expt",
+  "size": 71631
+ },
+ {
+  "rel": "records\\frames\\indexed.expt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\indexed.expt",
+  "size": 75328
+ },
+ {
+  "rel": "records\\frames\\indexed.refl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\indexed.refl",
+  "size": 3390250
+ },
+ {
+  "rel": "records\\frames\\integrated.expt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\integrated.expt",
+  "size": 289618
+ },
+ {
+  "rel": "records\\frames\\integrated.refl",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\integrated.refl",
+  "size": 1544539
+ },
+ {
+  "rel": "records\\frames\\logs\\estimate_resolution.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\estimate_resolution.log",
+  "size": 1280
+ },
+ {
+  "rel": "records\\frames\\logs\\export.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\export.log",
+  "size": 1956
+ },
+ {
+  "rel": "records\\frames\\logs\\export_mtz.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\export_mtz.log",
+  "size": 3436
+ },
+ {
+  "rel": "records\\frames\\logs\\find_spots.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\find_spots.log",
+  "size": 31304
+ },
+ {
+  "rel": "records\\frames\\logs\\import.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\import.log",
+  "size": 2403
+ },
+ {
+  "rel": "records\\frames\\logs\\index.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\index.log",
+  "size": 85950
+ },
+ {
+  "rel": "records\\frames\\logs\\integrate.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\integrate.log",
+  "size": 140343
+ },
+ {
+  "rel": "records\\frames\\logs\\refine.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\refine.log",
+  "size": 49526
+ },
+ {
+  "rel": "records\\frames\\logs\\scale.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\scale.log",
+  "size": 27733
+ },
+ {
+  "rel": "records\\frames\\logs\\symmetry.log",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\logs\\symmetry.log",
+  "size": 10305
+ },
+ {
+  "rel": "records\\frames\\refined.expt",
+  "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\CrystalPilot Results\\task_20260921_201301\\records\\frames\\refined.expt",
+  "size": 288540
+ }
+]

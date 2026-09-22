@@ -1,0 +1,254 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0005",
+  "parent": "n0004",
+  "revision": 6,
+  "branch": "main",
+  "ts": 1789990838.3182766,
+  "tool": "set_adp",
+  "params": {
+    "atoms": [
+      "ZR01",
+      "ZR02",
+      "O003",
+      "O004",
+      "O005",
+      "O006",
+      "O007",
+      "O008",
+      "C009",
+      "C00A",
+      "O00B",
+      "C00C",
+      "O00D",
+      "C00E",
+      "O00F",
+      "O00G",
+      "C00H",
+      "C00I",
+      "O00J",
+      "O00L"
+    ],
+    "mode": "anisotropic"
+  },
+  "note": "",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.1698,
+    "r1_all": 0.262,
+    "wr2": 0.4266,
+    "goof": 2.064,
+    "n_params": 156,
+    "n_reflections": 4395,
+    "diff_map_max": 1.075,
+    "diff_map_min": -1.472,
+    "flack": null,
+    "flack_su": null,
+    "notes": "",
+    "scale_k": 0.0025999801
+  },
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 50,
+    "element_counts": {
+      "Zr": 2,
+      "O": 9,
+      "C": 39
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0025999801,
+  "mask": null,
+  "hydrogens": {
+    "present": false
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "free_or_none",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "set_adp",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0004"
+    }
+  },
+  "conditions_token": "d000001:n0005:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0025999801
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "free_or_none",
+      "groups": []
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0004",
+    "model_revision": 5,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194003",
+    "conditions_token": "d000001:n0004:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0005",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "iteration": 0,
+    "R_amp_work_low": 0.2800752602689628,
+    "R_amp_test_low": 0.3876218086668385,
+    "pore_electrons": 1192.3206343491988,
+    "rho_max": 1.2718616724014282
+  },
+  {
+    "iteration": 10,
+    "R_amp_work_low": 0.23773993075023891,
+    "R_amp_test_low": 0.5079476366060719,
+    "pore_electrons": 3924.3155259838,
+    "rho_max": 3.416398286819458
+  },
+  {
+    "iteration": 20,
+    "R_amp_work_low": 0.23183245382618,
+    "R_amp_test_low": 0.5907357397167838,
+    "pore_electrons": 4768.003562775141,
+    "rho_max": 4.858606338500977
+  },
+  {
+    "iteration": 30,
+    "R_amp_work_low": 0.2297410854102382,
+    "R_amp_test_low": 0.6278635698261051,
+    "pore_electrons": 5288.469857440441,
+    "rho_max": 5.879610538482666
+  },
+  {
+    "iteration": 40,
+    "R_amp_work_low": 0.2288260395218668,
+    "R_amp_test_low": 0.646520268704046,
+    "pore_electrons": 5645.087816173719,
+    "rho_max": 6.642262935638428
+  },
+  {
+    "iteration": 50,
+    "R_amp_work_low": 0.22823864050179404,
+    "R_amp_test_low": 0.6560002135396766,
+    "pore_electrons": 5905.917653725609,
+    "rho_max": 7.284603595733643
+  },
+  {
+    "iteration": 60,
+    "R_amp_work_low": 0.22793314395603537,
+    "R_amp_test_low": 0.662681649904416,
+    "pore_electrons": 6104.953758360376,
+    "rho_max": 7.909955024719238
+  },
+  {
+    "iteration": 70,
+    "R_amp_work_low": 0.22767873118427956,
+    "R_amp_test_low": 0.6657625116268459,
+    "pore_electrons": 6262.6373378535045,
+    "rho_max": 8.462822914123535
+  },
+  {
+    "iteration": 80,
+    "R_amp_work_low": 0.22729520299497508,
+    "R_amp_test_low": 0.6677962447114385,
+    "pore_electrons": 6392.095906236682,
+    "rho_max": 8.955293655395508
+  },
+  {
+    "iteration": 90,
+    "R_amp_work_low": 0.2269150712747822,
+    "R_amp_test_low": 0.6701133076010305,
+    "pore_electrons": 6503.243903588605,
+    "rho_max": 9.403739929199219
+  },
+  {
+    "iteration": 100,
+    "R_amp_work_low": 0.22663464446748405,
+    "R_amp_test_low": 0.6711168992849628,
+    "pore_electrons": 6602.942032899049,
+    "rho_max": 9.81941032409668
+  },
+  {
+    "iteration": 110,
+    "R_amp_work_low": 0.2263738894604374,
+    "R_amp_test_low": 0.6717436537376633,
+    "pore_electrons": 6695.5365034228635,
+    "rho_max": 10.2049560546875
+  },
+  {
+    "iteration": 120,
+    "R_amp_work_low": 0.22612105601211482,
+    "R_amp_test_low": 0.6725411663590943,
+    "pore_electrons": 6783.083550806599,
+    "rho_max": 10.563324928283691
+  },
+  {
+    "iteration": 130,
+    "R_amp_work_low": 0.22589792968328493,
+    "R_amp_test_low": 0.6734698119003778,
+    "pore_electrons": 6867.019840493988,
+    "rho_max": 10.899561882019043
+  },
+  {
+    "iteration": 140,
+    "R_amp_work_low": 0.22567699516116754,
+    "R_amp_test_low": 0.674277330116794,
+    "pore_electrons": 6948.1940717320385,
+    "rho_max": 11.326404571533203
+  },
+  {
+    "iteration": 149,
+    "R_amp_work_low": 0.2254812002797854,
+    "R_amp_test_low": 0.6749179333262756,
+    "pore_electrons": 7019.447937140247,
+    "rho_max": 11.768828392028809
+  }
+]

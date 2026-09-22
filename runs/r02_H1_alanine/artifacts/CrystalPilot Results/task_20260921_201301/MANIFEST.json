@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "generated": "2026-09-21 20:41:37",
+  "scope": "finalize_delivery: every file in the delivery directory at finalize time",
+  "status": "diagnostic",
+  "files": {
+    "COMPUTATION.md": {
+      "bytes": 4355
+    },
+    "DATA_ISSUES.md": {
+      "bytes": 3902
+    },
+    "REPORT.json": {
+      "bytes": 126343
+    },
+    "SUMMARY.md": {
+      "bytes": 5500
+    },
+    "VALIDATION.md": {
+      "bytes": 12003
+    },
+    "checkcif.json": {
+      "bytes": 19261
+    },
+    "checkcif_alerts.md": {
+      "bytes": 10934
+    },
+    "final.cif": {
+      "bytes": 139185
+    },
+    "final.fcf": {
+      "bytes": 60947
+    },
+    "final.hkl": {
+      "bytes": 123990
+    },
+    "final.ins": {
+      "bytes": 1809
+    },
+    "final.res": {
+      "bytes": 1832
+    },
+    "transcript.jsonl": {
+      "bytes": 814854
+    }
+  },
+  "subdirectories_not_listed": [
+    "analysis",
+    "command_output",
+    "records"
+  ],
+  "source_state": {
+    "node": "n0018",
+    "revision": 19
+  },
+  "delivery_revision": 2,
+  "cif_grade": "shelxl-acta",
+  "provenance": {
+    "final.res": {
+      "from": "node n0018 model.res"
+    },
+    "final.cif": {
+      "grade": "shelxl-acta",
+      "note": "SHELXL ACTA CIF of job job_20260921_203111 (esds, geometry tables, reflection statistics)",
+      "from": "SHELXL job job_20260921_203111 job.cif + session metadata"
+    },
+    "final.fcf": {
+      "from": "SHELXL job job_20260921_203111 job.fcf"
+    },
+    "final.ins": {
+      "from": "SHELXL job job_20260921_203111 job.ins (the deck that produced final.cif/final.fcf)"
+    },
+    "final.hkl": {
+      "from": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\refine\\data\\d000001\\observations.hkl",
+      "bytes": 123990,
+      "n_reflections": 4132,
+      "terminator_added": false,
+      "trailer_lines": 0,
+      "data_revision": "d000001"
+    },
+    "final.p4p": {
+      "absent": true,
+      "note": "no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  },
+  "manual_continuation": {
+    "ready": true,
+    "files": [
+      "final.res",
+      "final.cif",
+      "final.ins",
+      "final.hkl",
+      "final.p4p"
+    ],
+    "missing": [
+      "final.p4p"
+    ],
+    "notes": [
+      "final.p4p: no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it",
+      "final.ins: SHELXL job job_20260921_203111 job.ins (the deck that produced final.cif/final.fcf)"
+    ],
+    "usage": "same basename: `shelxl final` refines final.ins against final.hkl (+ final.fab); open final.res / final.cif in Olex2 to inspect; final.p4p carries the instrument cell"
+  },
+  "finalized": "2026-09-21 20:41:37",
+  "promoted": false,
+  "waived": [],
+  "waived_count": 0,
+  "open_items": [
+    {
+      "item": "alert:058_A",
+      "text": "Maximum Transmission Factor Missing ............          ?"
+    },
+    {
+      "item": "alert:059_A",
+      "text": "Minimum Transmission Factor Missing ............          ?"
+    },
+    {
+      "item": "alert:699_A",
+      "text": "Missing _exptl_crystal_description Value .......     Please Do !"
+    },
+    {
+      "item": "alert:939_A",
+      "text": "Large Value of Not (SHELXL) Weight Optimized S .     829.83 Check"
+    },
+    {
+      "item": "unresolved#1",
+      "text": "原始积分中近零阴影/遮挡区观测与强等价反射冲突，scaled.refl将强等价反射标为outlier。例(0,2,-2)近零而(0,-2,2)约9497 counts；证据在analysis/suspect_reflections.json及raw_detector_evidence.png。必须以原始图像定义遮挡，不"
+    },
+    {
+      "item": "unresolved#2",
+      "text": "本地完整checkCIF为4A/3B/19C，包括PLAT939_A S=829.83与PLAT934_B六个严重离群反射。最终R1=0.0442、wR2=0.2001、GooF=1.222、残差+0.890/-0.759 e/A^3不能证明数据已可靠。"
+    },
+    {
+      "item": "unresolved#3",
+      "text": "绝对结构未可靠测定，Parsons Flack x=0.788(846)。不赋予L/D或R/S，不以此排除反演孪晶。"
+    },
+    {
+      "item": "unresolved#4",
+      "text": "O1/O2分裂试验分别判为不支持/不确定并撤销；N1/C1/C2/C3的独立分裂试验未完成，残余密度需在数据修复后重评估。"
+    },
+    {
+      "item": "unresolved#5",
+      "text": "晶体尺寸、颜色、形貌及实际透射系数范围未知；本次DIALS晶胞标准不确定度未传播，未用原厂另一套晶胞的误差替代。"
+    },
+    {
+      "item": "unresolved#6",
+      "text": "全数据保留至0.708 A，estimate_resolution建议0.71 A；外壳覆盖不足，CIF中的0.998完整度只对应theta_full=25.242度，不是全范围完整度。"
+    },
+    {
+      "item": "unresolved#7",
+      "text": "仅在工作副本尝试CrysAlisPro第二路线，open阶段183 s后超时；当前MCP帧接口没有阴影掩膜/观测筛选参数，尚未得到可替代的修正还原数据。"
+    },
+    {
+      "item": "goal:scientifically_established",
+      "text": "goal tier not reached: scientifically_established (the candidate survives the independent tests (density integration, free-occupancy refinement, constraint removal) and every checkCIF alert it causes is explainable); goal: 仅从本轮 inputs/alanine 原始衍射帧独立解析并精修丙氨酸，交付可复现、可审计且尽可能接近发表质量的结构。"
+    },
+    {
+      "item": "direction#1",
+      "text": "untried direction: 具备阴影掩膜控制后，重新处理原始帧并恢复被拒绝的强等价反射；不得依Fo/Fc删反射"
+    },
+    {
+      "item": "direction#2",
+      "text": "untried direction: 数据修复后重测N1/C1/C2/C3等残差候选；本轮未完成这四个位点的独立分裂试验"
+    },
+    {
+      "item": "direction#3",
+      "text": "untried direction: 补充晶体尺寸/颜色/形貌和本次重还原晶胞参数的标准不确定度"
+    },
+    {
+      "item": "unmet_goal#1",
+      "text": "scientifically_established未达：数据端阴影/离群筛选冲突尚未修复，PLAT939_A及PLAT934_B仍构成实质阻碍。"
+    },
+    {
+      "item": "unmet_goal#2",
+      "text": "未可靠确定绝对构型，N1/C1/C2/C3残差候选未完成独立分裂检验；O1/O2已检验但不支持可靠分裂模型。"
+    },
+    {
+      "item": "unmet_goal#3",
+      "text": "晶体尺寸、形貌、透射范围及本次晶胞标准不确定度仍缺失；无原始p4p。"
+    }
+  ],
+  "missing_inputs": [
+    {
+      "item": "file:final.p4p",
+      "text": "final.p4p not delivered (instrument cell record, an input): no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  ]
+}

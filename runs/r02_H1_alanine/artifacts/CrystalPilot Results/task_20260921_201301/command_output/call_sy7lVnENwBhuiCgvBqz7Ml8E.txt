@@ -1,0 +1,136 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+
+DIALS 3.30
+
+The following parameters have been modified:
+
+input {
+
+  experiments = symmetrized.expt
+
+  reflections = symmetrized.refl
+
+}
+
+
+
+Checking for the existence of a reflection table 
+
+containing multiple datasets 
+
+
+
+Detected existence of a multi-dataset reflection table 
+
+containing 6 datasets. 
+
+
+
+Found 6 reflection tables & 6 experiments in total.
+
+
+
+Dataset ids are: 0,1,2,3,4,5 
+
+
+
+Set scaling_options.full_matrix=True
+
+Set reflection_selection.method=quasi_random
+
+Space group being used during scaling is P 21 21 21
+
+Set small scale cutoff to 0.001
+
+Using median unit cell across experiments : (5.78803, 5.96863, 12.2994, 90, 90, 90)
+
+
+
+Scaling models have been initialised for all experiments.
+
+
+
+================================================================================
+
+
+
+The experiment id for this dataset is 0.
+
+The scaling model type being applied is physical. 
+
+
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+
+Read 652 predicted reflections
+
+Selected 652 reflections integrated by profile or summation methods
+
+Removed 23 reflections below partiality threshold
+
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+
+Excluding 23/652 reflections
+
+Reflections passing individual criteria:
+
+criterion: user excluded, reflections: 23
+
+criterion: excluded for scaling, reflections: 23
+
+
+
+The following corrections will be applied to this dataset: 
+
+
+
++--------------+----------------+
+
+| correction   |   n_parameters |
+
+|--------------+----------------|
+
+| scale        |              8 |
+
+| decay        |              7 |
+
++--------------+----------------+
+
+Loaded error model: 
+
+Error model details:
+
+  Type: basic
+
+  Parameters: a = 1.00000, b = 0.02000
+
+  Error model formula: σ'² = a²(σ² + (bI)²)
+
+  estimated I/sigma asymptotic limit: 50.000
+
+
+
+A round of outlier rejection has been performed, 
+
+8 outliers have been identified. 
+
+
+
+Completed preprocessing and initialisation for this dataset.
+
+
+
+================================================================================
+
+
+
+The experiment id for this dataset is 1.
+
+The scaling model type being applied is physical. 
+
+
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+

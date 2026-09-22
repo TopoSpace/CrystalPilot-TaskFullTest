@@ -1,0 +1,11 @@
+{
+  "model_requests": null,
+  "tool_calls": 187,
+  "input_tokens": 14283393,
+  "output_tokens": 57426,
+  "cached_input_tokens": 13960506,
+  "reasoning_output_tokens": 24846,
+  "cost_usd": null,
+  "source": "codex exec JSONL: turn.completed usage totals; model_requests not exposed (null)",
+  "turns": 1
+}

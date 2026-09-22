@@ -1,0 +1,10 @@
+{
+  "aperture_radius_pixels": 4.5,
+  "rock_halfwidth_degrees": "max(1.75,min(10,0.25+3.5*sqrt(0.07**2+(0.10*norm(g)/abs(g_y))**2)))",
+  "d_min_angstrom": 0.7,
+  "background_inner_radius": 7,
+  "background_outer_radius": 10,
+  "lorentz": "multiply abs(g_y) for omega rotation about z",
+  "polarization": "divide (1+s_x**2)/2",
+  "intensity_threshold": "none in prediction or integration"
+}

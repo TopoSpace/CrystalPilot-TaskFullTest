@@ -1,0 +1,30 @@
+{
+  "wavelength": 0.68883,
+  "energy_eV": 17999.244869300117,
+  "elements": {
+    "C": {
+      "fp": 0.0028491272386212112,
+      "fdp": 0.0015018578485652427,
+      "attenuation_barns": 10.991356386869505,
+      "method": "Cromer-Liberman (gemmi 0.7.5), cctbx attenuation coefficient"
+    },
+    "O": {
+      "fp": 0.010096292089029969,
+      "fdp": 0.005662422753317546,
+      "attenuation_barns": 30.280018607756634,
+      "method": "Cromer-Liberman (gemmi 0.7.5), cctbx attenuation coefficient"
+    },
+    "Zr": {
+      "fp": -8.66869842815125,
+      "fdp": 3.732734354630895,
+      "attenuation_barns": 14341.91060123735,
+      "method": "Cromer-Liberman (gemmi 0.7.5), cctbx attenuation coefficient"
+    },
+    "H": {
+      "fp": 0,
+      "fdp": 0,
+      "attenuation_barns": 0.6226474146865287,
+      "method": "Cromer-Liberman (gemmi 0.7.5), cctbx attenuation coefficient"
+    }
+  }
+}

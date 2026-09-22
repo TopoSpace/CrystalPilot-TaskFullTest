@@ -1,0 +1,14 @@
+{
+  "created_local": "2026-09-22T00:57:58.072304",
+  "archive_members": 281,
+  "archive_bytes": 19652524,
+  "archive_crc_test": "passed",
+  "structure_files_match_final_calculation": true,
+  "final_reflections": 964,
+  "platon_alerts": {
+    "A": 3,
+    "C": 3,
+    "G": 6
+  },
+  "scientific_limitations": "See README_zh.md and validation/ALERT_RESPONSES.md; not an unconditional publication-ready or online checkCIF pass."
+}

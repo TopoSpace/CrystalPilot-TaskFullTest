@@ -1,0 +1,46 @@
+{
+ "r09_P1N_nu1000": {
+  "shell_commands": 54,
+  "file_tool_calls": 105,
+  "forbidden_pattern_hits": [],
+  "commands_with_paths_outside_arena": [],
+  "file_tool_calls_outside_arena": [],
+  "python_executables_referenced": [
+   "h:\\crystalpilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\scripts\\python.exe"
+  ],
+  "verdict": "clean"
+ },
+ "r10_C0N_nu1000": {
+  "shell_commands": 45,
+  "file_tool_calls": 0,
+  "forbidden_pattern_hits": [],
+  "commands_with_paths_outside_arena": [],
+  "file_tool_calls_outside_arena": [],
+  "python_executables_referenced": [
+   "h:\\crystalpilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\scripts\\python.exe"
+  ],
+  "verdict": "clean"
+ },
+ "r11_C0N_alanine": {
+  "shell_commands": 66,
+  "file_tool_calls": 0,
+  "forbidden_pattern_hits": [],
+  "commands_with_paths_outside_arena": [],
+  "file_tool_calls_outside_arena": [],
+  "python_executables_referenced": [
+   "h:\\crystalpilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\scripts\\python.exe"
+  ],
+  "verdict": "clean"
+ },
+ "r12_P1N_alanine": {
+  "shell_commands": 67,
+  "file_tool_calls": 132,
+  "forbidden_pattern_hits": [],
+  "commands_with_paths_outside_arena": [],
+  "file_tool_calls_outside_arena": [],
+  "python_executables_referenced": [
+   "h:\\crystalpilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\scripts\\python.exe"
+  ],
+  "verdict": "clean"
+ }
+}

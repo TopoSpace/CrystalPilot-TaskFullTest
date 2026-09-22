@@ -1,0 +1,3082 @@
+[
+  {
+    "path": "inputs\\alanine\\CCD_online_log.txt",
+    "bytes": 64
+  },
+  {
+    "path": "inputs\\alanine\\copy_pgw240033_Mo.runbup",
+    "bytes": 2016
+  },
+  {
+    "path": "inputs\\alanine\\CrysalisExpSettings.ini",
+    "bytes": 4190
+  },
+  {
+    "path": "inputs\\alanine\\HyPixArc100_290622.ccd",
+    "bytes": 1922
+  },
+  {
+    "path": "inputs\\alanine\\HyPixArc100_290622_calib_170723.modulegeo",
+    "bytes": 732
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo.CAP_shape",
+    "bytes": 1469
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo.par",
+    "bytes": 16176
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo.run",
+    "bytes": 2016
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo_ccd.sum",
+    "bytes": 5170
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo_ccd.sum_temp",
+    "bytes": 5170
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo_dcsettings.ini",
+    "bytes": 103
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo_selexpinfo_1_6.sel_od",
+    "bytes": 3912
+  },
+  {
+    "path": "inputs\\alanine\\pgw240033_Mo_videosetup.ini",
+    "bytes": 108
+  },
+  {
+    "path": "inputs\\alanine\\RED_online_log.txt",
+    "bytes": 64
+  },
+  {
+    "path": "inputs\\alanine\\special_beamslit_system.lock",
+    "bytes": 44
+  },
+  {
+    "path": "inputs\\alanine\\special_plateadapter_xtalcheck_synergy_system.lock",
+    "bytes": 48
+  },
+  {
+    "path": "inputs\\alanine\\synergyaccesories.acc",
+    "bytes": 447
+  },
+  {
+    "path": "inputs\\alanine\\bup\\pgw240033_MoFri-Feb-09-12-01-40-2024.bup",
+    "bytes": 16222
+  },
+  {
+    "path": "inputs\\alanine\\bup\\pgw240033_Mo_before.run",
+    "bytes": 2016
+  },
+  {
+    "path": "inputs\\alanine\\bup\\pgw240033_Mo_Fri-Feb-09-12-51-24-2024.CAP_shape",
+    "bytes": 1458
+  },
+  {
+    "path": "inputs\\alanine\\bup\\pgw240033_Mo_Fri-Feb-09-13-20-49-2024.CAP_shape",
+    "bytes": 1469
+  },
+  {
+    "path": "inputs\\alanine\\bup\\pgw240033_Mo_sorted.run",
+    "bytes": 2016
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo.bup2_instr",
+    "bytes": 224
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_auto_coverage.ini_report",
+    "bytes": 1076
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_auto_crystal.ini_report",
+    "bytes": 12642
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_auto_rrp.ini_report",
+    "bytes": 77
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_coverage.ini",
+    "bytes": 1076
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_crystal.ini",
+    "bytes": 14220
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_datacoll.ini",
+    "bytes": 2373
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_preexp_settings.ini",
+    "bytes": 886
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_rrp.ini",
+    "bytes": 77
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pgw240033_Mo_sample.ini",
+    "bytes": 110
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pre_pgw240033_Mo_auto.ini",
+    "bytes": 6741
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pre_pgw240033_Mo_crystal.ini",
+    "bytes": 3824
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pre_pgw240033_Mo_datacoll.ini",
+    "bytes": 2336
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pre_pgw240033_Mo_preexp_settings.ini",
+    "bytes": 886
+  },
+  {
+    "path": "inputs\\alanine\\expinfo\\pre_pgw240033_Mo_sample.ini",
+    "bytes": 43
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_1.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_10.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_11.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_12.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_13.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_14.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_15.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_16.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_17.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_18.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_19.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_2.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_20.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_21.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_22.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_23.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_24.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_25.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_26.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_27.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_28.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_29.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_3.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_30.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_31.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_32.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_33.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_34.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_35.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_36.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_37.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_38.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_39.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_4.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_40.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_41.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_42.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_43.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_44.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_45.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_46.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_47.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_48.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_49.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_5.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_50.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_51.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_52.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_53.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_54.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_55.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_56.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_57.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_58.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_59.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_6.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_60.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_61.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_62.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_63.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_64.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_65.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_66.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_67.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_68.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_69.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_7.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_70.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_71.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_72.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_73.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_74.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_75.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_76.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_77.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_78.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_79.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_8.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_80.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_81.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_82.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_83.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_84.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_85.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_86.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_87.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_88.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_89.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_9.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_90.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_91.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_1_92.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_1.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_10.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_11.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_12.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_13.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_14.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_15.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_16.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_17.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_18.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_19.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_2.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_20.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_21.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_22.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_23.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_24.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_25.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_26.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_27.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_28.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_29.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_3.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_30.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_31.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_32.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_33.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_34.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_35.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_36.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_37.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_38.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_39.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_4.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_40.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_41.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_42.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_43.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_44.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_45.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_46.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_47.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_48.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_49.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_5.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_50.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_51.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_52.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_53.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_54.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_55.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_56.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_57.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_58.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_59.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_6.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_60.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_61.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_62.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_63.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_64.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_65.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_66.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_67.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_68.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_69.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_7.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_70.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_71.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_72.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_73.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_74.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_75.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_76.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_77.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_78.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_79.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_8.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_80.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_81.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_82.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_83.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_84.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_85.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_86.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_87.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_88.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_89.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_9.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_90.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_91.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_2_92.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_1.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_10.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_100.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_101.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_102.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_103.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_104.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_105.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_106.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_107.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_108.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_109.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_11.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_110.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_111.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_112.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_113.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_114.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_115.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_116.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_117.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_118.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_119.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_12.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_120.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_121.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_122.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_123.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_124.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_125.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_126.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_127.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_128.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_129.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_13.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_130.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_131.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_132.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_133.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_134.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_135.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_136.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_137.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_138.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_139.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_14.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_140.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_141.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_142.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_143.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_144.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_145.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_146.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_147.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_148.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_149.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_15.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_150.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_16.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_17.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_18.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_19.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_2.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_20.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_21.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_22.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_23.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_24.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_25.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_26.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_27.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_28.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_29.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_3.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_30.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_31.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_32.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_33.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_34.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_35.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_36.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_37.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_38.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_39.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_4.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_40.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_41.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_42.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_43.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_44.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_45.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_46.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_47.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_48.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_49.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_5.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_50.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_51.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_52.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_53.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_54.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_55.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_56.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_57.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_58.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_59.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_6.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_60.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_61.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_62.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_63.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_64.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_65.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_66.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_67.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_68.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_69.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_7.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_70.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_71.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_72.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_73.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_74.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_75.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_76.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_77.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_78.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_79.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_8.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_80.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_81.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_82.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_83.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_84.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_85.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_86.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_87.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_88.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_89.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_9.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_90.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_91.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_92.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_93.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_94.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_95.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_96.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_97.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_98.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_3_99.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_1.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_10.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_11.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_12.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_13.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_14.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_15.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_16.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_17.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_18.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_19.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_2.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_20.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_21.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_22.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_23.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_24.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_25.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_26.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_27.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_28.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_29.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_3.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_30.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_31.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_32.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_33.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_34.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_35.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_36.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_37.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_38.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_39.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_4.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_40.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_41.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_42.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_43.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_44.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_45.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_46.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_47.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_48.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_49.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_5.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_50.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_51.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_52.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_53.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_54.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_55.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_56.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_57.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_58.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_6.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_7.rodhypix",
+    "bytes": 161792
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_8.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_4_9.rodhypix",
+    "bytes": 161280
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_1.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_10.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_100.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_101.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_102.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_103.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_104.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_105.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_106.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_107.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_108.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_109.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_11.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_110.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_111.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_112.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_113.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_114.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_115.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_116.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_12.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_13.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_14.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_15.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_16.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_17.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_18.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_19.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_2.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_20.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_21.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_22.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_23.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_24.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_25.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_26.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_27.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_28.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_29.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_3.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_30.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_31.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_32.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_33.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_34.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_35.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_36.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_37.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_38.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_39.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_4.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_40.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_41.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_42.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_43.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_44.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_45.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_46.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_47.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_48.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_49.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_5.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_50.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_51.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_52.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_53.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_54.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_55.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_56.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_57.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_58.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_59.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_6.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_60.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_61.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_62.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_63.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_64.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_65.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_66.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_67.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_68.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_69.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_7.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_70.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_71.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_72.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_73.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_74.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_75.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_76.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_77.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_78.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_79.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_8.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_80.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_81.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_82.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_83.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_84.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_85.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_86.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_87.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_88.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_89.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_9.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_90.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_91.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_92.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_93.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_94.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_95.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_96.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_97.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_98.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_5_99.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_1.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_10.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_100.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_101.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_102.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_103.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_104.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_105.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_106.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_107.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_108.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_11.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_12.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_13.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_14.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_15.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_16.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_17.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_18.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_19.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_2.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_20.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_21.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_22.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_23.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_24.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_25.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_26.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_27.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_28.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_29.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_3.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_30.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_31.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_32.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_33.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_34.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_35.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_36.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_37.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_38.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_39.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_4.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_40.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_41.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_42.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_43.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_44.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_45.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_46.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_47.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_48.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_49.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_5.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_50.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_51.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_52.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_53.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_54.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_55.rodhypix",
+    "bytes": 159744
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_56.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_57.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_58.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_59.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_6.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_60.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_61.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_62.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_63.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_64.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_65.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_66.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_67.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_68.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_69.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_7.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_70.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_71.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_72.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_73.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_74.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_75.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_76.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_77.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_78.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_79.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_8.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_80.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_81.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_82.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_83.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_84.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_85.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_86.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_87.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_88.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_89.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_9.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_90.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_91.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_92.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_93.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_94.rodhypix",
+    "bytes": 160768
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_95.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_96.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_97.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_98.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pgw240033_Mo_6_99.rodhypix",
+    "bytes": 160256
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_1.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_10.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_2.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_3.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_4.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_5.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_6.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_7.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_8.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_1_9.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_1.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_10.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_2.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_3.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_4.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_5.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_6.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_7.rodhypix",
+    "bytes": 152064
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_8.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_2_9.rodhypix",
+    "bytes": 151552
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_1.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_10.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_2.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_3.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_4.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_5.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_6.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_7.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_8.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\frames\\pre_pgw240033_Mo_3_9.rodhypix",
+    "bytes": 152576
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision100_tdd_BeamSArc_wr_hparc100.kaboom",
+    "bytes": 2150
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision100_tdd_collim_wr_hparc100.kaboom",
+    "bytes": 2150
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision100_tdd_cryo_wr_hparc100.kaboom",
+    "bytes": 2150
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision100_tdd_scabp3_rail_pro_III.kaboom",
+    "bytes": 5174
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision100_tdd_tower_wr_hparc100.kaboom",
+    "bytes": 2150
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision_dc8proIII100_collimator.kaboom",
+    "bytes": 4614
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision_dc8proIII100_collimator_AGH.kaboom",
+    "bytes": 4614
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision_dc8proIII100_wr_hparc100.kaboom",
+    "bytes": 247430
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\collision_dc8proIII100_wr_hparc100_AGH.kaboom",
+    "bytes": 247430
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\Cu.calibration.lock",
+    "bytes": 24
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\Mo.calibration.lock",
+    "bytes": 24
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\xtalcheck100_collimator.kaboom",
+    "bytes": 108678
+  },
+  {
+    "path": "inputs\\alanine\\kaboom\\xtalcheck100_hparc100.kaboom",
+    "bytes": 108678
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo.jpr",
+    "bytes": 3977
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo1.jpg",
+    "bytes": 63295
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo10.jpg",
+    "bytes": 62836
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo11.jpg",
+    "bytes": 62662
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo12.jpg",
+    "bytes": 62722
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo13.jpg",
+    "bytes": 62603
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo14.jpg",
+    "bytes": 62717
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo15.jpg",
+    "bytes": 62843
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo16.jpg",
+    "bytes": 62762
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo17.jpg",
+    "bytes": 63005
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo18.jpg",
+    "bytes": 62579
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo19.jpg",
+    "bytes": 62607
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo2.jpg",
+    "bytes": 63288
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo20.jpg",
+    "bytes": 62636
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo21.jpg",
+    "bytes": 62705
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo22.jpg",
+    "bytes": 62794
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo23.jpg",
+    "bytes": 62561
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo24.jpg",
+    "bytes": 62686
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo25.jpg",
+    "bytes": 62692
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo26.jpg",
+    "bytes": 62572
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo27.jpg",
+    "bytes": 62964
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo28.jpg",
+    "bytes": 62751
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo29.jpg",
+    "bytes": 62840
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo3.jpg",
+    "bytes": 63565
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo30.jpg",
+    "bytes": 62814
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo31.jpg",
+    "bytes": 62881
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo32.jpg",
+    "bytes": 63048
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo33.jpg",
+    "bytes": 63108
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo34.jpg",
+    "bytes": 62939
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo35.jpg",
+    "bytes": 63195
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo36.jpg",
+    "bytes": 63173
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo37.jpg",
+    "bytes": 62827
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo38.jpg",
+    "bytes": 62788
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo39.jpg",
+    "bytes": 62843
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo4.jpg",
+    "bytes": 63464
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo40.jpg",
+    "bytes": 62659
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo41.jpg",
+    "bytes": 62681
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo42.jpg",
+    "bytes": 62735
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo43.jpg",
+    "bytes": 62782
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo44.jpg",
+    "bytes": 62567
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo45.jpg",
+    "bytes": 62807
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo46.jpg",
+    "bytes": 62805
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo47.jpg",
+    "bytes": 63038
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo48.jpg",
+    "bytes": 62752
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo49.jpg",
+    "bytes": 62758
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo5.jpg",
+    "bytes": 63229
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo50.jpg",
+    "bytes": 62671
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo51.jpg",
+    "bytes": 62687
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo52.jpg",
+    "bytes": 62735
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo53.jpg",
+    "bytes": 62731
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo54.jpg",
+    "bytes": 62843
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo55.jpg",
+    "bytes": 62874
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo56.jpg",
+    "bytes": 63108
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo57.jpg",
+    "bytes": 63050
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo58.jpg",
+    "bytes": 63215
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo59.jpg",
+    "bytes": 63387
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo6.jpg",
+    "bytes": 63177
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo60.jpg",
+    "bytes": 63429
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo7.jpg",
+    "bytes": 63199
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo8.jpg",
+    "bytes": 62959
+  },
+  {
+    "path": "inputs\\alanine\\movie\\pgw240033_Mo9.jpg",
+    "bytes": 63003
+  },
+  {
+    "path": "inputs\\alanine\\original\\pgw240033_Mo.par",
+    "bytes": 16222
+  },
+  {
+    "path": "inputs\\alanine\\original\\pgw240033_Mo_cracker.par",
+    "bytes": 17241
+  },
+  {
+    "path": "inputs\\alanine\\original\\pre_pgw240033_Mo.par",
+    "bytes": 16206
+  },
+  {
+    "path": "inputs\\alanine\\original\\pre_pgw240033_Mo.run",
+    "bytes": 1272
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_BSD HyPix-Arc Monitor.dat",
+    "bytes": 3881
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_BsdDWA.dat",
+    "bytes": 26196
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_BsdFlex.dat",
+    "bytes": 25849
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_BsdMonitor.dat",
+    "bytes": 38478
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_Cryosystem.dat",
+    "bytes": 8086
+  },
+  {
+    "path": "inputs\\alanine\\plots_dc\\pgw240033_Mo_hypix.dat",
+    "bytes": 463
+  },
+  {
+    "path": "inputs\\alanine\\frames\\jpg\\pgw240033_Mo_diffimg_1.jpg",
+    "bytes": 451422
+  },
+  {
+    "path": "inputs\\alanine\\frames\\jpg\\pgw240033_Mo_diffimg_2.jpg",
+    "bytes": 451617
+  },
+  {
+    "path": "inputs\\alanine\\frames\\jpg\\pgw240033_Mo_diffimg_3.jpg",
+    "bytes": 452791
+  }
+]

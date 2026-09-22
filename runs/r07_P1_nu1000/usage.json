@@ -1,0 +1,11 @@
+{
+  "model_requests": 307,
+  "tool_calls": 178,
+  "input_tokens": 411,
+  "output_tokens": 64707,
+  "cached_input_tokens": 11414657,
+  "reasoning_output_tokens": null,
+  "cost_usd": 9.212261500000002,
+  "source": "claude stream-json: assistant messages counted as requests; result.usage totals; cost is Claude Code's own estimate for an unknown model and is not reliable",
+  "num_turns": 180
+}

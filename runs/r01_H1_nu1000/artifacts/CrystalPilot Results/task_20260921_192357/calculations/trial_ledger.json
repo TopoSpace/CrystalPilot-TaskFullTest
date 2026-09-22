@@ -1,0 +1,36 @@
+[
+ {
+  "key": "ghost_test:{\"atoms\":[\"C00M+C00V+C00X+C010+C01D+C01E\",\"C00O\",\"C00P+C00Q+C019+C01C\",\"C00R+C00Y\",\"C00S+C00U\",\"C00T+C00Z+C013\",\"C00W\",\"C011+C014+C01B\",\"C016+C018\",\"O00K+C00N+C017+C01A\",\"O012\",\"O015\"],\"cycles\":6,\"engine\":\"shelxl\"}",
+  "tool": "ghost_test",
+  "node": "n0006",
+  "revision": 7,
+  "ts": "2026-09-21 19:42:31",
+  "params": {
+   "atoms": [
+    "C00M+C00V+C00X+C010+C01D+C01E",
+    "C00O",
+    "C00P+C00Q+C019+C01C",
+    "C00R+C00Y",
+    "C00S+C00U",
+    "C00T+C00Z+C013",
+    "C00W",
+    "C011+C014+C01B",
+    "C016+C018",
+    "O00K+C00N+C017+C01A",
+    "O012",
+    "O015"
+   ],
+   "cycles": 6,
+   "engine": "shelxl"
+  },
+  "outcome": {
+   "ok": true,
+   "execution": "ran",
+   "verdict": null,
+   "no_change": false,
+   "node_after": "n0006",
+   "changed": false,
+   "verdicts": 12
+  }
+ }
+]

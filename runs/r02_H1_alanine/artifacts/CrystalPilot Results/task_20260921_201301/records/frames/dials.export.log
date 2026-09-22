@@ -1,0 +1,71 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+The following parameters have been modified:
+
+mtz {
+  hklout = "scaled.mtz"
+}
+input {
+  experiments = scaled.expt
+  reflections = scaled.refl
+}
+
+--------------------------------------------------------------------------------
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_5_#####.rodhypix:1:116
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_2_#####.rodhypix:1:92
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_6_#####.rodhypix:1:108
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_4_#####.rodhypix:1:58
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_1_#####.rodhypix:1:92
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r02_H1_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_3_#####.rodhypix:1:150
+--------------------------------------------------------------------------------
+Data appears to be scaled, setting intensity = scale
+WARN: Experiment crystals differ. Using first experiment crystal for file-level data.
+Ignoring multiple panels in output MTZ
+Using median unit cell across experiments : (5.78803, 5.96863, 12.2994, 90, 90, 90)
+Read 4422 predicted reflections
+Selected 4160 scaled reflections
+Removed 26 reflections below partiality threshold
+Removed 0 intensity.scale.value reflections with I/Sig(I) < -5.0
+From dials.integrate v3.30, run on 2026-09-21 at 12:15:56 UTC
+From dials.scale v3.30, run on 2026-09-21 at 12:16:20 UTC
+Saving 4134 integrated reflections to scaled.mtz
+Title: From None
+Total Number of Datasets = 2
+
+Dataset    0   HKL_base > HKL_base > HKL_base:
+        cell  5.78803 5.96863 12.2994      90     90     90
+  wavelength  0
+Dataset    1   DIALS > XTAL > FROMDIALS:
+        cell  5.78803 5.96863 12.2994      90     90     90
+  wavelength  0.71073
+
+Number of Columns = 17
+Number of Reflections = 4134
+Number of Batches = 616
+Missing values marked as: nan
+Global Cell (obsolete): 5.78803 5.96863 12.2994      90     90     90
+Resolution: 0.71 - 12.30 A
+Sort Order: 1 2 3 4 5
+Space Group: P 21 21 21
+Space Group Number: 19
+Header info:
+Column    Type  Dataset    Min        Max
+H            H  0            0          8
+K            H  0            0          7
+L            H  0            0         17
+M/ISYM       Y  1            1          8
+BATCH        B  1            1        808
+I            J  1     -2.00604     8268.6
+SIGI         Q  1  1.78808e-16    167.993
+SCALEUSED    R  1     0.807444    1.23796
+SIGSCALEUSED R  1    0.0102942  0.0423485
+BG           R  1  9.12195e-31    448.799
+SIGBG        R  1  1.08083e-15    23.6772
+FRACTIONCALC R  1     0.400175          1
+XDET         R  1      2.29659    382.746
+YDET         R  1      2.92943    771.786
+ROT          R  1     -90.0631    73.9695
+LP           R  1    0.0148312     1.1799
+QE           R  1            1          1
+History (1 lines):
+From DIALS 3.30, run on   (2026-09-21 at 12:16:26 中国标准时间)

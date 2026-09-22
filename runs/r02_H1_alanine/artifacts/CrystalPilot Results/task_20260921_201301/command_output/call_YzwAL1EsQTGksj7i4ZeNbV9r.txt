@@ -1,0 +1,56 @@
+53:_cell_length_a                    5.788
+
+54:_cell_length_b                    5.969
+
+55:_cell_length_c                    12.299
+
+56:_cell_angle_alpha                 90
+
+57:_cell_angle_beta                  90
+
+58:_cell_angle_gamma                 90
+
+59:_cell_volume                      424.9
+
+60:_cell_formula_units_Z             4
+
+61:_cell_measurement_temperature     150
+
+62:_cell_measurement_reflns_used     351
+
+63:_cell_measurement_theta_min       1.656
+
+64:_cell_measurement_theta_max       30.034
+
+77:_exptl_absorpt_coefficient_mu     0.116
+
+80:_exptl_absorpt_correction_type    empirical
+
+81:_exptl_absorpt_correction_T_min   ?
+
+82:_exptl_absorpt_correction_T_max   ?
+
+83:_exptl_absorpt_process_details    'DIALS physical scaling: scale and decay terms for all six datasets; additionally a 24-parameter spherical-harmonic absorption term for dataset id 2 (scan 3). No verified dynamic shadow mask; near-zero shadowed observations displaced strong equivalents during outlier rejection. Transmission extrema not established.'
+
+84:_exptl_absorpt_special_details    ?
+
+101:_diffrn_reflns_theta_min          3.313
+
+102:_diffrn_reflns_theta_max          30.126
+
+103:_diffrn_reflns_theta_full         25.242
+
+104:_diffrn_measured_fraction_theta_max   0.879
+
+105:_diffrn_measured_fraction_theta_full  0.998
+
+131:_computing_structure_solution     ?
+
+156:_chemical_absolute_configuration  ?
+
+157:_refine_ls_number_reflns          1055
+
+158:_refine_ls_number_parameters      57
+
+159:_refine_ls_number_restraints      0
+

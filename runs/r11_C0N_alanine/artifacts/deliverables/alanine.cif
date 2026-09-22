@@ -1,0 +1,192 @@
+data_alanine
+_audit_creation_method 'Self-written Python 3.12 / NumPy / SciPy algorithms'
+_chemical_name_common 'alanine; absolute configuration undetermined'
+_chemical_formula_moiety 'C3 H7 N O2'
+_chemical_formula_sum 'C3 H7 N O2'
+_chemical_formula_weight 89.093
+_cell_length_a 5.79703(55)
+_cell_length_b 5.9711(19)
+_cell_length_c 12.3018(19)
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 425.82(15)
+_cell_formula_units_Z 4
+_cell_measurement_reflns_used 880
+_cell_measurement_theta_min 3.312
+_cell_measurement_theta_max 25.657
+_cell_measurement_temperature 150
+_space_group_crystal_system orthorhombic
+_space_group_name_H-M_alt 'P 21 21 21'
+_space_group_IT_number 19
+_exptl_crystal_description ?
+_exptl_crystal_colour ?
+_exptl_crystal_density_diffrn 1.38972
+_exptl_crystal_F_000 192
+_exptl_absorpt_coefficient_mu 0.11620
+_exptl_absorpt_correction_type numerical
+_exptl_absorpt_correction_T_min 0.989255
+_exptl_absorpt_correction_T_max 0.995397
+_exptl_absorpt_process_details
+;
+Self-written numerical ray integration through nine supplied crystal faces.
+mu=0.11620 mm^-1 is supplied metadata, not independently recalculated.
+Uniform illuminated volume assumed. The listed transmission extrema refer
+only to this numerical correction. Additional scan-dependent empirical
+quadratic scale functions were fitted to equivalent intensities, without Fc.
+Scale-function complexity was selected using held-out reflection groups.
+;
+_diffrn_ambient_temperature 150
+_diffrn_radiation_type 'Mo Kalpha'
+_diffrn_radiation_wavelength 0.71073
+_diffrn_measurement_device_type 'KM4 Xcalibur2 / HyPix-Arc 100 (input metadata)'
+_diffrn_measurement_method 'omega rotation; 0.5 degree frames; 2 s exposures'
+_diffrn_reflns_number 3786
+_diffrn_reflns_theta_min 3.312
+_diffrn_reflns_theta_max 28.247
+_diffrn_reflns_theta_full 26.373
+_diffrn_measured_fraction_theta_max 0.97040
+_diffrn_measured_fraction_theta_full 1.00000
+_diffrn_reflns_av_R_equivalents 0.067626
+_diffrn_reflns_limit_h_min -7
+_diffrn_reflns_limit_h_max 6
+_diffrn_reflns_limit_k_min -7
+_diffrn_reflns_limit_k_max 7
+_diffrn_reflns_limit_l_min -15
+_diffrn_reflns_limit_l_max 16
+_reflns_number_total 623
+_reflns_number_gt 574
+_reflns_threshold_expression 'I > 2 sigma(I)'
+_reflns_special_details
+;
+Friedel mates were merged under orthorhombic Laue symmetry.
+All signed intensities within d >= 0.75 A were retained for refinement,
+apart from screw-axis systematic absences. No Fo/Fc outlier omission.
+Raw shadow masks were derived from diffuse background, not calculated F.
+Robust equivalent-reflection weights are retained in the observation CSV.
+The R-equivalent reported above includes all non-shadowed observations;
+the smaller robust-filtered diagnostic is reported separately in the summary.
+Measurements beyond 0.75 A are retained in merged_corrected.csv.
+;
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type full
+_refine_ls_number_reflns 623
+_refine_ls_number_parameters 57
+_refine_ls_number_restraints 0
+_refine_ls_R_factor_gt 0.032555
+_refine_ls_R_factor_all 0.037808
+_refine_ls_wR_factor_ref 0.075063
+_refine_ls_goodness_of_fit_ref 1.310713
+_refine_ls_shift/su_max ?
+_refine_ls_weighting_scheme calc
+_refine_ls_weighting_details 'w=1/[sigma(I)^2+(0.03P)^2]; P=(max(I,0)+2Fc^2)/3'
+_refine_ls_hydrogen_treatment constr
+_refine_ls_extinction_method none
+_refine_ls_abs_structure_Flack ?
+_refine_ls_abs_structure_details
+;
+Absolute configuration has not been determined. Friedel pairs are merged;
+anomalous-dispersion terms are neglected. The displayed hand is arbitrary.
+;
+_refine_diff_density_max 0.20066
+_refine_diff_density_min -0.21359
+_refine_diff_density_rms 0.05236
+_refine_special_details
+;
+Six non-H atoms have free coordinates and anisotropic displacement tensors.
+Seven H atoms ride on idealized geometry: N-H 0.91, methine C-H 1.00,
+methyl C-H 0.98 A. NH3 and CH3 torsions were optimized independently.
+Uiso(H)=1.5 Ueq(parent), except methine H: 1.2 Ueq(C).
+No heavy-atom distance or angle restraints were used.
+Coordinate and ADP standard uncertainties use the full numerical normal
+matrix multiplied by goodness-of-fit squared. Cell uncertainties include
+leave-one-scan-out variation, but not external detector calibration error.
+Scattering coefficients are explicitly recorded in refine.py.
+No external crystallographic validation software was used. The custom
+format and numerical checks are not a substitute for independent checkCIF.
+;
+_computing_data_collection 'Recorded by input experiment; no collection software invoked'
+_computing_cell_refinement 'Self-written detector-plane / Ewald least squares'
+_computing_data_reduction 'Self-written TY6 decoder, summation integration and scaling'
+_computing_structure_solution 'Self-written symmetry-constrained charge flipping'
+_computing_structure_refinement 'Self-written anisotropic F^2 least squares'
+_computing_publication_material 'Self-written CIF exporter and numerical checks'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 'x+1/2,-y+1/2,-z'
+3 '-x,y+1/2,-z+1/2'
+4 '-x+1/2,-y,z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+O1 O 1.12540(19) 0.27278(23) 0.416214(86) 0.01971(33) Uani 1 d
+O2 O 1.26121(18) 0.55582(22) 0.315734(86) 0.01977(33) Uani 1 d
+N1 N 0.68394(21) 0.35055(25) 0.36246(11) 0.01533(35) Uani 1 d
+C1 C 1.10044(25) 0.44358(30) 0.35908(11) 0.01414(36) Uani 1 d
+C2 C 0.85492(25) 0.53082(30) 0.33899(11) 0.01481(36) Uani 1 d
+C3 C 0.80368(31) 0.73475(34) 0.40881(13) 0.02059(40) Uani 1 d
+H2 H 0.842887 0.576193 0.260943 0.017770 Uiso 1 calc
+H1N H 0.699399 0.305164 0.432695 0.022990 Uiso 1 calc
+H2N H 0.709381 0.232453 0.317264 0.022990 Uiso 1 calc
+H3N H 0.538729 0.404052 0.351728 0.022990 Uiso 1 calc
+H1C H 0.808080 0.692276 0.485727 0.030892 Uiso 1 calc
+H2C H 0.650248 0.792834 0.390810 0.030892 Uiso 1 calc
+H3C H 0.919663 0.850674 0.394912 0.030892 Uiso 1 calc
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.01609(61) 0.02308(73) 0.01995(53) 0.00199(55) -0.00186(46) 0.00522(54)
+O2 0.01193(55) 0.02491(75) 0.02246(55) -0.00036(58) 0.00168(44) 0.00433(55)
+N1 0.01047(65) 0.01844(76) 0.01707(63) 0.00023(56) -0.00028(53) 0.00131(61)
+C1 0.01390(72) 0.01724(88) 0.01129(62) 0.00098(72) 0.00007(60) -0.00260(69)
+C2 0.01170(73) 0.01834(89) 0.01438(65) 0.00025(69) 0.00063(56) 0.00252(69)
+C3 0.01607(83) 0.02045(96) 0.02526(80) 0.00107(78) 0.00007(64) -0.00199(79)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+O1 C1 1.2471(21) .
+O2 C1 1.2657(20) .
+C1 C2 1.5357(21) .
+N1 C2 1.4914(21) .
+C2 C3 1.5194(24) .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 C1 O2 125.81(14) . .
+O1 C1 C2 118.40(13) . .
+O2 C1 C2 115.79(14) . .
+N1 C2 C1 109.87(13) . .
+N1 C2 C3 109.82(13) . .
+C1 C2 C3 111.23(13) . .
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+N1 H1N O1 0.91 1.9635 2.8409 161.43 2_456
+N1 H2N O2 0.91 1.9541 2.8290 160.72 3_745
+N1 H3N O2 0.91 1.8988 2.7997 170.10 1_455

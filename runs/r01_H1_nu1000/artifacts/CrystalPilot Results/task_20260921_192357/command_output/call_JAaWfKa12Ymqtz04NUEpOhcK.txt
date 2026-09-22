@@ -1,0 +1,116 @@
+CrystalPilot Results/task_20260921_192357/final.res:22:DISP $C 0.002 0.002 10.99
+
+CrystalPilot Results/task_20260921_192357/final.res:23:DISP $H 0.000 0.000 0.62
+
+CrystalPilot Results/task_20260921_192357/final.res:24:DISP $O 0.007 0.006 30.28
+
+CrystalPilot Results/task_20260921_192357/final.res:25:DISP $Zr -9.041 2.772 14341.91
+
+CrystalPilot Results/task_20260921_192357/final.res:28:EQIV $1 X, Y, -Z+1
+
+CrystalPilot Results/task_20260921_192357/final.res:29:EQIV $2 -X+1, -Y+1, Z
+
+CrystalPilot Results/task_20260921_192357/final.res:30:EQIV $3 -X+1, -Y+1, -Z+1
+
+CrystalPilot Results/task_20260921_192357/final.res:31:FREE ZR1 ZR2
+
+CrystalPilot Results/task_20260921_192357/final.res:32:FREE ZR1 ZR2_$1
+
+CrystalPilot Results/task_20260921_192357/final.res:33:FREE ZR1 ZR2_$2
+
+CrystalPilot Results/task_20260921_192357/final.res:34:FREE ZR1 ZR2_$3
+
+CrystalPilot Results/task_20260921_192357/final.res:35:FREE ZR2 ZR2_$1
+
+CrystalPilot Results/task_20260921_192357/final.res:36:FREE ZR2 ZR2_$2
+
+CrystalPilot Results/task_20260921_192357/final.res:38:SHEL 999 1.000
+
+CrystalPilot Results/task_20260921_192357/final.res:42:ABIN
+
+CrystalPilot Results/task_20260921_192357/final.res:43:WGHT 0.144400 0.000000
+
+CrystalPilot Results/task_20260921_192357/final.res:67:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:69:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:74:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:76:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:81:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:83:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:86:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:88:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:95:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:97:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:100:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.res:102:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.res:103:HKLF 4
+
+CrystalPilot Results/task_20260921_192357/final.ins:20:DISP $C 0.002 0.002 10.99
+
+CrystalPilot Results/task_20260921_192357/final.ins:21:DISP $H 0.000 0.000 0.62
+
+CrystalPilot Results/task_20260921_192357/final.ins:22:DISP $O 0.007 0.006 30.28
+
+CrystalPilot Results/task_20260921_192357/final.ins:23:DISP $Zr -9.041 2.772 14341.91
+
+CrystalPilot Results/task_20260921_192357/final.ins:32:ABIN
+
+CrystalPilot Results/task_20260921_192357/final.ins:33:EQIV $1 X, Y, -Z+1
+
+CrystalPilot Results/task_20260921_192357/final.ins:34:EQIV $2 -X+1, -Y+1, Z
+
+CrystalPilot Results/task_20260921_192357/final.ins:35:EQIV $3 -X+1, -Y+1, -Z+1
+
+CrystalPilot Results/task_20260921_192357/final.ins:36:FREE ZR1 ZR2
+
+CrystalPilot Results/task_20260921_192357/final.ins:37:FREE ZR1 ZR2_$1
+
+CrystalPilot Results/task_20260921_192357/final.ins:38:FREE ZR1 ZR2_$2
+
+CrystalPilot Results/task_20260921_192357/final.ins:39:FREE ZR1 ZR2_$3
+
+CrystalPilot Results/task_20260921_192357/final.ins:40:FREE ZR2 ZR2_$1
+
+CrystalPilot Results/task_20260921_192357/final.ins:41:FREE ZR2 ZR2_$2
+
+CrystalPilot Results/task_20260921_192357/final.ins:43:SHEL 999 1.000
+
+CrystalPilot Results/task_20260921_192357/final.ins:45:WGHT 0.144400 0.000000
+
+CrystalPilot Results/task_20260921_192357/final.ins:69:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:71:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:76:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:78:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:83:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:85:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:88:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:90:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:97:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:99:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:102:AFIX 43
+
+CrystalPilot Results/task_20260921_192357/final.ins:104:AFIX 0
+
+CrystalPilot Results/task_20260921_192357/final.ins:105:HKLF 4
+

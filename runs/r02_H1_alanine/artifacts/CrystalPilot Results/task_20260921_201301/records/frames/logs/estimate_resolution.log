@@ -1,0 +1,40 @@
+The following parameters have been modified:
+
+resolution {
+  misigma = 2
+}
+input {
+  experiments = scaled.expt
+  reflections = scaled.refl
+}
+
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+Detected existence of a multi-dataset reflection table 
+containing 6 datasets. 
+
+Read 652 predicted reflections
+Selected 614 scaled reflections
+Removed 9 reflections below partiality threshold
+Read 661 predicted reflections
+Selected 623 scaled reflections
+Removed 6 reflections below partiality threshold
+Read 1079 predicted reflections
+Selected 1026 scaled reflections
+Removed 4 reflections below partiality threshold
+Read 428 predicted reflections
+Selected 384 scaled reflections
+Removed 1 reflections below partiality threshold
+Read 839 predicted reflections
+Selected 792 scaled reflections
+Removed 4 reflections below partiality threshold
+Read 763 predicted reflections
+Selected 721 scaled reflections
+Removed 2 reflections below partiality threshold
+Using median unit cell across experiments : (5.78803, 5.96863, 12.2994, 90, 90, 90)
+Removing 0 Wilson outliers with E^2 >= 16.0
+Resolution cc_half:       0.71
+Resolution Mn(I/sig):     0.71
+Resolution cc_half_significance_level:    0.71
+
+--- stderr ---

@@ -1,0 +1,404 @@
+#===============================================================================
+# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: job
+# Data: verify.cif - Type: CIF19                 Bond Precision   C-C = 0.0045 A
+# Refl: verify.fcf - Type: LIST4                                    Temp = 150 K
+# Audit:SHELXL-2019/3
+# Refin:SHELXL-2019/2 (SHELDRICK, 2019)
+# X-ray MoKa              R(int) = 0.036,  wR2/R(int) =  5.5,  Nref/Npar =  11.7
+# Cell     5.78800     5.96900    12.29900           90           90          90
+# Wavelength 0.71073  Volume Reported             425 Calculated         424.913
+# SpaceGroup from Symmetry P 21 21 21   Hall: P 2ac 2ab             orthorhombic
+#                 Reported P 21 21 21         P 2ac 2ab             orthorhombic
+# MoietyFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+#    SumFormula C3 H7 N O2
+#      Reported C3 H7 N O2
+# Mr        =     89.10[Calc],     89.10[Rep]       Volume/NonHatoms = 18 Ang**3
+# Dx,gcm-3  =     1.393[Calc],     1.393[Rep]
+# Z         =         4[Calc],         4[Rep]
+# Mu (mm-1) =     0.116[Calc],     0.116[Rep]  Xtal Size =  0.000x0.000x0.000 mm
+# F000      =     192.0[Calc],     192.0[Rep]  or F000' =    192.11[Calc]
+# Measured   HKL: Reported   4082, Embedded   4132, <Mult>  6.1
+# Reported   Hmax=  8, Kmax=  7, Lmax= 17, Nref=   1055        , Th(max)= 30.126
+# Obs in FCF Hmax=  8, Kmax=  7, Lmax= 16, Nref=   1055[   669], Th(max)= 30.125
+# Expected   Hmax=  8, Kmax=  8, Lmax= 17, Nref=   1258[   761], Ratio=1.39/0.84
+# Reported   Rho(min) = -0.76, Rho(max) = 0.89 e/Ang**3 (From CIF)
+# Calculated Rho(min) = -0.79, Rho(max) = 0.87 e/Ang**3 (From CIF+FCF data)
+# w=1/[\s^2^(Fo^2^)+(0.1353P)^2^+0.0753P], P=(Fo^2^+2Fc^2^)/3
+# R= 0.0441(   966), wR2= 0.2001(  1055), S = 1.222     (From CIF+FCF data)
+# R= 0.0442(   966), wR2= 0.2001(  1055), S = 1.222     (From FCF data only)
+# R= 0.0442(   966), wR2= 0.2001(  1055), S = 1.222, Npar=   57, Flack    0.8(8)
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+058_ALERT_1_A Maximum Transmission Factor Missing ............          ?
+059_ALERT_1_A Minimum Transmission Factor Missing ............          ?
+699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !
+939_ALERT_3_A Large Value of Not (SHELXL) Weight Optimized S .     829.83 Check
+#===============================================================================
+035_ALERT_1_B _chemical_absolute_configuration Info  Not Given     Please Do !
+097_ALERT_2_B Large Reported Max.  (Positive) Residual Density       0.89 eA-3
+934_ALERT_3_B Number of (Iobs-Icalc)/Sigma(W) > 10 Outliers ..          6 Check
+               -1  3  1,   1  3  1,   1  0  2,   0  2  2,   0  2  3,   0  2  4,
+#===============================================================================
+053_ALERT_1_C Minimum Crystal Dimension Missing (or Error) ...     Please Check
+054_ALERT_1_C Medium  Crystal Dimension Missing (or Error) ...     Please Check
+055_ALERT_1_C Maximum Crystal Dimension Missing (or Error) ...     Please Check
+098_ALERT_2_C Large Reported Min.  (Negative) Residual Density      -0.76 eA-3
+141_ALERT_4_C s.u. on a - Axis Small or Missing ..............    0.00000 Ang.
+142_ALERT_4_C s.u. on b - Axis Small or Missing ..............    0.00000 Ang.
+143_ALERT_4_C s.u. on c - Axis Small or Missing ..............    0.00000 Ang.
+151_ALERT_1_C No s.u. (esd) Given on Volume ..................     Please Do !
+250_ALERT_2_C Large U3/U1 Ratio for <U(i,j)> Tensor(Resd    1)        2.1 Note
+340_ALERT_3_C Low Bond Precision on  C-C Bonds ...............     0.0045 Ang.
+907_ALERT_2_C Flack x > 0.5, Structure Needs to be Inverted? .       0.80 Check
+915_ALERT_3_C No Flack x Check Done: Low Friedel Pair Coverage         78 %
+918_ALERT_3_C Reflection(s) with I(obs) much Smaller I(calc) .          5 Check
+976_ALERT_2_C Check Calcd Resid. Dens.  0.96Ang From O1      .      -0.79 eA-3
+976_ALERT_2_C Check Calcd Resid. Dens.  0.93Ang From N1      .      -0.53 eA-3
+976_ALERT_2_C Check Calcd Resid. Dens.  0.88Ang From N1      .      -0.48 eA-3
+977_ALERT_2_C Check Negative Difference Density on H1C       .      -0.47 eA-3
+977_ALERT_2_C Check Negative Difference Density on H3A       .      -0.31 eA-3
+977_ALERT_2_C Check Negative Difference Density on H3B       .      -0.35 eA-3
+#===============================================================================
+007_ALERT_5_G Number of Unrefined Donor-H Atoms ..............          3 Report
+              H1A   H1B   H1C
+032_ALERT_4_G Std. Uncertainty on Flack Parameter Value High .      0.800 Report
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O1       .        170 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O1       .        163 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N1       ..O2       .        160 Degree
+795_ALERT_4_G C-Atom in CIF Coordinate List Out-of-Sequence ..         C1 Note
+802_ALERT_4_G CIF Input Record(s) with more than 80 Characters          1 Info
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600         72 Note
+916_ALERT_2_G Hooft y and Flack x Parameter Values Differ by .       0.40 Check
+955_ALERT_1_G Reported (CIF) and Actual (FCF) Lmax Differ by .          1 Units
+965_ALERT_2_G The SHELXL WEIGHT Optimisation has not Converged     Please Check
+969_ALERT_5_G The 'Henn et al.' R-Factor-gap value ...........       6.83 Note
+              Predicted wR2: Based on SigI**2  2.93 or SHELX Weight 16.84
+978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          1 Info
+#===============================================================================
+#                                                                              *
+#===============================================================================
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  4 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  3 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+ 19 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+ 14 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+ 10 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+ 13 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+  5 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+ 10 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  2 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+  12 Missing  Experimental  Info Issue(s) (Out of  65 Tests) -   82 % Satisfied
+   0 Experimental  Data  Related Issue(s) (Out of  35 Tests) -  100 % Satisfied
+  14 Structural  Model   Related Issue(s) (Out of 144 Tests) -   90 % Satisfied
+  13 Unresolved or to be Checked Issue(s) (Out of 280 Tests) -   95 % Satisfied
+
+#                                                                              *
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_007 Type_5 Informative Message, Check.
+================================================================================
+ It is standard practice to refine Hydrogen atoms on hetero atoms as proof of
+ their correct assignment.
+
+================================================================================
+ALERT_032 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Check the validity of the absolute structure determination.
+ A high s.u. indicates that the experimental data do not support the
+ determination of the absolute structure. This will generally be the case
+ with light atom MoKa data where f" is nearly zero.
+ Note: Use the TWIN & BASF 0.0 instructions in SHELXL97. The default
+ FLACK parameter is not always reliable, in particular when strongly
+ correlated with the position of the origin (e.g. along y in space-group P21).
+ Please refer to Flack,H.D. & Bernardinelli, G. (1999) Acta Cryst. A55,
+ 908-915 and (2000) J. Appl. Cryst., 33, 1143-1148.
+
+================================================================================
+ALERT_035 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Options are 'rm', 'ad', 'rmad', 'syn', 'unk' or '.'
+
+ rm   : absolute configuration established by the structure determination
+        of a compound containing a chiral reference molecule of known
+        absolute configuration.
+ ad   : absolute configuration established by anomalous dispersion effects
+        in diffraction measurements on the crystal.
+ rmad : absolute configuration established by the structure determination
+        of a compound containing a chiral reference molecule of known
+        absolute configuration and confirmed by anomalous dispersion
+        effects in diffraction measurements on the crystal.
+ syn  : absolute configuration has not been established by anomalous
+        dispersion effects in diffraction measurements on the crystal.
+        The enantiomer has been assigned by reference to an unchanging
+        chiral centre in the synthetic procedure.
+ unk  : absolute configuration is unknown, there being no firm chemical
+        evidence for its assignment to hand and it having not been
+        established by anomalous dispersion effects in diffraction
+        measurements on the crystal. An arbitrary choice of enantiomer
+        has been made.
+ .    : inapplicable.
+
+================================================================================
+ALERT_053 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The smallest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_054 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The medium crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_055 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The largest crystal dimension should be supplied in the CIF.
+ The expected value should be a real number (i.e. not 0.35mm)
+
+================================================================================
+ALERT_058 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The Maximum transmission factor should be specified in the case a correction
+ for absorption was done. This is NOT the value that is calculated
+ automatically with SHELXL when a SIZE instruction is given in the SHELXL
+ instruction file. The values reported by SHELXL represent the EXPECTED
+ correction range. Some correction packages (e.g. SADABS) will provide
+ only one 'relative- correction-factor'. In such cases, Tmax should be
+ given as Tmax-expected and Tmin = relative-correction-factor * Tmax.
+
+================================================================================
+ALERT_059 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The Minimum transmission factor should be specified in case a correction
+ for absorption was done. This is NOT the value that is calculated
+ automatically with SHELXL when a SIZE instruction is given in the SHELXL
+ instruction file. The values reported by SHELXL represent the EXPECTED
+ correction range. Some correction packages (e.g. SADABS) will provide
+ only one 'relative-correction-factor'. In such cases, Tmax should be
+ given as Tmax-expected and Tmin = relative-correction-factor * Tmax.
+
+================================================================================
+ALERT_097 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A residual density maximum larger than expected is reported. This might be
+ caused by residual absorption artefacts, unaccounted for twinning, disorder,
+ wrongly assigned atom types, missing hydrogen atoms and other model errors.
+
+================================================================================
+ALERT_098 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A residual density minimum larger than expected is reported. This might be
+ caused by residual absorption artefacts, disorder, wrongly assigned atom
+ types and other model errors.
+
+================================================================================
+ALERT_141 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The s.u. on the a-axis is small or missing. The presence of s.u.'s (where
+ required) and value are checked. S.u.'s as given by the diffractometer
+ software are often much smaller then realistic.
+
+================================================================================
+ALERT_142 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The s.u. on the b-axis is small or missing. The presence of s.u.'s (where
+ required) and value are checked. Su's as given by the diffractometer software
+ are often much smaller then realistic.
+
+================================================================================
+ALERT_143 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The s.u. on the c-axis is small or missing. The presence of s.u.'s (where
+ required) and value are checked. Su's as given by the diffractometer software
+ are often much smaller then realistic.
+
+================================================================================
+ALERT_151 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Missing s.u. on cell volume.
+
+================================================================================
+ALERT_250 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ An average value of the U(i,j) tensor of the asymmetric unit of a residue
+ is calculated. An ALERT is generated when the corresponding main axis U3/U1
+ ratio deviates significantly from 1.0. Large values of this ratio should be
+ taken as an indication of possible systematic errors in the data or errors
+ in the model. Visual inspection of an ORTEP plot will show that many
+ displacement ellipsoids have their major axis pointing in the same direction.
+
+================================================================================
+ALERT_340 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ The average s.u. for X-Y bonds is tested (named bond-precision). X-Y will
+ generally be C-C bonds, unless there are none. In the last case the s.u.'s of
+ the lowest element numbers are considered (excluding hydrogen). There are
+ three test ranges: one for structures with the largest element Z < 20, one
+ for the largest Z in the range 20 to 39 and one for structures with Z(max) 40
+ or higher (_340, _341 and _342 respectively).
+
+================================================================================
+ALERT_484 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ D-H..A angles without s.u. should be rounded to integer values for
+ publication purposes (Required for Acta Cryst.).
+
+================================================================================
+ALERT_699 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Examples of expected values are 'block', 'needle', 'plate', 'sphere',
+ 'cylinder'. In case of 'cylinder' or 'sphere' also provide a value for
+ '_exptl_size_rad'.
+
+================================================================================
+ALERT_795 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Atoms in the CIF are not given in logical order (i.e. C1, C2 etc.)
+ The recommended procedure is to sort the atom list in some logical
+ order before the final refinement cycles.
+
+================================================================================
+ALERT_802 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The CIF contains records longer than 80 characters. Not all software will
+ read beyond column 80.
+ The CIF-1.1 definition specifies a maximum of 2048 character per record.
+
+================================================================================
+ALERT_883 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the proper info for _atom_site_solution_primary. Values must
+ be one of the following: difmap, vecmap, heavy, direct, geom, disper, isomor,
+ notdet, dual, iterative, other.
+
+================================================================================
+ALERT_907 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A Flack x value generally indicates that the structure needs to be inverted.
+ Check whether the Flack x value is unreliable due to a weak anomalous
+ dispersion signal, systematic errors or weak data and against know absolute
+ structure.
+
+
+================================================================================
+ALERT_912 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Possible causes: Missing cusp of data (due to rotation about one axis),
+ deleted (overflow) reflections or improper strategy (orthorhombic for
+ monoclinic crystal etc.) See the .ckf file for details.
+
+================================================================================
+ALERT_915 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ This ALERT reflects the notion that a dataset should contain a sufficient
+ number of Bijvoet (Friedel) pairs for the reliable determination of the
+ absolute structure of a non-centrosymmetric crystal structure.
+
+ A Friedel coverage that deviates significantly from 100 percent may
+ bias/invalidate the value of the Flack parameter.
+
+================================================================================
+ALERT_916 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The Hooft y Parameter is calculated independently from the Bijvoet
+ differences and should have a value similar (observing the s.u.'s) to that of
+ the Flack x Parameter. See:
+ Hooft, R.W.W, Straver, L.H. & Spek,A.L. (2008). J. Appl, Cryst. 41, 96-103.
+ Thompson,A.L. & Watkin, D.J. (2009). Tetrahedron: Asymmetry,
+   doi:10.1016/j.tetasy.2009.02.025
+
+ Large differences may arise in cases where the Flack parameter was not
+ done with BASF/TWIN or with essentially centrosymmetric data.
+ See:
+ Flack, H.D., Bernardinelli, G, Clemente, D.A., Linden, A. Spek, A.L. (2006)
+ Acta Cryst. B62, 695-701.
+
+================================================================================
+ALERT_918 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ This ALERT reports on the number of reflections with
+ (Fo**2 - Fc**2) / Sigma(Fo**2) < - 100.0. In case of strong reflections this
+ might be due to extinction (to be addressed with the refinement of an
+ extinction parameter. Otherwise Those reflections are better removed from the
+ final refinement since they are in systematic error. Of course, a valid
+ reason for this problem should be found.
+
+================================================================================
+ALERT_934 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ This ALERT reports on the number of reflections for which I(obs) and I(calc)
+ differ more that 10 times SigmaW. (The latter being the square root of
+ 1.0/weight for that reflection in the L.S. refinement). The reason for those
+ deviations should be investigated. When shown to be systematic errors, those
+ reflections are best removed from the refinement and their omission from the
+ refinement reported in the experimental section of an associated paper.
+
+================================================================================
+ALERT_939 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ SHELXL suggests/optimizes two weight parameters aiming at bringing the S
+ value (Goodness-of-Fit) close to 1.0. This 939_ALERT reports the S value when
+ based on the supplied sigma(I) values only. A large value of this not weight
+ optimized S generally indicates the presence of large outliers in the data
+ set. Examples are reflections (partially) 'measured' behind the beam stop.
+ (See also ALERT_919). The latter low order reflections are best left out from
+ the final refinement with an OMIT hkl instruction.
+
+================================================================================
+ALERT_955 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Reported (in the CIF) and Actual (in the FCF) Max(Lmax,-Lmin) values
+ differ by more than one unit. Check for data set truncation.
+
+================================================================================
+ALERT_965 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Additional refinement cycles are advised using the (SHELXL) suggested new
+ WGHT parameter values.
+
+================================================================================
+ALERT_969 Type_5 Informative Message, Check.
+================================================================================
+ Report on predicted wR2, based on counting statistics, or SHELXL style
+ weighting as compared to the actual refined wR2.
+ See: J.Henn & A.Schonleber, Acta Cryst. (2013) A69, 549-558.
+
+================================================================================
+ALERT_976 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Negative density found in a difference density map at a location within
+ bonding distance for a hydrogen atom from a nitrogen or oxygen atom. A
+ possible reason can be a misassigned hydrogen atom. Also check for
+ tautomerism.
+
+================================================================================
+ALERT_977 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Negative density found in a difference density map at a H-atom location.
+ A reason might be an incorrect AFIX instruction.
+
+================================================================================
+ALERT_978 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Difference density maps generally show residual densities on C-C bonds.
+ A significant number of those may indicate good data. Cases where this number
+ is zero should be investigated for a reason. The use of aspherical scattering
+ factors in the refinement model may be one.
+

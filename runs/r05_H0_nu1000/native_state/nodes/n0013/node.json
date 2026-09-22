@@ -1,0 +1,375 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0013",
+  "parent": "n0012",
+  "revision": 14,
+  "branch": "framework_masked",
+  "ts": 1790001272.621688,
+  "tool": "solvent_mask",
+  "params": {
+    "d_min": 1.0,
+    "max_cycles": 1000,
+    "timeout_s": 600
+  },
+  "note": "",
+  "metrics": null,
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 26,
+    "element_counts": {
+      "Zr": 2,
+      "O": 6,
+      "C": 12,
+      "H": 6
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0024413481000000003,
+  "mask": {
+    "params": {
+      "solvent_radius": 1.2,
+      "shrink_truncation_radius": 1.2,
+      "resolution_factor": 0.25,
+      "d_min": 1.0,
+      "min_void_volume": 8.0,
+      "max_cycles": 1000
+    },
+    "info": {
+      "mask_id": "9e0f0f6c273e",
+      "computed_at": "2026-09-21T22:34:32",
+      "n_voids": 1,
+      "n_voids_masked": 1,
+      "voids": [
+        {
+          "void": 1,
+          "volume_A3": 17360.0,
+          "electrons": 343.6,
+          "centre_frac": [
+            -0.882,
+            -0.89,
+            -0.031
+          ],
+          "masked": true
+        }
+      ],
+      "total_solvent_electrons_per_cell": 343.6,
+      "solvent_volume_A3": 17360.0,
+      "solvent_volume_pct_of_cell": 78.6,
+      "solvent_mask_converged": true,
+      "anomalous_terms": {
+        "Zr": [
+          -9.041,
+          2.771
+        ],
+        "O": [
+          0.007,
+          0.006
+        ],
+        "C": [
+          0.002,
+          0.002
+        ],
+        "H": [
+          0.0,
+          0.0
+        ]
+      },
+      "bypass": {
+        "cycles_run": 55,
+        "max_cycles": 1000,
+        "converged": true,
+        "diverged": false,
+        "kept_cycle": 55,
+        "f000s_first": 2239.1,
+        "f000s_last": 343.6,
+        "stopped_by": null,
+        "f000s_min": 343.6,
+        "f000s_max": 2239.1,
+        "residual_best": 0.1638
+      },
+      "coordination_encroachment": [
+        {
+          "metal": "ZR1",
+          "void": 1,
+          "within_A": 2.2
+        },
+        {
+          "metal": "ZR2",
+          "void": 1,
+          "within_A": 2.7
+        }
+      ]
+    }
+  },
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C"
+    ],
+    "n_groups": 6
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "riding",
+    "twin": false,
+    "afix_groups": [],
+    "mask": true,
+    "source": {
+      "tool": "solvent_mask",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0012"
+    }
+  },
+  "conditions_token": "d000001:n0013:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0024413481000000003
+    },
+    "mask": {
+      "state": "bound",
+      "revision": "mask:n0013",
+      "params": {
+        "solvent_radius": 1.2,
+        "shrink_truncation_radius": 1.2,
+        "resolution_factor": 0.25,
+        "d_min": 1.0,
+        "min_void_volume": 8.0,
+        "max_cycles": 1000
+      }
+    },
+    "stored_mask": {
+      "state": "bound",
+      "revision": "mask:n0013",
+      "params": {
+        "solvent_radius": 1.2,
+        "shrink_truncation_radius": 1.2,
+        "resolution_factor": 0.25,
+        "d_min": 1.0,
+        "min_void_volume": 8.0,
+        "max_cycles": 1000
+      }
+    },
+    "hydrogens": {
+      "treatment": "riding",
+      "groups": [
+        {
+          "carrier": "C3",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H3"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C5",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H5"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C7",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H7"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C8",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H8"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C11",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H11"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C12",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H12"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        }
+      ]
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0012",
+    "model_revision": 13,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_223410",
+    "conditions_token": "d000001:n0012:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0007",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": "mask:n0013"
+}

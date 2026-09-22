@@ -1,0 +1,360 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0004",
+  "parent": "n0003",
+  "revision": 5,
+  "branch": "main",
+  "ts": 1789990810.0045269,
+  "tool": "run_shelxl",
+  "params": {
+    "mode": "adopt",
+    "l_s": 8,
+    "timeout_s": 180
+  },
+  "note": "",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.1698,
+    "r1_all": 0.262,
+    "wr2": 0.4266,
+    "goof": 2.064,
+    "n_params": 156,
+    "n_reflections": 4395,
+    "diff_map_max": 1.075,
+    "diff_map_min": -1.472,
+    "flack": null,
+    "flack_su": null,
+    "notes": "",
+    "scale_k": 0.0025999801
+  },
+  "metrics_current": true,
+  "model": {
+    "n_atoms": 50,
+    "element_counts": {
+      "Zr": 2,
+      "O": 9,
+      "C": 39
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0025999801,
+  "mask": null,
+  "hydrogens": {
+    "present": false
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "free_or_none",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "run_shelxl",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": {
+    "n_detached_atoms": 29,
+    "ghost_suspects": [
+      {
+        "label": "C00S",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 0.4035,
+        "reasons": [
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C00U",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 0.3836,
+        "reasons": [
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C00W",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 0.6107,
+        "reasons": [
+          "Ueq 0.611 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C010",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 1.1102,
+        "reasons": [
+          "Ueq 1.110 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C011",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 0.6925,
+        "reasons": [
+          "Ueq 0.693 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "O012",
+        "element": "O",
+        "occupancy": 1.0,
+        "ueq": 0.7755,
+        "reasons": [
+          "Ueq 0.776 high vs element median 0.135",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C014",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 1.7568,
+        "reasons": [
+          "Ueq 1.757 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "O015",
+        "element": "O",
+        "occupancy": 1.0,
+        "ueq": 1.3197,
+        "reasons": [
+          "Ueq 1.320 high vs element median 0.135",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C016",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 0.1687,
+        "reasons": [
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C018",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 2.0,
+        "reasons": [
+          "Ueq 2.000 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      },
+      {
+        "label": "C01B",
+        "element": "C",
+        "occupancy": 1.0,
+        "ueq": 2.0,
+        "reasons": [
+          "Ueq 2.000 high vs element median 0.403",
+          "no bonded partner even via symmetry"
+        ],
+        "advice": "run ghost_test on it (the delete-and-refine test): 'ghost' is the only deletion licence; 'real' means the density is there - name it (guest solvent e.g. OW with H-bond partners, counter-ion, disorder component), refine it at free occupancy or absorb it in the mask with an acknowledged reason; 'inconclusive' means re-test after the model is more complete, not delete. Never keep chemistry-free atoms just to lower R1, and never delete a 'real' one silently"
+      }
+    ],
+    "advice": "run assemble_asu before delivery; ghost suspects need a delete-and-refine test - do not keep chemistry-free atoms to lower R1"
+  },
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0004"
+    }
+  },
+  "conditions_token": "d000001:n0004:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": 4395,
+      "applied": [
+        "SHEL 999 1.000"
+      ],
+      "application": "applied"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "measurement"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0025999801
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "free_or_none",
+      "groups": []
+    },
+    "twin": null,
+    "engine": "SHELXL",
+    "unknown_fields": [],
+    "metric_definition": "shelxl-r-factors-v1",
+    "experiment": {
+      "temperature_K": null,
+      "crystal_size": null
+    },
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0004",
+    "model_revision": 5,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194003",
+    "conditions_token": "d000001:n0004:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0002",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

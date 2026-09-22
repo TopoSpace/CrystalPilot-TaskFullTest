@@ -1,0 +1,41 @@
+{
+  "active_node": "n0018",
+  "active_branch": "delivery-single-site",
+  "active_data_revision": "d000001",
+  "data_seq": 1,
+  "branches": {
+    "main": "n0007",
+    "disorder-tests": "n0011",
+    "split-O2": "n0016",
+    "delivery-single-site": "n0018"
+  },
+  "seq": 19,
+  "project_revision": 31,
+  "last_transaction": "e071a3006e3846cd9028b860115c85e9",
+  "working_experiments": {
+    "d000001": {
+      "cell_measurement": {
+        "reflns_used": 351,
+        "theta_min": 1.656,
+        "theta_max": 30.034
+      },
+      "computing": {
+        "data_reduction": "DIALS 3.30",
+        "cell_refinement": "DIALS 3.30",
+        "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)",
+        "structure_solution": "CrystalPilot built-in charge flipping and Fourier completion; independent SHELXT verification (56 space groups)"
+      },
+      "absorption": {
+        "type": "empirical",
+        "details": "DIALS physical scaling: scale and decay terms for all six datasets; additionally a 24-parameter spherical-harmonic absorption term for dataset id 2 (scan 3). No verified dynamic shadow mask; near-zero shadowed observations displaced strong equivalents during outlier rejection. Transmission extrema not established."
+      },
+      "temperature_K": 150.0,
+      "instrument": {
+        "source": "Microfocus Mo Kalpha, lambda = 0.71073 A",
+        "method": "omega scans, 0.5 deg per frame",
+        "diffractometer": "Rigaku Oxford Diffraction Synergy Dualflex, HyPix-Arc 100"
+      },
+      "provenance": "2026-09-21 set_experiment(computing, instrument, temperature_K): 本轮 inputs/alanine/expinfo/pgw240033_Mo_datacoll.ini: Sample T in K min max=149.930000 150.050000，omega 连续扫描；波长 0.71073 A 来自原始帧导入和 scale_and_export。DIALS 版本来自 environment.json。\n2026-09-21 set_experiment(absorption, instrument): 仪器名称依据 inputs/alanine/pgw240033_Mo.par 第110、164行 MICROFOCUS、HYPIXARC100、KM4_HYPIXARC100_SYNERGYDUALFLEX；扫描宽度依据 expinfo/pgw240033_Mo_datacoll.ini。吸收校正事实依据本轮 .crystalpilot/frames/logs/scale.log 的 correction 表：只有 scale、decay；未虚构透射系数。\n2026-09-21 set_experiment(absorption): 更正上一条过度概括：完整 .crystalpilot/frames/logs/scale.log 第115-122、298-303、350-355、445-450、472-477行明确 id2 使用 scale,decay,absorption，其余id使用scale,decay。之前仅查看首个数据集表，不足以描述整个数据集；此处以完整日志为准。\n2026-09-21 set_experiment(computing): 本轮 create_start_model 返回 n0000；该工具说明为 charge flipping -> peak interpretation -> isotropic LS -> Fourier completion。run_shelxt(adopt=false) 的 job_20260921_201729 完成独立求解，测试56群，仅给出P212121解。此为实际计算记录，不是从样品参考结构获得。"
+    }
+  }
+}

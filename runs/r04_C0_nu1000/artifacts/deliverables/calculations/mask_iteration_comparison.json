@@ -1,0 +1,11 @@
+{
+  "same_source": "r08_map",
+  "cycles": [
+    100,
+    200
+  ],
+  "max_AB_difference_e": 0.3056505800000018,
+  "rms_AB_difference_e": 0.014244095564774741,
+  "relative_L1_difference": 0.0010841257295787945,
+  "electron_count_not_used_for_chemical_assignment": true
+}

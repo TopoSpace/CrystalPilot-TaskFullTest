@@ -1,0 +1,132 @@
+ The CIF contains records longer than 80 characters. Not all software will
+
+ read beyond column 80.
+
+ The CIF-1.1 definition specifies a maximum of 2048 character per record.
+
+
+
+================================================================================
+
+ALERT_869 Type_4 Improvement, Methodology, Query or Suggestion.
+
+================================================================================
+
+ ALERTS related to the use of PLATON/SQUEEZE that can not (yet) be accounted
+
+ for as part of the VALIDATION algorithms have been suppressed.
+
+
+
+================================================================================
+
+ALERT_905 Type_3 Indicator that the Structure Quality may be Low.
+
+================================================================================
+
+ Scale Factors (i.e. K = Mean[Fo**2] / Mean [Fc**2]) for selected groups of
+
+ reflections, as listed in the Analysis of Variance Section #7 of the FCF
+
+ validation report, are expected to have a value of about 1.000. Strong
+
+ deviations should be investigated, acted upon or explained.
+
+ (see also SHELXL manual). A reason can be meaningless (weak) high order
+
+ data where a cut-back of the resolution might be indicated. Incorrect
+
+ background treatment can lead to numerous negative observed intensities
+
+ for weak reflections (i.e. F(calc) close to zero.
+
+ For details see the Analysis-of-Variance Section in the '.ckf' file.
+
+
+
+================================================================================
+
+ALERT_910 Type_3 Indicator that the Structure Quality may be Low.
+
+================================================================================
+
+ Possible causes: Experimental beamstop Theta(min) limit set too high; A large
+
+ unit-cell causing reflections effected by the beamstop. A possible technical
+
+ solution on CCD based equipment involves the collection of additional images
+
+ with the detector at a larger distance from the crystal with the beamstop
+
+ setting changed accordingly. Alternatively, a large number of low-order
+
+ 'outlier' reflections might have been 'Omitted' deliberately from the (final)
+
+ALERT_975 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+
+================================================================================
+
+ Positive density found in a difference density map at a position within
+
+ bonding distance for a hydrogen atom from a nitrogen or oxygen atom. A
+
+ possible reason can be a missing hydrogen atom. Also check for tautomerism.
+
+
+
+================================================================================
+
+ALERT_976 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+
+================================================================================
+
+ Negative density found in a difference density map at a location within
+
+ bonding distance for a hydrogen atom from a nitrogen or oxygen atom. A
+
+ possible reason can be a misassigned hydrogen atom. Also check for
+
+ tautomerism.
+
+
+
+================================================================================
+
+ALERT_978 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+
+================================================================================
+
+ Difference density maps generally show residual densities on C-C bonds.
+
+ A significant number of those may indicate good data. Cases where this number
+
+ is zero should be investigated for a reason. The use of aspherical scattering
+
+ factors in the refinement model may be one.
+
+
+
+================================================================================
+
+ALERT_984 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+
+================================================================================
+
+ Check the supplied anomalous scattering factor f' value for the
+
+ non Cu, Mo, or Ag wavelength against those of Brennan & Cowan.
+
+
+
+================================================================================
+
+ALERT_985 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+
+================================================================================
+
+ Check the supplied anomalous scattering factor f'' value for the
+
+ non Cu, Mo, Ag wavelength against those of Brennan & Cowan.
+
+
+

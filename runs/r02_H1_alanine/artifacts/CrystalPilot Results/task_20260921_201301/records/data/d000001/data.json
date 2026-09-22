@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "d000001",
+  "transaction": "db48462468e5441c83203cea3cd5fac8",
+  "sources": [
+    {
+      "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\dials.hkl",
+      "file": "source-0000.hkl",
+      "bytes": 124050
+    },
+    {
+      "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\frames\\dials.ins",
+      "file": "source-0001.ins",
+      "bytes": 209
+    }
+  ],
+  "bytes": 123990,
+  "input_context": {
+    "data": {},
+    "experiment": {
+      "cell_measurement": {
+        "reflns_used": 351,
+        "theta_min": 1.656,
+        "theta_max": 30.034
+      },
+      "computing": {
+        "data_reduction": "DIALS",
+        "cell_refinement": "DIALS",
+        "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+      },
+      "absorption": {
+        "type": "empirical",
+        "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+      }
+    }
+  },
+  "format": "SHELX HKL",
+  "processing": [
+    "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+  ],
+  "scale_applied": 1.0
+}

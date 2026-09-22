@@ -1,0 +1,106 @@
+{
+  "open": {
+    "project": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000",
+    "threads": [],
+    "results_dirname": "CrystalPilot Results",
+    "auto_approve": false,
+    "agents_md": {
+      "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000\\AGENTS.md",
+      "mode": "full",
+      "marker": "<!-- crystalpilot-agents-v44 -->",
+      "delegate": false,
+      "aggressive": false,
+      "language": "zh",
+      "action": "written",
+      "warning": null
+    }
+  },
+  "settings": {
+    "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000",
+    "permission_mode": "auto",
+    "display_name": null,
+    "allow_iucr_upload": false,
+    "auto_shell_approvals": true,
+    "enable_specialists": false,
+    "structure_class": null,
+    "structure_classes": [
+      "small_molecule",
+      "macrocycle",
+      "cage",
+      "framework",
+      "salt_cocrystal"
+    ],
+    "subagents": "off",
+    "subagent_choices": [
+      "auto",
+      "on",
+      "off"
+    ],
+    "delegation": {
+      "active": false,
+      "tier": "off",
+      "mode": "off",
+      "auto_default": false,
+      "top_effort": "ultra",
+      "aggressive_efforts": [
+        "max",
+        "ultra"
+      ],
+      "effective_effort": "xhigh",
+      "roles": [
+        "chemistry",
+        "density",
+        "refinement_strategy",
+        "space_group",
+        "validation"
+      ]
+    },
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "model_default": "gpt-6-astra",
+    "effort_default": "xhigh",
+    "model_override": "gpt-6-astra",
+    "effort_override": "xhigh",
+    "effort_choices": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max",
+      "ultra"
+    ],
+    "effort_default_for_model": "xhigh",
+    "model_info": {
+      "display_name": "GPT-6 Astra (gateway)",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "context_window": 272000,
+      "in_catalog": true
+    },
+    "model_provider": "crystalpilot",
+    "model_provider_override": "crystalpilot",
+    "model_provider_default": "crystalpilot",
+    "model_providers": [
+      "crystalpilot"
+    ],
+    "vision": true,
+    "knowledge_mode": "tools_only",
+    "knowledge_modes": [
+      "full",
+      "tools_only"
+    ],
+    "context_window_override": null,
+    "auto_compact_token_limit": null,
+    "engine": {
+      "kernel_version": "0.155.0",
+      "kernel_path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+      "multi_agent": false,
+      "images": true,
+      "context_window": null,
+      "auto_compact_limit": null,
+      "restart_pending": false
+    }
+  }
+}

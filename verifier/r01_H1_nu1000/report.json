@@ -1,0 +1,674 @@
+{
+  "run_id": "r01_H1_nu1000",
+  "verified_at": "2026-09-21T21:31:26+0800",
+  "run": {
+    "run_id": "r01_H1_nu1000",
+    "case_id": "nu1000",
+    "condition": "H1",
+    "replicate": 1,
+    "model_id": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "provider_id": "crystalpilot",
+    "kernel_version": "codex-cli 0.155.0",
+    "knowledge_mode": "full",
+    "limit_seconds": 10800,
+    "prompt_sha256": "1e92cd5b966b21ff52b4385aefcab77b9bab7ebcd442c6ce77a042581030c99e",
+    "inputs_manifest": {
+      "start.hkl": {
+        "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+        "size": 9796664
+      },
+      "start.ins": {
+        "sha256": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+        "size": 639
+      },
+      "synthesis.png": {
+        "sha256": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f",
+        "size": 90192
+      }
+    },
+    "arena": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r01_H1_nu1000",
+    "prepared_at": "2026-09-21T19:23:53+0800",
+    "exit_reason": "completed",
+    "started_science_at": "2026-09-21T19:23:53+0800",
+    "ended_at": "2026-09-21T20:11:58+0800",
+    "warmup_seconds": 9.1,
+    "science_seconds": 2845.1,
+    "interventions_auto": 0,
+    "human_scientific_interventions": 0,
+    "inputs_tampered": [],
+    "thread_or_session": "01a0c3b5-5c3f-77b2-accf-d5230da7c747",
+    "protocol_validity": "valid"
+  },
+  "tolerance_R1": 0.0001,
+  "delivery": {
+    "formal_delivery": true,
+    "files": {
+      "CrystalPilot Results/task_20260921_192357/checkcif.json": {
+        "sha256": "f994ff429aee7fa1c44c9a66fed72a0d8e2f1318b31d194659247373066a3102",
+        "size": 21706,
+        "mtime": "2026-09-21T20:06:10"
+      },
+      "CrystalPilot Results/task_20260921_192357/checkcif_alerts.md": {
+        "sha256": "eb72383b71a9beb983ab343bb8dc178e77f814d7a92ba746d198d6c2b1a853e1",
+        "size": 11489,
+        "mtime": "2026-09-21T20:10:24"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.cif": {
+        "sha256": "6b09edd7049f17d7ca8fc1ebf11210b8a6a8053af5400d143f958bf36abdf584",
+        "size": 16448327,
+        "mtime": "2026-09-21T20:11:11"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.fab": {
+        "sha256": "027493c35050f707768cf46172c687a862f6de519ef80f03ebbc50242565bb91",
+        "size": 6290319,
+        "mtime": "2026-09-21T20:05:49"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.fcf": {
+        "sha256": "2013b20151b8c45903ad5e3f2ec965cf6d4a6b4e049bebee9754b470f4848a6c",
+        "size": 251604,
+        "mtime": "2026-09-21T20:05:49"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.hkl": {
+        "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+        "size": 9796664,
+        "mtime": "2026-09-21T20:05:49"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.ins": {
+        "sha256": "e8b15bc94f776bc43451987bfd3769299d1b78499b55acb3eb634c0cfdbd8893",
+        "size": 4081,
+        "mtime": "2026-09-21T20:05:49"
+      },
+      "CrystalPilot Results/task_20260921_192357/final.res": {
+        "sha256": "4b3a7e666792cc7a6773e2782670f344c55d9e8e9691751d8f87d25a651c11a3",
+        "size": 4229,
+        "mtime": "2026-09-21T20:05:49"
+      },
+      "CrystalPilot Results/task_20260921_192357/MANIFEST.json": {
+        "sha256": "127b9c1a881ff19a157d531eb3bf9defa05ee68e455cfb11839f51cb89a07294",
+        "size": 8893,
+        "mtime": "2026-09-21T20:11:11"
+      },
+      "CrystalPilot Results/task_20260921_192357/REPORT.json": {
+        "sha256": "a1516c1ef15839904e71f664e9f429515c5cdaa04b2c3835ac73580439fe8a26",
+        "size": 379322,
+        "mtime": "2026-09-21T20:11:11"
+      },
+      "CrystalPilot Results/task_20260921_192357/SUMMARY.md": {
+        "sha256": "d0977ea56dcfe2f555c49935f26c7c7d25008161a9245cf2c624fa6b94575c86",
+        "size": 5902,
+        "mtime": "2026-09-21T20:10:22"
+      },
+      "CrystalPilot Results/task_20260921_192357/transcript.jsonl": {
+        "sha256": "01685c26fcee04c6d9cfd8fe2e0b438314ea144871a43761d1b4c432a3360543",
+        "size": 1365760,
+        "mtime": "2026-09-21T20:11:29"
+      },
+      "CrystalPilot Results/task_20260921_192357/VALIDATION.md": {
+        "sha256": "2307fd0468cdb7d8aeac42e54142f2d39e758d96cc67a2becfa88f6b69a1a801",
+        "size": 21697,
+        "mtime": "2026-09-21T20:10:23"
+      },
+      "CrystalPilot Results/task_20260921_192357/WORK_LOG.md": {
+        "sha256": "299bf7e42aaea62ff04e1634a22dcb34a3d2d524fd9658cd90e11874f53a184b",
+        "size": 7052,
+        "mtime": "2026-09-21T20:03:06"
+      }
+    },
+    "picked": {
+      ".cif": "CrystalPilot Results\\task_20260921_192357\\final.cif",
+      ".res": "CrystalPilot Results\\task_20260921_192357\\final.res",
+      ".ins": "CrystalPilot Results\\task_20260921_192357\\final.ins",
+      ".hkl": "CrystalPilot Results\\task_20260921_192357\\final.hkl",
+      ".fcf": "CrystalPilot Results\\task_20260921_192357\\final.fcf",
+      ".fab": "CrystalPilot Results\\task_20260921_192357\\final.fab"
+    },
+    "primary_cif_linked_in_final_message": true,
+    "has_validation": true,
+    "has_readme_or_summary": true,
+    "has_logs": true
+  },
+  "parsed": {
+    "cif": {
+      "blocks": [
+        {
+          "name": "job",
+          "space_group": "P 6/m m m",
+          "space_group_number": "191",
+          "a": "39.190",
+          "b": "39.190",
+          "c": "16.610",
+          "alpha": "90",
+          "beta": "90",
+          "gamma": "120",
+          "volume": "22092.8",
+          "formula_sum": "C88 H44 O32 Zr6",
+          "formula_moiety": "C88 H44 O32 Zr6",
+          "Z": "3",
+          "wavelength": "0.68883",
+          "theta_max": "20.141",
+          "theta_full": "20.141",
+          "reflns_total": "158334",
+          "reflns_unique": "4395",
+          "reflns_gt": "2063",
+          "R_int": "0.5659",
+          "completeness": "0.999",
+          "R1_gt": "0.0849",
+          "R1_all": "0.1313",
+          "wR2": "0.2526",
+          "GooF": "0.912",
+          "n_reflns_ls": "4395",
+          "n_params": "155",
+          "n_restraints": "0",
+          "H_treatment": "constr",
+          "flack": null,
+          "abs_details": null,
+          "weighting": "w=1/[\\s^2^(Fo^2^)+(0.1444P)^2^] where P=(Fo^2^+2Fc^2^)/3",
+          "max_peak": "0.511",
+          "min_peak": "-0.848",
+          "squeeze_voids": "1",
+          "smtbx_voids": null,
+          "special_details": ";\r\n Refined with the CrystalPilot autonomous refinement workbench: typed crystallographic tools (smtbx least squares) with SHELXL-2019 cross-validation; every model edit is recorded in an auditable node store. Disordered pore content was treated with a solvent mask computed by CrystalPilot (smtbx flood fill, PLATON/SQUEEZE-equivalent); its structure-factor contribution entered the refinement via a .fab file (ABIN).\r\n;",
+          "absorpt": null,
+          "computing_solution": "SHELXT (Sheldrick, 2015)",
+          "computing_refinement": "SHELXL-2019/2 (Sheldrick, 2019)",
+          "n_atoms": 26,
+          "elements": [
+            "C",
+            "H",
+            "O",
+            "Zr"
+          ],
+          "n_anisotropic": 20,
+          "n_hydrogen": 6,
+          "occupancy_out_of_range": [],
+          "npd_adp": [],
+          "n_aniso_rows": 20,
+          "d_min": 1.0,
+          "contacts_below_1A_nonH": [],
+          "n_unit_cell_sites_nonH": 378
+        }
+      ]
+    },
+    "res": {
+      "cards": {
+        "SHEL": 1,
+        "ABIN": 1,
+        "WGHT": 1,
+        "FVAR": 1,
+        "AFIX": 12
+      },
+      "atoms": 26,
+      "sfac": [
+        "C",
+        "H",
+        "O",
+        "Zr"
+      ],
+      "cell": [
+        "0.68883",
+        "39.19000",
+        "39.19000",
+        "16.61000",
+        "90.0000",
+        "90.0000",
+        "120.0000"
+      ],
+      "latt": "1",
+      "symm": 11,
+      "hklf": [
+        "4"
+      ],
+      "ls": null,
+      "flags": {
+        "twin": false,
+        "mask_abin": true,
+        "omit": 0,
+        "shel": true,
+        "restraints": 0,
+        "parts": 0
+      }
+    },
+    "ins": {
+      "cards": {
+        "BOND": 1,
+        "CONF": 1,
+        "ACTA": 1,
+        "PLAN": 1,
+        "ABIN": 1,
+        "SHEL": 1,
+        "WGHT": 1,
+        "FVAR": 1,
+        "AFIX": 12
+      },
+      "atoms": 26,
+      "sfac": [
+        "C",
+        "H",
+        "O",
+        "Zr"
+      ],
+      "cell": [
+        "0.68883",
+        "39.19000",
+        "39.19000",
+        "16.61000",
+        "90.0000",
+        "90.0000",
+        "120.0000"
+      ],
+      "latt": "1",
+      "symm": 11,
+      "hklf": [
+        "4"
+      ],
+      "ls": "L.S. 3",
+      "flags": {
+        "twin": false,
+        "mask_abin": true,
+        "omit": 0,
+        "shel": true,
+        "restraints": 0,
+        "parts": 0
+      }
+    },
+    "hkl": {
+      "reflection_lines": 337815,
+      "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "size": 9796664
+    }
+  },
+  "chain": {
+    "start_hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "final_hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "final_hkl_identical_to_start": true,
+    "final_hkl_reflection_lines": 337815,
+    "start_hkl_lines": 337815
+  },
+  "recompute": {
+    "main": {
+      "tag": "main",
+      "exit_code": 0,
+      "seconds": 2.1,
+      "ins_sha256": "c90caffa03e2d6d28c4068f865621d6c668c537af7ee935e8db6d96116e947aa",
+      "hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "drop_abin": false,
+      "R1_gt": 0.0849,
+      "n_gt": 2063,
+      "R1_all": 0.1313,
+      "n_all": 4395,
+      "wR2": 0.2526,
+      "GooF": 0.912,
+      "shelxl_warnings": [
+        "** Warning:     5  atoms may be split and     0  atoms NPD **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "**"
+      ]
+    },
+    "no_mask": {
+      "tag": "nomask",
+      "exit_code": 0,
+      "seconds": 2.1,
+      "ins_sha256": "43c1a397ee05bbe93b09b4f279e8e668095a72252b4161e797b058a34c8a591c",
+      "hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "drop_abin": true,
+      "R1_gt": 0.1809,
+      "n_gt": 2063,
+      "R1_all": 0.263,
+      "n_all": 4395,
+      "wR2": 0.4925,
+      "GooF": 1.938,
+      "shelxl_warnings": [
+        "** Warning:     5  atoms may be split and     0  atoms NPD **",
+        "** Extinction (EXTI) or solvent water (SWAT) correction may be required **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "**"
+      ]
+    }
+  },
+  "checkcif": {
+    "exit_code": "done_marker",
+    "seconds": 36.1,
+    "alerts": {
+      "A": [
+        {
+          "code": "PLAT020",
+          "type": 3,
+          "text": "The Value of Rint is Greater Than 0.12 .........      0.566 Report"
+        },
+        {
+          "code": "PLAT023",
+          "type": 3,
+          "text": "Resolution (too) Low [sin(theta)/Lambda < 0.6]..       0.50 Ang-1"
+        },
+        {
+          "code": "PLAT183",
+          "type": 1,
+          "text": "Missing _cell_measurement_reflns_used Value ....     Please Do !"
+        },
+        {
+          "code": "PLAT184",
+          "type": 1,
+          "text": "Missing _cell_measurement_theta_min Value ......     Please Do !"
+        },
+        {
+          "code": "PLAT185",
+          "type": 1,
+          "text": "Missing _cell_measurement_theta_max Value ......     Please Do !"
+        },
+        {
+          "code": "PLAT197",
+          "type": 1,
+          "text": "Missing _cell_measurement_temperature Datum ....     Please Add"
+        },
+        {
+          "code": "PLAT198",
+          "type": 1,
+          "text": "Missing _diffrn_ambient_temperature   Datum ....     Please Add"
+        },
+        {
+          "code": "PLAT660",
+          "type": 1,
+          "text": "No Valid _diffrn_radiation_type Value Reported .     Please Do !"
+        },
+        {
+          "code": "PLAT699",
+          "type": 1,
+          "text": "Missing _exptl_crystal_description Value .......     Please Do !"
+        }
+      ],
+      "B": [
+        {
+          "code": "PLAT196",
+          "type": 1,
+          "text": "No TEMP record and _measurement_temperature .NE.        293 Degree"
+        }
+      ],
+      "C": [
+        {
+          "code": "PLAT026",
+          "type": 3,
+          "text": "Ratio Observed / Unique Reflections (too) Low ..        47% Check"
+        },
+        {
+          "code": "PLAT052",
+          "type": 1,
+          "text": "Info on Absorption Correction Method   Not Given     Please Do !"
+        },
+        {
+          "code": "PLAT053",
+          "type": 1,
+          "text": "Minimum Crystal Dimension Missing (or Error) ...     Please Check"
+        },
+        {
+          "code": "PLAT054",
+          "type": 1,
+          "text": "Medium  Crystal Dimension Missing (or Error) ...     Please Check"
+        },
+        {
+          "code": "PLAT055",
+          "type": 1,
+          "text": "Maximum Crystal Dimension Missing (or Error) ...     Please Check"
+        },
+        {
+          "code": "PLAT141",
+          "type": 4,
+          "text": "s.u. on a - Axis Small or Missing ..............    0.00000 Ang."
+        },
+        {
+          "code": "PLAT143",
+          "type": 4,
+          "text": "s.u. on c - Axis Small or Missing ..............    0.00000 Ang."
+        },
+        {
+          "code": "PLAT151",
+          "type": 1,
+          "text": "No s.u. (esd) Given on Volume ..................     Please Do !"
+        },
+        {
+          "code": "PLAT241",
+          "type": 2,
+          "text": "High   'MainMol' Ueq as Compared to Neighbors of         O3 Check"
+        },
+        {
+          "code": "PLAT241",
+          "type": 2,
+          "text": "High   'MainMol' Ueq as Compared to Neighbors of        C11 Check"
+        },
+        {
+          "code": "PLAT242",
+          "type": 2,
+          "text": "Low    'MainMol' Ueq as Compared to Neighbors of        Zr1 Check"
+        },
+        {
+          "code": "PLAT242",
+          "type": 2,
+          "text": "Low    'MainMol' Ueq as Compared to Neighbors of        Zr2 Check"
+        },
+        {
+          "code": "PLAT260",
+          "type": 2,
+          "text": "Large Average Ueq of Residue Including       Zr1      0.124 Check"
+        },
+        {
+          "code": "PLAT334",
+          "type": 2,
+          "text": "Small <C-C> Benzene Dist.   C6       -C9       .       1.37 Ang."
+        },
+        {
+          "code": "PLAT342",
+          "type": 3,
+          "text": "Low Bond Precision on  C-C Bonds ...............    0.01514 Ang."
+        },
+        {
+          "code": "PLAT905",
+          "type": 3,
+          "text": "Negative K value in the Analysis of Variance ...    -26.333 Report"
+        },
+        {
+          "code": "PLAT905",
+          "type": 3,
+          "text": "Negative K value in the Analysis of Variance ...     -4.461 Report"
+        },
+        {
+          "code": "PLAT911",
+          "type": 3,
+          "text": "Missing FCF Refl Between Thmin & STh/L=    0.500          2 Report"
+        },
+        {
+          "code": "PLAT975",
+          "type": 2,
+          "text": "Check Calcd Resid. Dens.  0.99Ang From O4      .       0.49 eA-3"
+        },
+        {
+          "code": "PLAT976",
+          "type": 2,
+          "text": "Check Calcd Resid. Dens.  0.70Ang From O6      .      -0.56 eA-3"
+        }
+      ],
+      "G": [
+        {
+          "code": "PLAT004",
+          "type": 5,
+          "text": "Polymeric Structure Found with Maximum Dimension          3 Info"
+        },
+        {
+          "code": "PLAT009",
+          "type": 1,
+          "text": "Reported Radiation_type and Wavelength Conflict?     Please Check"
+        },
+        {
+          "code": "PLAT042",
+          "type": 1,
+          "text": "Calc. and Reported MoietyFormula Strings  Differ     Please Check"
+        },
+        {
+          "code": "PLAT045",
+          "type": 1,
+          "text": "Calculated and Reported Z Differ by a Factor ...          2 Check"
+        },
+        {
+          "code": "PLAT092",
+          "type": 4,
+          "text": "Check: Wavelength Given is not Cu,Ga,Mo,Ag,In Ka    0.68883 Ang."
+        },
+        {
+          "code": "PLAT606",
+          "type": 4,
+          "text": "Solvent Accessible VOID(S) in Structure ........          ! Info"
+        },
+        {
+          "code": "PLAT794",
+          "type": 5,
+          "text": "Tentative Bond Valency for Zr1       (IV)      .       3.93 Info"
+        },
+        {
+          "code": "PLAT794",
+          "type": 5,
+          "text": "Tentative Bond Valency for Zr2       (IV)      .       3.96 Info"
+        },
+        {
+          "code": "PLAT802",
+          "type": 4,
+          "text": "CIF Input Record(s) with more than 80 Characters          2 Info"
+        },
+        {
+          "code": "PLAT869",
+          "type": 4,
+          "text": "ALERTS Related to the Use of SQUEEZE  Suppressed          ! Info"
+        },
+        {
+          "code": "PLAT910",
+          "type": 3,
+          "text": "Missing # of FCF Reflection(s) Below Theta(Min).          4 Note"
+        },
+        {
+          "code": "PLAT913",
+          "type": 3,
+          "text": "Missing # of Very Strong Reflections in FCF ....          3 Note"
+        },
+        {
+          "code": "PLAT969",
+          "type": 5,
+          "text": "The 'Henn et al.' R-Factor-gap value ...........       2.54 Note"
+        },
+        {
+          "code": "PLAT978",
+          "type": 2,
+          "text": "Number C-C Bonds with Positive Residual Density.          0 Info"
+        },
+        {
+          "code": "PLAT984",
+          "type": 1,
+          "text": "The  O-f'=    0.0070 Deviates from the B&C-Value     0.0101 Check"
+        },
+        {
+          "code": "PLAT984",
+          "type": 1,
+          "text": "The Zr-f'=   -9.0410 Deviates from the B&C-Value    -8.5828 Check"
+        },
+        {
+          "code": "PLAT985",
+          "type": 1,
+          "text": "The Zr-f\"=    2.7720 Deviates from the B&C-Value     3.7358 Check"
+        }
+      ]
+    },
+    "chk_file": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\control\\verifier\\r01_H1_nu1000\\checkcif\\verify.chk",
+    "platon_out_tail": [
+      "3.08( 3.12)    Entry #  1 -   9A,  1B, 20C, 17G-Alerts, BP   C-C = 0.0151",
+      ":: CheckCIF out on :verify.chk",
+      ":: CheckFCF out on :verify.ckf",
+      ":: CheckVRF out on :verify.vrf",
+      ":: CheckPlots   on :verify.ps                                         [ 7 Plots]",
+      "",
+      "\u0000"
+    ],
+    "fcf_recreated": true,
+    "counts": {
+      "A": 9,
+      "B": 1,
+      "C": 20,
+      "G": 17
+    }
+  },
+  "claims": {
+    "R1_claims": [
+      0.0849,
+      0.1796
+    ],
+    "space_group_mentions": [
+      "P6/mmm"
+    ],
+    "mentions_unresolved": true,
+    "claims_completion": false,
+    "publication_sentences": [
+      "**尚未达到发表级**：高Rint、局部无序、节点质子化和缺失实验信息仍待解决",
+      "交付节点n0055，版本3，状态为**diagnostic：可检查、可复算的完整框架候选，尚未达到可直接投稿的发表级**",
+      "交付节点n0055，版本3，状态为**diagnostic：可检查、可复算的完整框架候选，尚未达到可直接投稿的发表级**"
+    ],
+    "chars": 8231
+  },
+  "checkcif_a_classification": {
+    "metadata": [
+      "PLAT183",
+      "PLAT184",
+      "PLAT185",
+      "PLAT197",
+      "PLAT198",
+      "PLAT660",
+      "PLAT699"
+    ],
+    "substantive": [
+      "PLAT020 The Value of Rint is Greater Than 0.12 .........      0.566 ",
+      "PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6]..       0.50 "
+    ]
+  },
+  "verdict": {
+    "scientific_status": "diagnostic_delivery",
+    "publication_readiness": "not_expert_reviewed",
+    "ground_truth_correctness": "unknown",
+    "fatal_findings": [
+      "2 substantive level-A checkCIF alerts: PLAT020 The Value of Rint is Greater Than 0.12 ......; PLAT023 Resolution (too) Low [sin(theta)/Lambda < 0.6"
+    ],
+    "r1_reported": 0.0849,
+    "r1_recomputed": 0.0849,
+    "r1_abs_difference": 0.0,
+    "r1_definition": "R1 for Fo > 4sig(Fo), SHELXL L.S. 0 on the delivered RES with the delivered HKL",
+    "rubric": {
+      "数据与来源": {
+        "输入来源完整且一致": 5.0,
+        "处理链/依赖可执行": 5.0,
+        "数据质量与取舍有记录": 5.0,
+        "指标与反射集合定义清楚": 5.0
+      },
+      "结构与化学": {
+        "元素及占有率有支持": null,
+        "连接/几何合理": 0.0,
+        "对称性/无序/ADP 判断有支持": 5.0,
+        "重要缺失密度与模型不确定性得到检查": null
+      },
+      "可复现性": {
+        "产物可解析": 5.0,
+        "最终结构与反射/参数匹配": 5.0,
+        "固定模型复算成立": 5.0,
+        "关键处理链复跑成立": null
+      },
+      "证据与判断": {
+        "关键模型变更有具体证据": null,
+        "竞争假设/失败尝试如实留存": null,
+        "报告数值与最终模型一致": 5.0,
+        "对完成程度与未知内容的声明准确": 5.0
+      },
+      "交付完整性": {
+        "可用 CIF/相应精修文件": 5.0,
+        "完整校验文件": 5.0,
+        "重跑入口与版本": 5.0,
+        "清楚列出未解决问题和任务范围": 5.0
+      }
+    },
+    "score_lower_bound": 70.0,
+    "score_upper_bound": 95.0,
+    "unknown_items": 5
+  }
+}

@@ -1,0 +1,151 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+The following parameters have been modified:
+
+output {
+  experiments = "refined_joint_esd.expt"
+  reflections = "refined_joint_esd.refl"
+  log = "refined_joint_esd.log"
+}
+separate_independent_sets = False
+refinement {
+  parameterisation {
+    scan_varying = True
+    interval_width_degrees = 36
+    set_scan_varying_errors = True
+    beam {
+      fix = *all in_spindle_plane out_spindle_plane wavelength
+    }
+    crystal {
+      unit_cell {
+        constraints {
+          parameter = "g_param_0"
+        }
+        constraints {
+          parameter = "g_param_1"
+        }
+        constraints {
+          parameter = "g_param_2"
+        }
+        force_static = True
+      }
+    }
+    detector {
+      panels = automatic single multiple *hierarchical
+      hierarchy_level = 1
+    }
+  }
+}
+input {
+  experiments = refined.expt
+  reflections = refined.refl
+}
+
+Configuring refiner
+Setting outlier.nproc=8
+
+Summary statistics for 2713 observations matched to predictions:
++-------------------+---------+----------+----------+---------+--------+
+|                   |     Min |       Q1 |      Med |      Q3 |    Max |
+|-------------------+---------+----------+----------+---------+--------|
+| Xc - Xo (mm)      | -0.4066 | -0.01681 | -0.00138 | 0.01483 | 0.9706 |
+| Yc - Yo (mm)      |   -0.46 | -0.01808 | 0.002777 | 0.02087 | 0.6763 |
+| Phic - Phio (deg) |  -5.278 |  -0.1218 | -0.02005 | 0.08254 |  9.477 |
+| X weights         |   545.4 |     1012 |     1122 |    1175 |   1200 |
+| Y weights         |   514.3 |     1026 |     1124 |    1173 |   1200 |
+| Phi weights       |   42.16 |    47.55 |    47.83 |      48 |     48 |
++-------------------+---------+----------+----------+---------+--------+
+
+Detecting centroid outliers using the MCD algorithm
+709 reflections have been flagged as outliers
+2004 reflections remain in the manager
+
+Summary statistics for 2004 observations matched to predictions:
++-------------------+----------+----------+-----------+---------+---------+
+|                   |      Min |       Q1 |       Med |      Q3 |     Max |
+|-------------------+----------+----------+-----------+---------+---------|
+| Xc - Xo (mm)      | -0.08818 | -0.01185 | -0.001048 | 0.01103 | 0.08227 |
+| Yc - Yo (mm)      |  -0.1209 | -0.01312 |  0.002529 |  0.0166 |  0.1105 |
+| Phic - Phio (deg) |  -0.9025 | -0.09543 |   -0.0153 | 0.07223 |  0.6682 |
+| X weights         |    545.4 |     1038 |      1136 |    1180 |    1200 |
+| Y weights         |    608.2 |     1080 |      1148 |    1179 |    1200 |
+| Phi weights       |    43.32 |    47.54 |      47.8 |      48 |      48 |
++-------------------+----------+----------+-----------+---------+---------+
+
+There are 105 parameters to refine against 2004 reflections in 3 dimensions
+Performing refinement of 6 Experiments...
+
+Refinement steps:
++--------+--------+----------+----------+------------+
+|   Step |   Nref |   RMSD_X |   RMSD_Y |   RMSD_Phi |
+|        |        |     (mm) |     (mm) |      (deg) |
+|--------+--------+----------+----------+------------|
+|      0 |   2004 | 0.02051  | 0.025303 |   0.15428  |
+|      1 |   2004 | 0.019484 | 0.023165 |   0.14872  |
+|      2 |   2004 | 0.018243 | 0.019827 |   0.13546  |
+|      3 |   2004 | 0.017034 | 0.016565 |   0.11154  |
+|      4 |   2004 | 0.016365 | 0.015016 |   0.084763 |
+|      5 |   2004 | 0.016143 | 0.014411 |   0.070455 |
+|      6 |   2004 | 0.016117 | 0.014156 |   0.066952 |
+|      7 |   2004 | 0.016079 | 0.013985 |   0.066253 |
+|      8 |   2004 | 0.016035 | 0.013892 |   0.066316 |
+|      9 |   2004 | 0.015998 | 0.013875 |   0.066401 |
+|     10 |   2004 | 0.015979 | 0.013881 |   0.066406 |
+|     11 |   2004 | 0.015973 | 0.01388  |   0.066405 |
+|     12 |   2004 | 0.015972 | 0.013878 |   0.066411 |
+|     13 |   2004 | 0.015971 | 0.013877 |   0.066415 |
++--------+--------+----------+----------+------------+
+RMSD no longer decreasing
+
+RMSDs by experiment:
++-------+--------+----------+----------+------------+
+|   Exp |   Nref |   RMSD_X |   RMSD_Y |     RMSD_Z |
+|    id |        |     (px) |     (px) |   (images) |
+|-------+--------+----------+----------+------------|
+|     0 |    291 |  0.10922 |  0.11422 |    0.10039 |
+|     1 |    306 |  0.12894 |  0.10602 |    0.12505 |
+|     2 |    448 |  0.1564  |  0.13256 |    0.10446 |
+|     3 |    191 |  0.13588 |  0.10953 |    0.13724 |
+|     4 |    424 |  0.21648 |  0.18458 |    0.17478 |
+|     5 |    344 |  0.15444 |  0.14003 |    0.13427 |
++-------+--------+----------+----------+------------+
+WARN: Multiple scans present. Only the first scan will be used to determine the image width for reporting RMSDs
+
+Detector 1 RMSDs by panel:
++---------+--------+----------+----------+------------+
+|   Panel |   Nref |   RMSD_X |   RMSD_Y |     RMSD_Z |
+|      id |        |     (px) |     (px) |   (images) |
+|---------+--------+----------+----------+------------|
+|       0 |    950 |  0.17741 |  0.14767 |    0.12946 |
+|       1 |   1054 |  0.14189 |  0.13023 |    0.1358  |
++---------+--------+----------+----------+------------+
+
+Detector 2 RMSDs by panel:
++---------+--------+----------+----------+------------+
+|   Panel |   Nref |   RMSD_X |   RMSD_Y |     RMSD_Z |
+|      id |        |     (px) |     (px) |   (images) |
+|---------+--------+----------+----------+------------|
+|       0 |    950 |  0.17741 |  0.14767 |    0.12946 |
+|       1 |   1054 |  0.14189 |  0.13023 |    0.1358  |
++---------+--------+----------+----------+------------+
+
+Detector 3 RMSDs by panel:
++---------+--------+----------+----------+------------+
+|   Panel |   Nref |   RMSD_X |   RMSD_Y |     RMSD_Z |
+|      id |        |     (px) |     (px) |   (images) |
+|---------+--------+----------+----------+------------|
+|       0 |    950 |  0.17741 |  0.14767 |    0.12946 |
+|       1 |   1054 |  0.14189 |  0.13023 |    0.1358  |
++---------+--------+----------+----------+------------+
+
+Detector 4 RMSDs by panel:
++---------+--------+----------+----------+------------+
+|   Panel |   Nref |   RMSD_X |   RMSD_Y |     RMSD_Z |
+|      id |        |     (px) |     (px) |   (images) |
+|---------+--------+----------+----------+------------|
+|       0 |    950 |  0.17741 |  0.14767 |    0.12946 |
+|       1 |   1054 |  0.14189 |  0.13023 |    0.1358  |
++---------+--------+----------+----------+------------+
+Updating predictions for indexed reflections
+Saving refined experiments to refined_joint_esd.expt
+Saving reflections with updated predictions to refined_joint_esd.refl

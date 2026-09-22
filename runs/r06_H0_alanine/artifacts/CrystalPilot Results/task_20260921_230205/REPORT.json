@@ -1,0 +1,2361 @@
+{
+  "status": "diagnostic",
+  "status_meaning": "NOT a structure claim: a model kept for diagnosis (rejected space group, trial element, incomplete framework, unmasked comparison) - finalize_delivery can still SEAL this record for a complete audit trail (status stays diagnostic; blocking items are listed, not waived) but never promotes it; deliver the claimed model with status=provisional to publish",
+  "status_history": [
+    {
+      "status": "diagnostic",
+      "at": "2026-09-21 23:26:30",
+      "by": "write_outputs"
+    },
+    {
+      "status": "diagnostic",
+      "at": "2026-09-21 23:27:44",
+      "by": "finalize_delivery"
+    }
+  ],
+  "final_node": "n0010",
+  "source_state": {
+    "node": "n0010",
+    "revision": 11
+  },
+  "delivery_revision": 3,
+  "branch": "main",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.0457,
+    "r1_all": 0.0666,
+    "wr2": 0.2047,
+    "goof": 1.271,
+    "n_params": 57,
+    "n_reflections": 1055,
+    "diff_map_max": 0.89,
+    "diff_map_min": -0.762,
+    "flack": 0.779,
+    "flack_su": 0.847,
+    "notes": "",
+    "scale_k": 1.8410419224999997
+  },
+  "metrics_current": true,
+  "model": {
+    "n_atoms": 13,
+    "element_counts": {
+      "O": 2,
+      "N": 1,
+      "H": 7,
+      "C": 3
+    }
+  },
+  "restraints": [],
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C",
+      "N"
+    ],
+    "n_groups": 3
+  },
+  "mask": null,
+  "mask_params": null,
+  "solution": {
+    "computing": null,
+    "primary": null,
+    "solver_node": null,
+    "caveat": "结构求解方法未知：模型沿袭自导入的起始模型（节点 n0000 import），谱系里没有求解器节点，_computing_structure_solution 写为 '?'（SHELXL 默认的 SHELXT 声明已去除）；若知道起始模型的求解方法请在 SUMMARY.md 说明。"
+  },
+  "synthesis_priors": {},
+  "experiment": {
+    "cell_measurement": {
+      "reflns_used": 351,
+      "theta_min": 1.656,
+      "theta_max": 30.034
+    },
+    "computing": {
+      "data_reduction": "DIALS",
+      "cell_refinement": "DIALS",
+      "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)",
+      "structure_solution": "CrystalPilot deterministic charge flipping, peak interpretation and isotropic least squares",
+      "structure_refinement": "SHELXL-2019/3"
+    },
+    "absorption": {
+      "type": "multi-scan",
+      "details": "DIALS physical scaling with scale/decay and absorption terms as selected by dials.scale; unresolved shadow-contaminated observations and outlier selection documented in VALIDATION.md."
+    },
+    "temperature_K": 150.0,
+    "instrument": {
+      "source": "Mo Kalpha, lambda = 0.71073 A",
+      "diffractometer": "Rigaku Oxford Diffraction instrument with HyPix-Arc detector",
+      "method": "rotation scans"
+    },
+    "provenance": "2026-09-21 set_experiment(absorption, instrument, temperature_K): Temperature: inputs/alanine/plots_dc/pgw240033_Mo_Cryosystem.dat records 150.00 K set point and about 150 K gas temperature. Wavelength: imported raw-frame header through DIALS (0.71073 A). Detector/manufacturer: rodhypix frames and supplied HyPixArc calibration filenames; exact diffractometer model remains unknown. Absorption/scaling method: this task .crystalpilot/frames/logs/scale.log; transmission extrema unknown.\n2026-09-21 set_experiment(computing): This task create_start_model output and start.res REM lines document charge flipping followed by isotropic LS (node n0000). Final job .crystalpilot/refine/shelxl/job_20260921_231640/job.lst states Version 2019/3, consistent with final.cif _audit_creation_method and _shelx_SHELXL_version_number; correct the inherited 2019/2 computing string."
+  },
+  "publication_cif": {
+    "publication": true,
+    "shelxl_job": "job_20260921_231640",
+    "shelxl_r1": 0.0457,
+    "n_filled": 19,
+    "remaining_placeholders": [
+      "_atom_sites_solution_primary",
+      "_chemical_absolute_configuration",
+      "_chemical_melting_point",
+      "_chemical_name_common",
+      "_chemical_name_systematic",
+      "_computing_structure_solution",
+      "_diffrn_detector_area_resol_mean",
+      "_exptl_absorpt_correction_T_max",
+      "_exptl_absorpt_correction_T_min",
+      "_exptl_absorpt_special_details",
+      "_exptl_crystal_colour",
+      "_exptl_crystal_density_meas",
+      "_exptl_crystal_density_method",
+      "_exptl_crystal_description",
+      "_exptl_crystal_size_max",
+      "_exptl_crystal_size_mid",
+      "_exptl_crystal_size_min",
+      "_exptl_transmission_factor_max",
+      "_exptl_transmission_factor_min",
+      "_shelx_estimated_absorpt_T_max",
+      "_shelx_estimated_absorpt_T_min"
+    ],
+    "missing_metadata": [
+      {
+        "tag": "_exptl_crystal_description",
+        "fill_via": "crystal.description",
+        "checkcif_alert": "699_A"
+      },
+      {
+        "tag": "_exptl_crystal_colour",
+        "fill_via": "crystal.colour"
+      },
+      {
+        "tag": "_exptl_crystal_size_max",
+        "fill_via": "crystal.size_mm",
+        "checkcif_alert": "055_C"
+      },
+      {
+        "tag": "_exptl_crystal_size_mid",
+        "fill_via": "crystal.size_mm",
+        "checkcif_alert": "054_C"
+      },
+      {
+        "tag": "_exptl_crystal_size_min",
+        "fill_via": "crystal.size_mm",
+        "checkcif_alert": "053_C"
+      },
+      {
+        "tag": "_exptl_absorpt_correction_T_min",
+        "fill_via": "absorption.t_min",
+        "checkcif_alert": "052_C"
+      },
+      {
+        "tag": "_exptl_absorpt_correction_T_max",
+        "fill_via": "absorption.t_max",
+        "checkcif_alert": "052_C"
+      },
+      {
+        "tag": "_computing_structure_solution",
+        "fill_via": "solver lineage (run_shelxt / solve_* node) - unknown for an imported start model"
+      }
+    ],
+    "symmetry_names_corrected": [],
+    "caveats": [
+      "结构求解方法未知：模型沿袭自导入的起始模型（节点 n0000 import），谱系里没有求解器节点，_computing_structure_solution 写为 '?'（SHELXL 默认的 SHELXT 声明已去除）；若知道起始模型的求解方法请在 SUMMARY.md 说明。",
+      "仍为 '?' 的 CIF 项：_atom_sites_solution_primary, _chemical_absolute_configuration, _chemical_melting_point, _chemical_name_common, _chemical_name_systematic, _computing_structure_solution, _diffrn_detector_area_resol_mean, _exptl_absorpt_correction_T_max, _exptl_absorpt_correction_T_min, _exptl_absorpt_special_details, _exptl_crystal_colour, _exptl_crystal_density_meas, _exptl_crystal_density_method, _exptl_crystal_description, _exptl_crystal_size_max, _exptl_crystal_size_mid, _exptl_crystal_size_min, _exptl_transmission_factor_max, _exptl_transmission_factor_min, _shelx_estimated_absorpt_T_max…"
+    ],
+    "fcf": true,
+    "fab": false,
+    "fab_source": null,
+    "job_match": {
+      "matched": true,
+      "job": "job_20260921_231640",
+      "node": {
+        "node": "n0010",
+        "r1": 0.0457,
+        "atoms": 13,
+        "h": 7,
+        "n_fvar": 1,
+        "z": 4,
+        "masked": false
+      },
+      "linked_job": "job_20260921_231640",
+      "via": "node metrics_source",
+      "riding_h_tolerance": {
+        "h_not_compared": true,
+        "n_h_drifted": 0,
+        "note": "this job is the node's recorded measurement; riding H are re-derived in-process on adopt, so their coordinates are not a pairing leg"
+      },
+      "conditions": [
+        "(1) R1: the job's _refine_ls_R_factor_gt is within 0.005 of the node's r1_strong",
+        "(2) model: job.res and the node's model.res have the same atom count, H count and FVAR count (each FVAR within 0.02), and the same non-H labels with the same element types; all atomic coordinates (including H) agree within 1e-05 fractional after integer translations",
+        "(3) bookkeeping: the same ZERR Z, the job refined with ABIN/.fab exactly when the node carries a solvent mask, and the job has its .ok completion marker"
+      ]
+    },
+    "restartable": true,
+    "restart_cards": {
+      "restartable": true,
+      "res_cards": [
+        "EQIV $1 X-1, Y, Z",
+        "EQIV $2 -X, Y-1/2, -Z+3/2",
+        "EQIV $3 X-1/2, -Y+3/2, -Z+1",
+        "HTAB N1 O1_$1",
+        "HTAB N1 O1_$2",
+        "HTAB N1 O2_$3"
+      ],
+      "job_cards": [
+        "BOND $H",
+        "CONF",
+        "EQIV $1 X-1, Y, Z",
+        "EQIV $2 -X, Y-1/2, -Z+3/2",
+        "EQIV $3 X-1/2, -Y+3/2, -Z+1",
+        "HTAB N1 O1_$1",
+        "HTAB N1 O1_$2",
+        "HTAB N1 O2_$3"
+      ],
+      "missing_constraints": [],
+      "missing_measurements": [
+        "BOND $H",
+        "CONF"
+      ],
+      "extra_in_res": [],
+      "note": "final.res carries every constraint card of the paired job; the measurement cards (BOND $H, CONF) are not in it, so a restart reproduces the refinement but not the CIF's measured tables"
+    }
+  },
+  "unresolved": [
+    "低角数据污染尚未修复：原始像素存在零计数/严重衰减区域，DIALS保留近零观测却剔除正常强等价观测（022、023、131、102、033等）。证据见analysis/reflection_audit.txt。当前MCP未暴露像素掩膜与逐观测重积分控制；需重新掩膜、积分、缩放。未手动删HKL或用增原子/无序改善统计量。",
+    "最终R1=0.0457、wR2=0.2047、GooF=1.271、差值密度+0.890/-0.762 e/A^3；低角系统失配显著，几何、ADP和氢位置可能受偏差影响。PLAT965提示权重未完全收敛，仅坐标精修已收敛。",
+    "绝对构型未知：Parsons/Flack x=0.779，su=0.847，346个quotients；没有输入的L/D化学证明，不把数值解释为构型或反演孪晶比例。",
+    "高角覆盖不足。最终CIF在theta_max=30.126度处Laue/点群完整度0.879/0.839；theta_full=25.242度处0.998/0.999。未为降低R值截断分辨率。DIALS总体完整度90.3%采用不同统计口径，不能混同。CIF/FCF的Lmax差1尚未逐行完全归因。",
+    "当前DIALS中位晶胞的标准不确定度未传播，ZERR中的0是缺失占位，不是零误差；几何esd不含可靠晶胞误差。输入有厂商另一晶胞及误差但未冒充本次DIALS结果，无p4p。",
+    "晶体尺寸、颜色、形状、精确仪器型号和吸收校正Tmin/Tmax未知；150 K与0.71073 A有本次输入支持。",
+    "CIF生成器元数据限制：set_experiment已记录求解方法和实际精修版本，但写出器仍将结构求解置为问号，并保留_computing_structure_refinement的2019/2默认文字。实际为本次工具电荷翻转起模与SHELXL-2019/3精修，证据为start.res、工具调用和最终job.lst/CIF audit字段。默认_refine_special_details的smtbx/SHELXL交叉验证表述也不适用于最终模型：本次未做最终独立smtbx交叉精修。",
+    "发表级可靠性尚未达到。所有本地checkCIF A/B/C警报在VALIDATION.md逐条解释，但解释不等于修复；仅进行本地PLATON验证，未上传官方IUCr服务。"
+  ],
+  "summary_note": "由本次inputs/alanine的616张正式衍射帧独立完成DIALS索引、积分、缩放和电荷翻转解析；最终节点n0010为完整丙氨酸两性离子模型，P212121，Z=4，非氢各向异性、7个骑乘氢、0条几何restraint。原始像素和积分表证实部分低角等价组被零计数/严重衰减观测主导，正常强观测被缩放程序剔除，故诊断性封存，不宣称发表质量。",
+  "lineage": [
+    {
+      "comparison_source": {
+        "node": "n0000",
+        "model_revision": 1,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": null,
+        "conditions_token": "d000001:n0000:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.0
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0000",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0000",
+      "parent": null,
+      "revision": 1,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "import",
+      "note": "imported start.res",
+      "n_atoms": 6,
+      "r1": null,
+      "wr2": null,
+      "goof": null,
+      "diff_map_max": null,
+      "diff_map_min": null,
+      "n_params": null,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": null,
+      "asu": null
+    },
+    {
+      "comparison_source": {
+        "node": "n0001",
+        "model_revision": 2,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": null,
+        "conditions_token": "d000001:n0001:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.0
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0000",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0001",
+      "parent": "n0000",
+      "revision": 2,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "edit_atoms",
+      "note": "",
+      "n_atoms": 6,
+      "r1": null,
+      "wr2": null,
+      "goof": null,
+      "diff_map_max": null,
+      "diff_map_min": null,
+      "n_params": null,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": null,
+      "asu": null
+    },
+    {
+      "comparison_source": {
+        "node": "n0002",
+        "model_revision": 3,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": null,
+        "conditions_token": "d000001:n0002:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.0
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0000",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0002",
+      "parent": "n0001",
+      "revision": 3,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "rename_atoms",
+      "note": "",
+      "n_atoms": 6,
+      "r1": null,
+      "wr2": null,
+      "goof": null,
+      "diff_map_max": null,
+      "diff_map_min": null,
+      "n_params": null,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": null,
+      "asu": null
+    },
+    {
+      "comparison_source": {
+        "node": "n0003",
+        "model_revision": 4,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": null,
+        "conditions_token": "d000001:n0003:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.0
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0003",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0003",
+      "parent": "n0002",
+      "revision": 4,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "set_adp",
+      "note": "",
+      "n_atoms": 6,
+      "r1": null,
+      "wr2": null,
+      "goof": null,
+      "diff_map_max": null,
+      "diff_map_min": null,
+      "n_params": null,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": null,
+      "asu": null
+    },
+    {
+      "comparison_source": {
+        "node": "n0004",
+        "model_revision": 5,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": true,
+        "metrics_source": {
+          "node": "n0004",
+          "model_revision": 5,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_230646",
+          "conditions_token": "d000001:n0004:conditions-v1"
+        },
+        "conditions_token": "d000001:n0004:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": 1055,
+            "applied": [],
+            "application": "applied"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "measurement"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.7782222499999998
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": "SHELXL",
+          "unknown_fields": [],
+          "metric_definition": "shelxl-r-factors-v1",
+          "experiment": {
+            "temperature_K": null,
+            "crystal_size": null
+          },
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0003",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0004",
+      "parent": "n0003",
+      "revision": 5,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "run_shelxl",
+      "note": "",
+      "n_atoms": 6,
+      "r1": 0.0758,
+      "wr2": 0.2728,
+      "goof": 2.244,
+      "diff_map_max": 1.177,
+      "diff_map_min": -0.761,
+      "n_params": 55,
+      "metrics_current": true,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": {
+        "detached": 4,
+        "ghosts": 0
+      },
+      "flack": 0.634,
+      "flack_su": 0.841
+    },
+    {
+      "comparison_source": {
+        "node": "n0005",
+        "model_revision": 6,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": {
+          "node": "n0004",
+          "model_revision": 5,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_230646",
+          "conditions_token": "d000001:n0004:conditions-v1"
+        },
+        "conditions_token": "d000001:n0005:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.7782222499999998
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "free_or_none",
+            "groups": []
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0005",
+      "parent": "n0004",
+      "revision": 6,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "assemble_asu",
+      "note": "",
+      "n_atoms": 6,
+      "r1": 0.0758,
+      "wr2": 0.2728,
+      "goof": 2.244,
+      "diff_map_max": 1.177,
+      "diff_map_min": -0.761,
+      "n_params": 55,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": null,
+      "flack": 0.634,
+      "flack_su": 0.841
+    },
+    {
+      "comparison_source": {
+        "node": "n0006",
+        "model_revision": 7,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": {
+          "node": "n0004",
+          "model_revision": 5,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_230646",
+          "conditions_token": "d000001:n0004:conditions-v1"
+        },
+        "conditions_token": "d000001:n0006:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.7782222499999998
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "riding",
+            "groups": [
+              {
+                "carrier": "N1",
+                "kind": "CH3_rotating",
+                "n_h": 3,
+                "h": [
+                  "H1A",
+                  "H1B",
+                  "H1C"
+                ],
+                "x_h": 0.89
+              },
+              {
+                "carrier": "C2",
+                "kind": "tertiary_CH",
+                "n_h": 1,
+                "h": [
+                  "H2"
+                ],
+                "x_h": 0.98
+              },
+              {
+                "carrier": "C3",
+                "kind": "CH3_rotating",
+                "n_h": 3,
+                "h": [
+                  "H3A",
+                  "H3B",
+                  "H3C"
+                ],
+                "x_h": 0.96
+              }
+            ]
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0006",
+      "parent": "n0005",
+      "revision": 7,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "add_hydrogens",
+      "note": "",
+      "n_atoms": 13,
+      "r1": 0.0758,
+      "wr2": 0.2728,
+      "goof": 2.244,
+      "diff_map_max": 1.177,
+      "diff_map_min": -0.761,
+      "n_params": 55,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": null,
+      "flack": 0.634,
+      "flack_su": 0.841
+    },
+    {
+      "comparison_source": {
+        "node": "n0007",
+        "model_revision": 8,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": true,
+        "metrics_source": {
+          "node": "n0007",
+          "model_revision": 8,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_230754",
+          "conditions_token": "d000001:n0007:conditions-v1"
+        },
+        "conditions_token": "d000001:n0007:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": 1055,
+            "applied": [],
+            "application": "applied"
+          },
+          "weights": {
+            "a": 0.1,
+            "b": 0.0,
+            "source": "measurement"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.8314479561
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "riding",
+            "groups": [
+              {
+                "carrier": "N1",
+                "kind": null,
+                "afix": 137,
+                "h": [
+                  "H1A",
+                  "H1B",
+                  "H1C"
+                ],
+                "u_mult": 1.5
+              },
+              {
+                "carrier": "C2",
+                "kind": "tertiary_CH",
+                "afix": 13,
+                "h": [
+                  "H2"
+                ],
+                "u_mult": 1.2
+              },
+              {
+                "carrier": "C3",
+                "kind": "CH3",
+                "afix": 137,
+                "h": [
+                  "H3A",
+                  "H3B",
+                  "H3C"
+                ],
+                "u_mult": 1.5
+              }
+            ]
+          },
+          "twin": null,
+          "engine": "SHELXL",
+          "unknown_fields": [],
+          "metric_definition": "shelxl-r-factors-v1",
+          "experiment": {
+            "temperature_K": null,
+            "crystal_size": null
+          },
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "empirical",
+              "details": "dials.scale spherical-harmonic absorption surface (24 parameters), scale+decay+absorption model"
+            }
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0007",
+      "parent": "n0006",
+      "revision": 8,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "run_shelxl",
+      "note": "",
+      "n_atoms": 13,
+      "r1": 0.0488,
+      "wr2": 0.2098,
+      "goof": 1.704,
+      "diff_map_max": 0.892,
+      "diff_map_min": -0.767,
+      "n_params": 57,
+      "metrics_current": true,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": null,
+      "flack": 0.806,
+      "flack_su": 0.848
+    },
+    {
+      "comparison_source": {
+        "node": "n0008",
+        "model_revision": 9,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": true,
+        "metrics_source": {
+          "node": "n0008",
+          "model_revision": 9,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_231353_w1",
+          "conditions_token": "d000001:n0008:conditions-v1"
+        },
+        "conditions_token": "d000001:n0008:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": 1055,
+            "applied": [],
+            "application": "applied"
+          },
+          "weights": {
+            "a": 0.1353,
+            "b": 0.0753,
+            "source": "measurement"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.8398752163999998
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "riding",
+            "groups": [
+              {
+                "carrier": "N1",
+                "kind": null,
+                "afix": 137,
+                "h": [
+                  "H1A",
+                  "H1B",
+                  "H1C"
+                ],
+                "u_mult": 1.5
+              },
+              {
+                "carrier": "C2",
+                "kind": "tertiary_CH",
+                "afix": 13,
+                "h": [
+                  "H2"
+                ],
+                "u_mult": 1.2
+              },
+              {
+                "carrier": "C3",
+                "kind": "CH3",
+                "afix": 137,
+                "h": [
+                  "H3A",
+                  "H3B",
+                  "H3C"
+                ],
+                "u_mult": 1.5
+              }
+            ]
+          },
+          "twin": null,
+          "engine": "SHELXL",
+          "unknown_fields": [],
+          "metric_definition": "shelxl-r-factors-v1",
+          "experiment": {
+            "temperature_K": 150.05,
+            "crystal_size": null
+          },
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "multi-scan",
+              "details": "DIALS physical scaling with scale/decay and absorption terms as selected by dials.scale; unresolved shadow-contaminated observations and outlier selection documented in VALIDATION.md."
+            },
+            "temperature_K": 150.0,
+            "instrument": {
+              "source": "Mo Kalpha, lambda = 0.71073 A",
+              "diffractometer": "Rigaku Oxford Diffraction instrument with HyPix-Arc detector",
+              "method": "rotation scans"
+            },
+            "provenance": "2026-09-21 set_experiment(absorption, instrument, temperature_K): Temperature: inputs/alanine/plots_dc/pgw240033_Mo_Cryosystem.dat records 150.00 K set point and about 150 K gas temperature. Wavelength: imported raw-frame header through DIALS (0.71073 A). Detector/manufacturer: rodhypix frames and supplied HyPixArc calibration filenames; exact diffractometer model remains unknown. Absorption/scaling method: this task .crystalpilot/frames/logs/scale.log; transmission extrema unknown."
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0008",
+      "parent": "n0007",
+      "revision": 9,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "run_shelxl",
+      "note": "",
+      "n_atoms": 13,
+      "r1": 0.0442,
+      "wr2": 0.2001,
+      "goof": 1.222,
+      "diff_map_max": 0.89,
+      "diff_map_min": -0.759,
+      "n_params": 57,
+      "metrics_current": true,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": null,
+      "flack": 0.788,
+      "flack_su": 0.846
+    },
+    {
+      "comparison_source": {
+        "node": "n0009",
+        "model_revision": 10,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": false,
+        "metrics_source": {
+          "node": "n0008",
+          "model_revision": 9,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_231353_w1",
+          "conditions_token": "d000001:n0008:conditions-v1"
+        },
+        "conditions_token": "d000001:n0009:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": null,
+            "applied": null,
+            "application": "unknown"
+          },
+          "weights": {
+            "a": 0.1393,
+            "b": 0.0,
+            "source": "next_model"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.8398752163999998
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "riding",
+            "groups": [
+              {
+                "carrier": "N1",
+                "kind": null,
+                "afix": 137,
+                "h": [
+                  "H1A",
+                  "H1B",
+                  "H1C"
+                ],
+                "u_mult": 1.5
+              },
+              {
+                "carrier": "C2",
+                "kind": "tertiary_CH",
+                "afix": 13,
+                "h": [
+                  "H2"
+                ],
+                "u_mult": 1.2
+              },
+              {
+                "carrier": "C3",
+                "kind": "CH3",
+                "afix": 137,
+                "h": [
+                  "H3A",
+                  "H3B",
+                  "H3C"
+                ],
+                "u_mult": 1.5
+              }
+            ]
+          },
+          "twin": null,
+          "engine": null,
+          "unknown_fields": [
+            "metric_definition"
+          ],
+          "metric_definition": null,
+          "experiment": null,
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "multi-scan",
+              "details": "DIALS physical scaling with scale/decay and absorption terms as selected by dials.scale; unresolved shadow-contaminated observations and outlier selection documented in VALIDATION.md."
+            },
+            "temperature_K": 150.0,
+            "instrument": {
+              "source": "Mo Kalpha, lambda = 0.71073 A",
+              "diffractometer": "Rigaku Oxford Diffraction instrument with HyPix-Arc detector",
+              "method": "rotation scans"
+            },
+            "provenance": "2026-09-21 set_experiment(absorption, instrument, temperature_K): Temperature: inputs/alanine/plots_dc/pgw240033_Mo_Cryosystem.dat records 150.00 K set point and about 150 K gas temperature. Wavelength: imported raw-frame header through DIALS (0.71073 A). Detector/manufacturer: rodhypix frames and supplied HyPixArc calibration filenames; exact diffractometer model remains unknown. Absorption/scaling method: this task .crystalpilot/frames/logs/scale.log; transmission extrema unknown."
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0009",
+      "parent": "n0008",
+      "revision": 10,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "set_weights",
+      "note": "",
+      "n_atoms": 13,
+      "r1": 0.0442,
+      "wr2": 0.2001,
+      "goof": 1.222,
+      "diff_map_max": 0.89,
+      "diff_map_min": -0.759,
+      "n_params": 57,
+      "metrics_current": false,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 20,
+      "asu": null,
+      "flack": 0.788,
+      "flack_su": 0.846
+    },
+    {
+      "comparison_source": {
+        "node": "n0010",
+        "model_revision": 11,
+        "data_revision": "d000001",
+        "data_binding": "bound",
+        "metrics_current": true,
+        "metrics_source": {
+          "node": "n0010",
+          "model_revision": 11,
+          "data_revision": "d000001",
+          "engine": "SHELXL",
+          "job": "job_20260921_231640",
+          "conditions_token": "d000001:n0010:conditions-v1"
+        },
+        "conditions_token": "d000001:n0010:conditions-v1",
+        "conditions": {
+          "observations": {
+            "revision": "d000001",
+            "format": "SHELX HKL",
+            "processing": [
+              "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+            ],
+            "scale_applied": 1.0
+          },
+          "basis": {
+            "cell": [
+              5.78803,
+              5.96863,
+              12.29941,
+              90.0,
+              90.0,
+              90.0
+            ],
+            "space_group_operations": [
+              "x,y,z",
+              "x+1/2,-y+1/2,-z",
+              "-x,y+1/2,-z+1/2",
+              "-x+1/2,-y,z+1/2"
+            ],
+            "indexing": "bound_input_indices"
+          },
+          "wavelength": 0.71073,
+          "hklf": 4,
+          "merge": {
+            "policy": "cctbx-input-merge-v1",
+            "n_obs": 4132,
+            "n_unique": 1055
+          },
+          "cutoff": {
+            "requested": [],
+            "selected_reflections": 1055,
+            "applied": [],
+            "application": "applied"
+          },
+          "weights": {
+            "a": 0.1393,
+            "b": 0.0,
+            "source": "measurement"
+          },
+          "scale": {
+            "treatment": "fitted_overall_scale",
+            "fitted_value": 1.8410419224999997
+          },
+          "mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "stored_mask": {
+            "state": "none",
+            "revision": null,
+            "params": null
+          },
+          "hydrogens": {
+            "treatment": "riding",
+            "groups": [
+              {
+                "carrier": "N1",
+                "kind": null,
+                "afix": 137,
+                "h": [
+                  "H1A",
+                  "H1B",
+                  "H1C"
+                ],
+                "u_mult": 1.5
+              },
+              {
+                "carrier": "C2",
+                "kind": "tertiary_CH",
+                "afix": 13,
+                "h": [
+                  "H2"
+                ],
+                "u_mult": 1.2
+              },
+              {
+                "carrier": "C3",
+                "kind": "CH3",
+                "afix": 137,
+                "h": [
+                  "H3A",
+                  "H3B",
+                  "H3C"
+                ],
+                "u_mult": 1.5
+              }
+            ]
+          },
+          "twin": null,
+          "engine": "SHELXL",
+          "unknown_fields": [],
+          "metric_definition": "shelxl-r-factors-v1",
+          "experiment": {
+            "temperature_K": 150.05,
+            "crystal_size": null
+          },
+          "declared_experiment": {
+            "cell_measurement": {
+              "reflns_used": 351,
+              "theta_min": 1.656,
+              "theta_max": 30.034
+            },
+            "computing": {
+              "data_reduction": "DIALS",
+              "cell_refinement": "DIALS",
+              "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+            },
+            "absorption": {
+              "type": "multi-scan",
+              "details": "DIALS physical scaling with scale/decay and absorption terms as selected by dials.scale; unresolved shadow-contaminated observations and outlier selection documented in VALIDATION.md."
+            },
+            "temperature_K": 150.0,
+            "instrument": {
+              "source": "Mo Kalpha, lambda = 0.71073 A",
+              "diffractometer": "Rigaku Oxford Diffraction instrument with HyPix-Arc detector",
+              "method": "rotation scans"
+            },
+            "provenance": "2026-09-21 set_experiment(absorption, instrument, temperature_K): Temperature: inputs/alanine/plots_dc/pgw240033_Mo_Cryosystem.dat records 150.00 K set point and about 150 K gas temperature. Wavelength: imported raw-frame header through DIALS (0.71073 A). Detector/manufacturer: rodhypix frames and supplied HyPixArc calibration filenames; exact diffractometer model remains unknown. Absorption/scaling method: this task .crystalpilot/frames/logs/scale.log; transmission extrema unknown."
+          }
+        },
+        "frame": {
+          "revision": "frame:n0005",
+          "cell": [
+            5.78803,
+            5.96863,
+            12.29941,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "space_group_operations": [
+            "x,y,z",
+            "x+1/2,-y+1/2,-z",
+            "-x,y+1/2,-z+1/2",
+            "-x+1/2,-y,z+1/2"
+          ]
+        },
+        "evidence": {
+          "reflection_recompute": true,
+          "reason": null
+        }
+      },
+      "id": "n0010",
+      "parent": "n0009",
+      "revision": 11,
+      "structure_only": false,
+      "capabilities": null,
+      "reported_reference": null,
+      "branch": "main",
+      "tool": "run_shelxl",
+      "note": "",
+      "n_atoms": 13,
+      "r1": 0.0457,
+      "wr2": 0.2047,
+      "goof": 1.271,
+      "diff_map_max": 0.89,
+      "diff_map_min": -0.762,
+      "n_params": 57,
+      "metrics_current": true,
+      "masked": false,
+      "n_restraints": 0,
+      "data": {
+        "r_int": 0.0362,
+        "n_unique": 1055,
+        "d_min": 0.708,
+        "completeness": 0.839,
+        "space_group": "P 21 21 21",
+        "wavelength": 0.71073,
+        "n_obs": 4132
+      },
+      "n_peaks": 19,
+      "asu": null,
+      "flack": 0.779,
+      "flack_su": 0.847
+    }
+  ],
+  "generated": "2026-09-21 23:26:30",
+  "files": {
+    "final.res": {
+      "from": "node n0010 model.res"
+    },
+    "final.cif": {
+      "grade": "shelxl-acta",
+      "note": "SHELXL ACTA CIF of job job_20260921_231640 (esds, geometry tables, reflection statistics)",
+      "from": "SHELXL job job_20260921_231640 job.cif + session metadata"
+    },
+    "final.fcf": {
+      "from": "SHELXL job job_20260921_231640 job.fcf"
+    },
+    "final.ins": {
+      "from": "SHELXL job job_20260921_231640 job.ins (the deck that produced final.cif/final.fcf)"
+    },
+    "final.hkl": {
+      "from": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r06_H0_alanine\\.crystalpilot\\refine\\data\\d000001\\observations.hkl",
+      "bytes": 123990,
+      "n_reflections": 4132,
+      "terminator_added": false,
+      "trailer_lines": 0,
+      "data_revision": "d000001"
+    },
+    "final.p4p": {
+      "absent": true,
+      "note": "no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  },
+  "cif_grade": {
+    "grade": "shelxl-acta",
+    "note": "SHELXL ACTA CIF of job job_20260921_231640 (esds, geometry tables, reflection statistics)"
+  },
+  "job_match": {
+    "matched": true,
+    "job": "job_20260921_231640",
+    "node": {
+      "node": "n0010",
+      "r1": 0.0457,
+      "atoms": 13,
+      "h": 7,
+      "n_fvar": 1,
+      "z": 4,
+      "masked": false
+    },
+    "linked_job": "job_20260921_231640",
+    "via": "node metrics_source",
+    "riding_h_tolerance": {
+      "h_not_compared": true,
+      "n_h_drifted": 0,
+      "note": "this job is the node's recorded measurement; riding H are re-derived in-process on adopt, so their coordinates are not a pairing leg"
+    },
+    "conditions": [
+      "(1) R1: the job's _refine_ls_R_factor_gt is within 0.005 of the node's r1_strong",
+      "(2) model: job.res and the node's model.res have the same atom count, H count and FVAR count (each FVAR within 0.02), and the same non-H labels with the same element types; all atomic coordinates (including H) agree within 1e-05 fractional after integer translations",
+      "(3) bookkeeping: the same ZERR Z, the job refined with ABIN/.fab exactly when the node carries a solvent mask, and the job has its .ok completion marker"
+    ]
+  },
+  "manual_continuation": {
+    "ready": true,
+    "files": [
+      "final.res",
+      "final.cif",
+      "final.ins",
+      "final.hkl",
+      "final.p4p"
+    ],
+    "missing": [
+      "final.p4p"
+    ],
+    "notes": [
+      "final.p4p: no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it",
+      "final.ins: SHELXL job job_20260921_231640 job.ins (the deck that produced final.cif/final.fcf)"
+    ],
+    "usage": "same basename: `shelxl final` refines final.ins against final.hkl (+ final.fab); open final.res / final.cif in Olex2 to inspect; final.p4p carries the instrument cell"
+  },
+  "bond_table_audit": {
+    "checked": true,
+    "n_rows": 12,
+    "suspects": [],
+    "note": "every metal-X row of the CIF bond table is a bond in the model's own bonding"
+  },
+  "better_nodes": [],
+  "coherence_issues": [],
+  "label_audit": {
+    "n_checked": 6,
+    "mismatches": [],
+    "peak_labels": [],
+    "type_conflicts": []
+  },
+  "mask_obligations": [],
+  "disorder_obligations": [],
+  "setting_change": {
+    "cb_op": "x,y,z",
+    "hkl_reindexed": false,
+    "applied": false,
+    "setting": "P 21 21 21",
+    "reference_setting": "P 21 21 21",
+    "is_reference_setting": true,
+    "hall": "P 2ac 2ab",
+    "hm": "P 21 21 21",
+    "note": "delivered in the ITA reference setting"
+  },
+  "key_facts": {
+    "r1_gt": "0.0457",
+    "r1_all": "0.0666",
+    "wr2": "0.2047",
+    "goof": "1.271",
+    "n_reflns": "1055",
+    "n_params": "57",
+    "n_restraints": "0",
+    "diff_density_max": "0.890",
+    "diff_density_min": "-0.762",
+    "formula_sum": "C3 H7 N O2",
+    "formula_moiety": "C3 H7 N O2",
+    "z": "4",
+    "space_group": "P 21 21 21",
+    "temperature_K": "150",
+    "wavelength": "0.71073",
+    "radiation_type": "MoK\\a",
+    "theta_max": "30.126",
+    "completeness_full": "0.998",
+    "rint": "0.0361",
+    "hydrogen_treatment": "constr",
+    "flack": "0.8(8)"
+  },
+  "cif_missing_metadata": [
+    {
+      "tag": "_exptl_crystal_description",
+      "fill_via": "crystal.description",
+      "checkcif_alert": "699_A"
+    },
+    {
+      "tag": "_exptl_crystal_colour",
+      "fill_via": "crystal.colour"
+    },
+    {
+      "tag": "_exptl_crystal_size_max",
+      "fill_via": "crystal.size_mm",
+      "checkcif_alert": "055_C"
+    },
+    {
+      "tag": "_exptl_crystal_size_mid",
+      "fill_via": "crystal.size_mm",
+      "checkcif_alert": "054_C"
+    },
+    {
+      "tag": "_exptl_crystal_size_min",
+      "fill_via": "crystal.size_mm",
+      "checkcif_alert": "053_C"
+    },
+    {
+      "tag": "_exptl_absorpt_correction_T_min",
+      "fill_via": "absorption.t_min",
+      "checkcif_alert": "052_C"
+    },
+    {
+      "tag": "_exptl_absorpt_correction_T_max",
+      "fill_via": "absorption.t_max",
+      "checkcif_alert": "052_C"
+    },
+    {
+      "tag": "_computing_structure_solution",
+      "fill_via": "solver lineage (run_shelxt / solve_* node) - unknown for an imported start model"
+    }
+  ],
+  "finalized": {
+    "at": "2026-09-21 23:27:44",
+    "promoted": false,
+    "waivers": [],
+    "waived_count": 0,
+    "open_items": [
+      {
+        "item": "alert:058_A",
+        "text": "Maximum Transmission Factor Missing ............          ?"
+      },
+      {
+        "item": "alert:059_A",
+        "text": "Minimum Transmission Factor Missing ............          ?"
+      },
+      {
+        "item": "alert:699_A",
+        "text": "Missing _exptl_crystal_description Value .......     Please Do !"
+      },
+      {
+        "item": "alert:939_A",
+        "text": "Large Value of Not (SHELXL) Weight Optimized S .     831.49 Check"
+      },
+      {
+        "item": "unresolved#1",
+        "text": "低角数据污染尚未修复：原始像素存在零计数/严重衰减区域，DIALS保留近零观测却剔除正常强等价观测（022、023、131、102、033等）。证据见analysis/reflection_audit.txt。当前MCP未暴露像素掩膜与逐观测重积分控制；需重新掩膜、积分、缩放。未手动删HKL或用增原子/无序改善统计量。"
+      },
+      {
+        "item": "unresolved#2",
+        "text": "最终R1=0.0457、wR2=0.2047、GooF=1.271、差值密度+0.890/-0.762 e/A^3；低角系统失配显著，几何、ADP和氢位置可能受偏差影响。PLAT965提示权重未完全收敛，仅坐标精修已收敛。"
+      },
+      {
+        "item": "unresolved#3",
+        "text": "绝对构型未知：Parsons/Flack x=0.779，su=0.847，346个quotients；没有输入的L/D化学证明，不把数值解释为构型或反演孪晶比例。"
+      },
+      {
+        "item": "unresolved#4",
+        "text": "高角覆盖不足。最终CIF在theta_max=30.126度处Laue/点群完整度0.879/0.839；theta_full=25.242度处0.998/0.999。未为降低R值截断分辨率。DIALS总体完整度90.3%采用不同统计口径，不能混同。CIF/FCF的Lmax差1尚未逐行完全归因。"
+      },
+      {
+        "item": "unresolved#5",
+        "text": "当前DIALS中位晶胞的标准不确定度未传播，ZERR中的0是缺失占位，不是零误差；几何esd不含可靠晶胞误差。输入有厂商另一晶胞及误差但未冒充本次DIALS结果，无p4p。"
+      },
+      {
+        "item": "unresolved#6",
+        "text": "晶体尺寸、颜色、形状、精确仪器型号和吸收校正Tmin/Tmax未知；150 K与0.71073 A有本次输入支持。"
+      },
+      {
+        "item": "unresolved#7",
+        "text": "CIF生成器元数据限制：set_experiment已记录求解方法和实际精修版本，但写出器仍将结构求解置为问号，并保留_computing_structure_refinement的2019/2默认文字。实际为本次工具电荷翻转起模与SHELXL-2019/3精修，证据为start.res、工具调用和最终job.lst/"
+      },
+      {
+        "item": "unresolved#8",
+        "text": "发表级可靠性尚未达到。所有本地checkCIF A/B/C警报在VALIDATION.md逐条解释，但解释不等于修复；仅进行本地PLATON验证，未上传官方IUCr服务。"
+      },
+      {
+        "item": "unmet_goal#1",
+        "text": "尚未得到可宣称接近发表质量的可靠结构：需通过支持真实像素掩膜的工具重新积分、缩放，恢复正常强等价观测并排除遮挡观测的错误贡献。"
+      },
+      {
+        "item": "unmet_goal#2",
+        "text": "尚未可靠确定绝对构型、当前DIALS晶胞标准不确定度和若干实验元数据。"
+      },
+      {
+        "item": "unmet_goal#3",
+        "text": "CIF生成器仍存在求解方法问号、默认精修版本及笼统交叉验证文字的问题；已披露，未手工改写审计链外的结构文件。"
+      }
+    ],
+    "missing_inputs": [
+      {
+        "item": "file:final.p4p",
+        "text": "final.p4p not delivered (instrument cell record, an input): no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+      }
+    ],
+    "checkcif_counts": {
+      "A": 4,
+      "B": 3,
+      "C": 20,
+      "G": 14
+    },
+    "note": "完成独立原始帧解析、完整丙氨酸候选模型精修及本地PLATON验证。最终n0010/交付版本3，检查报告与交付配对。VALIDATION.md已逐条覆盖全部4A、3B、20C警报（重复代码逐项列出）；仅诊断性封存，不将解释作为修复，不提升发表级。只读脚本成功运行并保存原始像素/积分/缩放证据。模型文件可复算，完整中间数据和原始作业日志保留在本项目审计库，路径见COMPUTATION_RECORD.md。"
+  }
+}

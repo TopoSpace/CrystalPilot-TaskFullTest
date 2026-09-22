@@ -1,0 +1,5 @@
+已保存完整框架平均结构候选：**P6/mmm，R1=0.0849，wR2=0.2526，分辨率1.00 Å**。孔道分子未建模，仅采用已披露的散射掩膜。
+
+**尚未达到发表级**：高Rint、局部无序、节点质子化和缺失实验信息仍待解决。结构文件、复算输入输出及逐条checkCIF说明均已封存。
+
+[结果与未解决问题](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r01_H1_nu1000/CrystalPilot Results/task_20260921_192357/SUMMARY.md>) · [结构 CIF](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r01_H1_nu1000/CrystalPilot Results/task_20260921_192357/final.cif>)

@@ -1,0 +1,82 @@
+{
+
+ "detached": true,
+
+ "job": "job_20260921_192553",
+
+ "job_dir": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r01_H1_nu1000\\.crystalpilot\\refine\\shelxt\\job_20260921_192553",
+
+ "pid": 13372,
+
+ "started_at": "2026-09-21T19:25:53",
+
+ "started_at_epoch": 1789989953.37,
+
+ "budget": {
+
+  "timeout_s": 600,
+
+  "search_grace_s": 900,
+
+  "phasing_grace_s": 600
+
+ },
+
+ "stage": "space-group search",
+
+ "running": true,
+
+ "updated_at": "2026-09-21T19:33:15",
+
+ "elapsed_s": 442.2,
+
+ "laue": "6/mmm",
+
+ "tries_done": 12,
+
+ "best_cfom": 0.7447,
+
+ "accept_x": 0.65,
+
+ "bar_now": 0.72,
+
+ "passed_acceptance": true,
+
+ "per_try_s": 1.3,
+
+ "accept_at_try": 12,
+
+ "estimated_remaining_s": null,
+
+ "phasing_finished": true,
+
+ "phasing_grace_granted_s": 0.0,
+
+ "phasing_grace_used_s": 0.0,
+
+ "phasing_note": null,
+
+ "last_lxt_line": "Structure solution:      15.868 secs",
+
+ "has_solution": false,
+
+ "timed_out": null,
+
+ "auto_a": true,
+
+ "exhaustive_search": true,
+
+ "search_elapsed_s": 426.4,
+
+ "search_reference": null,
+
+ "search_note": "SHELXT prints nothing during the space-group search; 426 s into it; every space group of Laue class 6/mmm is evaluated one by one (-a: SHELXT switched this on itself because an atom heavier than Sc is declared); the workbench shows this stage live even after the turn ends; space_group=<settled group> (SHELXT -s) skips it on a re-run",
+
+ "search_grace_extended_s": 0.0,
+
+ "search_grace_note": null,
+
+ "next": "poll run_shelxt(job_status='job_20260921_192553') again in 60-120 s"
+
+}
+

@@ -1,0 +1,420 @@
+"""Support for the Rigaku Oxford Diffraction image format
+
+
+
+NB: Rigaku datasets may use a non-zero-padded image incremental serial number.
+
+At present, this is not compatible with assumptions in dxtbx. In order to
+
+import these datasets, the images should be renumbered first.
+
+
+
+See https://github.com/cctbx/dxtbx/issues/646 for details."""
+
+
+
+# Takanori Nakane took David Waterman's code to parse headers from
+
+#  https://github.com/cctbx/cctbx_project/commit/b95467f3b2a70a37eeb820ea294128a32551700c
+
+# and heavily modified it. The original commit in the cctbx_project repository is orphan now.
+
+from __future__ import annotations
+
+
+
+__author__ = "David Waterman, Takanori Nakane"
+
+__copyright__ = "Copyright 2018-2023 United Kingdom Research and Innovation & 2022-2023 Takanori Nakane"
+
+__license__ = "BSD 3-clause"
+
+
+
+import re
+
+import struct
+
+
+
+import numpy as np
+
+
+
+from scitbx import matrix
+
+from scitbx.array_family import flex
+
+from scitbx.math import r3_rotation_axis_and_angle_as_matrix
+
+
+
+from dxtbx.ext import uncompress_rod_TY5_TY6
+
+from dxtbx.format.Format import Format
+
+from dxtbx.model.beam import Probe
+
+from dxtbx.model.detector import Detector
+
+
+
+
+
+class FormatROD(Format):
+
+    """An image reading class for Rigaku Oxford Diffraction images.
+
+
+
+    The Rigaku Oxford Diffraction format is used by CrysAlis(Pro).
+
+    """
+
+
+
+    def __init__(self, image_file, **kwargs):
+
+        """Initialise the image structure from the given file."""
+
+
+
+        from dxtbx import IncorrectFormatError
+
+
+
+        if not self.understand(image_file):
+
+            raise IncorrectFormatError(self, image_file)
+
+
+
+        Format.__init__(self, image_file, **kwargs)
+
+
+
+    @staticmethod
+
+    def understand(image_file):
+
+        with FormatROD.open_file(image_file, "rb") as f:
+
+            try:
+
+                hdr = f.read(256).decode("ascii")
+
+            except UnicodeDecodeError:
+
+                return False
+
+
+
+        lines = hdr.splitlines()
+
+        if len(lines) < 2:
+
+            return False
+
+
+
+        vers = lines[0].split()
+
+        if len(vers) < 2 or vers[0] != "OD" or vers[1] != "SAPPHIRE":
+
+            return False
+
+
+
+        compression = lines[1].split("=")
+
+        if compression[0] != "COMPRESSION":
+
+            return False
+
+
+
+        return True
+
+
+
+    @staticmethod
+
+    def _read_ascii_header(image_file):
+
+        """Read the ASCII header comprising the first 256 bytes of the file"""
+
+
+
+        hd = {}
+
+        with FormatROD.open_file(image_file, "rb") as f:
+
+            hdr = f.read(256).decode("ascii")
+
+        lines = hdr.splitlines()
+
+
+
+        vers = lines[0].split()
+
+        if len(vers) < 2 or vers[0] != "OD" or vers[1] != "SAPPHIRE":
+
+            raise ValueError("Wrong header format")
+
+        hd["version"] = float(vers[-1])
+
+        if hd["version"] != 4.0:
+
+            raise NotImplementedError(
+
+                f"FormatROD: only header version 4.0 is supported but got {hd['version']}"
+
+            )
+
+
+
+        compression = lines[1].split("=")
+
+        if compression[0] != "COMPRESSION":
+
+            raise ValueError("Wrong header format")
+
+        hd["compression"] = compression[1]
+
+
+
+        # Extract definitions from the 3rd - 5th line
+
+        defn = re.compile(r"([A-Z]+=[ 0-9]+)")
+
+        for line in lines[2:5]:
+
+            sizes = defn.findall(line)
+
+            for s in sizes:
+
+                n, v = s.split("=")
+
+                hd[n] = int(v)
+
+
+
+        hd["time"] = lines[5].split("TIME=")[-1].strip("\x1a").rstrip()
+
+
+
+        return hd
+
+
+
+    @staticmethod
+
+    def _read_binary_header(
+
+        image_file,
+
+        offset=256,
+
+        nbytes=5120,
+
+        general_nbytes=512,
+
+        special_nbytes=768,
+
+        km4gonio_nbytes=1024,
+
+        statistics_nbytes=512,
+
+        history_nbytes=2048,
+
+    ):
+
+        """Read the most relevant parameters from the binary header"""
+
+
+
+        with FormatROD.open_file(image_file, "rb") as f:
+
+            # General section
+
+            f.seek(offset)
+
+            bin_x, bin_y = struct.unpack("<hh", f.read(4))
+
+            f.seek(offset + 22)
+
+            chip_npx_x, chip_npx_y, im_npx_x, im_npx_y = struct.unpack(
+
+                "<hhhh", f.read(8)
+
+            )
+
+            f.seek(offset + 36)
+
+            num_points = struct.unpack("<I", f.read(4))[0]
+
+            num_image = struct.unpack("<h", f.read(2))[0]
+
+            if num_points != im_npx_x * im_npx_y:
+
+                raise ValueError("Cannot interpret binary header")
+
+            if num_image != 1:
+
+                raise NotImplementedError("num_image != 1 is not supported.")
+
+
+
+            # Special section
+
+            f.seek(offset + general_nbytes + 56)
+
+            gain = struct.unpack("<d", f.read(8))[0]
+
+            f.seek(offset + general_nbytes + 464)
+
+            overflow_flag, overflow_after_remeasure_flag = struct.unpack(
+
+                "<hh", f.read(4)
+
+            )
+
+            f.seek(offset + general_nbytes + 472)
+
+            overflow_threshold = struct.unpack("<l", f.read(4))[0]
+
+            f.seek(offset + general_nbytes + 480)
+
+            exposure_time_sec, overflow_time_sec = struct.unpack("<dd", f.read(16))
+
+            f.seek(offset + general_nbytes + 548)
+
+            detector_type = struct.unpack("<l", f.read(4))[0]
+
+            f.seek(offset + general_nbytes + 568)
+
+            real_px_size_x, real_px_size_y = struct.unpack("<dd", f.read(16))
+
+
+
+            # Goniometer section
+
+            f.seek(offset + general_nbytes + special_nbytes + 284)
+
+            # angles for OMEGA, THETA, CHI(=KAPPA), PHI,
+
+            # OMEGA_PRIME (also called DETECTOR_AXIS; what's this?), THETA_PRIME
+
+            start_angles_steps = struct.unpack("<llllllllll", f.read(40))
+
+            end_angles_steps = struct.unpack("<llllllllll", f.read(40))
+
+            f.seek(offset + general_nbytes + special_nbytes + 368)
+
+            step_to_rad = struct.unpack("<dddddddddd", f.read(80))
+
+            f.seek(offset + general_nbytes + special_nbytes + 552)
+
+            # FIXME: I don't know what these are. Isn't the beam along e1 by definition??
+
+            beam_rotn_around_e2, beam_rotn_around_e3 = struct.unpack("<dd", f.read(16))
+
+            alpha1_wavelength = struct.unpack("<d", f.read(8))[0]
+
+            alpha2_wavelength = struct.unpack("<d", f.read(8))[0]
+
+            alpha12_wavelength = struct.unpack("<d", f.read(8))[0]
+
+            f.seek(offset + general_nbytes + special_nbytes + 640)
+
+            # detector rotation in degrees along e1, e2, e3
+
+            detector_rotns = struct.unpack("<ddd", f.read(24))
+
+            # direct beam position when all angles are zero (FIXME: not completely sure)
+
+            origin_px_x, origin_px_y = struct.unpack("<dd", f.read(16))
+
+            # alpha and beta are angles between KAPPA(=CHI) and THETA, and e3.
+
+            angles_in_deg = struct.unpack(
+
+                "<dddd", f.read(32)
+
+            )  # alpha, beta, gamma, delta
+
+            f.seek(offset + general_nbytes + special_nbytes + 712)
+
+            distance_mm = struct.unpack("<d", f.read(8))[0]
+
+
+
+        return {
+
+            "bin_x": bin_x,
+
+            "bin_y": bin_y,
+
+            "chip_npx_x": chip_npx_x,
+
+            "chip_npx_y": im_npx_y,
+
+            "im_npx_x": im_npx_x,
+
+            "im_npx_y": im_npx_y,
+
+            "gain": gain,
+
+            "overflow_flag": overflow_flag,
+
+            "overflow_after_remeasure_flag": overflow_after_remeasure_flag,
+
+            "overflow_threshold": overflow_threshold,
+
+            "exposure_time_sec": exposure_time_sec,
+
+            "overflow_time_sec": overflow_time_sec,
+
+            "detector_type": detector_type,
+
+            "real_px_size_x": real_px_size_x,
+
+            "real_px_size_y": real_px_size_y,
+
+            "start_angles_steps": start_angles_steps,
+
+            "end_angles_steps": end_angles_steps,
+
+            "step_to_rad": step_to_rad,
+
+            "beam_rotn_around_e2": beam_rotn_around_e2,
+
+            "beam_rotn_around_e3": beam_rotn_around_e3,
+
+            "alpha1_wavelength": alpha1_wavelength,
+
+            "alpha2_wavelength": alpha2_wavelength,
+
+            "alpha12_wavelength": alpha12_wavelength,
+
+            "detector_rotns": detector_rotns,
+
+            "origin_px_x": origin_px_x,
+
+            "origin_px_y": origin_px_y,
+
+            "angles_in_deg": angles_in_deg,
+
+            "distance_mm": distance_mm,
+
+        }
+
+
+
+    def _start(self):
+
+        """Open the image file, read useful metadata into an internal dictionary
+
+        self._header_dictionary"""
+

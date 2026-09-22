@@ -1,0 +1,203 @@
+Started: 2026-09-22T02:58:55.155081
+Command: ["H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe", "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r09_P1N_nu1000\\deliverables\\raw_reproduction_20260922_025724\\deliverables\\finalize.py"]
+Exported H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r09_P1N_nu1000\deliverables\raw_reproduction_20260922_025724\deliverables\nu1000_framework.cif expanded atom count 510 inventory {'Zr': 18, 'O': 96, 'C': 264, 'H': 132}
+Expanded inventory Counter({np.str_('C'): 264, np.str_('O'): 96, np.str_('Zr'): 18}) Zr clusters [6, 6, 6]
+Ligands [{np.str_('O'): 8, np.str_('C'): 44}, {np.str_('O'): 8, np.str_('C'): 44}, {np.str_('O'): 8, np.str_('C'): 44}, {np.str_('O'): 8, np.str_('C'): 44}, {np.str_('O'): 8, np.str_('C'): 44}, {np.str_('O'): 8, np.str_('C'): 44}]
+Periodic framework graph translation rank 3
+Zr1 [('O2', 2.1437), ('O2', 2.1437), ('O3', 2.1572), ('O3', 2.1572), ('O5', 2.2321), ('O1', 2.2475), ('O6', 2.2635), ('O6', 2.2635)]
+Zr2 [('O3', 2.1271), ('O3', 2.1271), ('O2', 2.1598), ('O2', 2.1598), ('O4', 2.2013), ('O4', 2.2013), ('O4', 2.2013), ('O4', 2.2013)]
+O1 [('Zr1', 2.2475)]
+O2 [('Zr1', 2.1437), ('Zr1', 2.1437), ('Zr2', 2.1598)]
+O3 [('Zr2', 2.1271), ('Zr1', 2.1572), ('Zr1', 2.1572)]
+O4 [('C12', 1.2667), ('Zr2', 2.2013)]
+O5 [('Zr1', 2.2321)]
+O6 [('C12', 1.2624), ('Zr1', 2.2635)]
+C1 [('C9', 1.4009), ('C9', 1.4009), ('C1', 1.4173)]
+C2 [('C4', 1.4036), ('C6', 1.4252)]
+C3 [('C8', 1.3935), ('C6', 1.4029)]
+C4 [('C10', 1.3963), ('C2', 1.4036)]
+C5 [('C11', 1.3763), ('C9', 1.3949), ('C6', 1.5021)]
+C6 [('C3', 1.4029), ('C2', 1.4252), ('C5', 1.5021)]
+C7 [('C7', 1.3778), ('C9', 1.4433)]
+C8 [('C3', 1.3935), ('C10', 1.3964)]
+C9 [('C5', 1.3949), ('C1', 1.4009), ('C7', 1.4433)]
+C10 [('C4', 1.3963), ('C8', 1.3964), ('C12', 1.4731)]
+C11 [('C5', 1.3763), ('C5', 1.3763)]
+C12 [('O6', 1.2624), ('O4', 1.2667), ('C10', 1.4731)]
+Plane deviations [{'atom_count': 8, 'rms_A': 0.0102295611787532, 'max_A': 0.019826150859683544}, {'atom_count': 4, 'rms_A': 0.008312815233874246, 'max_A': 0.014372036630289712}, {'atom_count': 16, 'rms_A': 0.003950754231485734, 'max_A': 0.006118895230962861}]
+Bond restraints [('C1', 'C1', 1.4173, 0.18), ('C1', 'C9', 1.4009, -0.23), ('C1', 'C9', 1.4009, -0.23), ('C2', 'C4', 1.4036, 0.35), ('C2', 'C6', 1.4252, 1.21), ('C3', 'C6', 1.4029, 0.31), ('C3', 'C8', 1.3935, -0.06), ('C4', 'C10', 1.3963, 0.05), ('C5', 'C6', 1.5021, 0.34), ('C5', 'C9', 1.3949, -0.38), ('C5', 'C11', 1.3763, -0.84), ('C7', 'C7', 1.3778, -0.81), ('C7', 'C9', 1.4433, 0.83), ('C8', 'C10', 1.3964, 0.05), ('C10', 'C12', 1.4731, -0.56), ('C12', 'O4', 1.2667, 0.27), ('C12', 'O6', 1.2624, 0.09)]
+FINAL STATISTICS {
+  "refinement": {
+    "n": 4395,
+    "n_obs": 2029,
+    "R1_all": 0.2638008161660499,
+    "R1_obs": 0.17502300248365962,
+    "wR2_actual_weights": 0.46292786725727075,
+    "weighted_chi_square": 26760.2153658023,
+    "GoF": 2.5128370451596607,
+    "n_parameters_subtracted": 157
+  },
+  "all_recorded": {
+    "n": 11289,
+    "n_obs": 2234,
+    "R1_all": 0.4780369692130767,
+    "R1_obs": 0.19730749288703447,
+    "wR2_actual_weights": 0.49643765002836243,
+    "weighted_chi_square": 32362.38357610866,
+    "GoF": 1.6931386124271988,
+    "n_parameters_subtracted": 0
+  },
+  "mid_high_angle_3_to_1_A_with_final_model": {
+    "n": 4193,
+    "n_obs": 1838,
+    "R1_all": 0.24078666372769816,
+    "R1_obs": 0.12461535634901308,
+    "wR2_actual_weights": 0.33214185056372586,
+    "weighted_chi_square": 10121.713580000918,
+    "GoF": 1.5536907875123644,
+    "n_parameters_subtracted": 0
+  },
+  "cv_work": {
+    "n": 4086,
+    "n_obs": 1891,
+    "R1_all": 0.2645014557158277,
+    "R1_obs": 0.1758966337557703,
+    "wR2_actual_weights": 0.46918965098677096,
+    "weighted_chi_square": 25765.989376575955,
+    "GoF": 2.5608397197781576,
+    "n_parameters_subtracted": 157
+  },
+  "cv_test": {
+    "n": 309,
+    "n_obs": 138,
+    "R1_all": 0.26104577177885646,
+    "R1_obs": 0.16625473086366635,
+    "wR2_actual_weights": 0.37988854913440934,
+    "weighted_chi_square": 1197.9783025865622,
+    "GoF": 1.968997825177879,
+    "n_parameters_subtracted": 0
+  },
+  "cv_caveat": "Reflections excluded from refinement; initial heavy-atom/Fourier solution used all data. Diagnostic holdout, not fully blind Rfree.",
+  "raw_observations": 337815,
+  "merged_unique_all": 11289,
+  "measured_d_min": 0.6910782904312253,
+  "measured_d_max": 14.919155672359999,
+  "Rint_equal_mean_to_1_A": 0.4259761296488645,
+  "completeness_to_1_A": 0.9986366734832992,
+  "possible_unique_to_1_A": 4401,
+  "difference_map": {
+    "maximum": 1.8746496438980103,
+    "minimum": -1.2930887937545776,
+    "rms": 0.1855548471212387,
+    "max_fractional": [
+      0.14583333333333334,
+      0.5708333333333333,
+      0.35833333333333334
+    ],
+    "min_fractional": [
+      0.020833333333333332,
+      0.5083333333333333,
+      0.03333333333333333
+    ],
+    "coefficient": "Re[(Fo/|Fc|-1)Fc], scaled to electron units; F000=0; 1.0 A resolution; negative I gives Fo=0",
+    "max_nearest_framework_atom": {
+      "label": "C8",
+      "distance_A": 3.8224068631357815
+    },
+    "min_nearest_framework_atom": {
+      "label": "O2",
+      "distance_A": 1.3346417325469948
+    }
+  },
+  "model_sensitivity": [
+    {
+      "atom": "Zr1",
+      "delta_A_all_vs_highangle": 0.0006331062214349027
+    },
+    {
+      "atom": "Zr2",
+      "delta_A_all_vs_highangle": 0.004642624489544723
+    },
+    {
+      "atom": "O1",
+      "delta_A_all_vs_highangle": 0.05931831182212109
+    },
+    {
+      "atom": "O2",
+      "delta_A_all_vs_highangle": 0.009218319377934351
+    },
+    {
+      "atom": "O3",
+      "delta_A_all_vs_highangle": 0.019520614949708255
+    },
+    {
+      "atom": "O4",
+      "delta_A_all_vs_highangle": 0.03381173457338579
+    },
+    {
+      "atom": "O5",
+      "delta_A_all_vs_highangle": 0.010112299613780738
+    },
+    {
+      "atom": "O6",
+      "delta_A_all_vs_highangle": 0.011790236024196049
+    },
+    {
+      "atom": "C1",
+      "delta_A_all_vs_highangle": 0.0427896468382041
+    },
+    {
+      "atom": "C2",
+      "delta_A_all_vs_highangle": 0.032148687856216426
+    },
+    {
+      "atom": "C3",
+      "delta_A_all_vs_highangle": 0.043243006401937976
+    },
+    {
+      "atom": "C4",
+      "delta_A_all_vs_highangle": 0.022428055986703152
+    },
+    {
+      "atom": "C5",
+      "delta_A_all_vs_highangle": 0.03334417354453338
+    },
+    {
+      "atom": "C6",
+      "delta_A_all_vs_highangle": 0.029192397457632656
+    },
+    {
+      "atom": "C7",
+      "delta_A_all_vs_highangle": 0.02785876554325945
+    },
+    {
+      "atom": "C8",
+      "delta_A_all_vs_highangle": 0.01744419868487693
+    },
+    {
+      "atom": "C9",
+      "delta_A_all_vs_highangle": 0.034896832101163754
+    },
+    {
+      "atom": "C10",
+      "delta_A_all_vs_highangle": 0.008466192428439705
+    },
+    {
+      "atom": "C11",
+      "delta_A_all_vs_highangle": 0.02811473127275825
+    },
+    {
+      "atom": "C12",
+      "delta_A_all_vs_highangle": 0.019991668054060087
+    }
+  ],
+  "weighting": "w=1/[sigma(I)^2+(0.08P)^2+0.01], P=(max(I,0)+2Ic)/3",
+  "uncertainty_caveat": "Formal covariance = inverse(JtJ) times GoF^2, with restraints and fixed cell. Does NOT include model bias, near-edge dispersion calibration, cell errors or pore scattering.",
+  "normal_matrix_rank_at_1e_10_cutoff": 157,
+  "normal_matrix_condition_number": 11082119.248368558
+}
+EFFECTIVE DISPERSION -9.732411682238208 6.234626153395554 {'fp_su': 0.34644938492301763, 'fpp': 6.234626153395554, 'fpp_su': 0.3703643079958537}
+
+STDERR:
+
+Exit: 0

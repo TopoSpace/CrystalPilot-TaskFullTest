@@ -1,0 +1,42 @@
+data_alanine_intermediate
+_audit_creation_method 'Self-written NumPy/SciPy pipeline'
+_chemical_formula_sum 'C3 H7 N O2'
+_cell_length_a 5.7947074
+_cell_length_b 5.9823960
+_cell_length_c 12.3258389
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_formula_units_Z 4
+_space_group_name_H-M_alt 'P 21 21 21'
+_space_group_IT_number 19
+_diffrn_radiation_wavelength 0.71073
+_diffrn_ambient_temperature 150
+_refine_ls_R_factor_all 0.102286
+_refine_special_details
+;
+INTERMEDIATE MODEL: non-H atoms only; no claim of publication quality.
+Hydrogens, anisotropic displacement and final validation are pending.
+Absolute structure is unknown. Cell is an approximate self-fitted metric.
+;
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 'x+1/2,-y+1/2,-z'
+3 '-x,y+1/2,-z+1/2'
+4 '-x+1/2,-y,z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+O1 O 0.2388643 0.5541578 0.3159953 0.020905 1
+O2 O 0.1257705 0.7298707 0.9159937 0.020998 1
+N1 N 0.6831397 0.6483285 0.8617489 0.016908 1
+C1 C 0.3985017 0.4444378 0.3583178 0.013794 1
+C2 C 0.6462502 0.5308566 0.3388351 0.016522 1
+C3 C 0.1963670 0.7674592 0.5904423 0.020618 1

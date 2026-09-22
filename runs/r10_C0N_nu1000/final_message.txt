@@ -1,0 +1,7 @@
+已恢复完整三维框架并保存可复现结果，但**尚未达到临近发表级精修**。全数据精修 R1（I > 2σ）= **0.1965**；低角残差、Zr 散射校准和节点质子归属仍未解决，未建立孔道客体模型。
+
+- [结构 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/nu1000_framework.cif)
+- [结果说明、限制与复现方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/README_zh.md)
+- [实际计算日志](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r10_C0N_nu1000/deliverables/reproduction.log)
+
+24 步重算及自编回读检验通过；仅使用指定环境，输入文件未修改。

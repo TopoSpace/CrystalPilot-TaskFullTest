@@ -1,0 +1,8 @@
+已完成框架解析与精修，文件位于 `deliverables`：
+
+- [框架 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r04_C0_nu1000/deliverables/nu1000_framework.cif)
+- [结果说明与复算方法](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r04_C0_nu1000/deliverables/README_zh.md)
+
+最终为 **P6/mmm，R1 = 0.0827，wR2 = 0.2722**。结构、计算记录及脚本均已保存，实际复算和输入完整性核验通过。
+
+仍有高 Rint、局部无序及节点质子化未定等问题，不能视为可直接投稿的终稿。孔道客体未作分子指认，仅以独立散射掩膜处理。

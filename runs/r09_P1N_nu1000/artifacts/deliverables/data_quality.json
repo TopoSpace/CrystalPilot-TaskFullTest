@@ -1,0 +1,172 @@
+{
+  "total_observed": 11289,
+  "total_possible": 12805,
+  "total_completeness": 0.8816087465833659,
+  "shells": [
+    {
+      "d_low": null,
+      "d_high": 6.0,
+      "observed": 31,
+      "possible": 35,
+      "completeness": 0.8857142857142857,
+      "I_sigma": 23.242374705675385,
+      "CC_half": 0.9991763459379855,
+      "Rint": 0.0868936751118567,
+      "n_half_pairs": 30
+    },
+    {
+      "d_low": 6.0,
+      "d_high": 4.0,
+      "observed": 62,
+      "possible": 62,
+      "completeness": 1.0,
+      "I_sigma": 21.928334057885767,
+      "CC_half": 0.9983349840888104,
+      "Rint": 0.1095270823479485,
+      "n_half_pairs": 59
+    },
+    {
+      "d_low": 4.0,
+      "d_high": 3.0,
+      "observed": 109,
+      "possible": 109,
+      "completeness": 1.0,
+      "I_sigma": 20.069037182438144,
+      "CC_half": 0.9971114571229686,
+      "Rint": 0.11765871268724491,
+      "n_half_pairs": 109
+    },
+    {
+      "d_low": 3.0,
+      "d_high": 2.5,
+      "observed": 130,
+      "possible": 130,
+      "completeness": 1.0,
+      "I_sigma": 15.298957738544575,
+      "CC_half": 0.9980520308516985,
+      "Rint": 0.18536858041272467,
+      "n_half_pairs": 130
+    },
+    {
+      "d_low": 2.5,
+      "d_high": 2.0,
+      "observed": 287,
+      "possible": 287,
+      "completeness": 1.0,
+      "I_sigma": 13.065880487900861,
+      "CC_half": 0.9954482481533035,
+      "Rint": 0.19828535978552084,
+      "n_half_pairs": 284
+    },
+    {
+      "d_low": 2.0,
+      "d_high": 1.7999999999999998,
+      "observed": 211,
+      "possible": 211,
+      "completeness": 1.0,
+      "I_sigma": 10.084628546575493,
+      "CC_half": 0.9954473896653977,
+      "Rint": 0.26981509968292355,
+      "n_half_pairs": 210
+    },
+    {
+      "d_low": 1.7999999999999998,
+      "d_high": 1.5,
+      "observed": 555,
+      "possible": 555,
+      "completeness": 1.0,
+      "I_sigma": 8.014886126377336,
+      "CC_half": 0.9922259664101042,
+      "Rint": 0.38323681078497956,
+      "n_half_pairs": 553
+    },
+    {
+      "d_low": 1.5,
+      "d_high": 1.3,
+      "observed": 694,
+      "possible": 694,
+      "completeness": 1.0,
+      "I_sigma": 3.477761022789133,
+      "CC_half": 0.9647016499182756,
+      "Rint": 0.6914351674809419,
+      "n_half_pairs": 694
+    },
+    {
+      "d_low": 1.3,
+      "d_high": 1.2,
+      "observed": 529,
+      "possible": 529,
+      "completeness": 1.0,
+      "I_sigma": 1.4948574714102834,
+      "CC_half": 0.776738395824299,
+      "Rint": 0.898872493831097,
+      "n_half_pairs": 528
+    },
+    {
+      "d_low": 1.2,
+      "d_high": 1.1,
+      "observed": 737,
+      "possible": 738,
+      "completeness": 0.9986449864498645,
+      "I_sigma": 1.7015078264666115,
+      "CC_half": 0.7784220761251195,
+      "Rint": 0.8865009305516864,
+      "n_half_pairs": 736
+    },
+    {
+      "d_low": 1.1,
+      "d_high": 1.0,
+      "observed": 1050,
+      "possible": 1051,
+      "completeness": 0.9990485252140818,
+      "I_sigma": 1.011177069280218,
+      "CC_half": 0.4897155103405882,
+      "Rint": 0.9512275635211807,
+      "n_half_pairs": 1049
+    },
+    {
+      "d_low": 1.0,
+      "d_high": 0.8999999999999999,
+      "observed": 1553,
+      "possible": 1557,
+      "completeness": 0.9974309569685292,
+      "I_sigma": 0.3801682096007377,
+      "CC_half": 0.19633725142320915,
+      "Rint": 0.9799110665095745,
+      "n_half_pairs": 1551
+    },
+    {
+      "d_low": 0.8999999999999999,
+      "d_high": 0.8,
+      "observed": 2296,
+      "possible": 2417,
+      "completeness": 0.9499379395945386,
+      "I_sigma": 0.040119498819224914,
+      "CC_half": -0.02764536543019892,
+      "Rint": 0.9865427094475497,
+      "n_half_pairs": 2295
+    },
+    {
+      "d_low": 0.8,
+      "d_high": 0.75,
+      "observed": 1508,
+      "possible": 1730,
+      "completeness": 0.8716763005780347,
+      "I_sigma": -0.12444280789795178,
+      "CC_half": -0.11228926327090347,
+      "Rint": 0.9823392161925955,
+      "n_half_pairs": 1480
+    },
+    {
+      "d_low": 0.75,
+      "d_high": 0.6910782856553332,
+      "observed": 1537,
+      "possible": 2700,
+      "completeness": 0.5692592592592592,
+      "I_sigma": 0.34948230612563824,
+      "CC_half": -0.17847469065960891,
+      "Rint": 0.9286825201591022,
+      "n_half_pairs": 824
+    }
+  ]
+}

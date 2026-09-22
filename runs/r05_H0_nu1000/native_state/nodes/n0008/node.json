@@ -1,0 +1,237 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0008",
+  "parent": "n0007",
+  "revision": 9,
+  "branch": "framework",
+  "ts": 1790001199.385234,
+  "tool": "run_shelxl",
+  "params": {
+    "mode": "adopt",
+    "l_s": 10,
+    "timeout_s": 300
+  },
+  "note": "",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.182,
+    "r1_all": 0.2662,
+    "wr2": 0.4799,
+    "goof": 2.37,
+    "n_params": 155,
+    "n_reflections": 4395,
+    "diff_map_max": 1.518,
+    "diff_map_min": -1.104,
+    "flack": null,
+    "flack_su": null,
+    "notes": "",
+    "scale_k": 0.0024631369
+  },
+  "metrics_current": true,
+  "model": {
+    "n_atoms": 20,
+    "element_counts": {
+      "Zr": 2,
+      "O": 6,
+      "C": 12
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0024631369,
+  "mask": null,
+  "hydrogens": {
+    "present": false
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "free_or_none",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "run_shelxl",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0008"
+    }
+  },
+  "conditions_token": "d000001:n0008:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": 4395,
+      "applied": [
+        "SHEL 999 1.000"
+      ],
+      "application": "applied"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "measurement"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0024631369
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "free_or_none",
+      "groups": []
+    },
+    "twin": null,
+    "engine": "SHELXL",
+    "unknown_fields": [],
+    "metric_definition": "shelxl-r-factors-v1",
+    "experiment": {
+      "temperature_K": null,
+      "crystal_size": null
+    },
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0008",
+    "model_revision": 9,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_223314",
+    "conditions_token": "d000001:n0008:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0007",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

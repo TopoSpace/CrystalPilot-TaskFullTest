@@ -1,0 +1,119 @@
+data_n0036
+
+_audit_creation_method        'CrystalPilot'
+_chemical_formula_sum         'C11 H5.5 O4 Zr0.75'
+_cell_formula_units_Z         24
+# formula counts are per formula unit (cell content / Z); occupancy-weighted
+_diffrn_radiation_wavelength  0.68883
+_cell_length_a                39.1900
+_cell_length_b                39.1900
+_cell_length_c                16.6100
+_cell_angle_alpha             90.000
+_cell_angle_beta              90.000
+_cell_angle_gamma             120.000
+_cell_volume                  22092.80
+_space_group_crystal_system   hexagonal
+_space_group_IT_number        191
+_space_group_name_H-M_alt     'P 6/m m m'
+_space_group_name_Hall        '-P 6 2'
+
+loop_
+  _space_group_symop_operation_xyz
+  'x,y,z'
+  'x-y,x,z'
+  'y,-x+y,z'
+  '-y,x-y,z'
+  '-x+y,-x,z'
+  'x-y,-y,-z'
+  '-x,-x+y,-z'
+  '-x,-y,z'
+  'y,x,-z'
+  '-y,-x,-z'
+  '-x+y,y,-z'
+  'x,x-y,-z'
+  '-x,-y,-z'
+  '-x+y,-x,-z'
+  '-y,x-y,-z'
+  'y,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,y,z'
+  'x,x-y,z'
+  'x,y,-z'
+  '-y,-x,z'
+  'y,x,z'
+  'x-y,-y,z'
+  '-x,-x+y,z'
+
+_refine_ls_R_factor_gt            0.182
+_refine_ls_R_factor_all           0.2662
+_refine_ls_wR_factor_ref          0.4799
+_refine_ls_goodness_of_fit_ref    2.37
+_refine_ls_number_reflns          4395
+_refine_ls_number_parameters      155
+_refine_diff_density_max          1.518
+_refine_diff_density_min          -1.104
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  ZR1     Zr    0.46387   0.53613   0.50000   0.0706 Uani  1.000
+  ZR2     Zr    0.54482   0.54482   0.39393   0.0805 Uani  1.000
+  O1      O     0.48170   0.58707   0.58161   0.0895 Uani  1.000
+  O2      O     0.53401   0.59339   0.65091   0.1095 Uani  1.000
+  O3      O     0.52650   0.56279   0.50000   0.1244 Uani  1.000
+  O4      O     0.53731   0.53731   0.25959   0.1277 Uani  1.000
+  O5      O     0.60102   0.60102   0.41231   0.1567 Uani  1.000
+  O6      O     0.51802   0.48198   0.39316   0.1263 Uani  1.000
+  C1      C     0.50861   0.60277   0.63400   0.0964 Uani  1.000
+  C2      C     0.50591   0.69079   0.78170   0.1329 Uani  1.000
+  C3      C     0.47710   0.64060   0.67349   0.1195 Uani  1.000
+  C4      C     0.50923   0.63331   0.68676   0.1082 Uani  1.000
+  C5      C     0.47535   0.66992   0.72218   0.1343 Uani  1.000
+  C6      C     0.50574   0.72316   0.83070   0.1299 Uani  1.000
+  C7      C     0.50404   0.75202   0.78820   0.1387 Uani  1.000
+  C8      C     0.54110   0.65211   0.74088   0.1405 Uani  1.000
+  C9      C     0.50422   0.72167   0.91461   0.1303 Uani  1.000
+  C10     C     0.50329   0.75165   0.95654   0.1303 Uani  1.000
+  C11     C     0.53989   0.68239   0.79123   0.1554 Uani  1.000
+  C12     C     0.50346   0.68729   0.95969   0.1441 Uani  1.000
+  H3      H     0.45807   0.62672   0.63454   0.1434 Uiso  1.000
+  H5      H     0.45502   0.67543   0.71569   0.1612 Uiso  1.000
+  H7      H     0.50181   0.75090   0.73239   0.1664 Uiso  1.000
+  H8      H     0.56108   0.64593   0.74442   0.1686 Uiso  1.000
+  H11     H     0.55969   0.69637   0.82871   0.1865 Uiso  1.000
+  H12     H     0.50300   0.66658   0.93141   0.1729 Uiso  1.000
+
+loop_
+  _atom_site_aniso_label
+  _atom_site_aniso_U_11
+  _atom_site_aniso_U_22
+  _atom_site_aniso_U_33
+  _atom_site_aniso_U_23
+  _atom_site_aniso_U_13
+  _atom_site_aniso_U_12
+  ZR1       0.0829   0.0829   0.0614   0.0000   0.0000   0.0530
+  ZR2       0.0879   0.0879   0.0816   0.0121   0.0121   0.0559
+  O1        0.1048   0.0964   0.0915  -0.0003   0.0014   0.0686
+  O2        0.1134   0.1146   0.1209  -0.0377  -0.0252   0.0723
+  O3        0.1158   0.2116   0.0848   0.0000   0.0000   0.1111
+  O4        0.1884   0.1884   0.0763   0.0233   0.0233   0.1467
+  O5        0.0920   0.0920   0.2847   0.0047   0.0047   0.0451
+  O6        0.1033   0.1033   0.1799   0.0268  -0.0268   0.0574
+  C1        0.1163   0.1155   0.0926   0.0035  -0.0037   0.0844
+  C2        0.2329   0.1252   0.0734   0.0075  -0.0123   0.1141
+  C3        0.1931   0.1125   0.0928  -0.0359  -0.0137   0.1064
+  C4        0.1567   0.0920   0.1174   0.0034   0.0126   0.0934
+  C5        0.1966   0.1330   0.1007  -0.0101  -0.0135   0.1030
+  C6        0.2298   0.1027   0.0924  -0.0386  -0.0128   0.1096
+  C7        0.2485   0.0814   0.1418  -0.0172  -0.0344   0.1242
+  C8        0.1909   0.1153   0.1141  -0.0640  -0.0807   0.0756
+  C9        0.2358   0.1111   0.0709  -0.0208  -0.0150   0.1068
+  C10       0.2493   0.1107   0.0771  -0.0062  -0.0124   0.1247
+  C11       0.2593   0.1376   0.1141   0.0037  -0.0253   0.1327
+  C12       0.2473   0.1478   0.0863   0.0169   0.0092   0.1358

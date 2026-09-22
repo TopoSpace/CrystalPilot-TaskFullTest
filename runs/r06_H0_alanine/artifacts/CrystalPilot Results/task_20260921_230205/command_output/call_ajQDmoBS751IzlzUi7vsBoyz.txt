@@ -1,0 +1,133 @@
+53:_cell_length_a                    5.788
+
+54:_cell_length_b                    5.969
+
+55:_cell_length_c                    12.299
+
+56-_cell_angle_alpha                 90
+
+57-_cell_angle_beta                  90
+
+58-_cell_angle_gamma                 90
+
+59:_cell_volume                      424.9
+
+60-_cell_formula_units_Z             4
+
+61-_cell_measurement_temperature     150
+
+62-_cell_measurement_reflns_used     351
+
+63-_cell_measurement_theta_min       1.656
+
+64-_cell_measurement_theta_max       30.034
+
+65- 
+
+66-_exptl_crystal_description        ?
+
+67-_exptl_crystal_colour             ?
+
+68-_exptl_crystal_density_meas       ?
+
+69-_exptl_crystal_density_method     ?
+
+70-_exptl_crystal_density_diffrn     1.393          
+
+71-_exptl_crystal_F_000              192
+
+72-_exptl_transmission_factor_min    ?
+
+73-_exptl_transmission_factor_max    ?
+
+74-_exptl_crystal_size_max           ?
+
+75-_exptl_crystal_size_mid           ?
+
+76-_exptl_crystal_size_min           ?
+
+77-_exptl_absorpt_coefficient_mu     0.116
+
+78-_shelx_estimated_absorpt_T_min    ?
+
+79-_shelx_estimated_absorpt_T_max    ?
+
+80-_exptl_absorpt_correction_type    multi-scan
+
+81-_exptl_absorpt_correction_T_min   ?
+
+82-_exptl_absorpt_correction_T_max   ?
+
+83-_exptl_absorpt_process_details    'DIALS physical scaling with scale/decay and absorption terms as selected by dials.scale; unresolved shadow-contaminated observations and outlier selection documented in VALIDATION.md.'
+
+84-_exptl_absorpt_special_details    ?
+
+85-_diffrn_ambient_temperature       150
+
+86-_diffrn_radiation_wavelength      0.71073
+
+87-_diffrn_radiation_type            MoK\a
+
+--
+103:_diffrn_reflns_theta_full         25.242
+
+104:_diffrn_measured_fraction_theta_max   0.879
+
+105:_diffrn_measured_fraction_theta_full  0.998
+
+106-_diffrn_reflns_Laue_measured_fraction_max    0.879
+
+107-_diffrn_reflns_Laue_measured_fraction_full   0.998
+
+108-_diffrn_reflns_point_group_measured_fraction_max   0.839
+
+109-_diffrn_reflns_point_group_measured_fraction_full  0.999
+
+110-_reflns_number_total              1055
+
+111-_reflns_number_gt                 966
+
+112-_reflns_threshold_expression      'I > 2\s(I)'
+
+113-_reflns_Friedel_coverage          0.577
+
+114-_reflns_Friedel_fraction_max      0.777
+
+115-_reflns_Friedel_fraction_full     1.000
+
+116- 
+
+117-_reflns_special_details
+
+118-;
+
+119- Reflections were merged by SHELXL according to the crystal
+
+120- class for the calculation of statistics and refinement.
+
+121- 
+
+122- _reflns_Friedel_fraction is defined as the number of unique
+
+123- Friedel pairs measured divided by the number that would be
+
+124- possible theoretically, ignoring centric projections and
+
+125- systematic absences.
+
+126-;
+
+127- 
+
+128-_computing_data_collection        'CrysAlisPro (Rigaku Oxford Diffraction)'
+
+129-_computing_cell_refinement        DIALS
+
+130-_computing_data_reduction         DIALS
+
+131-_computing_structure_solution     ?
+
+132-_computing_structure_refinement 'SHELXL-2019/2 (Sheldrick, 2019)'
+
+133-_computing_molecular_graphics     'CrystalPilot workbench (3Dmol.js)'
+

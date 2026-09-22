@@ -1,0 +1,142 @@
+data_alanine_task_local
+_audit_creation_date '2026-09-22'
+_audit_creation_method 'Independent task-local Python algorithms; numpy and scipy only'
+_audit_update_record
+;
+Raw-frame decoding, geometry, integration, symmetry merging, direct-space
+solution and least-squares refinement independently implemented in this task.
+No crystallographic software/library or external reference structure used.
+Provisional research model: see REPORT_zh.md and validation.json.
+;
+_chemical_name_common 'alanine'
+_chemical_formula_sum 'C3 H7 N O2'
+_chemical_formula_weight 89.093
+_chemical_absolute_configuration 'unk'
+_space_group_name_H-M_alt 'P 21 21 21'
+_space_group_name_Hall 'P 2ac 2ab'
+_space_group_IT_number 19
+_symmetry_cell_setting 'orthorhombic'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+2 'x+1/2,-y+1/2,-z'
+3 '-x,y+1/2,-z+1/2'
+4 '-x+1/2,-y,z+1/2'
+_cell_length_a 5.79561(22)
+_cell_length_b 5.96930(31)
+_cell_length_c 12.29724(54)
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 425.432(49)
+_cell_formula_units_Z 4
+_cell_measurement_temperature 150.0
+_diffrn_ambient_temperature 150.0
+_diffrn_radiation_type 'Mo Kalpha'
+_diffrn_radiation_wavelength 0.71073
+_diffrn_measurement_device_type 'HyPix Arc 100 (supplied acquisition metadata)'
+_diffrn_measurement_method 'omega scans, 0.5 degree frames, 2 s exposure'
+_diffrn_detector 'hybrid pixel area detector'
+_exptl_crystal_colour ?
+_exptl_crystal_description ?
+_exptl_crystal_size_max ?
+_exptl_crystal_size_mid ?
+_exptl_crystal_size_min ?
+_exptl_crystal_density_diffrn 1.39098
+_exptl_crystal_F_000 192
+_exptl_absorpt_coefficient_mu ?
+_exptl_absorpt_correction_type 'none'
+_exptl_absorpt_process_details
+;
+No physical absorption correction. Relative run/module scale factors
+derived from symmetry equivalents only; blocked/invalid pixels flagged.
+;
+_diffrn_reflns_number 3830
+_diffrn_reflns_av_R_equivalents 0.040810
+_diffrn_reflns_theta_min 3.31331
+_diffrn_reflns_theta_max 30.10850
+_diffrn_measured_fraction_theta_max 0.863338
+_diffrn_reflns_theta_full 26.37257
+_diffrn_measured_fraction_theta_full 1.000000
+_reflns_number_total 657
+_reflns_number_gt 599
+_reflns_threshold_expression 'I > 2 sigma(I)'
+_refine_ls_structure_factor_coef 'Fsqd'
+_refine_ls_matrix_type 'full'
+_refine_ls_number_reflns 657
+_refine_ls_number_parameters 57
+_refine_ls_number_restraints 0
+_refine_ls_R_factor_gt 0.033364
+_refine_ls_R_factor_all 0.040290
+_refine_ls_wR_factor_ref 0.075552
+_refine_ls_goodness_of_fit_ref 1.329337
+_refine_ls_weighting_scheme 'calc'
+_refine_ls_weighting_details '1/(sigma(I)^2 + (0.03*max(I,0))^2)'
+_refine_ls_hydrogen_treatment 'constr'
+_refine_ls_abs_structure_Flack ?
+_refine_ls_abs_structure_details
+;
+Absolute configuration undetermined. Friedel equivalents merged.
+Template hand chosen arbitrarily; no anomalous-scattering refinement.
+;
+_refine_diff_density_max 0.226039
+_refine_diff_density_min -0.261000
+_refine_diff_density_rms 0.060953
+_refine_special_details
+;
+All non-H coordinates and anisotropic U freely refined on F squared.
+H atoms ride; CA-H 0.98 A, NH3-H 0.91 A, CH3-H 0.98 A.
+NH3 and CH3 torsions refined. H Uiso multipliers 1.2 (CA) and 1.5.
+Neutral-atom four-Gaussian form factors; no dispersion terms.
+Covariance scaled by residual variance; uncertainties remain conditional
+on the intensity-error, geometry and riding-H models.
+No independent standard crystallographic validation was available.
+;
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+CA C 0.35490(24) 0.03082(29) 0.33900(11) 0.01360(35) Uani 1 d
+N1 N 0.18395(20) -0.14962(25) 0.36247(11) 0.01404(34) Uani 1 d
+C1 C 0.60045(25) -0.05648(30) 0.35904(11) 0.01304(35) Uani 1 d
+C2 C 0.30360(30) 0.23499(34) 0.40885(13) 0.01954(40) Uani 1 d
+O1 O 0.62544(19) -0.22732(23) 0.416222(87) 0.01853(32) Uani 1 d
+O2 O 0.76119(18) 0.05580(22) 0.315777(86) 0.01856(32) Uani 1 d
+HA H 0.3430464 0.0753865 0.2625038 0.016325 Uiso 1 calc
+HN1 H 0.2092635 -0.2676098 0.3171575 0.021067 Uiso 1 calc
+HN2 H 0.0386631 -0.0960843 0.3518804 0.021067 Uiso 1 calc
+HN3 H 0.1996390 -0.1952381 0.4326914 0.021067 Uiso 1 calc
+HM1 H 0.3072610 0.1924038 0.4857995 0.029314 Uiso 1 calc
+HM2 H 0.1504327 0.2934993 0.3905915 0.029314 Uiso 1 calc
+HM3 H 0.4200326 0.3506702 0.3951966 0.029314 Uiso 1 calc
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CA 0.01102(71) 0.01696(89) 0.01283(66) 0.00029(67) 0.00058(55) 0.00237(69)
+N1 0.00907(62) 0.01695(74) 0.01611(63) 0.00015(54) -0.00038(53) 0.00127(60)
+C1 0.01327(70) 0.01600(87) 0.00986(61) 0.00166(70) 0.00019(58) -0.00260(69)
+C2 0.01508(80) 0.01920(95) 0.02435(81) 0.00165(75) 0.00023(63) -0.00211(78)
+O1 0.01534(59) 0.02145(74) 0.01879(55) 0.00170(53) -0.00194(45) 0.00506(53)
+O2 0.01105(53) 0.02329(74) 0.02134(55) -0.00054(56) 0.00130(43) 0.00427(55)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+CA N1 1.4916(21) .
+CA C1 1.5354(21) .
+CA C2 1.5204(24) .
+C1 O1 1.2472(21) .
+C1 O2 1.2649(19) .

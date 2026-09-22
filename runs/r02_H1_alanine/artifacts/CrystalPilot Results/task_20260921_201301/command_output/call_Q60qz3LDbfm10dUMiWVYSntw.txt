@@ -1,0 +1,32 @@
+inputs/alanine/pgw240033_Mo.par:13:�- GONIOMETER OXFORD DIFFRACTION KM4 XCALIBUR2
+
+inputs/alanine/pgw240033_Mo.par:18:�   - BEAM PATH ABSORPTIONCOEFFICIENTS (MM-1): AIR    0.00013 BE    0.10440
+
+inputs/alanine/pgw240033_Mo.par:25:�            ZOOM 0.000000 PIXELSIZE IN 1X1 BINNING (MM)  0.10000
+
+inputs/alanine/pgw240033_Mo.par:47:� CCD VISUALIZATION lookuptablename colortablename
+
+inputs/alanine/pgw240033_Mo.par:59:� CRYSTALLOGRAPHY EWALDEXPLORERSCREEN centerh centerv sizeh sizev
+
+inputs/alanine/pgw240033_Mo.par:110:EXPERIMENT GENERATOR     50.000      1.000 MICROFOCUS     50.000      1.000 MICROFOCUS 1 1 2 1     60.000 3 5 3 5
+
+inputs/alanine/pgw240033_Mo.par:164:GONIOMETER TYPE KUMA_KM4NEW_ZYNQ_DC8_III_PRO_XTALCHECK_DUALDD GEMINIMKII    15.00000    2.30000 HYPIXARC100   FALSE     1.00000    1.00000    1.00000   TIME FALSE FALSE FALSE TRUE FALSE     0.00000 -2.0 2.0 1.20 KM4_HYPIXARC100_SYNERGYDUALFLEX#ACCADVANCED TRUE  0.0 -2.0 0.0 0.0
+
+inputs/alanine/pgw240033_Mo.par:181:� ROTATION ABSORPTIONCOEFFICIENTS wavelengthtypeMo_or_h wavelengthtypeCu_or_h
+
+inputs/alanine/pgw240033_Mo.par:182:ROTATION ABSORPTIONCOEFFICIENTS  CU  MO
+
+inputs/alanine/pgw240033_Mo.par:209:� ROTSIMULATOR DIFFRACTIONINTENSITY int dw
+
+inputs/alanine/pgw240033_Mo.par:210:ROTSIMULATOR DIFFRACTIONINTENSITY 10000 0.0
+
+inputs/alanine/pgw240033_Mo.par:211:� ROTSIMULATOR PEAKSHAPE xsizeinmm xsigmafactor ysizeinmm ysigmafactor
+
+inputs/alanine/pgw240033_Mo.par:219:� SHAPE ABSORPTIONCOEFFICIENT coeffininvmm z
+
+inputs/alanine/pgw240033_Mo.par:220:SHAPE ABSORPTIONCOEFFICIENT   0.000000   1.000000
+
+inputs/alanine/CrysalisExpSettings.ini:137:use_synergy=1
+
+inputs/alanine/CrysalisExpSettings.ini:140:[CrystalHolderShadow_SynergyAGH]
+

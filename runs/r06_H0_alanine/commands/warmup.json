@@ -1,0 +1,10 @@
+{
+  "thread": "01a0c47d-114a-7771-ad5c-579b7afadef2",
+  "ended": "turn_completed",
+  "mcp": {
+    "present": true,
+    "n_tools": 73,
+    "error": null
+  },
+  "seconds": 21.9
+}

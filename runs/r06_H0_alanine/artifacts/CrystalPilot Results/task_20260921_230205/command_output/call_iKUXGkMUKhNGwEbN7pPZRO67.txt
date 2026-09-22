@@ -1,0 +1,32 @@
+inputs/alanine/pgw240033_Mo_ccd.sum:17:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo_ccd.sum:30:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo_ccd.sum:42:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo_ccd.sum:54:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo_ccd.sum:66:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo_ccd.sum:78:MEMORY INFO: Image pool: CCD 40.2/276.0 (#17, page size: 4096)
+
+inputs/alanine/pgw240033_Mo.CAP_shape:1:#This file saves the face list of CAP to allow shape editing during experiment and computation
+
+inputs/alanine/pgw240033_Mo.CAP_shape:8:SHAPE FACE   0.000475  -0.999611  -0.999340   0.039122  -0.086731   0.095489   0.028318
+
+inputs/alanine/pgw240033_Mo.CAP_shape:9:SHAPE FACE  -0.000475   0.999611   0.999340   0.039122   0.086731  -0.095489  -0.028318
+
+inputs/alanine/pgw240033_Mo.CAP_shape:10:SHAPE FACE   0.000296  -0.999288   0.999462   0.021436  -0.131844  -0.007347   0.002048
+
+inputs/alanine/pgw240033_Mo.CAP_shape:11:SHAPE FACE  -0.000296   0.999288  -0.999462   0.021436   0.131844   0.007347  -0.002048
+
+inputs/alanine/pgw240033_Mo.CAP_shape:12:SHAPE FACE  -0.000089   0.000161   0.999401   0.043672  -0.022556  -0.051418  -0.013135
+
+inputs/alanine/pgw240033_Mo.CAP_shape:13:SHAPE FACE   0.000089  -0.000161  -0.999401   0.055672   0.022556   0.051418   0.013135
+
+inputs/alanine/pgw240033_Mo.CAP_shape:14:SHAPE FACE  -0.999547   0.000094   0.000416   0.064136   0.003616  -0.031795   0.118125
+
+inputs/alanine/pgw240033_Mo.CAP_shape:15:SHAPE FACE  -0.999636   0.000255   0.999817   0.059677  -0.018941  -0.083213   0.104990
+
+inputs/alanine/pgw240033_Mo.CAP_shape:16:SHAPE FACE   0.999636  -0.000255  -0.999817   0.074677   0.018941   0.083213  -0.104990
+

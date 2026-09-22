@@ -1,0 +1,33 @@
+{
+  "method": "V_full = T * (reduced_chi_square * inverse_normal_matrix) * T_transpose",
+  "reduced_chi_square": 0.2223205357744309,
+  "expanded_parameters": 105,
+  "independent_parameters": 90,
+  "constraint_groups": [
+    [
+      87,
+      90,
+      93,
+      96,
+      99,
+      102
+    ],
+    [
+      88,
+      91,
+      94,
+      97,
+      100,
+      103
+    ],
+    [
+      89,
+      92,
+      95,
+      98,
+      101,
+      104
+    ]
+  ],
+  "reduced_covariance_min_eigenvalue": 4.6073476960382174e-07
+}

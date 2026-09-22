@@ -1,0 +1,380 @@
+[
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 0,
+    "R1_work_modified_density": 0.29626542375203174,
+    "R1_test_modified_density": 0.28816351883183994,
+    "phases_changed": 782,
+    "DC": 4516.801425639619
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 40,
+    "R1_work_modified_density": 0.20508477504968886,
+    "R1_test_modified_density": 0.38833446257697635,
+    "phases_changed": 975,
+    "DC": 5010.407899084208
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 80,
+    "R1_work_modified_density": 0.20566161422642212,
+    "R1_test_modified_density": 0.38613406367780523,
+    "phases_changed": 999,
+    "DC": 5014.005255502216
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 120,
+    "R1_work_modified_density": 0.2058607412857763,
+    "R1_test_modified_density": 0.38449626959624134,
+    "phases_changed": 992,
+    "DC": 5017.791228252946
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 160,
+    "R1_work_modified_density": 0.20491973550667322,
+    "R1_test_modified_density": 0.38559373855680357,
+    "phases_changed": 994,
+    "DC": 5023.554164392178
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 200,
+    "R1_work_modified_density": 0.20418579709249896,
+    "R1_test_modified_density": 0.38727792824590807,
+    "phases_changed": 1001,
+    "DC": 5037.026470493616
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 240,
+    "R1_work_modified_density": 0.20454237514589596,
+    "R1_test_modified_density": 0.38779093543153015,
+    "phases_changed": 1008,
+    "DC": 5034.92517800094
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 280,
+    "R1_work_modified_density": 0.20413002168410677,
+    "R1_test_modified_density": 0.391059514676436,
+    "phases_changed": 1003,
+    "DC": 5044.900803977582
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 320,
+    "R1_work_modified_density": 0.20382267154617248,
+    "R1_test_modified_density": 0.3908258090709935,
+    "phases_changed": 1006,
+    "DC": 5048.0985041447475
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 360,
+    "R1_work_modified_density": 0.20397433089538727,
+    "R1_test_modified_density": 0.3895951972461917,
+    "phases_changed": 1011,
+    "DC": 5058.272294825557
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 400,
+    "R1_work_modified_density": 0.20437948058431987,
+    "R1_test_modified_density": 0.3907517607324072,
+    "phases_changed": 1012,
+    "DC": 5058.730807984106
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 440,
+    "R1_work_modified_density": 0.2041910021172054,
+    "R1_test_modified_density": 0.3917795818552675,
+    "phases_changed": 1006,
+    "DC": 5059.931961808484
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 480,
+    "R1_work_modified_density": 0.20394843724558748,
+    "R1_test_modified_density": 0.3913412406235476,
+    "phases_changed": 1016,
+    "DC": 5052.93115504932
+  },
+  {
+    "trial": 0,
+    "delta_ratio": 0.35,
+    "iteration": 499,
+    "R1_work_modified_density": 0.20334731980568604,
+    "R1_test_modified_density": 0.39041294852021596,
+    "phases_changed": 1001,
+    "DC": 5036.838044989732
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 0,
+    "R1_work_modified_density": 0.3162901725079602,
+    "R1_test_modified_density": 0.289708542266401,
+    "phases_changed": 879,
+    "DC": 3930.3908199550915
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 40,
+    "R1_work_modified_density": 0.28660207995561093,
+    "R1_test_modified_density": 0.3271997092843122,
+    "phases_changed": 911,
+    "DC": 2445.09732334139
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 80,
+    "R1_work_modified_density": 0.2879835998213754,
+    "R1_test_modified_density": 0.34023827512045624,
+    "phases_changed": 912,
+    "DC": 2494.302897045041
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 120,
+    "R1_work_modified_density": 0.28535895883971074,
+    "R1_test_modified_density": 0.33539524910995877,
+    "phases_changed": 914,
+    "DC": 2544.7074966792484
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 160,
+    "R1_work_modified_density": 0.28431378212022546,
+    "R1_test_modified_density": 0.34746885048406173,
+    "phases_changed": 900,
+    "DC": 2547.655192513115
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 200,
+    "R1_work_modified_density": 0.29294778477989086,
+    "R1_test_modified_density": 0.3327471290039434,
+    "phases_changed": 923,
+    "DC": 2639.448135953928
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 240,
+    "R1_work_modified_density": 0.28469475842099334,
+    "R1_test_modified_density": 0.31825708939513575,
+    "phases_changed": 947,
+    "DC": 2476.3682276028862
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 280,
+    "R1_work_modified_density": 0.28846814633285417,
+    "R1_test_modified_density": 0.30981299330612494,
+    "phases_changed": 918,
+    "DC": 2494.449259164953
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 320,
+    "R1_work_modified_density": 0.284225337857883,
+    "R1_test_modified_density": 0.32567673279503984,
+    "phases_changed": 950,
+    "DC": 2472.829749856906
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 360,
+    "R1_work_modified_density": 0.2892087576852994,
+    "R1_test_modified_density": 0.3317540178257697,
+    "phases_changed": 938,
+    "DC": 2439.367720208546
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 400,
+    "R1_work_modified_density": 0.2905969108377843,
+    "R1_test_modified_density": 0.36025742940937755,
+    "phases_changed": 928,
+    "DC": 2540.0239077260467
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 440,
+    "R1_work_modified_density": 0.2922005028093011,
+    "R1_test_modified_density": 0.34665778612754455,
+    "phases_changed": 949,
+    "DC": 2506.4952434813817
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 480,
+    "R1_work_modified_density": 0.2873197336886113,
+    "R1_test_modified_density": 0.3389435827906539,
+    "phases_changed": 933,
+    "DC": 2572.2682017510633
+  },
+  {
+    "trial": 1,
+    "delta_ratio": 0.6,
+    "iteration": 499,
+    "R1_work_modified_density": 0.2966496558154995,
+    "R1_test_modified_density": 0.3519982666096731,
+    "phases_changed": 930,
+    "DC": 2670.1561834823983
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 0,
+    "R1_work_modified_density": 0.32923796873285754,
+    "R1_test_modified_density": 0.29772404372433964,
+    "phases_changed": 902,
+    "DC": 3655.710953847356
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 40,
+    "R1_work_modified_density": 0.31016944110227584,
+    "R1_test_modified_density": 0.3954194396608415,
+    "phases_changed": 909,
+    "DC": 2205.006933763763
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 80,
+    "R1_work_modified_density": 0.311753935117753,
+    "R1_test_modified_density": 0.40923740563825817,
+    "phases_changed": 925,
+    "DC": 2146.907315324812
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 120,
+    "R1_work_modified_density": 0.31126853125989473,
+    "R1_test_modified_density": 0.4222224054020133,
+    "phases_changed": 917,
+    "DC": 2158.898609636806
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 160,
+    "R1_work_modified_density": 0.31020676874647546,
+    "R1_test_modified_density": 0.40404767532452285,
+    "phases_changed": 908,
+    "DC": 2168.955162598019
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 200,
+    "R1_work_modified_density": 0.31219945069804406,
+    "R1_test_modified_density": 0.40741475278224454,
+    "phases_changed": 923,
+    "DC": 2196.3894202274455
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 240,
+    "R1_work_modified_density": 0.3129620131024831,
+    "R1_test_modified_density": 0.4099771439786726,
+    "phases_changed": 930,
+    "DC": 2176.1377463558338
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 280,
+    "R1_work_modified_density": 0.31193895295158147,
+    "R1_test_modified_density": 0.4092027535965397,
+    "phases_changed": 917,
+    "DC": 2201.1106887428577
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 320,
+    "R1_work_modified_density": 0.31163694898744043,
+    "R1_test_modified_density": 0.41204704250605023,
+    "phases_changed": 926,
+    "DC": 2235.0385970467833
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 360,
+    "R1_work_modified_density": 0.3129769861580271,
+    "R1_test_modified_density": 0.413012070729693,
+    "phases_changed": 932,
+    "DC": 2210.580792612266
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 400,
+    "R1_work_modified_density": 0.31273256709732344,
+    "R1_test_modified_density": 0.41014696823322827,
+    "phases_changed": 929,
+    "DC": 2231.4590965503407
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 440,
+    "R1_work_modified_density": 0.31302969312729123,
+    "R1_test_modified_density": 0.4149143938590545,
+    "phases_changed": 917,
+    "DC": 2194.127870558633
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 480,
+    "R1_work_modified_density": 0.3115030577600315,
+    "R1_test_modified_density": 0.41120019611848774,
+    "phases_changed": 923,
+    "DC": 2198.1832634881216
+  },
+  {
+    "trial": 2,
+    "delta_ratio": 0.85,
+    "iteration": 499,
+    "R1_work_modified_density": 0.30985917870536994,
+    "R1_test_modified_density": 0.41452423372047775,
+    "phases_changed": 833,
+    "DC": 1271.640441611558
+  }
+]

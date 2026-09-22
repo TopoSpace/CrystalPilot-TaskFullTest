@@ -1,0 +1,297 @@
+{
+  "runtime": {
+    "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+    "executable": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "raw_data": {
+    "formal_frames": 616,
+    "all_raw_sha256_unchanged": true,
+    "max_header_mean_total_discrepancy_counts": 7.275957614183426e-12,
+    "total_integer_counts": 22210409,
+    "maximum_pixel_count": 12764,
+    "decoded_cache_roundtrip_tests": 6,
+    "preexperiment_frames_not_used": 30
+  },
+  "geometry_stability": {
+    "leave_one_run_out_cells": [
+      [
+        5.797027649715432,
+        5.971009027431769,
+        12.302978431201993
+      ],
+      [
+        5.796604097078274,
+        5.97027130753455,
+        12.300279800451435
+      ],
+      [
+        5.797201595645836,
+        5.971973041659225,
+        12.301500813132927
+      ],
+      [
+        5.796751256552393,
+        5.969618532697357,
+        12.30141591248091
+      ],
+      [
+        5.797017725944666,
+        5.971889282368597,
+        12.302311099638041
+      ],
+      [
+        5.797078562178821,
+        5.971219452251334,
+        12.30183096062784
+      ]
+    ],
+    "jackknife_cell_esd": [
+      0.00045600784917727854,
+      0.0018764452566564739,
+      0.0018619088530109891
+    ],
+    "conditional_cell_esd": [
+      0.000545053196349373,
+      0.0008008946702466129,
+      0.0014061009215154798
+    ],
+    "adopted_internal_cell_esd": [
+      0.000545053196349373,
+      0.0018764452566564739,
+      0.0018619088530109891
+    ],
+    "heldout_q_rms_conditional_on_scan_zero": [
+      0.0005027060192555929,
+      0.0006245787698717061,
+      0.0002832365577364127,
+      0.0009097015223239297,
+      0.00040613062359659715,
+      0.00025075815655529744
+    ],
+    "warning": "Scan-zero initialization and fixed pixel pitch are shared. Not an external calibration."
+  },
+  "completeness": [
+    {
+      "d_min": 0.7,
+      "expected": 788,
+      "measured": 649,
+      "fraction": 0.8236040609137056
+    },
+    {
+      "d_min": 0.73,
+      "expected": 696,
+      "measured": 640,
+      "fraction": 0.9195402298850575
+    },
+    {
+      "d_min": 0.75,
+      "expected": 642,
+      "measured": 623,
+      "fraction": 0.9704049844236761
+    },
+    {
+      "d_min": 0.8,
+      "expected": 540,
+      "measured": 540,
+      "fraction": 1.0
+    },
+    {
+      "d_min": 0.9,
+      "expected": 386,
+      "measured": 386,
+      "fraction": 1.0
+    },
+    {
+      "d_min": 1.0,
+      "expected": 284,
+      "measured": 284,
+      "fraction": 1.0
+    },
+    {
+      "d_min": 1.2,
+      "expected": 171,
+      "measured": 171,
+      "fraction": 1.0
+    },
+    {
+      "d_min": 1.5,
+      "expected": 90,
+      "measured": 90,
+      "fraction": 1.0
+    },
+    {
+      "d_min": 2.0,
+      "expected": 40,
+      "measured": 40,
+      "fraction": 1.0
+    }
+  ],
+  "cross_validation": {
+    "folds": [
+      {
+        "fold": 0,
+        "train_n": 498,
+        "test_n": 125,
+        "R1_test": 0.041299499333780264
+      },
+      {
+        "fold": 1,
+        "train_n": 498,
+        "test_n": 125,
+        "R1_test": 0.04167963761703559
+      },
+      {
+        "fold": 2,
+        "train_n": 498,
+        "test_n": 125,
+        "R1_test": 0.03612029460853047
+      },
+      {
+        "fold": 3,
+        "train_n": 499,
+        "test_n": 124,
+        "R1_test": 0.04016778986365834
+      },
+      {
+        "fold": 4,
+        "train_n": 499,
+        "test_n": 124,
+        "R1_test": 0.04700423025591352
+      }
+    ],
+    "combined_R1_test_all": 0.040967943358082494,
+    "combined_R1_test_observed": 0.03585417630940194,
+    "qualification": "Conditional parameter-refinement validation; initial phasing and SG used all data."
+  },
+  "numerical_checks": {
+    "Friedel_conjugacy_max_error": 0.0,
+    "screw_absence_max_amplitude": 2.1690855952432695e-14,
+    "isotropic_amplitude_jacobian_max_error": 2.725907961576013e-07,
+    "minimum_U_eigenvalue": 0.010262543688140818
+  },
+  "molecular_geometry": {
+    "bonds": [
+      {
+        "atom1": "O1",
+        "atom2": "C1",
+        "distance": 1.247064315985079,
+        "esd": 0.0020987023107772052
+      },
+      {
+        "atom1": "O2",
+        "atom2": "C1",
+        "distance": 1.265678439450489,
+        "esd": 0.0019776588525359027
+      },
+      {
+        "atom1": "C1",
+        "atom2": "C2",
+        "distance": 1.5356567268294339,
+        "esd": 0.0021319517249539658
+      },
+      {
+        "atom1": "N1",
+        "atom2": "C2",
+        "distance": 1.4914206203039513,
+        "esd": 0.0021285519715429696
+      },
+      {
+        "atom1": "C2",
+        "atom2": "C3",
+        "distance": 1.5194165197437115,
+        "esd": 0.0024018664948194705
+      }
+    ],
+    "angles": [
+      {
+        "atom1": "O1",
+        "atom2": "C1",
+        "atom3": "O2",
+        "angle": 125.80568660439691,
+        "esd": 0.14137390476876055
+      },
+      {
+        "atom1": "O1",
+        "atom2": "C1",
+        "atom3": "C2",
+        "angle": 118.40212239083331,
+        "esd": 0.131397299231774
+      },
+      {
+        "atom1": "O2",
+        "atom2": "C1",
+        "atom3": "C2",
+        "angle": 115.7894360547584,
+        "esd": 0.14006180270748417
+      },
+      {
+        "atom1": "N1",
+        "atom2": "C2",
+        "atom3": "C1",
+        "angle": 109.87497055674123,
+        "esd": 0.1336400654957975
+      },
+      {
+        "atom1": "N1",
+        "atom2": "C2",
+        "atom3": "C3",
+        "angle": 109.81955689659623,
+        "esd": 0.1311462408579879
+      },
+      {
+        "atom1": "C1",
+        "atom2": "C2",
+        "atom3": "C3",
+        "angle": 111.22657853471264,
+        "esd": 0.13059267120274615
+      }
+    ],
+    "hydrogen_bonds": [
+      {
+        "donor": "N1",
+        "hydrogen": "H1N",
+        "acceptor": "O1",
+        "symop": 2,
+        "translation": [
+          -1,
+          0,
+          1
+        ],
+        "H_A": 1.9635062935220289,
+        "D_A": 2.84093987508044,
+        "D_H_A": 161.42790818432192
+      },
+      {
+        "donor": "N1",
+        "hydrogen": "H2N",
+        "acceptor": "O2",
+        "symop": 3,
+        "translation": [
+          2,
+          -1,
+          0
+        ],
+        "H_A": 1.95406112698432,
+        "D_A": 2.8290320128296096,
+        "D_H_A": 160.72154648367547
+      },
+      {
+        "donor": "N1",
+        "hydrogen": "H3N",
+        "acceptor": "O2",
+        "symop": 1,
+        "translation": [
+          -1,
+          0,
+          0
+        ],
+        "H_A": 1.8988339108183554,
+        "D_A": 2.799666385513336,
+        "D_H_A": 170.1042708159707
+      }
+    ]
+  }
+}

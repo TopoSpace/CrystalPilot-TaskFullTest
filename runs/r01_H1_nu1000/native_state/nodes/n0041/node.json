@@ -1,0 +1,488 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0041",
+  "parent": "n0040",
+  "revision": 42,
+  "branch": "diag_terminal_disorder",
+  "ts": 1789991174.6533606,
+  "tool": "run_shelxl",
+  "params": {
+    "mode": "adopt",
+    "l_s": 12,
+    "timeout_s": 180
+  },
+  "note": "",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.1846,
+    "r1_all": 0.2686,
+    "wr2": 0.4782,
+    "goof": 2.36,
+    "n_params": 155,
+    "n_reflections": 4395,
+    "diff_map_max": 1.523,
+    "diff_map_min": -1.159,
+    "flack": null,
+    "flack_su": null,
+    "notes": "",
+    "scale_k": 0.0024304899999999996
+  },
+  "metrics_current": true,
+  "model": {
+    "n_atoms": 28,
+    "element_counts": {
+      "Zr": 2,
+      "O": 8,
+      "C": 12,
+      "H": 6
+    }
+  },
+  "restraints": [
+    {
+      "kind": "SADI",
+      "atoms": [
+        [
+          "O4",
+          "ZR2"
+        ],
+        [
+          "O4B",
+          "ZR2"
+        ]
+      ],
+      "sigma": 0.02
+    },
+    {
+      "kind": "SIMU",
+      "atoms": [
+        "O4",
+        "O4B"
+      ],
+      "sigma": 0.04,
+      "sigma_terminal": 0.08
+    },
+    {
+      "kind": "SADI",
+      "atoms": [
+        [
+          "O5",
+          "ZR2"
+        ],
+        [
+          "O5B",
+          "ZR2"
+        ]
+      ],
+      "sigma": 0.02
+    },
+    {
+      "kind": "SIMU",
+      "atoms": [
+        "O5",
+        "O5B"
+      ],
+      "sigma": 0.04,
+      "sigma_terminal": 0.08
+    }
+  ],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0024304899999999996,
+  "mask": null,
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C"
+    ],
+    "n_groups": 6
+  },
+  "disorder_groups": [
+    {
+      "fvar_index": 2,
+      "value": 0.98502,
+      "members": [
+        {
+          "label": "O4",
+          "part": 1,
+          "sign": 1,
+          "mult": 0.5
+        },
+        {
+          "label": "O4B",
+          "part": 2,
+          "sign": -1,
+          "mult": 0.5
+        }
+      ],
+      "free_variable": {
+        "index": 2,
+        "value": 0.98502,
+        "su": 0.01688,
+        "informative": "FVAR2 = 0.985(17) is 0.9 s.u. from 1.000, i.e. inside the 2 s.u. window: the refinement put essentially ALL of the density on component A and left B with nothing. The split is not supported by these data - B is refining on noise. s.u. 系统性低估 1.5–2×（Linden §13.7），本比值是下限",
+        "verdict": "revoke",
+        "rule": "|1 - k| <= 2 s.u. -> the minor component is not distinguishable from empty",
+        "sigma_from_0": 58.4,
+        "sigma_from_1": 0.9,
+        "measured_by": "job_20260921_194608"
+      },
+      "verdict": "revoke"
+    },
+    {
+      "fvar_index": 3,
+      "value": 0.97481,
+      "members": [
+        {
+          "label": "O5",
+          "part": 1,
+          "sign": 1,
+          "mult": 0.5
+        },
+        {
+          "label": "O5B",
+          "part": 2,
+          "sign": -1,
+          "mult": 0.5
+        }
+      ],
+      "free_variable": {
+        "index": 3,
+        "value": 0.97481,
+        "su": 0.02306,
+        "informative": "FVAR3 = 0.975(23) is 1.1 s.u. from 1.000, i.e. inside the 2 s.u. window: the refinement put essentially ALL of the density on component A and left B with nothing. The split is not supported by these data - B is refining on noise. s.u. 系统性低估 1.5–2×（Linden §13.7），本比值是下限",
+        "verdict": "revoke",
+        "rule": "|1 - k| <= 2 s.u. -> the minor component is not distinguishable from empty",
+        "sigma_from_0": 42.3,
+        "sigma_from_1": 1.1,
+        "measured_by": "job_20260921_194608"
+      },
+      "verdict": "revoke"
+    }
+  ],
+  "disorder_origins": [
+    {
+      "fvar_index": 2,
+      "created": [
+        "O4B"
+      ],
+      "linked_existing": [],
+      "image_labels": [],
+      "restore": [
+        {
+          "label": "O4",
+          "element": "O",
+          "site": [
+            0.537224,
+            0.537224,
+            0.259513
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.1281477777777778,
+          "u_star": [
+            0.00016534535147314048,
+            0.00016534535147314048,
+            0.00027282404969189054,
+            0.00012938712161901113,
+            4.212967281383481e-05,
+            4.212967281383481e-05
+          ]
+        }
+      ],
+      "occupancy_a": 0.8,
+      "r1_before": null,
+      "node_before": "n0037",
+      "ts": 1789991146.9179735
+    },
+    {
+      "fvar_index": 3,
+      "created": [
+        "O5B"
+      ],
+      "linked_existing": [],
+      "image_labels": [],
+      "restore": [
+        {
+          "label": "O5",
+          "element": "O",
+          "site": [
+            0.601163,
+            0.601163,
+            0.412302
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.15524777777777785,
+          "u_star": [
+            7.906990765606235e-05,
+            7.906990765606235e-05,
+            0.0010278293579265231,
+            3.9526272459162484e-05,
+            1.293159220264656e-05,
+            1.293159220264656e-05
+          ]
+        }
+      ],
+      "occupancy_a": 0.8,
+      "r1_before": null,
+      "node_before": "n0038",
+      "ts": 1789991153.494479
+    }
+  ],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [
+      0.98502,
+      0.97481
+    ],
+    "parts": {
+      "O4": 1,
+      "O4B": 2,
+      "O5": 1,
+      "O5B": 2
+    },
+    "h_treatment": "riding",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "run_shelxl",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0041"
+    }
+  },
+  "conditions_token": "d000001:n0041:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": 4395,
+      "applied": [
+        "SHEL 999 1.000"
+      ],
+      "application": "applied"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "measurement"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0024304899999999996
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "riding",
+      "groups": [
+        {
+          "carrier": "C3",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H3"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C5",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H5"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C7",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H7"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C8",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H8"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C11",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H11"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C12",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H12"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        }
+      ]
+    },
+    "twin": null,
+    "engine": "SHELXL",
+    "unknown_fields": [],
+    "metric_definition": "shelxl-r-factors-v1",
+    "experiment": {
+      "temperature_K": null,
+      "crystal_size": null
+    },
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0041",
+    "model_revision": 42,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194608",
+    "conditions_token": "d000001:n0041:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0005",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

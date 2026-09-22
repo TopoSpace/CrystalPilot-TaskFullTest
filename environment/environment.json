@@ -1,0 +1,132 @@
+{
+  "recorded_at": "2026-09-21T18:56:59+0800",
+  "git": {
+    "commit": "327e1ef7bcb3af7c4922dca1cf83ef7b1af63cdf",
+    "short": "327e1ef",
+    "status_lines": 0,
+    "head_subject": "Let the agent follow the interface language and refresh the README screenshot"
+  },
+  "engine_copy": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot",
+  "kernel": {
+    "binary": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\codex\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+    "version": "codex-cli 0.155.0",
+    "sha256": "e4c11374bd9de8ad5c3b7617fd4654bb7839901edb0863f9930666863c7a021b",
+    "exec_help_saved": "kernel_exec_help.txt"
+  },
+  "claude_code": {
+    "path": "C:\\users\\<user>\\AppData\\Roaming\\npm\\claude.CMD",
+    "version": "2.1.261 (Claude Code)",
+    "help_saved": "claude_help.txt"
+  },
+  "model": {
+    "model_id": "gpt-6-astra",
+    "provider_id": "crystalpilot",
+    "reasoning_effort": "xhigh",
+    "wire_api": "responses",
+    "auth": "auth.command hook (bearer token supplied on demand by the product's credential script; key file outside the experiment tree)",
+    "catalog_entry": {
+      "slug": "gpt-6-astra",
+      "display_name": "GPT-6 Astra (gateway)",
+      "provider": "crystalpilot",
+      "description": "GPT-6 Astra through the CrystalPilot gateway. Rendered from the plain-tool template on purpose: the bundled 0.153 entry runs code_mode_only, untested through the gateway (2026-09-07).",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "context_window": 272000,
+      "max_context_window": 872000,
+      "default_reasoning_level": "xhigh",
+      "supported_reasoning_levels": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max",
+        "ultra"
+      ]
+    },
+    "gateway_probe_2026-09-21": {
+      "responses_endpoint": "HTTP 200 for gpt-6-astra on both /openai and /openai/v1 base paths",
+      "models_endpoint": "HTTP 200; gpt-6-astra listed with supported_endpoints /responses, reasoning_effort ladder low..max, vision, 1.178M context",
+      "anthropic_messages_endpoint": "/openai/v1/messages answers HTTP 200 and reports model=gpt-6-astra when no effort control is sent; sending output_config.effort produced an error that names gpt-5-mini, so effort cannot be steered on that route",
+      "chat_completions": "gpt-6-astra not offered on /chat/completions"
+    }
+  },
+  "tools": {
+    "shelxl": {
+      "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\shelx\\shelxl.exe",
+      "sha256": "9882f64758d1e29432771f120ea53c67807debd3963c0010121772eb9832e15f",
+      "banner": "SHELXL 2019/3 (multi-CPU), version banner captured on 2026-09-21"
+    },
+    "shelxt": {
+      "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\shelx\\shelxt.exe",
+      "sha256": "a69fcbca96a41e1caa6c0118ee0995620b0e1199812f61647a3e372b6dfe7276",
+      "banner": "SHELXT 2018/2"
+    },
+    "platon": {
+      "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\shelx\\platon.exe",
+      "sha256": "4ed331d22c39d467d75760dd94819c65eb544ba4e5dcef7a4818dc1c6ad94800",
+      "note": "PLATON build dated 2024-01-11 by file time; banner not captured (interactive prompt)"
+    },
+    "olex2": {
+      "path": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\olex2\\app\\olex2.exe",
+      "exists": true
+    },
+    "dials": {
+      "prefix": "C:\\users\\<user>\\miniforge3\\envs\\dials",
+      "version": [
+        "DIALS 3.30"
+      ],
+      "dispatchers": "C:\\users\\<user>\\miniforge3\\envs\\dials\\Scripts",
+      "dll_dir": "C:\\users\\<user>\\miniforge3\\envs\\dials\\Library\\bin",
+      "note": "the DIALS conda environment (Python 3.14, cctbx 2026.7) is also the plain scientific Python offered to the baseline conditions; it cannot import the CrystalPilot package"
+    },
+    "crystalpilot_venv": {
+      "python": "H:\\CrystalPilot\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "cctbx": "2025.11",
+        "iotbx": "2025.11",
+        "smtbx": "present",
+        "gemmi": "0.7.5",
+        "numpy": "2.5.2",
+        "scipy": "1.18.1",
+        "fastapi": "0.141.1",
+        "uvicorn": "0.52.4",
+        "httpx": "0.28.1",
+        "psutil": "7.2.2",
+        "pydantic": "2.13.4"
+      },
+      "note": "used only by the CrystalPilot server and MCP tools (H0/H1); the crystalpilot package is pip-installed editable in it, so it is not offered to C0/P1"
+    },
+    "dials_env_packages": {
+      "python": "3.14.7",
+      "dials": "present",
+      "dxtbx": "3.30.0",
+      "cctbx": "2026.7",
+      "iotbx": "2026.7",
+      "smtbx": "present",
+      "gemmi": "0.7.5",
+      "numpy": "2.5.2",
+      "scipy": "1.18.0",
+      "matplotlib": "3.11.1",
+      "PIL": "12.3.0"
+    }
+  },
+  "machine": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "logical_cpus": 32,
+    "ram_gb": 31.8,
+    "disk_free_gb": {
+      "H:\\": 31.8,
+      "C:\\": 112.6
+    },
+    "timezone": "中国标准时间 +0800",
+    "cpu_cap": "CRYSTALPILOT_CPU_CORES=4 (BelowNormal priority) for the workbench engine; one science task at a time"
+  },
+  "experiment_server": {
+    "port": 8021,
+    "codex_home": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\codex-home-wb",
+    "preferences": "engine copy's own workdir/preferences.json"
+  },
+  "production_server_note": "port 8010 was not listening at 14:35 on 2026-09-21; it was left alone"
+}

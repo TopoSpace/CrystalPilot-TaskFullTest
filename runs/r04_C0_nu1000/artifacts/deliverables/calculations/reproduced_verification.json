@@ -1,0 +1,29 @@
+{
+  "cif_and_res_agree_within_output_rounding": true,
+  "max_CIF_RES_fractional_rounding": 4.899999999996574e-05,
+  "temperature_unknown": true,
+  "space_group": "P 6/m m m (191)",
+  "formula_per_cell": {
+    "Zr": 18.0,
+    "O": 96.0,
+    "C": 264.0,
+    "H": 132.0
+  },
+  "fab_reflections": 4395,
+  "mean_Fc_error_atom_only": 6.848379244675209,
+  "mean_Fc_error_with_ABIN": 0.002783552931583971,
+  "refinement": {
+    "_refine_ls_R_factor_gt": "0.0827",
+    "_refine_ls_R_factor_all": "0.1215",
+    "_refine_ls_wR_factor_ref": "0.2722",
+    "_refine_ls_goodness_of_fit_ref": "0.987",
+    "_refine_ls_number_reflns": "4395",
+    "_refine_ls_number_parameters": "155",
+    "_refine_ls_number_restraints": "220",
+    "_refine_ls_shift/su_max": "0.001",
+    "_refine_diff_density_max": "0.491",
+    "_refine_diff_density_min": "-0.869",
+    "_diffrn_reflns_av_R_equivalents": "0.5659"
+  },
+  "hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614"
+}

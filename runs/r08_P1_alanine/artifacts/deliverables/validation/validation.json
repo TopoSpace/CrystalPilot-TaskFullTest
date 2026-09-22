@@ -1,0 +1,199 @@
+{
+  "cif_parses_gemmi": true,
+  "model_and_embedded_data_unchanged_by_metadata_enrichment": true,
+  "asymmetric_unit_formula": {
+    "O": 2,
+    "N": 1,
+    "H": 7,
+    "C": 3
+  },
+  "bond_lengths_A": {
+    "O1-C1": 1.2636443745227346,
+    "O2-C1": 1.2462953671103434,
+    "N1-C2": 1.4918802384905565,
+    "C1-C2": 1.535446785158847,
+    "C2-C3": 1.5194240348944257,
+    "N1-H1A": 0.9102792572224072,
+    "N1-H1B": 0.9641864114344769,
+    "N1-H1C": 0.9222608172891581
+  },
+  "nonH_adp_eigenvalues_A2": {
+    "O1": [
+      0.009639843841716251,
+      0.019093432923502043,
+      0.027566723234781702
+    ],
+    "O2": [
+      0.012901310634511309,
+      0.017253617606127866,
+      0.026745071759360826
+    ],
+    "N1": [
+      0.009098371298514867,
+      0.014932306539277884,
+      0.018469322162207244
+    ],
+    "C1": [
+      0.008568420407191234,
+      0.011787033157199764,
+      0.01874454643560901
+    ],
+    "C2": [
+      0.009144371758411091,
+      0.013337966910233204,
+      0.019517661331355702
+    ],
+    "C3": [
+      0.013790639361373699,
+      0.019561402527259783,
+      0.02514795811136651
+    ]
+  },
+  "all_adps_positive": true,
+  "independent_Fcalc_vs_FCF_amplitude_R": 0.0006909148324681976,
+  "independent_Fcalc_note": "CIF-rounded coordinates/ADPs, IT92 scattering factors, and supplied anomalous terms; a small nonzero difference from SHELXL full precision is expected.",
+  "FCF": {
+    "list_code": 4,
+    "reflections": 964,
+    "observed": 913,
+    "R1_all_recomputed": 0.032156260402534304,
+    "R1_gt_recomputed": 0.030218106095326148,
+    "wR2_recomputed": 0.07323906385732187,
+    "GoF_recomputed": 1.095428612965254,
+    "refinement_reflections": 964,
+    "note": "LIST 4 retains Friedel-distinct observations and is compared directly with the refinement statistics."
+  },
+  "refinement_controls": {
+    "02b_riding_H": {
+      "summary": [
+        "wR2 = 0.2413, GooF = S = 3.432, Restrained GooF = 3.432 for all data",
+        "R1 = 0.0600 for 904 Fo > 4sig(Fo) and 0.0849 for all 964 data",
+        "Highest difference peak  0.824,  deepest hole -0.898,  1-sigma level  0.305"
+      ],
+      "max_nonH_shift_A_vs_final": 0.026110869265664048,
+      "max_H_shift_A_vs_final": 0.06516959146780234
+    },
+    "03_masked_riding": {
+      "summary": [
+        "wR2 = 0.0804, GooF = S = 1.113, Restrained GooF = 1.113 for all data",
+        "R1 = 0.0301 for 913 Fo > 4sig(Fo) and 0.0321 for all 964 data",
+        "Highest difference peak  0.178,  deepest hole -0.186,  1-sigma level  0.042"
+      ],
+      "max_nonH_shift_A_vs_final": 0.0012129838168356928,
+      "max_H_shift_A_vs_final": 0.06690429936970073
+    },
+    "04_NH_omit": {
+      "summary": [
+        "wR2 = 0.1362, GooF = S = 1.892, Restrained GooF = 1.892 for all data",
+        "R1 = 0.0486 for 913 Fo > 4sig(Fo) and 0.0506 for all 964 data",
+        "Highest difference peak  0.625,  deepest hole -0.266,  1-sigma level  0.075"
+      ],
+      "max_nonH_shift_A_vs_final": 0.005835735383422565,
+      "max_H_shift_A_vs_final": 0.030813826766874435
+    },
+    "05_NH_free": {
+      "summary": [
+        "wR2 = 0.0792, GooF = S = 1.103, Restrained GooF = 1.103 for all data",
+        "R1 = 0.0304 for 913 Fo > 4sig(Fo) and 0.0323 for all 964 data",
+        "Highest difference peak  0.183,  deepest hole -0.183,  1-sigma level  0.042"
+      ],
+      "max_nonH_shift_A_vs_final": 0.0006520819365536095,
+      "max_H_shift_A_vs_final": 0.014155961152082532
+    },
+    "06_weighted": {
+      "summary": [
+        "wR2 = 0.0739, GooF = S = 1.090, Restrained GooF = 1.090 for all data",
+        "R1 = 0.0302 for 913 Fo > 4sig(Fo) and 0.0322 for all 964 data",
+        "Highest difference peak  0.180,  deepest hole -0.182,  1-sigma level  0.042"
+      ],
+      "max_nonH_shift_A_vs_final": 7.381529522451722e-05,
+      "max_H_shift_A_vs_final": 0.001458202080252591
+    },
+    "07_final": {
+      "summary": [
+        "wR2 = 0.0732, GooF = S = 1.095, Restrained GooF = 1.095 for all data",
+        "R1 = 0.0302 for 913 Fo > 4sig(Fo) and 0.0322 for all 964 data",
+        "Highest difference peak  0.179,  deepest hole -0.182,  1-sigma level  0.041"
+      ],
+      "max_nonH_shift_A_vs_final": 0.0,
+      "max_H_shift_A_vs_final": 0.0
+    },
+    "08_cutoff_080": {
+      "summary": [
+        "wR2 = 0.0706, GooF = S = 1.098, Restrained GooF = 1.098 for all data",
+        "R1 = 0.0287 for 829 Fo > 4sig(Fo) and 0.0303 for all 873 data",
+        "Highest difference peak  0.158,  deepest hole -0.191,  1-sigma level  0.040"
+      ],
+      "max_nonH_shift_A_vs_final": 0.0006897151046753185,
+      "max_H_shift_A_vs_final": 0.008167638393158087
+    },
+    "09_full_measured": {
+      "summary": [
+        "wR2 = 0.0768, GooF = S = 1.102, Restrained GooF = 1.102 for all data",
+        "R1 = 0.0319 for 979 Fo > 4sig(Fo) and 0.0353 for all 1056 data",
+        "Highest difference peak  0.190,  deepest hole -0.206,  1-sigma level  0.046"
+      ],
+      "max_nonH_shift_A_vs_final": 0.0009065256393401312,
+      "max_H_shift_A_vs_final": 0.00692164795630075
+    }
+  },
+  "raw_input_hashes": {
+    "checked": 646,
+    "changed": []
+  },
+  "clean_room_refinement_rerun": {
+    "argv": [
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\shelxl.exe",
+      "alanine"
+    ],
+    "cwd": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r08_P1_alanine\\work\\validation_list4\\shelxl_rerun",
+    "exit_code": 0,
+    "seconds": 0.2514979839324951,
+    "metrics": {
+      "_refine_ls_R_factor_gt": "0.0302",
+      "_refine_ls_R_factor_all": "0.0322",
+      "_refine_ls_wR_factor_ref": "0.0732",
+      "_refine_ls_goodness_of_fit_ref": "1.095",
+      "_refine_ls_number_parameters": "68",
+      "_refine_ls_number_reflns": "964"
+    }
+  },
+  "platon": {
+    "argv": [
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\platon.exe",
+      "-u",
+      "alanine.cif"
+    ],
+    "cwd": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r08_P1_alanine\\work\\validation_list4\\platon",
+    "seconds": 45.05002689361572,
+    "generated_files": [
+      "alanine.chk",
+      "alanine.ckf",
+      "alanine.ps",
+      "alanine.vrf",
+      "platon.out"
+    ],
+    "timeout_seconds": 45,
+    "status": "Written local report inspected; process may require timeout termination. Outstanding alerts are not a validation pass.",
+    "written_report_has_summary": true,
+    "alerts": [
+      "\n058_ALERT_1_A Maximum Transmission Factor Missing ............          ?",
+      "059_ALERT_1_A Minimum Transmission Factor Missing ............          ?",
+      "699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !",
+      "053_ALERT_1_C Minimum Crystal Dimension Missing (or Error) ...     Please Check",
+      "054_ALERT_1_C Medium  Crystal Dimension Missing (or Error) ...     Please Check",
+      "055_ALERT_1_C Maximum Crystal Dimension Missing (or Error) ...     Please Check",
+      "032_ALERT_4_G Std. Uncertainty on Flack Parameter Value High .      0.900 Report",
+      "152_ALERT_1_G The Supplied and Calc. Volume s.u. Differ by ...         -5 Units",
+      "912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600          1 Note",
+      "916_ALERT_2_G Hooft y and Flack x Parameter Values Differ by .       0.10 Check",
+      "969_ALERT_5_G The 'Henn et al.' R-Factor-gap value ...........       2.52 Note",
+      "978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          1 Info"
+    ],
+    "alert_counts": {
+      "A": 3,
+      "C": 3,
+      "G": 6
+    }
+  }
+}

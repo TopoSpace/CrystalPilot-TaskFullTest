@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-22T02:56:42.916941",
+  "input_hashes": {
+    "start.hkl": {
+      "sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+      "bytes": 9796664
+    },
+    "start.ins": {
+      "sha256": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+      "bytes": 639
+    },
+    "synthesis.png": {
+      "sha256": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f",
+      "bytes": 90192
+    }
+  },
+  "python": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+  "numpy_version": "2.5.3",
+  "methods": "All crystallographic algorithms written in this run; numpy/scipy only; no network/install/external crystallographic code."
+}

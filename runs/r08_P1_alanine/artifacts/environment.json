@@ -1,0 +1,48 @@
+{
+  "run_id": "r08_P1_alanine",
+  "case": "alanine",
+  "condition": "P1",
+  "budget": {
+    "wall_clock_minutes": 120,
+    "note": "the controller interrupts the run at the wall-clock limit; deliver a checkable state before then",
+    "model_requests_soft_limit": 200,
+    "tool_calls_soft_limit": 250
+  },
+  "working_directory": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r08_P1_alanine",
+  "inputs": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r08_P1_alanine\\inputs",
+  "inputs_are_read_only": true,
+  "deliverables_directory": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r08_P1_alanine\\deliverables",
+  "deliverables_note": "put the final structure files (CIF/RES/INS/HKL/FCF as applicable), the computation inputs/outputs you consider final and a short written summary here; CrystalPilot users may also rely on the product's own results folder",
+  "software": {
+    "shelxl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\shelxl.exe",
+    "shelxt": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\shelxt.exe",
+    "platon": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\platon.exe",
+    "olex2": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\olex2\\app\\olex2.exe",
+    "dials": {
+      "prefix": "C:\\users\\<user>\\miniforge3\\envs\\dials",
+      "dispatchers": "C:\\users\\<user>\\miniforge3\\envs\\dials\\Scripts",
+      "dll_dir": "C:\\users\\<user>\\miniforge3\\envs\\dials\\Library\\bin",
+      "usage": "run the dials.* dispatchers from Scripts with Library\\bin on PATH (the C0 shell already has both on PATH); dials.import understands Rigaku .rodhypix frames",
+      "version": "DIALS 3.30"
+    },
+    "python": {
+      "path": "C:\\users\\<user>\\miniforge3\\envs\\dials\\python.exe",
+      "packages": [
+        "cctbx",
+        "iotbx",
+        "smtbx",
+        "dxtbx",
+        "dials",
+        "gemmi",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "PIL"
+      ],
+      "note": "a plain scientific Python; import errors for compiled extensions disappear when Library\\bin is on PATH"
+    },
+    "help": "each program prints its usage with -h/--help or when started without arguments"
+  },
+  "network": "no internet lookup of this sample; documentation of the software may be consulted",
+  "language": "reply in the language of the task text"
+}

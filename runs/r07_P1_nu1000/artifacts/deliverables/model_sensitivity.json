@@ -1,0 +1,326 @@
+[
+  {
+    "reference": "refine07_cl11",
+    "comparison": "refine07_cl10",
+    "rms_shift": 0.004809498512578774,
+    "max_shift": 0.01438162310033159,
+    "per_atom": [
+      {
+        "label": "Zr1",
+        "element": "Zr",
+        "shift_angstrom": 0.0001661000000001661
+      },
+      {
+        "label": "Zr2",
+        "element": "Zr",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "O1",
+        "element": "O",
+        "shift_angstrom": 0.008512927111163587
+      },
+      {
+        "label": "O2",
+        "element": "O",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "O3",
+        "element": "O",
+        "shift_angstrom": 0.003918999999999568
+      },
+      {
+        "label": "O4",
+        "element": "O",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "O5",
+        "element": "O",
+        "shift_angstrom": 0.0020349917665673837
+      },
+      {
+        "label": "O6",
+        "element": "O",
+        "shift_angstrom": 0.006339467643264719
+      },
+      {
+        "label": "C2",
+        "element": "C",
+        "shift_angstrom": 0.001660999999999817
+      },
+      {
+        "label": "C5",
+        "element": "C",
+        "shift_angstrom": 0.006787907114861683
+      },
+      {
+        "label": "C3",
+        "element": "C",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "C1",
+        "element": "C",
+        "shift_angstrom": 0.01438162310033159
+      },
+      {
+        "label": "C4",
+        "element": "C",
+        "shift_angstrom": 0.0042564635555817935
+      },
+      {
+        "label": "C6",
+        "element": "C",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "C12",
+        "element": "C",
+        "shift_angstrom": 0.0006787907114831537
+      },
+      {
+        "label": "C7",
+        "element": "C",
+        "shift_angstrom": 0.0042564635555817935
+      },
+      {
+        "label": "C9",
+        "element": "C",
+        "shift_angstrom": 0.003919000000001745
+      },
+      {
+        "label": "C8",
+        "element": "C",
+        "shift_angstrom": 0.001660999999999817
+      },
+      {
+        "label": "C10",
+        "element": "C",
+        "shift_angstrom": 0.0013575814229700755
+      },
+      {
+        "label": "C11",
+        "element": "C",
+        "shift_angstrom": 0.0042564635555817935
+      }
+    ]
+  },
+  {
+    "reference": "refine07_cl11",
+    "comparison": "refine07_cl12",
+    "rms_shift": 0.0073020317232951135,
+    "max_shift": 0.012217312838758024,
+    "per_atom": [
+      {
+        "label": "Zr1",
+        "element": "Zr",
+        "shift_angstrom": 0.0008512927111169441
+      },
+      {
+        "label": "Zr2",
+        "element": "Zr",
+        "shift_angstrom": 0.002383834635624468
+      },
+      {
+        "label": "O1",
+        "element": "O",
+        "shift_angstrom": 0.011419600211915095
+      },
+      {
+        "label": "O2",
+        "element": "O",
+        "shift_angstrom": 0.00851292711116631
+      },
+      {
+        "label": "O3",
+        "element": "O",
+        "shift_angstrom": 0.0
+      },
+      {
+        "label": "O4",
+        "element": "O",
+        "shift_angstrom": 0.00633946764326534
+      },
+      {
+        "label": "O5",
+        "element": "O",
+        "shift_angstrom": 0.005299404373133998
+      },
+      {
+        "label": "O6",
+        "element": "O",
+        "shift_angstrom": 0.006339467643263995
+      },
+      {
+        "label": "C2",
+        "element": "C",
+        "shift_angstrom": 0.012217312838758024
+      },
+      {
+        "label": "C5",
+        "element": "C",
+        "shift_angstrom": 0.005137532968264674
+      },
+      {
+        "label": "C3",
+        "element": "C",
+        "shift_angstrom": 0.008012063716678884
+      },
+      {
+        "label": "C1",
+        "element": "C",
+        "shift_angstrom": 0.008420568389365671
+      },
+      {
+        "label": "C4",
+        "element": "C",
+        "shift_angstrom": 0.00801206371667037
+      },
+      {
+        "label": "C6",
+        "element": "C",
+        "shift_angstrom": 0.010887865309599211
+      },
+      {
+        "label": "C12",
+        "element": "C",
+        "shift_angstrom": 0.005164621604728349
+      },
+      {
+        "label": "C7",
+        "element": "C",
+        "shift_angstrom": 0.005137532968263482
+      },
+      {
+        "label": "C9",
+        "element": "C",
+        "shift_angstrom": 0.008512927111163587
+      },
+      {
+        "label": "C8",
+        "element": "C",
+        "shift_angstrom": 0.00801206371667037
+      },
+      {
+        "label": "C10",
+        "element": "C",
+        "shift_angstrom": 0.0040727442689215305
+      },
+      {
+        "label": "C11",
+        "element": "C",
+        "shift_angstrom": 0.0069881760138099875
+      }
+    ]
+  },
+  {
+    "reference": "refine07_cl11",
+    "comparison": "refine07_henke10",
+    "rms_shift": 0.010195760576484258,
+    "max_shift": 0.02269989559447227,
+    "per_atom": [
+      {
+        "label": "Zr1",
+        "element": "Zr",
+        "shift_angstrom": 0.001702585422232605
+      },
+      {
+        "label": "Zr2",
+        "element": "Zr",
+        "shift_angstrom": 0.0010368699388056055
+      },
+      {
+        "label": "O1",
+        "element": "O",
+        "shift_angstrom": 0.011756999999998704
+      },
+      {
+        "label": "O2",
+        "element": "O",
+        "shift_angstrom": 0.008420568389365671
+      },
+      {
+        "label": "O3",
+        "element": "O",
+        "shift_angstrom": 0.020363721344586926
+      },
+      {
+        "label": "O4",
+        "element": "O",
+        "shift_angstrom": 0.001660999999999817
+      },
+      {
+        "label": "O5",
+        "element": "O",
+        "shift_angstrom": 0.010593504955395622
+      },
+      {
+        "label": "O6",
+        "element": "O",
+        "shift_angstrom": 0.016879183777660175
+      },
+      {
+        "label": "C2",
+        "element": "C",
+        "shift_angstrom": 0.0042564635555817935
+      },
+      {
+        "label": "C5",
+        "element": "C",
+        "shift_angstrom": 0.004256463555581794
+      },
+      {
+        "label": "C3",
+        "element": "C",
+        "shift_angstrom": 0.007713708381836287
+      },
+      {
+        "label": "C1",
+        "element": "C",
+        "shift_angstrom": 0.02269989559447227
+      },
+      {
+        "label": "C4",
+        "element": "C",
+        "shift_angstrom": 0.011756999999998704
+      },
+      {
+        "label": "C6",
+        "element": "C",
+        "shift_angstrom": 0.00801206371667037
+      },
+      {
+        "label": "C12",
+        "element": "C",
+        "shift_angstrom": 0.007177384292344154
+      },
+      {
+        "label": "C7",
+        "element": "C",
+        "shift_angstrom": 0.008512927111163587
+      },
+      {
+        "label": "C9",
+        "element": "C",
+        "shift_angstrom": 0.005137532968265142
+      },
+      {
+        "label": "C8",
+        "element": "C",
+        "shift_angstrom": 0.004982999999999451
+      },
+      {
+        "label": "C10",
+        "element": "C",
+        "shift_angstrom": 0.006029030581277955
+      },
+      {
+        "label": "C11",
+        "element": "C",
+        "shift_angstrom": 0.005137532968263482
+      }
+    ]
+  }
+]

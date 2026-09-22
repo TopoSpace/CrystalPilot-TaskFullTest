@@ -1,0 +1,59 @@
+data_n0000
+
+_audit_creation_method        'CrystalPilot'
+_chemical_formula_sum         'C0 H0 N0 O0'
+_cell_formula_units_Z         24
+# formula counts are per formula unit (cell content / Z); occupancy-weighted
+_diffrn_radiation_wavelength  0.68883
+_cell_length_a                39.1900
+_cell_length_b                39.1900
+_cell_length_c                16.6100
+_cell_angle_alpha             90.000
+_cell_angle_beta              90.000
+_cell_angle_gamma             120.000
+_cell_volume                  22092.80
+_space_group_crystal_system   hexagonal
+_space_group_IT_number        191
+_space_group_name_H-M_alt     'P 6/m m m'
+_space_group_name_Hall        '-P 6 2'
+
+loop_
+  _space_group_symop_operation_xyz
+  'x,y,z'
+  'x-y,x,z'
+  'y,-x+y,z'
+  '-y,x-y,z'
+  '-x+y,-x,z'
+  'x-y,-y,-z'
+  '-x,-x+y,-z'
+  '-x,-y,z'
+  'y,x,-z'
+  '-y,-x,-z'
+  '-x+y,y,-z'
+  'x,x-y,-z'
+  '-x,-y,-z'
+  '-x+y,-x,-z'
+  '-y,x-y,-z'
+  'y,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,y,z'
+  'x,x-y,z'
+  'x,y,-z'
+  '-y,-x,z'
+  'y,x,z'
+  'x-y,-y,z'
+  '-x,-x+y,z'
+
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  O       O     0.00000   0.00000   0.00000   0.0000 Uiso  1.000
+  N       N     0.00000   0.00000   0.00000   0.0000 Uiso  1.000
+  C       C     0.00000   0.00000   0.00000   0.0000 Uiso  1.000
+  H       H     0.00000   0.00000   0.00000   0.0000 Uiso  1.000

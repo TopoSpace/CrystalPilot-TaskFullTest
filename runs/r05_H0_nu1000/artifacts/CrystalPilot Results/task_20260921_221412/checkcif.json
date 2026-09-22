@@ -1,0 +1,646 @@
+{
+  "schema_version": 2,
+  "attempt_id": "job_20260921_225403_084663_35553d36",
+  "target": "publication:CrystalPilot Results/task_20260921_221412/final.cif",
+  "cif": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000\\CrystalPilot Results\\task_20260921_221412\\final.cif",
+  "source": {
+    "kind": "delivery",
+    "target": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000\\CrystalPilot Results\\task_20260921_221412\\final.cif",
+    "node": "n0023",
+    "revision": 24,
+    "delivery_revision": 5
+  },
+  "checked_at": "2026-09-21T22:54:03",
+  "execution_status": "completed",
+  "report_status": "complete",
+  "ok": true,
+  "counts": {
+    "A": 9,
+    "B": 1,
+    "C": 23,
+    "G": 22
+  },
+  "alerts": [
+    {
+      "code": "020",
+      "type": 3,
+      "level": "A",
+      "text": "The Value of Rint is Greater Than 0.12 .........      0.566 Report",
+      "kb": {
+        "meaning": "Rint 明显偏大（与 RINTA01 同源：>0.10 C 级、>0.15 B 级、>0.20 A 级；实践中 >0.18 即 B 级）",
+        "causes": "晶体质量/吸收校正不足/对称性选高了/坏的采集轮次混入",
+        "remedy": "核对 Laue 组与吸收校正；多 run 数据按轮分组查 Rint，坏轮整体舍弃优于调 rejection 阈值；如实报告"
+      }
+    },
+    {
+      "code": "023",
+      "type": 3,
+      "level": "A",
+      "text": "Resolution (too) Low [sin(theta)/Lambda < 0.6]..       0.50 Ang-1",
+      "kb": {
+        "meaning": "数据分辨率过低 (sin θ/λ < 0.6)",
+        "causes": "数据确实只收到低角；或 CIF 没带反射数据导致按 0 计算",
+        "remedy": "如数据确实有限，说明采集条件（同步辐射短波长、弱衍射晶体）"
+      }
+    },
+    {
+      "code": "183",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _cell_measurement_reflns_used Value ....     Please Do !",
+      "kb": {
+        "meaning": "缺 _cell_measurement_reflns_used",
+        "causes": "未记录晶胞测定用的反射数（来自指标化软件）",
+        "remedy": "从数据处理软件（SAINT/CrysAlis/DIALS）提取，或如实留空并说明"
+      }
+    },
+    {
+      "code": "184",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _cell_measurement_theta_min Value ......     Please Do !",
+      "kb": {
+        "meaning": "缺 _cell_measurement_theta_min",
+        "causes": "同 183",
+        "remedy": "同 183"
+      }
+    },
+    {
+      "code": "185",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _cell_measurement_theta_max Value ......     Please Do !",
+      "kb": {
+        "meaning": "缺 _cell_measurement_theta_max",
+        "causes": "同 183",
+        "remedy": "同 183"
+      }
+    },
+    {
+      "code": "197",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _cell_measurement_temperature Datum ....     Please Add",
+      "kb": {
+        "meaning": "缺 _diffrn_ambient_temperature",
+        "causes": "未记录采集温度",
+        "remedy": "补 experiment.temperature_K"
+      }
+    },
+    {
+      "code": "198",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _diffrn_ambient_temperature   Datum ....     Please Add",
+      "kb": {
+        "meaning": "缺 _cell_measurement_temperature",
+        "causes": "同 197",
+        "remedy": "同 197"
+      }
+    },
+    {
+      "code": "660",
+      "type": 1,
+      "level": "A",
+      "text": "No Valid _diffrn_radiation_type Value Reported .     Please Do !"
+    },
+    {
+      "code": "699",
+      "type": 1,
+      "level": "A",
+      "text": "Missing _exptl_crystal_description Value .......     Please Do !",
+      "kb": {
+        "meaning": "缺晶体外观描述 (_exptl_crystal_description)",
+        "causes": "未记录晶体形貌",
+        "remedy": "补 experiment.crystal"
+      }
+    },
+    {
+      "code": "196",
+      "type": 1,
+      "level": "B",
+      "text": "No TEMP record and _measurement_temperature .NE.        293 Degree",
+      "kb": {
+        "meaning": "无 TEMP 记录且温度 ≠ 293 K",
+        "causes": "CIF 温度与内嵌 .res 的 TEMP 卡不一致/缺失",
+        "remedy": "在 .ins 写 TEMP 卡（CrystalPilot 从 experiment.temperature_K 自动写入）"
+      }
+    },
+    {
+      "code": "026",
+      "type": 3,
+      "level": "C",
+      "text": "Ratio Observed / Unique Reflections (too) Low ..        47% Check",
+      "kb": {
+        "meaning": "Check for a weak data set.",
+        "remedy": "可以尝试用SHEL 9990.84命令或OMIT-2 50命令截去一部分高角度点，如果不行就只能重新收数据了。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT026》"
+      }
+    },
+    {
+      "code": "048",
+      "type": 1,
+      "level": "C",
+      "text": "MoietyFormula Not Given (or Incomplete) ........     Please Check",
+      "kb": {
+        "meaning": "Test MoietyFormula Given.",
+        "remedy": "在CIF中_chemical_formula_moiety项给出残基分子式即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT048》"
+      }
+    },
+    {
+      "code": "052",
+      "type": 1,
+      "level": "C",
+      "text": "Info on Absorption Correction Method   Not Given     Please Do !",
+      "kb": {
+        "meaning": "Test for specification absorption correction method [0,1].",
+        "remedy": "在CIF文件中\"_exptl_absorpt_correction_type\"项给出吸收校正方法即可。若未做吸收校正，此项填写'none'或'?'，并将\"_exptl_absorpt_correction_T_max\"、\"_exptl_absorpt_correction_T_min\"和\"_exptl_absorpt_process_details\"项内容改为'?'即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT052》"
+      }
+    },
+    {
+      "code": "053",
+      "type": 1,
+      "level": "C",
+      "text": "Minimum Crystal Dimension Missing (or Error) ...     Please Check",
+      "kb": {
+        "meaning": "Test for specification xtal_dimension_min[0,1].",
+        "remedy": "在_exptl_crystal_size_min项中给出晶体最小尺寸，单位为毫米。或者在ins中添加SIZE指令后精修。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT053》"
+      }
+    },
+    {
+      "code": "054",
+      "type": 1,
+      "level": "C",
+      "text": "Medium  Crystal Dimension Missing (or Error) ...     Please Check",
+      "kb": {
+        "meaning": "Test for specification xtal_dimension_mid [0,1].",
+        "remedy": "在_exptl_crystal_size_mid项中给出晶体中间尺寸，单位为毫米。或者在ins中添加SIZE指令后精修。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT054》"
+      }
+    },
+    {
+      "code": "055",
+      "type": 1,
+      "level": "C",
+      "text": "Maximum Crystal Dimension Missing (or Error) ...     Please Check",
+      "kb": {
+        "meaning": "Test for specification xtal_dimension_max [0,1].",
+        "remedy": "在_exptl_crystal_size_max项中给出晶体最大尺寸，单位为毫米。或者在ins中添加SIZE指令后精修。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT055》"
+      }
+    },
+    {
+      "code": "084",
+      "type": 3,
+      "level": "C",
+      "text": "High wR2 Value (i.e. > 0.25) ...................       0.26 Report",
+      "kb": {
+        "meaning": "wR2 偏高",
+        "causes": "同 082；权重方案",
+        "remedy": "同 082"
+      }
+    },
+    {
+      "code": "141",
+      "type": 4,
+      "level": "C",
+      "text": "s.u. on a - Axis Small or Missing ..............    0.00000 Ang.",
+      "kb": {
+        "meaning": "a 轴标准不确定度缺失或为 0",
+        "causes": "ZERR 未带真实晶胞 esd（粗解/中间模型常见）",
+        "remedy": "从原始 .ins 传递 ZERR esd，或由指标化软件提供"
+      }
+    },
+    {
+      "code": "143",
+      "type": 4,
+      "level": "C",
+      "text": "s.u. on c - Axis Small or Missing ..............    0.00000 Ang.",
+      "kb": {
+        "meaning": "c 轴标准不确定度缺失或为 0",
+        "causes": "同 141",
+        "remedy": "同 141"
+      }
+    },
+    {
+      "code": "151",
+      "type": 1,
+      "level": "C",
+      "text": "No s.u. (esd) Given on Volume ..................     Please Do !",
+      "kb": {
+        "meaning": "晶胞体积未给出 s.u.",
+        "causes": "晶胞 esd 全零，体积 esd 无法传播",
+        "remedy": "同 141"
+      }
+    },
+    {
+      "code": "241",
+      "type": 2,
+      "level": "C",
+      "text": "High   'MainMol' Ueq as Compared to Neighbors of         O3 Check",
+      "kb": {
+        "meaning": "原子 Ueq 明显高于相邻原子",
+        "causes": "占有率<1 的位置按全占精修；轻元素被判成重元素",
+        "remedy": "检查该位点元素/占有率是否有密度依据"
+      }
+    },
+    {
+      "code": "241",
+      "type": 2,
+      "level": "C",
+      "text": "High   'MainMol' Ueq as Compared to Neighbors of        C11 Check",
+      "kb": {
+        "meaning": "原子 Ueq 明显高于相邻原子",
+        "causes": "占有率<1 的位置按全占精修；轻元素被判成重元素",
+        "remedy": "检查该位点元素/占有率是否有密度依据"
+      }
+    },
+    {
+      "code": "242",
+      "type": 2,
+      "level": "C",
+      "text": "Low    'MainMol' Ueq as Compared to Neighbors of        Zr1 Check",
+      "kb": {
+        "meaning": "原子 Ueq 明显低于相邻原子",
+        "causes": "重元素被判成轻元素；或该位点确为更重原子",
+        "remedy": "同 241，反向核查"
+      }
+    },
+    {
+      "code": "242",
+      "type": 2,
+      "level": "C",
+      "text": "Low    'MainMol' Ueq as Compared to Neighbors of        Zr2 Check",
+      "kb": {
+        "meaning": "原子 Ueq 明显低于相邻原子",
+        "causes": "重元素被判成轻元素；或该位点确为更重原子",
+        "remedy": "同 241，反向核查"
+      }
+    },
+    {
+      "code": "260",
+      "type": 2,
+      "level": "C",
+      "text": "Large Average Ueq of Residue Including       Zr1      0.123 Check",
+      "kb": {
+        "meaning": "某原子 Ueq 异常大",
+        "causes": "鬼原子/部分占有/无序",
+        "remedy": "检查差值密度支持，必要时删除或设占有率"
+      }
+    },
+    {
+      "code": "334",
+      "type": 2,
+      "level": "C",
+      "text": "Small <C-C> Benzene Dist.   C6       -C9       .       1.37 Ang.",
+      "kb": {
+        "meaning": "Check Average in Multiple Substituted Benzene Type C-C.",
+        "remedy": "检查是否需要无序处理，用DFIX限制C23-C28距离后精修。 / 将此苯环加FLAT限制后精修。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT334-335》"
+      }
+    },
+    {
+      "code": "342",
+      "type": 3,
+      "level": "C",
+      "text": "Low Bond Precision on  C-C Bonds ...............    0.01236 Ang.",
+      "kb": {
+        "meaning": "Check Bond Precision for C-C in Structures (Z(max) > 39).",
+        "remedy": "找出有问题的C-C键，限制一下试试。检查精修模型是否正确，是否有末端需要无序处理，晶胞参数误差是否过大。如果均无法解决可尝试收集低温数据。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT342》"
+      }
+    },
+    {
+      "code": "905",
+      "type": 3,
+      "level": "C",
+      "text": "Negative K value in the Analysis of Variance ...    -28.082 Report",
+      "kb": {
+        "meaning": "Report Negative K values in the Analysis of Variance.",
+        "remedy": "一般不会出现，有合理解释即可。 / 使用Shel 999 0.84删除高角度的点，如无法解决有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT903-905》"
+      }
+    },
+    {
+      "code": "905",
+      "type": 3,
+      "level": "C",
+      "text": "Negative K value in the Analysis of Variance ...     -4.560 Report",
+      "kb": {
+        "meaning": "Report Negative K values in the Analysis of Variance.",
+        "remedy": "一般不会出现，有合理解释即可。 / 使用Shel 999 0.84删除高角度的点，如无法解决有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT903-905》"
+      }
+    },
+    {
+      "code": "911",
+      "type": 3,
+      "level": "C",
+      "text": "Missing FCF Refl Between Thmin & STh/L=    0.500          2 Report\n-4 34  3,  -1 26  7,",
+      "kb": {
+        "meaning": "θ(min) 与 sinθ/λ=0.6 之间的 FCF 反射缺失偏多",
+        "causes": "完整度不足/挡板遮挡/扫描策略缺角",
+        "remedy": "同 029/910；说明缺失来源"
+      }
+    },
+    {
+      "code": "934",
+      "type": 3,
+      "level": "C",
+      "text": "Number of (Iobs-Icalc)/Sigma(W) > 10 Outliers ..          1 Check\n-3  8  0,",
+      "kb": {
+        "meaning": "报告的与计算的 Rint 不一致",
+        "causes": "数据经过预合并或掩膜贡献",
+        "remedy": "说明数据处理链"
+      }
+    },
+    {
+      "code": "975",
+      "type": 2,
+      "level": "C",
+      "text": "Check Calcd Resid. Dens.  0.98Ang From O4      .       0.48 eA-3",
+      "kb": {
+        "meaning": "Test for positive density near N or O.",
+        "remedy": "Q峰游离检查是否有原子未指认，Q峰如果在轻原子周围检查是否可以无序处理，在重原子周围需要重新吸收校正或者收集数据。使用Shel 999 0.84切去部分高角度点可缓解此警告。最后检查是否数据足够好，是否存在孪晶。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT975》"
+      }
+    },
+    {
+      "code": "976",
+      "type": 2,
+      "level": "C",
+      "text": "Check Calcd Resid. Dens.  0.70Ang From O6      .      -0.56 eA-3",
+      "kb": {
+        "meaning": "Test for negative density near N or O.",
+        "remedy": "Q峰游离检查是否有原子未指认，Q峰如果在轻原子周围检查是否可以无序处理，在重原子周围需要重新吸收校正或者收集数据。使用Shel 999 0.84切去部分高角度点可缓解此警告。最后检查是否数据足够好，是否存在孪晶。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT976》"
+      }
+    },
+    {
+      "code": "002",
+      "type": 2,
+      "level": "G",
+      "text": "Number of Distance or Angle Restraints on AtSite          6 Note",
+      "kb": {
+        "meaning": "Report number of atom sites with distance/angle restraints.",
+        "remedy": "一般无需解决，限制命令有合理解释即可。去掉一些非必要的限制或许可以消除。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT002》"
+      }
+    },
+    {
+      "code": "004",
+      "type": 5,
+      "level": "G",
+      "text": "Polymeric Structure Found with Maximum Dimension          3 Info",
+      "kb": {
+        "meaning": "检测到聚合物结构（维度信息）",
+        "causes": "MOF/配位聚合物",
+        "remedy": "信息性提示，无需处理"
+      }
+    },
+    {
+      "code": "009",
+      "type": 1,
+      "level": "G",
+      "text": "Reported Radiation_type and Wavelength Conflict?     Please Check"
+    },
+    {
+      "code": "045",
+      "type": 1,
+      "level": "G",
+      "text": "Calculated and Reported Z Differ by a Factor ...          2 Check",
+      "kb": {
+        "meaning": "Check Reported and Calculated Z.",
+        "remedy": "修改_cell_formula_units_Z值同计算值相同。否则需给出合理解释。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT045》"
+      }
+    },
+    {
+      "code": "092",
+      "type": 4,
+      "level": "G",
+      "text": "Check: Wavelength Given is not Cu,Ga,Mo,Ag,In Ka    0.68883 Ang.",
+      "kb": {
+        "meaning": "Test for wavelength type [Cu,Ga,Mo,Ag].",
+        "remedy": "一般为误更改，在ins中给出正确波长后重新精修生成CIF文件即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT092》"
+      }
+    },
+    {
+      "code": "174",
+      "type": 4,
+      "level": "G",
+      "text": "The CIF-Embedded .res File Contains FLAT Records          3 Report",
+      "kb": {
+        "meaning": "Check for FLAT Record(s) in CIF-Embedded shelxl.res.",
+        "remedy": "一般不用解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT173-174》"
+      }
+    },
+    {
+      "code": "176",
+      "type": 4,
+      "level": "G",
+      "text": "The CIF-Embedded .res File Contains SADI Records          2 Report",
+      "kb": {
+        "meaning": "Check for SADI Record(s) in CIF-Embedded shelxl.res.",
+        "remedy": "一般不用解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT175-176》"
+      }
+    },
+    {
+      "code": "187",
+      "type": 4,
+      "level": "G",
+      "text": "The CIF-Embedded .res File Contains RIGU Records          1 Report",
+      "kb": {
+        "meaning": "Check for RIGU Record(s) in CIF-Embedded shelxl.res.",
+        "remedy": "一般不用解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT186-187》"
+      }
+    },
+    {
+      "code": "191",
+      "type": 3,
+      "level": "G",
+      "text": "A Non-default SADI Restraint Value has been used     0.0400 Report"
+    },
+    {
+      "code": "606",
+      "type": 4,
+      "level": "G",
+      "text": "Solvent Accessible VOID(S) in Structure ........          ! Info",
+      "kb": {
+        "meaning": "结构中存在溶剂可及空腔",
+        "causes": "多孔材料本征特征",
+        "remedy": "已用掩膜/SQUEEZE 处理时说明"
+      }
+    },
+    {
+      "code": "794",
+      "type": 5,
+      "level": "G",
+      "text": "Tentative Bond Valency for Zr1       (IV)      .       3.96 Info",
+      "kb": {
+        "meaning": "试探性键价和（BVS）信息",
+        "causes": "信息性提示；注意 PLATON 按标签猜元素",
+        "remedy": "核对与氧化态一致即可"
+      }
+    },
+    {
+      "code": "794",
+      "type": 5,
+      "level": "G",
+      "text": "Tentative Bond Valency for Zr2       (IV)      .       3.96 Info",
+      "kb": {
+        "meaning": "试探性键价和（BVS）信息",
+        "causes": "信息性提示；注意 PLATON 按标签猜元素",
+        "remedy": "核对与氧化态一致即可"
+      }
+    },
+    {
+      "code": "802",
+      "type": 4,
+      "level": "G",
+      "text": "CIF Input Record(s) with more than 80 Characters          2 Info",
+      "kb": {
+        "meaning": "CIF 行超长等语法问题",
+        "causes": "生成器未按 80 列折行",
+        "remedy": "修正 CIF 写出"
+      }
+    },
+    {
+      "code": "860",
+      "type": 3,
+      "level": "G",
+      "text": "Number of Least-Squares Restraints .............        135 Note",
+      "kb": {
+        "meaning": "SQUEEZE/掩膜处理信息缺失",
+        "causes": "用了溶剂掩膜但 CIF 未写 _platon_squeeze_* 文档",
+        "remedy": "CrystalPilot 装配器自动补 _platon_squeeze_details+void 环"
+      }
+    },
+    {
+      "code": "869",
+      "type": 4,
+      "level": "G",
+      "text": "ALERTS Related to the Use of SQUEEZE  Suppressed          ! Info",
+      "kb": {
+        "meaning": "与 SQUEEZE 相关的告警已被抑制",
+        "causes": "信息性提示",
+        "remedy": "无需处理"
+      }
+    },
+    {
+      "code": "910",
+      "type": 3,
+      "level": "G",
+      "text": "Missing # of FCF Reflection(s) Below Theta(Min).          4 Note\n0  1  0,  -1  2  0,   0  2  0,   0  0  1,",
+      "kb": {
+        "meaning": "θ(min) 以下的 FCF 反射缺失数偏多",
+        "causes": "光束挡板（beamstop）θmin 设置过高；大晶胞的低角反射被挡板遮挡",
+        "remedy": "技术解（重测时）：增大探测器-晶体距离（专家案例：39→60 mm 后消除）；已有数据则如实说明采集几何"
+      }
+    },
+    {
+      "code": "913",
+      "type": 3,
+      "level": "G",
+      "text": "Missing # of Very Strong Reflections in FCF ....          3 Note\n0  1  0,   0  2  0,   0  0  1,",
+      "kb": {
+        "meaning": "FCF 中缺失的强反射数偏多",
+        "causes": "过曝溢出被剔除/挡板遮挡低角强反射",
+        "remedy": "重测可用衰减片补测强反射；否则说明剔除原因"
+      }
+    },
+    {
+      "code": "969",
+      "type": 5,
+      "level": "G",
+      "text": "The 'Henn et al.' R-Factor-gap value ...........       2.57 Note\nPredicted wR2: Based on SigI**2  9.96 or SHELX Weight 28.56",
+      "kb": {
+        "remedy": "使用程序推荐的权重进行精修重新生成CIF文件即可，否则需要给出合理解释。 / 换用合适的精修程序进行精修。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT965-970》"
+      }
+    },
+    {
+      "code": "978",
+      "type": 2,
+      "level": "G",
+      "text": "Number C-C Bonds with Positive Residual Density.          0 Info",
+      "kb": {
+        "meaning": "Report number of cases with positive density on C-C bonds.",
+        "remedy": "无需解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT978》"
+      }
+    },
+    {
+      "code": "984",
+      "type": 1,
+      "level": "G",
+      "text": "The  O-f'=    0.0070 Deviates from the B&C-Value     0.0101 Check",
+      "kb": {
+        "meaning": "Test the anomalous scattering factor f' values against B&C.",
+        "remedy": "一般无需解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT983-984》"
+      }
+    },
+    {
+      "code": "984",
+      "type": 1,
+      "level": "G",
+      "text": "The Zr-f'=   -9.0410 Deviates from the B&C-Value    -8.5828 Check",
+      "kb": {
+        "meaning": "Test the anomalous scattering factor f' values against B&C.",
+        "remedy": "一般无需解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT983-984》"
+      }
+    },
+    {
+      "code": "985",
+      "type": 1,
+      "level": "G",
+      "text": "The Zr-f\"=    2.7720 Deviates from the B&C-Value     3.7358 Check",
+      "kb": {
+        "meaning": "Test the anomalous scattering factor f\" values against B&C.",
+        "remedy": "一般无需解决，有合理解释即可。",
+        "src": "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT985-986》"
+      }
+    }
+  ],
+  "job_dir": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r05_H0_nu1000\\.crystalpilot\\refine\\checkcif\\job_20260921_225403_084663_35553d36",
+  "delivery_status": "diagnostic",
+  "exit_code": null,
+  "cleanup_complete": true,
+  "engine": {
+    "platon": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\shelx\\platon.exe",
+    "shelxl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\CrystalPilot\\vendor\\shelx\\shelxl.exe",
+    "report_header": [
+      "#===============================================================================",
+      "# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: job",
+      "# Data: model.cif - Type: CIF19                  Bond Precision   C-C = 0.0124 A",
+      "# Refl: model.fcf - Type: LIST4                                     Temp =   0 K",
+      "# Audit:SHELXL-2019/3",
+      "# Refin:SHELXL-2019/2 (SHELDRICK, 2019)"
+    ]
+  },
+  "shelxl_exposed": true,
+  "runtime_path": "C:\\tmp\\cc-thudgv2r",
+  "pid": 39184,
+  "completion_reason": "stable_report_and_platon_completion_marker",
+  "elapsed_s": 11.562,
+  "timeout_s": 420.0,
+  "diagnostics": {
+    "platon.out": "3.08( 3.12)    Entry #  1 -   9A,  1B, 23C, 22G-Alerts, BP   C-C = 0.0124\r\n:: CheckCIF out on :model.chk\r\n:: CheckFCF out on :model.ckf\r\n:: CheckVRF out on :model.vrf\r\n:: CheckPlots   on :model.ps                                          [ 7 Plots]",
+    "stdout.log": "",
+    "stderr.log": ""
+  },
+  "delta": {
+    "vs": "job_20260921_224717_742909_09b1cc39",
+    "new": [],
+    "resolved": []
+  }
+}

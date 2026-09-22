@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "generated": "2026-09-21 23:27:44",
+  "scope": "finalize_delivery: every file in the delivery directory at finalize time",
+  "status": "diagnostic",
+  "files": {
+    "COMPUTATION_RECORD.md": {
+      "bytes": 5263
+    },
+    "REPORT.json": {
+      "bytes": 76157
+    },
+    "SUMMARY.md": {
+      "bytes": 4343
+    },
+    "VALIDATION.md": {
+      "bytes": 10654
+    },
+    "checkcif.json": {
+      "bytes": 19892
+    },
+    "checkcif_alerts.md": {
+      "bytes": 11111
+    },
+    "final.cif": {
+      "bytes": 138939
+    },
+    "final.fcf": {
+      "bytes": 60947
+    },
+    "final.hkl": {
+      "bytes": 123990
+    },
+    "final.ins": {
+      "bytes": 1810
+    },
+    "final.res": {
+      "bytes": 1832
+    },
+    "transcript.jsonl": {
+      "bytes": 523993
+    }
+  },
+  "subdirectories_not_listed": [
+    "analysis",
+    "command_output"
+  ],
+  "source_state": {
+    "node": "n0010",
+    "revision": 11
+  },
+  "delivery_revision": 3,
+  "cif_grade": "shelxl-acta",
+  "provenance": {
+    "final.res": {
+      "from": "node n0010 model.res"
+    },
+    "final.cif": {
+      "grade": "shelxl-acta",
+      "note": "SHELXL ACTA CIF of job job_20260921_231640 (esds, geometry tables, reflection statistics)",
+      "from": "SHELXL job job_20260921_231640 job.cif + session metadata"
+    },
+    "final.fcf": {
+      "from": "SHELXL job job_20260921_231640 job.fcf"
+    },
+    "final.ins": {
+      "from": "SHELXL job job_20260921_231640 job.ins (the deck that produced final.cif/final.fcf)"
+    },
+    "final.hkl": {
+      "from": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r06_H0_alanine\\.crystalpilot\\refine\\data\\d000001\\observations.hkl",
+      "bytes": 123990,
+      "n_reflections": 4132,
+      "terminator_added": false,
+      "trailer_lines": 0,
+      "data_revision": "d000001"
+    },
+    "final.p4p": {
+      "absent": true,
+      "note": "no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  },
+  "manual_continuation": {
+    "ready": true,
+    "files": [
+      "final.res",
+      "final.cif",
+      "final.ins",
+      "final.hkl",
+      "final.p4p"
+    ],
+    "missing": [
+      "final.p4p"
+    ],
+    "notes": [
+      "final.p4p: no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it",
+      "final.ins: SHELXL job job_20260921_231640 job.ins (the deck that produced final.cif/final.fcf)"
+    ],
+    "usage": "same basename: `shelxl final` refines final.ins against final.hkl (+ final.fab); open final.res / final.cif in Olex2 to inspect; final.p4p carries the instrument cell"
+  },
+  "finalized": "2026-09-21 23:27:44",
+  "promoted": false,
+  "waived": [],
+  "waived_count": 0,
+  "open_items": [
+    {
+      "item": "alert:058_A",
+      "text": "Maximum Transmission Factor Missing ............          ?"
+    },
+    {
+      "item": "alert:059_A",
+      "text": "Minimum Transmission Factor Missing ............          ?"
+    },
+    {
+      "item": "alert:699_A",
+      "text": "Missing _exptl_crystal_description Value .......     Please Do !"
+    },
+    {
+      "item": "alert:939_A",
+      "text": "Large Value of Not (SHELXL) Weight Optimized S .     831.49 Check"
+    },
+    {
+      "item": "unresolved#1",
+      "text": "低角数据污染尚未修复：原始像素存在零计数/严重衰减区域，DIALS保留近零观测却剔除正常强等价观测（022、023、131、102、033等）。证据见analysis/reflection_audit.txt。当前MCP未暴露像素掩膜与逐观测重积分控制；需重新掩膜、积分、缩放。未手动删HKL或用增原子/无序改善统计量。"
+    },
+    {
+      "item": "unresolved#2",
+      "text": "最终R1=0.0457、wR2=0.2047、GooF=1.271、差值密度+0.890/-0.762 e/A^3；低角系统失配显著，几何、ADP和氢位置可能受偏差影响。PLAT965提示权重未完全收敛，仅坐标精修已收敛。"
+    },
+    {
+      "item": "unresolved#3",
+      "text": "绝对构型未知：Parsons/Flack x=0.779，su=0.847，346个quotients；没有输入的L/D化学证明，不把数值解释为构型或反演孪晶比例。"
+    },
+    {
+      "item": "unresolved#4",
+      "text": "高角覆盖不足。最终CIF在theta_max=30.126度处Laue/点群完整度0.879/0.839；theta_full=25.242度处0.998/0.999。未为降低R值截断分辨率。DIALS总体完整度90.3%采用不同统计口径，不能混同。CIF/FCF的Lmax差1尚未逐行完全归因。"
+    },
+    {
+      "item": "unresolved#5",
+      "text": "当前DIALS中位晶胞的标准不确定度未传播，ZERR中的0是缺失占位，不是零误差；几何esd不含可靠晶胞误差。输入有厂商另一晶胞及误差但未冒充本次DIALS结果，无p4p。"
+    },
+    {
+      "item": "unresolved#6",
+      "text": "晶体尺寸、颜色、形状、精确仪器型号和吸收校正Tmin/Tmax未知；150 K与0.71073 A有本次输入支持。"
+    },
+    {
+      "item": "unresolved#7",
+      "text": "CIF生成器元数据限制：set_experiment已记录求解方法和实际精修版本，但写出器仍将结构求解置为问号，并保留_computing_structure_refinement的2019/2默认文字。实际为本次工具电荷翻转起模与SHELXL-2019/3精修，证据为start.res、工具调用和最终job.lst/"
+    },
+    {
+      "item": "unresolved#8",
+      "text": "发表级可靠性尚未达到。所有本地checkCIF A/B/C警报在VALIDATION.md逐条解释，但解释不等于修复；仅进行本地PLATON验证，未上传官方IUCr服务。"
+    },
+    {
+      "item": "unmet_goal#1",
+      "text": "尚未得到可宣称接近发表质量的可靠结构：需通过支持真实像素掩膜的工具重新积分、缩放，恢复正常强等价观测并排除遮挡观测的错误贡献。"
+    },
+    {
+      "item": "unmet_goal#2",
+      "text": "尚未可靠确定绝对构型、当前DIALS晶胞标准不确定度和若干实验元数据。"
+    },
+    {
+      "item": "unmet_goal#3",
+      "text": "CIF生成器仍存在求解方法问号、默认精修版本及笼统交叉验证文字的问题；已披露，未手工改写审计链外的结构文件。"
+    }
+  ],
+  "missing_inputs": [
+    {
+      "item": "file:final.p4p",
+      "text": "final.p4p not delivered (instrument cell record, an input): no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+    }
+  ]
+}

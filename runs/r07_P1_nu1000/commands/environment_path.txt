@@ -1,0 +1,58 @@
+H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\toolbox\shelx
+C:\users\<user>\miniforge3\envs\dials\Library\bin
+C:\users\<user>\miniforge3\envs\dials\Scripts
+C:\users\<user>\miniforge3\envs\dials
+C:\users\<user>\bin
+D:\Git\mingw64\bin
+D:\Git\usr\local\bin
+D:\Git\usr\bin
+D:\Git\usr\bin
+D:\Git\mingw64\bin
+D:\Git\usr\bin
+C:\users\<user>\bin
+C:\Program Files\Microsoft\jdk-17.0.17.10-hotspot\bin
+F:\Big Data Processing\Exp1\bin
+C:\Program Files\NVIDIA\CUDNN\v9.2\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\libnvvp
+C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+C:\Program Files\PerkinElmerInformatics\ChemOffice2021\ChemScript\Lib
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\WindowsPowerShell\v1.0
+C:\Windows\System32\OpenSSH
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+C:\Program Files\dotnet
+C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn
+C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.2.1
+C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR
+C:\users\<user>\AppData\Roaming\Python\Python312\site-packages\CageCavityCalc
+C:\users\<user>\.pyenv\pyenv-win\bin
+C:\users\<user>\.pyenv\pyenv-win\shims
+C:\Program Files\CMake\bin
+C:\users\<user>\.pyenv\pyenv-win\versions\3.12.4\Scripts
+C:\Program Files\Docker\Docker\resources\bin
+D:\Git\cmd
+D:\Git\usr\bin
+F:\Big Data Processing\Exp1\XShell
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0
+C:\WINDOWS\System32\OpenSSH
+C:\Program Files\nodejs
+C:\Program Files\GitHub CLI
+C:\users\<user>\AppData\Roaming\npm
+D:\Microsoft VS Code\bin
+C:\users\<user>\AppData\Local\Microsoft\WindowsApps
+C:\users\<user>\AppData\Roaming\Programs\Zero Install
+C:\users\<user>\AppData\Local\Microsoft\WinGet\Packages\Microsoft.devtunnel_Microsoft.Winget.Source_8wekyb3d8bbwe
+F:\codex_api_terminal\bin
+C:\users\<user>\AppData\Local\Programs\Python\Python312
+C:\Program Files\nodejs
+C:\Python32-64
+D:\Git\usr\bin\vendor_perl
+D:\Git\usr\bin\core_perl
+C:\users\<user>\AppData\Local\Claude-3p\local-agent-mode-sessions\skills-plugin\00000000-0000-4000-8000-000000000001\958ea419-87ac-495b-a65d-e55fb08aa82b\bin

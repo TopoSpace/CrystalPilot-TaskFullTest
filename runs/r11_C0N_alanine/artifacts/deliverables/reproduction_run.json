@@ -1,0 +1,101 @@
+[
+  {
+    "command": [
+      "decode_all.py"
+    ],
+    "returncode": 0,
+    "seconds": 26.531000000002678
+  },
+  {
+    "command": [
+      "fit_geometry.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.062999999994645
+  },
+  {
+    "command": [
+      "geometry_flexible.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.062000000005355
+  },
+  {
+    "command": [
+      "integrate.py"
+    ],
+    "returncode": 0,
+    "seconds": 7.421999999998661
+  },
+  {
+    "command": [
+      "shadow_mask.py"
+    ],
+    "returncode": 0,
+    "seconds": 7.203000000001339
+  },
+  {
+    "command": [
+      "integrate_flexible.py"
+    ],
+    "returncode": 0,
+    "seconds": 2.5
+  },
+  {
+    "command": [
+      "absorption.py"
+    ],
+    "returncode": 0,
+    "seconds": 19.218999999997322
+  },
+  {
+    "command": [
+      "final_merge.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.625
+  },
+  {
+    "command": [
+      "solve.py"
+    ],
+    "returncode": 0,
+    "seconds": 78.32800000000134
+  },
+  {
+    "command": [
+      "refine.py"
+    ],
+    "returncode": 0,
+    "seconds": 2.0469999999986612
+  },
+  {
+    "command": [
+      "refine_aniso.py",
+      "--final"
+    ],
+    "returncode": 0,
+    "seconds": 5.0310000000026776
+  },
+  {
+    "command": [
+      "validate.py"
+    ],
+    "returncode": 0,
+    "seconds": 5.8439999999973224
+  },
+  {
+    "command": [
+      "export_results.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.9060000000026776
+  },
+  {
+    "command": [
+      "check_outputs.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.562999999994645
+  }
+]

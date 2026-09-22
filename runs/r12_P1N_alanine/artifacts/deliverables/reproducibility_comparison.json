@@ -1,0 +1,49 @@
+{
+  "merged_data_reproduced": true,
+  "nonH_RMS_A_after_symmetry_and_hand": 1.9183110527047685e-10,
+  "matching_transform": {
+    "hand": -1,
+    "symmetry_operation": 3,
+    "origin_shift": [
+      0,
+      0,
+      0.5
+    ],
+    "oxygen_exchange": true,
+    "per_atom_displacements_A": [
+      3.300452494634811e-10,
+      3.2528133490551033e-11,
+      4.7157123712020164e-12,
+      2.0989148591769357e-10,
+      3.854787817571128e-11,
+      2.5542998809499904e-10
+    ]
+  },
+  "calculated_amplitude_relative_discrepancy": 8.025004485734265e-10,
+  "main_statistics": {
+    "R1_gt2sigma": 0.03336397603299443,
+    "R1_all": 0.04029034656392158,
+    "wR2": 0.07555161821505872,
+    "goodness_of_fit": 1.329336574120526,
+    "n_reflections": 657,
+    "n_gt2sigma": 599,
+    "n_parameters": 57,
+    "scale": 1.5826819796910425,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.029620318691682215
+  },
+  "fresh_statistics": {
+    "R1_gt2sigma": 0.03336397604984868,
+    "R1_all": 0.04029034658061451,
+    "wR2": 0.07555161821505885,
+    "goodness_of_fit": 1.3293365741205285,
+    "n_reflections": 657,
+    "n_gt2sigma": 599,
+    "n_parameters": 57,
+    "scale": 1.5826819809388752,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.029404237910544726
+  },
+  "fresh_validation": true,
+  "passed": true
+}

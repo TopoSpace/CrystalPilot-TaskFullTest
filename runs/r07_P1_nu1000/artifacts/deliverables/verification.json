@@ -1,0 +1,45 @@
+{
+  "time": "2026-09-22T00:13:10.713691",
+  "passed": true,
+  "reproduction": {
+    "command": [
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\shelxl.exe",
+      "nu1000_framework",
+      "-t4"
+    ],
+    "exit_code": 0,
+    "reference": {
+      "_refine_ls_R_factor_gt": "0.0876",
+      "_refine_ls_R_factor_all": "0.1278",
+      "_refine_ls_wR_factor_ref": "0.3161",
+      "_refine_ls_goodness_of_fit_ref": "1.021",
+      "_refine_ls_number_reflns": "3345",
+      "_refine_ls_shift/su_max": "0.001",
+      "_refine_diff_density_max": "0.577",
+      "_refine_diff_density_min": "-0.561"
+    },
+    "reproduced": {
+      "_refine_ls_R_factor_gt": "0.0876",
+      "_refine_ls_R_factor_all": "0.1278",
+      "_refine_ls_wR_factor_ref": "0.3161",
+      "_refine_ls_goodness_of_fit_ref": "1.021",
+      "_refine_ls_number_reflns": "3345",
+      "_refine_ls_shift/su_max": "0.001",
+      "_refine_diff_density_max": "0.577",
+      "_refine_diff_density_min": "-0.561"
+    },
+    "max_site_shift_angstrom": 1.661000000047763e-05,
+    "hkl_sha256": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "unknown_temperature": "?",
+    "same_atom_labels": true,
+    "max_adp_component_difference": 0.0,
+    "hkl_matches_reference": true,
+    "passed": true
+  },
+  "metadata_preserves_atom_data": true,
+  "no_mask_nonH_max_fractional_shift": 0.0,
+  "independent_framework_geometry_passed": true,
+  "original_inputs_unchanged": true,
+  "full_checkcif_completed": false,
+  "full_checkcif_note": "No check.def found in the provided software tree; no external validation upload performed."
+}

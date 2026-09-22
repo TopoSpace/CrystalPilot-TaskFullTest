@@ -1,0 +1,230 @@
+
+
+
+
+Count    : 30
+
+Average  : 
+
+Sum      : 
+
+Maximum  : 
+
+Minimum  : 
+
+Property : 
+
+
+
+Count    : 60
+
+Average  : 
+
+Sum      : 
+
+Maximum  : 
+
+Minimum  : 
+
+Property : 
+
+
+
+Count    : 416
+
+Average  : 
+
+Sum      : 190994359
+
+Maximum  : 
+
+Minimum  : 
+
+Property : Length
+
+
+
+IgnoreCase : True
+
+LineNumber : 36
+
+Line       : SADI 0.020 C1 O2 C1B O2
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 37
+
+Line       : SADI 0.020 C1 O1 C1B O1B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 38
+
+Line       : SADI 0.020 C1 C4 C1B C4B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 39
+
+Line       : SADI 0.020 C4 C8 C4B C8
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 40
+
+Line       : SADI 0.020 C3 C4 C3B C4B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 41
+
+Line       : SADI 0.020 C3 C5 C3B C5
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 42
+
+Line       : SADI 0.020 O1 ZR1 O1B ZR1
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 43
+
+Line       : SADI 0.020 C1 C3 C1B C3B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 44
+
+Line       : SADI 0.020 C4 O1 C4B O1B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+IgnoreCase : True
+
+LineNumber : 45
+
+Line       : SIMU 0.040 0.080 C1 O1 C4 C3 C1B O1B C4B C3B
+
+Filename   : InputStream
+
+Path       : InputStream
+
+Pattern    : ^(SADI|SIMU)
+
+Context    : 
+
+Matches    : {0}
+
+
+
+
+
+
+

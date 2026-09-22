@@ -1,0 +1,494 @@
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  verify_main                started at 23:00:57 on 21-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: verify_main -a50000 -b3000 -c624 -g0 -m0 -t32
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running 32 threads on 32 processors
+
+ TITL CrystalPilot n0023 in P 6/m m m
+ REM CrystalPilot node n0023 tool=run_shelxl
+ REM R1 = 0.0853 wR2 = 0.2563 GooF = 0.913
+ CELL 0.68883 39.19000 39.19000 16.61000 90.0000 90.0000 120.0000
+ ZERR 3 0.00000 0.00000 0.00000 0.0000 0.0000 0.0000
+ LATT 1
+ SYMM X-Y,X,Z
+ SYMM Y,-X+Y,Z
+ SYMM -Y,X-Y,Z
+ SYMM -X+Y,-X,Z
+ SYMM X-Y,-Y,-Z
+ SYMM -X,-X+Y,-Z
+ SYMM -X,-Y,Z
+ SYMM Y,X,-Z
+ SYMM -Y,-X,-Z
+ SYMM -X+Y,Y,-Z
+ SYMM X,X-Y,-Z
+ SFAC C H O Zr
+ REM DISP lambda 0.68883 A is not a SHELXL built-in line (Cu/Mo/Ag K-alpha):
+ REM DISP f'/f'' from cctbx (sasaki: C O Zr; henke: H), mu = NIST attenuation
+ REM DISP in barn/atom
+ DISP $C 0.002 0.002 10.99
+ DISP $H 0.000 0.000 0.62
+ DISP $O 0.007 0.006 30.28
+ DISP $Zr -9.041 2.772 14341.91
+ UNIT 264.0 132.0 96.0 18.0
+
+ V =    22092.79     F(000) =    3204.0     Mu =   1.20 mm-1      Cell Wt =     6481.65    Rho =  0.487
+
+  
+ EQIV $1 -X+1, -Y+1, Z
+ EQIV $2 X, Y, -Z+1
+ EQIV $3 -X+1, -Y+1, -Z+1
+ FREE ZR1 ZR2
+ FREE ZR1 ZR2_$1
+ FREE ZR1 ZR2_$2
+ FREE ZR1 ZR2_$3
+ FREE ZR2 ZR2_$1
+ FREE ZR2 ZR2_$2
+ FREE ZR2 ZR1_$3
+  
+ SHEL 999 1.000
+  
+ SADI 0.020 C2 C5 C5 C3 C3 C4 C4 C8 C8 C11 C11 C2
+ SADI 0.040 C2 C3 C5 C4 C3 C8 C4 C11 C8 C2 C11 C5
+ FLAT 0.02 C2 C5 C3 C4 C8 C11
+ FLAT 0.02 C6 C7 C9 C10 C12
+ FLAT 0.02 O1 O2 C1 C4
+ RIGU 0.0040 0.0040 O1 O2 C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12
+  
+ REM CrystalPilot: solvent-mask Fourier coefficients in final.fab
+ REM (the same .fab file the SHELXL job used)
+ ABIN
+ WGHT 0.147200 0.000000
+ FVAR 0.05113
+ ZR1   4   0.463830   0.536170   0.500000    10.25000     0.08717     0.08717 =
+       0.06880     0.00000     0.00000     0.05595
+ ZR2   4   0.544996   0.544996   0.393659    10.50000     0.09097     0.09097 =
+       0.08185     0.01240     0.01240     0.05706
+ O1    3   0.482232   0.587234   0.581842    11.00000     0.10165     0.09787 =
+       0.09406    -0.00207    -0.00403     0.06652
+ O2    3   0.534249   0.593195   0.649119    11.00000     0.10597     0.11882 =
+       0.13034    -0.03995    -0.03116     0.07207
+ O3    3   0.527316   0.563698   0.500000    10.50000     0.09977     0.19133 =
+       0.09605     0.00000     0.00000     0.08926
+ O4    3   0.536433   0.536433   0.260063    10.50000     0.19610     0.19610 =
+       0.08281     0.03794     0.03794     0.15356
+ O5    3   0.600073   0.600073   0.409788    10.50000     0.10922     0.10922 =
+       0.24387     0.02610     0.02610     0.05795
+ O6    3   0.518116   0.481884   0.393034    10.50000     0.12312     0.12312 =
+       0.12773     0.01742    -0.01742     0.07695
+ C1    1   0.508730   0.602201   0.635014    11.00000     0.10668     0.10129 =
+       0.08450    -0.00537    -0.01019     0.06512
+ C2    1   0.505772   0.690260   0.780575    11.00000     0.23148     0.10693 =
+       0.07448    -0.00408    -0.01259     0.10228
+ C3    1   0.477732   0.640998   0.676090    11.00000     0.14977     0.11840 =
+       0.11936    -0.04324    -0.02237     0.08849
+ AFIX 43
+ H3    2   0.458070   0.627367   0.638137    11.00000    -1.20000
+ AFIX 0
+ C4    1   0.508237   0.632958   0.685303    11.00000     0.15680     0.11217 =
+       0.09971    -0.02143    -0.02340     0.09139
+ C5    1   0.476840   0.669700   0.724265    11.00000     0.18521     0.13872 =
+       0.11174    -0.02016    -0.00263     0.11073
+ AFIX 43
+ H5    2   0.456372   0.675036   0.718251    11.00000    -1.20000
+ AFIX 0
+ C6    1   0.505086   0.721849   0.830621    11.00000     0.22632     0.10302 =
+       0.08929    -0.01336    -0.01374     0.10886
+ C7    1   0.505356   0.752678   0.792323    10.50000     0.25399     0.12319 =
+       0.08635    -0.01405    -0.02809     0.12699
+ AFIX 43
+ H7    2   0.505749   0.752875   0.736339    10.50000    -1.20000
+ AFIX 0
+ C8    1   0.538191   0.652760   0.740409    11.00000     0.20864     0.11466 =
+       0.11742    -0.04842    -0.05492     0.10430
+ AFIX 43
+ H8    2   0.558547   0.647180   0.745165    11.00000    -1.20000
+ AFIX 0
+ C9    1   0.504843   0.721999   0.913220    11.00000     0.25428     0.10716 =
+       0.08632    -0.00169    -0.00365     0.11337
+ C10   1   0.504954   0.752477   0.955936    10.50000     0.26327     0.11269 =
+       0.08204     0.00093     0.00185     0.13164
+ C11   1   0.537175   0.681145   0.788437    11.00000     0.26138     0.12097 =
+       0.10584    -0.02154    -0.04673     0.12630
+ AFIX 43
+ H11   2   0.556951   0.694550   0.826295    11.00000    -1.20000
+ AFIX 0
+ C12   1   0.504553   0.690108   0.959570    11.00000     0.32069     0.15020 =
+       0.08510    -0.00248     0.00196     0.16191
+ AFIX 43
+ H12   2   0.504363   0.669283   0.932318    11.00000    -1.20000
+ AFIX 0
+ L.S. 0
+ HKLF 4
+
+
+
+ Covalent radii and connectivity table for  CrystalPilot n0023 in P 6/m m m                                            
+ C      0.770
+ H      0.320
+ O      0.660
+ ZR     1.590
+
+ Zr1 - O6_$3 O6_$1 O3_$4 O3 O1 O1_$5 O1_$4 O1_$2
+ Zr2 - O6_$1 O6 O3 O3_$6 O5 O4 O2_$2 O2_$6
+ O1 - C1 Zr1
+ O2 - C1 Zr2_$2
+ O3 - Zr2_$2 Zr2 Zr1
+ O4 - Zr2
+ O5 - Zr2
+ O6 - Zr2_$1 Zr2 Zr1_$3
+ C1 - O2 O1 C4
+ C2 - C5 C11 C6
+ C3 - C4 C5
+ C4 - C8 C3 C1
+ C5 - C2 C3
+ C6 - C7 C9 C2
+ C7 - C6_$7 C6
+ C8 - C4 C11
+ C9 - C6 C10 C12
+ C10 - C9_$7 C9 C10_$8
+ C11 - C8 C2
+ C12 - C12_$8 C9
+
+
+ Operators for generating equivalent atoms:
+ $1   -x+1, -y+1, z
+ $2   x, y, -z+1
+ $3   -x+1, -y+1, -z+1
+ $4   -y+1, -x+1, z
+ $5   -y+1, -x+1, -z+1
+ $6   y, x, -z+1
+ $7   x, x-y+1, z
+ $8   x, y, -z+2
+
+   179481  Reflections outside SHEL resolution limits rejected
+
+
+   337815  Reflections read, of which  179481  rejected
+
+ -39 =< h =< 39,    -39 =< k =< 39,    -16 =< l =< 16,   Max. 2-theta =   40.28
+
+        0  Systematic absence violations (I>3sig(I)) before merging
+
+        0  Inconsistent equivalents
+
+     4395  Unique reflections, of which       0  suppressed
+
+ R(int) = 0.5659     R(sigma) = 0.1066      Friedel opposites merged
+
+ Maximum memory for data reduction =     1914 /    48177
+
+
+ Reflection statistics for all twin components combined (TWST 0 set)
+ Number of data for d > 1.000A (CIF: max) and d > 0.833A (CIF: full)
+ (ignoring systematic absences):
+ Unique reflections found (point group)       4395    4395
+ Unique reflections possible (point group)    4401    7433
+ Unique reflections found (Laue group)        4395    4395
+ Unique reflections possible (Laue group)     4401    7433
+
+ Special position constraints for Zr1
+ z =  0.5000   y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U23 = 0   U13 = 0   
+ sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for Zr2
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O3
+ z =  0.5000   U23 = 0   U13 = 0   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O4
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O5
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O6
+ y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U13 =-1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C7
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C10
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+
+ Default effective X-H and X-D distances for T =   20.0C 
+ AFIX m =    1     2     3     4   4[N]  3[N]  15[B]  8[O]   9   9[N]   16
+ d(X-H) =  0.98  0.97  0.96  0.93  0.86  0.89  1.10  0.82  0.93  0.86  0.93
+
+ Note that these distances are chosen to give the best fit to the X-ray data
+ and so avoid the introduction of systematic error.  The true internuclear
+ distances are longer and do not vary with temperature!  The apparent
+ variation with temperature is caused by libration.
+
+
+
+ Idealized hydrogen atom generation before cycle   1
+
+ Name     x       y       z    AFIX  d(X-H)  shift  Bonded to  Conformation determined by
+ H3    0.4581  0.6274  0.6381   43   0.930   0.000   C3            C4  C5  
+ H5    0.4564  0.6750  0.7183   43   0.930   0.000   C5            C2  C3  
+ H7    0.5057  0.7529  0.7363   43   0.930   0.000   C7            C6_$7  C6  
+ H8    0.5585  0.6472  0.7452   43   0.930   0.000   C8            C4  C11  
+ H11   0.5570  0.6945  0.8263   43   0.930   0.000   C11           C8  C2  
+ H12   0.5044  0.6693  0.9323   43   0.930   0.000   C12           C12_$8  C9  
+
+
+
+  CrystalPilot n0023 in P 6/m m m                                            
+
+ ATOM           x        y        z         sof        U11      U22      U33      U23      U13      U12       Ueq
+
+ Zr1         0.46383  0.53617  0.50000    0.25000    0.08717  0.08717  0.06880  0.00000  0.00000  0.05595   0.07555
+ Zr2         0.54500  0.54500  0.39366    0.50000    0.09097  0.09097  0.08185  0.01240  0.01240  0.05706   0.08279
+ O1          0.48223  0.58723  0.58184    1.00000    0.10165  0.09787  0.09406 -0.00207 -0.00403  0.06652   0.09046
+ O2          0.53425  0.59320  0.64912    1.00000    0.10597  0.11882  0.13034 -0.03995 -0.03116  0.07207   0.11132
+ O3          0.52732  0.56370  0.50000    0.50000    0.09977  0.19133  0.09605  0.00000  0.00000  0.08926   0.12172
+ O4          0.53643  0.53643  0.26006    0.50000    0.19610  0.19610  0.08281  0.03794  0.03794  0.15356   0.13367
+ O5          0.60007  0.60007  0.40979    0.50000    0.10922  0.10922  0.24387  0.02610  0.02610  0.05795   0.15262
+ O6          0.51812  0.48188  0.39303    0.50000    0.12312  0.12312  0.12773  0.01742 -0.01742  0.07695   0.11782
+ C1          0.50873  0.60220  0.63501    1.00000    0.10668  0.10129  0.08450 -0.00537 -0.01019  0.06512   0.09166
+ C2          0.50577  0.69026  0.78057    1.00000    0.23148  0.10693  0.07448 -0.00408 -0.01259  0.10228   0.12977
+ C3          0.47773  0.64100  0.67609    1.00000    0.14977  0.11840  0.11936 -0.04324 -0.02237  0.08849   0.11964
+ H3          0.45807  0.62737  0.63814    1.00000    0.14357
+ C4          0.50824  0.63296  0.68530    1.00000    0.15680  0.11217  0.09971 -0.02143 -0.02340  0.09139   0.11216
+ C5          0.47684  0.66970  0.72426    1.00000    0.18521  0.13872  0.11174 -0.02016 -0.00263  0.11073   0.13200
+ H5          0.45637  0.67504  0.71825    1.00000    0.15840
+ C6          0.50509  0.72185  0.83062    1.00000    0.22632  0.10302  0.08929 -0.01336 -0.01374  0.10886   0.12775
+ C7          0.50536  0.75268  0.79232    0.50000    0.25399  0.12319  0.08635 -0.01405 -0.02810  0.12699   0.13998
+ H7          0.50575  0.75287  0.73634    0.50000    0.16797
+ C8          0.53819  0.65276  0.74041    1.00000    0.20864  0.11466  0.11742 -0.04842 -0.05492  0.10430   0.13647
+ H8          0.55855  0.64718  0.74517    1.00000    0.16377
+ C9          0.50484  0.72200  0.91322    1.00000    0.25428  0.10716  0.08632 -0.00169 -0.00365  0.11337   0.13903
+ C10         0.50495  0.75248  0.95594    0.50000    0.26327  0.11269  0.08204  0.00093  0.00186  0.13163   0.13594
+ C11         0.53717  0.68115  0.78844    1.00000    0.26138  0.12097  0.10584 -0.02154 -0.04673  0.12630   0.14908
+ H11         0.55695  0.69455  0.82629    1.00000    0.17890
+ C12         0.50455  0.69011  0.95957    1.00000    0.32069  0.15020  0.08510 -0.00248  0.00196  0.16191   0.16569
+ H12         0.50436  0.66928  0.93232    1.00000    0.19883
+
+
+ Final Structure Factor Calculation for  CrystalPilot n0023 in P 6/m m m                                            
+
+ Total number of l.s. parameters =   155  Maximum vector length =  623   Memory required =     47 /   1914 /    28035
+
+ wR2 =  0.2563 before cycle   1 for    4395 data and      0 /    155 parameters
+
+
+ Disagreeable restraints before cycle    1
+
+   Observed   Target    Error     Sigma     Restraint
+
+                        0.0718    0.0200    SAME/SADI C2 C5 C2 C11
+
+
+ Summary of restraints applied in cycle    1
+
+               ANTIBUMP  DFIX    DANG SAME/SADI CHIV/Z CHIV/NZ   FLAT    DELU    RIGU    SIMU    ISOR    SUMP
+
+       Number       0       0       0      30       0       0       6       0      99       0       0       0
+
+ rms sigma      0.0000  0.0000  0.0000  0.0316  0.0000  0.0000  0.0200  0.0000  0.1117  0.0000  0.0000  0.0000
+
+ rms deviation  0.0000  0.0000  0.0000  0.0400  0.0000  0.0000  0.0126  0.0000  0.0142  0.0000  0.0000  0.0000
+
+
+ GooF = S =     0.913;     Restrained GooF =      0.910 for     135 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1472 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ wR2 = 0.2563, GooF = S = 0.913, Restrained GooF = 0.910 for all data
+ R1 = 0.0853 for 2063 Fo > 4sig(Fo) and 0.1309 for all 4395 data
+
+ Occupancy sum of asymmetric unit =    15.75 for non-hydrogen and     5.50 for H and D atoms
+
+
+
+ Principal mean square atomic displacements U
+
+   0.0954   0.0688   0.0624   Zr1  
+   0.1069   0.0737   0.0678   Zr2  
+   0.1117   0.0934   0.0663   O1  
+   0.1694   0.0855   0.0791   O2  
+   0.1918   0.0961   0.0773   O3  
+   0.2449   0.0851   0.0710   O4    may be split into  0.5421  0.5393  0.2632  and  0.5307  0.5336  0.2569
+   0.2504   0.1049   0.1025   O5  
+   0.1491   0.1334   0.0710   O6  
+   0.1159   0.0840   0.0752   C1  
+   0.2341   0.0819   0.0733   C2    may be split into  0.5104  0.6897  0.7796  and  0.5011  0.6909  0.7815
+   0.1746   0.1196   0.0647   C3  
+   0.1688   0.0931   0.0746   C4  
+   0.1908   0.1248   0.0804   C5  
+   0.2278   0.0907   0.0648   C6    may be split into  0.5097  0.7217  0.8295  and  0.5005  0.7220  0.8317
+   0.2586   0.0818   0.0796   C7    may be split into  0.5107  0.7527  0.7903  and  0.5001  0.7527  0.7944
+   0.2351   0.1095   0.0648   C8  
+   0.2558   0.0862   0.0751   C9    may be split into  0.5098  0.7215  0.9130  and  0.4999  0.7225  0.9135
+   0.2633   0.0820   0.0625   C10    may be split into  0.5104  0.7525  0.9561  and  0.4995  0.7525  0.9558
+   0.2745   0.0929   0.0798   C11    may be split into  0.5423  0.6810  0.7850  and  0.5320  0.6813  0.7919
+   0.3207   0.0932   0.0831   C12    may be split into  0.5107  0.6902  0.9597  and  0.4984  0.6901  0.9595
+
+ ** Warning:     8  atoms may be split and     0  atoms NPD **
+
+
+
+ Analysis of variance for reflections employed in refinement      K = Mean[Fo^2] / Mean[Fc^2]  for group
+
+
+ Fc/Fc(max)       0.000    0.005    0.008    0.015    0.022    0.028    0.036    0.045    0.062    0.103    1.000
+
+ Number in group       528.     364.     444.     482.     406.     446.     432.     415.     441.     437.
+
+            GooF      0.679    0.721    0.609    0.562    0.725    0.794    1.127    1.103    1.196    1.299
+
+             K      -21.179   -3.928    0.646    1.197    1.072    1.020    1.016    0.992    1.018    0.999
+
+
+ Resolution(A)    1.00     1.04     1.08     1.13     1.20     1.28     1.38     1.52     1.77     2.26     inf
+
+ Number in group       445.     444.     438.     443.     436.     431.     437.     444.     437.     440.
+
+            GooF      0.637    0.658    0.665    0.691    0.668    0.771    0.824    0.777    0.875    1.870
+
+             K        0.883    0.971    0.966    0.934    0.866    0.867    0.965    0.978    1.035    1.000
+
+             R1       0.328    0.257    0.235    0.206    0.230    0.212    0.114    0.087    0.070    0.114
+
+
+ Recommended weighting scheme:  WGHT    0.1471    0.0000
+
+
+ Most Disagreeable Reflections (* if suppressed or used for Rfree).
+ Error/esd is calculated as sqrt(wD^2/<wD^2>) where w is given by the weight
+ formula, D = Fo^2-Fc^2 and <> refers to the average over all reflections.
+
+     h   k   l          Fo^2          Fc^2    Error/esd  Fc/Fc(max)  Resolution(A)
+
+    -3   8   0       6495.67        971.50      12.20       0.042       4.85
+    -1   5   0       1314.12        278.61       7.51       0.023       7.41
+     0   9   0      10384.21       3546.17       7.19       0.081       3.77
+    -5  10   2       5291.04       1946.23       7.01       0.060       3.54
+     0   3   2        996.69       3203.30       6.37       0.077       6.69
+    -2   6   2       3029.86       7826.41       5.76       0.120       5.08
+    -4   9   0       2733.32       1052.99       5.71       0.044       4.35
+     0   1   2      12436.73       5969.21       5.64       0.105       8.07
+    -1   9   0       1803.49        389.54       5.37       0.027       3.97
+    -3   6   2      34767.18      17357.13       5.34       0.179       5.13
+    -1   8   3         53.16        856.38       5.31       0.040       3.49
+     0   8   1       1896.53        660.74       5.31       0.035       4.11
+     0   2   2      26729.56      61048.69       5.19       0.336       7.46
+    -3   8   2      29693.24      15693.32       5.05       0.170       4.19
+    -1   4   4        476.00       1341.67       4.96       0.050       3.80
+     0   5   3      11432.69       6189.73       4.65       0.107       4.29
+    -2   6   0       6777.65      13968.86       4.64       0.161       6.41
+    -2   8   2      13962.98       7945.72       4.43       0.121       4.09
+    -5  11   0       3583.76       1831.93       4.38       0.058       3.56
+    -2   5   0       4576.44       8990.43       4.38       0.129       7.79
+    -2   5   4       1632.66        826.36       4.34       0.039       3.66
+    -3   7   0       8774.92       5011.15       4.26       0.096       5.58
+    -1   8   0       7694.17       4439.12       4.11       0.091       4.50
+    -1   2   2       4138.19       7664.92       4.04       0.119       7.65
+    -4  10   2       1958.77       1060.12       4.02       0.044       3.53
+    -2  10   3       6031.59       3652.52       3.83       0.082       3.08
+    -1   5   1       3554.72       2177.46       3.72       0.063       6.76
+    -3   6   0      12675.25       7658.92       3.68       0.119       6.53
+    -2  12   0       8835.62       5415.20       3.67       0.100       3.05
+    -1   7   4        143.43        590.87       3.63       0.033       3.24
+    -2   6   1      16735.23      28590.87       3.62       0.230       5.98
+     0  11   0      50366.79      31116.24       3.55       0.240       3.09
+     0   4   3      26133.59      16471.12       3.54       0.174       4.64
+     0   0   4       3844.07       7257.83       3.53       0.116       4.15
+    -6  13   0       2889.70       1691.77       3.44       0.056       3.01
+    -1   3   2       1572.89       2650.29       3.43       0.070       6.97
+    -4  14   1       5845.95       3742.44       3.40       0.083       2.68
+    -1   9   2       1276.03        691.91       3.36       0.036       3.58
+    -2  11   1       9436.35       6136.60       3.33       0.106       3.28
+     0   4   1      33223.57      21507.74       3.32       0.199       7.56
+     0   0   2     191620.27     114826.05       3.28       0.461       8.31
+     0   8   0       9921.10       6237.18       3.27       0.107       4.24
+   -13  26   9       6355.11       3815.81       3.25       0.084       1.17
+    -1  11   0      12161.86       7920.13       3.24       0.121       3.22
+     0  15  10       4451.30       2716.04       3.20       0.071       1.34
+     0  18   9       1781.54       3351.09       3.20       0.079       1.32
+     0   2  12       3113.12       5314.89       3.15       0.099       1.38
+    -5  21   7       1595.61        861.51       3.10       0.040       1.43
+    -9  20   7       1021.34        456.38       3.08       0.029       1.51
+    -3   9   5        619.06       1151.01       3.07       0.046       2.62
+
+ R1 =  0.1242 for   4395 unique reflections after merging for Fourier
+
+
+ Time profile in seconds
+ -----------------------
+
+      0.02: Read and process instructions
+      0.00: Fit rigid groups
+      0.00: Interpret restraints etc.
+      0.00: Generate connectivity array
+      0.00: Analyse DFIX and DANG restraints
+      0.00: Analyse SAME, SADI and NCSY restraints
+      0.00: Generate CHIV restraints
+      0.00: Check if bonds in residues restrained
+      0.00: Generate DELU and RIGU restraints
+      0.00: Generate SIMU restraints
+      0.00: Generate ISOR restraints
+      0.00: Analyse electron density
+      0.01: Analyse other restraints etc.
+      0.38: Read intensity data, sort/merge etc.
+      0.01: Set up constraints
+      0.36: OSF, H-atoms from difference map
+      0.00: Set up l.s. refinement
+      0.00: Generate idealized H-atoms
+      0.01: Structure factors and derivatives
+      0.00: Sum l.s. matrices
+      0.00: Generate and apply antibumping restraints
+      0.00: Apply other restraints
+      0.00: Solve l.s. equations
+      0.00: Generate HTAB table
+      0.00: Other dependent quantities, CIF, tables
+      0.01: Analysis of variance
+      0.10: Merge reflections for Fourier and .fcf
+      0.00: Fourier summations
+      0.00: Peaksearch
+      0.00: Analyse peaklist
+
+ ** WARNING: These times are only approximate for multiple threads.
+             To get better estimates run with -t1 **
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  verify_main   finished at 23:00:58   Total elapsed time:      0.94 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

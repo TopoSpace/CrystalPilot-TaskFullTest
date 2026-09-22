@@ -1,0 +1,4 @@
+{"ts": "2026-09-21T22:14:13", "pid": 14100, "event": "startup", "readonly": false, "mode": "tools_only", "cache_hit": true, "n_tools_cached": 73, "fingerprint": "9f8195f4587604c64d24d16e-tools_only"}
+{"ts": "2026-09-21T22:14:14", "pid": 34576, "event": "startup", "readonly": false, "mode": "tools_only", "cache_hit": true, "n_tools_cached": 73, "fingerprint": "9f8195f4587604c64d24d16e-tools_only"}
+{"ts": "2026-09-21T22:14:19", "pid": 21524, "event": "startup", "readonly": false, "mode": "tools_only", "cache_hit": true, "n_tools_cached": 73, "fingerprint": "9f8195f4587604c64d24d16e-tools_only"}
+{"ts": "2026-09-21T22:14:29", "pid": 14100, "event": "prewarm", "readonly": false, "n_imported": 45, "failed": [], "seconds": 0.05, "thread": "MainThread"}

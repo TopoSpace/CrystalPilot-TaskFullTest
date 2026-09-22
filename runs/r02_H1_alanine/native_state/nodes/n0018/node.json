@@ -1,0 +1,288 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {
+    "cell_measurement": {
+      "reflns_used": 351,
+      "theta_min": 1.656,
+      "theta_max": 30.034
+    },
+    "computing": {
+      "data_reduction": "DIALS 3.30",
+      "cell_refinement": "DIALS 3.30",
+      "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+    },
+    "absorption": {
+      "type": "none",
+      "details": "No explicit absorption or detector-shadow correction in this DIALS reduction. DIALS physical scaling applied scale and decay terms only; raw-frame shadow/scaling outlier conflict remains unresolved."
+    },
+    "temperature_K": 150.0,
+    "instrument": {
+      "source": "Microfocus Mo Kalpha, lambda = 0.71073 A",
+      "method": "omega scans, 0.5 deg per frame",
+      "diffractometer": "Rigaku Oxford Diffraction Synergy Dualflex, HyPix-Arc 100"
+    },
+    "provenance": "2026-09-21 set_experiment(computing, instrument, temperature_K): 本轮 inputs/alanine/expinfo/pgw240033_Mo_datacoll.ini: Sample T in K min max=149.930000 150.050000，omega 连续扫描；波长 0.71073 A 来自原始帧导入和 scale_and_export。DIALS 版本来自 environment.json。\n2026-09-21 set_experiment(absorption, instrument): 仪器名称依据 inputs/alanine/pgw240033_Mo.par 第110、164行 MICROFOCUS、HYPIXARC100、KM4_HYPIXARC100_SYNERGYDUALFLEX；扫描宽度依据 expinfo/pgw240033_Mo_datacoll.ini。吸收校正事实依据本轮 .crystalpilot/frames/logs/scale.log 的 correction 表：只有 scale、decay；未虚构透射系数。"
+  },
+  "id": "n0018",
+  "parent": "n0017",
+  "revision": 19,
+  "branch": "delivery-single-site",
+  "ts": 1789993872.2341807,
+  "tool": "run_shelxl",
+  "params": {
+    "mode": "adopt",
+    "l_s": 8,
+    "timeout_s": 90,
+    "extra_cards": [
+      "EQIV $1 X-1, Y, Z",
+      "EQIV $2 -X, Y-1/2, -Z+3/2",
+      "EQIV $3 X-1/2, -Y+3/2, -Z+1",
+      "HTAB N1 O1_$1",
+      "HTAB N1 O1_$2",
+      "HTAB N1 O2_$3"
+    ],
+    "reason": "将三条由完整 NH3+ / COO- 模型及堆积几何支持的分子间 N-H...O 氢键写入 CIF，D...A 距离的标准不确定度由 SHELXL 计算；非几何约束。"
+  },
+  "note": "",
+  "metrics": {
+    "label": "shelxl_adopt",
+    "r1_strong": 0.0442,
+    "r1_all": 0.0652,
+    "wr2": 0.2001,
+    "goof": 1.222,
+    "n_params": 57,
+    "n_reflections": 1055,
+    "diff_map_max": 0.89,
+    "diff_map_min": -0.759,
+    "flack": 0.788,
+    "flack_su": 0.846,
+    "notes": "",
+    "scale_k": 1.8398752163999998
+  },
+  "metrics_current": true,
+  "model": {
+    "n_atoms": 13,
+    "element_counts": {
+      "O": 2,
+      "N": 1,
+      "H": 7,
+      "C": 3
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.0362,
+    "n_unique": 1055,
+    "d_min": 0.708,
+    "completeness": 0.839,
+    "space_group": "P 21 21 21",
+    "wavelength": 0.71073,
+    "n_obs": 4132
+  },
+  "weights": {
+    "a": 0.1353,
+    "b": 0.0753
+  },
+  "scale_k": 1.8398752163999998,
+  "mask": null,
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C",
+      "N"
+    ],
+    "n_groups": 3
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [
+      "EQIV $1 X-1, Y, Z",
+      "EQIV $2 -X, Y-1/2, -Z+3/2",
+      "EQIV $3 X-1/2, -Y+3/2, -Z+1",
+      "HTAB N1 O1_$1",
+      "HTAB N1 O1_$2",
+      "HTAB N1 O2_$3"
+    ],
+    "data_cards": [],
+    "weights": {
+      "a": 0.1353,
+      "b": 0.0753
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "riding",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "run_shelxl",
+      "job": "job_20260921_203111"
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0018"
+    }
+  },
+  "conditions_token": "d000001:n0018:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "clean_hklf4: dropped 2 sigma<=0 and 0 non-finite rows"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        5.78803,
+        5.96863,
+        12.29941,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x+1/2,-y+1/2,-z",
+        "-x,y+1/2,-z+1/2",
+        "-x+1/2,-y,z+1/2"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.71073,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 4132,
+      "n_unique": 1055
+    },
+    "cutoff": {
+      "requested": [],
+      "selected_reflections": 1055,
+      "applied": [],
+      "application": "applied"
+    },
+    "weights": {
+      "a": 0.1353,
+      "b": 0.0753,
+      "source": "measurement"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 1.8398752163999998
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "riding",
+      "groups": [
+        {
+          "carrier": "N1",
+          "kind": null,
+          "afix": 137,
+          "h": [
+            "H1A",
+            "H1B",
+            "H1C"
+          ],
+          "u_mult": 1.5
+        },
+        {
+          "carrier": "C2",
+          "kind": "tertiary_CH",
+          "afix": 13,
+          "h": [
+            "H2"
+          ],
+          "u_mult": 1.2
+        },
+        {
+          "carrier": "C3",
+          "kind": "CH3",
+          "afix": 137,
+          "h": [
+            "H3A",
+            "H3B",
+            "H3C"
+          ],
+          "u_mult": 1.5
+        }
+      ]
+    },
+    "twin": null,
+    "engine": "SHELXL",
+    "unknown_fields": [],
+    "metric_definition": "shelxl-r-factors-v1",
+    "experiment": {
+      "temperature_K": 150.05,
+      "crystal_size": null
+    },
+    "declared_experiment": {
+      "cell_measurement": {
+        "reflns_used": 351,
+        "theta_min": 1.656,
+        "theta_max": 30.034
+      },
+      "computing": {
+        "data_reduction": "DIALS 3.30",
+        "cell_refinement": "DIALS 3.30",
+        "data_collection": "CrysAlisPro (Rigaku Oxford Diffraction)"
+      },
+      "absorption": {
+        "type": "none",
+        "details": "No explicit absorption or detector-shadow correction in this DIALS reduction. DIALS physical scaling applied scale and decay terms only; raw-frame shadow/scaling outlier conflict remains unresolved."
+      },
+      "temperature_K": 150.0,
+      "instrument": {
+        "source": "Microfocus Mo Kalpha, lambda = 0.71073 A",
+        "method": "omega scans, 0.5 deg per frame",
+        "diffractometer": "Rigaku Oxford Diffraction Synergy Dualflex, HyPix-Arc 100"
+      },
+      "provenance": "2026-09-21 set_experiment(computing, instrument, temperature_K): 本轮 inputs/alanine/expinfo/pgw240033_Mo_datacoll.ini: Sample T in K min max=149.930000 150.050000，omega 连续扫描；波长 0.71073 A 来自原始帧导入和 scale_and_export。DIALS 版本来自 environment.json。\n2026-09-21 set_experiment(absorption, instrument): 仪器名称依据 inputs/alanine/pgw240033_Mo.par 第110、164行 MICROFOCUS、HYPIXARC100、KM4_HYPIXARC100_SYNERGYDUALFLEX；扫描宽度依据 expinfo/pgw240033_Mo_datacoll.ini。吸收校正事实依据本轮 .crystalpilot/frames/logs/scale.log 的 correction 表：只有 scale、decay；未虚构透射系数。"
+    }
+  },
+  "metrics_source": {
+    "node": "n0018",
+    "model_revision": 19,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_203111",
+    "conditions_token": "d000001:n0018:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0004",
+    "cell": [
+      5.78803,
+      5.96863,
+      12.29941,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x+1/2,-y+1/2,-z",
+      "-x,y+1/2,-z+1/2",
+      "-x+1/2,-y,z+1/2"
+    ]
+  },
+  "mask_revision": null
+}

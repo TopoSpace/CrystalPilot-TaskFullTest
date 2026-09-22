@@ -1,0 +1,120 @@
+{
+
+  "schema_version": 2,
+
+  "generated": "2026-09-21 20:34:59",
+
+  "scope": "write_outputs deliverables (later files - VALIDATION.md, checkcif - are added by finalize_delivery)",
+
+  "status": "diagnostic",
+
+  "files": {
+
+    "final.res": {
+
+      "bytes": 1832
+
+    },
+
+    "final.cif": {
+
+      "bytes": 139185
+
+    },
+
+    "final.ins": {
+
+      "bytes": 1809
+
+    },
+
+    "REPORT.json": {
+
+      "bytes": 118868
+
+    },
+
+    "final.hkl": {
+
+      "note": "SHELXL ACTA CIF of job job_20260921_203111 (esds, geometry tables, reflection statistics)",
+
+      "from": "SHELXL job job_20260921_203111 job.cif + session metadata"
+
+    },
+
+    "final.fcf": {
+
+      "from": "SHELXL job job_20260921_203111 job.fcf"
+
+    },
+
+    "final.ins": {
+
+      "from": "SHELXL job job_20260921_203111 job.ins (the deck that produced final.cif/final.fcf)"
+
+    },
+
+    "final.hkl": {
+
+      "from": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r02_H1_alanine\\.crystalpilot\\refine\\data\\d000001\\observations.hkl",
+
+      "bytes": 123990,
+
+      "n_reflections": 4132,
+
+      "terminator_added": false,
+
+      "trailer_lines": 0,
+
+      "data_revision": "d000001"
+
+    },
+
+    "final.p4p": {
+
+      "absent": true,
+
+      "note": "no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it"
+
+    }
+
+  },
+
+  "manual_continuation": {
+
+    "ready": true,
+
+    "files": [
+
+      "final.res",
+
+      "final.cif",
+
+      "final.ins",
+
+      "final.hkl",
+
+      "final.p4p"
+
+    ],
+
+    "missing": [
+
+      "final.p4p"
+
+    ],
+
+    "notes": [
+
+      "final.p4p: no .p4p on record: the vendor directory carried none (or the data did not come from ingest_vendor_data). It cannot be derived from the model - ask for the instrument's file if the hand-over needs it",
+
+      "final.ins: SHELXL job job_20260921_203111 job.ins (the deck that produced final.cif/final.fcf)"
+
+    ],
+
+    "usage": "same basename: `shelxl final` refines final.ins against final.hkl (+ final.fab); open final.res / final.cif in Olex2 to inspect; final.p4p carries the instrument cell"
+
+  }
+
+}
+

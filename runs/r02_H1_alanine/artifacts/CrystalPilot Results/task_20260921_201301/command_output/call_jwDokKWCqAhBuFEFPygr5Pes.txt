@@ -1,0 +1,114 @@
+# checkCIF alerts - 2026-09-21 20:35
+
+
+
+target: publication:CrystalPilot Results/task_20260921_201301/final.cif
+
+counts: A=4  B=3  C=19  G=14
+
+delta vs job_20260921_203328_646233_0273f791: new [], resolved []
+
+
+
+## A alerts (must fix or justify)
+
+
+
+### 058_ALERT_1_A  Maximum Transmission Factor Missing ............          ?
+
+- meaning: Test for specification Tmax [0,1].
+
+- remedy: 查数据还原后的文件,比如sad.abs.从中寻找；或者在ins文件中加上命令 size a bc (abc是晶体的大小，测定时有记录在P4P文件中，有的老师可能不给你记录，你可以根据你的感观填上数值如size0.18 0.12 0.10)，然后refine一轮CIF中即有此数值。填入“_exptl_absorpt_correction_T_max”值即可。
+
+- explanation: (fill in: fixed, or the evidence-based justification for VALIDATION.md)
+
+
+
+### 059_ALERT_1_A  Minimum Transmission Factor Missing ............          ?
+
+- meaning: Test for specification Tmin [0,1].
+
+- remedy: 查数据还原后的文件,比如sad.abs.从中寻找；或者在ins文件中加上命令 size a bc (abc是晶体的大小，测定时有记录在P4P文件中，有的老师可能不给你记录，你可以根据你的感观填上数值如size0.18 0.12 0.10)，然后refine一轮CIF中即有此数值。填入_exptl_absorpt_correction_T_min值即可。
+
+- explanation: (fill in: fixed, or the evidence-based justification for VALIDATION.md)
+
+
+
+### 699_ALERT_1_A  Missing _exptl_crystal_description Value .......     Please Do !
+
+- meaning: 缺晶体外观描述 (_exptl_crystal_description)
+
+- causes: 未记录晶体形貌
+
+- remedy: 补 experiment.crystal
+
+- explanation: (fill in: fixed, or the evidence-based justification for VALIDATION.md)
+
+
+
+### 939_ALERT_3_A  Large Value of Not (SHELXL) Weight Optimized S .     829.83 Check
+
+- meaning: 疑存在大 |Error/esd| 离群反射
+
+- causes: 个别反射与模型严重失配（挡板遮挡/冰环/孪晶重叠）
+
+- remedy: Olex2 Bad reflections（或 lst 表）核查 |Err/esd|>10 的点：确有仪器成因可 OMIT 并记录；成片失配则查数据侧
+
+- explanation: (fill in: fixed, or the evidence-based justification for VALIDATION.md)
+
+
+
+## B alerts
+
+
+
+### 035_ALERT_1_B  _chemical_absolute_configuration Info  Not Given     Please Do !
+
+- meaning: Check for_chemical_absolute_configuration.
+
+- remedy: 根据需要选择绝对构型的确定方式，非手性空间群改成句点。手性空间群此项后根据实际情况改成上述关键词中的一项。
+
+
+
+Name                       Length
+
+----                       ------
+
+inspect_reflections.py       1852
+
+raw_detector_evidence.json   1727
+
+raw_detector_evidence.png  168589
+
+render_raw_evidence.py       2108
+
+suspect_reflections.json    41136
+
+checkcif                         
+
+data                             
+
+frames                           
+
+nodes                            
+
+runs                             
+
+shelxl                           
+
+shelxt                           
+
+views                            
+
+environment.json                 
+
+investigation.json               
+
+packing_analysis.json            
+
+state.json                       
+
+
+
+
+

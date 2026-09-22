@@ -1,0 +1,13 @@
+Reading prompt from stdin...
+2026-09-21T19:02:47.717185Z  WARN codex_config::loader: Failed to resolve ProgramData known folder; using default path error=SHGetKnownFolderPath(FOLDERID_ProgramData) failed with HRESULT 0x80070003
+2026-09-21T19:02:47.717727Z  WARN codex_config::loader: Failed to resolve ProgramData known folder; using default path error=SHGetKnownFolderPath(FOLDERID_ProgramData) failed with HRESULT 0x80070003
+2026-09-21T19:02:47.726933Z  WARN codex_config::loader: Failed to resolve ProgramData known folder; using default path error=SHGetKnownFolderPath(FOLDERID_ProgramData) failed with HRESULT 0x80070003
+2026-09-21T19:02:47.727481Z  WARN codex_config::loader: Failed to resolve ProgramData known folder; using default path error=SHGetKnownFolderPath(FOLDERID_ProgramData) failed with HRESULT 0x80070003
+2026-09-21T19:02:47.757722Z  WARN codex_config::loader: Failed to resolve ProgramData known folder; using default path error=SHGetKnownFolderPath(FOLDERID_ProgramData) failed with HRESULT 0x80070003
+2026-09-21T19:02:47.763394Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-09-21T19:02:48.169475Z  WARN codex_core_plugins::manager: failed to warm featured plugin ids cache error=remote featured plugin request to https://chatgpt.com/backend-api/plugins/featured?platform=codex failed with status 401 Unauthorized: {"detail":"Unauthorized"}
+2026-09-21T19:02:58.899927Z  WARN codex_core_plugins::startup_sync: GitHub HTTP sync failed for curated plugin sync; skipping export archive fallback because a local curated plugins snapshot already exists error=download curated plugins archive from https://api.github.com/repos/openai/plugins/zipball/1dc195897af4161d039b80d8471ec0a10c9bbc89 failed with status 429 Too Many Requests: The service is temporarily unable to handle this request. Please try again later.
+
+2026-09-21T19:02:58.900359Z  WARN codex_core_plugins::manager: failed to sync curated plugins repo: git sync failed for curated plugin sync: no Git executable found in trusted installation directories; GitHub HTTP sync failed for curated plugin sync: download curated plugins archive from https://api.github.com/repos/openai/plugins/zipball/1dc195897af4161d039b80d8471ec0a10c9bbc89 failed with status 429 Too Many Requests: The service is temporarily unable to handle this request. Please try again later.
+; export archive fallback skipped because a local curated plugins snapshot already exists
+2026-09-21T19:42:24.910027Z  WARN codex_core::tasks: failed to flush rollout after emitting terminal turn event: thread 01a0c559-6ec2-7b20-94d1-1f84cfc445fe not found

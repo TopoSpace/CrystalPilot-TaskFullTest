@@ -1,0 +1,99 @@
+{
+  "cif": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r09_P1N_nu1000\\deliverables\\nu1000_framework.cif",
+  "hkl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r09_P1N_nu1000\\deliverables\\raw_reproduction_20260922_025724\\inputs\\start.hkl",
+  "space_group": "P 6/m m m",
+  "wavelength": 0.68883,
+  "n_sites": 26,
+  "n_aniso": 20,
+  "elements": [
+    "C",
+    "H",
+    "O",
+    "Zr"
+  ],
+  "resolution_cutoff_A": 1.0,
+  "cif_reported": {
+    "_refine_ls_R_factor_gt": "0.175023",
+    "_refine_ls_wR_factor_ref": "0.462928",
+    "_refine_ls_number_reflns": "4395",
+    "_reflns_number_gt": "2029",
+    "_refine_ls_goodness_of_fit_ref": "2.51284"
+  },
+  "variants": {
+    "MERG2": {
+      "exit_code": 0,
+      "seconds": 1.3,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          0.04892
+        ],
+        [
+          0.04892,
+          0.04892
+        ]
+      ],
+      "R1_gt": 0.1785,
+      "n_gt": 2063,
+      "R1_all": 0.2637,
+      "n_all": 4395,
+      "wR2": 0.4674,
+      "GooF": 2.584,
+      "reflections_read": 337815,
+      "rejected": 179481,
+      "unique": 4395,
+      "suppressed": 0,
+      "warnings": [
+        "** Cell contents from UNIT instruction and atom list do not agree **",
+        "** Warning:    10  atoms may be split and     0  atoms NPD **",
+        "** Extinction (EXTI) or solvent water (SWAT) correction may be required **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    },
+    "MERG4": {
+      "exit_code": 0,
+      "seconds": 1.4,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          0.04931
+        ],
+        [
+          0.04931,
+          0.04931
+        ]
+      ],
+      "R1_gt": 0.1808,
+      "n_gt": 2063,
+      "R1_all": 0.265,
+      "n_all": 4395,
+      "wR2": 0.4699,
+      "GooF": 2.598,
+      "reflections_read": 337815,
+      "rejected": 179481,
+      "unique": 4395,
+      "suppressed": 0,
+      "warnings": [
+        "** Cell contents from UNIT instruction and atom list do not agree **",
+        "** Warning:    10  atoms may be split and     0  atoms NPD **",
+        "** Extinction (EXTI) or solvent water (SWAT) correction may be required **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    }
+  },
+  "note": "delivered CIF model + delivered reflections evaluated by SHELXL with every atomic parameter fixed and only the overall scale refined (independent program; model unchanged); dispersion terms for the wavelength from cctbx tables; MERG 2 = Friedel pairs kept (non-centrosymmetric), MERG 4 = Friedel pairs merged and f'' = 0",
+  "hkl_written": {
+    "n_reflections": 337815,
+    "scale_applied": 1.0,
+    "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r09_P1N_nu1000\\deliverables\\raw_reproduction_20260922_025724\\inputs\\start.hkl"
+  },
+  "closest_variant": {
+    "variant": "MERG2",
+    "R1_gt": 0.1785,
+    "abs_difference_to_reported": 0.0035
+  }
+}

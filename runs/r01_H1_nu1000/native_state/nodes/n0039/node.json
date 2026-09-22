@@ -1,0 +1,408 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0039",
+  "parent": "n0038",
+  "revision": 40,
+  "branch": "diag_terminal_disorder",
+  "ts": 1789991153.7562923,
+  "tool": "model_disorder",
+  "params": {
+    "atoms": [
+      "O5"
+    ],
+    "second_sites": {
+      "O5": [
+        0.6138,
+        0.6138,
+        0.5
+      ]
+    },
+    "occupancy": 0.8
+  },
+  "note": "",
+  "metrics": null,
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 28,
+    "element_counts": {
+      "Zr": 2,
+      "O": 8,
+      "C": 12,
+      "H": 6
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0024413481000000003,
+  "mask": null,
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C"
+    ],
+    "n_groups": 6
+  },
+  "disorder_groups": [
+    {
+      "fvar_index": 2,
+      "value": 0.8,
+      "members": [
+        {
+          "label": "O4",
+          "part": 1,
+          "sign": 1,
+          "mult": 0.5
+        },
+        {
+          "label": "O4B",
+          "part": 2,
+          "sign": -1,
+          "mult": 0.5
+        }
+      ]
+    },
+    {
+      "fvar_index": 3,
+      "value": 0.8,
+      "members": [
+        {
+          "label": "O5",
+          "part": 1,
+          "sign": 1,
+          "mult": 0.5
+        },
+        {
+          "label": "O5B",
+          "part": 2,
+          "sign": -1,
+          "mult": 0.5
+        }
+      ]
+    }
+  ],
+  "disorder_origins": [
+    {
+      "fvar_index": 2,
+      "created": [
+        "O4B"
+      ],
+      "linked_existing": [],
+      "image_labels": [],
+      "restore": [
+        {
+          "label": "O4",
+          "element": "O",
+          "site": [
+            0.537224,
+            0.537224,
+            0.259513
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.1281477777777778,
+          "u_star": [
+            0.00016534535147314048,
+            0.00016534535147314048,
+            0.00027282404969189054,
+            0.00012938712161901113,
+            4.212967281383481e-05,
+            4.212967281383481e-05
+          ]
+        }
+      ],
+      "occupancy_a": 0.8,
+      "r1_before": null,
+      "node_before": "n0037",
+      "ts": 1789991146.9179735
+    },
+    {
+      "fvar_index": 3,
+      "created": [
+        "O5B"
+      ],
+      "linked_existing": [],
+      "image_labels": [],
+      "restore": [
+        {
+          "label": "O5",
+          "element": "O",
+          "site": [
+            0.601163,
+            0.601163,
+            0.412302
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.15524777777777785,
+          "u_star": [
+            7.906990765606235e-05,
+            7.906990765606235e-05,
+            0.0010278293579265231,
+            3.9526272459162484e-05,
+            1.293159220264656e-05,
+            1.293159220264656e-05
+          ]
+        }
+      ],
+      "occupancy_a": 0.8,
+      "r1_before": null,
+      "node_before": "n0038",
+      "ts": 1789991153.494479
+    }
+  ],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [
+      0.8,
+      0.8
+    ],
+    "parts": {
+      "O4": 1,
+      "O4B": 2,
+      "O5": 1,
+      "O5B": 2
+    },
+    "h_treatment": "riding",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "model_disorder",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0037"
+    }
+  },
+  "conditions_token": "d000001:n0039:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0024413481000000003
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "riding",
+      "groups": [
+        {
+          "carrier": "C3",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H3"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C5",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H5"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C7",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H7"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C8",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H8"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C11",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H11"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C12",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H12"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        }
+      ]
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0037",
+    "model_revision": 38,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194457",
+    "conditions_token": "d000001:n0037:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0005",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": null
+}

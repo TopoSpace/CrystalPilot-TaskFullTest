@@ -1,0 +1,9 @@
+已完成原始数据解析与精修，结果保存在 `deliverables/`。
+
+主模型为 **P2₁2₁2₁**，R1 = **0.0304**，wR2 = **0.0727**；0.76 Å 内 Laue 完整度 **99.2%**。最终精修已独立复算通过。
+
+- [结构 CIF](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/alanine.cif)
+- [结果、未解决问题与复现说明](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/README_zh.md)
+- [计算记录](H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r03_C0_alanine/deliverables/calculation_records.zip)
+
+**绝对构型仍无法确定**，部分实验元数据缺失，完整 checkCIF/PLATON 验证未完成。因此精修指标已较好，但尚不能视为已完成发表验证的结构。

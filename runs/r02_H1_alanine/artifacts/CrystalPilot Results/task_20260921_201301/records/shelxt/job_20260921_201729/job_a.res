@@ -1,0 +1,28 @@
+TITL job_a.res in P2(1)2(1)2(1)
+REM Old TITL CrystalPilot run_shelxt
+REM SHELXT solution in P2(1)2(1)2(1): R1 0.114, Rweak 0.017, Alpha 0.001
+REM <I/s>   0.108 for   16 systematic absences,  Orientation as input
+REM Flack x =  0.471 ( 0.733 ) from   315 Parsons' quotients
+REM Formula found by SHELXT:  C3 O3
+
+CELL  0.71073   5.7880   5.9686  12.2994   90.000   90.000   90.000
+ZERR    4.000   0.0000   0.0000   0.0000    0.000    0.000    0.000
+LATT -1
+SYMM 1/2-X, -Y, 1/2+Z
+SYMM -X, 1/2+Y, 1/2-Z
+SYMM 1/2+X, 1/2-Y, -Z
+SFAC C H N O
+UNIT 12 28 4 8
+L.S. 10
+BOND
+LIST 6
+FMAP 2
+PLAN 20
+O001  4  0.37455  0.27250  0.58302 11.00000  0.01455   8.13
+O002  4  0.23957  0.55449  0.68392 11.00000  0.01485   8.11
+O003  4  0.81645  0.35303  0.63745 11.00000  0.02417   7.32
+C004  1  0.39805  0.44441  0.64085 11.00000  0.00759   6.66
+C005  1  0.64393  0.52709  0.65990 11.00000  0.01035   6.20
+C006  1  0.69424  0.73688  0.59142 11.00000  0.01447   5.60
+HKLF 4
+END

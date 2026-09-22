@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-09-22T02:00:00+0800",
+  "purpose": "what a pure-baseline agent (C0N/P1N) is given: a plain Python and the Windows system directories, nothing else; recorded for the audit",
+  "python": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe",
+  "python_version": "3.12.4 (venv created from the pyenv-win base interpreter, system site-packages excluded)",
+  "packages": ["numpy 2.5.3", "scipy 1.18.1", "matplotlib 3.11.2", "pandas 3.0.6", "pillow"],
+  "crystallographic_libraries_importable_from_an_arena": false,
+  "checked_modules": {"numpy": true, "scipy": true, "pandas": true, "PIL": true, "matplotlib": true, "pymatgen": false, "gemmi": false, "crystalpilot": false, "ase": false, "spglib": false, "cctbx": false},
+  "path_entries": [
+    "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts",
+    "C:\\Windows\\System32",
+    "C:\\Windows",
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0",
+    "C:\\Windows\\System32\\Wbem"
+  ],
+  "env_extra": {"PYTHONNOUSERSITE": "1", "VIRTUAL_ENV": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain", "PYTHONIOENCODING": "utf-8", "PYTHONUTF8": "1"},
+  "pythonpath_dropped": "the user's global PYTHONPATH (CageCavityCalc, ChemScript) is not passed to the agents",
+  "note": "the product package is importable only when the working directory is the product checkout itself (namespace import from cwd); agent working directories are the arenas, where it is not importable",
+  "still_present_on_disk_not_on_path": [
+    "D:\\OLEX2\\Olex2-1.5 (the user's Olex2 with the SHELX programs)",
+    "H:\\CrystalPilot\\vendor (SHELX, Olex2, PLATON)",
+    "C:\\Users\\<user>\\miniforge3\\envs\\dials (DIALS 3.30, cctbx)",
+    "pyenv Python 3.12.4 with pymatgen, ase and a development install of crystalpilot"
+  ],
+  "enforcement": "instruction plus post-hoc audit of every shell command (any use of the above, any other interpreter, any download or install voids the run); technical isolation is not available on this Windows workstation for either kernel",
+  "smoke": "smoke_C0N and smoke_P1N passed 2026-09-22 01:50 (echo task; codex 4 commands, claude 5 tool uses)"
+}

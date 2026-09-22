@@ -1,0 +1,34 @@
+[
+  {
+    "tag": "initial",
+    "argv": [
+      "cmd",
+      "/c",
+      "C:\\users\\<user>\\AppData\\Roaming\\npm\\claude.CMD",
+      "-p",
+      "--output-format",
+      "stream-json",
+      "--verbose",
+      "--model",
+      "gpt-6-astra",
+      "--max-turns",
+      "200",
+      "--permission-mode",
+      "dontAsk",
+      "--allowedTools",
+      "Bash,PowerShell,Read,Write,Edit,Glob,Grep,NotebookEdit",
+      "--disallowedTools",
+      "WebFetch,WebSearch,Task,Agent",
+      "--settings",
+      "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\engine\\claude-home\\settings.json",
+      "--setting-sources",
+      "user"
+    ],
+    "cwd": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r12_P1N_alanine",
+    "started_at": "2026-09-22T04:38:48+0800",
+    "stdin_chars": 833,
+    "ended_at": "2026-09-22T05:27:13+0800",
+    "exit_code": 0,
+    "exit_reason": "completed"
+  }
+]

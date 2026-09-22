@@ -1,0 +1,66 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+
+DIALS 3.30
+
+The following parameters have been modified:
+
+
+
+format = mtz sadabs nxs mmcif mosflm xds xds_ascii json *shelx pets
+
+shelx {
+
+  composition = "C3H7NO2"
+
+}
+
+input {
+
+  experiments = scaled.expt
+
+  reflections = scaled.refl
+
+}
+
+
+
+--------------------------------------------------------------------------------
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_6_#####.rodhypix:1:108
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_1_#####.rodhypix:1:92
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_4_#####.rodhypix:1:58
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_5_#####.rodhypix:1:116
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_3_#####.rodhypix:1:150
+
+  template: H:\CrystalPilot-campaigns\scxrd-agent-eval-20260921\arena\r06_H0_alanine\.crystalpilot\frames\frames_normalized\pgw240033_Mo_2_#####.rodhypix:1:92
+
+--------------------------------------------------------------------------------
+
+Data appears to be scaled, setting intensity = scale
+
+Using median unit cell across experiments : (5.78803, 5.96863, 12.2994, 90, 90, 90)
+
+Read 4422 predicted reflections
+
+Selected 4160 scaled reflections
+
+Removed 26 reflections below partiality threshold
+
+Removed 0 intensity.scale.value reflections with I/Sig(I) < -5.0
+
+Using median unit cell across experiments : (5.78803, 5.96863, 12.2994, 90, 90, 90)
+
+Using composition C3H7NO2 to write SFAC & UNIT instructions
+
+Written dials.ins
+
+Written 4134 reflections to dials.hkl
+
+
+
+--- stderr ---
+

@@ -1,0 +1,9 @@
+{
+  "symmetry_group_order": 24,
+  "sf_implementation_error": 3.552713678800501e-14,
+  "max_relative_sf_jacobian_error": 3.5990663711295877e-09,
+  "max_relative_restraint_objective_gradient_error": 2.4172591077128584e-09,
+  "symmetry_equivalence_error": 5.968558980384842e-13,
+  "fourier_roundtrip_error": 2.220446049250313e-16,
+  "passed": true
+}

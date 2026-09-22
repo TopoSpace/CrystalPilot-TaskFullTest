@@ -1,0 +1,106 @@
+{
+ "expert-cases/disorder-mixed-types-playbook.md": {
+  "sha256": "00477ef41e1b5cd625c447345dba90dded9d87050ceeb8c86eabec877ef1f6fb",
+  "size": 2626
+ },
+ "expert-cases/disorder-ruleset.md": {
+  "sha256": "d1ca1bb054443104bdbe078ae213a74fa2574e7d074f92e41982083b258b9d1d",
+  "size": 41396
+ },
+ "expert-cases/plat097-resolution-cutoff.md": {
+  "sha256": "d0091e3e3e5c743cee17af54e01964b08ca85c07ed318947080fef73e7d6db32",
+  "size": 3364
+ },
+ "expert-cases/README.md": {
+  "sha256": "93a5ed8431dd9756f95b3e28711721ab22033473e3a88742e597c4ecd5b1f720",
+  "size": 872
+ },
+ "expert-cases/review-high-r-twin-suspicion.md": {
+  "sha256": "03ab132b475fd9b5f0a225df771a16a9aa72eccf7478efd4ac81f23a281dab52",
+  "size": 2681
+ },
+ "expert-cases/rint-reduction-strategies.md": {
+  "sha256": "947bd96009d22283deb3d8e7b435f7dca506b698ca60a4b12403c2fd16da55ed",
+  "size": 2624
+ },
+ "skills/big-structure-refinement-pacing.md": {
+  "sha256": "a7d01778729e3687bcbd35c32dbd4e2ac41f153495a51d6cbd531a8ef53be3f5",
+  "size": 2570
+ },
+ "skills/cap-listen-reduction.md": {
+  "sha256": "7c13228d8e54ad5571231b150d8aa7328a15c9c2fbbbe2ddfcdb1400e6d4227e",
+  "size": 3680
+ },
+ "skills/counterion-solvent-signatures.md": {
+  "sha256": "47f3b7e7634d97120b6414a56c2d518e72a95e4c19d110b14fb1e38cd0ab8513",
+  "size": 3350
+ },
+ "skills/data-ingest-space-group-protocol.md": {
+  "sha256": "8ea36e05dd922d97cc24f1540c17935e8d470b439ca696a93aaf385a904ea338",
+  "size": 7368
+ },
+ "skills/delivery-self-audit.md": {
+  "sha256": "10b235da0f511c10200eeeffe4e1cc831eda91e849393d3f4d083b49bb628a19",
+  "size": 5052
+ },
+ "skills/difference-peak-reading.md": {
+  "sha256": "bab7116081bd38eb1a8bdc406a736368deb4caa84262d52dc5770d354eefd63d",
+  "size": 2733
+ },
+ "skills/element-assignment-audit.md": {
+  "sha256": "151a4efc59098e5a9e75d88a6b3ce00c77dd29a1907ec54e15cd3a780e929820",
+  "size": 9122
+ },
+ "skills/flack-absolute-structure.md": {
+  "sha256": "e36cbe963e3b2c271610ebb48d48f6f586d1b83cdda7c9bac0db6b2a0068226b",
+  "size": 4931
+ },
+ "skills/framework-restraint-idioms.md": {
+  "sha256": "0cf7baacac7542ddc31c4948a098cbee7f60ff55bd2a9680e9ddddb1357b38cf",
+  "size": 6921
+ },
+ "skills/framework-solve-ladder.md": {
+  "sha256": "c3c29ede1ea2c2061f165614291a19a9bb38ba3644d9244f5e2e69db300d5a43",
+  "size": 10878
+ },
+ "skills/framework-twin-pseudosymmetry-alarm.md": {
+  "sha256": "d8e43dfa88a3a9c98ea92397a63b9b777bddeb66cda593565cb5ae1ac2ad8055",
+  "size": 5700
+ },
+ "skills/hklf5-twin-workflow.md": {
+  "sha256": "5f6c01f81d384fc7aff4dab1d816c2c98ead4e9ae61e64209c4af102bce3b069",
+  "size": 12013
+ },
+ "skills/model-error-vs-data-error.md": {
+  "sha256": "c3a40b33941121ea5c1c1d4bec2059bfeedb540f04e232401b65a931f086aeba",
+  "size": 4787
+ },
+ "skills/mof-data-collection-bottomline.md": {
+  "sha256": "431e37c7e8ca4f82cdad514b098c79c164b45f24273cc1873529e7663d64ebc6",
+  "size": 4071
+ },
+ "skills/mof-guest-evidence-rule.md": {
+  "sha256": "bde5b49909a49ace6b6d5b5d548edac29a1462cd745637d7d4b2effd8de52bbe",
+  "size": 6406
+ },
+ "skills/mof-solvent-mask-discipline.md": {
+  "sha256": "46bae1827e079acf08ec361b096f14e3666b5c0961207651b1470e5ea941b4ad",
+  "size": 9233
+ },
+ "skills/refine-special-details-templates.md": {
+  "sha256": "184750448ff37e0d6c921f7f42c00b6f11a82376c40590973ea5d46ae3395d46",
+  "size": 4084
+ },
+ "skills/reflection-audit-reading.md": {
+  "sha256": "24e1ddff66632699b254cee511e733d6a130d678f5bd9abfc84fe3141993880c",
+  "size": 2591
+ },
+ "skills/review-response-ruleset.md": {
+  "sha256": "9cb558bd589d9c69b07cc755968f03cd7480d978f9d0570d809101304f2f5a7b",
+  "size": 108039
+ },
+ "skills/weak-density-rotatable-xh.md": {
+  "sha256": "bf222e0b6904b46d4e3173a6127d32da354d3ae77c0ccafbc1ed9139bad52fbc",
+  "size": 3101
+ }
+}

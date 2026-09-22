@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "goal": "仅从本轮 inputs/alanine 原始衍射帧独立解析并精修丙氨酸，交付可复现、可审计且尽可能接近发表质量的结构。",
+ "success_tiers": {
+  "candidate_complete": {
+   "status": "met",
+   "evidence": "n0018: 完整 C3H7NO2, 六个非氢原子各向异性, 七个骑乘氢, 无几何 restraints, 单连通 ASU, SHELXL 收敛 R1=0.0442; 独立 charge flipping 与 SHELXT 均支持 P212121。"
+  },
+  "scientifically_established": {
+   "status": "unmet",
+   "evidence": "n0018最终SHELXL复核完全一致，但final.cif本地PLATON完整验证为4A/3B/19C，包括PLAT939_A未加SHELXL模型权重的S=829.83，PLAT934_B六个大离群反射；已由原始帧和DIALS flags证实数据冲突，尚未修复。"
+  }
+ },
+ "budget": {},
+ "ruled_out": [
+  {
+   "what": "O1 在最高残差峰的单原子两位点分裂",
+   "evidence": "n0010: A占有率1.00923(612), B与零不可区分, SADI残差150.6sigma, R1=0.0548；n0011已撤销。",
+   "node": "n0018",
+   "ts": "2026-09-21 20:32:01"
+  },
+  {
+   "what": "O2 在残差峰的单原子两位点分裂作为可靠结构模型",
+   "evidence": "n0015: 加SADI/SIMU后45个SHELXL循环，最终k=0.48846(17660), 位点间0.218 A, ADP相差约7.9倍, SADI残差4.8sigma；没有稳定可解释的次位置，n0016撤销。",
+   "node": "n0018",
+   "ts": "2026-09-21 20:32:01"
+  },
+  {
+   "what": "本轮 CrysAlisPro 第二条还原路线",
+   "evidence": "只在 .crystalpilot/crysalis_trial 工作副本调用 reduce_with_crysalis(timeout_s=600)，open阶段183 s后工具返回timeout；未得到积分产品，未触碰inputs。",
+   "node": "n0018",
+   "ts": "2026-09-21 20:32:01"
+  }
+ ],
+ "open_directions": [
+  "具备阴影掩膜控制后，重新处理原始帧并恢复被拒绝的强等价反射；不得依Fo/Fc删反射",
+  "数据修复后重测N1/C1/C2/C3等残差候选；本轮未完成这四个位点的独立分裂试验",
+  "补充晶体尺寸/颜色/形貌和本次重还原晶胞参数的标准不确定度"
+ ],
+ "updated": "2026-09-21 20:34:44",
+ "history": [
+  {
+   "ts": "2026-09-21 20:14:31",
+   "node": null,
+   "changed": [
+    "goal",
+    "open_directions"
+   ],
+   "note": "[prior] 用户标识样品为丙氨酸；本轮 pgw240033_Mo_sample.ini 声明 C3 H7 N1 O2，Z=4，均待独立验证。无人工补充，未提供的实验事实保持未知；不查询样品外部答案；遵守 environment.json 原始预算，不修改预算。"
+  },
+  {
+   "ts": "2026-09-21 20:32:01",
+   "node": "n0018",
+   "changed": [
+    "tier:candidate_complete=met",
+    "tier:scientifically_established=unmet",
+    "ruled_out:O1 在最高残差峰的单原子两位点分裂",
+    "ruled_out:O2 在残差峰的单原子两位点分裂作为可靠结构模型",
+    "ruled_out:本轮 CrysAlisPro 第二条还原路线",
+    "+direction:具备阴影掩膜控制后，重新处理原始帧并恢复被拒绝的强等价反射；不得依Fo/Fc删反",
+    "+direction:数据修复后重测N1/C1/C2/C3等残差候选；本轮未完成这四个位点的独立分裂试",
+    "+direction:补充晶体尺寸/颜色/形貌和本次重还原晶胞参数的标准不确定度",
+    "-direction:原始帧积分与数据质量审计",
+    "-direction:依据强度与消光独立判群",
+    "-direction:从头求解及完整分子精修",
+    "-direction:绝对构型可确定性检验"
+   ],
+   "note": "参考通用技能 flack-absolute-structure：Parsons x=0.788(846), SHELXL明确 cannot be determined reliably，不赋予L/D或R/S，不据此宣称排除反演孪晶。estimate_resolution建议0.71 A，与0.708 A全数据一致，保留全分辨率，未为降低R截断。计划 diagnostic 交付。"
+  },
+  {
+   "ts": "2026-09-21 20:34:44",
+   "node": "n0018",
+   "changed": [
+    "tier:scientifically_established=unmet",
+    "-direction:独立 SHELXL 与 checkCIF 验证"
+   ],
+   "note": "已完成工具原生模型/作业配对交付、两方向堆积检查、checkCIF；目前停止继续改模，先修复原始数据阴影/离群处理才有可解释的下一步。不以局部低R或自动confidence100作为科学成立证据。"
+  }
+ ]
+}

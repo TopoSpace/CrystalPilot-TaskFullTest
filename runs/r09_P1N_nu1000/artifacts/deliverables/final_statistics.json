@@ -1,0 +1,170 @@
+{
+  "refinement": {
+    "n": 4395,
+    "n_obs": 2029,
+    "R1_all": 0.26380092564978425,
+    "R1_obs": 0.17502310149937525,
+    "wR2_actual_weights": 0.46292837413149235,
+    "weighted_chi_square": 26760.287883904537,
+    "GoF": 2.512840449953826,
+    "n_parameters_subtracted": 157
+  },
+  "all_recorded": {
+    "n": 11289,
+    "n_obs": 2234,
+    "R1_all": 0.4780369884017836,
+    "R1_obs": 0.19730756634027644,
+    "wR2_actual_weights": 0.4964380832461654,
+    "weighted_chi_square": 32362.455995882767,
+    "GoF": 1.6931405068588459,
+    "n_parameters_subtracted": 0
+  },
+  "mid_high_angle_3_to_1_A_with_final_model": {
+    "n": 4193,
+    "n_obs": 1838,
+    "R1_all": 0.24078673647139565,
+    "R1_obs": 0.1246154155065948,
+    "wR2_actual_weights": 0.3321419353335324,
+    "weighted_chi_square": 10121.721344877576,
+    "GoF": 1.5536913834695076,
+    "n_parameters_subtracted": 0
+  },
+  "cv_work": {
+    "n": 4086,
+    "n_obs": 1891,
+    "R1_all": 0.26450878388558785,
+    "R1_obs": 0.17589646030599274,
+    "wR2_actual_weights": 0.46916713934121773,
+    "weighted_chi_square": 25763.22471257097,
+    "GoF": 2.560702328366208,
+    "n_parameters_subtracted": 157
+  },
+  "cv_test": {
+    "n": 309,
+    "n_obs": 138,
+    "R1_all": 0.26110786762862187,
+    "R1_obs": 0.16631420284786622,
+    "wR2_actual_weights": 0.3799390340753726,
+    "weighted_chi_square": 1198.274871811886,
+    "GoF": 1.9692415307704025,
+    "n_parameters_subtracted": 0
+  },
+  "cv_caveat": "Reflections excluded from refinement; initial heavy-atom/Fourier solution used all data. Diagnostic holdout, not fully blind Rfree.",
+  "raw_observations": 337815,
+  "merged_unique_all": 11289,
+  "measured_d_min": 0.6910782904312253,
+  "measured_d_max": 14.919155672359999,
+  "Rint_equal_mean_to_1_A": 0.4259761296488645,
+  "completeness_to_1_A": 0.9986366734832992,
+  "possible_unique_to_1_A": 4401,
+  "difference_map": {
+    "maximum": 1.8746542930603027,
+    "minimum": -1.293096899986267,
+    "rms": 0.18555520474910736,
+    "max_fractional": [
+      0.14583333333333334,
+      0.5708333333333333,
+      0.35833333333333334
+    ],
+    "min_fractional": [
+      0.020833333333333332,
+      0.5083333333333333,
+      0.03333333333333333
+    ],
+    "coefficient": "Re[(Fo/|Fc|-1)Fc], scaled to electron units; F000=0; 1.0 A resolution; negative I gives Fo=0",
+    "max_nearest_framework_atom": {
+      "label": "C8",
+      "distance_A": 3.8224004761352646
+    },
+    "min_nearest_framework_atom": {
+      "label": "O2",
+      "distance_A": 1.3346399123254902
+    }
+  },
+  "model_sensitivity": [
+    {
+      "atom": "Zr1",
+      "delta_A_all_vs_highangle": 0.0006582391006121467
+    },
+    {
+      "atom": "Zr2",
+      "delta_A_all_vs_highangle": 0.004424288603009592
+    },
+    {
+      "atom": "O1",
+      "delta_A_all_vs_highangle": 0.05796967832046195
+    },
+    {
+      "atom": "O2",
+      "delta_A_all_vs_highangle": 0.008956856337501316
+    },
+    {
+      "atom": "O3",
+      "delta_A_all_vs_highangle": 0.02008501883837831
+    },
+    {
+      "atom": "O4",
+      "delta_A_all_vs_highangle": 0.03716179957175997
+    },
+    {
+      "atom": "O5",
+      "delta_A_all_vs_highangle": 0.011205732178232414
+    },
+    {
+      "atom": "O6",
+      "delta_A_all_vs_highangle": 0.011334253330634638
+    },
+    {
+      "atom": "C1",
+      "delta_A_all_vs_highangle": 0.05378670590038124
+    },
+    {
+      "atom": "C2",
+      "delta_A_all_vs_highangle": 0.044751309354930345
+    },
+    {
+      "atom": "C3",
+      "delta_A_all_vs_highangle": 0.05884416491940982
+    },
+    {
+      "atom": "C4",
+      "delta_A_all_vs_highangle": 0.015736082570600635
+    },
+    {
+      "atom": "C5",
+      "delta_A_all_vs_highangle": 0.03447928535531984
+    },
+    {
+      "atom": "C6",
+      "delta_A_all_vs_highangle": 0.031116078724219388
+    },
+    {
+      "atom": "C7",
+      "delta_A_all_vs_highangle": 0.030219528241182812
+    },
+    {
+      "atom": "C8",
+      "delta_A_all_vs_highangle": 0.021735981999417564
+    },
+    {
+      "atom": "C9",
+      "delta_A_all_vs_highangle": 0.04087159456961181
+    },
+    {
+      "atom": "C10",
+      "delta_A_all_vs_highangle": 0.014589507287803342
+    },
+    {
+      "atom": "C11",
+      "delta_A_all_vs_highangle": 0.014073372714013446
+    },
+    {
+      "atom": "C12",
+      "delta_A_all_vs_highangle": 0.017759852237269367
+    }
+  ],
+  "weighting": "w=1/[sigma(I)^2+(0.08P)^2+0.01], P=(max(I,0)+2Ic)/3",
+  "uncertainty_caveat": "Formal covariance = inverse(JtJ) times GoF^2, with restraints and fixed cell. Does NOT include model bias, near-edge dispersion calibration, cell errors or pore scattering.",
+  "normal_matrix_rank_at_1e_10_cutoff": 157,
+  "normal_matrix_condition_number": 11082232.976951966
+}

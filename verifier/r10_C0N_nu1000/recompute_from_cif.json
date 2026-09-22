@@ -1,0 +1,97 @@
+{
+  "cif": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\nu1000_framework.cif",
+  "hkl": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\merged.hkl",
+  "space_group": "P 6/m m m",
+  "wavelength": 0.68883,
+  "n_sites": 26,
+  "n_aniso": 20,
+  "elements": [
+    "C",
+    "H",
+    "O",
+    "Zr"
+  ],
+  "resolution_cutoff_A": null,
+  "cif_reported": {
+    "_refine_ls_R_factor_gt": "0.196459",
+    "_refine_ls_wR_factor_ref": "0.504361",
+    "_refine_ls_number_reflns": "11289",
+    "_reflns_number_gt": "2104",
+    "_refine_ls_goodness_of_fit_ref": "1.741858"
+  },
+  "variants": {
+    "MERG2": {
+      "exit_code": 0,
+      "seconds": 1.0,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          0.04789
+        ],
+        [
+          0.04789,
+          0.04789
+        ]
+      ],
+      "R1_gt": 0.195,
+      "n_gt": 2096,
+      "R1_all": 0.4819,
+      "n_all": 11289,
+      "wR2": 0.4942,
+      "GooF": 1.688,
+      "reflections_read": 11289,
+      "rejected": 0,
+      "unique": 11289,
+      "suppressed": 0,
+      "warnings": [
+        "** Cell contents from UNIT instruction and atom list do not agree **",
+        "** Warning:    10  atoms may be split and     0  atoms NPD **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    },
+    "MERG4": {
+      "exit_code": 0,
+      "seconds": 1.0,
+      "scale_iterations": 2,
+      "scale_history": [
+        [
+          1.0,
+          0.04832
+        ],
+        [
+          0.04832,
+          0.04832
+        ]
+      ],
+      "R1_gt": 0.1962,
+      "n_gt": 2096,
+      "R1_all": 0.4807,
+      "n_all": 11289,
+      "wR2": 0.4949,
+      "GooF": 1.689,
+      "reflections_read": 11289,
+      "rejected": 0,
+      "unique": 11289,
+      "suppressed": 0,
+      "warnings": [
+        "** Cell contents from UNIT instruction and atom list do not agree **",
+        "** Warning:    10  atoms may be split and     0  atoms NPD **",
+        "** WARNING: These times are only approximate for multiple threads.",
+        "To get better estimates run with -t1 **"
+      ]
+    }
+  },
+  "note": "delivered CIF model + delivered reflections evaluated by SHELXL with every atomic parameter fixed and only the overall scale refined (independent program; model unchanged); dispersion terms for the wavelength from cctbx tables; MERG 2 = Friedel pairs kept (non-centrosymmetric), MERG 4 = Friedel pairs merged and f'' = 0",
+  "hkl_written": {
+    "n_reflections": 11289,
+    "scale_applied": 1.0,
+    "source": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r10_C0N_nu1000\\deliverables\\merged.hkl"
+  },
+  "closest_variant": {
+    "variant": "MERG4",
+    "R1_gt": 0.1962,
+    "abs_difference_to_reported": 0.0003
+  }
+}

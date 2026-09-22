@@ -1,0 +1,589 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0047",
+  "parent": "n0043",
+  "revision": 48,
+  "branch": "diag_linker_split",
+  "ts": 1789991523.515143,
+  "tool": "model_disorder",
+  "params": {
+    "atoms": [
+      "C1",
+      "O1",
+      "C4",
+      "C3"
+    ],
+    "second_sites": {
+      "C1": [
+        0.5392,
+        0.6263,
+        0.6077
+      ],
+      "O1": [
+        0.4641,
+        0.6043,
+        0.6004
+      ],
+      "C4": [
+        0.5306,
+        0.6222,
+        0.6936
+      ],
+      "C3": [
+        0.4604,
+        0.6094,
+        0.7071
+      ]
+    },
+    "occupancy": 0.9
+  },
+  "note": "",
+  "metrics": null,
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 31,
+    "element_counts": {
+      "Zr": 2,
+      "O": 7,
+      "C": 15,
+      "H": 7
+    }
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.631,
+    "n_unique": 11289,
+    "d_min": 0.691,
+    "completeness": 0.882,
+    "space_group": "P 6/m m m",
+    "wavelength": 0.68883,
+    "n_obs": 337815,
+    "shel": "SHEL 999 1.000"
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": 0.0026450448999999995,
+  "mask": {
+    "params": {
+      "solvent_radius": 1.2,
+      "shrink_truncation_radius": 1.2,
+      "resolution_factor": 0.25,
+      "d_min": 1.0,
+      "min_void_volume": 8.0,
+      "max_cycles": 1000
+    },
+    "info": {
+      "mask_id": "238b4425c488",
+      "computed_at": "2026-09-21T19:47:09",
+      "n_voids": 1,
+      "n_voids_masked": 1,
+      "voids": [
+        {
+          "void": 1,
+          "volume_A3": 17360.0,
+          "electrons": 343.6,
+          "centre_frac": [
+            -0.882,
+            -0.89,
+            -0.031
+          ],
+          "masked": true
+        }
+      ],
+      "total_solvent_electrons_per_cell": 343.6,
+      "solvent_volume_A3": 17360.0,
+      "solvent_volume_pct_of_cell": 78.6,
+      "solvent_mask_converged": true,
+      "anomalous_terms": {
+        "Zr": [
+          -9.041,
+          2.771
+        ],
+        "O": [
+          0.007,
+          0.006
+        ],
+        "C": [
+          0.002,
+          0.002
+        ],
+        "H": [
+          0.0,
+          0.0
+        ]
+      },
+      "bypass": {
+        "cycles_run": 55,
+        "max_cycles": 1000,
+        "converged": true,
+        "diverged": false,
+        "kept_cycle": 55,
+        "f000s_first": 2239.1,
+        "f000s_last": 343.6,
+        "stopped_by": null,
+        "f000s_min": 343.6,
+        "f000s_max": 2239.1,
+        "residual_best": 0.1638
+      },
+      "coordination_encroachment": [
+        {
+          "metal": "ZR1",
+          "void": 1,
+          "within_A": 2.2
+        },
+        {
+          "metal": "ZR2",
+          "void": 1,
+          "within_A": 2.7
+        }
+      ]
+    }
+  },
+  "hydrogens": {
+    "present": true,
+    "elements": [
+      "C"
+    ],
+    "n_groups": 7
+  },
+  "disorder_groups": [
+    {
+      "fvar_index": 2,
+      "value": 0.9,
+      "members": [
+        {
+          "label": "C1",
+          "part": 1,
+          "sign": 1,
+          "mult": 1.0
+        },
+        {
+          "label": "C1B",
+          "part": 2,
+          "sign": -1,
+          "mult": 1.0
+        },
+        {
+          "label": "O1",
+          "part": 1,
+          "sign": 1,
+          "mult": 1.0
+        },
+        {
+          "label": "O1B",
+          "part": 2,
+          "sign": -1,
+          "mult": 1.0
+        },
+        {
+          "label": "C4",
+          "part": 1,
+          "sign": 1,
+          "mult": 1.0
+        },
+        {
+          "label": "C4B",
+          "part": 2,
+          "sign": -1,
+          "mult": 1.0
+        },
+        {
+          "label": "C3",
+          "part": 1,
+          "sign": 1,
+          "mult": 1.0
+        },
+        {
+          "label": "C3B",
+          "part": 2,
+          "sign": -1,
+          "mult": 1.0
+        },
+        {
+          "label": "H3",
+          "part": 1,
+          "sign": 1,
+          "mult": 1.0
+        },
+        {
+          "label": "H3A",
+          "part": 2,
+          "sign": -1,
+          "mult": 1.0
+        }
+      ]
+    }
+  ],
+  "disorder_origins": [
+    {
+      "fvar_index": 2,
+      "created": [
+        "C1B",
+        "O1B",
+        "C4B",
+        "C3B"
+      ],
+      "linked_existing": [],
+      "image_labels": [],
+      "restore": [
+        {
+          "label": "C1",
+          "element": "C",
+          "site": [
+            0.509379,
+            0.60294,
+            0.634916
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.09476222222222223,
+          "u_star": [
+            8.920106512582791e-05,
+            9.720528722276352e-05,
+            0.00029859499420244374,
+            5.494438356996252e-05,
+            -3.911407518084453e-05,
+            -2.2528288199397986e-06
+          ]
+        },
+        {
+          "label": "O1",
+          "element": "O",
+          "site": [
+            0.48235,
+            0.587286,
+            0.582407
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.09015222222222226,
+          "u_star": [
+            8.710885522847274e-05,
+            8.275948942525718e-05,
+            0.0003550301005356806,
+            5.754879423057064e-05,
+            2.199612391122323e-06,
+            7.5035164632640536e-06
+          ]
+        },
+        {
+          "label": "C4",
+          "element": "C",
+          "site": [
+            0.507797,
+            0.632693,
+            0.68589
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.11356555555555559,
+          "u_star": [
+            0.00014766140308761138,
+            9.181415715530473e-05,
+            0.00035358025836912345,
+            8.116211755341754e-05,
+            -4.55000466389416e-05,
+            -6.032969146941145e-05
+          ]
+        },
+        {
+          "label": "C3",
+          "element": "C",
+          "site": [
+            0.477591,
+            0.640775,
+            0.675933
+          ],
+          "occupancy": 1.0,
+          "aniso": true,
+          "u_iso": 0.12119333333333336,
+          "u_star": [
+            0.0001350647368591368,
+            0.00010481016635173922,
+            0.00044821870579114104,
+            8.366235178760133e-05,
+            -4.2040978765805685e-05,
+            -9.158547399487544e-05
+          ]
+        }
+      ],
+      "occupancy_a": 0.9,
+      "r1_before": null,
+      "node_before": "n0043",
+      "ts": 1789991523.2309802
+    }
+  ],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [
+      "SHEL 999 1.000"
+    ],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [
+      0.9
+    ],
+    "parts": {
+      "C1": 1,
+      "C1B": 2,
+      "O1": 1,
+      "O1B": 2,
+      "C4": 1,
+      "C4B": 2,
+      "C3": 1,
+      "C3B": 2,
+      "H3": 1,
+      "H3A": 2
+    },
+    "h_treatment": "riding",
+    "twin": false,
+    "afix_groups": [],
+    "mask": true,
+    "source": {
+      "tool": "model_disorder",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": {
+    "diff_map": {
+      "n": 20,
+      "source": "run_shelxl",
+      "computed_on": "n0043"
+    }
+  },
+  "conditions_token": "d000001:n0047:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        120.00000000000001
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "x-y,x,z",
+        "y,-x+y,z",
+        "-y,x-y,z",
+        "-x+y,-x,z",
+        "x-y,-y,-z",
+        "-x,-x+y,-z",
+        "-x,-y,z",
+        "y,x,-z",
+        "-y,-x,-z",
+        "-x+y,y,-z",
+        "x,x-y,-z",
+        "-x,-y,-z",
+        "-x+y,-x,-z",
+        "-y,x-y,-z",
+        "y,-x+y,-z",
+        "x-y,x,-z",
+        "-x+y,y,z",
+        "x,x-y,z",
+        "x,y,-z",
+        "-y,-x,z",
+        "y,x,z",
+        "x-y,-y,z",
+        "-x,-x+y,z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 11289
+    },
+    "cutoff": {
+      "requested": [
+        "SHEL 999 1.000"
+      ],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": 0.0026450448999999995
+    },
+    "mask": {
+      "state": "bound",
+      "revision": "mask:n0042",
+      "params": {
+        "solvent_radius": 1.2,
+        "shrink_truncation_radius": 1.2,
+        "resolution_factor": 0.25,
+        "d_min": 1.0,
+        "min_void_volume": 8.0,
+        "max_cycles": 1000
+      }
+    },
+    "stored_mask": {
+      "state": "bound",
+      "revision": "mask:n0042",
+      "params": {
+        "solvent_radius": 1.2,
+        "shrink_truncation_radius": 1.2,
+        "resolution_factor": 0.25,
+        "d_min": 1.0,
+        "min_void_volume": 8.0,
+        "max_cycles": 1000
+      }
+    },
+    "hydrogens": {
+      "treatment": "riding",
+      "groups": [
+        {
+          "carrier": "C3",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H3"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C5",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H5"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C7",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H7"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C8",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H8"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C11",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H11"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C12",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "h": [
+            "H12"
+          ],
+          "x_h": 0.93,
+          "afix": 43
+        },
+        {
+          "carrier": "C3B",
+          "kind": "aromatic_CH",
+          "n_h": 1,
+          "x_h": 0.93,
+          "afix": 43,
+          "h": [
+            "H3A"
+          ]
+        }
+      ]
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": {
+    "node": "n0043",
+    "model_revision": 44,
+    "data_revision": "d000001",
+    "engine": "SHELXL",
+    "job": "job_20260921_194717",
+    "conditions_token": "d000001:n0043:conditions-v1"
+  },
+  "frame": {
+    "revision": "frame:n0005",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      120.00000000000001
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "x-y,x,z",
+      "y,-x+y,z",
+      "-y,x-y,z",
+      "-x+y,-x,z",
+      "x-y,-y,-z",
+      "-x,-x+y,-z",
+      "-x,-y,z",
+      "y,x,-z",
+      "-y,-x,-z",
+      "-x+y,y,-z",
+      "x,x-y,-z",
+      "-x,-y,-z",
+      "-x+y,-x,-z",
+      "-y,x-y,-z",
+      "y,-x+y,-z",
+      "x-y,x,-z",
+      "-x+y,y,z",
+      "x,x-y,z",
+      "x,y,-z",
+      "-y,-x,z",
+      "y,x,z",
+      "x-y,-y,z",
+      "-x,-x+y,z"
+    ]
+  },
+  "mask_revision": "mask:n0042"
+}

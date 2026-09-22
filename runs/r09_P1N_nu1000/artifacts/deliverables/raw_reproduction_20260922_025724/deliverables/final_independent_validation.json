@@ -1,0 +1,18 @@
+{
+  "CIF_loop_parse_passed": true,
+  "unit_cell_inventory": {
+    "Zr": 18.0,
+    "O": 96.0,
+    "C": 264.0,
+    "H": 132.0
+  },
+  "multiplicities_match": true,
+  "minimum_ADP_eigenvalue_A2": 0.055747883333333144,
+  "CIF_vs_FCF_max_difference_normalized_to_max_Ic": 3.481858685567442e-08,
+  "CIF_vs_FCF_relative_L2_error": 1.1323562482475926e-07,
+  "CIF_bond_symmetry_max_distance_error_A": 4.290712345178527e-05,
+  "saved_JSON_with_riding_H_vs_original_Ic_relative_error": 1.5770001996945966e-15,
+  "riding_H_analytic_jacobian_max_relative_error": 6.120075168869477e-08,
+  "note": "Independent CIF reader/direct complex summation verifies encoding and implemented equations, not model completeness or experimental validity.",
+  "all_passed": true
+}

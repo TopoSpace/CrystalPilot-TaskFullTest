@@ -1,0 +1,24 @@
+Started: 2026-09-22T02:56:43.008389
+Command: ["H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\pyplain\\Scripts\\python.exe", "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r09_P1N_nu1000\\deliverables\\verify_final.py"]
+{
+  "CIF_loop_parse_passed": true,
+  "unit_cell_inventory": {
+    "Zr": 18.0,
+    "O": 96.0,
+    "C": 264.0,
+    "H": 132.0
+  },
+  "multiplicities_match": true,
+  "minimum_ADP_eigenvalue_A2": 0.05574698666666661,
+  "CIF_vs_FCF_max_difference_normalized_to_max_Ic": 3.576911006436452e-08,
+  "CIF_vs_FCF_relative_L2_error": 9.878258673174558e-08,
+  "CIF_bond_symmetry_max_distance_error_A": 4.589402228316608e-05,
+  "saved_JSON_with_riding_H_vs_original_Ic_relative_error": 6.640023629953213e-16,
+  "riding_H_analytic_jacobian_max_relative_error": 2.0178321680219824e-07,
+  "note": "Independent CIF reader/direct complex summation verifies encoding and implemented equations, not model completeness or experimental validity.",
+  "all_passed": true
+}
+
+STDERR:
+
+Exit: 0

@@ -1,0 +1,466 @@
+#===============================================================================
+# PLATON/CHECK-( 60124) versus check.def version 240105, Entry: NU1000_framework
+# Data: verify.cif - Type: CIF                   Bond Precision   C-C = 0.0201 A
+#                                                                   Temp =   0 K
+# Audit: ?
+# Refin:ORIGINAL PYTHON/NUMPY/SCIPY INTENSITY LEAST SQUARES
+# X-ray Synchrotron       R(int) = 0.000,  wR2/R(int) =  0.0,  Nref/Npar =   0.0
+# Cell    39.19000    39.19000    16.61000           90           90         120
+# Wavelength 0.68883  Volume Reported           22093 Calculated       22092.801
+# SpaceGroup from Symmetry P 6/m m m    Hall: -P 6 2                   hexagonal
+#                 Reported P 6/m m m           ?                       hexagonal
+# MoietyFormula C44 H22 O16 Zr3
+#      Reported  ?
+#    SumFormula C44 H22 O16 Zr3
+#      Reported ?
+# Mr        =   1080.28[Calc],      0.00[Rep]       Volume/NonHatoms = 58 Ang**3
+# Dx,gcm-3  =     0.487[Calc],     0.000[Rep]
+# Z         =         6[Calc],         0[Rep]
+# Mu (mm-1) =     1.222[Calc],     0.000[Rep]  Xtal Size =  0.000x0.000x0.000 mm
+# F000      =    3204.0[Calc],       0.0[Rep]  or F000' =   3051.15[Calc]
+# Measured   HKL: Reported      0, Embedded      0, <Mult>  0.0
+# , IGMA(I)^2+(0.08P)^2], P=[MAX(I,0)+2IC]/
+# R= 0.1965(  2104), wR2= 0.5044( 11289), S = 1.742, Npar=  156
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+010_ALERT_1_A No Suitable  (Embedded) Reflection Data Supplied     Please Do !
+023_ALERT_3_A Resolution (too) Low [sin(theta)/Lambda < 0.6]..       0.00 Ang-1
+029_ALERT_3_A _diffrn_measured_fraction_theta_full value Low .      0.000 Why?
+037_ALERT_1_A _diffrn_reflns_theta_full ............ Not Given     Please Do !
+038_ALERT_1_A _diffrn_measured_fraction_theta_max  Not Given .     Please Do !
+039_ALERT_1_A _diffrn_measured_fraction_theta_full Not Given .     Please Do !
+043_ALERT_1_A Calculated and Reported Mol. Weight Differ by ..    1080.28 Check
+044_ALERT_1_A Calculated and Reported Density Dx  Differ by ..     0.4872 Check
+050_ALERT_1_A Absorption Coefficient mu Not Given ............     Please Do !
+081_ALERT_1_A No Maximum Shift/Error Given ...................     Please Do !
+084_ALERT_3_A High wR2 Value (i.e. > 0.25) ...................       0.50 Report
+095_ALERT_1_A No Residual Density Maximum Given ..............     Please Do !
+096_ALERT_1_A No Residual Density Minimum Given ..............     Please Do !
+183_ALERT_1_A Missing _cell_measurement_reflns_used Value ....     Please Do !
+184_ALERT_1_A Missing _cell_measurement_theta_min Value ......     Please Do !
+185_ALERT_1_A Missing _cell_measurement_theta_max Value ......     Please Do !
+197_ALERT_1_A Missing _cell_measurement_temperature Datum ....     Please Add
+198_ALERT_1_A Missing _diffrn_ambient_temperature   Datum ....     Please Add
+602_ALERT_2_A Solvent Accessible VOID(S) in Structure ........          ! Check
+699_ALERT_1_A Missing _exptl_crystal_description Value .......     Please Do !
+880_ALERT_1_A No datum for _diffrn_reflns_number supplied ....     Please Do !
+881_ALERT_1_A No Datum for _diffrn_reflns_av_R_equivalents ...     Please Do !
+#===============================================================================
+008_ALERT_5_B No _iucr_refine_reflections_details   in the CIF     Please Do !
+025_ALERT_1_B Hmin..Lmax Data Incomplete or Missing ..........     Please Check
+082_ALERT_2_B High R1 Value ..................................       0.20 Report
+241_ALERT_2_B High   'MainMol' Ueq as Compared to Neighbors of         O2 Check
+241_ALERT_2_B High   'MainMol' Ueq as Compared to Neighbors of         O3 Check
+242_ALERT_2_B Low    'MainMol' Ueq as Compared to Neighbors of        Zr1 Check
+342_ALERT_3_B Low Bond Precision on  C-C Bonds ...............    0.02013 Ang.
+#===============================================================================
+048_ALERT_1_C MoietyFormula Not Given (or Incomplete) ........     Please Check
+125_ALERT_4_C No '_symmetry_space_group_name_Hall' Given .....     Please Do !
+141_ALERT_4_C s.u. on a - Axis Small or Missing ..............    0.00000 Ang.
+143_ALERT_4_C s.u. on c - Axis Small or Missing ..............    0.00000 Ang.
+151_ALERT_1_C No s.u. (esd) Given on Volume ..................     Please Do !
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of         O5 Check
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of         C2 Check
+242_ALERT_2_C Low    'MainMol' Ueq as Compared to Neighbors of        Zr2 Check
+250_ALERT_2_C Large U3/U1 Ratio for <U(i,j)> Tensor(Resd    1)        2.1 Note
+260_ALERT_2_C Large Average Ueq of Residue Including       Zr1      0.124 Check
+761_ALERT_1_C CIF Contains no X-H Bonds ......................     Please Check
+762_ALERT_1_C CIF Contains no X-Y-H or H-Y-H Angles ..........     Please Check
+#===============================================================================
+004_ALERT_5_G Polymeric Structure Found with Maximum Dimension          3 Info
+005_ALERT_5_G No Embedded Refinement Details Found  in the CIF     Please Do !
+009_ALERT_1_G Reported Radiation_type and Wavelength Conflict?     Please Check
+045_ALERT_1_G Calculated and Reported Z Differ by a Factor ...          0 Check
+049_ALERT_1_G Calculated Density Less Than 1.0 gcm-3 .........     0.4872 Check
+092_ALERT_4_G Check: Wavelength Given is not Cu,Ga,Mo,Ag,In Ka    0.68883 Ang.
+333_ALERT_2_G Large Aver C6-Ring C-C Dist C2       -C10      .       1.43 Ang.
+760_ALERT_1_G CIF Contains no Torsion Angles .................          ? Info
+794_ALERT_5_G Tentative Bond Valency for Zr1       (IV)      .       3.86 Info
+794_ALERT_5_G Tentative Bond Valency for Zr2       (IV)      .       4.11 Info
+802_ALERT_4_G CIF Input Record(s) with more than 80 Characters          2 Info
+860_ALERT_3_G Number of Least-Squares Restraints .............        306 Note
+882_ALERT_1_G No Datum for _diffrn_reflns_av_unetI/netI ......     Please Do !
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+981_ALERT_1_G No non-zero f" Anomalous Scattering Values Found     Please Check
+984_ALERT_1_G The  C-f'=    0.0000 Deviates from the B&C-Value     0.0028 Check
+984_ALERT_1_G The  O-f'=    0.0000 Deviates from the B&C-Value     0.0101 Check
+984_ALERT_1_G The Zr-f'=   -9.5594 Deviates from the B&C-Value    -8.5828 Check
+#===============================================================================
+#                                                                              *
+#===============================================================================
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+ 22 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  7 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+ 12 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+ 18 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+ 33 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+ 11 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+  5 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+  5 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  5 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+  25 Missing  Experimental  Info Issue(s) (Out of  65 Tests) -   62 % Satisfied
+   2 Experimental  Data  Related Issue(s) (Out of  35 Tests) -   94 % Satisfied
+  15 Structural  Model   Related Issue(s) (Out of 144 Tests) -   90 % Satisfied
+  18 Unresolved or to be Checked Issue(s) (Out of 280 Tests) -   94 % Satisfied
+
+#                                                                              *
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_004 Type_5 Informative Message, Check.
+================================================================================
+ This ALERT reports on polymeric networks and their dimensionality as found in
+ the crystal structure.
+ Note: Polymeric structures can be legitimate or due to an erroneous structure
+ analysis.
+
+================================================================================
+ALERT_005 Type_5 Informative Message, Check.
+================================================================================
+ No embedded 'refinement details' records were found in the CIF. Acta Cryst.
+ requires the inclusion of the last shelxl.res file (in case of a SHELXL or
+ XL refinement or similar for non-SHELXL refinement programs) in the CIF,
+ embedded between records with semicolons in position 1, preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the final .res as an embedded
+ comment with the dataname '_shelx_res_file'.
+
+================================================================================
+ALERT_008 Type_5 Informative Message, Check.
+================================================================================
+ No reflection records were found in the CIF. Acta Cryst. and 'FAIR' require
+ the inclusion of the unmerged reflection file used in the final refinement
+ (shelxl.hkl in case of a SHELXL or XL refinement) in the CIF, embedded
+ between records with semicolons in position 1 and preceded by an
+ '_iucr_refine_instructions_details' record.
+ Note: SHELXL20xy will automatically include the .hkl as an embedded
+ comment with the dataname '_shelx_hkl_file'.
+
+================================================================================
+ALERT_009 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The reported values for _diffrn_radiation_type and
+ _diffrn_radiation_wavelength should be consistent. This ALERT should catch
+ possible cases such as where a synchrotron based dataset is erroneously
+ refined with one of the standard wavelengths such as MoKa = 0.71073.
+
+================================================================================
+ALERT_010 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Validation is not complete without the availability of the diffraction data.
+ Deposited reflection data are preferably the set of reflections that were
+ used in the final refinement and embedded in the CIF between records with
+ semicolons in position 1 and preceded by an _iucr_refine_reflections_details
+ record.  SHELXL20xy will do that automatically. Alternatively, an external
+ file with final observed, calculated and sigma reflection data will be the
+ minimum for validation and archival.
+
+================================================================================
+ALERT_023 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ Check resolution of the data set. This alert is issued when sin(theta)/lambda
+ < 0.6 (i.e. theta < 25.24 degree for MoKa or 67.7 degree for CuKa radiation).
+ In principle, all observed data should be included in the refinement.
+ Alternatively, a sin(theta)/Lambda cutoff value can be used at a value where
+ average(I/sigma(I)) < 2 in order not to refine on noise.
+
+================================================================================
+ALERT_025 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Check reported h,k,l - range with calculated range based on reported
+ theta-max.
+
+================================================================================
+ALERT_029 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ Ideally (and a requirement for publication in Acta Crystallographica),
+ this fraction should be close to 1.0 for theta-full greater or equal
+ to sin(theta/lambda) = 0.6 (i.e. 25.24 degrees for MoKa and 67.7 degrees
+ for CuKa  radiation).
+ The three major causes of incomplete data sets are:
+ 1 - A missing cusp of data due to data collection by rotation around
+     the spindle axis only (standard on some image-plate systems).
+     Cure: collect an additional data set after remounting the crystal.
+ 2 - The DENZO imageprocessing package has problems with certain strong
+     reflections. They are often excluded from the data set.
+     Cure: Add an additional scan at lower power setting in order to
+     include strong low order reflections.
+ 3 - Incomplete scans, possibly based on erroneously assumed higher than
+     actual symmetry.
+
+ Note: The default value of _diffrn_measured_fraction_theta_full that
+ is automatically calculated and inserted in the CIF by SHELXL-97 might
+ generate A-level ALERTS when significant numbers of reflections are
+ missing at higher theta values. In order to avoid such an ALERT,
+ substitute the values calculated with the SHELXL instruction 'ACTA 50'
+ for _diffrn_reflns_theta_full and _diffrn_measured_fraction_theta_full
+ respectively. For Mo-radiation, corresponding values of 25 degees (or
+ higher) and 0.99 (or higher) are expected. (See SHELXL manual).
+ PLATON may be used to analyse the case at hand (by invoking either the
+ 'FCF-VALIDATION' mode or the 'ASYM-VIEW' mode).
+
+================================================================================
+ALERT_037 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ No information is given about the theta value for which the dataset is
+ complete, subject to the percentage given with the dataname
+ _diffrn_measured_fraction_theta_full.
+
+================================================================================
+ALERT_038 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ This fraction should be specified in combination with the theta value given
+ with the dataname _diffrn_reflns_theta_full.
+
+================================================================================
+ALERT_039 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ This fraction should be specified in combination with the value for
+ _diffrn_reflns_theta_max.
+
+================================================================================
+ALERT_043 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Note: atomic weights used in the calculation of the molecular weight are
+ taken from Inorg. Chim. Acta 217 (1994) 217-218 which deviate in a few cases
+ slightly from the older values used in SHELXL97-2.
+ Note: The tabulated atomic weights that are used may deviate from the actual
+ value in case of special isotopes of e.g. Uranium or Plutonium.
+
+================================================================================
+ALERT_044 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ In the ideal case, both data items should be the same within a small
+ tolerance. If not, the reason should be clear. Check also whether the
+ density value is reported in the CIF.
+
+================================================================================
+ALERT_045 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ In the ideal case, both data items (Z(calc) & Z(reported)) should be
+ the same. If not, the reason for the difference should be clear. An example
+ is the situation where PLATON gives Z = 1 when the program cannot work out
+ a proper Z.
+
+ Note: Alerts _041, _042 & _045 can probably be ignored when the relevant
+ values differ by the same factor.
+
+================================================================================
+ALERT_048 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The Moiety formula (i.e. the specification of the various species in the
+ structure) should be given in the CIF.
+
+ Example: '(Cd 2+)3, (C6 N6Cr 3-)2, 2(H2 O)'
+
+================================================================================
+ALERT_049 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The calculated density will with a few exceptions be larger than 1.0.
+ A smaller value may indicate either an incomplete model or incorrect
+ symmetry. (e.g. a missing 'bar' in P-1 etc.)
+
+================================================================================
+ALERT_050 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The linear absorption coefficient corresponding to the Sumformula should be
+ given.
+
+================================================================================
+ALERT_081 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ A maximum shift/error should be specified in order to judge convergence.
+
+================================================================================
+ALERT_082 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A higher than usual R1 indicates either an insufficient model or poor
+ quality data.
+
+================================================================================
+ALERT_084 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ wR2 will in general have a value twice of that of R1 with refinement on F**2.
+ Significantly larger values usually indicate a poor refinement model.
+ Also check for unaccounted for twinning.
+
+================================================================================
+ALERT_092 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The wavelength, specified in the CIF, is not CuKa = 1.5418A, GaKa = 1.3414A,
+ MoKa = 0.71073A, AgKa = 0.56086A or InKa = 0.51359A radiation within a
+ tolerance of 0.0005A.  Valid exceptions are Kb, Neutron and Synchrotron data.
+
+================================================================================
+ALERT_095 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ No residual electron density maximum given in CIF.
+
+================================================================================
+ALERT_096 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ No residual electron density minimum given in CIF.
+
+================================================================================
+ALERT_125 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ Optionally specify the Hall symbol. The Hall symbol provides an
+ unambiguous definition of the space-group symmetry where the Hermann-
+ Mauguin symbol leaves room for alternative choices of the origin.
+ E.g. for space-group P21, the screw axis is in general taken to coincide
+ with the b-axis. However, sometimes it is chosen to be shifted by 1/4
+ in the c-axis direction to bring out the relation with P21/c. The Hall
+ symbols will be 'P 2yb' and 'P 2ybc' respectively.
+
+ Refer to: S.R.Hall, Space Group Notation with an Explicit Origin;
+           Acta Cryst. (1981), A37, 517-525.
+
+       or: http://www.kristall.ethz.ch/LFK/software/sginfo/hall_symbols.html
+
+================================================================================
+ALERT_141 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The s.u. on the a-axis is small or missing. The presence of s.u.'s (where
+ required) and value are checked. S.u.'s as given by the diffractometer
+ software are often much smaller then realistic.
+
+================================================================================
+ALERT_143 Type_4 Improvement, Methodology, Query or Suggestion.
+================================================================================
+ The s.u. on the c-axis is small or missing. The presence of s.u.'s (where
+ required) and value are checked. Su's as given by the diffractometer software
+ are often much smaller then realistic.
+
+================================================================================
+ALERT_151 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Missing s.u. on cell volume.
+
+================================================================================
+ALERT_183 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_reflns_used.
+
+================================================================================
+ALERT_184 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_theta_min.
+
+================================================================================
+ALERT_185 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please supply the value for _cell_measurement_theta_max.
+
+================================================================================
+ALERT_197 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please specify the temperature (Kelvin) at which the unit-cell parameters
+ were determined. That temperature should be generally identical to the
+ temperature value specified with _diffrn_ambient_temperature (the temperature
+ of the crystal during data-collection) in order to make sense when used in
+ the calculation of derived geometry parameter values (i.e. bond distances,
+ bond angles etc.).
+
+================================================================================
+ALERT_198 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Please specify the temperature (Kelvin) at which the intensity data were
+ collected. The reported cell parameter values should be those at this
+ temperature to make sense of the derived geometry parameter values.
+
+================================================================================
+ALERT_241 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The U(eq) value of an atom is compared with the average U(eq) for to
+ non-hydrogen atoms bonded to it. Large differences may indicate that the
+ wrong atom type was assigned (e.g. N instead of O).
+
+================================================================================
+ALERT_242 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The U(eq) value of an atom is compared with the average U(eq) for
+ non-hydrogen atoms bonded to it. Large differences may indicate that the
+ wrong atom type was assigned (e.g. N instead of O). False alarms may
+ occur for terminal groups such as the t-butyl moiety.
+
+================================================================================
+ALERT_250 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ An average value of the U(i,j) tensor of the asymmetric unit of a residue
+ is calculated. An ALERT is generated when the corresponding main axis U3/U1
+ ratio deviates significantly from 1.0. Large values of this ratio should be
+ taken as an indication of possible systematic errors in the data or errors
+ in the model. Visual inspection of an ORTEP plot will show that many
+ displacement ellipsoids have their major axis pointing in the same direction.
+
+================================================================================
+ALERT_260 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A large average Ueq value for a residue may indicate refinement with a too
+ high (possibly fixed) population parameter value.
+
+================================================================================
+ALERT_333 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The standard average C-C bond distance in a flat six carbon atom containing
+ aromatic ring is 1.395 Angstrom.
+ The actual average ring distance may be larger than expected due to
+ substituents such as '=O', single bonds or systematic errors in the cell
+ dimensions (E.g. when the wrong wavelength is used in the derivation of
+ the cell parameters).
+
+================================================================================
+ALERT_342 Type_3 Indicator that the Structure Quality may be Low.
+================================================================================
+ The average s.u. for X-Y bonds is tested (named bond-precision). X-Y will
+ generally be C-C bonds, unless there are none. In the last case the s.u.'s of
+ the lowest element numbers are considered (excluding hydrogen). There are
+ three test ranges: one for structures with the largest element Z < 20, one
+ for the largest Z in the range 20 to 39 and one for structures with Z(max) 40
+ or higher (_340, _341 and _342 respectively).
+
+================================================================================
+ALERT_602 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This test reports on a solvent accessible void in the structure, too large
+ or too time consuming for the current PLATON version for a more detailed
+ analysis as part of the validation run. Use the SOLV option for more details.
+ Such a warning might also indicate that the symmetry is incomplete
+ e.g. should have been specified as P-1 and not P1, leaving out half of
+ the unit cell content.
+
+================================================================================
+ALERT_699 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ Examples of expected values are 'block', 'needle', 'plate', 'sphere',
+ 'cylinder'. In case of 'cylinder' or 'sphere' also provide a value for
+ '_exptl_size_rad'.
+
+================================================================================
+ALERT_760 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no torsion angle entries. This might be accomplished with
+ the SHELXL instruction CONF.
+ Inclusion is encouraged by Acta Cryst. but not necessarily so by other
+ journals.
+
+================================================================================
+ALERT_761 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+================================================================================
+ The CIF contains no X-H Bonds. This might be caused by not using the
+ SHELXL instruction BOND $H. Inclusion is required by Acta Cryst. but not
+ necessarily so by other journals.
+

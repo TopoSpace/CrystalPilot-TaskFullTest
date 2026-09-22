@@ -1,0 +1,270 @@
+[
+
+    {
+
+        "code":  "007",
+
+        "type":  5,
+
+        "level":  "G",
+
+        "text":  "Number of Unrefined Donor-H Atoms ..............          3 Report\nH1A   H1B   H1C",
+
+        "kb":  {
+
+                   "meaning":  "Report on unrefined D-H atoms.",
+
+                   "remedy":  "去掉AFIX命令，将供体原子上的氢坐标照自由变量精修。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT007》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "032",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "Std. Uncertainty on Flack Parameter Value High .      0.800 Report",
+
+        "kb":  {
+
+                   "meaning":  "Flack 参数 s.u. 过大（无判定力）",
+
+                   "causes":  "轻原子结构 + Mo 辐射反常信号弱；数据冗余度/质量不足",
+
+                   "remedy":  "run_shelxl 已回读 Flack(Parsons)；su\u003e0.3 时如实披露\"绝对结构未可靠测定\"（轻原子属正常），勿硬标构型；含较重原子时检查数据质量或改 Cu 辐射重测"
+
+               }
+
+    },
+
+    {
+
+        "code":  "484",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "Round D-H..A Angle Rep for N1       ..O1       .        171 Degree"
+
+    },
+
+    {
+
+        "code":  "484",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "Round D-H..A Angle Rep for N1       ..O1       .        162 Degree"
+
+    },
+
+    {
+
+        "code":  "484",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "Round D-H..A Angle Rep for N1       ..O2       .        161 Degree"
+
+    },
+
+    {
+
+        "code":  "795",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "C-Atom in CIF Coordinate List Out-of-Sequence ..         C1 Note"
+
+    },
+
+    {
+
+        "code":  "802",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "CIF Input Record(s) with more than 80 Characters          1 Info",
+
+        "kb":  {
+
+                   "meaning":  "CIF 行超长等语法问题",
+
+                   "causes":  "生成器未按 80 列折行",
+
+                   "remedy":  "修正 CIF 写出"
+
+               }
+
+    },
+
+    {
+
+        "code":  "883",
+
+        "type":  1,
+
+        "level":  "G",
+
+        "text":  "No Info/Value for _atom_sites_solution_primary .     Please Do !",
+
+        "kb":  {
+
+                   "meaning":  "Report missing datum for _atom_sites_solution_primary.",
+
+                   "remedy":  "有则补上，无则给出合理解释。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT881-883》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "912",
+
+        "type":  4,
+
+        "level":  "G",
+
+        "text":  "Missing # of FCF Reflections Above STh/L=  0.600         72 Note",
+
+        "kb":  {
+
+                   "meaning":  "θ_full 以上缺失反射数目",
+
+                   "causes":  "完整度",
+
+                   "remedy":  "同 029"
+
+               }
+
+    },
+
+    {
+
+        "code":  "916",
+
+        "type":  2,
+
+        "level":  "G",
+
+        "text":  "Hooft y and Flack x Parameter Values Differ by .       0.40 Check",
+
+        "kb":  {
+
+                   "meaning":  "Flack x 与 Hooft y 不一致",
+
+                   "causes":  "两种估计器对弱反常信号敏感度不同，弱信号时分歧属统计正常",
+
+                   "remedy":  "一般无需处理；在 VALIDATION 中说明两者 su 与信号强弱即可（有合理解释即可）"
+
+               }
+
+    },
+
+    {
+
+        "code":  "955",
+
+        "type":  1,
+
+        "level":  "G",
+
+        "text":  "Reported (CIF) and Actual (FCF) Lmax Differ by .          1 Units",
+
+        "kb":  {
+
+                   "meaning":  "Test for Reported (in CIF) and Actual Lmax Difference in the FCF file.",
+
+                   "remedy":  "若使用了诸如OMIT 0 50命令截取分辨率，则删除该命令可能可以解决。否则需要给出合理解释。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT954-955》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "965",
+
+        "type":  2,
+
+        "level":  "G",
+
+        "text":  "The SHELXL WEIGHT Optimisation has not Converged     Please Check",
+
+        "kb":  {
+
+                   "meaning":  "Test whether the SHELXL weight optimisation has converged.",
+
+                   "remedy":  "使用程序推荐的权重进行精修重新生成CIF文件即可，否则需要给出合理解释。 / 换用合适的精修程序进行精修。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT965-970》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "969",
+
+        "type":  5,
+
+        "level":  "G",
+
+        "text":  "The \u0027Henn et al.\u0027 R-Factor-gap value ...........       6.99 Note\nPredicted wR2: Based on SigI**2  2.93 or SHELX Weight 16.56",
+
+        "kb":  {
+
+                   "remedy":  "使用程序推荐的权重进行精修重新生成CIF文件即可，否则需要给出合理解释。 / 换用合适的精修程序进行精修。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT965-970》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "978",
+
+        "type":  2,
+
+        "level":  "G",
+
+        "text":  "Number C-C Bonds with Positive Residual Density.          0 Info",
+
+        "kb":  {
+
+                   "meaning":  "Report number of cases with positive density on C-C bonds.",
+
+                   "remedy":  "无需解决，有合理解释即可。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT978》"
+
+               }
+
+    }
+
+]
+

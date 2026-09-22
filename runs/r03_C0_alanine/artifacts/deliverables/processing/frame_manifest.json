@@ -1,0 +1,3708 @@
+{
+  "counts": {
+    "1": 92,
+    "2": 92,
+    "3": 150,
+    "4": 58,
+    "5": 116,
+    "6": 108
+  },
+  "files": [
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_1.rodhypix",
+      "working_copy": "work\\frames\\scan01_0001.rodhypix",
+      "bytes": 160256,
+      "sha256": "526f550076054b776d13d426865d5fd3bda57770a54a3418cb646bcdb25bd095"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_10.rodhypix",
+      "working_copy": "work\\frames\\scan01_0010.rodhypix",
+      "bytes": 160256,
+      "sha256": "1feca1a86eeb449d3eae0381c5ae9238d42b933e0bc1425bd455f0a38d79f76c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_11.rodhypix",
+      "working_copy": "work\\frames\\scan01_0011.rodhypix",
+      "bytes": 160256,
+      "sha256": "d1656a3fdc4052cac866bb98f3ca07e9a5c9b33102ed15f9f05a1e47e7424e88"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_12.rodhypix",
+      "working_copy": "work\\frames\\scan01_0012.rodhypix",
+      "bytes": 160256,
+      "sha256": "5d23789b2f63a51dde41e04e9fbb84be4a25c3d13eb4509f5b9b28c2a7b2f4f6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_13.rodhypix",
+      "working_copy": "work\\frames\\scan01_0013.rodhypix",
+      "bytes": 160256,
+      "sha256": "40184663bbf28efe352e475cbde93fb40ed330e4b1501f5e47f596cc25b38e7b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_14.rodhypix",
+      "working_copy": "work\\frames\\scan01_0014.rodhypix",
+      "bytes": 160256,
+      "sha256": "442e42058d0299c6e3739ed5a71cb9117fd04a56c5517a41d4b95fb75a6fd432"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_15.rodhypix",
+      "working_copy": "work\\frames\\scan01_0015.rodhypix",
+      "bytes": 160256,
+      "sha256": "bd91f56c73857e02e63315f9f293384eb797d62eb179b3faee47d7ec420bb9a9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_16.rodhypix",
+      "working_copy": "work\\frames\\scan01_0016.rodhypix",
+      "bytes": 160256,
+      "sha256": "967dc9440828fbee02de359ba1c1be6760567f56a763db32d13f47ff430d931d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_17.rodhypix",
+      "working_copy": "work\\frames\\scan01_0017.rodhypix",
+      "bytes": 160256,
+      "sha256": "0ca2d7baa4233daca7dc594780c27b5c49ccc275b3cea5b433cd3ba02c2cfa6e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_18.rodhypix",
+      "working_copy": "work\\frames\\scan01_0018.rodhypix",
+      "bytes": 159744,
+      "sha256": "54e7ed51289ef771686d63fc62f32a2e35d0559999bf5c9fd41a53d5c06a7c3a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_19.rodhypix",
+      "working_copy": "work\\frames\\scan01_0019.rodhypix",
+      "bytes": 160256,
+      "sha256": "ab0560122db09df907b2ef2a7c9915c0fc810b16344734270143fedbaf02cd61"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_2.rodhypix",
+      "working_copy": "work\\frames\\scan01_0002.rodhypix",
+      "bytes": 160256,
+      "sha256": "b6297f666f09a72a516e71014356f87790a89f2ea7f33d0dd3182d6abeda6552"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_20.rodhypix",
+      "working_copy": "work\\frames\\scan01_0020.rodhypix",
+      "bytes": 160256,
+      "sha256": "92abbbb6e3f8b2023c3cab1235cc6f6c5a6568f31e407b4b19cf3f6e95b5636c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_21.rodhypix",
+      "working_copy": "work\\frames\\scan01_0021.rodhypix",
+      "bytes": 160256,
+      "sha256": "4357567ff4d927d00e4f25fe420906d8a88c2f7da1becb19bb3d6000d90993cb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_22.rodhypix",
+      "working_copy": "work\\frames\\scan01_0022.rodhypix",
+      "bytes": 160256,
+      "sha256": "9e0513c58209113fca3f9256ee52ad44e9844fecd9ab51097904e76c858bc28d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_23.rodhypix",
+      "working_copy": "work\\frames\\scan01_0023.rodhypix",
+      "bytes": 160256,
+      "sha256": "50a803e59cda9fd54002661b928ca5ae460dee8fcb1c2d04cf95d5a71af95936"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_24.rodhypix",
+      "working_copy": "work\\frames\\scan01_0024.rodhypix",
+      "bytes": 160256,
+      "sha256": "782de2e2b3be1eb085d1fcaaec05b8c2f38671ed8543b9d98a1c5ac5cdfddad9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_25.rodhypix",
+      "working_copy": "work\\frames\\scan01_0025.rodhypix",
+      "bytes": 160256,
+      "sha256": "62406ad224e0d3e675d643e3f901924f90e11e6e87379306e2397cd4f1636a25"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_26.rodhypix",
+      "working_copy": "work\\frames\\scan01_0026.rodhypix",
+      "bytes": 160256,
+      "sha256": "4f17c09628a7d627bff95bcb512e6e5058605a364060d052b2527d82f070497f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_27.rodhypix",
+      "working_copy": "work\\frames\\scan01_0027.rodhypix",
+      "bytes": 160256,
+      "sha256": "8e73f2a96adef2c1e2c8f1ca8ea2d321e72480f0076215386c647b7119066b20"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_28.rodhypix",
+      "working_copy": "work\\frames\\scan01_0028.rodhypix",
+      "bytes": 160256,
+      "sha256": "6bb4d8e9d0e196d9e509760e2ddd9c132ff0768a9065f93f083c2ae53a24ceb4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_29.rodhypix",
+      "working_copy": "work\\frames\\scan01_0029.rodhypix",
+      "bytes": 160256,
+      "sha256": "7275f39a550c73e6aca8b26bd82351079a57f52ac168536bdd5c5544b2102100"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_3.rodhypix",
+      "working_copy": "work\\frames\\scan01_0003.rodhypix",
+      "bytes": 160256,
+      "sha256": "cf0de5e82c0663ddda165ef6448dae2777b5b919df0e5b06ed666eb9c8de3431"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_30.rodhypix",
+      "working_copy": "work\\frames\\scan01_0030.rodhypix",
+      "bytes": 160256,
+      "sha256": "cca28fab886ed4d274deb8627b3877d6a0a2a82387e64303d81c5b0b1b838055"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_31.rodhypix",
+      "working_copy": "work\\frames\\scan01_0031.rodhypix",
+      "bytes": 160768,
+      "sha256": "77594b4b9abe6eb4280bec5808c509643a4f389deacd789e8b8bc68d2caf897d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_32.rodhypix",
+      "working_copy": "work\\frames\\scan01_0032.rodhypix",
+      "bytes": 160256,
+      "sha256": "b8e94df6d884a0c6fca02412b5109785a9fd5d699158751587a1413a35a72c69"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_33.rodhypix",
+      "working_copy": "work\\frames\\scan01_0033.rodhypix",
+      "bytes": 160256,
+      "sha256": "596f44dc3d84c1be20bff3b200d701032c27ec4953ce28c28bc0d5da1da776e0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_34.rodhypix",
+      "working_copy": "work\\frames\\scan01_0034.rodhypix",
+      "bytes": 160256,
+      "sha256": "2391bbeae34a73f92444642631fb163310d194e7923eb3c3de2359dec2b0552a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_35.rodhypix",
+      "working_copy": "work\\frames\\scan01_0035.rodhypix",
+      "bytes": 160256,
+      "sha256": "0418ac2023753cab7fafad8fcc6d2a3d32993882c76333450de237f78200b49f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_36.rodhypix",
+      "working_copy": "work\\frames\\scan01_0036.rodhypix",
+      "bytes": 160256,
+      "sha256": "f7350dd4c6d962d464dc85b1337390c057d08eb0bea13294a1a371d005fcd07d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_37.rodhypix",
+      "working_copy": "work\\frames\\scan01_0037.rodhypix",
+      "bytes": 160256,
+      "sha256": "43d5f16f5ca7e985cf028a26d7d233b6bf8e42a68946380982584cfd4cafe351"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_38.rodhypix",
+      "working_copy": "work\\frames\\scan01_0038.rodhypix",
+      "bytes": 160256,
+      "sha256": "b6d1048371016202c8e7b6374f9cea58727eaf40e36a7c1ebeb2462c9417a772"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_39.rodhypix",
+      "working_copy": "work\\frames\\scan01_0039.rodhypix",
+      "bytes": 160256,
+      "sha256": "5a39d6174310336a1f590813733f88c18bf5d1d366879c280481209f4cc554ca"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_4.rodhypix",
+      "working_copy": "work\\frames\\scan01_0004.rodhypix",
+      "bytes": 160256,
+      "sha256": "8844dff823592d85aa623f52ba57fbb5227c57e48b96fcd9b01d3a99ab4f341e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_40.rodhypix",
+      "working_copy": "work\\frames\\scan01_0040.rodhypix",
+      "bytes": 160256,
+      "sha256": "c385e81f7382851af745e69c569c9a54a4ca5f986eb7d279fdad410e953dca5c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_41.rodhypix",
+      "working_copy": "work\\frames\\scan01_0041.rodhypix",
+      "bytes": 160256,
+      "sha256": "8a83392bae38f1158f590ef12da2ac5d30420a929e616f5c7852c223dfd080ce"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_42.rodhypix",
+      "working_copy": "work\\frames\\scan01_0042.rodhypix",
+      "bytes": 160256,
+      "sha256": "6fea296782be55b6c69a851ae7fcf2c7a4eedcc7508e398ab9746bb874707e47"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_43.rodhypix",
+      "working_copy": "work\\frames\\scan01_0043.rodhypix",
+      "bytes": 160256,
+      "sha256": "afa667f80099f00f5b491c70c5ac51ba422b545ad870211271230ef522991c34"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_44.rodhypix",
+      "working_copy": "work\\frames\\scan01_0044.rodhypix",
+      "bytes": 160256,
+      "sha256": "7c6dd83151502b38a3feccff004d9bee34f7e17fec43fdeaab07f34673361584"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_45.rodhypix",
+      "working_copy": "work\\frames\\scan01_0045.rodhypix",
+      "bytes": 160256,
+      "sha256": "1d3881b8d7639b43cb4c8305ecacffae3b1a35dfe55ea30c6df764013c58d3c5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_46.rodhypix",
+      "working_copy": "work\\frames\\scan01_0046.rodhypix",
+      "bytes": 160256,
+      "sha256": "7031c6e5e52e57742a041ad0309f322a2acf21096bcf85aad06e427d57edba76"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_47.rodhypix",
+      "working_copy": "work\\frames\\scan01_0047.rodhypix",
+      "bytes": 160256,
+      "sha256": "dc7f93f1d8442446cdebc1e023b1bce4216b382cae83b2cd3b4087bfc77fe7a9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_48.rodhypix",
+      "working_copy": "work\\frames\\scan01_0048.rodhypix",
+      "bytes": 159744,
+      "sha256": "0490e9efe91442e578f88ebb83181bc5b34489518051b03bc77841f9a3e3b41d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_49.rodhypix",
+      "working_copy": "work\\frames\\scan01_0049.rodhypix",
+      "bytes": 160256,
+      "sha256": "15a64fb81b6d435fdf458342092e7cd6516a4a2ec2e2c3290190981c43d18562"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_5.rodhypix",
+      "working_copy": "work\\frames\\scan01_0005.rodhypix",
+      "bytes": 160256,
+      "sha256": "38e59ac14ae17b03a77d2128fd2cf0ff54f69925b4f6c1ad95209e5b433d2217"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_50.rodhypix",
+      "working_copy": "work\\frames\\scan01_0050.rodhypix",
+      "bytes": 160256,
+      "sha256": "44a72d9594e982060058b2f2e60123c7b677a4e483f54fe0843ba261547b50ab"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_51.rodhypix",
+      "working_copy": "work\\frames\\scan01_0051.rodhypix",
+      "bytes": 160256,
+      "sha256": "9acf1b73edd60fc73a98ab6ba63a3acbad4f590f58543452d2b3111a267248bf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_52.rodhypix",
+      "working_copy": "work\\frames\\scan01_0052.rodhypix",
+      "bytes": 160256,
+      "sha256": "19c423819e22e44cd5da611770a68e34b3dea9defeac0dc036c68e84d77c6721"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_53.rodhypix",
+      "working_copy": "work\\frames\\scan01_0053.rodhypix",
+      "bytes": 160256,
+      "sha256": "d87db9683011f92132c7cd028e9cec36b4621946e08d4e7f7675a9ae552ed8f1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_54.rodhypix",
+      "working_copy": "work\\frames\\scan01_0054.rodhypix",
+      "bytes": 160256,
+      "sha256": "baea3e8d961c8617530a393a9426b2a149a956ff7b6d4bd67f99b3890e99276a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_55.rodhypix",
+      "working_copy": "work\\frames\\scan01_0055.rodhypix",
+      "bytes": 160256,
+      "sha256": "ebfeb15907bbe51da36ecfe4abc42d0f15475f327538e11a7b9a43002fefec05"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_56.rodhypix",
+      "working_copy": "work\\frames\\scan01_0056.rodhypix",
+      "bytes": 160256,
+      "sha256": "7a1793893b30f68959b5b6c9bd795b8e9f5217d1fbf2a1495cf343a9f7cc8f7a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_57.rodhypix",
+      "working_copy": "work\\frames\\scan01_0057.rodhypix",
+      "bytes": 160256,
+      "sha256": "a517482b1ee8d2711dac920b1c133f151e61169a87466f922c4fa2430bda7b52"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_58.rodhypix",
+      "working_copy": "work\\frames\\scan01_0058.rodhypix",
+      "bytes": 160256,
+      "sha256": "a469cbcce83cb21de6530cdc02f70f62272b3fe927d0399c21fd5ce7ed29a85d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_59.rodhypix",
+      "working_copy": "work\\frames\\scan01_0059.rodhypix",
+      "bytes": 160256,
+      "sha256": "c99a579f5353ea4db299935e428e95dce520a7e3dfbf132e2570ef3c03577ac0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_6.rodhypix",
+      "working_copy": "work\\frames\\scan01_0006.rodhypix",
+      "bytes": 160256,
+      "sha256": "8a4cafdfcc4323fcceb367de67e6af5acffa91e13a9e04d801cdb4597636abf3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_60.rodhypix",
+      "working_copy": "work\\frames\\scan01_0060.rodhypix",
+      "bytes": 160256,
+      "sha256": "1cb7ddea8fa9c31de62818c13ae8ad77aa95a9fe31e3fa1fa9e53c81dc627e69"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_61.rodhypix",
+      "working_copy": "work\\frames\\scan01_0061.rodhypix",
+      "bytes": 160256,
+      "sha256": "1eab77e0aca418ca1a33ecd66268530cb9e72eaa33eac3bf5e3adc3ed32ba09d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_62.rodhypix",
+      "working_copy": "work\\frames\\scan01_0062.rodhypix",
+      "bytes": 160768,
+      "sha256": "2013f98b2efd9ca7d705e18b95dbc1c64175f09661f5ac442785afd9b0bd1054"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_63.rodhypix",
+      "working_copy": "work\\frames\\scan01_0063.rodhypix",
+      "bytes": 160256,
+      "sha256": "b8423c37c802aa45245bf08341fb3a11979fce3dfd5e11263cf4cc10df8d2d11"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_64.rodhypix",
+      "working_copy": "work\\frames\\scan01_0064.rodhypix",
+      "bytes": 159744,
+      "sha256": "7cc1726308c06a6c3ca27f341a4f1ab8afaf10dccee6706c9cd757bfabdb5252"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_65.rodhypix",
+      "working_copy": "work\\frames\\scan01_0065.rodhypix",
+      "bytes": 160256,
+      "sha256": "3d0230f0fcb34d5e2c36e9aae2327cfe3b9a46e89c772a0838a0d299089b06b9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_66.rodhypix",
+      "working_copy": "work\\frames\\scan01_0066.rodhypix",
+      "bytes": 160256,
+      "sha256": "a49e21916f4adb47eae20eeea8e1c43eb8d981406b0e5086ad0a5ae0c168485a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_67.rodhypix",
+      "working_copy": "work\\frames\\scan01_0067.rodhypix",
+      "bytes": 160256,
+      "sha256": "9de0a024ca76031a0284d7d2485561d6b7ee8b6f7c580c5e3d80550d17a95cac"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_68.rodhypix",
+      "working_copy": "work\\frames\\scan01_0068.rodhypix",
+      "bytes": 160768,
+      "sha256": "a7d6fc578b874284073b3091b52900c32145b96f8a11b705e863e194f3d56581"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_69.rodhypix",
+      "working_copy": "work\\frames\\scan01_0069.rodhypix",
+      "bytes": 160256,
+      "sha256": "b8f9df10195c0cc6c14456a101e4f389eba5b666ff43417e28bcb3a123b06680"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_7.rodhypix",
+      "working_copy": "work\\frames\\scan01_0007.rodhypix",
+      "bytes": 160256,
+      "sha256": "e848903db517123fdee74bde71d6065b9c5c626dc56fe7ada789a1aabbb6fef0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_70.rodhypix",
+      "working_copy": "work\\frames\\scan01_0070.rodhypix",
+      "bytes": 160256,
+      "sha256": "68b1df8e3642303ff583a6a512431677e7d7cc424db5245a52a027fbea819519"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_71.rodhypix",
+      "working_copy": "work\\frames\\scan01_0071.rodhypix",
+      "bytes": 160256,
+      "sha256": "a236d01ac1b327015932c0bca544c791cb4f6ae7d8917b3d9c096f2609f1287e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_72.rodhypix",
+      "working_copy": "work\\frames\\scan01_0072.rodhypix",
+      "bytes": 160256,
+      "sha256": "fd650f9c1ce5a389e272ddbb074845e72cd7b4319247013fd16021fc32d91469"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_73.rodhypix",
+      "working_copy": "work\\frames\\scan01_0073.rodhypix",
+      "bytes": 160256,
+      "sha256": "b154a58183bd67eacc50ceb8ef7026cbc45b77600258849e3e5b5a23f7903a8e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_74.rodhypix",
+      "working_copy": "work\\frames\\scan01_0074.rodhypix",
+      "bytes": 160256,
+      "sha256": "5fffa03f806a5003484ea46b6743239a2779ca82403f3a0dd286353b9eab41a6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_75.rodhypix",
+      "working_copy": "work\\frames\\scan01_0075.rodhypix",
+      "bytes": 160256,
+      "sha256": "b5d1eb98323e4740b94815535dcc62c521e75628ffd3931e87b36d6b63f02125"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_76.rodhypix",
+      "working_copy": "work\\frames\\scan01_0076.rodhypix",
+      "bytes": 160256,
+      "sha256": "a8046e6ab2b4225cb12f5883ff1a917a368ee90117df2bf87c39c514bd9a734a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_77.rodhypix",
+      "working_copy": "work\\frames\\scan01_0077.rodhypix",
+      "bytes": 160256,
+      "sha256": "dca4c9d6969cb76e885aebcb70d22a41d582f6b6bc76364ac3316f5ae6f03366"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_78.rodhypix",
+      "working_copy": "work\\frames\\scan01_0078.rodhypix",
+      "bytes": 160256,
+      "sha256": "ee0ffc2737f5f62cda2c7a01927bfe570336f2218390d0587d48e94b12e0abbe"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_79.rodhypix",
+      "working_copy": "work\\frames\\scan01_0079.rodhypix",
+      "bytes": 160256,
+      "sha256": "e981a237332f2733d8d8f74b5c875c36722b5f8218904aa79d847fb1c0aa1129"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_8.rodhypix",
+      "working_copy": "work\\frames\\scan01_0008.rodhypix",
+      "bytes": 160256,
+      "sha256": "57837d66330bf3f5be021733331b4a601161f0db021e59b49aee489fe524345f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_80.rodhypix",
+      "working_copy": "work\\frames\\scan01_0080.rodhypix",
+      "bytes": 160256,
+      "sha256": "7d070b14563c896c83f5dc05aa5013180706ee44b5cd19d7ea5f5d13389b7467"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_81.rodhypix",
+      "working_copy": "work\\frames\\scan01_0081.rodhypix",
+      "bytes": 159744,
+      "sha256": "2e9dfbc9fe4f5517113d8fdc8a7b00566ea034fd2413505e16b3f28542ecf891"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_82.rodhypix",
+      "working_copy": "work\\frames\\scan01_0082.rodhypix",
+      "bytes": 160256,
+      "sha256": "f67e2b9ce37ba78c7698efde5764ec5e1d3f1b54e38eb06972bfb9d9dfe53598"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_83.rodhypix",
+      "working_copy": "work\\frames\\scan01_0083.rodhypix",
+      "bytes": 160256,
+      "sha256": "5b53ab59b5a3646dade0679472b3dd8dbc2655425bab8b4e78c5646e4a93b889"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_84.rodhypix",
+      "working_copy": "work\\frames\\scan01_0084.rodhypix",
+      "bytes": 160256,
+      "sha256": "6f73e66b5a930452f3fbcf5f021f7c1c0b7b60b40936a7daee1f6f0d5c621f91"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_85.rodhypix",
+      "working_copy": "work\\frames\\scan01_0085.rodhypix",
+      "bytes": 160256,
+      "sha256": "21171367f039f865d397df4f21ba539606b471671775507e85b762cf0a19e1ef"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_86.rodhypix",
+      "working_copy": "work\\frames\\scan01_0086.rodhypix",
+      "bytes": 160256,
+      "sha256": "8c2553b6fc364263352009704fb06e10c4d4f053d8ce6959a3dcd86cf70b2a20"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_87.rodhypix",
+      "working_copy": "work\\frames\\scan01_0087.rodhypix",
+      "bytes": 160256,
+      "sha256": "6064900bb8071931f461a92f6a0abf5c250037645c2b4a9a23daf569fed0934e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_88.rodhypix",
+      "working_copy": "work\\frames\\scan01_0088.rodhypix",
+      "bytes": 160256,
+      "sha256": "72def67f4901fc29e7a0eda6f72d44af38dc26502d0a16818bad99aed76fb988"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_89.rodhypix",
+      "working_copy": "work\\frames\\scan01_0089.rodhypix",
+      "bytes": 160768,
+      "sha256": "a5eb44e52a31041724bb17e12362a587e9f132582d36c1e09f18929e8e5dfdb7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_9.rodhypix",
+      "working_copy": "work\\frames\\scan01_0009.rodhypix",
+      "bytes": 160256,
+      "sha256": "e9c28ef536d84a3ff9cafbc977adbb2d0c545b69982e7ed1a67d90bad96e968e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_90.rodhypix",
+      "working_copy": "work\\frames\\scan01_0090.rodhypix",
+      "bytes": 160256,
+      "sha256": "b4139651027cad392faf69e96e72e1067a848354fb4acba0ee4d6d169d8c6f4c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_91.rodhypix",
+      "working_copy": "work\\frames\\scan01_0091.rodhypix",
+      "bytes": 160256,
+      "sha256": "27b38d913ab4456e4e48eefc0a8f3ebbd44f5835df8921f4ce3a8c40c19469a4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_1_92.rodhypix",
+      "working_copy": "work\\frames\\scan01_0092.rodhypix",
+      "bytes": 160768,
+      "sha256": "95d38d266287f5c5b889968a7dce4898cb26acbed6eb6c001cc18193b367b70c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_1.rodhypix",
+      "working_copy": "work\\frames\\scan02_0001.rodhypix",
+      "bytes": 159744,
+      "sha256": "5423343a1643bdc74075702498cf8d93b830d8836dcde6d2b7d2b5140bf056c0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_10.rodhypix",
+      "working_copy": "work\\frames\\scan02_0010.rodhypix",
+      "bytes": 160256,
+      "sha256": "520b5c4feb424a1ed5c22640cd832e4870c8272e586437bd3cc71a62d0e27df6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_11.rodhypix",
+      "working_copy": "work\\frames\\scan02_0011.rodhypix",
+      "bytes": 160256,
+      "sha256": "4367bb799a66ddaaa6a5d215267ccbedab57e5e58666154c5a379437a00506a8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_12.rodhypix",
+      "working_copy": "work\\frames\\scan02_0012.rodhypix",
+      "bytes": 160256,
+      "sha256": "be6f0209ed36d8caf16caabfbb8d078749f0693083ff24ec1f04251e8ca7fd6d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_13.rodhypix",
+      "working_copy": "work\\frames\\scan02_0013.rodhypix",
+      "bytes": 160256,
+      "sha256": "154bc8f866a2cff1e91b5756b3e762c43e47035dac0e554e369aa9ea9ab3e14a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_14.rodhypix",
+      "working_copy": "work\\frames\\scan02_0014.rodhypix",
+      "bytes": 160256,
+      "sha256": "e38510ce1cefd08487af9d74fc6f0aa9b754ccb599ec1e2130651dcdc4c57389"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_15.rodhypix",
+      "working_copy": "work\\frames\\scan02_0015.rodhypix",
+      "bytes": 160768,
+      "sha256": "2dddce29a8db68a37b868bc33acde6b61bf9b58320c373afd6e704d8db8a1d92"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_16.rodhypix",
+      "working_copy": "work\\frames\\scan02_0016.rodhypix",
+      "bytes": 160256,
+      "sha256": "f6541cc1593cd7612966e055e3696a23beed443259f93d33f7d5ea60b4ab5371"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_17.rodhypix",
+      "working_copy": "work\\frames\\scan02_0017.rodhypix",
+      "bytes": 160256,
+      "sha256": "ab61b297f053f177687b9f353d17a1e840792e315fa5b4509fb2d8c36bea19fa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_18.rodhypix",
+      "working_copy": "work\\frames\\scan02_0018.rodhypix",
+      "bytes": 160256,
+      "sha256": "1ae07e5141c5ac3350447bb54a592ccf8c5a83859e50d7038844e17dddfae521"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_19.rodhypix",
+      "working_copy": "work\\frames\\scan02_0019.rodhypix",
+      "bytes": 160256,
+      "sha256": "d6fd16a3e4837faf4a9d61ee669c086d84fdd04db23d152241e87c6dfc95f798"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_2.rodhypix",
+      "working_copy": "work\\frames\\scan02_0002.rodhypix",
+      "bytes": 160256,
+      "sha256": "9f60daf99bd818b75144c879d699593d8d65d472405375b44e13ae608a2ed144"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_20.rodhypix",
+      "working_copy": "work\\frames\\scan02_0020.rodhypix",
+      "bytes": 160256,
+      "sha256": "5ff01a289d2dc367b6e3795965c59b21cb400b49165dfd5df24ae372d6c6210c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_21.rodhypix",
+      "working_copy": "work\\frames\\scan02_0021.rodhypix",
+      "bytes": 160768,
+      "sha256": "327051209056e08c4b2085780e89a14adc71eb8317934d9ba0c1e6abfbd182da"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_22.rodhypix",
+      "working_copy": "work\\frames\\scan02_0022.rodhypix",
+      "bytes": 160256,
+      "sha256": "441c0647ad994133a4186d3c58a0d2ebde427cb71e3de63fc81b2d71cb19db52"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_23.rodhypix",
+      "working_copy": "work\\frames\\scan02_0023.rodhypix",
+      "bytes": 160256,
+      "sha256": "711ad2d5e081b23cce61c80eedf26bd381cfa8a1fe608c660a7391b504a8cf36"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_24.rodhypix",
+      "working_copy": "work\\frames\\scan02_0024.rodhypix",
+      "bytes": 160256,
+      "sha256": "26e295d2656c0598296029ac01a27ec765304786b65d29684c03a49acb735370"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_25.rodhypix",
+      "working_copy": "work\\frames\\scan02_0025.rodhypix",
+      "bytes": 160256,
+      "sha256": "6ebd4e7a43fa289eefc0bd3cd385edcae5598e08068397fcf7e98172c96f0cf0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_26.rodhypix",
+      "working_copy": "work\\frames\\scan02_0026.rodhypix",
+      "bytes": 160256,
+      "sha256": "14bb6715575e16bec799dbc5024b2938bb8df937daa6ea3fef319adad601c41d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_27.rodhypix",
+      "working_copy": "work\\frames\\scan02_0027.rodhypix",
+      "bytes": 160256,
+      "sha256": "7c0dc189f3be3df338643b2d894c63275dce80fc9614feb6d8c65346021e5ac3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_28.rodhypix",
+      "working_copy": "work\\frames\\scan02_0028.rodhypix",
+      "bytes": 160256,
+      "sha256": "5730721a2065f046891fe46af7fb05b00cf34873afb073a66f4238564e386d9c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_29.rodhypix",
+      "working_copy": "work\\frames\\scan02_0029.rodhypix",
+      "bytes": 160256,
+      "sha256": "87cb0128ff508bee1fd1ac44124bc5780674cdb5bff8369853bc0aeb8061e499"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_3.rodhypix",
+      "working_copy": "work\\frames\\scan02_0003.rodhypix",
+      "bytes": 160768,
+      "sha256": "03945bdf0a38ad8a88907cd26d6927bc7997b412e4bf4499818eeb87dc98d763"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_30.rodhypix",
+      "working_copy": "work\\frames\\scan02_0030.rodhypix",
+      "bytes": 159744,
+      "sha256": "2325c348485082c0f65e6825e91dec88884887155104e03f5c24d86418575341"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_31.rodhypix",
+      "working_copy": "work\\frames\\scan02_0031.rodhypix",
+      "bytes": 160256,
+      "sha256": "306342968ada943f3ae3b0989ab6a5cb52f87e66932cd733fdf238baced2f81b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_32.rodhypix",
+      "working_copy": "work\\frames\\scan02_0032.rodhypix",
+      "bytes": 160768,
+      "sha256": "37f8f0652bf45fc5786043cff3208d7b7d4119b2d57b84c866bd1de7e6376de7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_33.rodhypix",
+      "working_copy": "work\\frames\\scan02_0033.rodhypix",
+      "bytes": 160256,
+      "sha256": "ccce86153e556629a0092d0ed6d1c67267f186dd3ae7b6a02f6e24a07b299159"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_34.rodhypix",
+      "working_copy": "work\\frames\\scan02_0034.rodhypix",
+      "bytes": 160256,
+      "sha256": "ac9b22c2e28950316ce85f92569929e036cddc8c24cb28e14e2cf878c8d7d2d0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_35.rodhypix",
+      "working_copy": "work\\frames\\scan02_0035.rodhypix",
+      "bytes": 160256,
+      "sha256": "2efd0335a2ddc63204d531bc037a865846cd0962edc3cbd980b051d9cd043987"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_36.rodhypix",
+      "working_copy": "work\\frames\\scan02_0036.rodhypix",
+      "bytes": 160256,
+      "sha256": "979dcc5176cfaad4f182ccb9b5400a04546b54f9b096c906e5367b3e8e532ae4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_37.rodhypix",
+      "working_copy": "work\\frames\\scan02_0037.rodhypix",
+      "bytes": 160256,
+      "sha256": "29f5d78a9a449eb5c3a1e148e8dee367911be5672c6132efb802827e8c1df114"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_38.rodhypix",
+      "working_copy": "work\\frames\\scan02_0038.rodhypix",
+      "bytes": 160256,
+      "sha256": "5deb1c8561e46f42907d011c6e00247fe15c5806d4d81b17ee3e7b66ccc965d4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_39.rodhypix",
+      "working_copy": "work\\frames\\scan02_0039.rodhypix",
+      "bytes": 160256,
+      "sha256": "71535bd30a6a6f8441fc6ed6520d754577852b9b4f7101b0cc647e624a477612"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_4.rodhypix",
+      "working_copy": "work\\frames\\scan02_0004.rodhypix",
+      "bytes": 160256,
+      "sha256": "aae7f415498054478a00f7ce5f75a1b65b19ea12a582aba891f364e1111493ed"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_40.rodhypix",
+      "working_copy": "work\\frames\\scan02_0040.rodhypix",
+      "bytes": 160256,
+      "sha256": "efdb7b3aa344dd39f57635d958dd26881975bbb066f47af44d14dede6377182c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_41.rodhypix",
+      "working_copy": "work\\frames\\scan02_0041.rodhypix",
+      "bytes": 160256,
+      "sha256": "c09e0d2378d2f92ec516ceaaf7b807c1afbec237d068ba14d7682049dddaeee2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_42.rodhypix",
+      "working_copy": "work\\frames\\scan02_0042.rodhypix",
+      "bytes": 160256,
+      "sha256": "db3c400d8f908d02f0cdb2820a064d22a7c4dc7afba40936f88f09ba0fee01b6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_43.rodhypix",
+      "working_copy": "work\\frames\\scan02_0043.rodhypix",
+      "bytes": 160256,
+      "sha256": "de296a8a1326f034257c8414f12635bf156c6eb246813b97d00ed6ea0882c004"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_44.rodhypix",
+      "working_copy": "work\\frames\\scan02_0044.rodhypix",
+      "bytes": 160256,
+      "sha256": "831c2b479a238725110bfa27e04f4eed36162a2eeae3c533d8e8dc95e8ad0b27"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_45.rodhypix",
+      "working_copy": "work\\frames\\scan02_0045.rodhypix",
+      "bytes": 160768,
+      "sha256": "845f8d938edd37d3068ac909b261a68a9bcbdc17f5d5265abb390d571db2c484"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_46.rodhypix",
+      "working_copy": "work\\frames\\scan02_0046.rodhypix",
+      "bytes": 160768,
+      "sha256": "2a224c034adfb08f999842ac7a3858d069428d6a3109b22bcf8a5e07c3088f99"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_47.rodhypix",
+      "working_copy": "work\\frames\\scan02_0047.rodhypix",
+      "bytes": 160768,
+      "sha256": "3335905dd425d257de1d502422a215982720aff51fc2b39b5500db54948a17e8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_48.rodhypix",
+      "working_copy": "work\\frames\\scan02_0048.rodhypix",
+      "bytes": 160256,
+      "sha256": "42b236360404ec1b7a5527e90cdddff2cc0b095167762b52938accc35d7a1c51"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_49.rodhypix",
+      "working_copy": "work\\frames\\scan02_0049.rodhypix",
+      "bytes": 160768,
+      "sha256": "98d0efa039a3aad40263099343dabb3e5a587cd29d129a5d5c2e489f90f31dde"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_5.rodhypix",
+      "working_copy": "work\\frames\\scan02_0005.rodhypix",
+      "bytes": 160256,
+      "sha256": "081c1dcd31b9a8506a97806273eef0d04894963264a8fc005e7b5b4316ac497b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_50.rodhypix",
+      "working_copy": "work\\frames\\scan02_0050.rodhypix",
+      "bytes": 160768,
+      "sha256": "cb7cb0c169ddd40e7aec6a115d60c046efaa6a015d8e86a9a82a638db327cb07"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_51.rodhypix",
+      "working_copy": "work\\frames\\scan02_0051.rodhypix",
+      "bytes": 160256,
+      "sha256": "b0757866992f5f8432f9dfb07ed0f1d9a005c9a0f412966218d8e3196d56299c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_52.rodhypix",
+      "working_copy": "work\\frames\\scan02_0052.rodhypix",
+      "bytes": 160256,
+      "sha256": "a9e4bad52ce483b06023e7830152312043128b085b3a9f2d45c2d7b184d542b8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_53.rodhypix",
+      "working_copy": "work\\frames\\scan02_0053.rodhypix",
+      "bytes": 160256,
+      "sha256": "e0f4d33490cd469ef0743870622a4f46de1c268aa88dc599d53949a62419e73f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_54.rodhypix",
+      "working_copy": "work\\frames\\scan02_0054.rodhypix",
+      "bytes": 160768,
+      "sha256": "0a118233f28d755dc187807f8590b23173a6a33df8b9799a39623f641659caa4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_55.rodhypix",
+      "working_copy": "work\\frames\\scan02_0055.rodhypix",
+      "bytes": 160768,
+      "sha256": "8a4e3bac810d8be73b87919debc8ecc8772f5f166fa3a73f0b7dde2cf39dedf6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_56.rodhypix",
+      "working_copy": "work\\frames\\scan02_0056.rodhypix",
+      "bytes": 160768,
+      "sha256": "f4989f2eff73b78b9fc93cea0ebe7009eab85758e863f8e58f9bed67dc510b74"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_57.rodhypix",
+      "working_copy": "work\\frames\\scan02_0057.rodhypix",
+      "bytes": 160256,
+      "sha256": "5baf47c865d9efb390fba5a608afdc990381ed66ca747a5557e26730f4bf0626"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_58.rodhypix",
+      "working_copy": "work\\frames\\scan02_0058.rodhypix",
+      "bytes": 160256,
+      "sha256": "39b8357a24b93e1c4f8b83226dc0dcf8b4fe611a932fbb5aec4c0e021c9539a0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_59.rodhypix",
+      "working_copy": "work\\frames\\scan02_0059.rodhypix",
+      "bytes": 160256,
+      "sha256": "0ddf4e797d21f9f7e861d8cf442eba9506deb84834724b1560f293113a8d886d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_6.rodhypix",
+      "working_copy": "work\\frames\\scan02_0006.rodhypix",
+      "bytes": 160256,
+      "sha256": "b85a802f564c0f6616db436b2758fe7e8ae6435dca11c650b9dd1335c398a293"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_60.rodhypix",
+      "working_copy": "work\\frames\\scan02_0060.rodhypix",
+      "bytes": 160768,
+      "sha256": "5cf2e5a54de2f9fad5f64ed4cd7a87a90c1f09e0aa40e033d17849e1722bdbab"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_61.rodhypix",
+      "working_copy": "work\\frames\\scan02_0061.rodhypix",
+      "bytes": 160768,
+      "sha256": "e332d4efa0d1603ae4f190234ca3839e490b8ec6d832e9033272dc2116898a44"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_62.rodhypix",
+      "working_copy": "work\\frames\\scan02_0062.rodhypix",
+      "bytes": 160768,
+      "sha256": "4759ea2148a051caa8b713462b4dab7c4ce6c68e7d990a71cf3ae97603bc605d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_63.rodhypix",
+      "working_copy": "work\\frames\\scan02_0063.rodhypix",
+      "bytes": 160768,
+      "sha256": "3f3a3d727f4137992e4a8f19b61637dbbbab0896773e7753a57855349e10738a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_64.rodhypix",
+      "working_copy": "work\\frames\\scan02_0064.rodhypix",
+      "bytes": 160768,
+      "sha256": "960f5fe4abbd39784ce2b1f62f84db8d71125c80c02f7c1204879d25d2eb2c50"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_65.rodhypix",
+      "working_copy": "work\\frames\\scan02_0065.rodhypix",
+      "bytes": 160768,
+      "sha256": "296169bf1811aad41ff5199157578fe13295eece370aa0b75a145b37d80df28c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_66.rodhypix",
+      "working_copy": "work\\frames\\scan02_0066.rodhypix",
+      "bytes": 160768,
+      "sha256": "a698c8906a61b383096682883291c7a16e02c7d5186e964032cdb9bc32048eb2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_67.rodhypix",
+      "working_copy": "work\\frames\\scan02_0067.rodhypix",
+      "bytes": 160768,
+      "sha256": "bd3a11454ca2d26e7410776f250a79fffdd8a1e26574f292ae7bbcfd3c401f35"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_68.rodhypix",
+      "working_copy": "work\\frames\\scan02_0068.rodhypix",
+      "bytes": 160768,
+      "sha256": "b961dcba0b967e128b2d0da80665f0fcbe8b23ab34013d718a067219a15b1ce5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_69.rodhypix",
+      "working_copy": "work\\frames\\scan02_0069.rodhypix",
+      "bytes": 160768,
+      "sha256": "e844669fbd87f4b1a8c2aa7c6598b6d3c56d48513f07fc800c8d8286f76d5662"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_7.rodhypix",
+      "working_copy": "work\\frames\\scan02_0007.rodhypix",
+      "bytes": 160256,
+      "sha256": "b12eb978c2e99f4bc00cfae05dbfcf3b170a6ffc4f823de10105a91944faec55"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_70.rodhypix",
+      "working_copy": "work\\frames\\scan02_0070.rodhypix",
+      "bytes": 160768,
+      "sha256": "ad5e8330934b93da9461397cbbb521b2b5928de3cc8f877529c39bee90fba796"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_71.rodhypix",
+      "working_copy": "work\\frames\\scan02_0071.rodhypix",
+      "bytes": 160768,
+      "sha256": "d69f0e16a3dab802187e59d937180ab45aebb34c76a2c1f9fb575f04e41a87cc"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_72.rodhypix",
+      "working_copy": "work\\frames\\scan02_0072.rodhypix",
+      "bytes": 160768,
+      "sha256": "63a3178e2efbcae1eb310e5d42df1797150eed875f442743d45d81709eb7d6d7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_73.rodhypix",
+      "working_copy": "work\\frames\\scan02_0073.rodhypix",
+      "bytes": 160768,
+      "sha256": "6e6468f518c83c3af943bf7b0d80b73e1d33bfd18d6a81129c36a686c67d7625"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_74.rodhypix",
+      "working_copy": "work\\frames\\scan02_0074.rodhypix",
+      "bytes": 160768,
+      "sha256": "eb9d79ee250122042ae99d9ba098b2a2a8e4d3771e21234946740c61f7336f53"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_75.rodhypix",
+      "working_copy": "work\\frames\\scan02_0075.rodhypix",
+      "bytes": 160768,
+      "sha256": "7ba5da1419709b0675078f1cd0efb36d301e22d6e4aa885770168916b29f0eec"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_76.rodhypix",
+      "working_copy": "work\\frames\\scan02_0076.rodhypix",
+      "bytes": 160768,
+      "sha256": "d0546797edd92e3a7b183941d3679e2474b6f0c44850619d9881fbc85401bdc0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_77.rodhypix",
+      "working_copy": "work\\frames\\scan02_0077.rodhypix",
+      "bytes": 160768,
+      "sha256": "d22a2661e759703e623ce7efb907a2422fe467dd01b6e0c0f02097bc62ad46ac"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_78.rodhypix",
+      "working_copy": "work\\frames\\scan02_0078.rodhypix",
+      "bytes": 160768,
+      "sha256": "84acfe6ea42a63eb6130b26057f98050638297c6cf5f74df20efabcc9a071add"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_79.rodhypix",
+      "working_copy": "work\\frames\\scan02_0079.rodhypix",
+      "bytes": 160768,
+      "sha256": "f441872b9f6e1ef14e7c8a28288df0e8b3b3e6c286d1ebe934c14308fa2ffecc"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_8.rodhypix",
+      "working_copy": "work\\frames\\scan02_0008.rodhypix",
+      "bytes": 160256,
+      "sha256": "93c19d689d19a40c791abb4c0af4ac10d64e7bd0a65655a3e701088a198a4a09"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_80.rodhypix",
+      "working_copy": "work\\frames\\scan02_0080.rodhypix",
+      "bytes": 160768,
+      "sha256": "50a6d395c1c14622745d5a8ce0856fd6b3ce15db8ddc7ca4edd19a96cfb9856b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_81.rodhypix",
+      "working_copy": "work\\frames\\scan02_0081.rodhypix",
+      "bytes": 160768,
+      "sha256": "cfa147be7c01c55b4469443b23412bab364fd6d85fdeb0a769ae17dcb8990c49"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_82.rodhypix",
+      "working_copy": "work\\frames\\scan02_0082.rodhypix",
+      "bytes": 160768,
+      "sha256": "4826e00657ab8da622483f93115218f8f7278073eb47da09457a631706af89ed"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_83.rodhypix",
+      "working_copy": "work\\frames\\scan02_0083.rodhypix",
+      "bytes": 160768,
+      "sha256": "2d28539c99ff93bc2472b110793f6343f12adb31af37fae56939d0b5406424bd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_84.rodhypix",
+      "working_copy": "work\\frames\\scan02_0084.rodhypix",
+      "bytes": 160768,
+      "sha256": "e281b4313b714ffebb3cdfc77fc550286ee5a6140057896457906f0a7caed20b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_85.rodhypix",
+      "working_copy": "work\\frames\\scan02_0085.rodhypix",
+      "bytes": 160768,
+      "sha256": "4658745bac23f4ed11a3f5f4e322e1d40d987f0f98eedd205c22b84d4a968f42"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_86.rodhypix",
+      "working_copy": "work\\frames\\scan02_0086.rodhypix",
+      "bytes": 161280,
+      "sha256": "463b413f1f678820935f89d6b2ab2f13ce26c403de2ebbd0d66d3fd7bb520b5a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_87.rodhypix",
+      "working_copy": "work\\frames\\scan02_0087.rodhypix",
+      "bytes": 160768,
+      "sha256": "fbb8fca87d96031b2b7a672af62a7ba93ea3bf12ea2e9f8c505d3122d2db81b8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_88.rodhypix",
+      "working_copy": "work\\frames\\scan02_0088.rodhypix",
+      "bytes": 160768,
+      "sha256": "444b77b9f747d087f46bbfaf4f81c2d69c4f2c2cf2880ba04e5cc715494712a8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_89.rodhypix",
+      "working_copy": "work\\frames\\scan02_0089.rodhypix",
+      "bytes": 160768,
+      "sha256": "0b50b5a4ba120be2d4890bd92b4407ff49662bdae0781efbca8731ad935f249e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_9.rodhypix",
+      "working_copy": "work\\frames\\scan02_0009.rodhypix",
+      "bytes": 160256,
+      "sha256": "22606078042ab7e1552c3cf4ba60a17e8942f8869ac119fa85d1dc68224e6162"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_90.rodhypix",
+      "working_copy": "work\\frames\\scan02_0090.rodhypix",
+      "bytes": 160768,
+      "sha256": "315d940a94bdce7598ebc7047e6b34c5633b7cdf29d9eb4e257600a3c137e986"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_91.rodhypix",
+      "working_copy": "work\\frames\\scan02_0091.rodhypix",
+      "bytes": 160768,
+      "sha256": "af0707a9d4550b2259c834acb7fe1ce039c3113fff94f602a7b1415a8d188473"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_2_92.rodhypix",
+      "working_copy": "work\\frames\\scan02_0092.rodhypix",
+      "bytes": 160768,
+      "sha256": "03d9a7704238d5fe8996cd0db2a0bff3fa21957bf608aea3a7e1cf050688a38b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_1.rodhypix",
+      "working_copy": "work\\frames\\scan03_0001.rodhypix",
+      "bytes": 160768,
+      "sha256": "38845e3582575fbbcee52e2ee6f2f2981cb58162749cbbcf0ec266fdc6395182"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_10.rodhypix",
+      "working_copy": "work\\frames\\scan03_0010.rodhypix",
+      "bytes": 160256,
+      "sha256": "14a26635033fa2e94f25204e4d8b0e906a5d901d4b62199b3255a94780fef1ad"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_100.rodhypix",
+      "working_copy": "work\\frames\\scan03_0100.rodhypix",
+      "bytes": 160768,
+      "sha256": "f5397d288d4ad0315c3dc68dceab17f0a9f5652f3dc983d3f0772d00ddd380ec"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_101.rodhypix",
+      "working_copy": "work\\frames\\scan03_0101.rodhypix",
+      "bytes": 160256,
+      "sha256": "c9a9aa6f2efc42e69010a39168916f95cd3869684c3791e9ec3f3f2fd4bc92a8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_102.rodhypix",
+      "working_copy": "work\\frames\\scan03_0102.rodhypix",
+      "bytes": 160256,
+      "sha256": "8e48f974e0e465bc525018081f6bbcbdf72c3d9c7433b4e6637ca31efd492ccf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_103.rodhypix",
+      "working_copy": "work\\frames\\scan03_0103.rodhypix",
+      "bytes": 160256,
+      "sha256": "a27c6bcb74b8c30d549045e3cc047969dc163f2de12497b63358771f883311b9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_104.rodhypix",
+      "working_copy": "work\\frames\\scan03_0104.rodhypix",
+      "bytes": 160768,
+      "sha256": "5fcf1e37d15b73ef5c24eacfb9adfe735b983417691a1030d5c53dd89ee1c8b8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_105.rodhypix",
+      "working_copy": "work\\frames\\scan03_0105.rodhypix",
+      "bytes": 160768,
+      "sha256": "265fdffcd757151ad5e8a6350d3dd498fd2705d33023763b69ca0c173ed09c29"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_106.rodhypix",
+      "working_copy": "work\\frames\\scan03_0106.rodhypix",
+      "bytes": 160768,
+      "sha256": "7ac5e7b08915bf3ffcf1a20ef5a5658c1e0ed6a3515035465da6264a2dfe8649"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_107.rodhypix",
+      "working_copy": "work\\frames\\scan03_0107.rodhypix",
+      "bytes": 160768,
+      "sha256": "5e60791b0f43d377ab910b9508a31747a725a14fdc6da7f0663a288bd769ccb4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_108.rodhypix",
+      "working_copy": "work\\frames\\scan03_0108.rodhypix",
+      "bytes": 160768,
+      "sha256": "9d7c58ad9ced5341a8f9c72d0cb48b618c414107f090f9f50379d474a5f4c1e5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_109.rodhypix",
+      "working_copy": "work\\frames\\scan03_0109.rodhypix",
+      "bytes": 160768,
+      "sha256": "9c46e278e66213071cb4a2284e5f3414d4be533ec00a73806a35ee576e4e5a2c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_11.rodhypix",
+      "working_copy": "work\\frames\\scan03_0011.rodhypix",
+      "bytes": 160256,
+      "sha256": "2f94e584f112cfcc8fa10f45d59364c491f821ee9b795c71d8daf38207213da7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_110.rodhypix",
+      "working_copy": "work\\frames\\scan03_0110.rodhypix",
+      "bytes": 160768,
+      "sha256": "5feb982c9a9b479e5ca7430164818ab9c3d4a5a2a0e07d2b2d1eddc30138b0bb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_111.rodhypix",
+      "working_copy": "work\\frames\\scan03_0111.rodhypix",
+      "bytes": 160768,
+      "sha256": "f1fb93f1f33a5d8eeb894a7cc47b63b2e1433f936242667ce7f5f65f15811f3c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_112.rodhypix",
+      "working_copy": "work\\frames\\scan03_0112.rodhypix",
+      "bytes": 160768,
+      "sha256": "edc3a1b03f9d67b069741dca53d1b7ce24e3cd3a8bf612e2f3db244377dcc8a6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_113.rodhypix",
+      "working_copy": "work\\frames\\scan03_0113.rodhypix",
+      "bytes": 160256,
+      "sha256": "976f01cd69e97c1ed9a5c60ea28b59465f9af56afc5bb5a2d08fd88e4d996de7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_114.rodhypix",
+      "working_copy": "work\\frames\\scan03_0114.rodhypix",
+      "bytes": 160768,
+      "sha256": "722ac4d58a4a40eac1fea98f5b41b39dfa0ded6766b56e008ada6acac35f2e16"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_115.rodhypix",
+      "working_copy": "work\\frames\\scan03_0115.rodhypix",
+      "bytes": 160256,
+      "sha256": "e1c4de4e8183ad3aa2c6dbb3c2ff6bdffeb841e10cf59745e3dd0f97d1496ab8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_116.rodhypix",
+      "working_copy": "work\\frames\\scan03_0116.rodhypix",
+      "bytes": 160768,
+      "sha256": "1dfbe5cfb48fa4694f558f88788de5b8761eb223b7505520fef57c92c1c5c7b3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_117.rodhypix",
+      "working_copy": "work\\frames\\scan03_0117.rodhypix",
+      "bytes": 160768,
+      "sha256": "06617d3229b5817f0a308cf77b040ff33a10fc85c8d4a09d680e7ca611965c22"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_118.rodhypix",
+      "working_copy": "work\\frames\\scan03_0118.rodhypix",
+      "bytes": 160768,
+      "sha256": "753e6af8f3c68d88e294dab178df1c26bb93f18bb536e8db216d964da0e4f58c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_119.rodhypix",
+      "working_copy": "work\\frames\\scan03_0119.rodhypix",
+      "bytes": 160768,
+      "sha256": "06eb175f7d3dd982d7fc26d2004fa3ed8c119b3f306ac7aad45428bbfd3f6c6f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_12.rodhypix",
+      "working_copy": "work\\frames\\scan03_0012.rodhypix",
+      "bytes": 160256,
+      "sha256": "3be67af68e6ac4ed84be6a33453d8d684138ac00c76fecaa9174eabccb1918c5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_120.rodhypix",
+      "working_copy": "work\\frames\\scan03_0120.rodhypix",
+      "bytes": 160768,
+      "sha256": "0dc8cc7c9a2674a78921b9d2dee33c6201c663b18a1347f7c818d7c6fe5a1179"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_121.rodhypix",
+      "working_copy": "work\\frames\\scan03_0121.rodhypix",
+      "bytes": 160768,
+      "sha256": "fcea026c7c486321c26c119b2c20aa98425c138641e698e7f7c5c82c1410b719"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_122.rodhypix",
+      "working_copy": "work\\frames\\scan03_0122.rodhypix",
+      "bytes": 160768,
+      "sha256": "d26499f7dded2e61db0a2eb9597c6bc70f0e7b3e95b0ca0fbd88b72e3ede25bd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_123.rodhypix",
+      "working_copy": "work\\frames\\scan03_0123.rodhypix",
+      "bytes": 160256,
+      "sha256": "a1053f84a8184bf769d9716f105a91c252089fb5b1abd68acdaf7fd0be8860c0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_124.rodhypix",
+      "working_copy": "work\\frames\\scan03_0124.rodhypix",
+      "bytes": 160256,
+      "sha256": "afa4876a33fb9cdc8979fce595f2b48e09f9bbe30096d7bdc0cfa83ac011fccc"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_125.rodhypix",
+      "working_copy": "work\\frames\\scan03_0125.rodhypix",
+      "bytes": 160768,
+      "sha256": "7c6857024d8fa8d6dd90a0f0ea073e1b85c8dc51608f1569376e7a95eed063ed"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_126.rodhypix",
+      "working_copy": "work\\frames\\scan03_0126.rodhypix",
+      "bytes": 160256,
+      "sha256": "b7fc5563e1ff7da9dcaad02e22a7fdd662a37f4989ebeead991212b9b596dac7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_127.rodhypix",
+      "working_copy": "work\\frames\\scan03_0127.rodhypix",
+      "bytes": 160256,
+      "sha256": "71dc10e327f6d85d1a456637dd8dfea86b4c066ad6653fedc9b624b484e6de81"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_128.rodhypix",
+      "working_copy": "work\\frames\\scan03_0128.rodhypix",
+      "bytes": 160768,
+      "sha256": "55f32b1bbc2a0315aee5670aaa753803b58d536d3a5812498497062fbf7b7324"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_129.rodhypix",
+      "working_copy": "work\\frames\\scan03_0129.rodhypix",
+      "bytes": 160256,
+      "sha256": "295765fbbd3efd53c89685957cee4b883cec2165cd039b36db3779372cb8b94e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_13.rodhypix",
+      "working_copy": "work\\frames\\scan03_0013.rodhypix",
+      "bytes": 160256,
+      "sha256": "be00f9a5cc8cbd0c190124fa43ca5b991df4a9f98dcc8bf71b174c4865405af8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_130.rodhypix",
+      "working_copy": "work\\frames\\scan03_0130.rodhypix",
+      "bytes": 160256,
+      "sha256": "26d830bfcf5e94b9558682cdad4b26912689fc12f78fa36636b7ea55202fe610"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_131.rodhypix",
+      "working_copy": "work\\frames\\scan03_0131.rodhypix",
+      "bytes": 160256,
+      "sha256": "7762429ca0d0d999ce40ece66d8d5f2c2e1612b52970299bf5160ccc2af66fa8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_132.rodhypix",
+      "working_copy": "work\\frames\\scan03_0132.rodhypix",
+      "bytes": 160768,
+      "sha256": "b8a3ce3f5da80c8fabdf45130616e93209839bf35512520bb7b2c5e488ba071c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_133.rodhypix",
+      "working_copy": "work\\frames\\scan03_0133.rodhypix",
+      "bytes": 160768,
+      "sha256": "eed036e55115609c1a6d42a7dbdc482e4f6beb767bf68a4d22eeb829c8d40075"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_134.rodhypix",
+      "working_copy": "work\\frames\\scan03_0134.rodhypix",
+      "bytes": 160768,
+      "sha256": "191ad36558e568749b477036ac4caa49ac028fdafefc8c8622ded2ac045e6aa6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_135.rodhypix",
+      "working_copy": "work\\frames\\scan03_0135.rodhypix",
+      "bytes": 160768,
+      "sha256": "447f31c07ba074caa33f659c5e295d025b9f35e22b8e35dcb2b6c9d64bf17e72"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_136.rodhypix",
+      "working_copy": "work\\frames\\scan03_0136.rodhypix",
+      "bytes": 160768,
+      "sha256": "a5772912b73a91609bfe9f065b676e54abe39f8a96f9dfe633ac6d272ab1ca92"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_137.rodhypix",
+      "working_copy": "work\\frames\\scan03_0137.rodhypix",
+      "bytes": 160768,
+      "sha256": "450cd3f5672d54fc194549a23d1023dbfe6187383357c28acfdd7dfb3ab5c87a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_138.rodhypix",
+      "working_copy": "work\\frames\\scan03_0138.rodhypix",
+      "bytes": 160768,
+      "sha256": "c90ac4d445a479aeeba4d422b537f346052ec05e09aad9d0a8eafb1eae8eca65"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_139.rodhypix",
+      "working_copy": "work\\frames\\scan03_0139.rodhypix",
+      "bytes": 160256,
+      "sha256": "faf6833bd5e4bd64fd802922ce6c093e4d1d3e4aadb4a80de7635c461723775c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_14.rodhypix",
+      "working_copy": "work\\frames\\scan03_0014.rodhypix",
+      "bytes": 160256,
+      "sha256": "fafb678367d22920bcd7445c3f7e703f466516b54daebddf26e6436ef0f92642"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_140.rodhypix",
+      "working_copy": "work\\frames\\scan03_0140.rodhypix",
+      "bytes": 160256,
+      "sha256": "2bbd08ae40621b5ed0348ae8d347a5f5564995d64c2312a167cd925638a40a89"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_141.rodhypix",
+      "working_copy": "work\\frames\\scan03_0141.rodhypix",
+      "bytes": 160256,
+      "sha256": "af52cab35a40a1e20a0a68e1fa128c6d34f3e28772f366683c5484882d85618e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_142.rodhypix",
+      "working_copy": "work\\frames\\scan03_0142.rodhypix",
+      "bytes": 160768,
+      "sha256": "8a20b640b43299847767632664137fd942d98cdcdf0e7c393017c381c4d03210"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_143.rodhypix",
+      "working_copy": "work\\frames\\scan03_0143.rodhypix",
+      "bytes": 160768,
+      "sha256": "5316763c9989bb16edb144575c51fb248cdc3106082dce243c32e49e0b7b0792"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_144.rodhypix",
+      "working_copy": "work\\frames\\scan03_0144.rodhypix",
+      "bytes": 160256,
+      "sha256": "a719d49855a9b0364fc4a6dbbf54e651965652b687ee4fefb8978b02a487586c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_145.rodhypix",
+      "working_copy": "work\\frames\\scan03_0145.rodhypix",
+      "bytes": 160768,
+      "sha256": "972137043ac880f0b7ae60e4bac659a423a38824e9284d4048113383439cbbd6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_146.rodhypix",
+      "working_copy": "work\\frames\\scan03_0146.rodhypix",
+      "bytes": 160768,
+      "sha256": "38e367e1516546e92ec4d1aed533d2a6bd841daee5d40c403a84c6ca48f81637"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_147.rodhypix",
+      "working_copy": "work\\frames\\scan03_0147.rodhypix",
+      "bytes": 160768,
+      "sha256": "7d7f82d5dc38d651d0e38cfb8b284d6553406ba1ea011d17cd89ecaaea70da3f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_148.rodhypix",
+      "working_copy": "work\\frames\\scan03_0148.rodhypix",
+      "bytes": 160768,
+      "sha256": "eb1b6525b358227c1276533c22cc40f60ef2a8ecfe7220ea948d61b0577faf44"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_149.rodhypix",
+      "working_copy": "work\\frames\\scan03_0149.rodhypix",
+      "bytes": 160768,
+      "sha256": "27d7c2593c592936e2f2ee76a0821c3b287623c0dec60c7e2e39179c1f7596ef"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_15.rodhypix",
+      "working_copy": "work\\frames\\scan03_0015.rodhypix",
+      "bytes": 160768,
+      "sha256": "849b853923dc41ef0415a171e177add5bb841c787eae4172972c222267a7438c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_150.rodhypix",
+      "working_copy": "work\\frames\\scan03_0150.rodhypix",
+      "bytes": 160768,
+      "sha256": "ae6133140934ef8d43f9e4015d81b26c8c73c59f46906e50c5fc0aab59151c89"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_16.rodhypix",
+      "working_copy": "work\\frames\\scan03_0016.rodhypix",
+      "bytes": 160256,
+      "sha256": "c2744f5efa15e48d4d71b3b228e6bd94c6b286ec4d8c7a68417640e279262516"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_17.rodhypix",
+      "working_copy": "work\\frames\\scan03_0017.rodhypix",
+      "bytes": 160768,
+      "sha256": "789675f4d9fafe417e73b5c193be123501b510036dc09f8fcd94c9395c1f823c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_18.rodhypix",
+      "working_copy": "work\\frames\\scan03_0018.rodhypix",
+      "bytes": 160256,
+      "sha256": "0108edcaf547d37bab978be7bb28a22180619874b4d70ddc4ebf272849cec4ff"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_19.rodhypix",
+      "working_copy": "work\\frames\\scan03_0019.rodhypix",
+      "bytes": 160256,
+      "sha256": "9000b51a6d029f077feb3bcd0b1a8d094ded86786cb740829776f2fff4d0d3d3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_2.rodhypix",
+      "working_copy": "work\\frames\\scan03_0002.rodhypix",
+      "bytes": 160256,
+      "sha256": "50564656326496ed28a0fbe859aa6ac9e438830b984111e3ba458ea6750c8bc5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_20.rodhypix",
+      "working_copy": "work\\frames\\scan03_0020.rodhypix",
+      "bytes": 160256,
+      "sha256": "7b9cd50ba8b0821c63cee0e5c1fda96233108500bc7e020617d201e4043272fa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_21.rodhypix",
+      "working_copy": "work\\frames\\scan03_0021.rodhypix",
+      "bytes": 160256,
+      "sha256": "1590a08f2f79ec48d03b4d5db2e074771aeca6f377caa21ef032133e679ff5a7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_22.rodhypix",
+      "working_copy": "work\\frames\\scan03_0022.rodhypix",
+      "bytes": 160768,
+      "sha256": "de6b0ffc6b4d587884b27c8bd05a0743a672a977fd91045f33099c380f98db1a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_23.rodhypix",
+      "working_copy": "work\\frames\\scan03_0023.rodhypix",
+      "bytes": 160768,
+      "sha256": "17e0f1b1a518c496b0f2611744280068dd11f89835c2530f76c7f550cc48a1f4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_24.rodhypix",
+      "working_copy": "work\\frames\\scan03_0024.rodhypix",
+      "bytes": 160256,
+      "sha256": "df2ea4cf7678ef64c7094835f26d4f054322e68cb0c11d3a6d5a324511f93a75"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_25.rodhypix",
+      "working_copy": "work\\frames\\scan03_0025.rodhypix",
+      "bytes": 160256,
+      "sha256": "470d1ac44e40a115651d57401b91b44327e5bfa67138659adeab52fa3f7c0a5f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_26.rodhypix",
+      "working_copy": "work\\frames\\scan03_0026.rodhypix",
+      "bytes": 160256,
+      "sha256": "ae832a151b0b7a6d5a41836c18a5b1d5f0f4fa89038ef578d0515404ada29b1d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_27.rodhypix",
+      "working_copy": "work\\frames\\scan03_0027.rodhypix",
+      "bytes": 160768,
+      "sha256": "010033f9df0ff44cb977691922f929614f899ca4865198a1ee56b1dfe9592153"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_28.rodhypix",
+      "working_copy": "work\\frames\\scan03_0028.rodhypix",
+      "bytes": 160256,
+      "sha256": "b568bcc2040abc95e2b4db5c9247a3b789b428ed9bed163b58c932995d642d04"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_29.rodhypix",
+      "working_copy": "work\\frames\\scan03_0029.rodhypix",
+      "bytes": 160768,
+      "sha256": "7c23e54b75fe621dc641956014b6fafe9e83dd7fa13c8383f74f74b7c30aec3c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_3.rodhypix",
+      "working_copy": "work\\frames\\scan03_0003.rodhypix",
+      "bytes": 160256,
+      "sha256": "77f209498d69b0c9d484a385aae37b8c32b7f1741c5979ca3e8e23dd9b469250"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_30.rodhypix",
+      "working_copy": "work\\frames\\scan03_0030.rodhypix",
+      "bytes": 160768,
+      "sha256": "44d520970cd51171213251c111512556d0a4193aed6f6246c57f9683769ac4a5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_31.rodhypix",
+      "working_copy": "work\\frames\\scan03_0031.rodhypix",
+      "bytes": 160256,
+      "sha256": "313f800fb0cc067f29ad59b85104bb365d4ae0b9b365ee36a108f1b9456936c4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_32.rodhypix",
+      "working_copy": "work\\frames\\scan03_0032.rodhypix",
+      "bytes": 160768,
+      "sha256": "d46479fc1754d1d6884b522504825d54c8f899549aa02857ba992ff4f1e36bb7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_33.rodhypix",
+      "working_copy": "work\\frames\\scan03_0033.rodhypix",
+      "bytes": 160256,
+      "sha256": "d0f00135d6d8c8f63b4d77ebd065c32730231f21ff07e70d26d0bd614eb9b055"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_34.rodhypix",
+      "working_copy": "work\\frames\\scan03_0034.rodhypix",
+      "bytes": 160768,
+      "sha256": "e775fe2318a5875f16410432d7749453faeae9bc046ec4a749b05436452d94a1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_35.rodhypix",
+      "working_copy": "work\\frames\\scan03_0035.rodhypix",
+      "bytes": 160768,
+      "sha256": "b8a8b1694fca5378fe1379681fdf57fb77a4cf8d11966a758214f08a697791c3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_36.rodhypix",
+      "working_copy": "work\\frames\\scan03_0036.rodhypix",
+      "bytes": 160768,
+      "sha256": "d6395a2fd99578884a6fa0eb0f03730518a6c382671fea891952ccc6e732429a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_37.rodhypix",
+      "working_copy": "work\\frames\\scan03_0037.rodhypix",
+      "bytes": 160768,
+      "sha256": "f0818739e293a4bc4bf1cd8cb25fde6639fe98cb40db061f3c4e341ea4523322"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_38.rodhypix",
+      "working_copy": "work\\frames\\scan03_0038.rodhypix",
+      "bytes": 160768,
+      "sha256": "df5da2b09c14fbb9081f2a4ab63a06ead9427db9d5cec5d45c149dfb523748ef"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_39.rodhypix",
+      "working_copy": "work\\frames\\scan03_0039.rodhypix",
+      "bytes": 160768,
+      "sha256": "1720789bf52d94e80a6cfe7c40c52f018212713203a30dbaf552febaf0c35552"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_4.rodhypix",
+      "working_copy": "work\\frames\\scan03_0004.rodhypix",
+      "bytes": 160256,
+      "sha256": "3819820f7474bee961d70fe9f07627f0eba196a3f6453d792c8de33ec780c6f7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_40.rodhypix",
+      "working_copy": "work\\frames\\scan03_0040.rodhypix",
+      "bytes": 160768,
+      "sha256": "cf35ed70bdf58d6fb1b664ca9ee3790130f6fe7d3917ffd53894dd1fd36990f6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_41.rodhypix",
+      "working_copy": "work\\frames\\scan03_0041.rodhypix",
+      "bytes": 160256,
+      "sha256": "102fb7791816a816f76495788d89b69786d9006aafd531e56b3a9d583f5390e3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_42.rodhypix",
+      "working_copy": "work\\frames\\scan03_0042.rodhypix",
+      "bytes": 160768,
+      "sha256": "032e036c94889936170d4d99ed3fc35e6df6c2cbca580b8c60472f13fde8383d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_43.rodhypix",
+      "working_copy": "work\\frames\\scan03_0043.rodhypix",
+      "bytes": 160768,
+      "sha256": "8925dfbb2824786a07a923966c7e66a07a11e2051459a2a84d1bea2e02f56e60"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_44.rodhypix",
+      "working_copy": "work\\frames\\scan03_0044.rodhypix",
+      "bytes": 160256,
+      "sha256": "d670ac3ae65816e669d9b90fe1c0938b667f09f74885072f6a9a3d1fef10bdef"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_45.rodhypix",
+      "working_copy": "work\\frames\\scan03_0045.rodhypix",
+      "bytes": 160256,
+      "sha256": "9f08b5a0d152c3198ae7acaed944717cd167cecf789aa9746f7ed031055f3280"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_46.rodhypix",
+      "working_copy": "work\\frames\\scan03_0046.rodhypix",
+      "bytes": 160768,
+      "sha256": "4cfe81f781a58012fe921234671c67fe4d5b101b85111b42104eb7d73afdb508"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_47.rodhypix",
+      "working_copy": "work\\frames\\scan03_0047.rodhypix",
+      "bytes": 160768,
+      "sha256": "9544f5b87d1b3984f8af38ee9393cd37c811871af87b211dabd31fd90a5eef37"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_48.rodhypix",
+      "working_copy": "work\\frames\\scan03_0048.rodhypix",
+      "bytes": 160256,
+      "sha256": "0dd7e2ffb117716020fe7ca2e48dcc06756d2a2ed65b44e6fe2ca1576bcab85d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_49.rodhypix",
+      "working_copy": "work\\frames\\scan03_0049.rodhypix",
+      "bytes": 160256,
+      "sha256": "35a5aafe806a47aad74bc74cb66fa801dcbe7b0863564a2e78c938dc8a403ba4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_5.rodhypix",
+      "working_copy": "work\\frames\\scan03_0005.rodhypix",
+      "bytes": 160256,
+      "sha256": "cb7cbe57182bfad1d108dc4b25d522c61be9c1ab7848411b218f3311f58ceb73"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_50.rodhypix",
+      "working_copy": "work\\frames\\scan03_0050.rodhypix",
+      "bytes": 160256,
+      "sha256": "371fc4e6f953ee1fa0c75f48498cb72db43c3989692b241860f20b91666a2bee"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_51.rodhypix",
+      "working_copy": "work\\frames\\scan03_0051.rodhypix",
+      "bytes": 160256,
+      "sha256": "7de082ac54dad5736f0139cae0e1c1b8742915f9a9e8d17a2abc943267610a2c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_52.rodhypix",
+      "working_copy": "work\\frames\\scan03_0052.rodhypix",
+      "bytes": 160256,
+      "sha256": "88a8727718c3e60f960b3324464f87d39c89559c9e3d2a1bc1be2f5e8f40fbd2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_53.rodhypix",
+      "working_copy": "work\\frames\\scan03_0053.rodhypix",
+      "bytes": 160256,
+      "sha256": "45df68f3d3361dd83242d5685458db552a64a269e5465bcec7895b53c424170d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_54.rodhypix",
+      "working_copy": "work\\frames\\scan03_0054.rodhypix",
+      "bytes": 160768,
+      "sha256": "36846dfdbf96896059757012ab10b834534fca8042d5a67cc3b1f85b6130ae73"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_55.rodhypix",
+      "working_copy": "work\\frames\\scan03_0055.rodhypix",
+      "bytes": 160768,
+      "sha256": "2710d7e904a138311349b9090b04e4240915a1482d77a7f88600dabe678935b0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_56.rodhypix",
+      "working_copy": "work\\frames\\scan03_0056.rodhypix",
+      "bytes": 160768,
+      "sha256": "3b02f0a3c19be06fac6339b9573f0b906847550fcacbbf8c74d33b4d436c80e3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_57.rodhypix",
+      "working_copy": "work\\frames\\scan03_0057.rodhypix",
+      "bytes": 160768,
+      "sha256": "35e6343085a4232cb284998ba194aac027378118946973cb9428c750ede424ff"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_58.rodhypix",
+      "working_copy": "work\\frames\\scan03_0058.rodhypix",
+      "bytes": 160768,
+      "sha256": "d16f952269d7ccb1b2700bdf3cbad7eb98661017a69553522f610a6158375218"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_59.rodhypix",
+      "working_copy": "work\\frames\\scan03_0059.rodhypix",
+      "bytes": 160768,
+      "sha256": "0bc85bff524c74ce1ebed750d4f3859725338765b32ba79982f3f807981a7ae1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_6.rodhypix",
+      "working_copy": "work\\frames\\scan03_0006.rodhypix",
+      "bytes": 160256,
+      "sha256": "e4ced59c67bae36bd9ff571305c2d469f32c60b74d63a529b2b26269ddf7d574"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_60.rodhypix",
+      "working_copy": "work\\frames\\scan03_0060.rodhypix",
+      "bytes": 160768,
+      "sha256": "12960c133cbc4fe59586d2857b5a9ca6b854a234cb1e18e74c8db1d449fe3289"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_61.rodhypix",
+      "working_copy": "work\\frames\\scan03_0061.rodhypix",
+      "bytes": 160768,
+      "sha256": "da708e1b261f4d0caffdff4aace620fc6f1a61277b3847f76199c7232a956982"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_62.rodhypix",
+      "working_copy": "work\\frames\\scan03_0062.rodhypix",
+      "bytes": 161280,
+      "sha256": "ebb6527a2b86df4dd44215e5f0a25d5088fb27d49717390a59d0b8992216c4e7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_63.rodhypix",
+      "working_copy": "work\\frames\\scan03_0063.rodhypix",
+      "bytes": 160768,
+      "sha256": "c2bead0ae16cd826fcfa7cd9de42ce2a7801f371b43a0c9e4b34e36a9e79bcf8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_64.rodhypix",
+      "working_copy": "work\\frames\\scan03_0064.rodhypix",
+      "bytes": 160768,
+      "sha256": "645d1faab53485c428b620c48c8268c7fa7dc1b43aae8d6dc53f22ecda401493"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_65.rodhypix",
+      "working_copy": "work\\frames\\scan03_0065.rodhypix",
+      "bytes": 160768,
+      "sha256": "e0a8b1beb29753e312132d3a232ee81e0db0818117707ccf3c25742e3f1917ea"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_66.rodhypix",
+      "working_copy": "work\\frames\\scan03_0066.rodhypix",
+      "bytes": 160768,
+      "sha256": "5aa995cd7fd4d4688af3c4a0e1a1aafa8db96a2d6a6f04832d597f36fa180fa6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_67.rodhypix",
+      "working_copy": "work\\frames\\scan03_0067.rodhypix",
+      "bytes": 160768,
+      "sha256": "e8b0c99b7c42362bae621ae4e4cd16b29c65ab390158993e8bfa2ae96fe08498"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_68.rodhypix",
+      "working_copy": "work\\frames\\scan03_0068.rodhypix",
+      "bytes": 160768,
+      "sha256": "20b0e744e946ecacfe3a2645718a36215daa01e58120d6f72a53c345babc7531"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_69.rodhypix",
+      "working_copy": "work\\frames\\scan03_0069.rodhypix",
+      "bytes": 160768,
+      "sha256": "a343495998f7b44a173388cdee0a0defc78e22a4468554cb6ba1de802508c340"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_7.rodhypix",
+      "working_copy": "work\\frames\\scan03_0007.rodhypix",
+      "bytes": 160256,
+      "sha256": "d68f153ceba12a9577e314b0b54e1b5562c5233501e44d6f0564fde95059a2cd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_70.rodhypix",
+      "working_copy": "work\\frames\\scan03_0070.rodhypix",
+      "bytes": 160768,
+      "sha256": "645a3625fcc1a956fb0a08c2409c95db25049f223b64561bb434ebba69cc6263"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_71.rodhypix",
+      "working_copy": "work\\frames\\scan03_0071.rodhypix",
+      "bytes": 160768,
+      "sha256": "3972b527604e2ac2d08e19810912276e1d5193d3201da9284736e6e02a4a7d1a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_72.rodhypix",
+      "working_copy": "work\\frames\\scan03_0072.rodhypix",
+      "bytes": 160768,
+      "sha256": "f1cc9fa373b6a004584edc79033a79305fda316fabcec8ddd40372bd04ab4d97"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_73.rodhypix",
+      "working_copy": "work\\frames\\scan03_0073.rodhypix",
+      "bytes": 160768,
+      "sha256": "b5e9c73a0432dccbf429ed8a2ace2bc3fe352a4d62c6c9e216f79eca1c248dc9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_74.rodhypix",
+      "working_copy": "work\\frames\\scan03_0074.rodhypix",
+      "bytes": 160768,
+      "sha256": "424cdae9491c821b4d4515192e4ac7d40ca6cfb75d15b8d34bb124e34e7e6948"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_75.rodhypix",
+      "working_copy": "work\\frames\\scan03_0075.rodhypix",
+      "bytes": 160768,
+      "sha256": "42ede6ea9864f3d6f3c81846985df657a91dae2fbc07320d1bd3e95254db7b21"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_76.rodhypix",
+      "working_copy": "work\\frames\\scan03_0076.rodhypix",
+      "bytes": 160768,
+      "sha256": "d8729aa3f24517a05f382b275827c58270c3de3c0d50c77c8091a508299f0898"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_77.rodhypix",
+      "working_copy": "work\\frames\\scan03_0077.rodhypix",
+      "bytes": 160768,
+      "sha256": "dd0965a2ca09a0d2e98837e8591fc3dd93691e18b0a02c92e7a59fbbac29f9b8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_78.rodhypix",
+      "working_copy": "work\\frames\\scan03_0078.rodhypix",
+      "bytes": 160768,
+      "sha256": "5e5aaf8b8467edee0ea3e4c5bf30cb33e092511d5047e55d6efabe498287c429"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_79.rodhypix",
+      "working_copy": "work\\frames\\scan03_0079.rodhypix",
+      "bytes": 160768,
+      "sha256": "e0ac982d2ed54a0b4f783d40c62cbc5700c7851966d2eee1489a14e0649ad20f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_8.rodhypix",
+      "working_copy": "work\\frames\\scan03_0008.rodhypix",
+      "bytes": 160256,
+      "sha256": "e63489a3544205a839f4c865ba72150c3be9adf1a43b297ee205fccc8e01dab1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_80.rodhypix",
+      "working_copy": "work\\frames\\scan03_0080.rodhypix",
+      "bytes": 160768,
+      "sha256": "8c48219d4bea3b0fdfa222e2044c35ef23c992e9e4c6ad6833b2b7b89faeb35f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_81.rodhypix",
+      "working_copy": "work\\frames\\scan03_0081.rodhypix",
+      "bytes": 160768,
+      "sha256": "75b0fc026923fb9875a4958252d7f891b0bdfa7fc32cffee1b174c840bff8a29"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_82.rodhypix",
+      "working_copy": "work\\frames\\scan03_0082.rodhypix",
+      "bytes": 160768,
+      "sha256": "22a587a3d622531ab2bf518b6ecaa727be4ad39ad8f0e3d8ac6311ca23c27849"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_83.rodhypix",
+      "working_copy": "work\\frames\\scan03_0083.rodhypix",
+      "bytes": 160768,
+      "sha256": "54a07c9a8f2b81974829dae2a639f89bb23d4dd597da10f3920b5c847db513b2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_84.rodhypix",
+      "working_copy": "work\\frames\\scan03_0084.rodhypix",
+      "bytes": 160768,
+      "sha256": "dfc4a20af295079b4c16c71e82372ee9e9f2214b86ac1f281f7a65d7318593a9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_85.rodhypix",
+      "working_copy": "work\\frames\\scan03_0085.rodhypix",
+      "bytes": 161280,
+      "sha256": "caaad1949a55c135ff8a88cc9fe66a951ebc6d87cddf0e186928b80f47a50246"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_86.rodhypix",
+      "working_copy": "work\\frames\\scan03_0086.rodhypix",
+      "bytes": 160768,
+      "sha256": "d089afe20e71d7a241deeaf401139c8c4055551c1937228b40a5195c2edb2a59"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_87.rodhypix",
+      "working_copy": "work\\frames\\scan03_0087.rodhypix",
+      "bytes": 160768,
+      "sha256": "d17729976180a367727cc9b41f516337eaa4fc25587994bacc2018f47c9b4a19"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_88.rodhypix",
+      "working_copy": "work\\frames\\scan03_0088.rodhypix",
+      "bytes": 160768,
+      "sha256": "462bbd4981cd9d3fb0bf1eaa1f9824b3de0f943944348db09ba24d6acd623b5d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_89.rodhypix",
+      "working_copy": "work\\frames\\scan03_0089.rodhypix",
+      "bytes": 160768,
+      "sha256": "9240de238bcfcba47ea452d3e11109ce7fa2d44809a741a50dd23165db6d7725"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_9.rodhypix",
+      "working_copy": "work\\frames\\scan03_0009.rodhypix",
+      "bytes": 160256,
+      "sha256": "73af5f033cbbfbdf3ac3a258a49bab01be9ef974878eb3d7c13ff126ad1afdb6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_90.rodhypix",
+      "working_copy": "work\\frames\\scan03_0090.rodhypix",
+      "bytes": 160768,
+      "sha256": "5b0a3526dfcdb3ff69cada922d8ccf5094d2a32c73e477e82197e5c1b7f45d0e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_91.rodhypix",
+      "working_copy": "work\\frames\\scan03_0091.rodhypix",
+      "bytes": 160768,
+      "sha256": "0e3dd11966ac29d220a1e3852cbd1ce806f103a8b1bd6985479650a5acaed4bb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_92.rodhypix",
+      "working_copy": "work\\frames\\scan03_0092.rodhypix",
+      "bytes": 160768,
+      "sha256": "94825550fec979cc79b4c4288fd49a63fa8395d9bdda73b7c61e3f304d6382e9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_93.rodhypix",
+      "working_copy": "work\\frames\\scan03_0093.rodhypix",
+      "bytes": 160768,
+      "sha256": "55f6e3d5018ed149238e7ca66a57080bcbdf7131d597bbd16bd3dd84485bac87"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_94.rodhypix",
+      "working_copy": "work\\frames\\scan03_0094.rodhypix",
+      "bytes": 160256,
+      "sha256": "267323643511f0536781e12ef67005670a8fd07db470d6df48d2037cc2a9a916"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_95.rodhypix",
+      "working_copy": "work\\frames\\scan03_0095.rodhypix",
+      "bytes": 160256,
+      "sha256": "1cda832638fc6383b3504d0aa7cdf95cefa6982be623f9979276c9eb8056231d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_96.rodhypix",
+      "working_copy": "work\\frames\\scan03_0096.rodhypix",
+      "bytes": 160256,
+      "sha256": "9fcfbcd31f21efbdfb3e28f59541bfb34af57e20d4a4f96b39abc85105db5ed0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_97.rodhypix",
+      "working_copy": "work\\frames\\scan03_0097.rodhypix",
+      "bytes": 160768,
+      "sha256": "901e301bc0527300b84d8b2269f3da45ac450bb642157949275c61932052b31b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_98.rodhypix",
+      "working_copy": "work\\frames\\scan03_0098.rodhypix",
+      "bytes": 160768,
+      "sha256": "e276ba1e80e3ba707e219785d82bef59ca6100d7201348c2d7c1d312781f3e4d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_3_99.rodhypix",
+      "working_copy": "work\\frames\\scan03_0099.rodhypix",
+      "bytes": 160256,
+      "sha256": "396cc5ce84e0f12a8753206495c24a58c37d13aca74559cc8cf084ecdfa836b1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_1.rodhypix",
+      "working_copy": "work\\frames\\scan04_0001.rodhypix",
+      "bytes": 161792,
+      "sha256": "f86a090ef48d8188304acc19cac9de1015344ff17880c1ca537d34974915fe1b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_10.rodhypix",
+      "working_copy": "work\\frames\\scan04_0010.rodhypix",
+      "bytes": 161280,
+      "sha256": "a6e45d023bb973843465cce1024d0838a532c49da33e36ddb86e66873dff132e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_11.rodhypix",
+      "working_copy": "work\\frames\\scan04_0011.rodhypix",
+      "bytes": 161280,
+      "sha256": "70efb52330ca3e27d0160437720f4d9d6cbef36ccfbc54227811f122a1d57499"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_12.rodhypix",
+      "working_copy": "work\\frames\\scan04_0012.rodhypix",
+      "bytes": 161280,
+      "sha256": "1bde3cd9f41f1ffa61e9d2ccc02c7402078012032624c80f84a72fc260e2d4de"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_13.rodhypix",
+      "working_copy": "work\\frames\\scan04_0013.rodhypix",
+      "bytes": 161280,
+      "sha256": "4cb8abd19f331404fd341a39304908649361f14c3ee591a68e98e57c53d68810"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_14.rodhypix",
+      "working_copy": "work\\frames\\scan04_0014.rodhypix",
+      "bytes": 161280,
+      "sha256": "380ccba933cd38ad90a6de443f0be5794c547fcd5a5c1acbd59d4a69929c7e21"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_15.rodhypix",
+      "working_copy": "work\\frames\\scan04_0015.rodhypix",
+      "bytes": 161280,
+      "sha256": "7fc90d4590887b92ee7f1b7c9bfd2dc20201523dce119645835dd2c8484786eb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_16.rodhypix",
+      "working_copy": "work\\frames\\scan04_0016.rodhypix",
+      "bytes": 161280,
+      "sha256": "58317a73e407511896718b7d109b54607f6852122409864aade90b2cba41a18c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_17.rodhypix",
+      "working_copy": "work\\frames\\scan04_0017.rodhypix",
+      "bytes": 161280,
+      "sha256": "34c4eb9d8bc1924264c4fff733c03238df4c6a7b7d7f03765a2741a8f43ea996"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_18.rodhypix",
+      "working_copy": "work\\frames\\scan04_0018.rodhypix",
+      "bytes": 161280,
+      "sha256": "241ecb9bd3589d61c594343020f9f3e340393b2ff2acaf89fea03c05e6867259"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_19.rodhypix",
+      "working_copy": "work\\frames\\scan04_0019.rodhypix",
+      "bytes": 160768,
+      "sha256": "dc81da9d454327025c645632eb4be4a0b432331abacefed21fcb164d5736b021"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_2.rodhypix",
+      "working_copy": "work\\frames\\scan04_0002.rodhypix",
+      "bytes": 161792,
+      "sha256": "a43428055df23babbc8d21b95c41d173fbefddc8ef152d74011cc0c9adaf02f2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_20.rodhypix",
+      "working_copy": "work\\frames\\scan04_0020.rodhypix",
+      "bytes": 161280,
+      "sha256": "c982cfe915c96d62811192c8e7bc4acc8cc32cf2a903829b58082c73fc1d4634"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_21.rodhypix",
+      "working_copy": "work\\frames\\scan04_0021.rodhypix",
+      "bytes": 161280,
+      "sha256": "65a27bc835b7031fa9abbdfc548055a4bc8c14b1167eaacd9ac729754d6b2e27"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_22.rodhypix",
+      "working_copy": "work\\frames\\scan04_0022.rodhypix",
+      "bytes": 161280,
+      "sha256": "75b42f2cb5a73b42b51f485783f74259c1d4beba0a81896347e28b4ecea5c637"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_23.rodhypix",
+      "working_copy": "work\\frames\\scan04_0023.rodhypix",
+      "bytes": 161280,
+      "sha256": "50ce358a309417ed3520ccdb477eb5ee3bfc435f371b689f3ab9e909b01ebc3e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_24.rodhypix",
+      "working_copy": "work\\frames\\scan04_0024.rodhypix",
+      "bytes": 161280,
+      "sha256": "4bfdf126b6cc34b660a89428ca64620500ea9d16495a1077c7beb269a6b6522b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_25.rodhypix",
+      "working_copy": "work\\frames\\scan04_0025.rodhypix",
+      "bytes": 161280,
+      "sha256": "b9c2b44e55351c47df0f085e197e30a0de42f52a1ef1c187f61b01782f204955"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_26.rodhypix",
+      "working_copy": "work\\frames\\scan04_0026.rodhypix",
+      "bytes": 161280,
+      "sha256": "b661eb814486dda6f71fa57a0bbc72b5a340be7dd63268ad6e1812dc137a3b45"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_27.rodhypix",
+      "working_copy": "work\\frames\\scan04_0027.rodhypix",
+      "bytes": 160768,
+      "sha256": "b35b1c7371fe69c5d9fb71d86e8254d6a892d711e00caa00a6a1373c126985ba"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_28.rodhypix",
+      "working_copy": "work\\frames\\scan04_0028.rodhypix",
+      "bytes": 160768,
+      "sha256": "13c41cf00d55deb12d7c4455cb075fcccdfe912342a33569994a22a497f6ba45"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_29.rodhypix",
+      "working_copy": "work\\frames\\scan04_0029.rodhypix",
+      "bytes": 161280,
+      "sha256": "2c4316467ea4e1b16e0a7fd3c29be02d284739f5b98f3e87b683df007192e69e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_3.rodhypix",
+      "working_copy": "work\\frames\\scan04_0003.rodhypix",
+      "bytes": 161792,
+      "sha256": "4dd19a6a97867aea00a0c5bb2f2128c3d3d22759134a711afb86e97aeebc36af"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_30.rodhypix",
+      "working_copy": "work\\frames\\scan04_0030.rodhypix",
+      "bytes": 161280,
+      "sha256": "31c00351a56cae58ea3183ee4e733eaf15a38ef99ee3984ec2d8afdd4ce88854"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_31.rodhypix",
+      "working_copy": "work\\frames\\scan04_0031.rodhypix",
+      "bytes": 161280,
+      "sha256": "3d57658e299996e052399545010d0450fa22986ace2229759101d37e3db8a5d9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_32.rodhypix",
+      "working_copy": "work\\frames\\scan04_0032.rodhypix",
+      "bytes": 161280,
+      "sha256": "14d8000191c4d87c7fa5d907021f3d7e64b85be46a9c3e120c6ac27344c163c4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_33.rodhypix",
+      "working_copy": "work\\frames\\scan04_0033.rodhypix",
+      "bytes": 160768,
+      "sha256": "260d7158f7f671fc5a5d6a6344e24ee00764a1302ea983a9fecf2e1bcb40f4f6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_34.rodhypix",
+      "working_copy": "work\\frames\\scan04_0034.rodhypix",
+      "bytes": 160768,
+      "sha256": "c9e92d867a33326568a411099fc6962c8a7cc252c0c4ce85e2a65f5593a6b2b2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_35.rodhypix",
+      "working_copy": "work\\frames\\scan04_0035.rodhypix",
+      "bytes": 160768,
+      "sha256": "25249ab9b96636a8e1f8aee4656ac0877635d08d2c2684adf49f58f6ddbd6e54"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_36.rodhypix",
+      "working_copy": "work\\frames\\scan04_0036.rodhypix",
+      "bytes": 160768,
+      "sha256": "49454fdf3410f8ffcfd4c4c23e2a38fb1289ed17df66e9a4ffe51a7ef3f5d500"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_37.rodhypix",
+      "working_copy": "work\\frames\\scan04_0037.rodhypix",
+      "bytes": 161280,
+      "sha256": "b471367c55fdde52e85e48a7adfe826ae0dba3c9d2331a8483ca2928cdcb4b2e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_38.rodhypix",
+      "working_copy": "work\\frames\\scan04_0038.rodhypix",
+      "bytes": 161280,
+      "sha256": "f7bf76d53986d20aa7df57be0e17c506c76343e618a44acabf0fe3fe302bbbfa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_39.rodhypix",
+      "working_copy": "work\\frames\\scan04_0039.rodhypix",
+      "bytes": 161280,
+      "sha256": "f7757b0054e61dff75c03680066262d618b4b39722a3bf303824398beadf289a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_4.rodhypix",
+      "working_copy": "work\\frames\\scan04_0004.rodhypix",
+      "bytes": 161792,
+      "sha256": "8cc1afa8bb71b1320ba9263e86145e199c9272d20b29d4872618e678f346e17a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_40.rodhypix",
+      "working_copy": "work\\frames\\scan04_0040.rodhypix",
+      "bytes": 160768,
+      "sha256": "a4d4756462fd1701dd7caeb4b76236277fd90c6a4e562835029bc5dd2931095e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_41.rodhypix",
+      "working_copy": "work\\frames\\scan04_0041.rodhypix",
+      "bytes": 160768,
+      "sha256": "f8b67ebde9a23625070fe5944b6c014aba735ed99d44a5b7d185cc96915652f0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_42.rodhypix",
+      "working_copy": "work\\frames\\scan04_0042.rodhypix",
+      "bytes": 161280,
+      "sha256": "87b4ae72e22b1d788c7cabac5ab593abaab01e46c5d7aa6a2bd2a584b634d1df"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_43.rodhypix",
+      "working_copy": "work\\frames\\scan04_0043.rodhypix",
+      "bytes": 160768,
+      "sha256": "8088dee3e48217fc3936cc5cd51c44cddf05a66d2cb618f4edcbebd27e488dda"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_44.rodhypix",
+      "working_copy": "work\\frames\\scan04_0044.rodhypix",
+      "bytes": 161280,
+      "sha256": "9018cff6d74a0055aed41be1519858e94bbb3283d7e4a47d9c7901a93ad8e977"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_45.rodhypix",
+      "working_copy": "work\\frames\\scan04_0045.rodhypix",
+      "bytes": 161280,
+      "sha256": "c59bdc964df5e7dcbba381e93e57ca94e0bbd91d2714cd702d0b47f72af6291c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_46.rodhypix",
+      "working_copy": "work\\frames\\scan04_0046.rodhypix",
+      "bytes": 161280,
+      "sha256": "cd23d1b1b1a7e912a89cc6efc3f6a0b0f5f3d53d72f8fa40c582b623eb6afa7d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_47.rodhypix",
+      "working_copy": "work\\frames\\scan04_0047.rodhypix",
+      "bytes": 161280,
+      "sha256": "a57186b2ffe5cdff987e141d8ca392fd8c11a6122afb01ba2a89eb5cde41e370"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_48.rodhypix",
+      "working_copy": "work\\frames\\scan04_0048.rodhypix",
+      "bytes": 161280,
+      "sha256": "24dc0cafea81da59c84db2ac1d20b515c65c00c65cfa0ee076a15a64216d4496"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_49.rodhypix",
+      "working_copy": "work\\frames\\scan04_0049.rodhypix",
+      "bytes": 161280,
+      "sha256": "adab7fefaef89ba4d87f9f3e642457b1651f90c905950c3bde805ea31c5bce0b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_5.rodhypix",
+      "working_copy": "work\\frames\\scan04_0005.rodhypix",
+      "bytes": 161792,
+      "sha256": "3578885d191b3456bb8b6f5bb3710163dce7ab42b4ff7050eca23a18bbf27c63"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_50.rodhypix",
+      "working_copy": "work\\frames\\scan04_0050.rodhypix",
+      "bytes": 161280,
+      "sha256": "8866234181fc59be3c0aba5623f1293c66d9585dbcb05e6495e6a208c857ad0f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_51.rodhypix",
+      "working_copy": "work\\frames\\scan04_0051.rodhypix",
+      "bytes": 161280,
+      "sha256": "7ac67807e0498ae53697a34fd26486e400b2adbb023ad35abcf18d760b9e85e5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_52.rodhypix",
+      "working_copy": "work\\frames\\scan04_0052.rodhypix",
+      "bytes": 161280,
+      "sha256": "d24fb0c1c515b407b38c355e9e4cdebdd830cb88d645fe118a43a4aa44908f91"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_53.rodhypix",
+      "working_copy": "work\\frames\\scan04_0053.rodhypix",
+      "bytes": 160768,
+      "sha256": "37bb89dab39cb6161486b6dfd5a47437457c89d48c2baa3a773c643850883a28"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_54.rodhypix",
+      "working_copy": "work\\frames\\scan04_0054.rodhypix",
+      "bytes": 161280,
+      "sha256": "e9097086b0bc6db1abcb45be9797e66771d834b60a0420b21b739370eb57df49"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_55.rodhypix",
+      "working_copy": "work\\frames\\scan04_0055.rodhypix",
+      "bytes": 161280,
+      "sha256": "6a2a7bb9ad442fc56b766be90490092b11dc005ff796ba564d63bc14d05483c5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_56.rodhypix",
+      "working_copy": "work\\frames\\scan04_0056.rodhypix",
+      "bytes": 161280,
+      "sha256": "cd5683c73f1c87f879f6d7edfbbfd7d762d0bb7487ee35d04daff4e6af515a53"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_57.rodhypix",
+      "working_copy": "work\\frames\\scan04_0057.rodhypix",
+      "bytes": 160768,
+      "sha256": "61959a8b6ad38eb53fb13681a5367eb5fc15700cec9615997184c10c3a5bc624"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_58.rodhypix",
+      "working_copy": "work\\frames\\scan04_0058.rodhypix",
+      "bytes": 160768,
+      "sha256": "1a41016c7a29195ee2aab6a0301936d954c70e58f9111d2f03fb0f8b9fab574c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_6.rodhypix",
+      "working_copy": "work\\frames\\scan04_0006.rodhypix",
+      "bytes": 161280,
+      "sha256": "ba472d90c1998335a8a5d29fdcf99f63e52e960e68db15dd65b8ee8d9cf46d9c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_7.rodhypix",
+      "working_copy": "work\\frames\\scan04_0007.rodhypix",
+      "bytes": 161792,
+      "sha256": "b674349c5c0fe4b96f0a579c4d2c45d75d2090415adf3edd5ccaa8ff348c2a97"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_8.rodhypix",
+      "working_copy": "work\\frames\\scan04_0008.rodhypix",
+      "bytes": 161280,
+      "sha256": "5573cdfd5d24bb9c0c9c9b36b97aa8b1b8cbe6a9976b1337555001750ae08853"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_4_9.rodhypix",
+      "working_copy": "work\\frames\\scan04_0009.rodhypix",
+      "bytes": 161280,
+      "sha256": "4c154eab457d42a15810ef9d89a1097fb2256b41b7954e01139af023d2159fc6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_1.rodhypix",
+      "working_copy": "work\\frames\\scan05_0001.rodhypix",
+      "bytes": 160256,
+      "sha256": "b275fd0b718c43122a54ab3a1fc99122113a08d3831ccf783ab4bda60fbf64e2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_10.rodhypix",
+      "working_copy": "work\\frames\\scan05_0010.rodhypix",
+      "bytes": 160256,
+      "sha256": "0c509bee3709061a2103e39c15a09794a21609455a355f0e1255f1b572b15f3f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_100.rodhypix",
+      "working_copy": "work\\frames\\scan05_0100.rodhypix",
+      "bytes": 160256,
+      "sha256": "0949f15d6cb6af257e532d4ffea80f622116e3554bca6c3945ccd11a0d5818a7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_101.rodhypix",
+      "working_copy": "work\\frames\\scan05_0101.rodhypix",
+      "bytes": 160256,
+      "sha256": "c0545929647ec12bb73ea676b003f58670b098b51bba40daa202541e340a7faa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_102.rodhypix",
+      "working_copy": "work\\frames\\scan05_0102.rodhypix",
+      "bytes": 159744,
+      "sha256": "ca33957a512df8af7cc21116692807a3c6dadcd6771f57ba59c9745d8b735a6e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_103.rodhypix",
+      "working_copy": "work\\frames\\scan05_0103.rodhypix",
+      "bytes": 160256,
+      "sha256": "f4a1233478438d401219eda60175ea6b891fe5dadd0d1fe2460c18911153f86e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_104.rodhypix",
+      "working_copy": "work\\frames\\scan05_0104.rodhypix",
+      "bytes": 160256,
+      "sha256": "1d5cc60e2d93c4dfc76d98cc78f147666b7caa09c3c4aae1d5f5f222f08ad95f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_105.rodhypix",
+      "working_copy": "work\\frames\\scan05_0105.rodhypix",
+      "bytes": 160256,
+      "sha256": "c5d1b22de5873b28a1a76579f8b78604550c74659332d7061482f2cc4855a448"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_106.rodhypix",
+      "working_copy": "work\\frames\\scan05_0106.rodhypix",
+      "bytes": 159744,
+      "sha256": "6f7b69e94b96774c6c637d826e834dfe9460fa8d1869b7c80c24d6d3cc56886b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_107.rodhypix",
+      "working_copy": "work\\frames\\scan05_0107.rodhypix",
+      "bytes": 160256,
+      "sha256": "5801a4f2fa569e1bb0197a1bbac1af7b48e38b31c6d21f91d8e96aa84f51fd3f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_108.rodhypix",
+      "working_copy": "work\\frames\\scan05_0108.rodhypix",
+      "bytes": 160256,
+      "sha256": "378f653ef150f74ecf882909b59e092db1dfb7af5c9e3cfd6a270a61ad2a1cfc"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_109.rodhypix",
+      "working_copy": "work\\frames\\scan05_0109.rodhypix",
+      "bytes": 159744,
+      "sha256": "d2ae66f2666f97f9459bc688acde7215537af2d37b64744c79e4e037b7659df6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_11.rodhypix",
+      "working_copy": "work\\frames\\scan05_0011.rodhypix",
+      "bytes": 160256,
+      "sha256": "b0a95cb58ca1acb3581e5aaebdf50c10adaf4356acc655222f72f19e3b5d5f9a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_110.rodhypix",
+      "working_copy": "work\\frames\\scan05_0110.rodhypix",
+      "bytes": 160256,
+      "sha256": "2b679e4a81d9dae9ff7692f086dd01d0bf1e7e22e625cde32db21db189285edf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_111.rodhypix",
+      "working_copy": "work\\frames\\scan05_0111.rodhypix",
+      "bytes": 160256,
+      "sha256": "d426879e466db99413ff828048be99858c2a08b2123a2dd41dee6f3b0c115ef2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_112.rodhypix",
+      "working_copy": "work\\frames\\scan05_0112.rodhypix",
+      "bytes": 160256,
+      "sha256": "96fa14cdadc8d5ec1ca57db1d4074b4f4378060b2b56b2ef450628b9be625a01"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_113.rodhypix",
+      "working_copy": "work\\frames\\scan05_0113.rodhypix",
+      "bytes": 160256,
+      "sha256": "519c8b3456d0263b8ab2859e78fe5e07badcf00d52c0cb93c4947f124e2c318d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_114.rodhypix",
+      "working_copy": "work\\frames\\scan05_0114.rodhypix",
+      "bytes": 160256,
+      "sha256": "47ebd4017c56e7249d69614b053b8e365cd06991ca57e3a9e6ea0c49e111a8d1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_115.rodhypix",
+      "working_copy": "work\\frames\\scan05_0115.rodhypix",
+      "bytes": 160256,
+      "sha256": "c2f46a3abb1c46530f6bb784a5fdf42add611aa605f885a095058a3627d339dd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_116.rodhypix",
+      "working_copy": "work\\frames\\scan05_0116.rodhypix",
+      "bytes": 160768,
+      "sha256": "dadc7fbcd0e5613d428b78a67a10ff623fc0e98bd6f702632cbeb30341210fc7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_12.rodhypix",
+      "working_copy": "work\\frames\\scan05_0012.rodhypix",
+      "bytes": 159744,
+      "sha256": "f4c77e06e46c1c7a45bdbd1a0872ad0c5c6a342fda3be65fc3ee2c79cdc1f2e3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_13.rodhypix",
+      "working_copy": "work\\frames\\scan05_0013.rodhypix",
+      "bytes": 160256,
+      "sha256": "9ebdbfb520fcebc488220ab09bf396956f4f37d18d83344006226640206dd9d5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_14.rodhypix",
+      "working_copy": "work\\frames\\scan05_0014.rodhypix",
+      "bytes": 160256,
+      "sha256": "bba59e0ab87242f182c4d7764354b77062388cafc63691ee4b5b15211727b82e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_15.rodhypix",
+      "working_copy": "work\\frames\\scan05_0015.rodhypix",
+      "bytes": 160256,
+      "sha256": "2903db4d43684a70ec5de61140ac4cc39a7f3203ca1c0e6e7bdaec04494208e6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_16.rodhypix",
+      "working_copy": "work\\frames\\scan05_0016.rodhypix",
+      "bytes": 160256,
+      "sha256": "b97a4561b8947a6388493fa49f4778084e9f58721e3f89ccfb093b0ea96539b4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_17.rodhypix",
+      "working_copy": "work\\frames\\scan05_0017.rodhypix",
+      "bytes": 160256,
+      "sha256": "bf0a38c88916cf4aebd69da960eaca7d8455a7770407110c33d1bee66a92c7f5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_18.rodhypix",
+      "working_copy": "work\\frames\\scan05_0018.rodhypix",
+      "bytes": 160256,
+      "sha256": "0704a4058cbd20bb259b7e8ab6a730eaabf059a9f06921b22a1edbd2ce4f158e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_19.rodhypix",
+      "working_copy": "work\\frames\\scan05_0019.rodhypix",
+      "bytes": 160256,
+      "sha256": "21ed2b9e2962324c7f498c64341fb1900f4d68031aad51a9ea944f72f116ea6d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_2.rodhypix",
+      "working_copy": "work\\frames\\scan05_0002.rodhypix",
+      "bytes": 160256,
+      "sha256": "6cd4b8cb5a3c90aaef1aa60291375672020dd88ef415f780a16e66203d381642"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_20.rodhypix",
+      "working_copy": "work\\frames\\scan05_0020.rodhypix",
+      "bytes": 159744,
+      "sha256": "78d4ed6eb5ad68d975b9c505ce8580ab6ccb0d04044ec38fea46a5b3b2e1940c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_21.rodhypix",
+      "working_copy": "work\\frames\\scan05_0021.rodhypix",
+      "bytes": 160256,
+      "sha256": "451597bcd6970fe4d5b21a5e2df16a12dfbeaa46230f74f24bb2ed6dc1b2d5e6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_22.rodhypix",
+      "working_copy": "work\\frames\\scan05_0022.rodhypix",
+      "bytes": 160256,
+      "sha256": "4dc5daf768fdbb922ccbdaac68ec2720faa727bd1a20988690a08cbfe89a6509"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_23.rodhypix",
+      "working_copy": "work\\frames\\scan05_0023.rodhypix",
+      "bytes": 159744,
+      "sha256": "52647afc798c3bdac1b86144c2d84be972c32dfb3e317a0ef5008d276cf8a2ce"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_24.rodhypix",
+      "working_copy": "work\\frames\\scan05_0024.rodhypix",
+      "bytes": 159744,
+      "sha256": "cdd9dba5e475953662b3b51f5e2c1072e37dd28bf2e404d3d28f074439cda408"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_25.rodhypix",
+      "working_copy": "work\\frames\\scan05_0025.rodhypix",
+      "bytes": 159744,
+      "sha256": "75c8df0a2a9c8dd96d2e5d5d5bfff40e2ab76348abbe5616c9f8feeef51ccf5f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_26.rodhypix",
+      "working_copy": "work\\frames\\scan05_0026.rodhypix",
+      "bytes": 159744,
+      "sha256": "d10370c7f1c236fc07258ffd693f12697b1c1d4ea55d5aef79ee747e62e64e94"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_27.rodhypix",
+      "working_copy": "work\\frames\\scan05_0027.rodhypix",
+      "bytes": 160256,
+      "sha256": "1a8e17a23235d1c4fcb7fe835aa6ce990a6086427297b5b7bcf03d71f0216d89"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_28.rodhypix",
+      "working_copy": "work\\frames\\scan05_0028.rodhypix",
+      "bytes": 160256,
+      "sha256": "36b8690b37057945c9112a574bbe9319d537b2777bc264b570db80f23d5c21c2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_29.rodhypix",
+      "working_copy": "work\\frames\\scan05_0029.rodhypix",
+      "bytes": 159744,
+      "sha256": "2c9a73448bdae9f030a5c3d411b95632baf6c4aff886070eda0693664a68bc2b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_3.rodhypix",
+      "working_copy": "work\\frames\\scan05_0003.rodhypix",
+      "bytes": 160256,
+      "sha256": "7d2681f937db5e354ef05c3e870477ff6b812b665cf6f571e67275f49e5f5615"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_30.rodhypix",
+      "working_copy": "work\\frames\\scan05_0030.rodhypix",
+      "bytes": 159744,
+      "sha256": "5c72b4a90c15319b30dcbaa9b479765da537836e32f86d69405fb19a22f6e132"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_31.rodhypix",
+      "working_copy": "work\\frames\\scan05_0031.rodhypix",
+      "bytes": 160256,
+      "sha256": "91a341e25613b8995b05a47865aba7748e2aed912a971648a442b029e352aaab"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_32.rodhypix",
+      "working_copy": "work\\frames\\scan05_0032.rodhypix",
+      "bytes": 160256,
+      "sha256": "6b207ca5a1fd7d90998c7c2b63e86d13d43e2a6e6887f25119461a2dbf6e45b4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_33.rodhypix",
+      "working_copy": "work\\frames\\scan05_0033.rodhypix",
+      "bytes": 160256,
+      "sha256": "eda5c4b6dc535c82dc78addc05501509791f490f35c4aaac91a3587fca52b9fe"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_34.rodhypix",
+      "working_copy": "work\\frames\\scan05_0034.rodhypix",
+      "bytes": 160256,
+      "sha256": "303c39c61a7bc22c2ea68f0f28709c75dee6d54525c6cfc2bd476e748e7f1a59"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_35.rodhypix",
+      "working_copy": "work\\frames\\scan05_0035.rodhypix",
+      "bytes": 160256,
+      "sha256": "63b6f413c4d2b5f2d0c32fddf676c3d134dd4144b3fd5dcb792fad712e91e769"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_36.rodhypix",
+      "working_copy": "work\\frames\\scan05_0036.rodhypix",
+      "bytes": 160256,
+      "sha256": "2db91d92ea6317393dee6cf22e79ec166b9ec970f641f962acbbc1e067fa3504"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_37.rodhypix",
+      "working_copy": "work\\frames\\scan05_0037.rodhypix",
+      "bytes": 160256,
+      "sha256": "617cee618cde9d40fe810582fbf40daaead6b796b39200e31bbcc2597d2ab591"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_38.rodhypix",
+      "working_copy": "work\\frames\\scan05_0038.rodhypix",
+      "bytes": 160256,
+      "sha256": "6e4a45f3ce9799fd7239f092084c920fc1a49f5c43f0ed95209a00322f45bedb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_39.rodhypix",
+      "working_copy": "work\\frames\\scan05_0039.rodhypix",
+      "bytes": 159744,
+      "sha256": "f1e15b552e973f3cdd876b9bb11a2b7c33940ddb30176f703b0ff54730a471c3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_4.rodhypix",
+      "working_copy": "work\\frames\\scan05_0004.rodhypix",
+      "bytes": 159744,
+      "sha256": "ce15e8a4e68acb8a5fc2ba89f5d841a97f4b6702bef9291c3a0115111c52f8ac"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_40.rodhypix",
+      "working_copy": "work\\frames\\scan05_0040.rodhypix",
+      "bytes": 159744,
+      "sha256": "67b92260202d72f880a22791a72b593413d43f9658f605f2b2490647370d7c6d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_41.rodhypix",
+      "working_copy": "work\\frames\\scan05_0041.rodhypix",
+      "bytes": 160256,
+      "sha256": "4d66331cc117fe43e9c7ea97d285fc8a5f839d618921f8be3d5b0209edba3925"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_42.rodhypix",
+      "working_copy": "work\\frames\\scan05_0042.rodhypix",
+      "bytes": 160256,
+      "sha256": "572d98b6af9621dfd87c58bcee6443f8cb3a2f1063f31b9052c9e4c2aa41360f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_43.rodhypix",
+      "working_copy": "work\\frames\\scan05_0043.rodhypix",
+      "bytes": 160256,
+      "sha256": "96b92843b71a2ad3e9fb46c9b9222aaeeb97bd9c1ed7e997957b3a9f2baa6bda"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_44.rodhypix",
+      "working_copy": "work\\frames\\scan05_0044.rodhypix",
+      "bytes": 159744,
+      "sha256": "4335b7451ed0aa3f6a982ae6a3c02d1846fd19b66f6cce4d9f8e4a102c29917c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_45.rodhypix",
+      "working_copy": "work\\frames\\scan05_0045.rodhypix",
+      "bytes": 159744,
+      "sha256": "bce050e70dec4972ac5d1d8c55f0d3d7b389b090a1176823ddfe31f5c608b588"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_46.rodhypix",
+      "working_copy": "work\\frames\\scan05_0046.rodhypix",
+      "bytes": 159744,
+      "sha256": "0309a66cc21b94b8f777f38e9ebcd47d278429b2970b9cf11c1067e739e66cc5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_47.rodhypix",
+      "working_copy": "work\\frames\\scan05_0047.rodhypix",
+      "bytes": 160256,
+      "sha256": "85df6df2fdfecdd06704213b843f31d4fcf55bee25a5163528a727135b6e38fa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_48.rodhypix",
+      "working_copy": "work\\frames\\scan05_0048.rodhypix",
+      "bytes": 160256,
+      "sha256": "9fb82712dcd58af368f08a019b9ae539fd0f430ae9de3f23165ab124b08ab039"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_49.rodhypix",
+      "working_copy": "work\\frames\\scan05_0049.rodhypix",
+      "bytes": 160256,
+      "sha256": "f4a82b1598a6ed668707333db2ad1dd48fc59e4864c190e9e4fdf91b49c4971b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_5.rodhypix",
+      "working_copy": "work\\frames\\scan05_0005.rodhypix",
+      "bytes": 159744,
+      "sha256": "f7e4a44c11fadef69b468f8f2442ea78af2fabf55af4ae736e542e8ca32cdc72"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_50.rodhypix",
+      "working_copy": "work\\frames\\scan05_0050.rodhypix",
+      "bytes": 159744,
+      "sha256": "1078b65358d5a6af23cf87a1fe5d271ff51651b2eec46f6a85eb5a67fd5ab5d5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_51.rodhypix",
+      "working_copy": "work\\frames\\scan05_0051.rodhypix",
+      "bytes": 160256,
+      "sha256": "af307817dfe48dcc6ec8313dee8871f29181463a1c2166b868f4e49d2c4772bf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_52.rodhypix",
+      "working_copy": "work\\frames\\scan05_0052.rodhypix",
+      "bytes": 160256,
+      "sha256": "476b7927008ebab72b589843eb163e26add58fbe9334536be39490d3b8fe0fec"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_53.rodhypix",
+      "working_copy": "work\\frames\\scan05_0053.rodhypix",
+      "bytes": 160256,
+      "sha256": "f27a76aec473774b7b82220dee3fc03c43964df09ebbca1e87a88d13088d7b6c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_54.rodhypix",
+      "working_copy": "work\\frames\\scan05_0054.rodhypix",
+      "bytes": 160256,
+      "sha256": "8b64267aded617e6deb59110361cd8761b1f391d5f4f50452af117aad94fe1b7"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_55.rodhypix",
+      "working_copy": "work\\frames\\scan05_0055.rodhypix",
+      "bytes": 160256,
+      "sha256": "752d9a6dec4307060f0bd99656a8ceb005bff3d4830346918145cc54eb90f034"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_56.rodhypix",
+      "working_copy": "work\\frames\\scan05_0056.rodhypix",
+      "bytes": 160256,
+      "sha256": "6d8ddd95109fa5b4cd0944e3dc7b949a6a3c03cf62f096e8d06810858240a48f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_57.rodhypix",
+      "working_copy": "work\\frames\\scan05_0057.rodhypix",
+      "bytes": 160256,
+      "sha256": "25fa00d9da07b591496b199e859a9a703fdb28d67c25694be953e08acd9e75bd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_58.rodhypix",
+      "working_copy": "work\\frames\\scan05_0058.rodhypix",
+      "bytes": 160256,
+      "sha256": "f3c807813b231e2ff369e7ca22455fbf52c362feccfde6a3d2dab1a258cd7ba6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_59.rodhypix",
+      "working_copy": "work\\frames\\scan05_0059.rodhypix",
+      "bytes": 160256,
+      "sha256": "7cd0ba529f609fac38bcae18dc5d9ac715ca2d8ef6c9bcb9d51c3e92c88fe384"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_6.rodhypix",
+      "working_copy": "work\\frames\\scan05_0006.rodhypix",
+      "bytes": 159744,
+      "sha256": "f35591c936fba0563e0c3e9d21a7683a16c93acfc2b174e4734e6b69a5cf6c7e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_60.rodhypix",
+      "working_copy": "work\\frames\\scan05_0060.rodhypix",
+      "bytes": 160256,
+      "sha256": "9d99d473aa9c8e4512e75ad7b09da2a8d6de04848a210ce4fd7587304e2207c9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_61.rodhypix",
+      "working_copy": "work\\frames\\scan05_0061.rodhypix",
+      "bytes": 160256,
+      "sha256": "5191abeb18593eb43e539f82e9177ee5f0cd92a3ce5f9552192d639dcb90148f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_62.rodhypix",
+      "working_copy": "work\\frames\\scan05_0062.rodhypix",
+      "bytes": 159744,
+      "sha256": "b2efe705d00b12f63c8baf61d4025b6116eea9c9f06f21ecb65535ab5f9f11b1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_63.rodhypix",
+      "working_copy": "work\\frames\\scan05_0063.rodhypix",
+      "bytes": 160256,
+      "sha256": "2d31725a474c48f483e389285c1417f0e8f2b0d29bc5caf3c9023b624da1dc9f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_64.rodhypix",
+      "working_copy": "work\\frames\\scan05_0064.rodhypix",
+      "bytes": 159744,
+      "sha256": "ae87171cae6e0ae88e5d5076a04eced1b74623069d01d11cc9c59d0a4e0711c1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_65.rodhypix",
+      "working_copy": "work\\frames\\scan05_0065.rodhypix",
+      "bytes": 159744,
+      "sha256": "f4948b72f2da28582d009df24d8683d8c5c8f7ddfe273821954e1e2d3cb9ecdf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_66.rodhypix",
+      "working_copy": "work\\frames\\scan05_0066.rodhypix",
+      "bytes": 160256,
+      "sha256": "a4a6fe1864ffeb6525659c229246ff6a744e13f46d5cf61424c8ce2bc8d57d55"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_67.rodhypix",
+      "working_copy": "work\\frames\\scan05_0067.rodhypix",
+      "bytes": 160256,
+      "sha256": "670049520f62b8eb42ab73817bcc5a831301e1bd128691e0af44e6b5be617ac5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_68.rodhypix",
+      "working_copy": "work\\frames\\scan05_0068.rodhypix",
+      "bytes": 159744,
+      "sha256": "3ea1a5859a03ba1a5099fab7da2a335daa4c214dd9bc7ec526657b33d79e418f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_69.rodhypix",
+      "working_copy": "work\\frames\\scan05_0069.rodhypix",
+      "bytes": 160256,
+      "sha256": "ea2ca2e7b788427565d0ad9a4616e202e185f6241be7ddc398a734f250c3f223"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_7.rodhypix",
+      "working_copy": "work\\frames\\scan05_0007.rodhypix",
+      "bytes": 160256,
+      "sha256": "b036915cecd313cec079a9247f9a56e958f3fd3255b15d8cb90b5c3e87af4175"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_70.rodhypix",
+      "working_copy": "work\\frames\\scan05_0070.rodhypix",
+      "bytes": 159744,
+      "sha256": "bb8f92e79141712bd3ec160f8b3a12f4d7e33d108b9c8439327f0170ef723038"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_71.rodhypix",
+      "working_copy": "work\\frames\\scan05_0071.rodhypix",
+      "bytes": 159744,
+      "sha256": "f9ffe1bd30248326b0d88389517a7cf5d2db2f167dcf833beb3f8d9b08e6861a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_72.rodhypix",
+      "working_copy": "work\\frames\\scan05_0072.rodhypix",
+      "bytes": 159744,
+      "sha256": "94f2e48631fcc4737cbecf224c01f0e322e87a1af5edb3414911fbc72424d31e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_73.rodhypix",
+      "working_copy": "work\\frames\\scan05_0073.rodhypix",
+      "bytes": 160256,
+      "sha256": "ad550b6e4d396cf7907c69311416c7267515fac0cb8efa9bfe0246f518120fd5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_74.rodhypix",
+      "working_copy": "work\\frames\\scan05_0074.rodhypix",
+      "bytes": 160256,
+      "sha256": "6fb0491209e195732b47f464138e7cab8f67787c3903f861fd81dea0cdb145aa"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_75.rodhypix",
+      "working_copy": "work\\frames\\scan05_0075.rodhypix",
+      "bytes": 160256,
+      "sha256": "98922406b64f8fee13b98c2a61abb0b06bac9c0d4b386ff5f871c9921975049b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_76.rodhypix",
+      "working_copy": "work\\frames\\scan05_0076.rodhypix",
+      "bytes": 160256,
+      "sha256": "4b32fe1d094750775a979b8373c216e9aeb0d4d991930a0235250507d5656b41"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_77.rodhypix",
+      "working_copy": "work\\frames\\scan05_0077.rodhypix",
+      "bytes": 160256,
+      "sha256": "09004f2aa0d4279cf0bb13f575c6d9acafcad9495efb8559456a6a4a3e71bc7b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_78.rodhypix",
+      "working_copy": "work\\frames\\scan05_0078.rodhypix",
+      "bytes": 160256,
+      "sha256": "54d24ab480f759db3418c16c56550471bc65a391813914fbbebe80220932ddef"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_79.rodhypix",
+      "working_copy": "work\\frames\\scan05_0079.rodhypix",
+      "bytes": 160256,
+      "sha256": "75d574435ba0d042182cf42dc82da698ac7fd55b652a3b073c394a8069b5cdc4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_8.rodhypix",
+      "working_copy": "work\\frames\\scan05_0008.rodhypix",
+      "bytes": 159744,
+      "sha256": "cc91f4cc653e3cd52073b7756e7f6d9fe252b043ae45f2c467c9d8c9c8109618"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_80.rodhypix",
+      "working_copy": "work\\frames\\scan05_0080.rodhypix",
+      "bytes": 160256,
+      "sha256": "2fb5c48e36021561d7329c4a4603875fa12525ede5cbf2697dfcaf2fc8e2c15a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_81.rodhypix",
+      "working_copy": "work\\frames\\scan05_0081.rodhypix",
+      "bytes": 160256,
+      "sha256": "acd8bcf3c979bd71afca69835bccc416f5785d5b7b5afa3717095ef8306b48d5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_82.rodhypix",
+      "working_copy": "work\\frames\\scan05_0082.rodhypix",
+      "bytes": 160256,
+      "sha256": "773e4bae91193900abee0d20397e2ff30c39098b7e387f1dfafd7321757e95e3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_83.rodhypix",
+      "working_copy": "work\\frames\\scan05_0083.rodhypix",
+      "bytes": 159744,
+      "sha256": "5273f518c721d9cb2932f83b2ca3562207a83d3c53b8094286fbe385179e69a4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_84.rodhypix",
+      "working_copy": "work\\frames\\scan05_0084.rodhypix",
+      "bytes": 160256,
+      "sha256": "cfe42a2cc09aaddebf80d05aa57fe8ea5ab2145c765f2132385e4921ae179633"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_85.rodhypix",
+      "working_copy": "work\\frames\\scan05_0085.rodhypix",
+      "bytes": 160256,
+      "sha256": "22776753183388ca0c8fb3379bc888d41b0624a47d4d6fc92204a7ae096b8e4e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_86.rodhypix",
+      "working_copy": "work\\frames\\scan05_0086.rodhypix",
+      "bytes": 160256,
+      "sha256": "d294d7c227191fd8e4f7ff87f8669ee32894dff09326134bfc92b0c836df7981"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_87.rodhypix",
+      "working_copy": "work\\frames\\scan05_0087.rodhypix",
+      "bytes": 160256,
+      "sha256": "5e2e9abf727bea7599412a549fd82da57e3a1e1cc1e27877edcae2249f3411e3"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_88.rodhypix",
+      "working_copy": "work\\frames\\scan05_0088.rodhypix",
+      "bytes": 160256,
+      "sha256": "3d7395c204fd5f5fdff275b3abf2f0a7ace730c8db60f1873e1eb1ec750cdbeb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_89.rodhypix",
+      "working_copy": "work\\frames\\scan05_0089.rodhypix",
+      "bytes": 160256,
+      "sha256": "7c822b3d6b7cf6c519236f07afaebe20ba08a9150241e82d6543844f296a94cb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_9.rodhypix",
+      "working_copy": "work\\frames\\scan05_0009.rodhypix",
+      "bytes": 160256,
+      "sha256": "9c19628e8c7f31564f7068ea2a5e223fe0240c837aac73ceb0500723d7e00b69"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_90.rodhypix",
+      "working_copy": "work\\frames\\scan05_0090.rodhypix",
+      "bytes": 160256,
+      "sha256": "63fc6002dd0bd69ef92f4449f8eed2bc475c666559a13c992f64ac33a03f82b6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_91.rodhypix",
+      "working_copy": "work\\frames\\scan05_0091.rodhypix",
+      "bytes": 160256,
+      "sha256": "fd7137643f6a3781d235abe559eab23d73bf8f71606fc399d9cb153bc1c24dcf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_92.rodhypix",
+      "working_copy": "work\\frames\\scan05_0092.rodhypix",
+      "bytes": 160256,
+      "sha256": "5886aec3f860c8cb88f65dc50c420a3cb1ef5d2b444b7a11f1ff07015a59e13f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_93.rodhypix",
+      "working_copy": "work\\frames\\scan05_0093.rodhypix",
+      "bytes": 160256,
+      "sha256": "c14df4dfd52fdaa14dc389b94d778eb93b02cd36d88751379454c6f23d1d0cb1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_94.rodhypix",
+      "working_copy": "work\\frames\\scan05_0094.rodhypix",
+      "bytes": 160256,
+      "sha256": "9eac2e1b342edd3044ea89f7432df9fa10f52033e15cf46a4dada2da81cf7f63"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_95.rodhypix",
+      "working_copy": "work\\frames\\scan05_0095.rodhypix",
+      "bytes": 160256,
+      "sha256": "cb895e4a0fdb3d82c11369f043928b925efdaa19a28efefa3cff4b12dba5e3c1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_96.rodhypix",
+      "working_copy": "work\\frames\\scan05_0096.rodhypix",
+      "bytes": 159744,
+      "sha256": "74beb1b77d2de967aeb9b6178197292f5a7b3f213e172b4c5e1ce3aa61e8a512"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_97.rodhypix",
+      "working_copy": "work\\frames\\scan05_0097.rodhypix",
+      "bytes": 159744,
+      "sha256": "81e32c009e5eed069972f054ff4ffdac9c1282ed484cebbb2d274c43e7a9164b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_98.rodhypix",
+      "working_copy": "work\\frames\\scan05_0098.rodhypix",
+      "bytes": 159744,
+      "sha256": "9d29ec0be78abf1924616db2ee15b853e95aa1bb5f48cbd4691785bfc0be5f26"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_5_99.rodhypix",
+      "working_copy": "work\\frames\\scan05_0099.rodhypix",
+      "bytes": 160256,
+      "sha256": "025e5072ea85b521cc508586079689f27f74498d905316a60a799d2cb249b0fc"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_1.rodhypix",
+      "working_copy": "work\\frames\\scan06_0001.rodhypix",
+      "bytes": 160256,
+      "sha256": "8a7d8a9313b3fc465c7a801e3c5746c692e90734d6b84318336a82a8cae0140c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_10.rodhypix",
+      "working_copy": "work\\frames\\scan06_0010.rodhypix",
+      "bytes": 160256,
+      "sha256": "c64b922078d019e44fb6ca9f741282d0753549ac6e01df7c9d6a647423998d75"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_100.rodhypix",
+      "working_copy": "work\\frames\\scan06_0100.rodhypix",
+      "bytes": 160256,
+      "sha256": "afdeeb940b26e303795abaf060de75749ec7de4211e8c440a85afd2f4113f141"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_101.rodhypix",
+      "working_copy": "work\\frames\\scan06_0101.rodhypix",
+      "bytes": 160256,
+      "sha256": "bfbff516206a75e6405e241f903ba02fdc5c0500614d939287d2f7335d0cde90"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_102.rodhypix",
+      "working_copy": "work\\frames\\scan06_0102.rodhypix",
+      "bytes": 160256,
+      "sha256": "d8533b34cfeb612829f4fd349aaf7e8cb1c2a181e8f3d9eba428c48b38bc7d86"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_103.rodhypix",
+      "working_copy": "work\\frames\\scan06_0103.rodhypix",
+      "bytes": 160256,
+      "sha256": "2a87d0326c2ab7888a76f6da51bb12d20cdccaee7730c73b0d3b011296e18c45"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_104.rodhypix",
+      "working_copy": "work\\frames\\scan06_0104.rodhypix",
+      "bytes": 160256,
+      "sha256": "e3bf2de5a4de2ee34d3034b3af63f1c707dc7dec0d77c0722384947041840f62"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_105.rodhypix",
+      "working_copy": "work\\frames\\scan06_0105.rodhypix",
+      "bytes": 160256,
+      "sha256": "961666b3bde86b0dcaba9880d5f11c28607b367f25c50cf35ae251a1201c648e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_106.rodhypix",
+      "working_copy": "work\\frames\\scan06_0106.rodhypix",
+      "bytes": 160768,
+      "sha256": "901cdf5ec75117ca115b909fb2fd5b6b6a003f94c7ffad1b6a4a2b468f26aef1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_107.rodhypix",
+      "working_copy": "work\\frames\\scan06_0107.rodhypix",
+      "bytes": 160256,
+      "sha256": "c756d94bf202e5d2038c50b4326b7b6f8120b4b4af2bbbbabcf004e09d0630b0"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_108.rodhypix",
+      "working_copy": "work\\frames\\scan06_0108.rodhypix",
+      "bytes": 160256,
+      "sha256": "2c1732ffec4feef68932e7f6cb563d7d50e0720414819849c5d54e59b0812396"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_11.rodhypix",
+      "working_copy": "work\\frames\\scan06_0011.rodhypix",
+      "bytes": 160256,
+      "sha256": "39e196d2ddb5537cee6618f77836ae18e5bf79e3ea8307fc6534d416ec4701ca"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_12.rodhypix",
+      "working_copy": "work\\frames\\scan06_0012.rodhypix",
+      "bytes": 160256,
+      "sha256": "d74752328c0b6f2595f05a5ed55e59e18486988643c831167ce3f6c85715963d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_13.rodhypix",
+      "working_copy": "work\\frames\\scan06_0013.rodhypix",
+      "bytes": 160256,
+      "sha256": "cd61d6ac2a4f53d26f8bfc09380a247a99f574e1b7191d327749c788b91b538c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_14.rodhypix",
+      "working_copy": "work\\frames\\scan06_0014.rodhypix",
+      "bytes": 160256,
+      "sha256": "c9dd9c42b003601b6eedaf3c42f3e4d6fd86bcc5b7916356bdb1ed9a94ea7d89"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_15.rodhypix",
+      "working_copy": "work\\frames\\scan06_0015.rodhypix",
+      "bytes": 160256,
+      "sha256": "b90a39d098c7c841db477813cf888f34426d7c93a9864c9842bb454c74951a21"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_16.rodhypix",
+      "working_copy": "work\\frames\\scan06_0016.rodhypix",
+      "bytes": 160256,
+      "sha256": "acf78ba8174f1568dd71331f52361d7532b3784aa2dc43c8b7c092f7bb287c59"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_17.rodhypix",
+      "working_copy": "work\\frames\\scan06_0017.rodhypix",
+      "bytes": 160256,
+      "sha256": "775b2b0db373e6770d8d6c491dca9ceaf3609461bf5c7fd377cd1274605894bf"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_18.rodhypix",
+      "working_copy": "work\\frames\\scan06_0018.rodhypix",
+      "bytes": 160256,
+      "sha256": "1d9e2c937e4983ec5ff7dee4bec707a7b1643d3ce9a7ef93f03f03550f8d8e3f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_19.rodhypix",
+      "working_copy": "work\\frames\\scan06_0019.rodhypix",
+      "bytes": 160256,
+      "sha256": "c0ce6ba2f371e65d77c44d5870419819cf9e31ce79e3baac1fcd71f4edbaa1cd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_2.rodhypix",
+      "working_copy": "work\\frames\\scan06_0002.rodhypix",
+      "bytes": 160256,
+      "sha256": "26c5f338f49fb538accb03ab3e52df4452576da24ee5c026a6530d11c788eccb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_20.rodhypix",
+      "working_copy": "work\\frames\\scan06_0020.rodhypix",
+      "bytes": 160256,
+      "sha256": "ff2ea21e7a56ce5d0e20be2f462fb66db65d4c6a89db95d37904f26a0535de94"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_21.rodhypix",
+      "working_copy": "work\\frames\\scan06_0021.rodhypix",
+      "bytes": 159744,
+      "sha256": "1632b29f6d72e1c14b0e4fba45fccb5970573c32662997244cf4a3830f8f5ba4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_22.rodhypix",
+      "working_copy": "work\\frames\\scan06_0022.rodhypix",
+      "bytes": 159744,
+      "sha256": "720824678323a2622f14dca5ec792ad3818f6fcb59edf28a8c75d03dac1ccfac"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_23.rodhypix",
+      "working_copy": "work\\frames\\scan06_0023.rodhypix",
+      "bytes": 160256,
+      "sha256": "a522e507d7dd967331e11422af868261289c890cd5c517b039d159b9e07e544a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_24.rodhypix",
+      "working_copy": "work\\frames\\scan06_0024.rodhypix",
+      "bytes": 160256,
+      "sha256": "b6f825b5f85b8922f3e8c02e4ea71238ea27d90c2081d1f63a21e6fa127da116"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_25.rodhypix",
+      "working_copy": "work\\frames\\scan06_0025.rodhypix",
+      "bytes": 159744,
+      "sha256": "0eca8fe449922409d1896cbe55d3096bde9f9af07ad27f54b7f6c84d53176d7d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_26.rodhypix",
+      "working_copy": "work\\frames\\scan06_0026.rodhypix",
+      "bytes": 159744,
+      "sha256": "737ec9ca19406a06aac656915143acb16a34b75d9eb6eda4ae12d9a1b19b98cb"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_27.rodhypix",
+      "working_copy": "work\\frames\\scan06_0027.rodhypix",
+      "bytes": 160256,
+      "sha256": "b36e1b2505e1e71a47f08088ed93cacec4918156218478bf17d96ec91fe6113b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_28.rodhypix",
+      "working_copy": "work\\frames\\scan06_0028.rodhypix",
+      "bytes": 160256,
+      "sha256": "fe8f0fc2e32e044a939914a86471e3d260b7093069ac8469f0a6bd1306f60367"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_29.rodhypix",
+      "working_copy": "work\\frames\\scan06_0029.rodhypix",
+      "bytes": 160256,
+      "sha256": "286f276e7d1dbcf36d41472204e2deb7d76152e0b50f8f9bedade54901fc44d1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_3.rodhypix",
+      "working_copy": "work\\frames\\scan06_0003.rodhypix",
+      "bytes": 160256,
+      "sha256": "b66c8c95e3a203355ec06ede8a45143e3d088424f2de033847d651c4899e0179"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_30.rodhypix",
+      "working_copy": "work\\frames\\scan06_0030.rodhypix",
+      "bytes": 160256,
+      "sha256": "945010b46b581fd6c0265f4d92f5f58862735c1c74c0ff677a2e028bb644a3ba"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_31.rodhypix",
+      "working_copy": "work\\frames\\scan06_0031.rodhypix",
+      "bytes": 160256,
+      "sha256": "f80d98dad2cb14db5b90a0418f7212b5fb9cccc7ef2f6555761e9d9b79e82f5f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_32.rodhypix",
+      "working_copy": "work\\frames\\scan06_0032.rodhypix",
+      "bytes": 160256,
+      "sha256": "3068d14907388b148b3f14a509e7bd8c51446f067eadd9d303d9575ed3d98391"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_33.rodhypix",
+      "working_copy": "work\\frames\\scan06_0033.rodhypix",
+      "bytes": 160768,
+      "sha256": "73139a054e6a0d97e0de877ef4e7d1c157dea3a76c23bdeefdb71f35c6c12b33"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_34.rodhypix",
+      "working_copy": "work\\frames\\scan06_0034.rodhypix",
+      "bytes": 160256,
+      "sha256": "87a1c799f3a7126b30d13d305dcf69e50c2cb84806db258405bd42db2eae13f1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_35.rodhypix",
+      "working_copy": "work\\frames\\scan06_0035.rodhypix",
+      "bytes": 160256,
+      "sha256": "18c66db40ca6a772afde89443961f990d6de6b1c1d1c16d9e8fd9c97449d6b9e"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_36.rodhypix",
+      "working_copy": "work\\frames\\scan06_0036.rodhypix",
+      "bytes": 160256,
+      "sha256": "f88c69e82a6d28c0b8950f67874499e40cea2074fca4b698f869b370ee739cbd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_37.rodhypix",
+      "working_copy": "work\\frames\\scan06_0037.rodhypix",
+      "bytes": 160768,
+      "sha256": "8c7baec8b95f50dcddb67652fd33b21be36e777019684a629927e86326b52b5b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_38.rodhypix",
+      "working_copy": "work\\frames\\scan06_0038.rodhypix",
+      "bytes": 160256,
+      "sha256": "6da21d4990f41ce3bd7553c22f2a4f2650da946e5a21eb5c26c67434910143b6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_39.rodhypix",
+      "working_copy": "work\\frames\\scan06_0039.rodhypix",
+      "bytes": 160256,
+      "sha256": "b5d1701a950cf71beaf928d46c807876d4e4c7cc4247d5d0b3429a8072feff69"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_4.rodhypix",
+      "working_copy": "work\\frames\\scan06_0004.rodhypix",
+      "bytes": 160256,
+      "sha256": "fbc1da9a4852b06008757dce2c849c096cfd1e6bc6e62fc8b5174ff5cb49835b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_40.rodhypix",
+      "working_copy": "work\\frames\\scan06_0040.rodhypix",
+      "bytes": 160256,
+      "sha256": "67e85d80647968227570717ec85cf5017484cac9846c35197c7ebd5e33e2f1af"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_41.rodhypix",
+      "working_copy": "work\\frames\\scan06_0041.rodhypix",
+      "bytes": 160256,
+      "sha256": "2c0cfd511e75427a8c314b755d3385f8de0085896d7801ea69b5f370b5a9e23f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_42.rodhypix",
+      "working_copy": "work\\frames\\scan06_0042.rodhypix",
+      "bytes": 160768,
+      "sha256": "625209961e41979d1ed5e9a3d55135f45117e8301e5b7202775129368b6fc5bd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_43.rodhypix",
+      "working_copy": "work\\frames\\scan06_0043.rodhypix",
+      "bytes": 160768,
+      "sha256": "3df755ff23842158482126866d50f5cd47290c6dc549ab88b9332a60746e2f19"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_44.rodhypix",
+      "working_copy": "work\\frames\\scan06_0044.rodhypix",
+      "bytes": 160768,
+      "sha256": "0a95d756b081c7cc20f956db444157c24e529a8089c934545c33f0578e591236"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_45.rodhypix",
+      "working_copy": "work\\frames\\scan06_0045.rodhypix",
+      "bytes": 160256,
+      "sha256": "ffecaeb771c97511e23544323c529018093a2705aee0e27244d1847a800572e9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_46.rodhypix",
+      "working_copy": "work\\frames\\scan06_0046.rodhypix",
+      "bytes": 160256,
+      "sha256": "61f7fec8254215a42b636a4127a2eac16ac29f0ae53e441f726b05ba8ef9c12d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_47.rodhypix",
+      "working_copy": "work\\frames\\scan06_0047.rodhypix",
+      "bytes": 160256,
+      "sha256": "e7fa465b353e86b470f039c1bbb1adfa4de6c1c860fa595548a6bea95325cb15"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_48.rodhypix",
+      "working_copy": "work\\frames\\scan06_0048.rodhypix",
+      "bytes": 160256,
+      "sha256": "7de5ae6f0b4ec295604e1d07d10ecc9bd119f0d58094b82ed163de7e01a3409c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_49.rodhypix",
+      "working_copy": "work\\frames\\scan06_0049.rodhypix",
+      "bytes": 160256,
+      "sha256": "2f04b43d46fcf63411bc4b7ec5f89173716374743be5737f3ebf60791a4e8020"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_5.rodhypix",
+      "working_copy": "work\\frames\\scan06_0005.rodhypix",
+      "bytes": 160256,
+      "sha256": "9dc7940bed67d832b39904cbbf254f6fd1a2020db24a5b3f8b014723dcc1022a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_50.rodhypix",
+      "working_copy": "work\\frames\\scan06_0050.rodhypix",
+      "bytes": 159744,
+      "sha256": "9ed0c5f8bdbb5c46fae2a344fa548fd6f9ca3d0bcdd27df344ca73f806187972"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_51.rodhypix",
+      "working_copy": "work\\frames\\scan06_0051.rodhypix",
+      "bytes": 160256,
+      "sha256": "839301d24ad4e7d7061b343f87c3abe2dbe1cdcb623951d53a85de9d44fbf49d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_52.rodhypix",
+      "working_copy": "work\\frames\\scan06_0052.rodhypix",
+      "bytes": 160256,
+      "sha256": "cf0b532e43234f2967c12b320d10c8a7c3872977bfdf16f5e367f698d532bd8a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_53.rodhypix",
+      "working_copy": "work\\frames\\scan06_0053.rodhypix",
+      "bytes": 160256,
+      "sha256": "ec880ed66f9dc32fb99a2f026fe5103e50a5df3b15947115b9ec2ec51d86a525"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_54.rodhypix",
+      "working_copy": "work\\frames\\scan06_0054.rodhypix",
+      "bytes": 160256,
+      "sha256": "a124e695c01d749f5eef983db8e4039709eaf077070bb74e2c9aef8acc64ca9d"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_55.rodhypix",
+      "working_copy": "work\\frames\\scan06_0055.rodhypix",
+      "bytes": 159744,
+      "sha256": "84554082d7fd95b011a191311f9534b661a5a329cb24727e1adbc3d39a5a8a3b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_56.rodhypix",
+      "working_copy": "work\\frames\\scan06_0056.rodhypix",
+      "bytes": 160256,
+      "sha256": "b5d8c22cb723ae6474ae43c599c120f2131052a73af75b9a57e3cb8116710cca"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_57.rodhypix",
+      "working_copy": "work\\frames\\scan06_0057.rodhypix",
+      "bytes": 160256,
+      "sha256": "d62e41c3b39caa7ceeb68fa607725cf1f98b927d589bbb855133440f155f40f2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_58.rodhypix",
+      "working_copy": "work\\frames\\scan06_0058.rodhypix",
+      "bytes": 160256,
+      "sha256": "f1d77f15d3feadddfa967b9fd9613c29754d36c6e3551c02f79d0d9b02377de6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_59.rodhypix",
+      "working_copy": "work\\frames\\scan06_0059.rodhypix",
+      "bytes": 160768,
+      "sha256": "dabf2e31a6ebc42352f74ac0812db64401635dde6c589ece8ba0abdeb90dce76"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_6.rodhypix",
+      "working_copy": "work\\frames\\scan06_0006.rodhypix",
+      "bytes": 160256,
+      "sha256": "8e1d4a214c98b53c51012422aa70296876ab2615d2aac90b37edd798d09cea59"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_60.rodhypix",
+      "working_copy": "work\\frames\\scan06_0060.rodhypix",
+      "bytes": 160256,
+      "sha256": "60c66d30bc9677dcddce70b8e18ca044d1125fcd0506b96c824203e54df692b5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_61.rodhypix",
+      "working_copy": "work\\frames\\scan06_0061.rodhypix",
+      "bytes": 160256,
+      "sha256": "6e88f201fe254f3e095c29ed82c2c923f1c1113b0fb6509d63d26af908b52bf4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_62.rodhypix",
+      "working_copy": "work\\frames\\scan06_0062.rodhypix",
+      "bytes": 160768,
+      "sha256": "7948185dfb7feaa475cc91ac21458aa9d357127dba94ba704d3599e738076514"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_63.rodhypix",
+      "working_copy": "work\\frames\\scan06_0063.rodhypix",
+      "bytes": 160256,
+      "sha256": "ad872ffcaa858466348070f663af18d0d7e793af0c2d25be51aba82413eb6fd9"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_64.rodhypix",
+      "working_copy": "work\\frames\\scan06_0064.rodhypix",
+      "bytes": 160256,
+      "sha256": "84ea096452f7134a08b857a8c860e323dcd787842bb45330f844991de9511eb2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_65.rodhypix",
+      "working_copy": "work\\frames\\scan06_0065.rodhypix",
+      "bytes": 160256,
+      "sha256": "8e0f82a921ceaca4d0790e790b3ec3e5b4a7e4b1eb85262d02a4717d3397ad58"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_66.rodhypix",
+      "working_copy": "work\\frames\\scan06_0066.rodhypix",
+      "bytes": 160256,
+      "sha256": "c1c0b8c9cc497b284d3ea3718fc2bca22b046b821f98ca337f72979c71e1520f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_67.rodhypix",
+      "working_copy": "work\\frames\\scan06_0067.rodhypix",
+      "bytes": 160256,
+      "sha256": "e7d090eb9c66731bec725e19ba65b5a1dbf4a914c2e2800c363459868726ee68"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_68.rodhypix",
+      "working_copy": "work\\frames\\scan06_0068.rodhypix",
+      "bytes": 160256,
+      "sha256": "33d9921c8e2e9e4c9ceaf7d0fc9ceec3bf55772674ebc56acb8328c5a0078464"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_69.rodhypix",
+      "working_copy": "work\\frames\\scan06_0069.rodhypix",
+      "bytes": 160256,
+      "sha256": "ddd50caa9b6ab26e34ad3bee4cc7d2d0deea06ee67605bc8b3ed14895ac935a1"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_7.rodhypix",
+      "working_copy": "work\\frames\\scan06_0007.rodhypix",
+      "bytes": 160256,
+      "sha256": "1ad6dc6812391eaba238f8d1a681c3cb59b9499664b6769e6957c7bb8ad3b325"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_70.rodhypix",
+      "working_copy": "work\\frames\\scan06_0070.rodhypix",
+      "bytes": 160256,
+      "sha256": "3ad2f5c456e302d4bc1396be0dbaf8690d98a565c228dff51f192c49dfea62c2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_71.rodhypix",
+      "working_copy": "work\\frames\\scan06_0071.rodhypix",
+      "bytes": 160768,
+      "sha256": "f60b01016a2473e5a1c0613d1c78882ce4bb2bb507fabbf16afe48de337a0017"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_72.rodhypix",
+      "working_copy": "work\\frames\\scan06_0072.rodhypix",
+      "bytes": 160256,
+      "sha256": "673a781987275e1390170a464dd79ee6701762eea6cfad98ac595bf80bdfe0d4"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_73.rodhypix",
+      "working_copy": "work\\frames\\scan06_0073.rodhypix",
+      "bytes": 160256,
+      "sha256": "d0e817e14ddb27a9df6be0c75fff401f65277b5a5ee8fbef0b2b9f8041c0a4ae"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_74.rodhypix",
+      "working_copy": "work\\frames\\scan06_0074.rodhypix",
+      "bytes": 160256,
+      "sha256": "73e961ef843bb488d5585bbb2a0669c366af6b1e6a471f8807570d4aa905b98b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_75.rodhypix",
+      "working_copy": "work\\frames\\scan06_0075.rodhypix",
+      "bytes": 160256,
+      "sha256": "5082407c2546c3550d6b2850b0b2ba10b74b5b88e3e7c7e6ccb886282ca56d71"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_76.rodhypix",
+      "working_copy": "work\\frames\\scan06_0076.rodhypix",
+      "bytes": 160256,
+      "sha256": "afded21ead9be5e8ab464d7ced9bc6df028453d8a7a435fa1ed3e4d5d83a6cb2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_77.rodhypix",
+      "working_copy": "work\\frames\\scan06_0077.rodhypix",
+      "bytes": 160256,
+      "sha256": "325f700eca8b53412e9c16f03a7056ce378378e6758d79ed1d8b81d4ba8c5d06"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_78.rodhypix",
+      "working_copy": "work\\frames\\scan06_0078.rodhypix",
+      "bytes": 160768,
+      "sha256": "755288f2b5c9a47b90162ae6fe81a0381b701b847688fd75eebf8f035b53d322"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_79.rodhypix",
+      "working_copy": "work\\frames\\scan06_0079.rodhypix",
+      "bytes": 160256,
+      "sha256": "673a6acba07301fe37e52383004650c904eb3ddd9079413a3c9fbac5dd11c990"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_8.rodhypix",
+      "working_copy": "work\\frames\\scan06_0008.rodhypix",
+      "bytes": 160256,
+      "sha256": "bb70cdb913814e2c4400d4386b2f175cc8e52967f94a6bcb0bc41acf5df052b2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_80.rodhypix",
+      "working_copy": "work\\frames\\scan06_0080.rodhypix",
+      "bytes": 160768,
+      "sha256": "327bf221e588ed7783bc42d8afdc730da11c1126d71b00c559055780e4fe11e5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_81.rodhypix",
+      "working_copy": "work\\frames\\scan06_0081.rodhypix",
+      "bytes": 160768,
+      "sha256": "ed9e1971112e3142f173945136e969daa204cba657e92d58b7c4f21ebc8e6f46"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_82.rodhypix",
+      "working_copy": "work\\frames\\scan06_0082.rodhypix",
+      "bytes": 160256,
+      "sha256": "fe66b39d4734703be4224e4fd23dba8e6339d7cc914204fca2b7d4eb1d260423"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_83.rodhypix",
+      "working_copy": "work\\frames\\scan06_0083.rodhypix",
+      "bytes": 160256,
+      "sha256": "44e40f2b61c6b4e432ac4bbef1f8e945e124f32d64ecdba68f0be9c1e95a04d8"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_84.rodhypix",
+      "working_copy": "work\\frames\\scan06_0084.rodhypix",
+      "bytes": 160256,
+      "sha256": "e085753c4290e3377b96ef99b46e8d46e221a7654e601837ddb13cd05e1abd79"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_85.rodhypix",
+      "working_copy": "work\\frames\\scan06_0085.rodhypix",
+      "bytes": 160768,
+      "sha256": "151dd6a62dce03c05bb5f16860ea4fb2936c86ff3b18a7163487bed948e037c5"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_86.rodhypix",
+      "working_copy": "work\\frames\\scan06_0086.rodhypix",
+      "bytes": 160256,
+      "sha256": "37712715f278f7e545c29ef29011591819cfdcbfc3f46282afd48143d8d87817"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_87.rodhypix",
+      "working_copy": "work\\frames\\scan06_0087.rodhypix",
+      "bytes": 160256,
+      "sha256": "8d34bb48f4e2736bd377b09c78b4a73a78a5978fc607dd27cb32be60972547d6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_88.rodhypix",
+      "working_copy": "work\\frames\\scan06_0088.rodhypix",
+      "bytes": 160256,
+      "sha256": "dd1f8ace85dff64af8db1b8cb5ce3171430391504623a1149b30f283b3a2266a"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_89.rodhypix",
+      "working_copy": "work\\frames\\scan06_0089.rodhypix",
+      "bytes": 160256,
+      "sha256": "34c793af9dc775a306cfebd43cbc8cf858216cfbf1c588b8d1c1d78052c449d2"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_9.rodhypix",
+      "working_copy": "work\\frames\\scan06_0009.rodhypix",
+      "bytes": 160256,
+      "sha256": "d79cc0c8ead5d5bb5549ab36d84afbccd8b0b48f6f7ca6dc748f9b0bde4f754c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_90.rodhypix",
+      "working_copy": "work\\frames\\scan06_0090.rodhypix",
+      "bytes": 160256,
+      "sha256": "ae6ffff2901f3aefb0bfd637eb361535fd80510010293e16d961f2c2946ff29c"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_91.rodhypix",
+      "working_copy": "work\\frames\\scan06_0091.rodhypix",
+      "bytes": 160256,
+      "sha256": "3024b3b973a5826b7c7116cad610329895a138a9b42ebf9c7bd973fffd2a612f"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_92.rodhypix",
+      "working_copy": "work\\frames\\scan06_0092.rodhypix",
+      "bytes": 160256,
+      "sha256": "a4e5301193de7616341c61cdb2429336bfec1547da9ed841d426902e940c1be6"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_93.rodhypix",
+      "working_copy": "work\\frames\\scan06_0093.rodhypix",
+      "bytes": 160256,
+      "sha256": "e1cd91426371598f2e7b919cef330f9b9ad3b897110aefba673d7b996c01a395"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_94.rodhypix",
+      "working_copy": "work\\frames\\scan06_0094.rodhypix",
+      "bytes": 160768,
+      "sha256": "e9b9721182be4d71d539e723b84e2d074ebb43d72cabe905b527215c3d28986b"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_95.rodhypix",
+      "working_copy": "work\\frames\\scan06_0095.rodhypix",
+      "bytes": 160256,
+      "sha256": "0afe78cfed868b22849d197be73940603e3ea65bc4f7e8b25068134d3b6cad48"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_96.rodhypix",
+      "working_copy": "work\\frames\\scan06_0096.rodhypix",
+      "bytes": 160256,
+      "sha256": "7204820c55fa25039a6921e36846e07c70be1276e4f96807e1dbdf57edadb564"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_97.rodhypix",
+      "working_copy": "work\\frames\\scan06_0097.rodhypix",
+      "bytes": 160256,
+      "sha256": "02a9e849f28246f2de93367b2c0a92696bf38b3459ee3c4d1f5de25a01b26bdd"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_98.rodhypix",
+      "working_copy": "work\\frames\\scan06_0098.rodhypix",
+      "bytes": 160256,
+      "sha256": "78da6b49932b5325b6ffca905f8a7fafb687a13019444c1fc0c2907fa76b5923"
+    },
+    {
+      "source": "inputs\\alanine\\frames\\pgw240033_Mo_6_99.rodhypix",
+      "working_copy": "work\\frames\\scan06_0099.rodhypix",
+      "bytes": 160256,
+      "sha256": "4cd5d18cd5510bbeecf2add9bdd3c716506d9f37deb8f27875d77152d8423b73"
+    }
+  ]
+}

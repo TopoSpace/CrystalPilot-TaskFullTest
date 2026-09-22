@@ -1,0 +1,658 @@
+DIALS (2018) Acta Cryst. D74, 85-97. https://doi.org/10.1107/S2059798317017235
+DIALS 3.30
+The following parameters have been modified:
+model = KB array dose_decay *physical
+physical {
+  scale_interval = 30
+  decay_interval = 60
+  absorption_correction = True
+  absorption_level = *low medium high
+}
+output {
+  html = None
+  json = "scaling_statistics.json"
+  unmerged_mtz = "scaled_unmerged.mtz"
+  merged_mtz = "scaled_merged.mtz"
+}
+anomalous = True
+reflection_selection {
+  method = quasi_random intensity_ranges *use_all random auto
+}
+input {
+  experiments = symmetrized.expt
+  reflections = symmetrized.refl
+}
+
+Checking for the existence of a reflection table 
+containing multiple datasets 
+
+Detected existence of a multi-dataset reflection table 
+containing 6 datasets. 
+
+Found 6 reflection tables & 6 experiments in total.
+
+Dataset ids are: 0,1,2,3,4,5 
+
+Set scaling_options.full_matrix=True
+Space group being used during scaling is P 21 21 21
+Set small scale cutoff to 0.001
+Using median unit cell across experiments : (5.79286, 5.96635, 12.2936, 90, 90, 90)
+
+Scaling models have been initialised for all experiments.
+
+================================================================================
+
+The experiment id for this dataset is 0.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 637 predicted reflections
+Selected 637 reflections integrated by profile or summation methods
+Removed 27 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 3 partial reflections with other partial reflections
+Excluding 24/634 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 24
+criterion: excluded for scaling, reflections: 24
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              3 |
+| decay        |              2 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+2 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+The experiment id for this dataset is 1.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 649 predicted reflections
+Selected 649 reflections integrated by profile or summation methods
+Removed 24 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 5 partial reflections with other partial reflections
+Excluding 21/644 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 21
+criterion: excluded for scaling, reflections: 21
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              3 |
+| decay        |              2 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+0 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+The experiment id for this dataset is 2.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 1066 predicted reflections
+Selected 1066 reflections integrated by profile or summation methods
+Removed 21 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 1 partial reflections with other partial reflections
+Excluding 20/1065 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 20
+criterion: excluded for scaling, reflections: 20
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              5 |
+| decay        |              3 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+16 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+The experiment id for this dataset is 3.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 418 predicted reflections
+Selected 418 reflections integrated by profile or summation methods
+Removed 34 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 1 partial reflections with other partial reflections
+Excluding 33/417 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 33
+criterion: excluded for scaling, reflections: 33
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              2 |
+| decay        |              2 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+0 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+The experiment id for this dataset is 4.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 840 predicted reflections
+Selected 840 reflections integrated by profile or summation methods
+Removed 26 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 5 partial reflections with other partial reflections
+Excluding 22/835 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 22
+criterion: excluded for scaling, reflections: 22
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              3 |
+| decay        |              2 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+0 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+The experiment id for this dataset is 5.
+The scaling model type being applied is physical. 
+
+Applying filter of min_isigi > -5.0, partiality > 0.25
+Read 744 predicted reflections
+Selected 744 reflections integrated by profile or summation methods
+Removed 22 reflections below partiality threshold
+Removed 0 intensity.sum.value reflections with I/Sig(I) < -5.0
+Removed 0 intensity.prf.value reflections with I/Sig(I) < -5.0
+Combined 1 partial reflections with other partial reflections
+Excluding 22/743 reflections
+Reflections passing individual criteria:
+criterion: user excluded, reflections: 22
+criterion: excluded for scaling, reflections: 22
+
+The following corrections will be applied to this dataset: 
+
++--------------+----------------+
+| correction   |   n_parameters |
+|--------------+----------------|
+| scale        |              3 |
+| decay        |              2 |
+| absorption   |             24 |
++--------------+----------------+
+Loaded error model: 
+Error model details:
+  Type: basic
+  Parameters: a = 1.00000, b = 0.02000
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 50.000
+
+A round of outlier rejection has been performed, 
+1 outliers have been identified. 
+
+Completed preprocessing and initialisation for this dataset.
+
+================================================================================
+
+Configuring a MultiScaler to handle the individual Scalers. 
+
+Determining symmetry equivalent reflections across datasets.
+
+Using all reflections (4196) for minimisation (4097 with m>1)
+Completed configuration of MultiScaler. 
+
+================================================================================
+
+Components to be refined in this cycle for all datasets: scale, decay, absorption
+Performing a round of scaling with an LBFGS minimizer. 
+
+Time taken for refinement 0.17
+
+Refinement steps:
++--------+--------+----------+
+|   Step |   Nref |   RMSD_I |
+|        |        |    (a.u) |
+|--------+--------+----------|
+|      0 |   4177 |   4.6517 |
+|      1 |   4177 |   4.6455 |
+|      2 |   4177 |   4.6334 |
+|      3 |   4177 |   4.6205 |
+|      4 |   4177 |   4.6195 |
+|      5 |   4177 |   4.6189 |
+|      6 |   4177 |   4.6176 |
+|      7 |   4177 |   4.6169 |
+|      8 |   4177 |   4.6164 |
+|      9 |   4177 |   4.6162 |
++--------+--------+----------+
+RMSD no longer decreasing
+lbfgs minimizer stop: callback_after_step is True
+
+================================================================================
+
+Scale factors determined during minimisation have now been
+applied to all datasets.
+
+Combined outlier rejection has been performed across multiple datasets, 
+80 outliers have been identified. 
+
+Performing multi-dataset profile/summation intensity optimisation.
++----------------+---------+---------+
+| Combination    |   CC1/2 |   Rmeas |
+|----------------+---------+---------|
+| prf only       | 0.99985 | 0.04113 |
+| sum only       | 0.99978 | 0.04371 |
+| Imid = 564.18  | 0.99984 | 0.04201 |
+| Imid = 7237.49 | 0.99985 | 0.04154 |
+| Imid = 723.75  | 0.99984 | 0.04195 |
+| Imid = 72.37   | 0.99984 | 0.04279 |
++----------------+---------+---------+
+Profile intensities determined to be best for scaling. 
+
+Combined outlier rejection has been performed across multiple datasets, 
+69 outliers have been identified. 
+
+Components to be refined in this cycle for all datasets: scale, decay, absorption
+Performing a round of scaling with an LBFGS minimizer. 
+
+Time taken for refinement 0.40
+
+Refinement steps:
++--------+--------+----------+
+|   Step |   Nref |   RMSD_I |
+|        |        |    (a.u) |
+|--------+--------+----------|
+|      0 |   4127 |  0.92071 |
+|      1 |   4127 |  0.91784 |
+|      2 |   4127 |  0.9105  |
+|      3 |   4127 |  0.90422 |
+|      4 |   4127 |  0.90364 |
+|      5 |   4127 |  0.90298 |
+|      6 |   4127 |  0.90204 |
+|      7 |   4127 |  0.90183 |
+|      8 |   4127 |  0.9013  |
+|      9 |   4127 |  0.90119 |
+|     10 |   4127 |  0.90103 |
+|     11 |   4127 |  0.90079 |
+|     12 |   4127 |  0.90065 |
+|     13 |   4127 |  0.90045 |
+|     14 |   4127 |  0.90032 |
+|     15 |   4127 |  0.90016 |
+|     16 |   4127 |  0.89993 |
+|     17 |   4127 |  0.89968 |
+|     18 |   4127 |  0.89941 |
+|     19 |   4127 |  0.89929 |
+|     20 |   4127 |  0.89906 |
+|     21 |   4127 |  0.89867 |
+|     22 |   4127 |  0.89841 |
+|     23 |   4127 |  0.89813 |
+|     24 |   4127 |  0.89802 |
+|     25 |   4127 |  0.89791 |
+|     26 |   4127 |  0.89786 |
++--------+--------+----------+
+RMSD no longer decreasing
+lbfgs minimizer stop: callback_after_step is True
+
+================================================================================
+
+Scale factors determined during minimisation have now been
+applied to all datasets.
+
+Combined outlier rejection has been performed across multiple datasets, 
+69 outliers have been identified. 
+
+Determining a combined error model for all datasets
+Performing a round of error model refinement.
+
+Error model details:
+  Type: basic
+  Parameters: a = 0.73769, b = 0.02939
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 46.126
+
+Results of error model refinement. Uncorrected and corrected variances
+of normalised intensity deviations for given intensity ranges. Variances
+are expected to be ~1.0 for reliable errors (sigmas).
++--------------------------+----------+------------------------+----------------------+
+| Intensity range (<Ih>)   |   n_refl |   Uncorrected variance |   Corrected variance |
+|--------------------------+----------+------------------------+----------------------|
+| 8074.21 - 805.99         |       93 |                  8.455 |                0.857 |
+| 805.99 - 579.81          |       93 |                  2.587 |                1.337 |
+| 579.81 - 437.11          |       93 |                  2.595 |                1.354 |
+| 437.11 - 351.57          |       93 |                  0.657 |                0.646 |
+| 351.57 - 293.89          |      201 |                  1.162 |                1.342 |
+| 293.89 - 151.49          |      543 |                  0.812 |                1.028 |
+| 151.49 - 78.09           |      752 |                  0.753 |                1.149 |
+| 78.09 - 40.26            |      573 |                  0.753 |                1.269 |
+| 40.26 - 10.69            |      348 |                  0.747 |                1.31  |
++--------------------------+----------+------------------------+----------------------+
+
+Components to be refined in this cycle for all datasets: scale, decay, absorption
+Performing a round of scaling with a Levenberg-Marquardt minimizer.
+
+Time taken for refinement 0.35
+
+Refinement steps:
++--------+--------+----------+
+|   Step |   Nref |   RMSD_I |
+|        |        |    (a.u) |
+|--------+--------+----------|
+|      0 |   4127 |   1.1512 |
+|      1 |   4127 |   1.1501 |
+|      2 |   4127 |   1.15   |
+|      3 |   4127 |   1.1499 |
++--------+--------+----------+
+RMSD no longer decreasing
+
+================================================================================
+
+Components to be refined in this cycle for all datasets: scale, decay, absorption
+Performing a round of scaling with a Levenberg-Marquardt minimizer.
+
+Time taken for refinement 0.18
+
+Refinement steps:
++--------+--------+----------+
+|   Step |   Nref |   RMSD_I |
+|        |        |    (a.u) |
+|--------+--------+----------|
+|      0 |   4127 |   1.1499 |
+|      1 |   4127 |   1.1499 |
++--------+--------+----------+
+RMSD no longer decreasing
+
+================================================================================
+
+Calculating error estimates of inverse scale factors. 
+
+Scale factors determined during minimisation have now been
+applied to all datasets.
+
+Combined outlier rejection has been performed across multiple datasets, 
+79 outliers have been identified. 
+
+Determining a combined error model for all datasets
+Performing a round of error model refinement.
+
+Error model details:
+  Type: basic
+  Parameters: a = 0.72443, b = 0.03040
+  Error model formula: σ'² = a²(σ² + (bI)²)
+  estimated I/sigma asymptotic limit: 45.412
+
+Results of error model refinement. Uncorrected and corrected variances
+of normalised intensity deviations for given intensity ranges. Variances
+are expected to be ~1.0 for reliable errors (sigmas).
++--------------------------+----------+------------------------+----------------------+
+| Intensity range (<Ih>)   |   n_refl |   Uncorrected variance |   Corrected variance |
+|--------------------------+----------+------------------------+----------------------|
+| 8085.53 - 815.09         |       92 |                  8.95  |                0.874 |
+| 815.09 - 579.93          |       92 |                  2.467 |                1.304 |
+| 579.93 - 438.37          |       92 |                  2.678 |                1.335 |
+| 438.37 - 354.30          |       92 |                  0.606 |                0.581 |
+| 354.30 - 294.54          |      203 |                  1.187 |                1.391 |
+| 294.54 - 151.86          |      544 |                  0.805 |                1.034 |
+| 151.86 - 78.29           |      750 |                  0.742 |                1.164 |
+| 78.29 - 40.37            |      573 |                  0.639 |                1.108 |
+| 40.37 - 10.72            |      347 |                  0.628 |                1.134 |
++--------------------------+----------+------------------------+----------------------+
+
+
+The reflection table variances have been adjusted to account for the
+uncertainty in the scaling models for all datasets
+Using median unit cell across experiments : (5.79286, 5.96635, 12.2936, 90, 90, 90)
+
+Total time taken: 1.3534s 
+
+================================================================================
+
+Warning: Over half (94.32%) of model parameters have significant
+uncertainty (sigma/abs(parameter) > 0.5), which could indicate a
+poorly-determined scaling problem or overparameterisation.
+
+Summary of dataset partialities
++------------------+----------+
+| Partiality (p)   |   n_refl |
+|------------------+----------|
+| all reflections  |     4338 |
+| p > 0.99         |     4053 |
+| 0.5 < p < 0.99   |      101 |
+| 0.01 < p < 0.5   |      123 |
+| p < 0.01         |       61 |
++------------------+----------+
+
+Reflections below a partiality_cutoff of 0.25 are not considered for any
+part of the scaling analysis or for the reporting of merging statistics.
+Additionally, if applicable, only reflections with a min_partiality > 0.25
+were considered for use when refining the scaling model.
+
+
+            ----------Merging statistics by resolution bin----------           
+
+  d_max  d_min  #obs  #uniq  mult.   %comp    <I>  <I/sI>  r_mrg  r_meas  r_pim  r_anom  cc1/2   cc_ano
+  12.30   1.92   297     52   5.71  100.00  902.6    65.2  0.019   0.021  0.008   0.015  1.000*   0.349
+   1.92   1.52   333     41   8.12  100.00  305.8    66.2  0.027   0.029  0.010   0.021  0.999*   0.352
+   1.52   1.33   394     44   8.95  100.00  188.2    57.7  0.037   0.039  0.013   0.020  0.998*  -0.236
+   1.33   1.21   375     36  10.42  100.00  138.0    52.7  0.042   0.044  0.013   0.027  0.999*   0.030
+   1.21   1.12   412     44   9.36  100.00  134.6    49.0  0.048   0.051  0.016   0.025  0.999*  -0.284
+   1.12   1.06   330     38   8.68  100.00  151.4    47.2  0.051   0.054  0.017   0.028  0.999*   0.130
+   1.06   1.00   299     38   7.87  100.00   91.7    37.5  0.062   0.066  0.023   0.051  0.997*   0.308
+   1.00   0.96   247     39   6.33  100.00   75.0    27.2  0.063   0.069  0.026   0.042  0.997*  -0.453
+   0.96   0.92   243     38   6.39  100.00   50.9    22.3  0.083   0.090  0.035   0.066  0.993*  -0.020
+   0.92   0.89   223     42   5.31  100.00   52.4    19.7  0.081   0.091  0.039   0.088  0.993*   0.072
+   0.89   0.86   157     31   5.06  100.00   62.4    21.3  0.082   0.091  0.039   0.076  0.993*   0.346
+   0.86   0.84   165     37   4.46  100.00   48.3    14.9  0.103   0.118  0.055   0.117  0.989*   0.115
+   0.84   0.82   158     37   4.27  100.00   59.9    14.4  0.085   0.097  0.045   0.109  0.996*   0.176
+   0.82   0.80   174     43   4.05  100.00   35.7    12.4  0.111   0.127  0.061   0.131  0.980*  -0.363
+   0.80   0.78   120     34   3.53   97.14   36.0    10.9  0.107   0.122  0.058   0.140  0.993*   0.390
+   0.78   0.76    79     28   2.82   93.33   33.7     8.6  0.113   0.137  0.076   0.148  0.979*   0.285
+   0.76   0.75    48     27   1.78   72.97   38.0     7.7  0.109   0.136  0.079   0.203  0.982*  -0.998
+   0.75   0.73    28     16   1.75   44.44   27.2     5.8  0.131   0.174  0.112   0.092  0.982*   0.000
+   0.73   0.72    21     12   1.75   41.38   20.6     5.0  0.134   0.155  0.077   0.204  0.984   -0.744
+   0.72   0.71    14     10   1.40   24.39   17.8     4.2  0.046   0.065  0.046   0.000  0.998*   0.000
+  12.29   0.71  4117    687   5.99   90.28  155.0    31.9  0.039   0.042  0.015   0.042  1.000*   0.021
+
+
+
+            -------------Summary of merging statistics--------------           
+
+                                             Overall    Low     High
+High resolution limit                           0.71    1.92    0.71
+Low resolution limit                           12.29   12.30    0.72
+Completeness                                   90.3   100.0    24.4
+Multiplicity                                    6.0     5.7     1.4
+I/sigma                                        31.9    65.2     4.2
+Rmerge(I)                                     0.039   0.019   0.046
+Rmerge(I+/-)                                  0.037   0.019   0.046
+Rmeas(I)                                      0.042   0.021   0.065
+Rmeas(I+/-)                                   0.042   0.021   0.065
+Rpim(I)                                       0.015   0.008   0.046
+Rpim(I+/-)                                    0.019   0.009   0.046
+CC half                                       1.000   1.000   0.998
+Anomalous completeness                         77.7   100.0        
+Anomalous multiplicity                          3.8     4.4     1.4
+Anomalous correlation                         0.021   0.349   0.000
+Anomalous slope                               1.174
+dF/F                                          0.039
+dI/s(dI)                                      0.982
+Total observations                             4117     297      14
+Total unique                                    687      52      10
+
+Writing html report data to scaling_statistics.json
+Saving the scaled experiments to scaled.expt
+Saving the scaled reflections to scaled.refl
+
+Saving output to an unmerged mtz file to scaled_unmerged.mtz.
+WARN: Experiment crystals differ. Using first experiment crystal for file-level data.
+Ignoring multiple panels in output MTZ
+Using median unit cell across experiments : (5.79286, 5.96635, 12.2936, 90, 90, 90)
+Read 4338 predicted reflections
+Selected 4117 scaled reflections
+Removed 0 intensity.scale.value reflections with I/Sig(I) < -5.0
+From dials.integrate v3.30, run on 2026-09-21 at 16:39:20 UTC
+From dials.scale v3.30, run on 2026-09-21 at 16:39:32 UTC
+Saving 4117 integrated reflections to scaled_unmerged.mtz
+Title: From None
+Total Number of Datasets = 2
+
+Dataset    0   HKL_base > HKL_base > HKL_base:
+        cell  5.79286 5.96635 12.2936      90     90     90
+  wavelength  0
+Dataset    1   DIALS > XTAL > FROMDIALS:
+        cell  5.79286 5.96635 12.2936      90     90     90
+  wavelength  0.71073
+
+Number of Columns = 17
+Number of Reflections = 4117
+Number of Batches = 616
+Missing values marked as: nan
+Global Cell (obsolete): 5.79286 5.96635 12.2936      90     90     90
+Resolution: 0.71 - 12.29 A
+Sort Order: 1 2 3 4 5
+Space Group: P 21 21 21
+Space Group Number: 19
+Header info:
+Column    Type  Dataset    Min        Max
+H            H  0            0          8
+K            H  0            0          7
+L            H  0            0         17
+M/ISYM       Y  1            1          8
+BATCH        B  1            1        808
+I            J  1     -4.18969    8119.16
+SIGI         Q  1     0.164641    181.868
+SCALEUSED    R  1     0.905179    1.13405
+SIGSCALEUSED R  1   0.00366152  0.0335704
+BG           R  1      1.62809    326.286
+SIGBG        R  1      1.43731    20.0966
+FRACTIONCALC R  1     0.251955          1
+XDET         R  1      2.13362    382.761
+YDET         R  1      2.91575    771.847
+ROT          R  1     -90.1341    74.0793
+LP           R  1    0.0151102    1.17791
+QE           R  1            1          1
+History (1 lines):
+From DIALS 3.30, run on   (2026-09-21 at 16:39:32 中国标准时间)
+Read 4338 predicted reflections
+Selected 4117 scaled reflections
+
+Writing merged data to scaled_merged.mtz
+Title: From None
+Total Number of Datasets = 2
+
+Dataset    0   HKL_base > HKL_base > HKL_base:
+        cell  5.79286 5.96635 12.2936      90     90     90
+  wavelength  0
+Dataset    1   DIALS > XTAL > NATIVE:
+        cell  5.79286 5.96635 12.2936      90     90     90
+  wavelength  0.71073
+
+Number of Columns = 21
+Number of Reflections = 687
+Number of Batches = 0
+Missing values marked as: nan
+Global Cell (obsolete): 5.79286 5.96635 12.2936      90     90     90
+Resolution: 0.71 - 12.29 A
+Sort Order: 0 0 0 0 0
+Space Group: P 21 21 21
+Space Group Number: 19
+Header info:
+Column    Type  Dataset    Min        Max
+H            H  0            0          8
+K            H  0            0          7
+L            H  0            0         17
+FreeR_flag   I  0            0         19
+IMEAN        J  1      -1.4001    8113.57
+SIGIMEAN     Q  1     0.140855    128.526
+N            I  1            1         18
+F            F  1     0.185812    89.8853
+SIGF         Q  1     0.051702   0.824439
+I(+)         K  1      -1.4001    8113.57
+SIGI(+)      M  1     0.140855    128.526
+I(-)         K  1      -1.3168    1608.03
+SIGI(-)      M  1     0.688695    19.1198
+N(+)         I  1            1         12
+N(-)         I  1            1          9
+F(+)         G  1     0.185812    89.8853
+SIGF(+)      L  1    0.0595051   0.824439
+F(-)         G  1     0.820571    40.0884
+SIGF(-)      L  1    0.0841781   0.672575
+DANO         D  1      -1.8101    1.58232
+SIGDANO      Q  1     0.107753   0.800096
+History (1 lines):
+From DIALS 3.30, run on 2026-09-22 at 00:39:32 中国标准时间  (2026-09-21 at 16:39:32 中国标准时间)
+See dials.github.io/dials_scale_user_guide.html for more info on scaling options

@@ -1,0 +1,9 @@
+已完成框架解析与精修并封存，**当前为诊断版，尚未达到临近发表级**。
+
+- 框架模型：P6/mmm，csq 拓扑；未建立孔道溶剂或客体分子。
+- 1.00 Å 截断下：R1 = 0.0853，wR2 = 0.2563。
+- 未解决：数据合并一致性较差、最终孔道掩膜未自洽收敭、节点质子化不确定及实验元数据缺失。
+
+CIF、RES、INS、HKL、FCF、FAB、计算记录和逐条验证说明已保存至 `CrystalPilot Results/task_20260921_221412/`。
+
+[查看中文总结](<H:/CrystalPilot-campaigns/scxrd-agent-eval-20260921/arena/r05_H0_nu1000/CrystalPilot Results/task_20260921_221412/SUMMARY.md>)

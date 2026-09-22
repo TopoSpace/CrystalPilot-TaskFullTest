@@ -1,0 +1,142 @@
+schema_version
+
+attempt_id
+
+target
+
+cif
+
+source
+
+checked_at
+
+execution_status
+
+report_status
+
+ok
+
+counts
+
+alerts
+
+job_dir
+
+delivery_status
+
+exit_code
+
+cleanup_complete
+
+engine
+
+shelxl_exposed
+
+runtime_path
+
+pid
+
+completion_reason
+
+elapsed_s
+
+timeout_s
+
+diagnostics
+
+delta
+
+[
+
+    {
+
+        "code":  "058",
+
+        "type":  1,
+
+        "level":  "A",
+
+        "text":  "Maximum Transmission Factor Missing ............          ?",
+
+        "kb":  {
+
+                   "meaning":  "Test for specification Tmax [0,1].",
+
+                   "remedy":  "查数据还原后的文件,比如sad.abs.从中寻找；或者在ins文件中加上命令 size a bc (abc是晶体的大小，测定时有记录在P4P文件中，有的老师可能不给你记录，你可以根据你的感观填上数值如size0.18 0.12 0.10)，然后refine一轮CIF中即有此数值。填入“_exptl_absorpt_correction_T_max”值即可。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT058》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "059",
+
+        "type":  1,
+
+        "level":  "A",
+
+        "text":  "Minimum Transmission Factor Missing ............          ?",
+
+        "kb":  {
+
+                   "meaning":  "Test for specification Tmin [0,1].",
+
+                   "remedy":  "查数据还原后的文件,比如sad.abs.从中寻找；或者在ins文件中加上命令 size a bc (abc是晶体的大小，测定时有记录在P4P文件中，有的老师可能不给你记录，你可以根据你的感观填上数值如size0.18 0.12 0.10)，然后refine一轮CIF中即有此数值。填入_exptl_absorpt_correction_T_min值即可。",
+
+                   "src":  "DJ_Tokyo CheckCIF 字典《CheckCIF-PLAT059》"
+
+               }
+
+    },
+
+    {
+
+        "code":  "699",
+
+        "type":  1,
+
+        "level":  "A",
+
+        "text":  "Missing _exptl_crystal_description Value .......     Please Do !",
+
+        "kb":  {
+
+                   "meaning":  "缺晶体外观描述 (_exptl_crystal_description)",
+
+                   "causes":  "未记录晶体形貌",
+
+                   "remedy":  "补 experiment.crystal"
+
+               }
+
+    }
+
+]
+
+
+
+Name Count
+
+---- -----
+
+A        4
+
+B        3
+
+C       19
+
+G       14
+
+A        4
+
+B        3
+
+C       19
+
+
+
+
+

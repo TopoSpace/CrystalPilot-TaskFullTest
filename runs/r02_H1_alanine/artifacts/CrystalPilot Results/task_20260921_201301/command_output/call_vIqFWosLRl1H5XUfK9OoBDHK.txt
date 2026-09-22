@@ -1,0 +1,242 @@
+.crystalpilot/frames/logs/scale.log:32:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:34:Selected 652 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:35:Removed 23 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:40:criterion: user excluded, reflections: 23
+
+.crystalpilot/frames/logs/scale.log:41:criterion: excluded for scaling, reflections: 23
+
+.crystalpilot/frames/logs/scale.log:51:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:52:Error model details:
+
+.crystalpilot/frames/logs/scale.log:55:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:58:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:68:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:70:Selected 661 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:71:Removed 19 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:76:criterion: user excluded, reflections: 19
+
+.crystalpilot/frames/logs/scale.log:77:criterion: excluded for scaling, reflections: 19
+
+.crystalpilot/frames/logs/scale.log:87:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:88:Error model details:
+
+.crystalpilot/frames/logs/scale.log:91:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:94:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:104:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:106:Selected 1079 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:107:Removed 19 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:112:criterion: user excluded, reflections: 19
+
+.crystalpilot/frames/logs/scale.log:113:criterion: excluded for scaling, reflections: 19
+
+.crystalpilot/frames/logs/scale.log:124:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:125:Error model details:
+
+.crystalpilot/frames/logs/scale.log:128:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:131:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:141:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:143:Selected 428 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:144:Removed 32 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:149:criterion: user excluded, reflections: 32
+
+.crystalpilot/frames/logs/scale.log:150:criterion: excluded for scaling, reflections: 32
+
+.crystalpilot/frames/logs/scale.log:160:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:161:Error model details:
+
+.crystalpilot/frames/logs/scale.log:164:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:167:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:177:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:179:Selected 839 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:180:Removed 18 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:185:criterion: user excluded, reflections: 18
+
+.crystalpilot/frames/logs/scale.log:186:criterion: excluded for scaling, reflections: 18
+
+.crystalpilot/frames/logs/scale.log:196:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:197:Error model details:
+
+.crystalpilot/frames/logs/scale.log:200:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:203:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:213:Applying filter of min_isigi > -5.0, partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:215:Selected 763 reflections integrated by profile or summation methods
+
+.crystalpilot/frames/logs/scale.log:216:Removed 22 reflections below partiality threshold
+
+.crystalpilot/frames/logs/scale.log:221:criterion: user excluded, reflections: 22
+
+.crystalpilot/frames/logs/scale.log:222:criterion: excluded for scaling, reflections: 22
+
+.crystalpilot/frames/logs/scale.log:232:Loaded error model: 
+
+.crystalpilot/frames/logs/scale.log:233:Error model details:
+
+.crystalpilot/frames/logs/scale.log:236:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:239:A round of outlier rejection has been performed, 
+
+.crystalpilot/frames/logs/scale.log:331:Combined outlier rejection has been performed across multiple datasets, 
+
+.crystalpilot/frames/logs/scale.log:334:Performing multi-dataset profile/summation intensity optimisation.
+
+.crystalpilot/frames/logs/scale.log:347:Combined outlier rejection has been performed across multiple datasets, 
+
+.crystalpilot/frames/logs/scale.log:416:Combined outlier rejection has been performed across multiple datasets, 
+
+.crystalpilot/frames/logs/scale.log:419:Determining a combined error model for all datasets
+
+.crystalpilot/frames/logs/scale.log:420:Performing a round of error model refinement.
+
+.crystalpilot/frames/logs/scale.log:422:Error model details:
+
+.crystalpilot/frames/logs/scale.log:425:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:428:Results of error model refinement. Uncorrected and corrected variances
+
+.crystalpilot/frames/logs/scale.log:430:are expected to be ~1.0 for reliable errors (sigmas).
+
+.crystalpilot/frames/logs/scale.log:494:Calculating error estimates of inverse scale factors. 
+
+.crystalpilot/frames/logs/scale.log:499:Combined outlier rejection has been performed across multiple datasets, 
+
+.crystalpilot/frames/logs/scale.log:502:Determining a combined error model for all datasets
+
+.crystalpilot/frames/logs/scale.log:503:Performing a round of error model refinement.
+
+.crystalpilot/frames/logs/scale.log:505:Error model details:
+
+.crystalpilot/frames/logs/scale.log:508:  Error model formula: σ'² = a²(σ² + (bI)²)
+
+.crystalpilot/frames/logs/scale.log:511:Results of error model refinement. Uncorrected and corrected variances
+
+.crystalpilot/frames/logs/scale.log:513:are expected to be ~1.0 for reliable errors (sigmas).
+
+.crystalpilot/frames/logs/scale.log:541:Summary of dataset partialities
+
+.crystalpilot/frames/logs/scale.log:543:| Partiality (p)   |   n_refl |
+
+.crystalpilot/frames/logs/scale.log:552:Reflections below a partiality_cutoff of 0.25 are not considered for any
+
+.crystalpilot/frames/logs/scale.log:554:Additionally, if applicable, only reflections with a min_partiality > 0.25
+
+.crystalpilot/frames/logs/scale.log:558:            ----------Merging statistics by resolution bin----------           
+
+.crystalpilot/frames/logs/scale.log:588:High resolution limit                           0.71    1.92    0.71
+
+.crystalpilot/frames/logs/scale.log:589:Low resolution limit                           12.30   12.30    0.72
+
+.crystalpilot/frames/logs/integrate.log:539: masked neighbouring pixels in 0 shoeboxes
+
+.crystalpilot/frames/logs/integrate.log:612:Modelling reflection profiles
+
+.crystalpilot/frames/logs/integrate.log:642:  Partial:     3
+
+.crystalpilot/frames/logs/integrate.log:651:  Partial:     5
+
+.crystalpilot/frames/logs/integrate.log:660:  Partial:     10
+
+.crystalpilot/frames/logs/integrate.log:669:  Partial:     8
+
+.crystalpilot/frames/logs/integrate.log:678:  Partial:     10
+
+.crystalpilot/frames/logs/integrate.log:687:  Partial:     9
+
+.crystalpilot/frames/logs/integrate.log:693: Summary of profile model
+
+.crystalpilot/frames/logs/integrate.log:695:|   ID |   Profile | Created   |   X (px) |   Y (px) |   Z (im) |   # reflections |
+
+.crystalpilot/frames/logs/integrate.log:765:Timing information for reference profile formation
+
+.crystalpilot/frames/logs/integrate.log:807:  Partial:     54
+
+.crystalpilot/frames/logs/integrate.log:817:  Partial:     40
+
+.crystalpilot/frames/logs/integrate.log:827:  Partial:     55
+
+.crystalpilot/frames/logs/integrate.log:837:  Partial:     52
+
+.crystalpilot/frames/logs/integrate.log:847:  Partial:     59
+
+.crystalpilot/frames/logs/integrate.log:857:  Partial:     43
+
+.crystalpilot/frames/logs/integrate.log:1487: Summary vs resolution
+
+.crystalpilot/frames/logs/integrate.log:1621:| number partially recorded             |     54    |  6    |   0    |
+
+.crystalpilot/frames/logs/integrate.log:1627:| number processed with profile fitting |    619    | 50    |   4    |
+
+.crystalpilot/frames/logs/integrate.log:1630:| number failed in profile fitting      |     44    |  4    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1633:| i/sigi (profile fitting)              |     14.57 | 47.6  |   3.35 |
+
+.crystalpilot/frames/logs/integrate.log:1646:| number partially recorded             |     40    |  4    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1652:| number processed with profile fitting |    635    | 58    |   6    |
+
+.crystalpilot/frames/logs/integrate.log:1655:| number failed in profile fitting      |     34    |  3    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1658:| i/sigi (profile fitting)              |     15.36 | 46.9  |   1.71 |
+
+.crystalpilot/frames/logs/integrate.log:1671:| number partially recorded             |     55    |  7    |   0    |
+
+.crystalpilot/frames/logs/integrate.log:1677:| number processed with profile fitting |   1054    | 86    |  10    |
+
+.crystalpilot/frames/logs/integrate.log:1680:| number failed in profile fitting      |     50    |  5    |   4    |
+
+.crystalpilot/frames/logs/integrate.log:1683:| i/sigi (profile fitting)              |     14.32 | 41.38 |   3.18 |
+
+.crystalpilot/frames/logs/integrate.log:1696:| number partially recorded             |     52    |  5    |   0    |
+
+.crystalpilot/frames/logs/integrate.log:1702:| number processed with profile fitting |    392    | 37    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1705:| number failed in profile fitting      |     41    |  6    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1708:| i/sigi (profile fitting)              |     15.82 | 47.93 |   4.74 |
+
+.crystalpilot/frames/logs/integrate.log:1721:| number partially recorded             |     63    |  6    |   2    |
+
+.crystalpilot/frames/logs/integrate.log:1727:| number processed with profile fitting |    809    | 63    |   6    |
+
+.crystalpilot/frames/logs/integrate.log:1730:| number failed in profile fitting      |     49    |  4    |   2    |
+
+.crystalpilot/frames/logs/integrate.log:1733:| i/sigi (profile fitting)              |     14.85 | 47.98 |   3.74 |
+
+.crystalpilot/frames/logs/integrate.log:1746:| number partially recorded             |     43    |  2    |   0    |
+
+.crystalpilot/frames/logs/integrate.log:1752:| number processed with profile fitting |    738    | 66    |   5    |
+
+.crystalpilot/frames/logs/integrate.log:1755:| number failed in profile fitting      |     33    |  1    |   1    |
+
+.crystalpilot/frames/logs/integrate.log:1758:| i/sigi (profile fitting)              |     14.31 | 44.72 |   2.97 |
+

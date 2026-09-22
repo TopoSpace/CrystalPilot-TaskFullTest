@@ -1,0 +1,266 @@
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst:4: +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-5- +  job                        started at 23:16:40 on 21-Sep-2026  +
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-6- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-7-
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-8- Command line parameters: job -a50000 -b3000 -c624 -g0 -m0 -t4
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-9-
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-10- -a sets the approximate maximum number of atoms including hydrogens.
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-11- -b sets the maximum number of full-matrix parameters (not used by CGLS).
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-12- For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-13- with BLOC 1. For a 32-bit version, -b times the square root of the
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-14- number of threads should not exceed about 65500. -c sets the reflection
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-15- buffer size. This depends on the CPU cache size but will rarely
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-16- need changing.
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-17-
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-18- -g sets the number of reflection groups used for calculating R_complete,
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-19- This must be greater than 1 but not greater than the total number of
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-20- reflections for refinement. -m sets the current reflection group number.
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-21- This may not be less than 1 nor greater than the number set by -g. These
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-22- command line flags override other ways of defining free-R reflections.
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-23- The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+.crystalpilot/refine/shelxl/job_20260921_231640/job.lst-24-
+
+--
+CrystalPilot Results/task_20260921_230205/final.cif:8:_audit_creation_method            'SHELXL-2019/3'
+
+CrystalPilot Results/task_20260921_230205/final.cif-9-_shelx_SHELXL_version_number      '2019/3'
+
+CrystalPilot Results/task_20260921_230205/final.cif-10-_chemical_name_systematic         ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-11-_chemical_name_common             ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-12-_chemical_melting_point           ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-13-_chemical_formula_moiety          'C3 H7 N O2'
+
+CrystalPilot Results/task_20260921_230205/final.cif-14-_chemical_formula_sum
+
+CrystalPilot Results/task_20260921_230205/final.cif-15- 'C3 H7 N O2' 
+
+CrystalPilot Results/task_20260921_230205/final.cif-16-_chemical_formula_weight          89.10
+
+CrystalPilot Results/task_20260921_230205/final.cif-17-
+
+CrystalPilot Results/task_20260921_230205/final.cif-18-loop_
+
+CrystalPilot Results/task_20260921_230205/final.cif-19- _atom_type_symbol
+
+CrystalPilot Results/task_20260921_230205/final.cif-20- _atom_type_description
+
+CrystalPilot Results/task_20260921_230205/final.cif-21- _atom_type_scat_dispersion_real
+
+CrystalPilot Results/task_20260921_230205/final.cif-22- _atom_type_scat_dispersion_imag
+
+CrystalPilot Results/task_20260921_230205/final.cif-23- _atom_type_scat_source
+
+CrystalPilot Results/task_20260921_230205/final.cif-24- 'C'  'C'   0.0033   0.0016
+
+CrystalPilot Results/task_20260921_230205/final.cif-25- 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+CrystalPilot Results/task_20260921_230205/final.cif-26- 'H'  'H'   0.0000   0.0000
+
+CrystalPilot Results/task_20260921_230205/final.cif-27- 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+CrystalPilot Results/task_20260921_230205/final.cif-28- 'N'  'N'   0.0061   0.0033
+
+--
+CrystalPilot Results/task_20260921_230205/final.cif:132:_computing_structure_refinement 'SHELXL-2019/2 (Sheldrick, 2019)'
+
+CrystalPilot Results/task_20260921_230205/final.cif-133-_computing_molecular_graphics     'CrystalPilot workbench (3Dmol.js)'
+
+CrystalPilot Results/task_20260921_230205/final.cif-134-_computing_publication_material   CrystalPilot
+
+CrystalPilot Results/task_20260921_230205/final.cif-135-_refine_special_details
+
+CrystalPilot Results/task_20260921_230205/final.cif-136-;
+
+CrystalPilot Results/task_20260921_230205/final.cif:137: Refined with the CrystalPilot autonomous refinement workbench: typed crystallographic tools (smtbx least squares) with SHELXL-2019 cross-validation; every model edit is recorded in an auditable node store.
+
+CrystalPilot Results/task_20260921_230205/final.cif-138-;
+
+CrystalPilot Results/task_20260921_230205/final.cif-139-_refine_ls_structure_factor_coef  Fsqd
+
+CrystalPilot Results/task_20260921_230205/final.cif-140-_refine_ls_matrix_type            full
+
+CrystalPilot Results/task_20260921_230205/final.cif-141-_refine_ls_weighting_scheme       calc
+
+CrystalPilot Results/task_20260921_230205/final.cif-142-_refine_ls_weighting_details
+
+CrystalPilot Results/task_20260921_230205/final.cif-143-'w=1/[\s^2^(Fo^2^)+(0.1393P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+
+CrystalPilot Results/task_20260921_230205/final.cif-144-_atom_sites_solution_primary      ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-145-_atom_sites_solution_secondary    difmap
+
+CrystalPilot Results/task_20260921_230205/final.cif-146-_atom_sites_solution_hydrogens    geom
+
+CrystalPilot Results/task_20260921_230205/final.cif-147-_refine_ls_hydrogen_treatment     constr
+
+CrystalPilot Results/task_20260921_230205/final.cif-148-_refine_ls_extinction_method      none
+
+CrystalPilot Results/task_20260921_230205/final.cif-149-_refine_ls_extinction_coef        .
+
+CrystalPilot Results/task_20260921_230205/final.cif-150-_refine_ls_abs_structure_details
+
+CrystalPilot Results/task_20260921_230205/final.cif-151-;
+
+CrystalPilot Results/task_20260921_230205/final.cif-152- Flack x determined using 346 quotients [(I+)-(I-)]/[(I+)+(I-)]
+
+CrystalPilot Results/task_20260921_230205/final.cif-153- (Parsons, Flack and Wagner, Acta Cryst. B69 (2013) 249-259).
+
+CrystalPilot Results/task_20260921_230205/final.cif-154-;
+
+CrystalPilot Results/task_20260921_230205/final.cif-155-_refine_ls_abs_structure_Flack    0.8(8)
+
+CrystalPilot Results/task_20260921_230205/final.cif-156-_chemical_absolute_configuration  ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-157-_refine_ls_number_reflns          1055
+
+--
+CrystalPilot Results/task_20260921_230205/final.cif:225: _geom_bond_atom_site_label_1
+
+CrystalPilot Results/task_20260921_230205/final.cif-226- _geom_bond_atom_site_label_2
+
+CrystalPilot Results/task_20260921_230205/final.cif-227- _geom_bond_distance
+
+CrystalPilot Results/task_20260921_230205/final.cif-228- _geom_bond_site_symmetry_2
+
+CrystalPilot Results/task_20260921_230205/final.cif-229- _geom_bond_publ_flag
+
+CrystalPilot Results/task_20260921_230205/final.cif-230-O1 C1 1.260(4) . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-231-O2 C1 1.247(4) . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-232-N1 C2 1.473(4) . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-233-N1 H1A 0.9100 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-234-N1 H1B 0.9100 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-235-N1 H1C 0.9100 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-236-C2 C1 1.530(4) . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-237-C2 C3 1.535(4) . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-238-C2 H2 1.0000 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-239-C3 H3A 0.9800 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-240-C3 H3B 0.9800 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-241-C3 H3C 0.9800 . ?
+
+CrystalPilot Results/task_20260921_230205/final.cif-242- 
+
+CrystalPilot Results/task_20260921_230205/final.cif-243-loop_
+
+CrystalPilot Results/task_20260921_230205/final.cif-244- _geom_angle_atom_site_label_1
+
+CrystalPilot Results/task_20260921_230205/final.cif-245- _geom_angle_atom_site_label_2
+
+--
+CrystalPilot Results/task_20260921_230205/final.cif:290: _geom_hbond_atom_site_label_D 
+
+CrystalPilot Results/task_20260921_230205/final.cif-291- _geom_hbond_atom_site_label_H 
+
+CrystalPilot Results/task_20260921_230205/final.cif-292- _geom_hbond_atom_site_label_A 
+
+CrystalPilot Results/task_20260921_230205/final.cif-293- _geom_hbond_distance_DH 
+
+CrystalPilot Results/task_20260921_230205/final.cif-294- _geom_hbond_distance_HA 
+
+CrystalPilot Results/task_20260921_230205/final.cif-295- _geom_hbond_distance_DA 
+
+CrystalPilot Results/task_20260921_230205/final.cif-296- _geom_hbond_angle_DHA 
+
+CrystalPilot Results/task_20260921_230205/final.cif-297- _geom_hbond_site_symmetry_A 
+
+CrystalPilot Results/task_20260921_230205/final.cif-298- _geom_hbond_publ_flag
+
+CrystalPilot Results/task_20260921_230205/final.cif-299-N1 H1A O1  0.91 1.89 2.787(3) 170.9 1_455 yes
+
+CrystalPilot Results/task_20260921_230205/final.cif-300-N1 H1B O1  0.91 1.96 2.839(3) 161.8 3_546 yes
+
+CrystalPilot Results/task_20260921_230205/final.cif-301-N1 H1C O2  0.91 1.97 2.844(3) 161.2 2_466 yes
+
+CrystalPilot Results/task_20260921_230205/final.cif-302- 
+
+CrystalPilot Results/task_20260921_230205/final.cif-303-_refine_diff_density_max    0.890
+
+CrystalPilot Results/task_20260921_230205/final.cif-304-_refine_diff_density_min   -0.762
+
+CrystalPilot Results/task_20260921_230205/final.cif-305-_refine_diff_density_rms    0.263
+
+CrystalPilot Results/task_20260921_230205/final.cif-306-
+
+CrystalPilot Results/task_20260921_230205/final.cif-307-_shelx_res_file
+
+CrystalPilot Results/task_20260921_230205/final.cif-308-;
+
+CrystalPilot Results/task_20260921_230205/final.cif-309-TITL CrystalPilot cross-check in P 21 21 21
+
+CrystalPilot Results/task_20260921_230205/final.cif-310-    job.res
+
+CrystalPilot Results/task_20260921_230205/final.cif:311:    created by SHELXL-2019/3 at 23:16:40 on 21-Sep-2026
+
+CrystalPilot Results/task_20260921_230205/final.cif-312-CELL 0.71073 5.78803 5.96863 12.29941 90.0000 90.0000 90.0000
+
+CrystalPilot Results/task_20260921_230205/final.cif-313-ZERR 4 0.00000 0.00000 0.00000 0.0000 0.0000 0.0000
+
+CrystalPilot Results/task_20260921_230205/final.cif-314-LATT -1
+
+CrystalPilot Results/task_20260921_230205/final.cif-315-SYMM X+1/2,-Y+1/2,-Z
+
+CrystalPilot Results/task_20260921_230205/final.cif-316-SYMM -X,Y+1/2,-Z+1/2
+
+CrystalPilot Results/task_20260921_230205/final.cif-317-SYMM -X+1/2,-Y,Z+1/2
+
+CrystalPilot Results/task_20260921_230205/final.cif-318-SFAC C H N O
+
+CrystalPilot Results/task_20260921_230205/final.cif-319-UNIT 12.0 28.0 4.0 8.0
+
+CrystalPilot Results/task_20260921_230205/final.cif-320-
+
+CrystalPilot Results/task_20260921_230205/final.cif-321-L.S. 12
+
+CrystalPilot Results/task_20260921_230205/final.cif-322-BOND $H
+
+CrystalPilot Results/task_20260921_230205/final.cif-323-CONF
+
+CrystalPilot Results/task_20260921_230205/final.cif-324-ACTA
+
+CrystalPilot Results/task_20260921_230205/final.cif-325-FMAP 2
+
+CrystalPilot Results/task_20260921_230205/final.cif-326-PLAN 20
+
+CrystalPilot Results/task_20260921_230205/final.cif-327-TEMP -123.1
+
+CrystalPilot Results/task_20260921_230205/final.cif-328-EQIV $1 X-1, Y, Z
+
+CrystalPilot Results/task_20260921_230205/final.cif-329-EQIV $2 -X, Y-1/2, -Z+3/2
+
+CrystalPilot Results/task_20260921_230205/final.cif-330-EQIV $3 X-1/2, -Y+3/2, -Z+1
+
+CrystalPilot Results/task_20260921_230205/final.cif-331-HTAB N1 O1_$1
+

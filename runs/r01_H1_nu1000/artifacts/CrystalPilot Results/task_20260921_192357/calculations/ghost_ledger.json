@@ -1,0 +1,594 @@
+[
+ {
+  "labels": [
+   "O00K",
+   "C00N",
+   "C017",
+   "C01A"
+  ],
+  "site_frac": [
+   [
+    0.5708,
+    0.4292,
+    0.1341
+   ],
+   [
+    0.5943,
+    0.4057,
+    0.0985
+   ],
+   [
+    0.5547,
+    0.4453,
+    -0.157
+   ],
+   [
+    0.5505,
+    0.4495,
+    0.0
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 2.06 e/A^3 peak returns at the vacated site and R1 rises by +0.0343 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.0343,
+  "peak_at_site": 2.06,
+  "baseline": "n0006",
+  "node": "n0009",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.0932,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0001",
+  "labels_upper": [
+   "O00K",
+   "C00N",
+   "C017",
+   "C01A"
+  ],
+  "timestamp": "2026-09-21T19:41:13",
+  "disposed": {
+   "O00K": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00N": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C017": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C01A": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C00M",
+   "C00V",
+   "C00X",
+   "C010",
+   "C01D",
+   "C01E"
+  ],
+  "site_frac": [
+   [
+    0.7391,
+    0.5335,
+    0.5
+   ],
+   [
+    0.7122,
+    0.4244,
+    0.5
+   ],
+   [
+    0.7192,
+    0.6214,
+    0.5
+   ],
+   [
+    0.7704,
+    0.5407,
+    0.5
+   ],
+   [
+    0.7529,
+    0.5746,
+    0.6033
+   ],
+   [
+    0.9358,
+    0.4898,
+    0.5
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.36 e/A^3 peak returns at the vacated site and R1 rises by +0.0475 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous [0.9 A from ZR01 (Zr): inside the Fourier-ripple zone of a heavy atom, where 1-2 e/A^3 features are normal - weigh the peak accordingly]",
+  "delta_r1": 0.0475,
+  "peak_at_site": 1.36,
+  "baseline": "n0006",
+  "node": "n0011",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.121,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0002",
+  "labels_upper": [
+   "C00M",
+   "C00V",
+   "C00X",
+   "C010",
+   "C01D",
+   "C01E"
+  ],
+  "timestamp": "2026-09-21T19:41:20",
+  "disposed": {
+   "C00M": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00V": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00X": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C010": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C01D": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C01E": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C00P",
+   "C00Q",
+   "C019",
+   "C01C"
+  ],
+  "site_frac": [
+   [
+    0.7688,
+    0.3844,
+    0.5
+   ],
+   [
+    0.8005,
+    0.4002,
+    0.5
+   ],
+   [
+    0.7476,
+    0.429,
+    0.5
+   ],
+   [
+    0.7809,
+    0.3905,
+    0.58
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.61 e/A^3 peak returns at the vacated site and R1 rises by +0.0180 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.018,
+  "peak_at_site": 1.61,
+  "baseline": "n0006",
+  "node": "n0013",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.07,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0003",
+  "labels_upper": [
+   "C00P",
+   "C00Q",
+   "C019",
+   "C01C"
+  ],
+  "timestamp": "2026-09-21T19:41:27",
+  "disposed": {
+   "C00P": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00Q": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C019": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C01C": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C00T",
+   "C00Z",
+   "C013"
+  ],
+  "site_frac": [
+   [
+    0.5393,
+    0.4607,
+    0.2077
+   ],
+   [
+    0.4822,
+    0.409,
+    0.1048
+   ],
+   [
+    0.5474,
+    0.4526,
+    0.1253
+   ]
+  ],
+  "verdict": "inconclusive",
+  "reason": "R1 rises by +0.0065 but only 0.88 e/A^3 returns at the site: the atom was absorbing density that is not localised there (disorder, wrong position, a neighbour's ADP) - inspect_map around the neighbours before deciding",
+  "delta_r1": 0.0065,
+  "peak_at_site": 0.88,
+  "baseline": "n0006",
+  "node": "n0015",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.0884,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0004",
+  "labels_upper": [
+   "C00T",
+   "C00Z",
+   "C013"
+  ],
+  "timestamp": "2026-09-21T19:41:34",
+  "disposed": {}
+ },
+ {
+  "labels": [
+   "C011",
+   "C014",
+   "C01B"
+  ],
+  "site_frac": [
+   [
+    0.962,
+    0.924,
+    0.5
+   ],
+   [
+    0.9302,
+    0.8603,
+    0.5978
+   ],
+   [
+    0.9268,
+    0.8535,
+    0.7277
+   ]
+  ],
+  "verdict": "inconclusive",
+  "reason": "peak 0.82 e/A^3 between the fences with R1 +0.0010: borderline - read the map and the chemistry, do not decide on this number alone",
+  "delta_r1": 0.001,
+  "peak_at_site": 0.82,
+  "baseline": "n0006",
+  "node": "n0017",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.0602,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0005",
+  "labels_upper": [
+   "C011",
+   "C014",
+   "C01B"
+  ],
+  "timestamp": "2026-09-21T19:41:41",
+  "disposed": {}
+ },
+ {
+  "labels": [
+   "C00O"
+  ],
+  "site_frac": [
+   [
+    0.6282,
+    0.6282,
+    0.4643
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.20 e/A^3 peak returns at the vacated site and R1 rises by +0.0264 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.0264,
+  "peak_at_site": 1.2,
+  "baseline": "n0006",
+  "node": "n0019",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": false,
+  "expected_delta_r1_if_real": 0.0269,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0006",
+  "labels_upper": [
+   "C00O"
+  ],
+  "timestamp": "2026-09-21T19:41:48",
+  "disposed": {
+   "C00O": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C00R",
+   "C00Y"
+  ],
+  "site_frac": [
+   [
+    0.5948,
+    0.672,
+    0.0
+   ],
+   [
+    0.5862,
+    0.6422,
+    0.0657
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.63 e/A^3 peak returns at the vacated site and R1 rises by +0.0453 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.0453,
+  "peak_at_site": 1.63,
+  "baseline": "n0006",
+  "node": "n0021",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.07,
+  "r1_fence_informative": true,
+  "real_kind_hint": "atom_like",
+  "id": "g0007",
+  "labels_upper": [
+   "C00R",
+   "C00Y"
+  ],
+  "timestamp": "2026-09-21T19:41:55",
+  "disposed": {
+   "C00R": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00Y": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C00S",
+   "C00U"
+  ],
+  "site_frac": [
+   [
+    0.7042,
+    0.5606,
+    0.5
+   ],
+   [
+    0.665,
+    0.5848,
+    0.5
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.17 e/A^3 peak returns at the vacated site and R1 rises by +0.0123 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.0123,
+  "peak_at_site": 1.17,
+  "baseline": "n0006",
+  "node": "n0023",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.0498,
+  "r1_fence_informative": true,
+  "real_kind_hint": "atom_like",
+  "id": "g0008",
+  "labels_upper": [
+   "C00S",
+   "C00U"
+  ],
+  "timestamp": "2026-09-21T19:42:02",
+  "disposed": {
+   "C00S": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   },
+   "C00U": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "C016",
+   "C018"
+  ],
+  "site_frac": [
+   [
+    1.0,
+    1.0,
+    0.1304
+   ],
+   [
+    1.0,
+    1.0,
+    0.7099
+   ]
+  ],
+  "verdict": "inconclusive",
+  "reason": "a 2.33 e/A^3 peak returns but R1 moves only +0.0008: real but low-weight density (partial occupancy, H-like, or a termination ripple)",
+  "delta_r1": 0.0008,
+  "peak_at_site": 2.33,
+  "baseline": "n0006",
+  "node": "n0025",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": true,
+  "expected_delta_r1_if_real": 0.0095,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0009",
+  "labels_upper": [
+   "C016",
+   "C018"
+  ],
+  "timestamp": "2026-09-21T19:42:10",
+  "disposed": {}
+ },
+ {
+  "labels": [
+   "C00W"
+  ],
+  "site_frac": [
+   [
+    1.0,
+    1.0,
+    0.0272
+   ]
+  ],
+  "verdict": "real",
+  "reason": "a 1.11 e/A^3 peak returns at the vacated site and R1 rises by +0.0023 (>= 0.002): the density is real - give it a chemical identity (guest solvent, disorder component, missing framework atom) or absorb it in the solvent mask; never keep it anonymous",
+  "delta_r1": 0.0023,
+  "peak_at_site": 1.11,
+  "baseline": "n0006",
+  "node": "n0027",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": false,
+  "expected_delta_r1_if_real": 0.0049,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0010",
+  "labels_upper": [
+   "C00W"
+  ],
+  "timestamp": "2026-09-21T19:42:17",
+  "disposed": {
+   "C00W": {
+    "text": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。",
+    "timestamp": "2026-09-21T19:43:47"
+   }
+  },
+  "disposition": "deleted by edit_atoms with acknowledge_real: 建立用户要求的纯框架候选：这30个SHELXT额外位点不属于已匹配的C44O8配体或Zr-O簇，初始多处0.75-1.19 A非化学短接触，数值精修漂移且多处Ueq达0.7-2 A2。ghost_test的7组real和5组inconclusive不解释为密度不存在；承认其孔道/未识别散射真实或未决，保留n0006及全部诊断分支。此处撤除错误的离散原子表示，不为降R，不删除框架原子；随后保存无掩膜基线并以孔道散射掩膜候选比较，不指认客体或溶剂分子。"
+ },
+ {
+  "labels": [
+   "O012"
+  ],
+  "site_frac": [
+   [
+    0.6437,
+    0.6437,
+    0.2396
+   ]
+  ],
+  "verdict": "inconclusive",
+  "reason": "R1 rises by +0.0119 but only 0.98 e/A^3 returns at the site: the atom was absorbing density that is not localised there (disorder, wrong position, a neighbour's ADP) - inspect_map around the neighbours before deciding",
+  "delta_r1": 0.0119,
+  "peak_at_site": 0.98,
+  "baseline": "n0006",
+  "node": "n0029",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": false,
+  "expected_delta_r1_if_real": 0.0449,
+  "r1_fence_informative": true,
+  "real_kind_hint": "atom_like",
+  "id": "g0011",
+  "labels_upper": [
+   "O012"
+  ],
+  "timestamp": "2026-09-21T19:42:24",
+  "disposed": {}
+ },
+ {
+  "labels": [
+   "O015"
+  ],
+  "site_frac": [
+   [
+    0.6667,
+    0.3333,
+    0.1386
+   ]
+  ],
+  "verdict": "inconclusive",
+  "reason": "R1 rises by +0.0023 but only 0.96 e/A^3 returns at the site: the atom was absorbing density that is not localised there (disorder, wrong position, a neighbour's ADP) - inspect_map around the neighbours before deciding",
+  "delta_r1": 0.0023,
+  "peak_at_site": 0.96,
+  "baseline": "n0006",
+  "node": "n0031",
+  "reference_r1": 0.1279,
+  "engine": "shelxl",
+  "cycles": 6,
+  "group": false,
+  "expected_delta_r1_if_real": 0.0165,
+  "r1_fence_informative": true,
+  "real_kind_hint": "possibly_non_atomic",
+  "id": "g0012",
+  "labels_upper": [
+   "O015"
+  ],
+  "timestamp": "2026-09-21T19:42:31",
+  "disposed": {}
+ }
+]

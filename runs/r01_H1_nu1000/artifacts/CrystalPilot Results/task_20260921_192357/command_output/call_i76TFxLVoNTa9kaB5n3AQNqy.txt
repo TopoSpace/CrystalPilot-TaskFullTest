@@ -1,0 +1,80 @@
+
+
+
+
+checkcif_hkl                         : {-4, 34, 3}
+
+canonical_hkl                        : {30, 4, 3}
+
+d_A                                  : 1.0358322289038084
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+checkcif_hkl                         : {-1, 26, 7}
+
+canonical_hkl                        : {25, 1, 7}
+
+d_A                                  : 1.1603124010003882
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+checkcif_hkl                         : {0, 1, 0}
+
+canonical_hkl                        : {1, 0, 0}
+
+d_A                                  : 33.93953557431214
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+checkcif_hkl                         : {-1, 2, 0}
+
+canonical_hkl                        : {1, 1, 0}
+
+d_A                                  : 19.595000000000002
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+checkcif_hkl                         : {0, 2, 0}
+
+canonical_hkl                        : {2, 0, 0}
+
+d_A                                  : 16.96976778715607
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+checkcif_hkl                         : {0, 0, 1}
+
+canonical_hkl                        : {0, 0, 1}
+
+d_A                                  : 16.609999999999996
+
+raw_symmetry_equivalent_observations : 0
+
+in_fcf                               : False
+
+
+
+
+
+
+

@@ -1,0 +1,1053 @@
+{
+  "source": "H:\\CrystalPilot-campaigns\\usertest\\test-alanine\\alanine\\CCDC_2360269",
+  "staged_to": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\staging\\alanine\\inputs\\alanine",
+  "staged_at": "2026-09-21T19:01:00+0800",
+  "kept_files": 770,
+  "kept_bytes": 109533924,
+  "excluded_files": 206,
+  "excluded_bytes": 89341222,
+  "copy_hash_mismatches": [],
+  "source_folder_name_note": "the source folder is named after a CCDC deposition number; the staged copy is named alanine so the number is not exposed to participants",
+  "keep_rationale": {
+    "frames/": "raw diffraction frames (.rodhypix) and the crystal snapshots taken during collection",
+    ".par": "CrysAlisPro parameter file: instrument geometry, goniometer and detector calibration used for collection (also carries the indexing cell; kept because the vendor reader may need it)",
+    ".run": "run list: scan definitions actually collected",
+    "expinfo/": "experiment settings written at collection time (sample formula, crystal description, data-collection strategy, coverage)",
+    "kaboom/": "instrument collision models (geometry only)",
+    ".ccd|.modulegeo|.CAP_shape|.acc|.ini|.lock|.sel_od|.sum|.runbup|.bup": "instrument and detector calibration, crystal-shape and accessory definitions, collection summaries",
+    "movie/": "crystal video recorded during centring",
+    "bup/": "backups of the run list and crystal-shape files made during collection"
+  },
+  "excluded": [
+    {
+      "path": "expinfo/pgw240033_Mo_auto_datared.ini_report",
+      "size": 16082,
+      "reason": "data-reduction settings/report: record the selected space group and reduction parameters"
+    },
+    {
+      "path": "expinfo/pgw240033_Mo_datared.ini",
+      "size": 16082,
+      "reason": "data-reduction settings/report: record the selected space group and reduction parameters"
+    },
+    {
+      "path": "expinfo/struct_alias_db.ini",
+      "size": 173,
+      "reason": "structure alias database entry created by the reduction workflow"
+    },
+    {
+      "path": "log/crysalispro_ccdLOGFri-Feb-09-12-00-39-2024.txt",
+      "size": 21194,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_ccdLOGFri-Feb-09-12-01-40-2024.txt",
+      "size": 26206,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_redLOGFri-Feb-09-12-00-39-2024.txt",
+      "size": 0,
+      "reason": "CrysAlisPro data-reduction log: contains the automatic space-group determination and merging statistics"
+    },
+    {
+      "path": "log/crysalispro_redLOGFri-Feb-09-12-01-40-2024.txt",
+      "size": 3006583,
+      "reason": "CrysAlisPro data-reduction log: contains the automatic space-group determination and merging statistics"
+    },
+    {
+      "path": "log/crysalispro_redLOGFri-Feb-09-12-49-31-2024.txt",
+      "size": 73219,
+      "reason": "CrysAlisPro data-reduction log: contains the automatic space-group determination and merging statistics"
+    },
+    {
+      "path": "log/crysalispro_redLOGFri-Feb-09-13-20-47-2024.txt",
+      "size": 3799,
+      "reason": "CrysAlisPro data-reduction log: contains the automatic space-group determination and merging statistics"
+    },
+    {
+      "path": "log/crysalispro_userLOGFri-Feb-09-12-00-39-2024.txt",
+      "size": 43,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_userLOGFri-Feb-09-12-01-40-2024.txt",
+      "size": 229,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_userLOGFri-Feb-09-12-49-31-2024.txt",
+      "size": 509,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_userLOGFri-Feb-09-12-49-32-2024.txt",
+      "size": 847,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "log/crysalispro_userLOGFri-Feb-09-13-20-48-2024.txt",
+      "size": 1461,
+      "reason": "CrysAlisPro operator and instrument session logs: contain the reduction commands issued at the instrument"
+    },
+    {
+      "path": "original/pgw240033_Mo_peakhunt.tabbin",
+      "size": 233586,
+      "reason": "peak-hunt and profile-fit tables: outputs of processing, not acquisition metadata"
+    },
+    {
+      "path": "original/pgw240033_Mo_proffitpeak.tabbin",
+      "size": 490786,
+      "reason": "peak-hunt and profile-fit tables: outputs of processing, not acquisition metadata"
+    },
+    {
+      "path": "original/pre_pgw240033_Mo_peakhunt.tabbin",
+      "size": 13986,
+      "reason": "peak-hunt and profile-fit tables: outputs of processing, not acquisition metadata"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_absscale.dat",
+      "size": 12910,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_chi2am.dat",
+      "size": 3971,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_chi2bm.dat",
+      "size": 3971,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_lattice.dat",
+      "size": 55386,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_latticeperrun.dat",
+      "size": 162,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_predictaccuracyvsframe.dat",
+      "size": 30122,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_predictaccuracyvsframecycle1.dat",
+      "size": 30122,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_predictaccuracyvstheta.dat",
+      "size": 2466,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_profilecorrframe.dat",
+      "size": 14544,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_profilecorrint.dat",
+      "size": 1122,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_profilecorrlorentz.dat",
+      "size": 1126,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_profilecorrres.dat",
+      "size": 1122,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_profiles.dat",
+      "size": 24587,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_refinedsubmodels.dat",
+      "size": 56008,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_resolutionstats.dat",
+      "size": 696,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_auto_rint.dat",
+      "size": 15984,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_fa_chi2am.dat",
+      "size": 3971,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "plots_red/pgw240033_Mo_fa_chi2bm.dat",
+      "size": 3971,
+      "reason": "data-reduction plots (Rint, lattice, profile fitting): derived results of a completed reduction"
+    },
+    {
+      "path": "tmp/pgw240033_Mo.pcorr",
+      "size": 120900,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo.profinc",
+      "size": 1044,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo.resume",
+      "size": 13916,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_1.inc",
+      "size": 6904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_1.pcorr",
+      "size": 17988,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_1.rrpprof",
+      "size": 65624,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_1.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_2.inc",
+      "size": 7084,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_2.pcorr",
+      "size": 18404,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_2.rrpprof",
+      "size": 66820,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_2.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_3.inc",
+      "size": 12104,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_3.pcorr",
+      "size": 29572,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_3.rrpprof",
+      "size": 98928,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_3.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_4.inc",
+      "size": 4404,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_4.pcorr",
+      "size": 11140,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_4.rrpprof",
+      "size": 45936,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_4.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_5.inc",
+      "size": 9904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_5.pcorr",
+      "size": 22660,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_5.rrpprof",
+      "size": 79056,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_5.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_6.inc",
+      "size": 8424,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_6.pcorr",
+      "size": 21156,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_6.rrpprof",
+      "size": 74732,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_6.rrpprofinfo",
+      "size": 3448,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_1_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_1_18.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_1_43.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_1_68.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_2_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_2_26.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_2_43.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_101.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_126.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_25.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_51.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_75.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_3_76.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_4_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_4_9.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_17.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_42.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_51.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_67.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_5_92.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_6_1.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_6_26.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_6_51.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_backsig_6_59.img",
+      "size": 626688,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_1.img",
+      "size": 2489856,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_18.img",
+      "size": 2491904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_18.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_43.img",
+      "size": 2492928,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_43.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_68.img",
+      "size": 2243584,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_1_68.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_1.img",
+      "size": 2491392,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_26.img",
+      "size": 2495488,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_26.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_43.img",
+      "size": 2500096,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_2_43.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_1.img",
+      "size": 2497536,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_101.img",
+      "size": 2502656,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_101.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_126.img",
+      "size": 2250752,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_126.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_25.img",
+      "size": 2501120,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_25.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_51.img",
+      "size": 2501632,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_51.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_75.img",
+      "size": 2503680,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_75.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_76.img",
+      "size": 2502656,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_3_76.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_4_1.img",
+      "size": 2512896,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_4_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_4_9.img",
+      "size": 2511360,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_4_9.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_1.img",
+      "size": 2491904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_17.img",
+      "size": 2491904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_17.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_42.img",
+      "size": 2494976,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_42.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_51.img",
+      "size": 2494464,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_51.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_67.img",
+      "size": 2491904,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_67.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_92.img",
+      "size": 2242048,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_5_92.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_1.img",
+      "size": 2496512,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_1.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_26.img",
+      "size": 2496000,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_26.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_51.img",
+      "size": 2493952,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_51.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_59.img",
+      "size": 2494976,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_back_6_59.rpb",
+      "size": 88694,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_1.dat",
+      "size": 8194,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_2.dat",
+      "size": 8194,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_3.dat",
+      "size": 13407,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_4.dat",
+      "size": 5168,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_5.dat",
+      "size": 10347,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_lattice_6.dat",
+      "size": 9627,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_1.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_1.tabbin",
+      "size": 35786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_2.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_2.tabbin",
+      "size": 39986,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_3.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_3.tabbin",
+      "size": 59186,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_4.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_4.tabbin",
+      "size": 24586,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_5.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_5.tabbin",
+      "size": 46786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_6.rphi",
+      "size": 114,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_peakhunt_6.tabbin",
+      "size": 41186,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_1.dat",
+      "size": 4446,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_2.dat",
+      "size": 4446,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_3.dat",
+      "size": 7230,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_4.dat",
+      "size": 2814,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_5.dat",
+      "size": 5598,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframecycle1_6.dat",
+      "size": 5214,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_1.dat",
+      "size": 4446,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_2.dat",
+      "size": 4446,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_3.dat",
+      "size": 7230,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_4.dat",
+      "size": 2814,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_5.dat",
+      "size": 5598,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvsframe_6.dat",
+      "size": 5214,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_1.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_2.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_3.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_4.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_5.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_predictaccuracyvstheta_6.ppc2",
+      "size": 2842,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_1.rpi",
+      "size": 88920,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_1.tabbin",
+      "size": 71786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_2.rpi",
+      "size": 88920,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_2.tabbin",
+      "size": 73586,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_3.rpi",
+      "size": 142280,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_3.tabbin",
+      "size": 123786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_4.rpi",
+      "size": 57640,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_4.tabbin",
+      "size": 46786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_5.rpi",
+      "size": 111000,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_5.tabbin",
+      "size": 101786,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_6.rpi",
+      "size": 103640,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_proffitpeak_6.tabbin",
+      "size": 86986,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_1.dat",
+      "size": 3596,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_2.dat",
+      "size": 3596,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_3.dat",
+      "size": 5909,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_4.dat",
+      "size": 2270,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_5.dat",
+      "size": 4549,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_profiles_6.dat",
+      "size": 4229,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_1.dat",
+      "size": 8292,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_2.dat",
+      "size": 8292,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_3.dat",
+      "size": 13563,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_4.dat",
+      "size": 5232,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_5.dat",
+      "size": 10469,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/pgw240033_Mo_refinedsubmodels_6.dat",
+      "size": 9741,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    },
+    {
+      "path": "tmp/csdsearches_Rigaku/csdaliases.ini",
+      "size": 325,
+      "reason": "CSD cell-check results: list the deposited structures matching the cell, with formula and space group"
+    },
+    {
+      "path": "tmp/csdsearches_Rigaku/pgw240033_Mo_csd_q01.xml",
+      "size": 495,
+      "reason": "CSD cell-check results: list the deposited structures matching the cell, with formula and space group"
+    },
+    {
+      "path": "tmp/csdsearches_Rigaku/pgw240033_Mo_csd_q02.xml",
+      "size": 495,
+      "reason": "CSD cell-check results: list the deposited structures matching the cell, with formula and space group"
+    },
+    {
+      "path": "tmp/csdsearches_Rigaku/pgw240033_Mo_csd_r01.xml",
+      "size": 39732,
+      "reason": "CSD cell-check results: list the deposited structures matching the cell, with formula and space group"
+    },
+    {
+      "path": "tmp/csdsearches_Rigaku/pgw240033_Mo_csd_r02.xml",
+      "size": 39098,
+      "reason": "CSD cell-check results: list the deposited structures matching the cell, with formula and space group"
+    },
+    {
+      "path": "tmp/original_run/pgw240033_Mo.run",
+      "size": 2016,
+      "reason": "data-reduction intermediates (background images, profile tables, incident/polarisation corrections, resume files)"
+    }
+  ]
+}

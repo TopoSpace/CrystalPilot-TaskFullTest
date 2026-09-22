@@ -1,0 +1,91 @@
+{
+  "observations": 337815,
+  "unique": 11289,
+  "invalid_lines": 0,
+  "hkl_extent": [
+    56,
+    56,
+    24
+  ],
+  "d_min": 0.6910782904312252,
+  "d_max": 14.919155672359999,
+  "multiplicity": 29.9242625564709,
+  "completeness_to_measured_dmin": 0.8816087465833659,
+  "possible_unique_within_measured_index_box": 12805,
+  "rint": 0.6297962609280785,
+  "r_weighted_equivalent_chi2": 0.9824432799934304,
+  "positive": 6777,
+  "observed_gt_2sig": 2104,
+  "shells": [
+    {
+      "d_min": 0,
+      "d_max": 0.8,
+      "unique": 3045,
+      "observations": 41924,
+      "mean_i_sigma": -0.003967574502656669,
+      "rint": 0.9693243364547413
+    },
+    {
+      "d_min": 0.8,
+      "d_max": 1,
+      "unique": 3849,
+      "observations": 137557,
+      "mean_i_sigma": -0.047267035286595475,
+      "rint": 0.9839179439918221
+    },
+    {
+      "d_min": 1,
+      "d_max": 1.2,
+      "unique": 1787,
+      "observations": 65183,
+      "mean_i_sigma": 1.1181861950517071,
+      "rint": 0.9256117182478617
+    },
+    {
+      "d_min": 1.2,
+      "d_max": 1.5,
+      "unique": 1223,
+      "observations": 45299,
+      "mean_i_sigma": 2.5356964198235907,
+      "rint": 0.7656398780186208
+    },
+    {
+      "d_min": 1.5,
+      "d_max": 2,
+      "unique": 766,
+      "observations": 27214,
+      "mean_i_sigma": 8.60776629580919,
+      "rint": 0.34616944725709975
+    },
+    {
+      "d_min": 2,
+      "d_max": 3,
+      "unique": 417,
+      "observations": 14213,
+      "mean_i_sigma": 13.801018820649592,
+      "rint": 0.1939654326332469
+    },
+    {
+      "d_min": 3,
+      "d_max": 5,
+      "unique": 151,
+      "observations": 5137,
+      "mean_i_sigma": 20.36799261058463,
+      "rint": 0.11494886798904473
+    },
+    {
+      "d_min": 5,
+      "d_max": 100,
+      "unique": 51,
+      "observations": 1288,
+      "mean_i_sigma": 23.35434580694688,
+      "rint": 0.09302708763806304
+    }
+  ],
+  "seconds": 1.7797703742980957,
+  "input_sha256": {
+    "start.hkl": "52e803152c644abbfc5a52d70ce90998b439efafec3922a15e4b7a461d8f2614",
+    "start.ins": "f89c0cfbf199126ad800d146a6d1ef66cee594a537258245600056bad11207fb",
+    "synthesis.png": "942b46860d0bf98be956c5ec33b731bcc03c836d37a470f95e8abaad31c0cc9f"
+  }
+}

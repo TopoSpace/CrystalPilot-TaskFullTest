@@ -1,0 +1,14 @@
+[
+  {
+    "trial": 0,
+    "loss": 0.028915162239856223,
+    "nfev": 350,
+    "message": "Optimization terminated successfully."
+  },
+  {
+    "trial": 1,
+    "loss": 0.015729397182941727,
+    "nfev": 363,
+    "message": "Optimization terminated successfully."
+  }
+]

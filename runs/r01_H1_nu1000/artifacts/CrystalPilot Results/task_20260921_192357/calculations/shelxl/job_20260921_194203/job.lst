@@ -1,0 +1,1153 @@
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  job                        started at 19:42:03 on 21-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: job -a50000 -b3000 -c624 -g0 -m0 -t4
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running  4 threads on  4 processors
+
+ TITL CrystalPilot cross-check in P 6/m m m
+ CELL 0.68883 39.19000 39.19000 16.61000 90.0000 90.0000 120.0000
+ ZERR 24 0.00000 0.00000 0.00000 0.0000 0.0000 0.0000
+ LATT 1
+ SYMM X-Y,X,Z
+ SYMM Y,-X+Y,Z
+ SYMM -Y,X-Y,Z
+ SYMM -X+Y,-X,Z
+ SYMM X-Y,-Y,-Z
+ SYMM -X,-X+Y,-Z
+ SYMM -X,-Y,Z
+ SYMM Y,X,-Z
+ SYMM -Y,-X,-Z
+ SYMM -X+Y,Y,-Z
+ SYMM X,X-Y,-Z
+ SFAC C O Zr
+ REM DISP lambda 0.68883 A is not a SHELXL built-in line (Cu/Mo/Ag K-alpha):
+ REM DISP f'/f'' from cctbx (sasaki: C O Zr), mu = NIST attenuation in
+ REM DISP barn/atom
+ DISP $C 0.002 0.002 10.99
+ DISP $O 0.007 0.006 30.28
+ DISP $Zr -9.041 2.772 14341.91
+ UNIT 554.0 124.0 18.0
+
+ V =    22092.79     F(000) =    5036.0     Mu =   1.21 mm-1      Cell Wt =    10279.50    Rho =  0.773
+
+  
+ L.S. 6
+ BOND $H
+ CONF
+ ACTA
+ FMAP 2
+ PLAN 20
+  
+ SHEL 999 1.000
+  
+ WGHT 0.100000 0.000000
+ FVAR 0.05146
+ ZR01  3   0.463835   0.536165   0.500000    10.25000     0.08664     0.08664 =
+       0.06685     0.00000     0.00000     0.05480
+ ZR02  3   0.544739   0.544739   0.393713    10.50000     0.09267     0.09267 =
+       0.08406     0.01368     0.01368     0.05893
+ O003  2   0.481260   0.586428   0.581178    11.00000     0.10557     0.10794 =
+       0.09354    -0.00310    -0.00431     0.07257
+ O004  2   0.533910   0.592828   0.649892    11.00000     0.11516     0.11937 =
+       0.12307    -0.04070    -0.02921     0.07170
+ O005  2   0.526661   0.562541   0.500000    10.50000     0.11986     0.22399 =
+       0.10875     0.00000     0.00000     0.11536
+ O006  2   0.538267   0.538267   0.262137    10.50000     0.20326     0.20326 =
+       0.08732     0.02037     0.02037     0.15809
+ O007  2   0.601029   0.601029   0.411655    10.50000     0.09298     0.09298 =
+       0.28254     0.00827     0.00827     0.04372
+ O008  2   0.517261   0.482739   0.393078    10.50000     0.11772     0.11772 =
+       0.15113     0.02723    -0.02723     0.06194
+ C009  1   0.507829   0.601595   0.634113    11.00000     0.10372     0.11140 =
+       0.10641     0.00263    -0.00793     0.07074
+ C00A  1   0.505000   0.689858   0.780162    11.00000     0.24770     0.11311 =
+       0.08676     0.00284    -0.00561     0.12755
+ O00B  1   0.477256   0.641379   0.673598    11.00000     0.16177     0.11845 =
+       0.11398    -0.02339    -0.01098     0.10202
+ C00C  1   0.507310   0.632652   0.686587    11.00000     0.15077     0.09777 =
+       0.10975    -0.01910    -0.01615     0.08440
+ O00D  1   0.474660   0.669158   0.722752    11.00000     0.21671     0.12802 =
+       0.10392    -0.03247    -0.03446     0.10925
+ C00E  1   0.504988   0.721803   0.831666    11.00000     0.22633     0.11231 =
+       0.09659    -0.02486    -0.01495     0.11723
+ O00F  1   0.504581   0.752290   0.787581    10.50000     0.21512     0.08984 =
+       0.14596    -0.02337    -0.04673     0.10756
+ O00G  1   0.538043   0.652445   0.741619    11.00000     0.18213     0.11087 =
+       0.10030    -0.04160    -0.03651     0.08159
+ C00H  1   0.504574   0.721260   0.914200    11.00000     0.25236     0.11525 =
+       0.05850    -0.01455    -0.00667     0.10534
+ C00I  1   0.502754   0.751377   0.957567    10.50000     0.28108     0.11800 =
+       0.07482    -0.01165    -0.02329     0.14054
+ O00J  1   0.537833   0.681877   0.791031    11.00000     0.25611     0.12728 =
+       0.11027    -0.00340    -0.01521     0.13210
+ O00K  2   0.570754   0.429246   0.134123    10.50000     0.29240
+ O00L  1   0.504724   0.687496   0.958527    11.00000     0.27992     0.15238 =
+       0.08608     0.01881     0.01344     0.14499
+ C00M  1   0.739087   0.533480   0.500000    10.50000     0.27481
+ C00N  1   0.594346   0.405654   0.098508    10.50000     0.20372
+ C00O  1   0.628239   0.628239   0.464327    10.50000     0.90775
+ C00P  1   0.768763   0.384381   0.500000    10.25000     0.59848
+ C00Q  1   0.800483   0.400241   0.500000    10.25000     0.41081
+ C00R  1   0.594771   0.672025   0.000000    10.50000     0.33543
+ C00S  1   0.704197   0.560648   0.500000    10.50000     0.39336
+ C00T  1   0.539253   0.460747   0.207711    10.50000     0.39239
+ C00U  1   0.664960   0.584773   0.500000    10.50000     0.44759
+ C00V  1   0.712205   0.424409   0.500000    10.25000     0.08805
+ C00W  1   1.000000   1.000000   0.027156    10.08333     0.30203
+ C00X  1   0.719243   0.621423   0.500000    10.50000     1.34362
+ C00Y  1   0.586186   0.642208   0.065737    11.00000     0.85501
+ C00Z  1   0.482216   0.408973   0.104805    11.00000     0.73624
+ C010  1   0.770363   0.540727   0.500000    10.25000     0.54652
+ C011  1   0.961978   0.923956   0.500000    10.25000     1.31055
+ O012  2   0.643731   0.643731   0.239579    10.50000     0.64257
+ C013  1   0.547432   0.452568   0.125261    10.50000     1.91423
+ C014  1   0.930166   0.860332   0.597830    10.50000     1.29521
+ O015  2   0.666667   0.333333   0.138550    10.16667     1.05749
+ C017  1   0.554718   0.445282  -0.156960    10.50000     1.25031
+ C019  1   0.747620   0.428955   0.500000    10.50000     0.92122
+ C01A  1   0.550493   0.449507   0.000000    10.25000     1.37690
+ C01B  1   0.926752   0.853505   0.727727    10.50000     1.21103
+ C01C  1   0.780922   0.390461   0.579990    10.50000     1.37023
+ C01D  1   0.752868   0.574630   0.603303    11.00000     0.73173
+ C01E  1   0.935847   0.489832   0.500000    10.50000     1.56576
+ HKLF 4
+
+
+
+ Covalent radii and connectivity table for  CrystalPilot cross-check in P 6/m m m                                      
+ C      0.770
+ O      0.660
+ ZR     1.590
+
+ Zr01 - C01E_$13 C01E_$14 O005_$5 O005 O008_$3 O008_$1 O003_$4 O003_$6 O003_$5 O003 Zr02_$4 Zr02_$3
+ Zr02 - O008_$3 O008 O005 O005_$7 O006 O007 O004_$7 O004_$4 Zr01_$1 Zr01 Zr02_$3 Zr02_$4
+ O003 - C009 Zr01
+ O004 - C009 Zr02_$4
+ O005 - C01E_$13 Zr01 Zr02_$4 Zr02
+ O006 - Zr02
+ O007 - C00O Zr02
+ O008 - Zr02 Zr02_$3 Zr01_$1
+ C009 - O004 O003 C00C
+ C00A - O00D O00J C00E
+ O00B - C00C O00D
+ C00C - O00B O00G C009
+ O00D - O00B C00A
+ C00E - C00H O00F C00A
+ O00F - C00E C00E_$8
+ O00G - C00C O00J
+ C00H - C00E C00I O00L
+ C00I - C00I_$9 C00H_$8 C00H
+ O00J - O00G C00A
+ O00K - C017_$10 C013 C00N
+ O00L - O00L_$9 C00H
+ C00M - C010
+ C00N - O00K
+ C00O - C00O_$4 O007
+ C00P - C00Q C01C_$4 C01C
+ C00Q - C00P C01C_$4 C01C
+ C00R - C00Y_$10 C00Y
+ C00S - no bonds found
+ C00T - C017_$10 C013
+ C00U - C00X
+ C00V - C019 C019_$11
+ C00W - C00W_$12
+ C00X - C00U
+ C00Y - C00R
+ C00Z - no bonds found
+ C010 - C00M C00M_$11
+ C011 - no bonds found
+ O012 - no bonds found
+ C013 - C017_$10 C00T O00K
+ C014 - no bonds found
+ O015 - no bonds found
+ C017 - C013_$10 O00K_$10 C00T_$10
+ C019 - C00V
+ C01A - no bonds found
+ C01B - no bonds found
+ C01C - C00P C00Q
+ C01D - no bonds found
+ C01E - Zr01_$2 O005_$2 C01E_$15
+
+
+ Operators for generating equivalent atoms:
+ $1   -x+1, -y+1, -z+1
+ $2   x-y+1, x, z
+ $3   -x+1, -y+1, z
+ $4   x, y, -z+1
+ $5   -y+1, -x+1, z
+ $6   -y+1, -x+1, -z+1
+ $7   y, x, -z+1
+ $8   x, x-y+1, z
+ $9   x, y, -z+2
+ $10  x, y, -z
+ $11  -x+y+1, y, z
+ $12  -x+2, -y+2, -z
+ $13  y, -x+y+1, z
+ $14  x-y, -y+1, -z+1
+ $15  x, x-y, z
+
+   179481  Reflections outside SHEL resolution limits rejected
+
+
+   337815  Reflections read, of which  179481  rejected
+
+ -39 =< h =< 39,    -39 =< k =< 39,    -16 =< l =< 16,   Max. 2-theta =   40.28
+
+        0  Systematic absence violations (I>3sig(I)) before merging
+
+        0  Inconsistent equivalents
+
+     4395  Unique reflections, of which       0  suppressed
+
+ R(int) = 0.5659     R(sigma) = 0.1066      Friedel opposites merged
+
+ Maximum memory for data reduction =     6318 /    48177
+
+
+ Reflection statistics for all twin components combined (TWST 0 set)
+ Number of data for d > 1.000A (CIF: max) and d > 1.000A (CIF: full)
+ (ignoring systematic absences):
+ Unique reflections found (point group)       4395    4395
+ Unique reflections possible (point group)    4401    4401
+ Unique reflections found (Laue group)        4395    4395
+ Unique reflections possible (Laue group)     4401    4401
+
+ Special position constraints for Zr01
+ z =  0.5000   y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U23 = 0   U13 = 0   
+ sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for Zr02
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O005
+ z =  0.5000   U23 = 0   U13 = 0   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O006
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O007
+ y =  1.0 * x + 0.0000   U22 = 1.0 * U11   U13 = 1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O008
+ y = -1.0 * x + 1.0000   U22 = 1.0 * U11   U13 =-1.0 * U23   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O00F
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00I
+ y =  0.5 * x + 0.5000   U13 = 2.0 * U23   U12 = 0.5 * U11   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O00K
+ y = -1.0 * x + 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00M
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00N
+ y = -1.0 * x + 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00O
+ y =  1.0 * x + 0.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00P
+ z =  0.5000   y =  0.5 * x + 0.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00Q
+ z =  0.5000   y =  0.5 * x + 0.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00R
+ z =  0.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00S
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00T
+ y = -1.0 * x + 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00U
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00V
+ z =  0.5000   y =  2.0 * x - 1.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00W
+ x =  1.0000   y =  1.0000   sof = 0.08333   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C00X
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C010
+ z =  0.5000   y =  2.0 * x - 1.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C011
+ z =  0.5000   y =  2.0 * x - 1.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O012
+ y =  1.0 * x + 0.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C013
+ y = -1.0 * x + 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C014
+ y =  2.0 * x - 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for O015
+ x =  0.6667   y =  0.3333   sof = 0.16667   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C017
+ y = -1.0 * x + 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C019
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C01A
+ z =  0.0000   y = -1.0 * x + 1.0000   sof = 0.25000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C01B
+ y =  2.0 * x - 1.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C01C
+ y =  0.5 * x + 0.0000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+ Special position constraints for C01E
+ z =  0.5000   sof = 0.50000   
+ Input constraints retained (at least in part) for  sof
+
+
+ Least-squares cycle   1   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3609 before cycle   1 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.724;     Restrained GooF =      1.724 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ Shifts scaled down to reduce maximum shift/esd from   18.47  to   15.00
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05174     0.00033     0.832    OSF
+   185     0.17335     0.00758    11.250    U11 C00V
+   200     1.10785     0.11368     4.938    U11 C010
+   218     0.45276     0.00440     5.406     y  C019
+
+ Mean shift/esd =   0.341  Maximum =    11.250 for  U11 C00V     
+
+ Max. shift = 0.845 A for C019        Max. dU = 0.561 for C010     
+
+
+ Least-squares cycle   2   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3395 before cycle   2 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.607;     Restrained GooF =      1.607 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05228     0.00031     1.736    OSF
+   185     0.33457     0.01340    12.028    U11 C00V
+
+ Mean shift/esd =   0.348  Maximum =    12.028 for  U11 C00V     
+
+ Max. shift = 0.935 A for C017        Max. dU =-0.412 for C01A     
+
+
+ Least-squares cycle   3   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3267 before cycle   3 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.543;     Restrained GooF =      1.543 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05239     0.00030     0.366    OSF
+   185     0.52404     0.03105     6.103    U11 C00V
+
+ Mean shift/esd =   0.306  Maximum =     6.103 for  U11 C00V     
+
+ Max. shift = 1.309 A for C013        Max. dU = 0.350 for C017     
+
+
+ Least-squares cycle   4   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3242 before cycle   4 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.523;     Restrained GooF =      1.523 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05255     0.00030     0.528    OSF
+
+ Mean shift/esd =   0.293  Maximum =    -2.216 for   x  C017     
+
+ Max. shift = 1.151 A for C013        Max. dU = 0.426 for C011     
+
+
+ Least-squares cycle   5   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3279 before cycle   5 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.542;     Restrained GooF =      1.542 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05259     0.00030     0.148    OSF
+   217     0.73655     0.00557    -3.121     x  C019
+
+ Mean shift/esd =   0.223  Maximum =    -3.121 for   x  C019     
+
+ Max. shift = 0.670 A for C019        Max. dU = 0.331 for C011     
+
+
+ Least-squares cycle   6   Maximum vector length =  623   Memory required =     75 /   6960 /   346316
+
+ wR2 =  0.3223 before cycle   6 for    4395 data and    234 /    234 parameters
+
+ GooF = S =     1.514;     Restrained GooF =      1.514 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+
+     N      value        esd    shift/esd  parameter
+
+     1     0.05261     0.00030     0.068    OSF
+   168     0.75083     0.00541    -1.424     x  C00P
+   170     0.79284     0.00374    -1.037     x  C00Q
+   184     0.71897     0.00316     2.433     x  C00V
+   185     0.48039     0.16857    -1.565    U11 C00V
+   214     0.53038     0.00748     1.461     x  C017
+   215    -0.18024     0.02177    -1.712     z  C017
+   217     0.72239     0.00691    -2.051     x  C019
+   219     0.88636     0.07596     2.663    U11 C019
+
+ Mean shift/esd =   0.201  Maximum =     2.663 for  U11 C019     
+
+ Max. shift =18.250 A for C00W        Max. dU =-0.353 for C017     
+
+
+ Largest correlation matrix elements
+
+     0.925 U12 O006 / U11 O006               0.733 U12 O005 / U11 O005               0.694 x C017 / U11 C013
+     0.871 U12 Zr01 / U11 Zr01               0.728 U11 C00W / z C00W                 0.693 U12 O00D / U11 O00D
+     0.869 U12 Zr02 / U11 Zr02               0.722 y C00Y / x C00Y                   0.693 y C00Z / x C00Z
+     0.831 U12 O008 / U11 O008               0.719 U12 C00E / U11 C00E               0.690 U12 O00B / U22 O00B
+    -0.813 y C019 / U11 C00V                 0.706 U12 O00L / U11 O00L               0.686 U12 C00A / U11 C00A
+     0.811 U12 O007 / U11 O007               0.698 U12 O00J / U22 O00J               0.684 U12 O003 / U22 O003
+     0.787 y C019 / U11 C010                 0.697 U12 O005 / U22 O005               0.682 U12 C00A / U22 C00A
+    -0.760 U11 C00O / z C00O                 0.694 U12 C00E / U22 C00E              -0.679 x C01A / x C013
+
+
+
+  CrystalPilot cross-check in P 6/m m m                                      
+
+ ATOM           x        y        z         sof        U11      U22      U33      U23      U13      U12       Ueq
+
+ Zr01        0.46383  0.53617  0.50000    0.25000    0.08865  0.08865  0.06952  0.00000  0.00000  0.05603   0.07707
+   0.00000   0.00004  0.00004  0.00000    0.00000    0.00172  0.00172  0.00188  0.00000  0.00000  0.00191   0.00100
+
+ Zr02        0.54475  0.54475  0.39375    0.50000    0.09497  0.09497  0.08601  0.01389  0.01389  0.06009   0.08638
+   0.00486   0.00005  0.00005  0.00012    0.00000    0.00131  0.00131  0.00155  0.00113  0.00113  0.00140   0.00086
+
+ O003        0.48118  0.58634  0.58149    1.00000    0.10823  0.11259  0.09431 -0.00187 -0.00543  0.07525   0.09613
+   0.02038   0.00025  0.00023  0.00047    0.00000    0.00619  0.00629  0.00565  0.00499  0.00484  0.00536   0.00240
+
+ O004        0.53388  0.59298  0.64976    1.00000    0.11768  0.11999  0.12538 -0.03994 -0.02799  0.07057   0.11606
+   0.01678   0.00025  0.00023  0.00050    0.00000    0.00687  0.00662  0.00676  0.00525  0.00539  0.00580   0.00283
+
+ O005        0.52700  0.56293  0.50000    0.50000    0.12674  0.23132  0.10681  0.00000  0.00000  0.12031   0.14127
+   0.02833   0.00037  0.00044  0.00000    0.00000    0.01045  0.01480  0.00866  0.00000  0.00000  0.01074   0.00494
+
+ O006        0.53848  0.53848  0.26171    0.50000    0.20543  0.20543  0.09062  0.01749  0.01749  0.15775   0.14271
+   0.03196   0.00037  0.00037  0.00066    0.00000    0.00988  0.00988  0.00802  0.00765  0.00765  0.01089   0.00453
+
+ O007        0.60110  0.60110  0.41267    0.50000    0.09993  0.09993  0.27547  0.00538  0.00538  0.04772   0.15944
+   0.02905   0.00029  0.00029  0.00106    0.00000    0.00626  0.00626  0.01587  0.00838  0.00838  0.00749   0.00534
+
+ O008        0.51735  0.48265  0.39308    0.50000    0.11944  0.11944  0.15389  0.02798 -0.02798  0.06176   0.13002
+   0.01230   0.00016  0.00016  0.00074    0.00000    0.00673  0.00673  0.01092  0.00408  0.00408  0.00763   0.00431
+
+ C009        0.50764  0.60170  0.63406    1.00000    0.10556  0.11854  0.10549  0.00812 -0.00808  0.07491   0.10147
+   0.03520   0.00044  0.00040  0.00084    0.00000    0.01160  0.01171  0.01075  0.00903  0.00899  0.00995   0.00408
+
+ C00A        0.50500  0.69000  0.78010    1.00000    0.25004  0.12213  0.08849  0.00942 -0.00020  0.13072   0.13681
+   0.04128   0.00058  0.00043  0.00082    0.00000    0.01933  0.01259  0.01011  0.00925  0.01172  0.01377   0.00548
+
+ O00B        0.47682  0.64105  0.67276    1.00000    0.17065  0.12136  0.11544 -0.02282 -0.00577  0.10886   0.11988
+   0.03088   0.00042  0.00039  0.00079    0.00000    0.01302  0.01095  0.01040  0.00858  0.00924  0.01065   0.00451
+
+ C00C        0.50656  0.63232  0.68613    1.00000    0.15522  0.09641  0.10656 -0.02661 -0.01895  0.08239   0.11074
+   0.03274   0.00046  0.00038  0.00081    0.00000    0.01330  0.01002  0.01032  0.00848  0.00984  0.01026   0.00412
+
+ O00D        0.47490  0.66910  0.72179    1.00000    0.21420  0.13269  0.10502 -0.02346 -0.03219  0.10996   0.14031
+   0.03789   0.00048  0.00045  0.00093    0.00000    0.01689  0.01223  0.01104  0.00978  0.01105  0.01257   0.00538
+
+ C00E        0.50519  0.72199  0.83166    1.00000    0.24952  0.11336  0.09960 -0.02891 -0.01617  0.12780   0.13768
+   0.03232   0.00047  0.00038  0.00088    0.00000    0.01709  0.01126  0.01080  0.00936  0.01094  0.01200   0.00525
+
+ O00F        0.50508  0.75254  0.78794    0.50000    0.23256  0.09532  0.14181 -0.01887 -0.03775  0.11628   0.14132
+   0.04065   0.00065  0.00032  0.00119    0.00000    0.02327  0.00894  0.01719  0.00807  0.01614  0.01163   0.00782
+
+ O00G        0.53820  0.65218  0.74113    1.00000    0.19220  0.10983  0.10219 -0.03867 -0.02918  0.08607   0.13005
+   0.03470   0.00047  0.00041  0.00084    0.00000    0.01429  0.01108  0.00997  0.00871  0.01024  0.01097   0.00480
+
+ C00H        0.50519  0.72125  0.91439    1.00000    0.24406  0.12319  0.06634 -0.01893 -0.00401  0.11062   0.13617
+   0.03132   0.00046  0.00039  0.00075    0.00000    0.01687  0.01197  0.00901  0.00828  0.00969  0.01198   0.00531
+
+ C00I        0.50466  0.75233  0.95738    0.50000    0.25579  0.12018  0.07723 -0.00694 -0.01389  0.12790   0.13600
+   0.03898   0.00062  0.00031  0.00093    0.00000    0.02280  0.00897  0.01168  0.00625  0.01250  0.01140   0.00719
+
+ O00J        0.53795  0.68196  0.79137    1.00000    0.25619  0.13474  0.11563 -0.00166 -0.01785  0.13295   0.15321
+   0.03571   0.00053  0.00044  0.00085    0.00000    0.01878  0.01270  0.01142  0.00976  0.01173  0.01377   0.00576
+
+ O00K        0.57018  0.42982  0.13374    0.50000    0.29262
+   0.02550   0.00040  0.00040  0.00153    0.00000    0.01016
+
+ O00L        0.50467  0.68747  0.95880    1.00000    0.27920  0.14393  0.08997  0.02238  0.01278  0.13826   0.15660
+   0.03306   0.00048  0.00040  0.00066    0.00000    0.01804  0.01168  0.00898  0.00775  0.00966  0.01277   0.00582
+
+ C00M        0.73900  0.53519  0.50000    0.50000    0.26868
+   0.06965   0.00104  0.00118  0.00000    0.00000    0.01624
+
+ C00N        0.59407  0.40593  0.09479    0.50000    0.20616
+   0.02591   0.00041  0.00041  0.00156    0.00000    0.01030
+
+ C00O        0.62968  0.62968  0.20115    0.50000    1.30364
+   5.21459   0.00308  0.00308  0.31112    0.00000    0.16332
+
+ C00P        0.75083  0.37541  0.50000    0.25000    0.66194
+   0.31778   0.00541  0.00270  0.00000    0.00000    0.08683
+
+ C00Q        0.79284  0.39642  0.50000    0.25000    0.41220
+   0.21969   0.00374  0.00187  0.00000    0.00000    0.04916
+
+ C00R        0.59371  0.67050  0.00000    0.50000    0.33308
+   0.08782   0.00128  0.00132  0.00000    0.00000    0.02033
+
+ C00S        0.70586  0.56375  0.50000    0.50000    0.40302
+   0.10580   0.00159  0.00165  0.00000    0.00000    0.02605
+
+ C00T        0.54160  0.45840  0.20915    0.50000    0.43547
+   0.06367   0.00090  0.00090  0.00383    0.00000    0.02987
+
+ C00U        0.66542  0.58785  0.50000    0.50000    0.42355
+   0.11532   0.00177  0.00164  0.00000    0.00000    0.02753
+
+ C00V        0.71897  0.43793  0.50000    0.25000    0.48039
+   0.37174   0.00316  0.00632  0.00000    0.00000    0.16857
+
+ C00W        1.00000  1.00000  1.09826    0.08333    0.98564
+  24.90960   0.00000  0.00000  1.49967    0.00000    0.18654
+
+ C00X        0.72823  0.60768  0.50000    0.50000    1.64547
+   0.59831   0.00942  0.00824  0.00000    0.00000    0.25871
+
+ C00Y        0.58656  0.64236  0.07431    1.00000    0.99350
+   0.21572   0.00290  0.00273  0.00432    0.00000    0.07225
+
+ C00Z        0.48494  0.40682  0.09865    1.00000    0.76066
+   0.24325   0.00335  0.00298  0.00543    0.00000    0.05396
+
+ C010        0.74854  0.49707  0.50000    0.25000    1.14558
+   0.71013   0.00604  0.01208  0.00000    0.00000    0.45730
+
+ C011        0.95770  0.91541  0.50000    0.25000    2.00000
+   0.60174   0.00512  0.01024  0.00000    0.00000    0.56822
+
+ O012        0.64355  0.64355  0.24328    0.50000    0.67015
+   0.11656   0.00130  0.00130  0.00340    0.00000    0.03368
+
+ C013        0.54770  0.45230  0.11528    0.50000    1.73931
+   0.51859   0.00955  0.00955  0.03122    0.00000    0.78355
+
+ C014        0.92881  0.85761  0.59504    0.50000    1.64868
+   0.44705   0.00367  0.00734  0.01490    0.00000    0.27346
+
+ O015        0.66667  0.33333  0.16297    0.16667    0.90798
+   0.13827   0.00000  0.00000  0.00832    0.00000    0.09352
+
+ C017        0.53038  0.46962 -0.18024    0.50000    1.64687
+   0.36153   0.00748  0.00748  0.02177    0.00000    0.61491
+
+ C019        0.72239  0.46401  0.50000    0.50000    0.88636
+   0.36786   0.00691  0.00464  0.00000    0.00000    0.07596
+
+ C01A        0.55658  0.44342  0.00000    0.25000    0.89556
+   0.00000   0.00420  0.00420  0.00000    0.00000    0.17255
+
+ C01B        0.93336  0.86673  0.74939    0.50000    1.52850
+   0.40457   0.00289  0.00579  0.01292    0.00000    0.17222
+
+ C01C        0.78476  0.39238  0.56270    0.50000    1.38974
+   0.57230   0.00884  0.00442  0.01242    0.00000    0.21100
+
+ C01D        0.75267  0.57398  0.59868    1.00000    0.68193
+   0.14328   0.00168  0.00202  0.00343    0.00000    0.04229
+
+ C01E        0.94634  0.49913  0.50000    0.50000    1.05563
+   0.26253   0.00364  0.00449  0.00000    0.00000    0.15855
+
+
+
+ Final Structure Factor Calculation for  CrystalPilot cross-check in P 6/m m m                                      
+
+ Total number of l.s. parameters =   234  Maximum vector length =  623   Memory required =     75 /   6726 /    26789
+
+ wR2 =  0.3339 before cycle   7 for    4395 data and      0 /    234 parameters
+
+ GooF = S =     1.573;     Restrained GooF =      1.573 for       0 restraints
+
+ Weight = 1 / [ sigma^2(Fo^2) + ( 0.1000 * P )^2 +   0.00 * P ]   where  P = ( Max ( Fo^2, 0 ) + 2 * Fc^2 ) / 3
+
+ wR2 = 0.3339, GooF = S = 1.573, Restrained GooF = 1.573 for all data
+ R1 = 0.1287 for 2063 Fo > 4sig(Fo) and 0.2172 for all 4395 data
+
+ Occupancy sum of asymmetric unit =    29.00 for non-hydrogen and     0.00 for H and D atoms
+
+
+
+ Principal mean square atomic displacements U
+
+   0.0965   0.0695   0.0652   Zr01  
+   0.1129   0.0765   0.0698   Zr02  
+   0.1244   0.0943   0.0696   O003  
+   0.1663   0.0996   0.0823   O004  
+   0.2315   0.1068   0.0855   O005  
+   0.2448   0.0954   0.0880   O006    may be split into  0.5441  0.5413  0.2632  and  0.5328  0.5357  0.2602
+   0.2757   0.1044   0.0982   O007    may be split into  0.6013  0.6012  0.4251  and  0.6009  0.6010  0.4002
+   0.1938   0.1208   0.0755   O008  
+   0.1261   0.1118   0.0666   C009  
+   0.2503   0.0939   0.0662   C00A    may be split into  0.5102  0.6902  0.7801  and  0.4999  0.6898  0.7801
+   0.1799   0.1211   0.0587   O00B  
+   0.1633   0.1073   0.0616   C00C  
+   0.2232   0.1066   0.0911   O00D  
+   0.2514   0.1099   0.0517   C00E  
+   0.2462   0.1282   0.0496   O00F  
+   0.2009   0.1246   0.0646   O00G  
+   0.2453   0.1067   0.0566   C00H  
+   0.2569   0.0762   0.0750   C00I    may be split into  0.5101  0.7523  0.9564  and  0.4993  0.7523  0.9584
+   0.2585   0.1162   0.0848   O00J  
+   0.2801   0.1143   0.0755   O00L  
+
+ ** Warning:     4  atoms may be split and     0  atoms NPD **
+
+
+
+ Analysis of variance for reflections employed in refinement      K = Mean[Fo^2] / Mean[Fc^2]  for group
+
+
+ Fc/Fc(max)       0.000    0.006    0.011    0.015    0.021    0.027    0.036    0.047    0.065    0.111    1.000
+
+ Number in group       462.     509.     368.     454.     406.     460.     427.     429.     438.     442.
+
+            GooF      0.879    0.951    1.001    1.124    1.194    1.335    1.651    1.930    2.328    2.406
+
+             K        0.952    0.860    0.814    1.127    1.122    1.086    1.031    1.029    1.106    1.041
+
+
+ Resolution(A)    1.00     1.04     1.08     1.13     1.20     1.28     1.38     1.52     1.77     2.26     inf
+
+ Number in group       445.     444.     438.     443.     436.     431.     437.     444.     437.     440.
+
+            GooF      1.040    0.992    1.052    1.087    1.058    1.090    1.127    1.144    1.774    3.509
+
+             K        1.295    1.139    1.136    1.089    1.005    0.910    0.994    0.993    1.070    1.058
+
+             R1       0.444    0.355    0.322    0.287    0.300    0.276    0.139    0.102    0.110    0.170
+
+
+ Recommended weighting scheme:  WGHT    0.2000    0.0000
+ [Weight parameters refined to    0.2707        1.74  but appear excessive]
+
+
+ Most Disagreeable Reflections (* if suppressed or used for Rfree).
+ Error/esd is calculated as sqrt(wD^2/<wD^2>) where w is given by the weight
+ formula, D = Fo^2-Fc^2 and <> refers to the average over all reflections.
+
+     h   k   l          Fo^2          Fc^2    Error/esd  Fc/Fc(max)  Resolution(A)
+
+    -2   4   0     142897.62       5329.41       9.91       0.109       9.80
+    -3   9   3       7519.88       2131.06       7.56       0.069       3.38
+    -1   5   1       3361.87        902.96       7.41       0.045       6.76
+     0   5   1       5748.69       1464.66       7.28       0.057       6.28
+    -1   2   2       3913.68       1054.09       6.94       0.049       7.65
+     0   3   0      90562.94     427432.84       6.91       0.980      11.31
+    -2   7   2       8079.19       2794.75       6.64       0.079       4.55
+    -1   4   2      13213.56       4722.96       6.60       0.103       6.23
+    -4  12   0       2214.88       8330.30       6.01       0.137       3.21
+    -4   9   0       2585.03        471.90       5.65       0.033       4.35
+    -2   9   0     145909.25      59678.12       5.56       0.366       4.15
+    -2  10   0      65855.51      27131.65       5.50       0.247       3.70
+    -2   6   5       3533.70       1336.13       5.49       0.055       2.95
+    -5  11   1       4716.62       1867.66       5.45       0.065       3.48
+     0   6   0     119649.59      44503.46       5.45       0.316       5.66
+    -2   5   1      11888.24      34048.00       5.39       0.277       7.05
+    -3  10   0      11409.65       4569.94       5.35       0.101       3.82
+     0   9   4       4943.11       1699.13       5.23       0.062       2.79
+     0   5   2      18928.82       7994.54       5.14       0.134       5.26
+     0   7   2      27171.76      11816.99       5.10       0.163       4.19
+    -3   9   6       2305.41        745.34       5.05       0.041       2.32
+    -6  12   3       3192.36       1035.00       5.04       0.048       2.81
+     0   3   4       2913.79        978.22       5.00       0.047       3.90
+    -3  10   1       2649.56        919.05       4.97       0.045       3.72
+    -2   8   1       5664.75       2619.05       4.84       0.077       4.53
+    -2  10   1       6651.20       3193.76       4.59       0.085       3.61
+     0  10   2       5290.48       2348.87       4.46       0.073       3.14
+    -1   2   1      76726.31      36922.33       4.38       0.288      12.67
+    -1   5   4       7550.51       3975.60       4.14       0.095       3.62
+    -5  15   0       1915.67       4618.30       4.07       0.102       2.57
+    -2   7   0      35065.95      18581.50       3.98       0.204       5.43
+    -5  10   0       3456.41        867.86       3.92       0.044       3.92
+     0   8   1       1793.64        513.26       3.87       0.034       4.11
+     0   7   7      11623.32       6117.90       3.87       0.117       2.13
+    -6  12   0      27240.73      13777.58       3.85       0.176       3.27
+    -5  15   1       4335.80       2238.70       3.84       0.071       2.54
+    -5  10   2       5003.98       2500.21       3.83       0.075       3.54
+    -1   4   3        863.78        241.59       3.80       0.023       4.77
+    -4  12   2      11930.17       6667.41       3.79       0.122       2.99
+    -1   9   0       1705.64        200.75       3.78       0.021       3.97
+    -1   4   0      51375.67      28175.64       3.76       0.252       9.41
+    -3   8   2      28082.30      15985.16       3.72       0.190       4.19
+    -1   6   1        990.04       2131.41       3.72       0.069       5.72
+    -2   4   2      40200.03      77907.57       3.68       0.418       6.34
+    -5  14   2       3199.60       1660.45       3.68       0.061       2.62
+    -1   7   1       1312.83        565.70       3.60       0.036       4.94
+     0   6   4      30341.56      17173.93       3.56       0.196       3.35
+    -3   7   1       8415.70      15801.93       3.56       0.188       5.29
+    -2   4   3       1275.22        384.60       3.52       0.029       4.82
+    -1   3   3       1418.71       2773.55       3.49       0.079       5.08
+
+
+
+ Bond lengths and angles
+
+ Zr01 -          Distance        Angles
+ C01E_$13  1.1988 (0.1509) 
+ C01E_$14  1.1988 (0.1511)  116.13 (9.99)
+ O005_$5   2.1522 (0.0125)  113.02 (6.58)   3.11 (6.89)
+ O005      2.1523 (0.0125)    3.11 (6.87) 113.02 (6.60) 109.91 (0.78)
+ O008_$3   2.1876 (0.0107)   72.00 (3.48)  72.01 (3.47)  70.41 (0.27)  70.41 (0.27)
+ O008_$1   2.1876 (0.0107)   72.00 (3.48)  72.01 (3.48)  70.41 (0.27)  70.41 (0.27) 108.54 (0.68)
+ O003_$4   2.1961 (0.0085)   75.93 (5.17) 141.22 (1.26) 141.67 (0.19)  78.34 (0.37)  78.21 (0.33) 142.79 (0.20)
+ O003_$6   2.1962 (0.0085)  141.22 (1.26)  75.93 (5.19)  78.34 (0.37) 141.67 (0.19)  78.22 (0.33) 142.79 (0.20)  74.10 (0.40)
+ O003_$5   2.1961 (0.0085)  141.22 (1.26)  75.93 (5.19)  78.34 (0.37) 141.67 (0.19) 142.79 (0.20)  78.22 (0.33) 119.06 (0.43)
+ O003      2.1962 (0.0085)   75.93 (5.17) 141.22 (1.26) 141.67 (0.19)  78.34 (0.37) 142.79 (0.20)  78.21 (0.33)  76.10 (0.38)
+ Zr02_$4   3.4956 (0.0024)   37.13 (3.71)  93.10 (5.81)  90.42 (0.34)  35.51 (0.19)  89.98 (0.30)  34.90 (0.17) 111.42 (0.21)
+ Zr02_$3   3.4952 (0.0024)   93.10 (5.79)  37.13 (3.70)  35.51 (0.19)  90.42 (0.34)  34.91 (0.17)  89.99 (0.30) 110.32 (0.20)
+                 Zr01            C01E_$13      C01E_$14      O005_$5       O005          O008_$3       O008_$1       O003_$4      
+
+ Zr02 -          Distance        Angles
+ O008_$3   2.1124 (0.0065) 
+ O008      2.1125 (0.0065)   67.79 (0.51)
+ O005      2.1454 (0.0073)   71.97 (0.45) 108.95 (0.55)
+ O005_$7   2.1451 (0.0073)  108.95 (0.55)  71.99 (0.45)  69.29 (0.55)
+ O006      2.2069 (0.0114)   84.40 (0.48)  84.41 (0.48) 144.87 (0.27) 144.91 (0.27)
+ O007      2.2310 (0.0121)  145.33 (0.26) 145.35 (0.26)  83.11 (0.54)  83.12 (0.54) 104.48 (0.61)
+ O004_$7   2.2540 (0.0082)  139.84 (0.34)  76.82 (0.35) 140.20 (0.37)  75.92 (0.38)  73.60 (0.27)  73.95 (0.28)
+ O004_$4   2.2545 (0.0082)   76.80 (0.35) 139.82 (0.34)  75.91 (0.38) 140.19 (0.37)  73.58 (0.27)  73.95 (0.28) 125.69 (0.44)
+ Zr01_$1   3.4951 (0.0023)   88.74 (0.31)  36.35 (0.29)  89.20 (0.34)  35.64 (0.33) 116.50 (0.24) 115.19 (0.29)  72.54 (0.22)
+ Zr01      3.4956 (0.0024)   36.34 (0.29)  88.74 (0.31)  35.64 (0.33)  89.19 (0.34) 116.48 (0.24) 115.18 (0.29) 161.78 (0.22)
+ Zr02_$3   3.5068 (0.0043)   33.89 (0.25)  33.90 (0.25)  90.23 (0.38)  90.24 (0.38)  83.62 (0.38) 171.90 (0.45) 108.97 (0.22)
+ Zr02_$4   3.5297 (0.0039)   90.30 (0.34)  90.30 (0.34)  34.65 (0.28)  34.64 (0.28) 173.62 (0.39)  81.90 (0.45) 108.70 (0.23)
+                 Zr02            O008_$3       O008          O005          O005_$7       O006          O007          O004_$7      
+
+ O003 -          Distance        Angles
+ C009      1.2553 (0.0133) 
+ Zr01      2.1962 (0.0084)  132.05 (0.82)
+                 O003            C009         
+
+ O004 -          Distance        Angles
+ C009      1.2623 (0.0126) 
+ Zr02_$4   2.2546 (0.0082)  132.99 (0.87)
+                 O004            C009         
+
+ O005 -          Distance        Angles
+ C01E_$13  0.9576 (0.1465) 
+ Zr01      2.1523 (0.0125)    3.89 (8.91)
+ Zr02_$4   2.1453 (0.0073)  110.74 (4.39) 108.85 (0.44)
+ Zr02      2.1454 (0.0073)  110.74 (4.39) 108.85 (0.44) 110.70 (0.55)
+                 O005            C01E_$13      Zr01          Zr02_$4      
+
+ O006 -          Distance        Angles
+ Zr02      2.2069 (0.0114) 
+                 O006           
+
+ O007 -          Distance        Angles
+ C00O      3.6872 (4.9242) 
+ Zr02      2.2310 (0.0120)   99.56 (9.99)
+                 O007            C00O         
+
+ O008 -          Distance        Angles
+ Zr02      2.1125 (0.0065) 
+ Zr02_$3   2.1125 (0.0065)  112.20 (0.51)
+ Zr01_$1   2.1874 (0.0107)  108.73 (0.38) 108.75 (0.38)
+                 O008            Zr02          Zr02_$3      
+
+ C009 -          Distance        Angles
+ O004      1.2623 (0.0126) 
+ O003      1.2553 (0.0132)  127.10 (1.33)
+ C00C      1.4968 (0.0160)  116.81 (1.36) 116.02 (1.26)
+                 C009            O004          O003         
+
+ C00A -          Distance        Angles
+ O00D      1.4262 (0.0177) 
+ O00J      1.4862 (0.0184)  121.37 (1.31)
+ C00E      1.5151 (0.0161)  121.29 (1.56) 117.32 (1.54)
+                 C00A            O00D          O00J         
+
+ O00B -          Distance        Angles
+ C00C      1.3872 (0.0149) 
+ O00D      1.4000 (0.0157)  118.83 (1.32)
+                 O00B            C00C         
+
+ C00C -          Distance        Angles
+ O00B      1.3872 (0.0149) 
+ O00G      1.4186 (0.0157)  125.42 (1.26)
+ C009      1.4968 (0.0159)  117.99 (1.35) 116.40 (1.38)
+                 C00C            O00B          O00G         
+
+ O00D -          Distance        Angles
+ O00B      1.4000 (0.0156) 
+ C00A      1.4262 (0.0178)  119.49 (1.38)
+                 O00D            O00B         
+
+ C00E -          Distance        Angles
+ C00H      1.3745 (0.0151) 
+ O00F      1.4021 (0.0149)  122.39 (1.31)
+ C00A      1.5151 (0.0161)  123.21 (1.17) 114.39 (1.23)
+                 C00E            C00H          O00F         
+
+ O00F -          Distance        Angles
+ C00E      1.4021 (0.0149) 
+ C00E_$8   1.4023 (0.0150)  117.63 (1.74)
+                 O00F            C00E         
+
+ O00G -          Distance        Angles
+ C00C      1.4186 (0.0156) 
+ O00J      1.4388 (0.0164)  117.38 (1.36)
+                 O00G            C00C         
+
+ C00H -          Distance        Angles
+ C00E      1.3745 (0.0151) 
+ C00I      1.4186 (0.0127)  119.02 (1.31)
+ O00L      1.5067 (0.0149)  120.52 (1.09) 120.44 (1.11)
+                 C00H            C00E          C00I         
+
+ C00I -          Distance        Angles
+ C00I_$9   1.4158 (0.0308) 
+ C00H_$8   1.4232 (0.0127)  120.13 (0.78)
+ C00H      1.4186 (0.0127)  120.22 (0.77) 119.63 (1.55)
+                 C00I            C00I_$9       C00H_$8      
+
+ O00J -          Distance        Angles
+ O00G      1.4388 (0.0164) 
+ C00A      1.4862 (0.0184)  117.26 (1.39)
+                 O00J            O00G         
+
+ O00K -          Distance        Angles
+ C017_$10  3.1813 (0.5136) 
+ C013      1.5646 (0.6431)   25.64 (9.99)
+ C00N      1.7411 (0.0313)  171.29 (5.88) 146.87 (9.99)
+                 O00K            C017_$10      C013         
+
+ O00L -          Distance        Angles
+ O00L_$9   1.3687 (0.0219) 
+ C00H      1.5067 (0.0149)  119.31 (0.64)
+                 O00L            O00L_$9      
+
+ C00M -          Distance        Angles
+ C010      1.3542 (0.2957) 
+                 C00M           
+
+ C00N -          Distance        Angles
+ O00K      1.7411 (0.0312) 
+                 C00N           
+
+ C00O -          Distance        Angles
+ C00O_$4   9.9277 (9.9990) 
+ O007      3.6872 (4.9127)   17.66 (9.99)
+                 C00O            C00O_$4      
+
+ C00P -          Distance        Angles
+ C00Q      1.4278 (0.1498) 
+ C01C_$4   1.5660 (0.3464)   42.17 (9.99)
+ C01C      1.5660 (0.3464)   42.17 (9.99)  83.36 (9.99)
+                 C00P            C00Q          C01C_$4      
+
+ C00Q -          Distance        Angles
+ C00P      1.4278 (0.1502) 
+ C01C_$4   1.0846 (0.2219)   75.74 (9.99)
+ C01C      1.0846 (0.2219)   75.74 (9.99) 147.53 (9.99)
+                 C00Q            C00P          C01C_$4      
+
+ C00R -          Distance        Angles
+ C00Y_$10  1.5841 (0.0796) 
+ C00Y      1.5842 (0.0796)  102.38 (6.91)
+                 C00R            C00Y_$10     
+
+ C00T -          Distance        Angles
+ C017_$10  1.2471 (0.4570) 
+ C013      1.6131 (0.5462)   81.95 (9.99)
+                 C00T            C017_$10     
+
+ C00U -          Distance        Angles
+ C00X      2.1795 (0.3120) 
+                 C00U           
+
+ C00V -          Distance        Angles
+ C019      1.5624 (0.1994) 
+ C019_$11  1.4094 (0.1946)   28.81 (9.99)
+                 C00V            C019         
+
+ C00W -          Distance        Angles
+ C00W_$12 36.4842 (9.9990) 
+                 C00W           
+
+ C00X -          Distance        Angles
+ C00U      2.1795 (0.3111) 
+                 C00X           
+
+ C00Y -          Distance        Angles
+ C00R      1.5842 (0.0796) 
+                 C00Y           
+
+ C010 -          Distance        Angles
+ C00M      1.3542 (0.2956) 
+ C00M_$11  1.6290 (0.2467)   96.99 (9.99)
+                 C010            C00M         
+
+ C013 -          Distance        Angles
+ C017_$10  1.8958 (0.7063) 
+ C00T      1.6131 (0.5459)   40.64 (9.99)
+ O00K      1.5646 (0.6437)  133.43 (9.99)  93.54 (9.99)
+                 C013            C017_$10      C00T         
+
+ C017 -          Distance        Angles
+ C013_$10  1.8958 (0.7072) 
+ O00K_$10  3.1813 (0.5139)   20.93 (9.99)
+ C00T_$10  1.2471 (0.4573)   57.41 (9.99)  37.27 (9.99)
+                 C017            C013_$10      O00K_$10     
+
+ C019 -          Distance        Angles
+ C00V      1.5624 (0.1994) 
+                 C019           
+
+ C01C -          Distance        Angles
+ C00P      1.5660 (0.3458) 
+ C00Q      1.0846 (0.2218)   62.09 (9.99)
+                 C01C            C00P         
+
+ C01E -          Distance        Angles
+ Zr01_$2   1.1988 (0.1515) 
+ O005_$2   0.9574 (0.1469)  173.00 (9.99)
+ C01E_$15  2.0347 (0.3301)   31.93 (6.74) 141.07 (9.07)
+                 C01E            Zr01_$2       O005_$2      
+
+
+
+ Selected torsion angles
+
+    -6.89 ( 2.00)  Zr02_$4 - O004 - C009 - O003
+   169.93 ( 0.80)  Zr02_$4 - O004 - C009 - C00C
+     5.45 ( 1.93)  Zr01 - O003 - C009 - O004
+  -171.39 ( 0.73)  Zr01 - O003 - C009 - C00C
+    -6.39 ( 2.21)  O00D - O00B - C00C - O00G
+   178.88 ( 1.19)  O00D - O00B - C00C - C009
+  -176.86 ( 1.20)  O004 - C009 - C00C - O00B
+     0.32 ( 1.77)  O003 - C009 - C00C - O00B
+     7.93 ( 1.74)  O004 - C009 - C00C - O00G
+  -174.89 ( 1.14)  O003 - C009 - C00C - O00G
+     4.50 ( 2.09)  C00C - O00B - O00D - C00A
+    -1.49 ( 2.15)  O00J - C00A - O00D - O00B
+   177.02 ( 1.27)  C00E - C00A - O00D - O00B
+   123.16 ( 1.72)  O00D - C00A - C00E - C00H
+   -58.27 ( 2.24)  O00J - C00A - C00E - C00H
+   -56.40 ( 2.21)  O00D - C00A - C00E - O00F
+   122.17 ( 1.67)  O00J - C00A - C00E - O00F
+     0.36 ( 3.45)  C00H - C00E - O00F - C00E_$8
+   179.92 ( 1.36)  C00A - C00E - O00F - C00E_$8
+     4.71 ( 2.15)  O00B - C00C - O00G - O00J
+   179.52 ( 1.16)  C009 - C00C - O00G - O00J
+     0.65 ( 2.93)  O00F - C00E - C00H - C00I
+  -178.88 ( 1.69)  C00A - C00E - C00H - C00I
+   179.04 ( 1.68)  O00F - C00E - C00H - O00L
+    -0.49 ( 2.68)  C00A - C00E - C00H - O00L
+  -179.98 ( 1.15)  C00E - C00H - C00I - C00I_$9
+     1.63 ( 2.04)  O00L - C00H - C00I - C00I_$9
+    -1.65 ( 3.30)  C00E - C00H - C00I - C00H_$8
+   179.96 ( 1.20)  O00L - C00H - C00I - C00H_$8
+    -1.31 ( 1.97)  C00C - O00G - O00J - C00A
+    -0.10 ( 2.10)  O00D - C00A - O00J - O00G
+  -178.67 ( 1.24)  C00E - C00A - O00J - O00G
+  -179.98 ( 1.20)  C00E - C00H - O00L - O00L_$9
+    -1.61 ( 2.01)  C00I - C00H - O00L - O00L_$9
+   164.31 ( 3.82)  C01C - C00P - C00Q - C01C_$4
+  -164.31 ( 3.82)  C01C_$4 - C00P - C00Q - C01C
+   170.24 ( 3.80)  C017_$10 - C00T - C013 - O00K
+  -170.82 ( 7.76)  C00N - O00K - C013 - C017_$10
+    -8.75 ( 7.56)  C017_$10 - O00K - C013 - C00T
+  -179.57 ( 0.36)  C00N - O00K - C013 - C00T
+    10.53 ( 3.36)  C01C_$4 - C00P - C01C - C00Q
+   -29.22 (30.35)  C01C_$4 - C00Q - C01C - C00P
+
+
+ FMAP and GRID set by program
+
+ FMAP   2   1 167
+ GRID    -0.610  -1  -1     0.610   1   1
+
+ R1 =  0.2107 for   4395 unique reflections after merging for Fourier
+
+
+ Electron density synthesis with coefficients Fo-Fc
+
+ Highest peak    0.85  at  0.6158  0.0000  0.5000  [  1.56 A from O007 ]
+ Deepest hole   -0.57  at  0.5359  0.4641  0.4310  [  1.15 A from ZR01 ]
+
+
+ Fourier peaks appended to .res file
+
+              x       y       z       sof     U      Peak   Distances to nearest atoms (including eq.)
+
+ Q1    1   0.6158  0.6158  0.5000   0.25000  0.05    0.85   1.56 O007  2.67 C00U  3.03 O005  3.30 ZR02
+ Q2    1   0.6537  0.6537  0.5000   0.25000  0.05    0.62   2.52 O007  2.84 C00U  4.13 C00X  4.28 O012
+ Q3    1   1.0000  1.0000  0.3979   0.08333  0.05    0.60   3.33 C011  4.83 C014  4.98 C00W  5.14 C01B
+ Q4    1   0.6524  0.6255  0.5000   0.50000  0.05    0.56   1.79 C00U  2.27 O007  3.38 C00X  3.58 C00U
+ Q5    1   0.6207  0.3793  0.1102   0.50000  0.05    0.51   1.82 C00N  3.24 O015  3.24 O015  3.45 O00K
+ Q6    1   0.5000  0.5000 -0.1482   0.25000  0.05    0.48   2.13 C017  2.41 O006  3.00 C00T^a  3.28 C013
+ Q7    1   0.6667  0.3333  0.2645   0.16667  0.05    0.47   1.69 O015  4.84 C00P  4.84 C00P  4.93 C01C
+ Q8    1   0.6857  0.6162  0.6012   1.00000  0.05    0.42   1.95 C00U  2.50 C00X  3.05 C00S  3.07 O007
+ Q9    1   0.6979  0.3959  0.1495   0.50000  0.05    0.41   2.13 O015  2.13 O015  3.85 O00F  3.91 C00E
+ Q10   1   0.5694  0.5694  0.3564   0.50000  0.05    0.40   1.15 ZR02  1.55 O007  1.99 O006  2.02 O004
+ Q11   1   0.5753  0.5753  0.4309   0.50000  0.05    0.40   1.06 O007  1.35 ZR02  2.05 O005  2.46 O004
+ Q12   1   1.0000  1.0000  1.1738   0.08333  0.05    0.40   1.25 C00W  4.52 C00W  4.70 C01B  6.13 C011
+ Q13   1   0.6110  0.6110  0.1860   0.50000  0.05    0.39   0.77 C00O  1.59 O012  2.65 C00Y  3.11 O006
+ Q14   1   0.6516  0.3484  0.0000   0.25000  0.05    0.38   2.89 O015  4.21 C00N  5.42 C00I  5.42 C00I
+ Q15   1   0.6863  0.5328  0.5000   0.50000  0.05    0.38   1.06 C00S  2.02 C00M  2.55 C00X  2.66 C00U
+ Q16   1   1.0000  1.0000  0.5000   0.04167  0.05    0.36   2.87 C011  5.08 C014  6.13 C01B  6.67 C00W
+ Q17   1   0.6991  0.3496  0.2474   0.50000  0.05    0.36   1.78 O015  4.29 C01C  4.55 C00P  4.59 C00N
+ Q18   1   0.6088  0.6290  0.4108   1.00000  0.05    0.36   0.98 O007  2.47 C00U  2.74 O004  3.00 ZR02
+ Q19   1   1.0000  1.0397  1.2303   0.50000  0.05    0.35   2.69 C00W  3.29 C01B  4.60 C014  4.80 C011
+ Q20   1   0.9222  0.8444  0.5000   0.25000  0.05    0.35   1.64 C014  2.41 C011  4.21 C01B  4.58 C011
+
+ Shortest distances between peaks (including symmetry equivalents)
+
+      2   4  1.08      7  17  1.14     10  11  1.26      1   4  1.29     18  18  1.37      1   2  1.48     19  19  1.56
+      1  18  1.64      4  18  1.69      3  16  1.70     14  14  1.78     12  19  1.82      4   4  1.82     11  18  1.87
+     17  17  1.91      1  11  1.96      8  18  2.10      2  18  2.13     10  18  2.25      4   8  2.27     11  11  2.29
+      4  18  2.31      9  17  2.45      9  17  2.45     19  19  2.70      5  14  2.78      5   9  2.84      7   9  2.86
+      4  11  2.90      2   8  2.90     18  18  2.96      1  10  3.00
+
+
+ Time profile in seconds
+ -----------------------
+
+      0.02: Read and process instructions
+      0.00: Fit rigid groups
+      0.00: Interpret restraints etc.
+      0.00: Generate connectivity array
+      0.00: Analyse DFIX and DANG restraints
+      0.00: Analyse SAME, SADI and NCSY restraints
+      0.00: Generate CHIV restraints
+      0.00: Check if bonds in residues restrained
+      0.00: Generate DELU and RIGU restraints
+      0.00: Generate SIMU restraints
+      0.00: Generate ISOR restraints
+      0.00: Analyse electron density
+      0.00: Analyse other restraints etc.
+      0.45: Read intensity data, sort/merge etc.
+      0.00: Set up constraints
+      0.01: OSF, H-atoms from difference map
+      0.01: Set up l.s. refinement
+      0.00: Generate idealized H-atoms
+      0.06: Structure factors and derivatives
+      0.03: Sum l.s. matrices
+      0.00: Generate and apply antibumping restraints
+      0.00: Apply other restraints
+      0.01: Solve l.s. equations
+      0.00: Generate HTAB table
+      4.47: Other dependent quantities, CIF, tables
+      0.01: Analysis of variance
+      0.06: Merge reflections for Fourier and .fcf
+      0.04: Fourier summations
+      0.05: Peaksearch
+      0.00: Analyse peaklist
+
+ ** WARNING: These times are only approximate for multiple threads.
+             To get better estimates run with -t1 **
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  job           finished at 19:42:08   Total elapsed time:      5.19 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

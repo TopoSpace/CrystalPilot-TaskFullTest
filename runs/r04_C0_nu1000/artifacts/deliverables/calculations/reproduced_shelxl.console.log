@@ -1,0 +1,111 @@
+﻿
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXL -  CRYSTAL STRUCTURE REFINEMENT  -   MULTI-CPU VERSION  +
+ +  Copyright(C) George M. Sheldrick 1993-2023     Version 2019/3  +
+ +  nu1000_framework           started at 22:10:08 on 21-Sep-2026  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Command line parameters: nu1000_framework -a50000 -b3000 -c624 -g0 -m0 -t4
+
+ -a sets the approximate maximum number of atoms including hydrogens.
+ -b sets the maximum number of full-matrix parameters (not used by CGLS).
+ For example -b9000 allows refinement of 1000 anisotropic atoms or 3000
+ with BLOC 1. For a 32-bit version, -b times the square root of the
+ number of threads should not exceed about 65500. -c sets the reflection
+ buffer size. This depends on the CPU cache size but will rarely
+ need changing.
+
+ -g sets the number of reflection groups used for calculating R_complete,
+ This must be greater than 1 but not greater than the total number of
+ reflections for refinement. -m sets the current reflection group number.
+ This may not be less than 1 nor greater than the number set by -g. These
+ command line flags override other ways of defining free-R reflections.
+ The -m value is also used as a seed for the WIGL pseudo-random shifts.
+
+ -t sets the number of threads, otherwise it is set to the apparent
+ number of CPUs. For optimal performance on hyperthreading systems,
+ -t should be set to a little more than half the number of CPUs;
+ e.g. -t4 or -t5 for an Intel i7 processor.
+
+ Running  4 threads on 32 processors
+
+ Read instructions and data
+ Data:    4395 unique,      0 suppressed   R(int) = 0.5659   R(sigma) = 0.1066
+ Systematic absence violations:    0    Bad equivalents:    0
+ wR2 =  0.2722 before cycle   1 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.002  Maximum =     0.023 for  OSF            at 22:10:09
+ Max. shift = 0.000 A for O3        Max. dU = 0.000 for C1                    
+ wR2 =  0.2722 before cycle   2 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.001  Maximum =     0.004 for  OSF            at 22:10:09
+ Max. shift = 0.000 A for C3        Max. dU = 0.000 for O3                    
+ wR2 =  0.2722 before cycle   3 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =    -0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for C3        Max. dU = 0.000 for C5                    
+ wR2 =  0.2722 before cycle   4 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.000 for   x  Zr2        at 22:10:09
+ Max. shift = 0.000 A for O6        Max. dU = 0.000 for O3                    
+ wR2 =  0.2722 before cycle   5 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C5                   
+ wR2 =  0.2722 before cycle   6 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =    -0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for C6        Max. dU = 0.000 for O3                    
+ wR2 =  0.2722 before cycle   7 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.000 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for C8        Max. dU = 0.000 for C11                   
+ wR2 =  0.2722 before cycle   8 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C5                   
+ wR2 =  0.2722 before cycle   9 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =    -0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for C1        Max. dU = 0.000 for C11                   
+ wR2 =  0.2722 before cycle  10 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.000 for   x  Zr2        at 22:10:09
+ Max. shift = 0.000 A for C6        Max. dU = 0.000 for C5                    
+ wR2 =  0.2722 before cycle  11 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C11                  
+ wR2 =  0.2722 before cycle  12 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =    -0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for O6                   
+ wR2 =  0.2722 before cycle  13 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.000 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for O3        Max. dU = 0.000 for O6                    
+ wR2 =  0.2722 before cycle  14 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =     0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for O5        Max. dU = 0.000 for C5                    
+ wR2 =  0.2722 before cycle  15 for    4395 data and    155 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ Mean shift/esd =   0.000  Maximum =    -0.001 for   x  Zr1        at 22:10:09
+ Max. shift = 0.000 A for Zr1        Max. dU = 0.000 for C5                   
+ wR2 =  0.2722 before cycle  16 for    4395 data and      0 /    155 parameters
+ GooF = S =     0.987;     Restrained GooF =      0.975 for     220 restraints
+ wR2 = 0.2722, GooF = S = 0.987, Restrained GooF = 0.975 for all data
+ R1 = 0.0827 for 2063 Fo > 4sig(Fo) and 0.1215 for all 4395 data
+ R.m.s. bond length deviation (from DFIX values)  0.0266 (A)
+ R.m.s. bond angle deviation (estimated from DANG)  2.94 (deg.)
+ ** Warning:     7  atoms may be split and     0  atoms NPD **
+ R1 =  0.1154 for   4395 unique reflections after merging for Fourier
+ Highest peak    0.49  at  0.6137  0.0000  0.0000  [  1.56 A from O5 ]
+ Deepest hole   -0.87  at  0.5058  0.4942  0.0286  [  1.56 A from O6 ]
+
+   Please cite: G.M. Sheldrick (2015) "Crystal structure refinement with
+   SHELXL", Acta Cryst., C71, 3-8 (Open Access) if SHELXL proves useful.
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  nu1000_framew finished at 22:10:13   Total elapsed time:      4.75 secs  +
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

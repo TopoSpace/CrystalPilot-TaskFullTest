@@ -1,0 +1,152 @@
+{
+  "schema": 3,
+  "data_revision": "d000001",
+  "experiment": {},
+  "id": "n0000",
+  "parent": null,
+  "revision": 1,
+  "branch": "main",
+  "ts": 1790000114.7452674,
+  "tool": "import",
+  "params": {
+    "start_model": "start.ins"
+  },
+  "note": "imported start.ins",
+  "metrics": null,
+  "metrics_current": false,
+  "model": {
+    "n_atoms": 0,
+    "element_counts": {}
+  },
+  "restraints": [],
+  "data": {
+    "r_int": 0.5414,
+    "n_unique": 94718,
+    "d_min": 0.691,
+    "completeness": 0.676,
+    "space_group": "P -1",
+    "wavelength": 0.68883,
+    "n_obs": 337815
+  },
+  "weights": {
+    "a": 0.1,
+    "b": 0.0
+  },
+  "scale_k": null,
+  "mask": null,
+  "hydrogens": {
+    "present": false
+  },
+  "disorder_groups": [],
+  "disorder_origins": [],
+  "parts_extra": {},
+  "twin": null,
+  "effective_state": {
+    "cards": [],
+    "data_cards": [],
+    "weights": {
+      "a": 0.1,
+      "b": 0.0
+    },
+    "fvars": [],
+    "parts": {},
+    "h_treatment": "free_or_none",
+    "twin": false,
+    "afix_groups": [],
+    "mask": false,
+    "source": {
+      "tool": "import",
+      "job": null
+    }
+  },
+  "label_renames": {},
+  "asu": null,
+  "peaks": null,
+  "conditions_token": "d000001:n0000:conditions-v1",
+  "comparison_conditions": {
+    "observations": {
+      "revision": "d000001",
+      "format": "SHELX HKL",
+      "processing": [
+        "verbatim input copy"
+      ],
+      "scale_applied": 1.0
+    },
+    "basis": {
+      "cell": [
+        39.19,
+        39.19,
+        16.61,
+        90.0,
+        90.0,
+        119.99999999999999
+      ],
+      "space_group_operations": [
+        "x,y,z",
+        "-x,-y,-z"
+      ],
+      "indexing": "bound_input_indices"
+    },
+    "wavelength": 0.68883,
+    "hklf": 4,
+    "merge": {
+      "policy": "cctbx-input-merge-v1",
+      "n_obs": 337815,
+      "n_unique": 94718
+    },
+    "cutoff": {
+      "requested": [],
+      "selected_reflections": null,
+      "applied": null,
+      "application": "unknown"
+    },
+    "weights": {
+      "a": 0.1,
+      "b": 0.0,
+      "source": "next_model"
+    },
+    "scale": {
+      "treatment": "fitted_overall_scale",
+      "fitted_value": null
+    },
+    "mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "stored_mask": {
+      "state": "none",
+      "revision": null,
+      "params": null
+    },
+    "hydrogens": {
+      "treatment": "free_or_none",
+      "groups": []
+    },
+    "twin": null,
+    "engine": null,
+    "unknown_fields": [
+      "metric_definition"
+    ],
+    "metric_definition": null,
+    "experiment": null,
+    "declared_experiment": {}
+  },
+  "metrics_source": null,
+  "frame": {
+    "revision": "frame:n0000",
+    "cell": [
+      39.19,
+      39.19,
+      16.61,
+      90.0,
+      90.0,
+      119.99999999999999
+    ],
+    "space_group_operations": [
+      "x,y,z",
+      "-x,-y,-z"
+    ]
+  },
+  "mask_revision": null
+}

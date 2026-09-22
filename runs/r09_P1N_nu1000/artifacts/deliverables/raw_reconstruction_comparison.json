@@ -1,0 +1,47 @@
+{
+  "source_directory": "raw_reproduction_20260922_025724\\deliverables",
+  "reconstructed_R1_obs": 0.17502300248365962,
+  "main_R1_obs": 0.17502310149937525,
+  "absolute_R1_difference": 9.901571562664913e-08,
+  "max_non_H_coordinate_difference_A": 2.2538528077527693e-05,
+  "rms_non_H_coordinate_difference_A": 6.573196933586015e-06,
+  "reconstructed_inventory": {
+    "Zr": 18,
+    "O": 96,
+    "C": 264
+  },
+  "reconstructed_node_sizes": [
+    6,
+    6,
+    6
+  ],
+  "reconstructed_ligand_inventories": [
+    {
+      "O": 8,
+      "C": 44
+    },
+    {
+      "O": 8,
+      "C": 44
+    },
+    {
+      "O": 8,
+      "C": 44
+    },
+    {
+      "O": 8,
+      "C": 44
+    },
+    {
+      "O": 8,
+      "C": 44
+    },
+    {
+      "O": 8,
+      "C": 44
+    }
+  ],
+  "reconstructed_periodic_rank": 3,
+  "independent_validation_passed": true,
+  "passed": true
+}

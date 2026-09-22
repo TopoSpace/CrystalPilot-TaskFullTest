@@ -1,0 +1,14 @@
+{
+  "name": "refine13_consistent1",
+  "source": "work\\refine10_weight1\\refine10_weight1.res",
+  "fab": "work/squeeze_consistent1/squeeze_consistent1_sq.fab",
+  "dmin": 1.1,
+  "cycles": 30,
+  "command": [
+    "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\toolbox\\shelx\\shelxl.exe",
+    "refine13_consistent1",
+    "-t4"
+  ],
+  "cwd": "H:\\CrystalPilot-campaigns\\scxrd-agent-eval-20260921\\arena\\r07_P1_nu1000\\work\\refine13_consistent1",
+  "start": "2026-09-22T00:04:20.512124"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "R1_gt2sigma": 0.08582584579961464,
+    "R1_all": 0.09543274097931459,
+    "wR2": 0.21357838505304713,
+    "goodness_of_fit": 3.6719609650016856,
+    "n_reflections": 661,
+    "n_gt2sigma": 599,
+    "n_parameters": 25,
+    "scale": 1.445545781194466,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.5284829516588725
+  },
+  {
+    "R1_gt2sigma": 0.05295635671089789,
+    "R1_all": 0.060902976225321724,
+    "wR2": 0.12297763705005521,
+    "goodness_of_fit": 2.117633654487688,
+    "n_reflections": 661,
+    "n_gt2sigma": 599,
+    "n_parameters": 27,
+    "scale": 1.563531826812801,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.04140515863990883
+  },
+  {
+    "R1_gt2sigma": 0.03337767448574227,
+    "R1_all": 0.04171165526035592,
+    "wR2": 0.0802352662896535,
+    "goodness_of_fit": 1.4155204378612307,
+    "n_reflections": 661,
+    "n_gt2sigma": 599,
+    "n_parameters": 57,
+    "scale": 1.5705358253652058,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.06614633706042077
+  }
+]
