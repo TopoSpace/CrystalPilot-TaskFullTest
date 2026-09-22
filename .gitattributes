@@ -1,2 +1,2 @@
-# Evidence files are committed byte-for-byte; no end-of-line conversion so checksums.sha256 stays valid on every platform.
+# Evidence files are committed byte-for-byte; no end-of-line conversion so the hashes in each run's seal_manifest.json stay valid on every platform.
 * -text

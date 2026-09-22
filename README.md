@@ -18,6 +18,10 @@ An English summary is at the end of this file.
 | 评价 | 独立程序复算 R1、本地 PLATON checkCIF、逐条命令审计、晶体学研究者的人工结构审核 |
 | 干预 | 自动干预 0 次，人工科学干预 0 次 |
 
+十二轮的事件流、Agent 的关键判断、交付结构的投影与复算结果汇总在 `运行事件记录.html`（离线页面，下载后用浏览器打开）。下图是 r05（CrystalPilot 纯工具，NU-1000）运行中的工作台：中栏为 Agent 的判断与逐条工具行，右栏为节点 n0023 的结构卡与框架视图。
+
+![r05 运行中的 CrystalPilot 工作台](docs/images/crystalpilot-run-r05-nu1000.png)
+
 ---
 
 ## 2　任务
@@ -70,12 +74,12 @@ Codex 内核与 CrystalPilot 的推理档位为 xhigh；Claude Code 通过同一
 | 1 环境冻结 | CrystalPilot 按提交 `327e1ef` 导出为冻结副本并另起服务实例；记录内核、模型、科学软件、机器 | `environment/environment.json` |
 | 2 输入封存 | 复制原始数据并记录每个文件的哈希；丙氨酸目录中 206 个携带还原结果或数据库检索结果的文件被排除并逐个记录理由 | `provenance/alanine_staging.json`、`nu1000_staging.json`、`inputs/` |
 | 3 知识快照去标识 | 全功能模式的 26 张知识卡片中与 NU-1000 直接相关的三处内容改写，前后哈希留存 | `provenance/knowledge_redactions.json`、`freeze/knowledge_snapshot_manifest.json` |
-| 4 计划冻结 | 带软件的八轮在首个结果前冻结，顺序由种子 20260921 生成；纯产品四轮在八轮结果出来后追加并冻结 | `freeze/plan.json`、`freeze/plan_pure.json`、`freeze/protocol_frozen.json` |
+| 4 计划冻结 | 带软件的八轮在首个结果前冻结，顺序由种子 20260921 生成；纯 Codex/Claude Code 四轮在八轮结果出来后追加并冻结 | `freeze/plan.json`、`freeze/plan_pure.json`、`freeze/protocol_frozen.json` |
 | 5 无人值守运行 | 运行器按硬时限启动内核或工作台回合，记录原生事件流、命令、干预与用量；总控只做确定性的环境管理 | `tools/run_trial.py`、`tools/run_all.py`；`runs/<run_id>/` |
 | 6 封存 | 每轮结束立即记录参试目录全部文件的哈希与输入是否被改动 | `runs/<run_id>/seal_manifest.json` |
-| 7 独立复算 | 同一版本 SHELXL 在交付的反射集合上零周期复算 R1；纯产品四轮把 CIF 模型转成 SHELXL 作业只精修标度 | `tools/verify_run.py`、`tools/recompute_from_cif.py`；`verifier/<run_id>/` |
+| 7 独立复算 | 同一版本 SHELXL 在交付的反射集合上零周期复算 R1；纯 Codex/Claude Code 四轮把 CIF 模型转成 SHELXL 作业只精修标度 | `tools/verify_run.py`、`tools/recompute_from_cif.py`；`verifier/<run_id>/` |
 | 8 checkCIF | 本地 PLATON checkCIF，A 级警报分元数据类与实质类 | `verifier/<run_id>/checkcif/` |
-| 9 命令审计 | 纯产品四轮的全部命令与文件访问逐条核对禁令 | `tools/audit_pure.py`；`analysis/pure_audit.json` |
+| 9 命令审计 | 纯 Codex/Claude Code 四轮的全部命令与文件访问逐条核对禁令 | `tools/audit_pure.py`；`analysis/pure_audit.json` |
 | 10 汇总 | 逐轮结果表、对比表、几何检查、节点计数 | `tools/analyze.py`、`tools/build_comparison.py`、`tools/structure_checks.py`；`analysis/` |
 | 11 人工结构审核 | 晶体学研究者逐个打开十二个交付的 CIF 及配套文件检查 | 结论见第 6.2 节 |
 
@@ -87,7 +91,7 @@ Codex 内核与 CrystalPilot 的推理档位为 xhigh；Claude Code 通过同一
 
 ### 6.1　自动评价
 
-R1 独立复算：带 SHELX 文件的轮次为 RES 零周期，纯产品轮次为 CIF 模型转 SHELXL 只精修标度。GooF 以接近 1 为优。checkCIF A 列括号内为剔除元数据类后的实质警报数。完整表（含去掩膜 R1、Rint、复算途径、差值、分数区间、token 用量）见 `analysis/comparison_tables.md` 与 `analysis/results.csv`。
+R1 独立复算：带 SHELX 文件的轮次为 RES 零周期，纯 Codex/Claude Code 轮次为 CIF 模型转 SHELXL 只精修标度。GooF 以接近 1 为优。checkCIF A 列括号内为剔除元数据类后的实质警报数。完整表（含去掩膜 R1、Rint、复算途径、差值、分数区间、token 用量）见 `analysis/comparison_tables.md` 与 `analysis/results.csv`。
 
 | 轮 | 条件 | 案例 | R1 报告 | R1 复算 | wR2 | GooF | 分辩率 Å | 完整度 | 精修反射 | checkCIF A（实质）/B/C | 工具调用 | 用时 min |
 |---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -104,7 +108,7 @@ R1 独立复算：带 SHELX 文件的轮次为 RES 零周期，纯产品轮次�
 | r06 | CrystalPilot 纯工具 | 丙氨酸 | 0.0457 | 0.0452 | 0.205 | 1.271 | 0.71 | 87.9% | 1055 | 4（1）/3/20 | 74 | 25.7 |
 | r02 | CrystalPilot 全功能 | 丙氨酸 | 0.0442 | 0.0437 | 0.200 | 1.222 | 0.71 | 87.9% | 1055 | 4（1）/3/19 | 111 | 28.8 |
 
-十二轮的 R1 都由独立程序复算：带 SHELX 文件的八轮差值不超过 0.0005，纯产品四轮差值 0.0000 至 0.0035。纯产品四轮的命令审计无违规。十二轮的输入文件都没有被改动。
+十二轮的 R1 都由独立程序复算：带 SHELX 文件的八轮差值不超过 0.0005，纯 Codex/Claude Code 四轮差值 0.0000 至 0.0035。纯 Codex/Claude Code 四轮的命令审计无违规。十二轮的输入文件都没有被改动。
 
 ### 6.2　人工结构审核
 
@@ -118,7 +122,7 @@ R1 独立复算：带 SHELX 文件的轮次为 RES 零周期，纯产品轮次�
 
 ### 6.3　三层结果
 
-- **纯产品**：两个原生 Agent 都选择自己编写整套算法（解码探测器格式、指标化、积分、合并、求解、精修、写 CIF，1300 至 2100 行代码），得到的 R1 被独立程序证实，但结构经人工审核不可用。这说明这项任务需要晶体学工作流与工作环境。
+- **纯 Codex/Claude Code**：两个原生 Agent 都选择自己编写整套算法（解码探测器格式、指标化、积分、合并、求解、精修、写 CIF，1300 至 2100 行代码），得到的 R1 被独立程序证实，但结构经人工审核不可用。这说明这项任务需要晶体学工作流与工作环境。
 - **环境组**：有了 SHELX、PLATON、DIALS，结构不再有大错，指标上是十二轮里最好的两轮（丙氨酸 R1 0.030，完整度 99% 以上）；这些数字来自对原始数据记录的处理。
 - **CrystalPilot**：在同一处探测器阴影前记录证据、拒绝改动数据、按诊断交付（R1 0.044 至 0.045，完整度 88%）；NU-1000 上的掩膜与约束判断与专家一致；平均用时 36 至 38 分钟、84 至 126 次工具调用，快于其余条件。
 
@@ -131,18 +135,19 @@ README.md                 本文
 PROTOCOL.md               运行规程全文
 LICENSE-CODE              tools/ 的许可证（MIT）
 LICENSE-DATA.md           文档、证据与数据的许可证（CC BY 4.0）
-checksums.sha256          仓库全部文件的 SHA-256
+运行事件记录.html          十二轮事件流、关键判断、结构投影与复算结果的离线页面
+docs/images/              r05 运行中的工作台截图
 inputs/
   nu1000/                 start.hkl、start.ins、三个输入文件的哈希
   alanine/                原始图像目录的哈希清单；图像本体见 Release 附件
 freeze/
   plan.json               带软件八轮的冻结计划
-  plan_pure.json          纯产品四轮的冻结计划（含禁令原文与提前停止规则）
+  plan_pure.json          纯 Codex/Claude Code 四轮的冻结计划（含禁令原文与提前停止规则）
   protocol_frozen.json    冻结时刻各文件的哈希
   prompts/                任务提示与共同运行约定
   tool_names_*.json       两种知识模式的工具名清单
   knowledge_snapshot_manifest.json
-environment/              版本、模型、机器、科学软件；纯产品条件的 Python 环境
+environment/              版本、模型、机器、科学软件；纯 Codex/Claude Code 条件的 Python 环境
 provenance/               输入封存与排除清单；知识快照去标识记录
 runs/<run_id>/
   prompt.txt              该轮收到的完整消息
@@ -159,7 +164,7 @@ runs/<run_id>/
 verifier/<run_id>/
   report.json             复算与评分报告
   recompute/              SHELXL 零周期复算作业与输出
-  recompute_from_cif*/    CIF 转 SHELXL 复算（纯产品四轮）
+  recompute_from_cif*/    CIF 转 SHELXL 复算（纯 Codex/Claude Code 四轮）
   checkcif/               PLATON checkCIF 输出
 analysis/
   results.csv             逐轮结果表
@@ -167,7 +172,7 @@ analysis/
   comparison_tables.md    自动评价全表
   comparison_rows.json    表格数据
   structure_checks.json   交付 CIF 的键长与位移参数检查
-  pure_audit.json         纯产品四轮的命令审计
+  pure_audit.json         纯 Codex/Claude Code 四轮的命令审计
   node_counts.json        工作台条件的节点数
   summary.json            汇总
 tools/                    运行器、总控、复算、审计、汇总脚本
@@ -179,20 +184,14 @@ tools/                    运行器、总控、复算、审计、汇总脚本
 
 ## 8　核验与复跑
 
-**核验文件完整性**
-
-```bash
-sha256sum -c checksums.sha256
-```
-
 **核验一轮的封存与复算**：`runs/<run_id>/seal_manifest.json` 记录了参试目录在封存时刻的全部文件哈希与 `inputs_tampered`（十二轮均为空）；`verifier/<run_id>/report.json` 记录了复算所用文件的哈希、SHELXL 与 PLATON 输出的位置。`verifier/<run_id>/recompute/` 中的 `.ins` 与交付的 `.hkl` 可用同版本 SHELXL 直接重跑。
 
-**复跑一轮**需要：Windows；CrystalPilot 提交 `327e1ef` 的检出（含 `.venv` 与 `vendor`）；DIALS 3.30 conda 环境；SHELXL 2019/3、SHELXT 2018/2、PLATON；Codex 内核 0.155.0（随 CrystalPilot 提供）；Claude Code 2.1.261；一个 OpenAI Responses 兼容的模型网关及其凭据；纯产品条件另需按 `environment/pure_baseline_environment.json` 建立的 Python 3.12 虚拟环境。第三方程序不随本仓库分发。
+**复跑一轮**需要：Windows；CrystalPilot 提交 `327e1ef` 的检出（含 `.venv` 与 `vendor`）；DIALS 3.30 conda 环境；SHELXL 2019/3、SHELXT 2018/2、PLATON；Codex 内核 0.155.0（随 CrystalPilot 提供）；Claude Code 2.1.261；一个 OpenAI Responses 兼容的模型网关及其凭据；纯 Codex/Claude Code 条件另需按 `environment/pure_baseline_environment.json` 建立的 Python 3.12 虚拟环境。第三方程序不随本仓库分发。
 
 1. 按 `tools/run_trial.py` 顶部的路径说明建立实验根目录，配置引擎副本、三套隔离的内核目录与凭据钩子。
 2. `python tools/stage_inputs.py` 封存输入；`python tools/freeze_plan.py --include-p1 yes` 冻结计划。
-3. `python tools/run_trial.py --run-id r01_H1_nu1000` 运行一轮；纯产品轮次加 `--plan freeze/plan_pure.json`。
-4. `python tools/verify_run.py --run-id <run_id>` 独立复算；纯产品轮次再运行 `python tools/recompute_from_cif.py --run-id <run_id>`。
+3. `python tools/run_trial.py --run-id r01_H1_nu1000` 运行一轮；纯 Codex/Claude Code 轮次加 `--plan freeze/plan_pure.json`。
+4. `python tools/verify_run.py --run-id <run_id>` 独立复算；纯 Codex/Claude Code 轮次再运行 `python tools/recompute_from_cif.py --run-id <run_id>`。
 5. `python tools/analyze.py`、`python tools/build_comparison.py`、`python tools/audit_pure.py`、`python tools/structure_checks.py` 汇总。
 
 ---
