@@ -9,7 +9,6 @@ import json
 import math
 import os
 import re
-import time
 from pathlib import Path
 
 from build_comparison import COND_ZH, RUNS, STATUS_ZH, fmt, pct
@@ -214,8 +213,7 @@ table{{border-collapse:collapse;font-size:13px}}td,th{{border:1px solid #ccc;pad
 .tl div{{padding:2px 0;border-bottom:1px dotted #eee}}.msg{{background:#f7f7ff}}.tag{{display:inline-block;padding:1px 6px;border-radius:3px;background:#eef;margin-right:6px;font-family:Consolas,monospace;font-size:11px}}
 img{{max-width:100%}}details summary{{cursor:pointer;color:#246}}.small{{color:#666;font-size:12px}}.quote{{border-left:3px solid #9ab;padding:4px 10px;margin:6px 0;background:#fafcff}}
 .shot{{margin:14px 0}}.shot img{{border:1px solid #ddd}}.verdict td:first-child{{white-space:nowrap;font-weight:600}}.c{{text-align:center}}</style></head><body>
-<h1>十二轮运行事件记录：通用编程 Agent 与 CrystalPilot 在单晶结构解析上的对照实验</h1>
-<p class="small">生成时间 {esc(time.strftime('%Y-%m-%d %H:%M'))}。数字来自封存的运行记录、独立复算与本地 checkCIF；人工审核结论来自晶体学研究者逐个查看交付 CIF。页面离线可用，不含外部资源；网关地址与凭据已替换为占位符。十二轮按案例与条件排列。</p>""")
+<h1>十二轮运行事件记录：通用编程 Agent 与 CrystalPilot 在单晶结构解析上的对照实验</h1>""")
     # 1 inputs
     parts.append("<h2>1　输入</h2><table><tr><th>案例</th><th>输入</th><th>预览</th></tr>")
     ala_jpg = sorted((ROOT / "staging" / "alanine" / "inputs" / "alanine" / "frames" / "jpg").glob("*.jpg"))
